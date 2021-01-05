@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>i2c on techfreak blog</title>
+    <link>https://techfreak.pl/tags/i2c/</link>
+    <description>Recent content in i2c on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Mon, 15 Feb 2016 16:28:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/i2c/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nettemp Pi Hat nowy moduł dla Raspberry Pi</title>
+      <link>https://techfreak.pl/nettemp-pi-hat-nowy-modul-dla-raspberry-pi/</link>
+      <pubDate>Mon, 15 Feb 2016 16:28:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-pi-hat-nowy-modul-dla-raspberry-pi/</guid>
+      <description>&lt;p&gt;Miło mi poinformować że powstał nowy moduł dla Raspberry Pi, nettemp Pi Hat który który dedykowany jest pod mój projekt &lt;a href=&#34;http://nettemp.pl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nettemp&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;Edit 2018.08.22: Moduł nie działa z Raspberry Pi 3+&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

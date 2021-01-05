@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>diff on techfreak blog</title>
+    <link>https://techfreak.pl/tags/diff/</link>
+    <description>Recent content in diff on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Thu, 18 Oct 2012 10:28:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/diff/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak zrobić łatkę patch przy pomocy diff ?</title>
+      <link>https://techfreak.pl/jak-zrobic-latke-patch-przy-pomocy-diff/</link>
+      <pubDate>Thu, 18 Oct 2012 10:28:07 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zrobic-latke-patch-przy-pomocy-diff/</guid>
+      <description>&lt;p&gt;„Paczowanie” czyli jak zrobić łatkę przy pomocy diff.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

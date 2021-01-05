@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devlidesign on techfreak blog</title>
+    <link>https://techfreak.pl/tags/devlidesign/</link>
+    <description>Recent content in devlidesign on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 19 Dec 2018 13:18:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/devlidesign/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Czołg FPV z Drukarki 3D cześć druga</title>
+      <link>https://techfreak.pl/czolg-fpv-z-drukarki-3d-czesc-druga/</link>
+      <pubDate>Wed, 19 Dec 2018 13:18:15 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/czolg-fpv-z-drukarki-3d-czesc-druga/</guid>
+      <description>&lt;p&gt;Zapraszam na kolejną cześć z dziennika budowy zdalnie sterowanego czołgu wydrukowanego w technologi 3D z podglądem FPV. Poprzednią można zobaczyć &lt;a href=&#34;https://techfreak.pl/czolg-fpv-z-drukarki-3d-czesc-pierwsza/&#34;&gt;tutaj&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gdzie kupić filament do drukarki 3D?</title>
+      <link>https://techfreak.pl/kupic-filament-drukarki-3d/</link>
+      <pubDate>Thu, 13 Nov 2014 23:28:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/kupic-filament-drukarki-3d/</guid>
+      <description>&lt;p&gt;Kiedy ja rozpoczynałem swoją hobbystyczną przygodę z drukarkami 3D i brakowało mi drukowanych elementów do złożenia całości &lt;a href=&#34;http://techfreak.pl/drukarka-3d-dziennik-budowy-cz3/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MendelMaxa 1.5&lt;/a&gt;, Marek Ryszka z &lt;a href=&#34;http://devildesign.pl/&#34;&gt;Devil Design&lt;/a&gt; sprzedał mi je ze zniżką dorzucił żółty filament i jeszcze szpulkę za free. Pomyślałem sobie spoko gość otwiera firmę nieźle zaczyna i dobrze się promuje. I miałem racje teraz wszyscy go znają i lubią a to już duży sukces.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

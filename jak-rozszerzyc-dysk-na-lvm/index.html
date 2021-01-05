@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jak rozszerzyć dysk na LVM? &middot; My Name</title>
+        <meta name="description" content="Zobacz jak rozszerzyć dysk/partycje która jest zarządzana przez LVM i nie stracić danych.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Jak rozszerzyć dysk na LVM?">
+<meta property="og:description" content="Zobacz jak rozszerzyć dysk/partycje która jest zarządzana przez LVM i nie stracić danych.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/jak-rozszerzyc-dysk-na-lvm/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Jak rozszerzyć dysk na LVM?</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2017-04-26" itemprop="datePublished">Wed, Apr 26, 2017</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 7 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Zobacz jak rozszerzyć dysk/partycje która jest zarządzana przez LVM i nie stracić danych.</p>
+<p>Mam ogromną ilość wejść na artykuł <a href="//techfreak.pl/konfiguracja-lvm/">konfiguracja-lvm</a> i bardzo się cieszę, że ta instrukcja pomaga wam skonfigurować dyski pod kontrolą LVM. Są tam opisane dwa ćwiczenia <a href="//techfreak.pl/konfiguracja-lvm#Zmniejszanie_dysku">Zmniejszanie dysku</a> i <a href="//techfreak.pl/konfiguracja-lvm#Rozszerzanie_dodawanie_nowego_dysku_do_wolumen_grupy">Rozszerzanie dodawanie nowego dysku do wolumen grupy</a>, natomiast brakuje w tym poradniku jak obsłużyć powiększoną partycje np. z poziomu jakiegoś wirtualizatora VirtualBox czy VMware. Najczęstszym przypadkiem jest sytuacja kiedy mamy konkretny dysk systemowy i możemy go powiększyć i nie chcemy dodawać kolejnych dysków tylko trzymać wszystko na jednym. Bardzo łatwo jest powiększyć dysk od strony wirtualizatora ale co z tego jak system tego nie zobaczy automatycznie. Dokładniej mówiąc partycja sama się nie powiększy, system oczywiście z poziomu fdisk na pewno zobaczy tą zmianę np. po restarcie maszyny ale nic więcej się nie stanie. Poniżej pokaże jak krok po kroku wykonać tą operację na parycji z systemem plików ext* lub xfs . Zadanie to zajmie koło 10min pomimo to zalecam zrobić backup maszyny, dysku lub czegokolwiek aby w razie problemów mieć się z czego odzyskać. Backup zajmie chwile więc polecam obejrzeć w tym czasie <a href="https://www.youtube.com/watch?v=1aEqd4bl6Bs">meksykanin programista</a>.</p>
+<h4 id="zarządzanie-miejscem-za-pomocą-lvm">Zarządzanie miejscem za pomocą LVM</h4>
+<p>Aktualny dysk posiada rozmiar 10G</p>
+<pre>root@ubuntu:~# df -h
+Filesystem Size Used Avail Use% Mounted on
+udev 473M 0 473M 0% /dev
+tmpfs 100M 3.2M 96M 4% /run
+/dev/mapper/ubuntu--vg-root 8.8G 1.5G 6.9G 17% /
+tmpfs 496M 0 496M 0% /dev/shm
+tmpfs 5.0M 0 5.0M 0% /run/lock
+tmpfs 496M 0 496M 0% /sys/fs/cgroup
+tmpfs 99M 0 99M 0% /run/user/1000</pre>
+<p>pvs pokazuje informacje o fizycznych volumenach</p>
+<pre>root@ubuntu:~# pvs
+ PV VG Fmt Attr PSize PFree 
+ /dev/sda1 ubuntu-vg lvm2 a-- 10.00g 36.00m</pre>
+<p>Na VirtualBox powiększyłem dysk za pomocą poniższej komendy do 12G</p>
+<pre>root@test:/home/VirtualBox VMs/ubuntu# VBoxManage modifyhd ubuntu.vdi --resize 12000
+ 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+</pre>
+<p>Sprawdzam fdisk’iem czy dysk rzeczywiście został powiększony, jak widać niżej został powiększony</p>
+<pre>root@ubuntu:~# fdisk -l
+ Disk /dev/sda: 11.7 GiB, 12582912000 bytes, 24576000 sectors
+ Units: sectors of 1 * 512 = 512 bytes
+ Sector size (logical/physical): 512 bytes / 512 bytes
+ I/O size (minimum/optimal): 512 bytes / 512 bytes
+ Disklabel type: dos
+ Disk identifier: 0x5894cd85
+
+Device Boot Start End Sectors Size Id Type
+ /dev/sda1 * 2048 20969471 20967424 10G 8e Linux LVM</pre>
+<p> </p>
+<p>Dysk jest powiększony ale partycja jeszcze nie, aby ją powiększyć skasuje partycje fdisk’iem i zaraz po tym utworzę ją na nowo już z nowym rozmiarem. Nie trzeba się bać tego kroku żądne dane nie znikną z tej partycji. Przecież masz backup jak by co :) Pogrubiłem miejsca wydawania poleceń.</p>
+<p>Po odpaleniu fdiska mamy dostępne takie akcje:</p>
+<ul>
+<li>p – wyświetl informacje</li>
+<li>n – nowa partycja, trzeba podać numer</li>
+<li>d – skasuj partycje, trzeba podać numer</li>
+<li>t – ustaw typ partycji</li>
+<li>w – zapisz zmiany na dysku o partycjach</li>
+</ul>
+<pre>root@ubuntu:~# <strong>fdisk /dev/sda</strong>
+
+Welcome to fdisk (util-linux 2.29).
+ Changes will remain in memory only, until you decide to write them.
+ Be careful before using the write command.
+<strong> Command (m for help): p
+</strong> Disk /dev/sda: 11.7 GiB, 12582912000 bytes, 24576000 sectors
+ Units: sectors of 1 * 512 = 512 bytes
+ Sector size (logical/physical): 512 bytes / 512 bytes
+ I/O size (minimum/optimal): 512 bytes / 512 bytes
+ Disklabel type: dos
+ Disk identifier: 0x5894cd85
+
+Device Boot Start End Sectors Size Id Type
+ /dev/sda1 * 2048 20969471 20967424 10G 8e Linux LVM
+
+Command (m for help):
+ Device Boot Start End Sectors Size Id Type
+ /dev/sda1 * 2048 20969471 20967424 10G 8e Linux LVM
+
+<strong>Command (m for help): d
+ Selected partition 1
+</strong> Partition 1 has been deleted.
+
+<strong>Command (m for help): n
+</strong> Partition type
+ p primary (0 primary, 0 extended, 4 free)
+ e extended (container for logical partitions)
+<strong> Select (default p): p
+</strong> Partition number (1-4, default 1):
+ First sector (2048-24575999, default 2048):
+ Last sector, +sectors or +size{K,M,G,T,P} (2048-24575999, default 24575999):
+
+Created a new partition 1 of type 'Linux' and of size 11.7 GiB.
+ Partition #1 contains a LVM2_member signature.
+
+<strong>Do you want to remove the signature? [Y]es/[N]o: N
+</strong>
+<strong>Command (m for help): p
+</strong>
+Disk /dev/sda: 11.7 GiB, 12582912000 bytes, 24576000 sectors
+ Units: sectors of 1 * 512 = 512 bytes
+ Sector size (logical/physical): 512 bytes / 512 bytes
+ I/O size (minimum/optimal): 512 bytes / 512 bytes
+ Disklabel type: dos
+ Disk identifier: 0x5894cd85
+
+Device Boot Start End Sectors Size Id Type
+ /dev/sda1 2048 24575999 24573952 11.7G 83 Linux
+
+<strong>Command (m for help): t
+</strong> Selected partition 1
+<strong> Partition type (type L to list all types): L
+</strong>
+0 Empty 24 NEC DOS 81 Minix / old Lin bf Solaris
+ 1 FAT12 27 Hidden NTFS Win 82 Linux swap / So c1 DRDOS/sec (FAT-
+ 2 XENIX root 39 Plan 9 83 Linux c4 DRDOS/sec (FAT-
+ 3 XENIX usr 3c PartitionMagic 84 OS/2 hidden or c6 DRDOS/sec (FAT-
+ 4 FAT16 &lt;32M 40 Venix 80286 85 Linux extended c7 Syrinx
+ 5 Extended 41 PPC PReP Boot 86 NTFS volume set da Non-FS data
+ 6 FAT16 42 SFS 87 NTFS volume set db CP/M / CTOS / .
+ 7 HPFS/NTFS/exFAT 4d QNX4.x 88 Linux plaintext de Dell Utility
+ 8 AIX 4e QNX4.x 2nd part 8e Linux LVM df BootIt
+ 9 AIX bootable 4f QNX4.x 3rd part 93 Amoeba e1 DOS access
+ a OS/2 Boot Manag 50 OnTrack DM 94 Amoeba BBT e3 DOS R/O
+ b W95 FAT32 51 OnTrack DM6 Aux 9f BSD/OS e4 SpeedStor
+ c W95 FAT32 (LBA) 52 CP/M a0 IBM Thinkpad hi ea Rufus alignment
+ e W95 FAT16 (LBA) 53 OnTrack DM6 Aux a5 FreeBSD eb BeOS fs
+ f W95 Ext'd (LBA) 54 OnTrackDM6 a6 OpenBSD ee GPT
+ 10 OPUS 55 EZ-Drive a7 NeXTSTEP ef EFI (FAT-12/16/
+ 11 Hidden FAT12 56 Golden Bow a8 Darwin UFS f0 Linux/PA-RISC b
+ 12 Compaq diagnost 5c Priam Edisk a9 NetBSD f1 SpeedStor
+ 14 Hidden FAT16 &lt;3 61 SpeedStor ab Darwin boot f4 SpeedStor
+ 16 Hidden FAT16 63 GNU HURD or Sys af HFS / HFS+ f2 DOS secondary
+ 17 Hidden HPFS/NTF 64 Novell Netware b7 BSDI fs fb VMware VMFS
+ 18 AST SmartSleep 65 Novell Netware b8 BSDI swap fc VMware VMKCORE
+ 1b Hidden W95 FAT3 70 DiskSecure Mult bb Boot Wizard hid fd Linux raid auto
+ 1c Hidden W95 FAT3 75 PC/IX bc Acronis FAT32 L fe LANstep
+ 1e Hidden W95 FAT1 80 Old Minix be Solaris boot ff BBT
+<strong> Partition type (type L to list all types): 8e
+</strong> Changed type of partition 'Linux' to 'Linux LVM'.
+
+<strong>Command (m for help): w
+</strong> The partition table has been altered.
+ Calling ioctl() to re-read partition table.
+ Re-reading the partition table failed.: Device or resource busy
+
+The kernel still uses the old table. The new table will be used at the next reboot or after you run partprobe(8) or kpartx(8).</pre>
+<p>Jak widać wyżej fdisk informuje, że kernel nie zaktualizował sobie informacji o partycjach i najlepiej aby to mu zaktualizować zrestartuj maszynę.</p>
+<pre>root@ubuntu:~# reboot</pre>
+<p>Po restarcie fdisk widzi już powiększoną partycję.</p>
+<pre>root@ubuntu:~# fdisk -l
+ Disk /dev/sda: 11.7 GiB, 12582912000 bytes, 24576000 sectors
+ Units: sectors of 1 * 512 = 512 bytes
+ Sector size (logical/physical): 512 bytes / 512 bytes
+ I/O size (minimum/optimal): 512 bytes / 512 bytes
+ Disklabel type: dos
+ Disk identifier: 0x5894cd85
+
+Device Boot Start End Sectors Size Id Type
+ /dev/sda1 2048 24575999 24573952 11.7G 8e Linux LVM</pre>
+<p>Sprawdzam poleceniem pvs jak „lvm’y” widzą partycję. Muszę sam ręcznie powiększyć ten „fizyczny kontener” tak właśnie zarządza się miejscem za pomocą LVM.</p>
+<pre>root@ubuntu:~# pvs
+ PV VG Fmt Attr PSize PFree
+ /dev/sda1 ubuntu-vg lvm2 a-- 10.00g 36.00m
+ root@ubuntu:~# pvresize /dev/sda1
+ Physical volume "/dev/sda1" changed
+ 1 physical volume(s) resized / 0 physical volume(s) not resized</pre>
+<p>Sprawdzam pvs ponownie i widzę, że teraz widać żądaną wielkość</p>
+<pre>root@ubuntu:~# pvs
+ PV VG Fmt Attr PSize PFree
+ /dev/sda1 ubuntu-vg lvm2 a-- 11.71g 1.75g</pre>
+<p>Przechodzę do logicznych wolumenów i sprawdzam co u nich. Widać, że trzeba wolumen grupie zwiększyć rozmiar. Teraz mam z czego bo mam fizycznie większą partycję.</p>
+<pre>root@ubuntu:~# lvs
+ LV VG Attr LSize Pool Origin Data% Meta% Move Log Cpy%Sync Convert
+ root ubuntu-vg -wi-ao---- 8.96g
+ swap_1 ubuntu-vg -wi-ao---- 1020.00m</pre>
+<p>Powiększam wolumen grupe o całe dostępne miejsce</p>
+<pre>root@ubuntu:~# lvresize -l +100%FREE /dev/mapper/ubuntu--vg-root
+ Size of logical volume ubuntu-vg/root changed from 8.96 GiB (2295 extents) to 10.72 GiB (2744 extents).
+ Logical volume ubuntu-vg/root successfully resized.</pre>
+<p>Teraz muszę rozszerzyć filesystem, robię to rezise2fs jeśli filesystem to ext3/4, jeśli filesystem to xfs muszę uzyć xfs_growfs</p>
+<pre>root@ubuntu:~# resize2fs /dev/mapper/ubuntu--vg-root
+ resize2fs 1.43.4 (31-Jan-2017)
+ Filesystem at /dev/mapper/ubuntu--vg-root is mounted on /; on-line resizing required
+ old_desc_blocks = 2, new_desc_blocks = 2
+ The filesystem on /dev/mapper/ubuntu--vg-root is now 2809856 (4k) blocks long.
+lub</pre>
+<pre>root@ubuntu:~# xfs_growfs /dev/mapper/ubuntu--vg-root</pre>
+<p>Sprawdzam czy system widzi poprawnie powiększoną partycję</p>
+<pre>root@ubuntu:~# df -h
+ Filesystem Size Used Avail Use% Mounted on
+ udev 473M 0 473M 0% /dev
+ tmpfs 100M 3.2M 96M 4% /run
+ <strong>/dev/mapper/ubuntu--vg-root 11G 1.5G 8.6G 15% /</strong>
+ tmpfs 496M 0 496M 0% /dev/shm
+ tmpfs 5.0M 0 5.0M 0% /run/lock
+ tmpfs 496M 0 496M 0% /sys/fs/cgroup
+ tmpfs 99M 0 99M 0% /run/user/1000</pre>
+<p>Dawajcie znać w komentarzach jak wam poszło :)</p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/dysk/">dysk</a>, 
+                <a href="/tags/lvm/">lvm</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Jak%20rozszerzy%c4%87%20dysk%20na%20LVM%3f&url=https%3a%2f%2ftechfreak.pl%2fjak-rozszerzyc-dysk-na-lvm%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fjak-rozszerzyc-dysk-na-lvm%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

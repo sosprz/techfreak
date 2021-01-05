@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mikrotik on techfreak blog</title>
+    <link>https://techfreak.pl/tags/mikrotik/</link>
+    <description>Recent content in mikrotik on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 12 May 2018 08:43:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/mikrotik/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak skonfigurować VPN na MikroTik?</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-vpn-na-mikrotik/</link>
+      <pubDate>Sat, 12 May 2018 08:43:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-vpn-na-mikrotik/</guid>
+      <description>&lt;p&gt;Mały wstęp do systemu RouterOS, który jest tworzony przez firmę MikroTik, łotewskiego producenta sprzętu do zastosowań sieciowych i bezprzewodowych.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

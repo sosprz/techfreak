@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RepRap on techfreak blog</title>
+    <link>https://techfreak.pl/tags/reprap/</link>
+    <description>Recent content in RepRap on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Thu, 13 Nov 2014 23:28:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/reprap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gdzie kupić filament do drukarki 3D?</title>
+      <link>https://techfreak.pl/kupic-filament-drukarki-3d/</link>
+      <pubDate>Thu, 13 Nov 2014 23:28:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/kupic-filament-drukarki-3d/</guid>
+      <description>&lt;p&gt;Kiedy ja rozpoczynałem swoją hobbystyczną przygodę z drukarkami 3D i brakowało mi drukowanych elementów do złożenia całości &lt;a href=&#34;http://techfreak.pl/drukarka-3d-dziennik-budowy-cz3/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MendelMaxa 1.5&lt;/a&gt;, Marek Ryszka z &lt;a href=&#34;http://devildesign.pl/&#34;&gt;Devil Design&lt;/a&gt; sprzedał mi je ze zniżką dorzucił żółty filament i jeszcze szpulkę za free. Pomyślałem sobie spoko gość otwiera firmę nieźle zaczyna i dobrze się promuje. I miałem racje teraz wszyscy go znają i lubią a to już duży sukces.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FRE3MAKE – trójmiejskie forum twórców domowej elektroniki i fabrykacji</title>
+      <link>https://techfreak.pl/fre3make-trojmiejskie-forum-tworcow-domowej-elektroniki-fabrykacji/</link>
+      <pubDate>Tue, 30 Sep 2014 11:04:26 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/fre3make-trojmiejskie-forum-tworcow-domowej-elektroniki-fabrykacji/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;25 października 2014 r. w Nowych Prototypowniach PPNT Gdynia odbędzie się spotkanie integrujące społeczność użytkowników elektroniki, robotyki, fabrykacji i entuzjastów nowych technologii.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini laser z CD-ROMu i Arduino</title>
+      <link>https://techfreak.pl/mini-laser-z-cd-romu-i-arduino/</link>
+      <pubDate>Wed, 19 Mar 2014 15:14:37 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-laser-z-cd-romu-i-arduino/</guid>
+      <description>&lt;p&gt;Mini laser ze starego cdromu to bardzo popularna przeróbka. A w połączeniu z resztą bebechów tworzy trzy osiową platformę do wypalania różnych kształtów.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Drukarka 3D dziennik budowy cz7</title>
+      <link>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz7/</link>
+      <pubDate>Wed, 20 Nov 2013 06:37:38 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz7/</guid>
+      <description>&lt;p&gt;Jeśli ktoś myślał że ostatnia cześć dziennika budowy drukarki 3D skończyła się na 6 odcinku to będzie zaskoczony. Trochę się wydarzyło i jest co opisywać. Jednym słowem. ONE MEN, ONE DESIRE, ONE WAZONIK!! DRUKARKA 3D. SUN!!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Drukarka 3D dziennik budowy cz6 – wydruki</title>
+      <link>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz6-wydruki/</link>
+      <pubDate>Mon, 14 Oct 2013 10:23:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz6-wydruki/</guid>
+      <description>&lt;p&gt;Witam po przerwie, możecie być pewni że nie spędziłem tego czasu z rodziną ;) oglądając filmów lub po prostu nic nie robiąc. Po prostu konfigurowałem drukarkę 3D. Cała sprawa z drukarką reprap zaczyna się w zasadzie po złożeniu i polega na odpowiedniej kalibracji. Poniżej można zobaczyć co do tego czasu udało mi się wydrukować.&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>Drukarka 3D dziennik budowy cz5</title>
+      <link>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz5/</link>
+      <pubDate>Fri, 27 Sep 2013 19:05:48 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz5/</guid>
+      <description>&lt;p&gt;No to pierwsze wydruki które coś przypominają za mną. Na początek postanowiłem wydrukować taki stosik kwadracików po 5mm z &lt;a href=&#34;http://www.thingiverse.com/thing:24238&#34;&gt;http://www.thingiverse.com/thing:24238&lt;/a&gt;. Fotki poniżej.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Drukarka 3D dziennik budowy cz3</title>
+      <link>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz3/</link>
+      <pubDate>Wed, 18 Sep 2013 06:09:22 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz3/</guid>
+      <description>No to przyszedł czas na składanie wszystkich części MendelMaxa 1.5 w jedną całość. Jak pisałem w pierwszej części zabrakło mi plastików ale z pomocą przyszedł mi devildesign.pl który dostarczył mi plastiki dzięki którym mogłem dalej budować. Plastiki przyszły w wielkim kartonie. Okazało się że w prezencie dostałem trochę ABS na początek i szpulę. Plastiki były zapakowane w pudełkach i dodatkowo w plastikowych woreczkach. Całkiem fajnie to wyglądało. Fotki z paczki poniżej.</description>
+    </item>
+    
+    <item>
+      <title>Drukarka 3D dziennik budowy cz1</title>
+      <link>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz1/</link>
+      <pubDate>Thu, 05 Sep 2013 19:41:57 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz1/</guid>
+      <description>Tym razem was zaskoczę! Nic nie testuję ani nie wrzucę jakiegoś fajnego newsa z technologii. Zaczynam budować drukarkę 3D model Mendelmax i podzielę się z wami moimi przygodami związanymi z tym tematem a na pewno się jakieś pojawią.
+Ogólnie mam zawsze dużo pomysłów ale często jakoś kręcę się około tematu nettempa czyli mojego małego projektu pomiaru temperatury. Mam w głowie projekt płytki PCB do Raspbery Pi i często pojawia się też temat obudowy zamykającej projekt w jedną całość.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jak zabezpieczyć logowanie do swojego bloga? &middot; My Name</title>
+        <meta name="description" content="Tym razem mam temat dotyczący bezpieczeństwa logowania do bloga, strony, panelu lub co sobie tam wymyślicie. Ostatnio logując się do swojego panelu admina, do którego domyślne logowanie odbywa się przez http. Pomyślałem że fajnie było by robić to dobrze i logować się po https. Hosting z którego korzystam ma z defaulta certyfikat wildcard którego można używać ale wtedy dostaje ostrzeżenia od przeglądarki. Ponierważ domena nie zgadza się z tą z certyfikatu. Zawsze można zaakceptować wyjątek ale to nie jest wyjście. Zacząłem szukać darmowych certyfikatów.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Jak zabezpieczyć logowanie do swojego bloga?">
+<meta property="og:description" content="Tym razem mam temat dotyczący bezpieczeństwa logowania do bloga, strony, panelu lub co sobie tam wymyślicie. Ostatnio logując się do swojego panelu admina, do którego domyślne logowanie odbywa się przez http. Pomyślałem że fajnie było by robić to dobrze i logować się po https. Hosting z którego korzystam ma z defaulta certyfikat wildcard którego można używać ale wtedy dostaje ostrzeżenia od przeglądarki. Ponierważ domena nie zgadza się z tą z certyfikatu. Zawsze można zaakceptować wyjątek ale to nie jest wyjście. Zacząłem szukać darmowych certyfikatów.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/jak-zabezpieczyc-logowanie-do-swojego-bloga/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Jak zabezpieczyć logowanie do swojego bloga?</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2014-05-11" itemprop="datePublished">Sun, May 11, 2014</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Tym razem mam temat dotyczący bezpieczeństwa logowania do bloga, strony, panelu lub co sobie tam wymyślicie. Ostatnio logując się do swojego panelu admina, do którego domyślne logowanie odbywa się przez http. Pomyślałem że fajnie było by robić to dobrze i logować się po https. Hosting z którego korzystam ma z defaulta certyfikat wildcard którego można używać ale wtedy dostaje ostrzeżenia od przeglądarki. Ponierważ domena nie zgadza się z tą z certyfikatu. Zawsze można zaakceptować wyjątek ale to nie jest wyjście. Zacząłem szukać darmowych certyfikatów.</p>
+<p>Długo nie szukając znalazłem <a title="Darmowy certyfikat" href="https://www.startssl.com/" target="_blank"><a href="https://www.startssl.com/">https://www.startssl.com/</a></a>, stronę na której można wygenerować sobie darmowy certyfikat na domenę i sub domenę. Rejestracja i wystawienie przebiega w sumie szybko bo w jakąś godzinę lub dwie centrum dostarcza do panelu podpisany certyfikat. O czym trzeba pamiętać że po zarejestrowaniu w przeglądarce instaluje się certyfikat logowania do panelu i trzeba go sobie zachować. Aby w razie potrzeby zalogowania lub ściągnięcia certyfikatu na konkretną domenę go mieć. Certyfikat jest wystawiany na rok i po roku możemy wygenerować nowy też za darmo. Ja oczywiście to zrobiłem a mój hosting po dostarczeniu certyfikatu zainstalował go w parę godzin. Efekty można podziwiać po wpisaniu <a href="https://techfreak.pl">https://techfreak.pl</a>. W tym przypadku zobaczycie że https działa i nie wywala ostrzeżeń ale kłódeczka jest z żółtym trójkącikiem co oznacza że nie wszystkie elementy na stronie są bezpieczne. Jest to prawdopodobnie spowodowane tym że nie wszystkie liki zaczynają się od https. Cala reszta jest szyfrowana. OK, ale mi tylko chodziło aby ukryć login i hasło które jest wysyłane <a href="http://pl.wikipedia.org/wiki/POST_(metoda)" target="_blank">POST</a>’em i można je przechwycić (np. jeśli staniemy się ofiarą ataku MiTM. Jak wykonać i jak bronić się przed takim atakiem pisałem jakiś czas temu: <a href="http://techfreak.pl/jak-bronic-sie-przed-atakiem-arpspoof/" target="_blank">techfreak.pl/jak-bronic-sie-przed-atakiem-arpspoof</a>) A tak wygląda przechwycony formularz logowania:</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/05/wireshark_sniff_POST.jpg"><img class="aligncenter size-full wp-image-6984" src="http://techfreak.pl/wp-content/uploads/2014/05/wireshark_sniff_POST.jpg" alt="wireshark_sniff_POST" width="1013" height="440" srcset="http://techfreak.pl/wp-content/uploads/2014/05/wireshark_sniff_POST.jpg 1013w, http://techfreak.pl/wp-content/uploads/2014/05/wireshark_sniff_POST-300x130.jpg 300w" sizes="(max-width: 1013px) 100vw, 1013px" /></a></p>
+<p>Powyżej widać że pakiet przechwycony wiresharkiem zawiera login i hasło. (Jak by co hasło było testowe;) Na tą chwile po wejściu https://techfreak.pl/wp-admin wszystko jest ok i mogę się spokojnie logować bo moje hasło jest przekazywane do serwera w zaszyfrowanej postaci. Czyli jest, tak jak chciałem. Ale zawszę muszę pamiętać żeby wpisać https przed stroną logowania. Na szczęście WordPress przychodzi z przydatnymi opcjami FORCE_SSL_LOGIN i FORCE_SSL_ADMIN dzięki którym wymusza używanie https. Wystarczy wpisać w wp-config.php dwie linie:</p>
+<pre>define('FORCE_SSL_LOGIN', true);
+define('FORCE_SSL_ADMIN', true);
+/* To wszystko, zakończ edycję w tym miejscu! Miłego blogowania! */</pre>
+<p>Zresztą instrukcja jest tu: <a href="http://codex.wordpress.org/Administration_Over_SSL" target="_blank"><a href="http://codex.wordpress.org/Administration_Over_SSL">http://codex.wordpress.org/Administration_Over_SSL</a></a>. Ok mam darmowy certyfikat, zwiększyłem trochę bezpieczeństwo swojej strony. Mam nadzieję że, nie tylko mi przyda się ta informacja. Jak by ktoś znalazł inne darmowe certyfikaty niech da znać w komentarzach.</p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/certyfikaty/">certyfikaty</a>, 
+                <a href="/tags/domeny/">domeny</a>, 
+                <a href="/tags/wordpress/">wordpress</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Jak%20zabezpieczy%c4%87%20logowanie%20do%20swojego%20bloga%3f&url=https%3a%2f%2ftechfreak.pl%2fjak-zabezpieczyc-logowanie-do-swojego-bloga%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fjak-zabezpieczyc-logowanie-do-swojego-bloga%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

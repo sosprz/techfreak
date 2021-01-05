@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pdb on techfreak blog</title>
+    <link>https://techfreak.pl/tags/pdb/</link>
+    <description>Recent content in pdb on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 19 Apr 2016 17:05:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/pdb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DEMON CORE &#43; KRASZZZ KONKURS!</title>
+      <link>https://techfreak.pl/ddemon-core-kraszzz-konkurs/</link>
+      <pubDate>Tue, 19 Apr 2016 17:05:19 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ddemon-core-kraszzz-konkurs/</guid>
+      <description>&lt;p&gt;Jedną z podstawowych części dronów zwykłych i wyścigowych jest płytka zasilania (PDB). Nie tylko rozdziela ona napięcie pomiędzy regulatory ale zasila też elektronikę sterującą czyli kontroler lotu (FC), odbiornik RC i nadajnik wideo. Jest to całkiem ważny element całego drona dlatego warto na pokładzie mieć coś sprawdzonego jak PDB od &lt;a href=&#34;http://demonrc.eu/&#34;&gt;demonrc.eu&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lisam LS-180 czyli QAV 180</title>
+      <link>https://techfreak.pl/lisam-ls-180-czyli-qav-180/</link>
+      <pubDate>Sun, 06 Dec 2015 20:31:28 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/lisam-ls-180-czyli-qav-180/</guid>
+      <description>&lt;p&gt;Szaleństwo na mini koptery klasy 250 może jeszcze nie minęło ale jest powoli wypierane na rzecz mniejszych i to nie koniecznie słabszych dronów klasy mini/micro. Zobacz mój kolejny log z budowy quadcoptera mini 180 na ramie Lisam LS-180.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Matek mini PDB</title>
+      <link>https://techfreak.pl/matek-mini-pdb/</link>
+      <pubDate>Sat, 10 Oct 2015 17:24:49 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/matek-mini-pdb/</guid>
+      <description>&lt;p&gt;Konstruktorzy popularnych mini dronów klasy &lt;em&gt;dwiesciepiedziesiat,&lt;/em&gt; często się zastanawiają czy zakupić płytę dystrybuująca zasilanie do regulatorów integralną z ramą czy jednak montowaną osobno. Mowa tu np. o popularnym ZMR250 gdzie do wyboru mamy parę fajnych modeli. Pisałem o takich w poprzednim &lt;a href=&#34;http://techfreak.pl/nowa-rama-do-drona-zmr250/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wpisie&lt;/a&gt; z serii &lt;a href=&#34;http://techfreak.pl/category/moje-projekty/mojdron/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mojdron&lt;/a&gt;. Jeśli nie integralna płyta to co?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

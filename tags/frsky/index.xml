@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>frsky on techfreak blog</title>
+    <link>https://techfreak.pl/tags/frsky/</link>
+    <description>Recent content in frsky on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 19 Dec 2018 13:18:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/frsky/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Czołg FPV z Drukarki 3D cześć druga</title>
+      <link>https://techfreak.pl/czolg-fpv-z-drukarki-3d-czesc-druga/</link>
+      <pubDate>Wed, 19 Dec 2018 13:18:15 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/czolg-fpv-z-drukarki-3d-czesc-druga/</guid>
+      <description>&lt;p&gt;Zapraszam na kolejną cześć z dziennika budowy zdalnie sterowanego czołgu wydrukowanego w technologi 3D z podglądem FPV. Poprzednią można zobaczyć &lt;a href=&#34;https://techfreak.pl/czolg-fpv-z-drukarki-3d-czesc-pierwsza/&#34;&gt;tutaj&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tiny track – mini pojazd z kamerą fpv</title>
+      <link>https://techfreak.pl/tiny-track-mini-pojazd-z-kamera-fpv/</link>
+      <pubDate>Tue, 21 Aug 2018 18:19:05 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/tiny-track-mini-pojazd-z-kamera-fpv/</guid>
+      <description>&lt;p&gt;Zobacz jak zbudować prosty pojazd gąsienicowy z kamerą FPV!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Projekty z drukarki 3D Mini Track Loader</title>
+      <link>https://techfreak.pl/projekty-z-drukarki-3d-mini-track-loader/</link>
+      <pubDate>Sun, 29 Jul 2018 20:49:40 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/projekty-z-drukarki-3d-mini-track-loader/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Masz drukarkę ale znudziło Ci się drukowanie wazonów na imieniny? Zobacz jak zrealizowałem projekt Mini Track Loader z thingiverse.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Koszyk na baterie 18650 do Taranis QX7</title>
+      <link>https://techfreak.pl/koszyk-na-baterie-18650-do-taranis-qx7/</link>
+      <pubDate>Wed, 06 Jun 2018 19:25:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/koszyk-na-baterie-18650-do-taranis-qx7/</guid>
+      <description>&lt;p&gt;Jak wcisnąć trzy baterie 18650 do taranisa QX7&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mikro dron HGLRC XJB-145</title>
+      <link>https://techfreak.pl/mikro-dron-hglrc-xjb-145/</link>
+      <pubDate>Wed, 07 Feb 2018 19:17:10 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mikro-dron-hglrc-xjb-145/</guid>
+      <description>&lt;p&gt;W dronowym świecie jak zawsze do przodu! Tym razem parę słów o mikro HGLRC XJB-145 czyli miniaturyzacja wyścigówek!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>R-XSR aktualizacja firmware przez Taranis QX7</title>
+      <link>https://techfreak.pl/r-xsr-aktualizacja-firmware-taranis-qx7/</link>
+      <pubDate>Tue, 17 Oct 2017 13:46:46 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/r-xsr-aktualizacja-firmware-taranis-qx7/</guid>
+      <description>&lt;p&gt;Jak zaktualizować najlżejszy i najmniejszy nadajnik FrSky &lt;a href=&#34;https://www.banggood.com/FrSky-R-XSR-Ultra-SBUSCPPM-D16-16CH-Mini-Redundancy-Receiver-1_5g-p-1186057.html?p=9H0114137951201303E0&amp;amp;utm_campaign=techfreak&amp;amp;utm_content=chendongling&#34;&gt;R-XSR&lt;/a&gt; posiadając aparaturę Taranis QX7&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Taranis QX7 zmiana firmware</title>
+      <link>https://techfreak.pl/taranis-qx7-zmiana-firmware/</link>
+      <pubDate>Thu, 31 Aug 2017 21:40:11 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/taranis-qx7-zmiana-firmware/</guid>
+      <description>&lt;p&gt;Dziś pokażę jak zmienić, zaktualizować firmware w aparaturze Taranis QX7 do najnowszego OpenTX i nie tylko.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jaka bateria do Taranis QX7?</title>
+      <link>https://techfreak.pl/jaka-bateria-do-taranis-qx7/</link>
+      <pubDate>Wed, 30 Aug 2017 18:05:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jaka-bateria-do-taranis-qx7/</guid>
+      <description>&lt;p&gt;Jaką baterię kupić do aparatury Taranis QX7? 18650? tak!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dron wyścigowy bez składania – Shuriken 250</title>
+      <link>https://techfreak.pl/dron-wyscigowy-bez-skladania-shuriken-250/</link>
+      <pubDate>Tue, 22 Nov 2016 14:17:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/dron-wyscigowy-bez-skladania-shuriken-250/</guid>
+      <description>&lt;p&gt;Dron bez składania? Gotowy do lotu? Szurikeny nadlatują!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Recenzja Tarot 130 FPV mini racer!</title>
+      <link>https://techfreak.pl/recenzja-tarot-130-fpv-mini-racer/</link>
+      <pubDate>Fri, 10 Jun 2016 14:37:21 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/recenzja-tarot-130-fpv-mini-racer/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Kto obserwuje moje wpisy wie, że czasem złożę jakiegoś mini drona. Zaczynałem od 250mm a teraz jestem na etapie &amp;gt;150mm. Ostatnio składałem &lt;a href=&#34;//techfreak.pl/minifpv-rama-nox3-demonrc-budowa/&#34;&gt;NOX3&lt;/a&gt; którym naprawdę fajnie się lata. Dziś dzięki &lt;a href=&#34;http://www.gearbest.com/m-promotion-active-229.html&#34;&gt;gearbest.com&lt;/a&gt; mam przyjemność polatać kolejnym mini o nazwie &lt;a href=&#34;http://goo.gl/Eqn6Bu&#34;&gt;TAROT 130&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lisam LS-180 czyli QAV 180</title>
+      <link>https://techfreak.pl/lisam-ls-180-czyli-qav-180/</link>
+      <pubDate>Sun, 06 Dec 2015 20:31:28 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/lisam-ls-180-czyli-qav-180/</guid>
+      <description>&lt;p&gt;Szaleństwo na mini koptery klasy 250 może jeszcze nie minęło ale jest powoli wypierane na rzecz mniejszych i to nie koniecznie słabszych dronów klasy mini/micro. Zobacz mój kolejny log z budowy quadcoptera mini 180 na ramie Lisam LS-180.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Aktualizacja FrSky X4R do CPPM</title>
+      <link>https://techfreak.pl/aktualizacja-frsky-x4r-do-cppm/</link>
+      <pubDate>Sun, 15 Nov 2015 11:35:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/aktualizacja-frsky-x4r-do-cppm/</guid>
+      <description>&lt;p&gt;Do mojego nowego quadkoptera o wymiarach 180mm zakupiłem odbiornik FrSky X4R który działa na S.BUS. Poniżej pokażę jak łatwo zaktualizować oprogramowanie aby odbiornik działał w trybie CPPM.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nowa rama do drona zmr250</title>
+      <link>https://techfreak.pl/nowa-rama-do-drona-zmr250/</link>
+      <pubDate>Mon, 10 Aug 2015 14:03:50 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nowa-rama-do-drona-zmr250/</guid>
+      <description>&lt;p&gt;Prawie rok temu pisałem o tym &lt;a href=&#34;//techfreak.pl/zbudowac-quadcopter-fpv250-naze32-dys-be1806/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;jak zbudować quadcopter&lt;/a&gt;. Od tego czasu wiele się zmieniło nie tylko u mnie na pokładzie. Quadcopter już nie jest dobrą nazwą dla czterosilnikowego obiektu latającego. Teraz popularną i modną nazwa jest po prostu dron. Na początku lutego pisałem o &lt;a href=&#34;//techfreak.pl/diatone-37-nowa-rama-dla-quadcoptera/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nowej ramie Diatone #37&lt;/a&gt;, która była zbudowana z włókna szklanego i była mocna do pierwszego dzwona w ścinę pustostanu. Filmik można zobaczyć na moim kanale &lt;a href=&#34;https://youtu.be/qn-HtDyomvg?t=2m4s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube&lt;/a&gt;. Przyszedł czas aby zakupić coś z karbonu, padło na bardzo popularną ramę ZMR250.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zbudować quadcopter? FPV250 &#43; NAZE32 &#43; DYS-BE1806</title>
+      <link>https://techfreak.pl/zbudowac-quadcopter-fpv250-naze32-dys-be1806/</link>
+      <pubDate>Mon, 01 Sep 2014 05:40:29 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zbudowac-quadcopter-fpv250-naze32-dys-be1806/</guid>
+      <description>&lt;p&gt;Przy okazji budowy mojej nowej maszyny latającej zrobiłem małą fotorelację z budowy którą chciałbym się z wami podzielić. Tym razem buduję nowego quadcoptera z paru powodów. Po pierwsze jest tańszy niż poprzednie wersje (&lt;a title=&#34;Mini H quadcopter&#34; href=&#34;http://techfreak.pl/pierwszy-mini-h-quadcopter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pierwsza&lt;/a&gt;, &lt;a title=&#34;Hobby king fpv 250&#34; href=&#34;http://techfreak.pl/miniquadcopter-hobbyking-fpv250/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;druga&lt;/a&gt;, &lt;a title=&#34;RCX 1804&#34; href=&#34;http://techfreak.pl/nowe-silniki-rcx1804/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;trzecia&lt;/a&gt;) i lepszy sprzętowo. W stosunku do poprzednich wersji w sumie zmieniło się prawie wszystko. Zaczynając od zmiany odbiornika &lt;a title=&#34;D8R-II plus&#34; href=&#34;http://www.frsky-rc.com/product/pro.php?pro_id=22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;D8R-II plus&lt;/a&gt; na &lt;a title=&#34;D4R II&#34; href=&#34;http://www.frsky-rc.com/product/pro.php?pro_id=24&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;D4R-II&lt;/a&gt; który jest o wiele mniejszy a ma tą samą ilość kanałów ale tylko na jednym fizycznym kanale (PPM). Do zmiany poszły silniki &lt;a title=&#34;RCX1804&#34; href=&#34;http://www.myrcmart.com/zmr-1804-2400kv-micro-outrunner-brushless-motor-clockwise-p-6281.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RCX1804&lt;/a&gt; na rzecz mocniejszych &lt;a title=&#34;DYS1806&#34; href=&#34;http://www.banggood.com/DYS-BE1806-2300KV-Brushless-Motor-2-3S-For-Mini-Multicopters-p-933192.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DYS-BE1806&lt;/a&gt;. Kontroler lotu został zamieniony z &lt;a title=&#34;KK 2.1&#34; href=&#34;http://www.hobbyking.com/hobbyking/store/__54299__hobbyking_kk2_1_5_multi_rotor_lcd_flight_control_board_with_6050mpu_and_atmel_644pa.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KK 2.1&lt;/a&gt; na &lt;a title=&#34;MultiWii AIO&#34; href=&#34;http://www.hobbyking.com/hobbyking/store/__31138__multiwii_and_megapirate_aio_flight_controller_w_ftdi_atmega_2560_v2_0.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MultiWii AIO&lt;/a&gt; a na końcu został &lt;a title=&#34;Naze32&#34; href=&#34;http://www.hobbyking.com/hobbyking/store/__55819__AfroFlight_Naze32_Acro_AbuseMark_FunFly_Controller.html?strSearch=naze32&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NAZE32&lt;/a&gt; który jest mniejszy i o wiele lepiej pasuje  do mini quadcopterów. Co do ramy, może jej nie zmieniłem ale zakupiłem trzecia wersję FPV250 która pozwala na różne ciekawe konfiguracje.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

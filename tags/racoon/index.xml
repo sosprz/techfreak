@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>racoon on techfreak blog</title>
+    <link>https://techfreak.pl/tags/racoon/</link>
+    <description>Recent content in racoon on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 10 Jan 2012 09:07:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/racoon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IPsec VPN racoon site 2 site</title>
+      <link>https://techfreak.pl/ipsec-vpn-racoon-site-2-site/</link>
+      <pubDate>Tue, 10 Jan 2012 09:07:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ipsec-vpn-racoon-site-2-site/</guid>
+      <description>&lt;p&gt;Połączenie VPN site to site po między hostem z systemem linuks z pakietem Racoon (ipsec) a Checkpoint NGX R65 (ipsec).&lt;br&gt;
+Poniższa konfiguracja racoon jest o tyle uniwersalna że może się łączyć z każdym innym urządzeniem obsługującym ipsec.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja tunelu VPN site to site na Checkpoint R65</title>
+      <link>https://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-na-checkpoint-r65/</link>
+      <pubDate>Fri, 14 Jan 2011 09:44:27 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-na-checkpoint-r65/</guid>
+      <description>&lt;p&gt;Przykład konfiguracji tunelu VPN site to site na platformie Check Point R65&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

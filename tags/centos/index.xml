@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>centos on techfreak blog</title>
+    <link>https://techfreak.pl/tags/centos/</link>
+    <description>Recent content in centos on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 10 Jan 2012 09:32:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Server Openvpn na CentOS &#43; klient – telefon z systemem android</title>
+      <link>https://techfreak.pl/server-openvpn-na-centos-klient-telefon-z-systemem-android/</link>
+      <pubDate>Tue, 10 Jan 2012 09:32:03 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/server-openvpn-na-centos-klient-telefon-z-systemem-android/</guid>
+      <description>&lt;p&gt;Jak skonfigurować serwer OpenVPN i Androida jako klienta ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak skonfigurować serwer OpenVpn na CentOS i podłączyć androida z OpenVpn Settings</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-serwer-openvpn-na-centos-i-podlaczyc-androida-z-openvpn-settings/</link>
+      <pubDate>Tue, 10 Jan 2012 06:53:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-serwer-openvpn-na-centos-i-podlaczyc-androida-z-openvpn-settings/</guid>
+      <description>&lt;p&gt;Jak skonfigurować serwer OpenVPN i Androida jako klienta ?&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;&lt;br /&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

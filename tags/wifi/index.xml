@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wifi on techfreak blog</title>
+    <link>https://techfreak.pl/tags/wifi/</link>
+    <description>Recent content in wifi on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Thu, 04 May 2017 20:38:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/wifi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SONOFF gotowy układ do sterowania przekaźnikiem na ESP8266</title>
+      <link>https://techfreak.pl/sonoff-gotowy-uklad-sterowania-przekaznikiem-esp8266/</link>
+      <pubDate>Thu, 04 May 2017 20:38:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/sonoff-gotowy-uklad-sterowania-przekaznikiem-esp8266/</guid>
+      <description>&lt;p&gt;Dziś trochę na temat prostego i popularnego przekaźnika SONOFF z wbudowanym WiFi na układzie ESP8266.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Test routera tp-link Archer C3200</title>
+      <link>https://techfreak.pl/test-routera-tp-link-archer-c3200/</link>
+      <pubDate>Mon, 17 Apr 2017 18:50:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/test-routera-tp-link-archer-c3200/</guid>
+      <description>&lt;p&gt;Zapraszam na mój drugi test routera WiFi AC od tp-link. Tym razem tp-link Archer AC3200.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry PI Zero z WiFi na stałe!</title>
+      <link>https://techfreak.pl/raspberry-pi-zero-wifi-stale/</link>
+      <pubDate>Fri, 09 Dec 2016 20:12:15 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-zero-wifi-stale/</guid>
+      <description>&lt;p&gt;Czego brakuje w Raspberry Pi Zero do szczęścia? Wbudowanego modułu wifi!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry PI Zero konfiguracja WiFi</title>
+      <link>https://techfreak.pl/raspberry-pi-zero-konfiguracja-wifi/</link>
+      <pubDate>Fri, 04 Mar 2016 20:14:15 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-zero-konfiguracja-wifi/</guid>
+      <description>&lt;p&gt;Właśnie dziś dostałem Raspberry Pi Zero, najmniejszą dostępną wersje z mini komputerków z pod znaku malinki. Goła wersja przychodzi bez pinów, i bez kabelków. Jak więc skonfigurować malinkę aby po podłączeniu WiFi na USB automatycznie połączyła się ona do sieci?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &#43; WiFi</title>
+      <link>https://techfreak.pl/raspberry-pi-wifi/</link>
+      <pubDate>Fri, 27 Nov 2015 18:49:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-wifi/</guid>
+      <description>&lt;p&gt;Pisałem już parę razy jak skonfigurować kartę WiFi na USB pod Raspberry PI i tym razem napisze jak to się robi na Raspbianie. Na najnowszych obrazach jest to całkiem proste i robi się to w jednym pliku.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kontroler Unifi AP UAP na Raspberry Pi</title>
+      <link>https://techfreak.pl/kontroler-unifi-ap-uap-na-raspberry-pi/</link>
+      <pubDate>Mon, 16 Nov 2015 21:49:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/kontroler-unifi-ap-uap-na-raspberry-pi/</guid>
+      <description>&lt;p&gt;Budując sieć WiFi złożoną z wielu punktów dostępowych często projektant stoi przed wyborem systemu z puli całkiem drogich urządzeń. Obecnie wiele rozwiązań z zarządzaniem w chmurze ostatecznie i tak może zadziwić wysoką ceną. Istnieje jeden mało popularny system WiFi o nazwie Unifi z darmowym serwerem zarządzania i ceną za jedno urządzenie dostępowe w granicach 290zł.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domowa kamera Eurometer EU-113S</title>
+      <link>https://techfreak.pl/domowa-kamera-eurometer-eu-113s/</link>
+      <pubDate>Tue, 08 Sep 2015 18:51:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/domowa-kamera-eurometer-eu-113s/</guid>
+      <description>&lt;p&gt;Posiadanie kamery IP w domu to dla mnie normalna sprawa od kiedy zacząłem robić pierwsze testy na bloga. Moja kamera Trendnet dalej wisi pod sufitem i pilnuje drzwi wejściowych i tym samym zapełnia mi skrzynkę pocztową fotkami. Dziś jestem po kolejnym już teście kamery IP i spodziewam się od nowych produktów prostoty konfiguracji i szybkiej obsługi z telefonu. Nowym urządzeniem z jakim miałem przyjemność pracować to kamera IP z WiFi Eurometer EU-113S.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ZTE Nubia Z7 – phablet dla wymagających</title>
+      <link>https://techfreak.pl/zte-nubia-z7-phablet-dla-wymagajacych/</link>
+      <pubDate>Fri, 14 Aug 2015 14:27:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zte-nubia-z7-phablet-dla-wymagajacych/</guid>
+      <description>&lt;p&gt;Rynek phabletów rozwija się w najlepsze. Coraz to inni producenci wkraczają w świat smartfonów z wyświetlaczami powyżej 5 cali i nie ma co się dziwić. Prężnie rozwijająca się technologia pozawala na produkowanie jeszcze lepszy, a w dodatku tańszych, rozwiązań wyświetlania obrazów. Działa to bardzo pozytywnie bezpośrednio na użytkownika, któremu można zaproponować przyzwoitą jakość za bardzo dobrą cenę.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WiFi w stylu mobilnym – HUAWEI E5377</title>
+      <link>https://techfreak.pl/wifi-w-stylu-mobilnym-huawei-e5377/</link>
+      <pubDate>Sun, 26 Jul 2015 11:49:37 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wifi-w-stylu-mobilnym-huawei-e5377/</guid>
+      <description>&lt;p&gt;Każdy, kto choć trochę porusza się w świece nowych technologii nie wyobraża sobie braku komunikacji radiowej jaką gwarantuje WiFi. Co więcej, coraz częściej znajdujemy tą właśnie technologię w sprzętach, które nie są stworzone do przesyłu danych (np. lodówki, pralki).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ESP8266 – jak używać ESP12</title>
+      <link>https://techfreak.pl/esp8266-jak-uzywac-esp12/</link>
+      <pubDate>Wed, 08 Jul 2015 18:44:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/esp8266-jak-uzywac-esp12/</guid>
+      <description>&lt;p&gt;Ostatnio zakupiłem parę sztuk układu ESP8266 w wersji ESP12 w której jest dostępnych więcej GPIO. Wariant dwunasty jest w wersji SMD i nie ma wyprowadzonych pinów. Bez problemu można przylutować parę przewodów do takiej płytki ale większym problemem jest zaczęcie pracy z tym układem. Różni się on trochę od poprzednich i aby wgrać firmware lub wprowadzić układ w tryb normalnej pracy trzeba ustawić odpowiednie stany na odpowiednich GPIO.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LG G watch R Android 5.1.1 OTA</title>
+      <link>https://techfreak.pl/lg-g-watch-r-android-5-1-1-ota/</link>
+      <pubDate>Wed, 20 May 2015 14:29:13 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/lg-g-watch-r-android-5-1-1-ota/</guid>
+      <description>&lt;p&gt;Na pewno posiadacze Lg G watch R czekają na update (OTA) do Android 5.1.1 i są ciekawi czy zostanie włączona obsługa wifi. Spekulacji było dużo, okazało się że sam układ wifi jest zintegrowany w płycie głównej i antenę dzieli z modułem Bluetooth. Ale niestety update dla Androida 5.1.1 nie włącza tak upragnionej funkcji przez wielu użytkowników. Kto nie chce czekać na OTA już teraz może sobie wgrać najnowszy update do 5.1.1. Linki poniżej.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ICA – W8100 – kamera IP dla zwiększenia bezpieczeństwa</title>
+      <link>https://techfreak.pl/ica-w8100-kamera-ip-dla-zwiekszenia-bezpieczenstwa/</link>
+      <pubDate>Mon, 02 Feb 2015 18:01:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ica-w8100-kamera-ip-dla-zwiekszenia-bezpieczenstwa/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;W czasach, których się doczekaliśmy, bardzo często sytuacja zmusza nas do zwiększenia ochrony naszych domów, mieszkać, czy nawet miejsc pracy. Nie wystarczy już porządny zamek w zbrojonych, grubych na 15 centymetrów drzwiach. Nasuwa się oczywista sprawa – założenie alarmu. Jednak mimo wszystko alarm nie pomoże nam wykryć sprawców, nie zobaczymy jak się poruszali, gdzie chodzili. Jeżeli nie zadziałamy zbyt szybko możemy stracić dorobek całego życia.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ile wyciągnie WiFi ac? Test routera Archer C7</title>
+      <link>https://techfreak.pl/wyciagnie-wifi-ac-test-routera-archer-c7/</link>
+      <pubDate>Mon, 17 Nov 2014 15:08:11 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wyciagnie-wifi-ac-test-routera-archer-c7/</guid>
+      <description>&lt;p&gt;No to kolejny test routera z WiFi w standardzie AC za mną. Mowa o Archer C7 od TP-Link, którego miałem okazje użytkować przez jakiś dłuższy czas u siebie w domu. Do tego testu podszedłem tylko pod kątem stabilności i wydajności. Dlatego na ten czas zamieniłem swój dotychczasowy router WR1043ND na Archera C7. Testy w domu to nie przelewki bo jak wystąpią przerwy w dostawie pudelka do smartfona żony to może być problem. Po za tym często pracuje zdalnie lub przesyłam pliki na domowego NASa więc nie mogło być lipy i liczyłem że nie będzie problemu z tym routerem. A pierwszy tydzień normalnego użytkowania był testem kwalifikacyjnym do dalszych działań.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi B&#43;</title>
+      <link>https://techfreak.pl/raspberry-pi-b/</link>
+      <pubDate>Wed, 12 Nov 2014 15:22:48 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-b/</guid>
+      <description>&lt;p&gt;Hej tym razem o Raspberry Pi B+, czyli o nowym lepszym modelu mini komputerka w tej samej cenie. Sam obecnie posiadam trzy sztuki RPi, dwóch z nich używam do projektu &lt;a href=&#34;https://techfreak.pl/nettemp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nettemp&lt;/a&gt;. Na jednej testuje nowe funkcje a druga zbiera dane z czujników w mieszkaniu i steruje ogrzewaniem. A trzecia słuzy jako wideo player z systemem &lt;a href=&#34;https://techfreak.pl/xbmc-raspberry-pi-autoplay-folderu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenElec dla dzieciaków&lt;/a&gt;. Trochę potestowałem nową wersje B+ i podzielę się z wami wrażeniami.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wolne WiFi na kartach intela – jak naprawić?</title>
+      <link>https://techfreak.pl/wolne-wifi-kartach-intela-naprawic/</link>
+      <pubDate>Wed, 05 Nov 2014 15:30:59 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wolne-wifi-kartach-intela-naprawic/</guid>
+      <description>&lt;p&gt;Na swoim laptopie używam Xubuntu i w zasadzie jestem zadowolony z systemu, no może poza paroma bugami które były uciążliwe od wersji 14.04. Jakiś czas temu testowałem &lt;a href=&#34;http://techfreak.pl/gigsowe-wifi-czy-to-juz-test-routera-tew-812dru-i-karty-usb-tew-805ub/&#34; target=&#34;_blank&#34;&gt;WiFi w standardzie ac&lt;/a&gt; gdzie potrzebowałem maksymalnych przepustowości karty. Teraz jestem przed kolejnym testem standardu AC i łącząc aktualny system Xubuntu 14.10 i  prędkość WiFi zostałem niemile zaskoczony. Prędkość mojej karty to 25Mbps a w standardzie N 2×2 powinno być to ok 150Mbps. Poniżej pokażę jak to szybko naprawić.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VoCore mikro komputer z WiFi</title>
+      <link>https://techfreak.pl/vocore-mikro-komputer-wifi/</link>
+      <pubDate>Sat, 31 May 2014 17:21:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/vocore-mikro-komputer-wifi/</guid>
+      <description>VoCore to nowy bardzo fajny projekt mikro komputerka z OpenWRT na pokładzie. Mikro z powodu swoich całkowitych wymiarów które wynoszą 25mm x25mm. Na płytce znajdziemy 32MB SDRAM, 8MB SPI Flash i takie interfejsy jak 10/100M Ethernet, USB, UART, I2C, I2S, PCM, JTAG oraz 20 portów GPIOs i WiFi. A to wszystko pod kontrolą RT5350(360MHz MIPS).
+
+Projekt wystartował jakiś czas temu na indiegogo gdzie już zdobył 47k $ zielonych, dzięki którym wejdzie do produkcji.</description>
+    </item>
+    
+    <item>
+      <title>Gigsowe Wifi czy to już? Test routera TEW-812DRU i karty usb TEW-805UB</title>
+      <link>https://techfreak.pl/gigsowe-wifi-czy-to-juz-test-routera-tew-812dru-i-karty-usb-tew-805ub/</link>
+      <pubDate>Wed, 24 Jul 2013 05:40:59 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/gigsowe-wifi-czy-to-juz-test-routera-tew-812dru-i-karty-usb-tew-805ub/</guid>
+      <description>&lt;p&gt;Wiadomo już dawno że bez WiFi nie można żyć i że dostęp do internetu musi być wszędzie. Jak nie w domu to w pracy i jeszcze najlepiej pomiędzy jak jedziemy samochodem żeby tylko pakietu na internet nie zjadło za dużo. Na szczęście pakiety nie są takie drogie (PLAY 10zł za 1G). Mówiąc o WiFi raczej ludzie myślą o dostępie do internetu a nie o standardach, transferach i ogólnie jak szybkie to całe WiFi jest. W sumie co mają się przejmować, jest zasięg, internet działa jest ok. Mam takiego sąsiada co kupił u operatora 30Mbps, posiada router z AP w standardzie 802.11b, czyli 11 Mbps i własnie zmienia operatora bo nie wyciąga transferów na www speed teście. Nie ma co opowiadać historyjek ale tak właśnie chciałem zacząć test routera TRENDnet TEW-812DRU który działa w standardzie 802.11ac a jego maksymalna przepustowość po radiu może wynieść 1300Mbps. Tak jak ostatnio w przypadku testu &lt;a title=&#34;Sieć LAN z gniazdka&#34; href=&#34;http://techfreak.pl/siec-lan-z-gniazdka-elektrycznego-test-adapterow-trendnet-tpl-405e/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;adapterów LAN&lt;/a&gt; postaram się sprawdzić prawdziwe realne transfery jakie można wycisnąć z tego sprzętu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tani i prosty Arduino WiFi shield</title>
+      <link>https://techfreak.pl/tani-i-prosty-arduino-wifi-shield/</link>
+      <pubDate>Sat, 06 Jul 2013 20:24:13 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/tani-i-prosty-arduino-wifi-shield/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Arduino&lt;/strong&gt; to tania i fajna płytka do mniej lub bardziej skomplikowanych projektów elektronicznych w których coraz większą rolę odgrywa komunikacja bezprzewodowa. Dlaczego ten rodzaj komunikacji jest taki pożądany nie trzeba tłumaczyć ale dlaczego to tak drogo wychodzi? Poniżej mam dla was fajny i tani (bo tani to fajny a fajny to &lt;del&gt;czasem&lt;/del&gt; tani) projekt Arduino WiFi Shield zrealizowany na Ruterze &lt;strong&gt;TL-WR702N&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Płytki Spark Core i masz Arduino z WiFi wszędzie</title>
+      <link>https://techfreak.pl/plytki-spark-core-i-masz-arduino-z-wifi-wszedzie/</link>
+      <pubDate>Fri, 10 May 2013 07:18:15 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/plytki-spark-core-i-masz-arduino-z-wifi-wszedzie/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;No i kolejny fajny projekt Spark Core. Mała płytka z procesorem 72 MHz ARM Cortex M3 i z modułem WiFi a do tego kompatybilna z Arduino.&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jesteś fanem Hobbita musisz to mieć:)</title>
+      <link>https://techfreak.pl/jestes-fanem-hobbita-musisz-to-miec/</link>
+      <pubDate>Tue, 22 Jan 2013 15:16:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jestes-fanem-hobbita-musisz-to-miec/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/jestes-fanem-hobbita-musisz-to-miec/img_9307_v1_642_362_force/&#34; rel=&#34;attachment wp-att-1947&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1947&#34; alt=&#34;img_9307_v1_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/img_9307_v1_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/img_9307_v1_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/img_9307_v1_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Trafiłem na projekt dla fanów Hobbita czyli na żądło które świeci gdy wykryje ORKI w pobliżu….&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry pi jako Access Point</title>
+      <link>https://techfreak.pl/raspberry-pi-jako-access-point/</link>
+      <pubDate>Tue, 01 Jan 2013 20:53:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-jako-access-point/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/raspberry-pi-jako-access-point/edimax-pi3_642_362_force/&#34; rel=&#34;attachment wp-att-689&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-689&#34; alt=&#34;edimax-pi3_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Witam w nowym roku i już atakuje fajnymi projektami. Sam mam Raspberry pi i tworzę w wolnej chwili swój projekt &lt;a href=&#34;http://nettemp.pl&#34; target=&#34;_blank&#34;&gt;pomiaru temperatury&lt;/a&gt; co za tym idzie ciekawią mnie różne pomysły innych freaków. Ostatnio na oficjalnej stronie raspberry pi pisano o &lt;a href=&#34;http://www.pi-point.co.uk/&#34; target=&#34;_blank&#34;&gt;Pi-Point&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini transformers z kamerą i WiFi</title>
+      <link>https://techfreak.pl/mini-transformers-z-kamera-i-wifi/</link>
+      <pubDate>Wed, 05 Dec 2012 19:38:53 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-transformers-z-kamera-i-wifi/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16.jpg&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-6&#34; title=&#34;ico_compress16&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16.jpg&#34; width=&#34;642&#34; height=&#34;523&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16-300x244.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Transformers który zamienia się z samochodu w robota to było kiedyś marzenie każdego  dzieciaka który oglądał transformersy ( mam na myśli bajkę ). Jak wiadomo technika idzie do przodu i takie zabawki nie są nowością ale po obejrzeniu poniższego filmiku pomyślałem, ja też chce to mieć.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>xbmc konfiguracja wifi</title>
+      <link>https://techfreak.pl/xbmc-konfiguracja-wifi/</link>
+      <pubDate>Thu, 18 Oct 2012 09:43:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/xbmc-konfiguracja-wifi/</guid>
+      <description>&lt;p&gt;Jak skonfigurować WiFi na XBMC ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry pi, raspbmc konfiguracja WiFi</title>
+      <link>https://techfreak.pl/raspberry-pi-raspbmc-konfiguracja-wifi/</link>
+      <pubDate>Mon, 01 Oct 2012 13:02:11 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-raspbmc-konfiguracja-wifi/</guid>
+      <description>&lt;p&gt;Raspberry Pi to fajny i tani mini komputerek który w połączeniu z projektem &lt;a title=&#34;raspbmc&#34; href=&#34;http://www.raspbmc.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;raspbmc&lt;/a&gt; tworzy niezłe centrum multimedialne.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Karta wifi Intel wireless 3945ABG w trbie monitor mode dla aircrack_ng</title>
+      <link>https://techfreak.pl/karta-wifi-intel-wireless-3945abg-w-trbie-monitor-mode-dla-aircrack_ng/</link>
+      <pubDate>Tue, 10 Jan 2012 10:12:36 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/karta-wifi-intel-wireless-3945abg-w-trbie-monitor-mode-dla-aircrack_ng/</guid>
+      <description>&lt;h2 id=&#34;jak-uruchomić-kartę-wifi-intel-wireless-3945abg-w-trbie-monitor-mode&#34;&gt;Jak uruchomić kartę wifi Intel wireless 3945ABG w trbie monitor mode?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Skrypt łamiący WEP</title>
+      <link>https://techfreak.pl/skrypt-lamiacy-wep/</link>
+      <pubDate>Thu, 01 Dec 2011 23:35:00 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/skrypt-lamiacy-wep/</guid>
+      <description>&lt;p&gt;Skrypt pomagający złamać zabezpieczenie sieci wifi – WEP&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

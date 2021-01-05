@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>l2tp on techfreak blog</title>
+    <link>https://techfreak.pl/tags/l2tp/</link>
+    <description>Recent content in l2tp on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 10 Jan 2012 09:38:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/l2tp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OpenWrt – Serwer VPN na xl2tpd:</title>
+      <link>https://techfreak.pl/openwrt-serwer-vpn-na-xl2tpd/</link>
+      <pubDate>Tue, 10 Jan 2012 09:38:41 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/openwrt-serwer-vpn-na-xl2tpd/</guid>
+      <description>&lt;p&gt;Jak zainstalować i skonfigurować serwer VPN na OpenWrt ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ipsec/l2pt &#43; G1 HTC Dream czyli VPN na Androidzie.</title>
+      <link>https://techfreak.pl/ipsecl2pt-g1-htc-dream-czyli-vpn-na-androidzie/</link>
+      <pubDate>Tue, 10 Jan 2012 09:28:17 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ipsecl2pt-g1-htc-dream-czyli-vpn-na-androidzie/</guid>
+      <description>&lt;p&gt;Jak połączyć się z pierwszego telefonu z Androidem  do serwera VPN na Ipsec/l2tp ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalacja ipsec/l2tp (strongswan4 &#43; xl2tpd) na OpenWRT działa z Androidem</title>
+      <link>https://techfreak.pl/instalacja-ipsecl2tp-strongswan4-xl2tpd-na-openwrt-dziala-z-androidem/</link>
+      <pubDate>Fri, 14 Jan 2011 06:09:13 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/instalacja-ipsecl2tp-strongswan4-xl2tpd-na-openwrt-dziala-z-androidem/</guid>
+      <description>&lt;p&gt;Jak postawić serwer IPsec/l2tp na OpenWrt ? Poniższa konfiguracja działa z Androidem&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

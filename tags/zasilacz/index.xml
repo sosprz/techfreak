@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zasilacz on techfreak blog</title>
+    <link>https://techfreak.pl/tags/zasilacz/</link>
+    <description>Recent content in zasilacz on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Mon, 04 Apr 2016 05:23:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/zasilacz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rozbieramy!  Zasilacz wysoko-napięciowy.</title>
+      <link>https://techfreak.pl/rozbieramy-zasilacz-wysoko-napieciowy/</link>
+      <pubDate>Mon, 04 Apr 2016 05:23:05 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/rozbieramy-zasilacz-wysoko-napieciowy/</guid>
+      <description>&lt;p&gt;Witam. Dzisiaj chciałbym przedstawić wnętrze urządzenia laboratoryjnego z którym na co dzień nie można się spotkać a jako że miałem okazje… postanowiłem zajrzeć do środka i zobaczyć szczegóły konstrukcyjne bo wiadomo – wszystko co ma naklejkę &lt;strong&gt;grożącą śmiercią&lt;/strong&gt; i ostrzegającą o &lt;strong&gt;nie przekraczaniu 5KV&lt;/strong&gt; jest ciekawe.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

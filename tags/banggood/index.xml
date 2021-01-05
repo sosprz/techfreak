@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>banggood on techfreak blog</title>
+    <link>https://techfreak.pl/tags/banggood/</link>
+    <description>Recent content in banggood on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 06 Dec 2015 20:31:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/banggood/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lisam LS-180 czyli QAV 180</title>
+      <link>https://techfreak.pl/lisam-ls-180-czyli-qav-180/</link>
+      <pubDate>Sun, 06 Dec 2015 20:31:28 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/lisam-ls-180-czyli-qav-180/</guid>
+      <description>&lt;p&gt;Szaleństwo na mini koptery klasy 250 może jeszcze nie minęło ale jest powoli wypierane na rzecz mniejszych i to nie koniecznie słabszych dronów klasy mini/micro. Zobacz mój kolejny log z budowy quadcoptera mini 180 na ramie Lisam LS-180.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Super mini micro quadcopter WLtoys V272</title>
+      <link>https://techfreak.pl/super-mini-micro-quadcopter-wltoys-v272/</link>
+      <pubDate>Fri, 26 Dec 2014 06:00:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/super-mini-micro-quadcopter-wltoys-v272/</guid>
+      <description>&lt;p&gt;No i znowu quadcopter! Tak tym razem trafił do mnie mini nano quadcopter WLtoys V272 z banggooda za 15$ o wymiarach 4,5×4,5 cm i wadze 13 gram.  Jest to model BNF (Bind and Fly) bez aparatury. To maleństwo paruje się w kontrolerem który już posiadam od innego quadcopterka Wltoys V222 o którym pisałem kiedyś &lt;a href=&#34;http://techfreak.pl/mini-quadcopter-wltoys-v222-fajna-zabawka-na-poczatek/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TU&lt;/a&gt;. Małe rozmiary nie oznaczają słabej specyfikacji bo na pokładzie znajduje się 32-bitowy ARM 24MHZ i bardzo popularny układ z żyroskopem i akcelerometrem MPU-6050 który znajduje się w wielu kontrolerach lotu (FC).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini samochodziki z puszek czy to fajne?</title>
+      <link>https://techfreak.pl/mini-samochodziki-z-puszek-czy-to-fajne/</link>
+      <pubDate>Thu, 06 Feb 2014 16:00:40 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-samochodziki-z-puszek-czy-to-fajne/</guid>
+      <description>&lt;p&gt;Przy okazji zakupu taniej elektroniki z banggoda postanowiłem kupić też dwa mini zdalnie sterowane samochodziki, które wraz z aparaturą mieszczą się w pudełku w kształcie puszki.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

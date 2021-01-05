@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HGLRC on techfreak blog</title>
+    <link>https://techfreak.pl/tags/hglrc/</link>
+    <description>Recent content in HGLRC on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 15 Aug 2018 19:53:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/hglrc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HGLRC Hornet 120 Szybki mikrus!</title>
+      <link>https://techfreak.pl/hglrc-hornet-120/</link>
+      <pubDate>Wed, 15 Aug 2018 19:53:07 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/hglrc-hornet-120/</guid>
+      <description>&lt;p&gt;Czy mniejszy quadkopter wyścigowy to tylko zabawka do domu? Zobacz HGLRC Hornet 120 na 2.5″ śmigłach.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mikro dron HGLRC XJB-145</title>
+      <link>https://techfreak.pl/mikro-dron-hglrc-xjb-145/</link>
+      <pubDate>Wed, 07 Feb 2018 19:17:10 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mikro-dron-hglrc-xjb-145/</guid>
+      <description>&lt;p&gt;W dronowym świecie jak zawsze do przodu! Tym razem parę słów o mikro HGLRC XJB-145 czyli miniaturyzacja wyścigówek!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

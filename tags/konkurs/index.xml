@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>konkurs on techfreak blog</title>
+    <link>https://techfreak.pl/tags/konkurs/</link>
+    <description>Recent content in konkurs on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Mon, 22 Aug 2016 08:59:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/konkurs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wygraj drony na techfreak!</title>
+      <link>https://techfreak.pl/wygraj-drony-techfreak/</link>
+      <pubDate>Mon, 22 Aug 2016 08:59:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wygraj-drony-techfreak/</guid>
+      <description>&lt;p&gt;UWAGA KONKURS! Do wygrania dwa drony!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>KAmod proste sterowanie urządzeniami [konkurs]</title>
+      <link>https://techfreak.pl/kamod-proste-sterowanie-urzadzeniami-na-raspberry-pi-konkurs/</link>
+      <pubDate>Wed, 24 Jun 2015 20:11:05 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/kamod-proste-sterowanie-urzadzeniami-na-raspberry-pi-konkurs/</guid>
+      <description>&lt;p&gt;Hej, dziś taki mały test modułu z dwoma przekaźnikami do Raspberry PI o nazwie KAmod. A na końcu niespodzianka.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Techfreak rozdaje gadżety!</title>
+      <link>https://techfreak.pl/techfreak-rozdaje-gadzety/</link>
+      <pubDate>Wed, 10 Jul 2013 09:34:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/techfreak-rozdaje-gadzety/</guid>
+      <description>Hej, dziś mam dla czytających techfreak gadżety które chciałbym wam podarować. Jedynym warunkiem jaki trzeba spełnić to napisać w komentarzach poniżej jakich czytników RSS (mobilnych też) używacie po zamknięciu Google Readera. Najlepsze komentarze będą brane pod uwagę w losowaniu trzech poniższych upominków w niedziele wieczorem (14.07.2013).
+Osoba która zostanie wylosowana jako pierwsza otrzyma długopis 4 w 1: Pamieć USB, laser, latarka, długopis.
+
+Dwie kolejne otrzymają po koszulce AIRLIVE. Dostępne rozmiary to L i XL.</description>
+    </item>
+    
+  </channel>
+</rss>

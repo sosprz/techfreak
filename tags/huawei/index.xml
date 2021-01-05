@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HUAWEI on techfreak blog</title>
+    <link>https://techfreak.pl/tags/huawei/</link>
+    <description>Recent content in HUAWEI on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 27 Oct 2015 14:26:39 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/huawei/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Huawei P8 Lite – mniejszy, odchudzony, ale czy gorszy?</title>
+      <link>https://techfreak.pl/huawei-p8-lite-mniejszy-odchudzony-ale-czy-gorszy/</link>
+      <pubDate>Tue, 27 Oct 2015 14:26:39 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/huawei-p8-lite-mniejszy-odchudzony-ale-czy-gorszy/</guid>
+      <description>&lt;p&gt;Po bardzo udanym debiucie P8, Huawei postanowiło wypuścić na rynek mniejszy i nieco okrojony model Huawei P8 Lite. Czy mniejszy z braci okaże się także udanym smartfonem?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WiFi w stylu mobilnym – HUAWEI E5377</title>
+      <link>https://techfreak.pl/wifi-w-stylu-mobilnym-huawei-e5377/</link>
+      <pubDate>Sun, 26 Jul 2015 11:49:37 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wifi-w-stylu-mobilnym-huawei-e5377/</guid>
+      <description>&lt;p&gt;Każdy, kto choć trochę porusza się w świece nowych technologii nie wyobraża sobie braku komunikacji radiowej jaką gwarantuje WiFi. Co więcej, coraz częściej znajdujemy tą właśnie technologię w sprzętach, które nie są stworzone do przesyłu danych (np. lodówki, pralki).&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

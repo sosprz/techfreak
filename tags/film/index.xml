@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>film on techfreak blog</title>
+    <link>https://techfreak.pl/tags/film/</link>
+    <description>Recent content in film on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 05 Aug 2015 14:10:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/film/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Terminator Genisis</title>
+      <link>https://techfreak.pl/terminator-genisis/</link>
+      <pubDate>Wed, 05 Aug 2015 14:10:31 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/terminator-genisis/</guid>
+      <description>&lt;p&gt;Premiera najnowszego filmu Terminator Genisis odbyła się pierwszego lipca, ja jeszcze nie oglądałem. Nawet nie miałem w planach ale po obejźeniu poniższego filmu w którym widać jak były tworzone roboty i efekty specjalne. Warto się zastanowić czy może jednak jeszcze nie wybrać się do kin o ile jeszcze grają.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hobbit efekty specjalne</title>
+      <link>https://techfreak.pl/hobbit-efekty-specjalne/</link>
+      <pubDate>Mon, 17 Dec 2012 19:03:00 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/hobbit-efekty-specjalne/</guid>
+      <description>Na jednym z portali internetowych znalazłem filmik jak tworzono efekty specjalne do nowego filmu Hobbit. Jakoś nie zdawałem sobie sprawy ile efektów, postaci i rzeczy jest tworzonych komputerowo. Wpadł mi kiedyś do przeglądarki filmik który pokazywał jak są tworzone zamki w Grze o Tron ale ten poniżej ukazuje jeszcze więcej, od postaci po nóż trola. Warto zobaczyć jak teraz robi się filmy :)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry pi on techfreak blog</title>
+    <link>https://techfreak.pl/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry pi on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 06 Oct 2018 19:19:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak używać DD z monitorowaniem postępu?</title>
+      <link>https://techfreak.pl/linux-dd-monitorowanie-postepu/</link>
+      <pubDate>Sat, 06 Oct 2018 19:19:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/linux-dd-monitorowanie-postepu/</guid>
+      <description>&lt;p&gt;Zawsze zapominam jak włączyć monitorowanie postępu gdy używam dd!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak monitorować systemy i robić to dobrze?</title>
+      <link>https://techfreak.pl/monitorowac-systemy-robic-dobrze/</link>
+      <pubDate>Sun, 29 Oct 2017 18:19:24 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/monitorowac-systemy-robic-dobrze/</guid>
+      <description>&lt;p&gt;Jak dobrze monitorować systemy, zbierać i wyświetlać dane tak aby wszystko było podane jak na tacy? Zacząć używać monitoringu &lt;a href=&#34;https://github.com/firehol/netdata&#34;&gt;Netdata&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry PI Zero z WiFi na stałe!</title>
+      <link>https://techfreak.pl/raspberry-pi-zero-wifi-stale/</link>
+      <pubDate>Fri, 09 Dec 2016 20:12:15 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-zero-wifi-stale/</guid>
+      <description>&lt;p&gt;Czego brakuje w Raspberry Pi Zero do szczęścia? Wbudowanego modułu wifi!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tani modem GSM M590E z aliexpress</title>
+      <link>https://techfreak.pl/tani-modem-gsm-m590e-aliexpress/</link>
+      <pubDate>Tue, 09 Aug 2016 20:26:16 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/tani-modem-gsm-m590e-aliexpress/</guid>
+      <description>&lt;p&gt;Zapraszam na krótką ale zakończoną sukcesem historię taniego modemu GSM M590E z aliexpress.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>BME280 czujnik wilgotności, temperatury, ciśnienia</title>
+      <link>https://techfreak.pl/bme280-czujnik-wilgotnosci-temperatury-cisnienia/</link>
+      <pubDate>Mon, 01 Aug 2016 17:13:31 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/bme280-czujnik-wilgotnosci-temperatury-cisnienia/</guid>
+      <description>&lt;p&gt;Dziś parę słów na temat taniego czujnika temperatury, wilgotności i ciśnienia BME280.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &#43; oled ssd1306</title>
+      <link>https://techfreak.pl/raspberry-pi-oled-ssd1306/</link>
+      <pubDate>Sat, 14 May 2016 20:13:25 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-oled-ssd1306/</guid>
+      <description>&lt;p&gt;Dziś mały wstęp do pracy z Raspberry Pi i LCD OLED o rozdzielczości 128×64 i przekątnej 0,96″ na szynie I2C.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emulacja Raspberry Pi na QEMU</title>
+      <link>https://techfreak.pl/emulacja-raspberry-pi-qemu/</link>
+      <pubDate>Thu, 07 Apr 2016 06:45:03 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/emulacja-raspberry-pi-qemu/</guid>
+      <description>&lt;p&gt;Chociaż każdy może zakupić Raspberry Pi w całkiem niskiej cenie to czasem może zdarzyć się sytuacja, że zajdzie potrzeba emulacji tego mini komputerka na maszynie wirtualnej. Poniżej pokaże jak emulować Raspberry Pi na QEMU.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bezprzewodowe czujniki wilgotności &#43; pomiar napięcia</title>
+      <link>https://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/</link>
+      <pubDate>Wed, 16 Mar 2016 06:38:21 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/</guid>
+      <description>&lt;p&gt;W projekcie nettemp dużo się dzieje. Co chwilę wraz z społecznością na forum dokładamy nowe funkcjonalności albo poprawiamy stare elementy. Dziś chciałbym przestawić wam jeden ciekawy wątek na forum który cieszy się popularnością. Chodzi o temat &lt;a href=&#34;http://nettemp.pl/forum/viewtopic.php?f=8&amp;t=702&#34; target=&#34;_blank&#34;&gt;[DIY] Urządzenia WiFi dla NetTemp&lt;/a&gt; w którym to użytkownicy zaprojektowali swoje płytki PCB oraz napisali oprogramowanie do układów ESP8266.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry PI Zero konfiguracja WiFi</title>
+      <link>https://techfreak.pl/raspberry-pi-zero-konfiguracja-wifi/</link>
+      <pubDate>Fri, 04 Mar 2016 20:14:15 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-zero-konfiguracja-wifi/</guid>
+      <description>&lt;p&gt;Właśnie dziś dostałem Raspberry Pi Zero, najmniejszą dostępną wersje z mini komputerków z pod znaku malinki. Goła wersja przychodzi bez pinów, i bez kabelków. Jak więc skonfigurować malinkę aby po podłączeniu WiFi na USB automatycznie połączyła się ona do sieci?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nettemp Pi Hat nowy moduł dla Raspberry Pi</title>
+      <link>https://techfreak.pl/nettemp-pi-hat-nowy-modul-dla-raspberry-pi/</link>
+      <pubDate>Mon, 15 Feb 2016 16:28:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-pi-hat-nowy-modul-dla-raspberry-pi/</guid>
+      <description>&lt;p&gt;Miło mi poinformować że powstał nowy moduł dla Raspberry Pi, nettemp Pi Hat który który dedykowany jest pod mój projekt &lt;a href=&#34;http://nettemp.pl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nettemp&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;Edit 2018.08.22: Moduł nie działa z Raspberry Pi 3+&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi zero klaster</title>
+      <link>https://techfreak.pl/raspberry-pi-zero-klaster/</link>
+      <pubDate>Wed, 27 Jan 2016 06:12:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-zero-klaster/</guid>
+      <description>&lt;p&gt;Raspberry Pi zero to kolejna wersja mini komputera w jeszcze mniejszej odsłonie. Zero zdobywa popularność nie tylko ze względu na swoje wymiary ale i cenę. Cena została ogłoszona na poziomie 5 dolarów ale niestety u nas jest nie realna, polscy DIY mogą zakupić ją za ok 72zl z przesyłką z UK.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Autonomiczny samochód RC</title>
+      <link>https://techfreak.pl/autonomiczny-samochod-rc/</link>
+      <pubDate>Mon, 18 Jan 2016 15:34:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/autonomiczny-samochod-rc/</guid>
+      <description>&lt;p&gt;Zobacz bardzo fajny projekt autonomicznego samochodu RC kontrolowanego przez Raspberry Pi i Arduino.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nettemp mapa rozmieszczenia czujników</title>
+      <link>https://techfreak.pl/nettemp-mapa-rozmieszczenia-czujnikow/</link>
+      <pubDate>Wed, 13 Jan 2016 19:07:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-mapa-rozmieszczenia-czujnikow/</guid>
+      <description>&lt;p&gt;Tym razem prezentacja nowej funkcji w moim projekcie inteligentnego domu – &lt;a href=&#34;http://techfreak.pl/nettemp/&#34;&gt;nettemp&lt;/a&gt;. Mapa rozmieszczenia czujników to nowa opcja którą można znaleźć w wersji beta.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Miernik zużycia energii elektrycznej SDM120</title>
+      <link>https://techfreak.pl/miernik-zuzycia-energii-elektrycznej-sdm120/</link>
+      <pubDate>Sun, 03 Jan 2016 15:17:38 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/miernik-zuzycia-energii-elektrycznej-sdm120/</guid>
+      <description>&lt;p&gt;Dziś wpis dotyczący miernika energii elektrycznej SDM120 z pomocą którego można zobrazować zużycie prądu w domu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &#43; WiFi</title>
+      <link>https://techfreak.pl/raspberry-pi-wifi/</link>
+      <pubDate>Fri, 27 Nov 2015 18:49:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-wifi/</guid>
+      <description>&lt;p&gt;Pisałem już parę razy jak skonfigurować kartę WiFi na USB pod Raspberry PI i tym razem napisze jak to się robi na Raspbianie. Na najnowszych obrazach jest to całkiem proste i robi się to w jednym pliku.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Orange Pi konkurencja dla Raspberry Pi</title>
+      <link>https://techfreak.pl/orange-pi-konkurencja-dla-raspberry-pi/</link>
+      <pubDate>Wed, 02 Sep 2015 13:30:17 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/orange-pi-konkurencja-dla-raspberry-pi/</guid>
+      <description>&lt;p&gt;Konkurencja dla Raspberry Pi rośnie w siłę dzięki Orange Pi, który jest tematem wielu dyskusji z powodu ceny i specyfikacji. Orange Pi to nowy mini komputer przypominający Raspberry Pi i posiadający bardzo dobrą specyfikację jak na swoje wymiary. Orange Pi to płytka zbudowana przez Shenzhen Xunlong Software CO., Limited. Na samym &lt;a href=&#34;http://www.aliexpress.com/store/product/Orange-Pi-PC-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry-Pi-2/1553371_32448079125.html&#34; target=&#34;_blank&#34;&gt;aliexpress&lt;/a&gt; na tą chwile została zakupiona 1474 razy. Oficjalna strony projektu to orangepi.com na którą niestety nie można się dostać. Pewnie producent nie zabezpieczył się na przyjęcie takiej liczny zainteresowanych.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domowy alarm na Raspberry PI</title>
+      <link>https://techfreak.pl/domowy-alarm-na-raspberry-pi/</link>
+      <pubDate>Tue, 30 Jun 2015 05:59:46 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/domowy-alarm-na-raspberry-pi/</guid>
+      <description>&lt;p&gt;Przy okazji grzebania w pudle z różnymi częściami elektronicznymi trafiłem na czujkę ruchu (&lt;a href=&#34;https://pl.wikipedia.org/wiki/PIR_%28czujnik_ruchu%29&#34;&gt;PIR&lt;/a&gt;). Kiedyś napisałem na Arduino alarm domowy, który załączał alarm głosowy i powiadomienia SMS gdy został wykryty ruch w mieszkaniu. Uzbrajanie i rozbrajanie alarmu działało on kartę RFID. W sumie projekt fajny ale nigdy go nie wdrożyłem. Natomiast została mi czujka.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>KAmod proste sterowanie urządzeniami [konkurs]</title>
+      <link>https://techfreak.pl/kamod-proste-sterowanie-urzadzeniami-na-raspberry-pi-konkurs/</link>
+      <pubDate>Wed, 24 Jun 2015 20:11:05 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/kamod-proste-sterowanie-urzadzeniami-na-raspberry-pi-konkurs/</guid>
+      <description>&lt;p&gt;Hej, dziś taki mały test modułu z dwoma przekaźnikami do Raspberry PI o nazwie KAmod. A na końcu niespodzianka.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Retropie i TFT LCD 2.8. 320×240</title>
+      <link>https://techfreak.pl/retropie-i-tft-lcd-2-8-320x240/</link>
+      <pubDate>Mon, 08 Jun 2015 19:58:34 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/retropie-i-tft-lcd-2-8-320x240/</guid>
+      <description>&lt;p&gt;Duke Nukem 3D to chyba pierwsza gra w jaką grałem na PC. Pamiętam całą bandą przyłaziliśmy pograć do koleżanki, bo jako jedyna na osiedlu miała jakiegoś lepszego kompa (P1 133Mhz??). I tak to jest, że staruszki lubią sobie powspominać o starych czasach. Takie przemyślenia też pewnie miał twórca projektu Retropie który ma na celu zamienić Raspberry Pi w małą konsolkę na której można pograć w stare gry jak Quake, Doom, Mario, Tanks, Galaga. Generalnie Retropie skupia w sobie emulatory gier Amiga, Atari, PSX1, Game Boy, NES, SNES, PC. Po prostu całkiem niezła gratka dla fanów starych gier.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LCD TFT 2.8 dla Raspberry Pi</title>
+      <link>https://techfreak.pl/lcd-tft-2-8-dla-raspberry-pi/</link>
+      <pubDate>Thu, 28 May 2015 19:19:42 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/lcd-tft-2-8-dla-raspberry-pi/</guid>
+      <description>&lt;p&gt;Wszelkie nakładki czy to Arduino czy Raspberry Pi to zawsze coś fajnego, coś co ułatwia budowę naprawdę fajnych projektów. W moje ręce wpadła bardzo fajna nakładka &lt;strong&gt;&lt;a href=&#34;https://kamami.pl/wyswietlacze-do-raspberry-pi/210936-pitft-mini-kit---320x240-28-tfttouchscreen-for-raspberry-pi.html&#34; target=&#34;_blank&#34;&gt;LCD TFT 2.8 320×240 na Raspberry Pi&lt;/a&gt;&lt;/strong&gt;. Sam lubię ułatwiać sobie życie, czy to gotowymi skryptami czy obrazami. I aby uruchomić ten wyświetlacz trzeba tylko wgrać odpowiedni image na kartę SD.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi PoE</title>
+      <link>https://techfreak.pl/raspberry-pi-poe/</link>
+      <pubDate>Wed, 27 May 2015 21:01:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-poe/</guid>
+      <description>&lt;p&gt;Dwóch rzeczy mi zawsze brakowało w Raspberry Pi, wbudowanej karty bezprzewodowej (wifi) i zasilania po sieci czyli Power Over Ethernet (PoE). O ile może kiedyś się doczekam wersji Raspberry Pi z wifi to do realizacji funkcji PoE mógłbym zastosować nowy projekt nakładki Pi PoE Switch HAT który właśnie wystartował na &lt;a href=&#34;https://www.kickstarter.com/projects/pisupply/pi-poe-switch-hat-power-over-ethernet-for-raspberr&#34; target=&#34;_blank&#34;&gt;kickstarter&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OpenSwan VPN – troubleshooting</title>
+      <link>https://techfreak.pl/openswan-vpn-troubleshooting/</link>
+      <pubDate>Wed, 20 May 2015 14:48:22 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/openswan-vpn-troubleshooting/</guid>
+      <description>&lt;p&gt;Dziś kolejny wpis na temat IPsec VPN a dokładnie trochę o konfiguracji OpenSwan który jest trochę bardziej popularny niż LibreSwan (fork) o którym pisałem &lt;a href=&#34;http://techfreak.pl/libreswan-konfiguracja-vpn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ostatnio&lt;/a&gt;. W zasadzie konfiguracja nie będzie się wiele różnić dlatego napisze coś o problemach przy zestawianiu takiego połączenia. Osobiście zestawiałem takie połączenia np. z &lt;a href=&#34;http://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-na-checkpoint-r65/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;checkpointem&lt;/a&gt;, &lt;a href=&#34;http://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-dla-cisco-do-urzadzen-innych-niz-cisco/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cisco&lt;/a&gt; czy &lt;a href=&#34;http://techfreak.pl/ipsec-vpn-racoon-site-2-site/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;racoon&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>EasyEDA program do projektowania PCB</title>
+      <link>https://techfreak.pl/easyeda-program-do-projektowania-pcb/</link>
+      <pubDate>Sat, 18 Apr 2015 19:39:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/easyeda-program-do-projektowania-pcb/</guid>
+      <description>&lt;p&gt;Ile razy to ja się zabierałem za projektowanie PCB to już nie pamiętam. Zawsze jakoś ciężko było ogarnąć jakiś program, a jest ich całkiem sporo EAGLE, KiCAD i chyba najprostszy FRITZING. Samo wytrawianie płytek z gotowych projektów sprawiało mi frajdę i jest to całkiem proste. Ostatnio w moim projekcie nettemp pojawiły się czujniki bezprzewodowe na ESP8266 i potrzebowałem swojej płytki do szybkiego testowania i wgrywania programów. Oczywiście złożyłem jednego pająka na płytce uniwersalnej co można zobaczyć w &lt;a href=&#34;http://techfreak.pl/tag/nettemp/&#34; target=&#34;_blank&#34;&gt;ostatnich wpisach&lt;/a&gt; ale potrzebuje takich klika. A, że wolę zastosować pętle niż powtarzać parę razy to samo,  musiałem w końcu zaprojektować swoją płytkę do testowania ESP8266. I tak trafiłem na EasyEDA.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Allwinner A13 mini komputer z tabletu</title>
+      <link>https://techfreak.pl/allwinner-a13-mini-komputer-z-tabletu/</link>
+      <pubDate>Mon, 22 Dec 2014 16:12:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/allwinner-a13-mini-komputer-z-tabletu/</guid>
+      <description>&lt;p&gt;Kiedyś robiłem recenzję tabletu Manta MID8S, taki tani tablet za 150 zł z hipermarketu. Szczerze to nadawał się tylko dla dzieciaków na bajki nawet proste gry zacinały. Ostatnio spadł mi z ok 2 metrów na ziemie i jak można się domyślać ekran pękł. Naprawa nawet nie przyszła mi do głowy z oczywistych względów. Natomiast szybko zadałem sobie pytanie „a może jakiegoś linucha tam wgram? może ma dostępne gpio, I2C? Po przeszukaniu całego internetu znalazłem nawet gotowe obrazy na kartę SD. Zabawa się zaczęła..&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bezprzewodowe czujniki na ESP8266 &#43; nettemp</title>
+      <link>https://techfreak.pl/bezprzewodowe-czujniki-na-esp8266-nettemp/</link>
+      <pubDate>Fri, 12 Dec 2014 06:37:07 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/bezprzewodowe-czujniki-na-esp8266-nettemp/</guid>
+      <description>&lt;p&gt;Po ostatnim &lt;a href=&#34;http://techfreak.pl/bezprzewodowe-czujniki-temperatury-ds18b20-na-esp8266/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;artykule&lt;/a&gt; na temat bezprzewodowych czujników DS18b20 na układzie ESP8266 który był podłączony do bateryjki CR2032. Dziś chciałbym odpowiedzieć na parę pytań które urodziły się w tamtym czasie i pokazać wam jak działają bezprzewodowe czujniki z nettemp.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi RTC DS1307 &#43; nettemp</title>
+      <link>https://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/</link>
+      <pubDate>Wed, 10 Dec 2014 15:30:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/</guid>
+      <description>&lt;p&gt;Podobno tej jednej funkcji brakuje w Raspberry Pi najbardziej, podtrzymania czasu rzeczywistego za pomocą bateryjki. Razpberry Pi nie zostało wyposażone w RTC pewnie z tego powodu że istnieje alternatywa w postacji NTP. Jednak czasem z różnych powodów RTC jest potrzebne i poniżej pokażę jak podłączyć i zainstalować taki moduł w Raspberry Pi.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi B&#43;</title>
+      <link>https://techfreak.pl/raspberry-pi-b/</link>
+      <pubDate>Wed, 12 Nov 2014 15:22:48 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-b/</guid>
+      <description>&lt;p&gt;Hej tym razem o Raspberry Pi B+, czyli o nowym lepszym modelu mini komputerka w tej samej cenie. Sam obecnie posiadam trzy sztuki RPi, dwóch z nich używam do projektu &lt;a href=&#34;https://techfreak.pl/nettemp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nettemp&lt;/a&gt;. Na jednej testuje nowe funkcje a druga zbiera dane z czujników w mieszkaniu i steruje ogrzewaniem. A trzecia słuzy jako wideo player z systemem &lt;a href=&#34;https://techfreak.pl/xbmc-raspberry-pi-autoplay-folderu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenElec dla dzieciaków&lt;/a&gt;. Trochę potestowałem nową wersje B+ i podzielę się z wami wrażeniami.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zrobić dostęp do Raspberry Pi po Wifi</title>
+      <link>https://techfreak.pl/zrobic-dostep-raspberry-pi-wifi/</link>
+      <pubDate>Wed, 29 Oct 2014 06:33:48 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zrobic-dostep-raspberry-pi-wifi/</guid>
+      <description>&lt;p&gt;Przy okazji prezentacji programu &lt;a href=&#34;https://github.com/sosprz/nettemp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nettemp&lt;/a&gt; na &lt;a href=&#34;http://techfreak.pl/foto-relacja-freemake-2014/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeMake w Gdyni&lt;/a&gt; musiałem dać zdalny dostęp do Raspberry Pi po WiFi. Zabranie routera ze sobą było by najlepszym wyjściem. Podłączył bym RPi do routera i każdy miał by dostęp do strony www z nettempem. Pojawił się jeden problem rozwiązywanie nazw. Na zwykłym routerze nie postawie prostego DNS a na wgrywanie OpenWRT do mojego WR1043N nie miałem czasu. Wtedy wpadłem na pomysł że przecież zrobię z RPi access pointa.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Moduł nettemp do Raspberry Pi</title>
+      <link>https://techfreak.pl/modul-nettemp-raspberry-pi/</link>
+      <pubDate>Tue, 21 Oct 2014 18:47:41 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/modul-nettemp-raspberry-pi/</guid>
+      <description>&lt;p&gt;Hej, czas na przedstawienie kolejnego etapu projektu nettemp. Nie są to nowe funkcje samego programu, chociaż ostatnio przybyło dużo nowych czujników, poprawek i opcji w a w szczególności system &lt;a href=&#34;http://forum.techfreak.pl/viewtopic.php?f=5&amp;t=175&#34; target=&#34;_blank&#34;&gt;Nettemp USB&lt;/a&gt;. Tym razem jest to nakładka/shield na Raspberry Pi którą stworzyłem wraz z &lt;a href=&#34;http://modulowo.com/pl/&#34; target=&#34;_blank&#34;&gt;modulowo.com&lt;/a&gt;. Cel był prosty stworzyć prostą płytkę ułatwiającą użytkowanie systemu nettemp. Koniec z lutowaniem przekaźników na płytkach prototypowych i szukania GPIO ;).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FRE3MAKE – trójmiejskie forum twórców domowej elektroniki i fabrykacji</title>
+      <link>https://techfreak.pl/fre3make-trojmiejskie-forum-tworcow-domowej-elektroniki-fabrykacji/</link>
+      <pubDate>Tue, 30 Sep 2014 11:04:26 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/fre3make-trojmiejskie-forum-tworcow-domowej-elektroniki-fabrykacji/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;25 października 2014 r. w Nowych Prototypowniach PPNT Gdynia odbędzie się spotkanie integrujące społeczność użytkowników elektroniki, robotyki, fabrykacji i entuzjastów nowych technologii.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nettemp &#43; I2C &#43; BMP180 &#43; TSL2561 &#43; DS2482</title>
+      <link>https://techfreak.pl/nettemp-i2c-bmp180-tsl2561-ds2482/</link>
+      <pubDate>Tue, 23 Sep 2014 10:20:08 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-i2c-bmp180-tsl2561-ds2482/</guid>
+      <description>&lt;p&gt;Ostatnio trochę więcej wolnego czasu spędzam na projekcie &lt;a href=&#34;http://techfreak.pl/nettemp/&#34; target=&#34;_blank&#34;&gt;nettemp&lt;/a&gt;. Czyli mojej małej platformie do odczytu temperatur, wilgotności i sterowaniu urządzeniami poprzez przekaźniki. Najlepszą platformą dla nettemp jest Raspberry Pi ale nie ma żadnych przeszkód aby to był np. PC z Debianem.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>nettemp 7.7 openvpn firewall snmp client htpasswd</title>
+      <link>https://techfreak.pl/nettemp-7-7-openvpn-firewall-snmp-client-htpasswd/</link>
+      <pubDate>Mon, 01 Sep 2014 14:15:42 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-7-7-openvpn-firewall-snmp-client-htpasswd/</guid>
+      <description>&lt;p&gt;Hej, wypuściłem nową wersję nettempa z paroma nowymi funkcjami. Przede wszystkim skupiłem się tym razem na poprawie bezpieczeństwa i zdalnym dostępie. Dużo użytkowników pisze do mnie a żebym u nich coś zobaczył albo po prostu piszą „hej nettemp u mnie jest pod tym adresem IP”.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Astrogun na Raspberry PI</title>
+      <link>https://techfreak.pl/astrogun-raspberry-pi/</link>
+      <pubDate>Tue, 12 Aug 2014 06:14:42 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/astrogun-raspberry-pi/</guid>
+      <description>&lt;p&gt;Hej, zobaczcie kolejny ciekawy projekt na Raspberry Pi o nazwie Astrogun. Jest to strzelanka w której gracz strzela do nadlatujących asteroid. Sercem jest Raspberry PI, ruch odczytywany jest przy pomocy akcelerometru i zyroskopu (MPU 9150). A obraz jest odbijany z LCD na ciekawym szkle które jest przezroczyste ale też potrafi odbijać obraz jak lustro.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Quadcopter na Raspberry Pi</title>
+      <link>https://techfreak.pl/quadcopter-na-raspberry-pi/</link>
+      <pubDate>Sun, 27 Jul 2014 18:18:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/quadcopter-na-raspberry-pi/</guid>
+      <description>&lt;p&gt;To było nie do uniknięcia że to co było kiedyś sterowane przez pierwsze wersje arduino teraz będzie przenoszone na coraz to bardziej zaawansowane platformy z większymi możliwościami. Chodzi dokładnie o quadcopter który wykorzystuje Raspberry Pi jako jednostkę sterującą. Wiadomo że Raspberry Pi nie ma żyroskopu ani akcelerometru więc niezbędne komponenty takie jak IMU 10DOF są podłączone do GPIO a dokładnie do szyny I2C. Zresztą jak cała reszta dodatkowych komponentów jak GPS, czy płytka do sterowania PWM. Raspberry Pi ma tylko jedno wyjście PWM a potrzeba czterech na kontrolery silników ESC.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Gameboy Pocket mod</title>
+      <link>https://techfreak.pl/raspberry-pi-gameboy-pocket-mod/</link>
+      <pubDate>Fri, 06 Jun 2014 14:03:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-gameboy-pocket-mod/</guid>
+      <description>&lt;p&gt;Raspberry Pi Gameboy Pocket mod to kolejny zdumiewający mod z Raspberry Pi w roli głównej. Autor projektu dosłownie wcisną w obudowę po Gameboy’u nie tylko Rpi, ale i  Teensy do obsługi przycisków, LCD 480 x 234, dwa regulatory napięcia, wzmacniacz do głośniczka, suwak do głośności i baterię Li-Ion.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nettemp – funkcja UPS status</title>
+      <link>https://techfreak.pl/nettemp-funkcja-ups-status/</link>
+      <pubDate>Wed, 21 May 2014 03:30:58 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-funkcja-ups-status/</guid>
+      <description>&lt;p&gt;Jak wiesz co jakiś czas rozwijam nettempa o jakieś nowe funkcje. Lista funkcji które są do zrobienia jest naprawdę długa. Nad niektórymi cały czas pracuje a niektóre wprowadzam wcześniej. I dziś chciał bym zaprezentować funkcje UPS status która prezentuje status podłączonego UPS poprzez port USB.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Xbmc &#43; Raspberry Pi &#43; autoplay z folderu</title>
+      <link>https://techfreak.pl/xbmc-raspberry-pi-autoplay-folderu/</link>
+      <pubDate>Tue, 20 May 2014 05:47:42 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/xbmc-raspberry-pi-autoplay-folderu/</guid>
+      <description>&lt;p&gt;Nadchodzi taki czas w życiu mężczyzny kiedy musi oddać swoim dzieciakom telewizor i Raspberry Pi. Dzieciaki dorastają zaczynają programować, lutować i prosić o kasę na nową elektronikę z chin. Szybsze laptopy, większe dyski i szybsze smartfony z Androidem 5.4.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Proxy po ssh czyli zawsze wychodzę z tego samego IP</title>
+      <link>https://techfreak.pl/proxy-po-ssh-czyli-zawsze-wychodze-z-tego-samego-ip/</link>
+      <pubDate>Tue, 06 May 2014 18:58:14 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/proxy-po-ssh-czyli-zawsze-wychodze-z-tego-samego-ip/</guid>
+      <description>&lt;p&gt;Dziś chciałbym pokazać wam ja wykorzystać sytuację w której posiadacie swojego hosta gdzieś w firmie lub w domu i chcecie korzystać właśnie z niego ze względu na IP a nie ma was na miejscu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Inteligetny dom czyli nowa wersja nettempa</title>
+      <link>https://techfreak.pl/inteligetny-dom-czyli-nowa-wersja-nettempa/</link>
+      <pubDate>Mon, 03 Feb 2014 14:30:07 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/inteligetny-dom-czyli-nowa-wersja-nettempa/</guid>
+      <description>Cieszę się że tylu użytkowników zaczyna używać nettempa. Nettemp to już nie tylko pomiar temperatury ale pomiar wilgotności i sterowanie przekaźnikami na podstawie zmierzonych wartości. Wiem że jest to alternatywa dla wielu droższych urządzeń i cieszę się ze wam to działa. Forum też się rozrasta i powstają nowe dyskusje. Wszystkie tematy dotyczące nettemp’a zawsze można znaleźć pod tym linkiem http://techfreak.pl/tag/nettemp/
+
+Aktualna wersja to 7.4.8 a poniżej lista zmian.
+Zmiany:</description>
+    </item>
+    
+    <item>
+      <title>Arduino DHT11 LCD testowe pomiary wilgotności</title>
+      <link>https://techfreak.pl/arduino-dht11-lcd-testowe-pomiary-wilgotnosci/</link>
+      <pubDate>Sat, 07 Dec 2013 21:09:48 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/arduino-dht11-lcd-testowe-pomiary-wilgotnosci/</guid>
+      <description>&lt;p&gt;Nawiązując do nowej funkcji nettempa, czyli obsługi czujników wilgotności DHT11, musiałem sobie zbudować tester takich czujników. Najlepiej na Arduino, więc zobaczcie jak to zrobiłem.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nettemp – ulepszona funkcja przekażników</title>
+      <link>https://techfreak.pl/nettemp-ulepszona-funkcja-przekaznikow/</link>
+      <pubDate>Tue, 30 Jul 2013 05:20:36 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-ulepszona-funkcja-przekaznikow/</guid>
+      <description>Od paru dni nie działo się na techfreak nic bo trochę naszło mnie na dopieszczenie nettempa, mojego monitoringu temperatury. Dodatkowo powstało też małe forum na którym chciałbym dyskutować o nettemp i informować co się dzieje z projektem. Ciesze się że te parę osób korzysta z programu i właśnie tam chciałbym skierować wszystkie nasze dyskusje.
+Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaźnikowego modułu okazało się ze jest on sterowany masą co zmusiło mnie do zrobienia drobnych zmian w kodzie tak aby można było sterować przekaźnikami i stanem LOW i HIGH.</description>
+    </item>
+    
+    <item>
+      <title>Utilite kolejny mini komputer do niczego mi potrzebny?</title>
+      <link>https://techfreak.pl/utilite-kolejny-mini-komputer-do-niczego-mi-potrzebny/</link>
+      <pubDate>Fri, 19 Jul 2013 06:29:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/utilite-kolejny-mini-komputer-do-niczego-mi-potrzebny/</guid>
+      <description>&lt;p&gt;Parę dni temu CompuLab zaprezentował Utilite, mini komputer bazujący na procesorze single, dual lub quad-core ARM Cortex-A9, z opcja do 4GB RAM’u i podwójnym wyjściem obrazu dual-head 1080p. Jak dla mnie całkiem fajna opcja z obudową i dwoma portami ethernet. Mini komputery to kierunek w którym wszyscy zmierzają a jednak większość komentarzy jakie czytam pod wpisami z tej kategorii to „po co mi takie coś, małe i nie wydajne”, „takie Raspberry Pi to dla geeków”. Wydajność na pewno jest niższa niż w porównaniu z lapem lub komputerem stacjonarnym ale czy to jest taki minus? Czy przypadkiem po przeliczeniu plusów i minusów rzeczywiście nie opłaca się kupić takiego mini sprzętu za 300 zł?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4196&#34; alt=&#34;Utilitie-isometry&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry.jpg&#34; width=&#34;1600&#34; height=&#34;900&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry.jpg 1600w, http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry-300x168.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1600px) 100vw, 1600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mikrofalówka Raspberry Pi</title>
+      <link>https://techfreak.pl/mikrofalowka-raspberry-pi/</link>
+      <pubDate>Sun, 14 Jul 2013 04:31:48 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mikrofalowka-raspberry-pi/</guid>
+      <description>&lt;p&gt;Kolejny ciekawy projekt na Raspberry Pi to zmodyfikowana mikrofalówka. Autor został zainspirowany dyskusją na &lt;a href=&#34;http://www.reddit.com/r/CrazyIdeas/comments/1djrnx/food_items_should_have_qr_codes_that_instruct_the/&#34; target=&#34;_blank&#34;&gt;reddit&lt;/a&gt; w której była mowa jak to każdy produkt spożywczy powinien mieć kod QR który zawierał by informacje o sposobie przygotowania dania w mikrofalówce. Stwierdził że kod kreskowy był by lepszym rozwiązaniem i wpadł na pomysł aby połączyć domową mikrofalówkę z Raspberry pi która by na podstawie kodów ustalała czas przygotowania. Ostatecznie nie skończyło się tylko na tej jednej funkcji.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Płyta główna Mini-ITX dla Raspberry Pi</title>
+      <link>https://techfreak.pl/plyta-glowna-mini-itx-dla-raspberry-pi/</link>
+      <pubDate>Thu, 04 Jul 2013 19:47:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/plyta-glowna-mini-itx-dla-raspberry-pi/</guid>
+      <description>&lt;p&gt;Tym razem możecie zobaczyć całkiem nowy projekt płyty głównej Mini-ITX dla raspberry Pi który pojawił się na &lt;a href=&#34;kickstarter.com&#34; target=&#34;_blank&#34;&gt;kickstarter.com&lt;/a&gt;. W zasadzie jest to płyta rozszerzeń która zawiera w sobie &lt;strong&gt;hub usb&lt;/strong&gt;, wejśćie &lt;strong&gt;serial port RS232&lt;/strong&gt;, wbudowane sterowanie poprzez &lt;strong&gt;IR&lt;/strong&gt;, zasilanie 3.3V, 5V i 12V, &lt;strong&gt;RTC&lt;/strong&gt; (Real-Time Clock), wbudowany &lt;strong&gt;sensor temperatury&lt;/strong&gt; do sterowania wentylatorem. Na samym końcu listy znajduje się miejsce na &lt;strong&gt;dysk 2.5 cala&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-3943&#34; alt=&#34;raspberry_pi_motherboard_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OpenWRT na Raspberry Pi</title>
+      <link>https://techfreak.pl/openwrt-na-raspberry-pi/</link>
+      <pubDate>Sat, 22 Jun 2013 21:10:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/openwrt-na-raspberry-pi/</guid>
+      <description>&lt;p&gt;Tyle ilu jest użytkowników Raspberry Pi tyle będzie pomysłów na zastosowanie tego maleństwa. Ja pomyślałem że muszę spróbować zainstalować OpenWRT na Raspberry Pi bo wraz ze stabilną wersją Attitude Adjustment, OpenWRT zaczęło je wspierać.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi OpenVPN Android</title>
+      <link>https://techfreak.pl/raspberry-pi-openvpn-android/</link>
+      <pubDate>Wed, 19 Jun 2013 12:21:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-openvpn-android/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;Myślę że szał na Raspberry Pi szybko nie minie a to z powodu niewielkiej ceny za mini komputer a po drugie rzeszy fanów i dużego wsparcia. Raspberry Pi OpenVPN Android w jednej całości to jest to czego sam używam i dlatego postanowiłem napisać poradnik jak skonfigurować OpenVPN na Raspberry Pi i podłączać się do niego smartfonem z Androidem.&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>33 sztuki Raspberry pi w klastrze</title>
+      <link>https://techfreak.pl/33-sztuki-raspberry-pi-w-klastrze/</link>
+      <pubDate>Fri, 24 May 2013 07:52:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/33-sztuki-raspberry-pi-w-klastrze/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;Tym razem Raspberry Pi w klastrze. Człowiek o imieniu Josh zbudował klaster z 33 Rpi gdzie jedna sztuka maliny steruje resztą.&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi zawiesza się? zrób automatyczny restart</title>
+      <link>https://techfreak.pl/raspberry-pi-zawiesza-sie-zrob-automatyczny-restart/</link>
+      <pubDate>Wed, 15 May 2013 06:34:55 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-zawiesza-sie-zrob-automatyczny-restart/</guid>
+      <description>&lt;h4 id=&#34;img-classaligncenter--wp-image-3220-altnettemp_gpio-srchttptechfreakplwp-contentuploads201301nettemp_gpiojpg-width600-height450-srcsethttptechfreakplwp-contentuploads201301nettemp_gpiojpg-1000w-httptechfreakplwp-contentuploads201301nettemp_gpio-300x225jpg-300w-sizesmax-width-600px-100vw-600px-1&#34;&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-3220&#34; alt=&#34;nettemp_GPIO&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg&#34; width=&#34;600&#34; height=&#34;450&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO-300x225.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;raspberry-pi-zawiesza-się--czasem8230&#34;&gt;Raspberry Pi zawiesza się ?! Czasem…&lt;/h4&gt;
+&lt;p&gt;Czasem może zaistnieć taka sytuacja że pracujemy zdalnie na Raspberry PI i puścimy coś co spowoduje zawieszenie. Co zrobić aby RPi samo zrestartowało się w takiej sytuacji ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry PI jako detektor quadkopterów i dronów</title>
+      <link>https://techfreak.pl/raspberry-pi-jako-detektor-quadkopterow-i-dronow/</link>
+      <pubDate>Mon, 06 May 2013 06:13:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-jako-detektor-quadkopterow-i-dronow/</guid>
+      <description>&lt;p&gt;Coraz więcej dronów i quadcopterów nad naszymi głowami a tym samym coraz więcej tych latających szpiegów jest wyposażonych w kamery. Jak się przed tym chronić? Raspberry Pi pomoże.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mega platforma UDOO</title>
+      <link>https://techfreak.pl/mega-platforma-udoo/</link>
+      <pubDate>Tue, 16 Apr 2013 19:03:36 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mega-platforma-udoo/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2819&#34; alt=&#34;udoo_rpi_arduino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34; width=&#34;385&#34; height=&#34;190&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino-300x148.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Prędzej czy później ktoś musiał wpaść na pomysł połączenia Raspberry Pi i platformy Arduino i tak powstał całkiem fajny i wydajny mini komputer UDOO.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi chyba jeszcze nie pływało. Ziphius wodny dron</title>
+      <link>https://techfreak.pl/raspberry-pi-chyba-jeszcze-nie-plywalo-ziphius-wodny-dron/</link>
+      <pubDate>Sat, 16 Mar 2013 23:05:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-chyba-jeszcze-nie-plywalo-ziphius-wodny-dron/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2454&#34; alt=&#34;aquatic_drone_ziphius_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Już niedługo na Kickstarter ma pojawić się wodny dron o nazwie Ziphius. Jest to bez załogowy, zdalnie sterowany, wodny robot z Raspberry Pi i kamerą na pokładzie. Sterowany poprzez tablet z WiFi. Zadebiutował w ten weekend na &lt;a href=&#34;http://www.engadget.com/expand/agenda//&#34; target=&#34;_blank&#34;&gt;engadget expand&lt;/a&gt; w San Francisco.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Zastąp Google Readera Tiny Tiny RSS</title>
+      <link>https://techfreak.pl/zastap-google-readera-tiny-tiny-rss/</link>
+      <pubDate>Sat, 16 Mar 2013 21:20:27 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zastap-google-readera-tiny-tiny-rss/</guid>
+      <description>&lt;p&gt;Jak pewnie wiecie Google postanowiło zamknąć Google Readera i tym samym zaczęły się poszukiwania nowego czytnika RSS, wszystkie portale trąbią co fajnie co nie. Ja na jednym z blogów natrafiłem na fajny całkiem pomysł.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Multi Bootloader dla Raspbery Pi – berryboot</title>
+      <link>https://techfreak.pl/multi-bootloader-dla-raspbery-pi-berryboot/</link>
+      <pubDate>Mon, 25 Feb 2013 07:39:45 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/multi-bootloader-dla-raspbery-pi-berryboot/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2184&#34; alt=&#34;berryboot_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Takiego czegoś brakowało Raspberry Pi, multibootloadera który nie tylko uruchomi wiele różnych dystrybucji ale też zainstaluje wybraną pobierając pliki z internetu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>nettemp – monitoring temperatury</title>
+      <link>https://techfreak.pl/nettemp/</link>
+      <pubDate>Mon, 07 Jan 2013 22:29:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp/</guid>
+      <description>Nettemp monitoring temperatury i nie tylko Chciałbym zaprezentować mój projekt pomiaru temperatury o nazwie nettemp. Zaczęło się od pomiaru temperatury z użyciem jednego czujnika DS18B20 po przez serial port na OpenWRT. Obecnie projekt zakłada pomiar temperatury z wielu czujników poprzez magistrale 1-wire , USB, serial port lub I2C. Aby łatwiej zarządzać czujnikami stworzyłem interfejs www w PHP który używa bazy Sqlite3. Na obecną chwilę nettemp może działać na każdym komputerze że systemem linux, choć najbardziej popularną platformą sprzętową jest Raspberry Pi.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry pi jako Access Point</title>
+      <link>https://techfreak.pl/raspberry-pi-jako-access-point/</link>
+      <pubDate>Tue, 01 Jan 2013 20:53:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-jako-access-point/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/raspberry-pi-jako-access-point/edimax-pi3_642_362_force/&#34; rel=&#34;attachment wp-att-689&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-689&#34; alt=&#34;edimax-pi3_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Witam w nowym roku i już atakuje fajnymi projektami. Sam mam Raspberry pi i tworzę w wolnej chwili swój projekt &lt;a href=&#34;http://nettemp.pl&#34; target=&#34;_blank&#34;&gt;pomiaru temperatury&lt;/a&gt; co za tym idzie ciekawią mnie różne pomysły innych freaków. Ostatnio na oficjalnej stronie raspberry pi pisano o &lt;a href=&#34;http://www.pi-point.co.uk/&#34; target=&#34;_blank&#34;&gt;Pi-Point&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ona tańczy dla mnie raspberry pi version</title>
+      <link>https://techfreak.pl/ona-tanczy-dla-dla-mnie-raspberry-pi-version/</link>
+      <pubDate>Tue, 18 Dec 2012 19:26:11 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ona-tanczy-dla-dla-mnie-raspberry-pi-version/</guid>
+      <description>Jako że piosenka pt. Ona tańczy dla mnie była najczęściej oglądana na YouTube przez polaków w 2012 nie mógłbym przejść obojętnie i nie zaprezentować wam przeróbki która została odegrana przez osiem stacji dyskietek pod kontrolą raspberry pi.</description>
+    </item>
+    
+    <item>
+      <title>Jak ożywić starego Game Boy Advance ?</title>
+      <link>https://techfreak.pl/jak-ozywic-starego-game-boy-advance/</link>
+      <pubDate>Wed, 12 Dec 2012 07:18:25 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-ozywic-starego-game-boy-advance/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/jak-ozywic-starego-game-boy-advance/building-a-tiny-arcade-cabinet/&#34; rel=&#34;attachment wp-att-217&#34;&gt;&lt;img class=&#34;size-full wp-image-217 aligncenter&#34; alt=&#34;building-a-tiny-arcade-cabinet&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet.jpg&#34; width=&#34;303&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet.jpg 303w, http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet-251x300.jpg 251w&#34; sizes=&#34;(max-width: 303px) 100vw, 303px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mogę się założyć że ta przeróbka Gameboy’a powstała nie dlatego że autor chciał kiedyś mieć takiego i go nie dostał, ani dlatego że teraz na starość odbija sobie dzieciństwo tylko dlatego że nudziło mu się na maxa. haha. Trzeba przyznać ze z nudów wychodzą naprawdę pięknie wyglądające rzeczy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi jako radio!</title>
+      <link>https://techfreak.pl/raspberry-pi-jako-radio/</link>
+      <pubDate>Tue, 11 Dec 2012 13:15:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-jako-radio/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-208 aligncenter&#34; title=&#34;raspberry_pi_radio&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio.jpg&#34; width=&#34;621&#34; height=&#34;342&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio.jpg 621w, http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio-300x165.jpg 300w&#34; sizes=&#34;(max-width: 621px) 100vw, 621px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Raspberry Pi jako radio bez żadnych dodatkowych układów elektronicznych ? Tak ale raczej jako rozgłośnia radiowa niż odbiornik. Jedyny &lt;strong&gt;hardware&lt;/strong&gt; jaki do tego jest potrzebny to 20 cm przewód który zapewnia zasięg do 100 metrów.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi factory process</title>
+      <link>https://techfreak.pl/raspberry-pi-factory-process/</link>
+      <pubDate>Fri, 07 Dec 2012 12:39:58 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-factory-process/</guid>
+      <description>
+Na oficjalnej stronie Raspberry Pi opublikowano proces produkcji mini komputerów, niby standardowy proces wklejania elementów ale najbardziej zwróciło moją uwagę testowanie gotowych egzemplarzy. Świeżo wyprodukowane płytki RPI są wsadzane do testera który na podstawie test pinów umieszczonych na płycie sprawdza czy mini komputerek został poprawnie złożony i działa.
+ </description>
+    </item>
+    
+    <item>
+      <title>Raspberry pi, raspbmc konfiguracja WiFi</title>
+      <link>https://techfreak.pl/raspberry-pi-raspbmc-konfiguracja-wifi/</link>
+      <pubDate>Mon, 01 Oct 2012 13:02:11 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-raspbmc-konfiguracja-wifi/</guid>
+      <description>&lt;p&gt;Raspberry Pi to fajny i tani mini komputerek który w połączeniu z projektem &lt;a title=&#34;raspbmc&#34; href=&#34;http://www.raspbmc.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;raspbmc&lt;/a&gt; tworzy niezłe centrum multimedialne.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

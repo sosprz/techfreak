@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysql on techfreak blog</title>
+    <link>https://techfreak.pl/tags/mysql/</link>
+    <description>Recent content in mysql on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 29 Nov 2014 11:24:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VPS dla bloga? Testy DigitalOcean</title>
+      <link>https://techfreak.pl/vps-dla-bloga-testy-digitalocean/</link>
+      <pubDate>Sat, 29 Nov 2014 11:24:28 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/vps-dla-bloga-testy-digitalocean/</guid>
+      <description>&lt;p&gt;Tak to jest z tymi hostingami www że jak trzeba wybrać jakiś dla siebie to nie wiadomo co. Najlepiej jak był by tani i wydajny miał opcje backupu i żeby było wszystko zrobione z automatu. Sam ostatnio migrowałem się z jednego na drugi z powodu opłat a potem wybrałem jeszcze inny z powodu kłopotów technicznych a teraz testuje &lt;a href=&#34;http://pl.wikipedia.org/wiki/Virtual_Private_Server&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VPS&lt;/a&gt; który polecił mi użytkownik forum webhostingtalk.pl. Dokładnie chodzi o wirtualny serwer prywatny w &lt;a href=&#34;https://www.digitalocean.com/?refcode=ae21189b009e&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DigitalOcean&lt;/a&gt; za 5$ miesięcznie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Replikacja w MYSQL</title>
+      <link>https://techfreak.pl/replikacja-w-mysql/</link>
+      <pubDate>Tue, 20 Nov 2012 10:21:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/replikacja-w-mysql/</guid>
+      <description>&lt;p&gt;Jak zrobić replikacje baz danych pomiędzy hostami ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MySql podstawy</title>
+      <link>https://techfreak.pl/mysql-podstawy/</link>
+      <pubDate>Sat, 06 Oct 2012 17:16:41 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mysql-podstawy/</guid>
+      <description>&lt;p&gt;Spis podstawowych komend dla Mysql&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak odzyskać hasło root w MySQL ?</title>
+      <link>https://techfreak.pl/jak-odzyskac-haslo-root-w-mysql/</link>
+      <pubDate>Fri, 05 Oct 2012 11:43:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-odzyskac-haslo-root-w-mysql/</guid>
+      <description>&lt;h2 id=&#34;jak-odzyskać-hasło-root-na-bazie-danych-mysql-&#34;&gt;Jak odzyskać hasło root na bazie danych Mysql ?&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>narzedzia on techfreak blog</title>
+    <link>https://techfreak.pl/tags/narzedzia/</link>
+    <description>Recent content in narzedzia on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 27 Mar 2016 17:19:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/narzedzia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test wkrętarki akumulatorowej.</title>
+      <link>https://techfreak.pl/test-wkretarki-akumulatorowej/</link>
+      <pubDate>Sun, 27 Mar 2016 17:19:16 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/test-wkretarki-akumulatorowej/</guid>
+      <description>&lt;p&gt;Jako swój pierwszy test na portalu chciałem opisać świeży wiosenny zakup który zapewne każdy prędzej czy później musi dokonać tj wkrętarko wiertarka akumulatorowa.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

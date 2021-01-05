@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>openwrt on techfreak blog</title>
+    <link>https://techfreak.pl/tags/openwrt/</link>
+    <description>Recent content in openwrt on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 31 May 2014 17:21:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VoCore mikro komputer z WiFi</title>
+      <link>https://techfreak.pl/vocore-mikro-komputer-wifi/</link>
+      <pubDate>Sat, 31 May 2014 17:21:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/vocore-mikro-komputer-wifi/</guid>
+      <description>VoCore to nowy bardzo fajny projekt mikro komputerka z OpenWRT na pokładzie. Mikro z powodu swoich całkowitych wymiarów które wynoszą 25mm x25mm. Na płytce znajdziemy 32MB SDRAM, 8MB SPI Flash i takie interfejsy jak 10/100M Ethernet, USB, UART, I2C, I2S, PCM, JTAG oraz 20 portów GPIOs i WiFi. A to wszystko pod kontrolą RT5350(360MHz MIPS).
+
+Projekt wystartował jakiś czas temu na indiegogo gdzie już zdobył 47k $ zielonych, dzięki którym wejdzie do produkcji.</description>
+    </item>
+    
+    <item>
+      <title>OpenWRT na Raspberry Pi</title>
+      <link>https://techfreak.pl/openwrt-na-raspberry-pi/</link>
+      <pubDate>Sat, 22 Jun 2013 21:10:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/openwrt-na-raspberry-pi/</guid>
+      <description>&lt;p&gt;Tyle ilu jest użytkowników Raspberry Pi tyle będzie pomysłów na zastosowanie tego maleństwa. Ja pomyślałem że muszę spróbować zainstalować OpenWRT na Raspberry Pi bo wraz ze stabilną wersją Attitude Adjustment, OpenWRT zaczęło je wspierać.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arduino Yun</title>
+      <link>https://techfreak.pl/arduino-yun/</link>
+      <pubDate>Mon, 20 May 2013 06:11:31 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/arduino-yun/</guid>
+      <description>&lt;p&gt;Można było się domyślać że prędzej czy później Arduino wypuści jakąś płytkę która połączy dotychczasowe funkcje łatwego programowania w C i mini komputerka w linuksem. I o to będziemy mieć Arduino Yun….za jakiś czas.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wygrywanie obrazu/firmware przy pomocy atftp przykład OpenWrt</title>
+      <link>https://techfreak.pl/wygrywanie-obrazufirmware-przy-pomocy-atftp-przyklad-opnwrt/</link>
+      <pubDate>Sat, 01 Dec 2012 23:10:00 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wygrywanie-obrazufirmware-przy-pomocy-atftp-przyklad-opnwrt/</guid>
+      <description>&lt;p&gt;Jeżeli używasz X’ów to przed przystąpieniem do działań w konsoli zatrzymaj Network Managera&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalacja proxy na OpenWRT ( tinyproxy )</title>
+      <link>https://techfreak.pl/instalacja-proxy-na-openwrt-tinyproxy/</link>
+      <pubDate>Thu, 18 Oct 2012 10:32:27 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/instalacja-proxy-na-openwrt-tinyproxy/</guid>
+      <description>&lt;p&gt;Jak zainstalować i skonfigurować proxy na OpenWrt ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OpenWrt – Serwer VPN na xl2tpd:</title>
+      <link>https://techfreak.pl/openwrt-serwer-vpn-na-xl2tpd/</link>
+      <pubDate>Tue, 10 Jan 2012 09:38:41 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/openwrt-serwer-vpn-na-xl2tpd/</guid>
+      <description>&lt;p&gt;Jak zainstalować i skonfigurować serwer VPN na OpenWrt ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Budujemy własny firmware OpenWRT</title>
+      <link>https://techfreak.pl/budujemy-wlasny-firmware-openwrt/</link>
+      <pubDate>Fri, 14 Jan 2011 06:13:58 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/budujemy-wlasny-firmware-openwrt/</guid>
+      <description>&lt;p&gt;Jak zbudować własny firmware dla OpenWRT ?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

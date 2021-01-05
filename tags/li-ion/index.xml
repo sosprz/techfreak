@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>li-ion on techfreak blog</title>
+    <link>https://techfreak.pl/tags/li-ion/</link>
+    <description>Recent content in li-ion on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 30 Oct 2016 18:30:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/li-ion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jaka bateria do gogli FPV?</title>
+      <link>https://techfreak.pl/bateria-gogli-fpv/</link>
+      <pubDate>Sun, 30 Oct 2016 18:30:38 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/bateria-gogli-fpv/</guid>
+      <description>&lt;p&gt;W tym arcie zobaczycie jakich baterii można użyć aby zasilić swoje gogle FPV lub inne zabawki, które wymagają długiego czasu pracy na baterii.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tani power bank o pojemności 2600mAh – test</title>
+      <link>https://techfreak.pl/tani-power-bank-pojemnosci-2600mah-test/</link>
+      <pubDate>Sat, 23 Aug 2014 14:08:38 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/tani-power-bank-pojemnosci-2600mah-test/</guid>
+      <description>&lt;p&gt;Jakieś trzy miesiące temu w zasadzie jak nie cztery zamówiłem na banggood tani bo za 5$ &lt;a href=&#34;http://www.banggood.com/2600mAh-Portable-Mobile-Power-Bank-For-Samsung-Galaxy-S4-I9500-p-74819.html&#34; target=&#34;_blank&#34;&gt;power bank&lt;/a&gt; o pojemności 2600mAh. Dopiero doszedł wiec postanowiłem trochę go potestować. Nie często zdarza się aby aż tak długo czekać na jakiś przedmiot z BG. Bo zazwyczaj trwa to do 2 tygodni. Pewnie po prostu nie mieli w magazynie.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

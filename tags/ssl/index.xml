@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssl on techfreak blog</title>
+    <link>https://techfreak.pl/tags/ssl/</link>
+    <description>Recent content in ssl on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Thu, 10 Jan 2013 22:15:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fotigate SSL VPN</title>
+      <link>https://techfreak.pl/fotigate-ssl-vpn/</link>
+      <pubDate>Thu, 10 Jan 2013 22:15:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/fotigate-ssl-vpn/</guid>
+      <description>&lt;p&gt;Zdarza się że pracownicy będący poza biurem a muszą dostać się  do sieci LAN w pracy.  Możemy oczywiście zrobić na swoim ruterze przekierowanie portów ale transmisja ta nie jest szyfrowana, ponadto takie przekierowania są męczące/nieskalowalne i robimy sobie tylko problem. Możemy również zestawić tunel VPN dla takich pracowników.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wyświetlić zawartość certyfikatu ?</title>
+      <link>https://techfreak.pl/jak-wyswietlic-zawartosc-certyfikatu/</link>
+      <pubDate>Thu, 18 Oct 2012 09:50:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wyswietlic-zawartosc-certyfikatu/</guid>
+      <description>&lt;p&gt;Jak sprawdzić właściwości i wyświetlić zawartość certyfikatu np: ze strony z https ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wygenerować certyfikat ssl ?</title>
+      <link>https://techfreak.pl/jak-wygenerowac-certyfikat-ssl/</link>
+      <pubDate>Mon, 08 Oct 2012 10:52:14 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wygenerowac-certyfikat-ssl/</guid>
+      <description>&lt;p&gt;Jak wygenerować własny certyfikat ?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

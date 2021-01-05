@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>IPsec VPN racoon site 2 site &middot; My Name</title>
+        <meta name="description" content="Połączenie VPN site to site po między hostem z systemem linuks z pakietem Racoon (ipsec) a Checkpoint NGX R65 (ipsec).
+Poniższa konfiguracja racoon jest o tyle uniwersalna że może się łączyć z każdym innym urządzeniem obsługującym ipsec.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="IPsec VPN racoon site 2 site">
+<meta property="og:description" content="Połączenie VPN site to site po między hostem z systemem linuks z pakietem Racoon (ipsec) a Checkpoint NGX R65 (ipsec).
+Poniższa konfiguracja racoon jest o tyle uniwersalna że może się łączyć z każdym innym urządzeniem obsługującym ipsec.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/ipsec-vpn-racoon-site-2-site/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">IPsec VPN racoon site 2 site</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2012-01-10" itemprop="datePublished">Tue, Jan 10, 2012</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Połączenie VPN site to site po między hostem z systemem linuks z pakietem Racoon (ipsec) a Checkpoint NGX R65 (ipsec).<br>
+Poniższa konfiguracja racoon jest o tyle uniwersalna że może się łączyć z każdym innym urządzeniem obsługującym ipsec.</p>
+<p>Konfiguracja racoon ipsec</p>
+<p>UWAGA:<br>
+W tym przypadku naszym hostem który będzie inicjował połączenie nie będzie brama tylko host w sieci lokalnej z zainstalowanym pakietem ipsec racoon.</p>
+<p>Pliki do konfiguracji:<br>
+racoon.conf<br>
+setkey.conf<br>
+psk.txt</p>
+<p>Schemat połączenia:</p>
+<pre class="lang:default decode:true">(racoon)                                  (checkpoint)
+(lan)            (lan gw)     (ext gw)           (ext gw) (routing) (host1)
+192.168.1.2/24&gt;192.168.1.1&gt;82.82.82.82&gt;[internet]&lt;83.83.83.83&lt;&lt;&lt;192.168.2.2
+     |                                                               |
+     |__ping request &gt;&gt;&gt;--------------------------&lt;&lt;&lt; ping reply_____|</pre>
+<p> </p>
+<p>setkey.conf</p>
+<pre>#!/usr/sbin/setkey -f
+
+flush;
+spdflush;
+spdadd 192.168.1.2 192.168.2.0/24 any -P out ipsec esp/tunnel/192.168.1.2-83.83.83.83/require;
+spdadd 192.168.2.0/24 192.168.1.2 any -P in ipsec esp/tunnel/83.83.83.83-192.168.1.2/require;</pre>
+<p>racoon.conf</p>
+<pre class="lang:default decode:true">log info;
+path pre_shared_key "`pwd`/psk.txt";
+listen {
+adminsock "/var/run/racoon/racoon.sock" "root" "operator" 0660;
+isakmp_natt 192.168.1.2 [4500];
+isakmp 192.168.1.2 [500];
+}
+
+remote 83.83.83.83 {
+exchange_mode main;
+nat_traversal on;
+ike_frag on;
+mode_cfg on;
+passive off;
+proposal_check obey;
+proposal {
+encryption_algorithm 3des;
+hash_algorithm sha1;
+authentication_method pre_shared_key;
+dh_group 2;
+}
+}
+
+sainfo address 192.168.1.2 any subnet 192.168.2.0/24 any {
+lifetime time 1 hour;
+pfs_group 2;
+encryption_algorithm 3des;
+authentication_algorithm hmac_sha1;
+compression_algorithm deflate;
+}</pre>
+<p>psk.txt</p>
+<pre class="lang:default decode:true">83.83.83.83 password</pre>
+<p>nadanie uprawnien dla pliku psk.txt</p>
+<pre class="lang:default decode:true">chmod 600 psk.txt</pre>
+<p>Uruchomienie:</p>
+<pre class="lang:default decode:true"> ./setkey.conf
+ racoon -F -d -v -f racoon.conf
+ ping 192.168.2.2</pre>
+<p>lub samo podniesienie tunelu:</p>
+<pre class="lang:default decode:true">racoonctl vpn-connect 83.83.83.83</pre>
+<p> </p>
+<p>Jak skonfigurować Check Point R65 aby działał z Racoon:</p>
+<p><a href="http://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-na-checkpoint-r65/">http://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-na-checkpoint-r65/</a></p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/checkpoint/">checkpoint</a>, 
+                <a href="/tags/ipsec/">ipsec</a>, 
+                <a href="/tags/racoon/">racoon</a>, 
+                <a href="/tags/vpn/">vpn</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=IPsec%20VPN%20racoon%20site%202%20site&url=https%3a%2f%2ftechfreak.pl%2fipsec-vpn-racoon-site-2-site%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fipsec-vpn-racoon-site-2-site%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

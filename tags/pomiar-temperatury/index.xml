@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pomiar temperatury on techfreak blog</title>
+    <link>https://techfreak.pl/tags/pomiar-temperatury/</link>
+    <description>Recent content in pomiar temperatury on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 03 Jul 2013 13:20:36 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/pomiar-temperatury/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>nettemp wersja 7 beta</title>
+      <link>https://techfreak.pl/nettemp-wersja-beta/</link>
+      <pubDate>Wed, 03 Jul 2013 13:20:36 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-wersja-beta/</guid>
+      <description>Od jakiegoś czasu jest dostępna wersja beta nettemp’a pod adresem https://github.com/sosprz/nettemp/tree/v7 w której zostały poprawione różne rzeczy głównie to:
+ wysyłanie SMS przy pomocy gammu  odczytywanie wszystkich sms i kasowanie wszystkich sms temperatura jest czytana co minutę i wykresy generują się też co minute  sekcja Relays zmieniła się na Gpio ze względu na różne możliwości gpio. Rozpocząłem przygotowania do sterowania przekaźnikami przy pomocy wskazanego czujnika temperatury. Czyli włącz/wyłącz przekaźnik jeśli temperatura będzie powyżej lub poniżej.</description>
+    </item>
+    
+    <item>
+      <title>nettemp – monitoring temperatury</title>
+      <link>https://techfreak.pl/nettemp/</link>
+      <pubDate>Mon, 07 Jan 2013 22:29:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp/</guid>
+      <description>Nettemp monitoring temperatury i nie tylko Chciałbym zaprezentować mój projekt pomiaru temperatury o nazwie nettemp. Zaczęło się od pomiaru temperatury z użyciem jednego czujnika DS18B20 po przez serial port na OpenWRT. Obecnie projekt zakłada pomiar temperatury z wielu czujników poprzez magistrale 1-wire , USB, serial port lub I2C. Aby łatwiej zarządzać czujnikami stworzyłem interfejs www w PHP który używa bazy Sqlite3. Na obecną chwilę nettemp może działać na każdym komputerze że systemem linux, choć najbardziej popularną platformą sprzętową jest Raspberry Pi.</description>
+    </item>
+    
+  </channel>
+</rss>

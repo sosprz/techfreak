@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Banana Pi R1 system na zewnętrznym dysku &middot; My Name</title>
+        <meta name="description" content="Jak zacząć pracę z mini komputerem Banana PI R1?">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Banana Pi R1 system na zewnętrznym dysku">
+<meta property="og:description" content="Jak zacząć pracę z mini komputerem Banana PI R1?">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/banana-pi-r1-system-zewnetrznym-dysku/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Banana Pi R1 system na zewnętrznym dysku</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2017-03-06" itemprop="datePublished">Mon, Mar 6, 2017</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 3 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Jak zacząć pracę z mini komputerem Banana PI R1?</p>
+<p>Banana Pi R1 to w zasadzie klon popularnego mini komputera Raspberry Pi. Może nie do końca klon a może fork z tego powodu, że Banana Pi rozwija się np. pod takimi względami sprzętowymi jak gigabitowy port ethernet, wbudowany przełącznik, port SATA do którego można podłączyć dysk, lub wbudowane WiFi. Z taką konfiguracją z powodzeniem można zbudować „NAS’a”, router lub Access Pointa. Przy tym wszystkim posiada taki sam rozkład pinów GPIO jak Raspberry Pi oraz system Rasbian.</p>
+<p><a href="https://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-12.jpg"><img class="aligncenter size-full wp-image-12639" src="https://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-12.jpg" alt="" width="1000" height="667" srcset="http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-12.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-12-300x200.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-12-768x512.jpg 768w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-12-624x416.jpg 624w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="https://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-15.jpg"><img class="aligncenter size-full wp-image-12641" src="https://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-15.jpg" alt="" width="1000" height="667" srcset="http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-15.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-15-300x200.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-15-768x512.jpg 768w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-15-624x416.jpg 624w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Niewątpliwie główną zaletą Banana Pi R1 jest możliwość podłączenia dysku. Trzeba jednak pamiętać, że tak czy inaczej zawsze czy to Rasbperry Pi czy Banana uruchamiają potrzebna pliki do uruchomienia systemu z partycji boot która leży na karcie SD. Czyli uruchamiamy banana z boot a reszta systemu może leżeć na dysku zewnętrznym.</p>
+<p><a href="https://techfreak.pl/wp-content/uploads/2017/03/bananapir1.png"><img class="aligncenter size-full wp-image-12650" src="https://techfreak.pl/wp-content/uploads/2017/03/bananapir1.png" alt="" width="576" height="395" srcset="http://techfreak.pl/wp-content/uploads/2017/03/bananapir1.png 576w, http://techfreak.pl/wp-content/uploads/2017/03/bananapir1-292x200.png 292w, http://techfreak.pl/wp-content/uploads/2017/03/bananapir1-300x206.png 300w" sizes="(max-width: 576px) 100vw, 576px" /></a></p>
+<p><a href="https://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-16.jpg"><img class="aligncenter size-full wp-image-12644" src="https://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-16.jpg" alt="" width="1000" height="667" srcset="http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-16.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-16-300x200.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-16-768x512.jpg 768w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-16-624x416.jpg 624w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Zaraz pokażę jak dodać zewnętrzny dysk do systemu i przesunąć system z karty SD na ten dysk. Ja wykorzystałem zewnętrzny dysk SSD o którym mówiłem na swoim kanale <a href="https://www.youtube.com/watch?v=7n_bQuwh-EA.">Youtube</a>.</p>
+<p>Jeżeli zaczynasz przygodę z Banana Pi i nie wiesz jak zainstalować system to przygotuj kartę SD 8GB i ściągnij obraz systemu Raspbian Lite 3.4 z 2016-07-12 <a href="http://www.banana-pi.org/r1-download.html">banana-pi.org</a>. Instalacja systemu na karcie to wydanie polecenia dd:</p>
+<pre>dd if=2016-07-12-raspbian-lite-bpi-m1-m1p-r1.img of=/dev/mmcblk0 bs=4M</pre>
+<p>Po instalacji wydaj polecenie <strong>df -h</strong> a zobaczysz, że obecne pliki systemowe leżą na partycji /dev/mmcblk0p2</p>
+<pre>pi@bpi-iot-ros-ai:~ $ sudo su -
+root@bpi-iot-ros-ai:~# df -h
+Filesystem Size Used Avail Use% Mounted on
+/dev/mmcblk0p2 1.6G 1.4G 201M 87% /
+udev 435M 0 435M 0% /dev
+tmpfs 88M 4.5M 83M 6% /run
+tmpfs 437M 0 437M 0% /dev/shm
+tmpfs 5.0M 4.0K 5.0M 1% /run/lock
+tmpfs 437M 0 437M 0% /sys/fs/cgroup
+/dev/mmcblk0p1 256M 208M 48M 82% /boot</pre>
+<p>Podłącz i sprawdź czy twój dysk jest widziany przez system, najlepiej poleceniem fdisk -l</p>
+<pre>fdisk -l |grep sda
+
+</pre>
+<p><a href="https://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-18.jpg"><img class="aligncenter size-full wp-image-12645" src="https://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-18.jpg" alt="" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-18.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-18-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-18-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-18-768x576.jpg 768w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-18-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-18-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p> </p>
+<p>Jeśli dysk jest widoczny trzeba stworzyć na nim partycję i system plików, ale na początek ja czyszczę informacje o partycji</p>
+<pre>dd if=/dev/zero of=/dev/sda bs=512 count=1 conv=notrunc</pre>
+<p>Tworzę jedną partycję partycję za pomocą fdisk w formie skryptu:</p>
+<pre>(
+echo o # Create a new empty DOS partition table
+echo n # Add a new partition
+echo p # Primary partition
+echo 1 # Partition number
+echo # First sector (Accept default: 1)
+echo # Last sector (Accept default: varies)
+echo w # Write changes
+) | fisk /dev/sda</pre>
+<p>Tworzę system plików ext4</p>
+<pre>mkfs.ext4 /dev/sda1</pre>
+<p>Instaluje pakiety potrzebne w dalszych krokach:</p>
+<pre>aptitude update && aptitude install rsync u-boot-tools</pre>
+<p>Montuje dysk i kopiuje pliki dotychczasowej partycji na nowy dysk, za pomocą rsync:</p>
+<pre>mkdir /tmp/sata
+mount /dev/sda1 /tmp/sata
+rsync -arx --progress / /tmp/sata
+sync
+umount /tmp/sata</pre>
+<p>Zmieniam wpisy w pliku rozruchowym boot.cmd, która partycja to root i kompiluje plik boot.scr, który jest rozumiany przez bootloader U-BOOT</p>
+<pre>mount /dev/mmcblk0p1 /boot
+cd /boot/bananapi/bpi-r1/linux
+mv boot.scr boot.scr.old
+sed -i -e 's/root=\/dev\/mmcblk0p2/root=\/dev\/sda1/g' boot.cmd
+mkimage -C none -A arm -T script -d boot.cmd boot.scr</pre>
+<p>Reboot systemu aby sprawdzić czy dysk zozstanie poprawnie zamontowany</p>
+<pre>reboot</pre>
+<p>Po ponownym zalogowaniu do systemu powinno pojawić się taka tablica jak poniżej po wykonaniu df -h. To oznacza, że wszelkie dane zapisują się teraz już na głównej partycji czyli zewnętrznym dysku HDD</p>
+<pre>pi@bpi-iot-ros-ai:~ $ df -h
+Filesystem Size Used Avail Use% Mounted on
+/dev/sda1 29G 1.5G 26G 6% /
+udev 435M 0 435M 0% /dev
+tmpfs 88M 8.5M 79M 10% /run
+tmpfs 437M 0 437M 0% /dev/shm
+tmpfs 5.0M 4.0K 5.0M 1% /run/lock
+tmpfs 437M 0 437M 0% /sys/fs/cgroup
+/dev/mmcblk0p1 256M 208M 48M 82% /boot
+</pre>
+<p>To koniec w temacie podłączenia dysku do Raspberry Pi R1. Dawajcie znać jak wam poszło!</p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/banana-pi/">banana pi</a>, 
+                <a href="/tags/dysk/">dysk</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Banana%20Pi%20R1%20system%20na%20zewn%c4%99trznym%20dysku&url=https%3a%2f%2ftechfreak.pl%2fbanana-pi-r1-system-zewnetrznym-dysku%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fbanana-pi-r1-system-zewnetrznym-dysku%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

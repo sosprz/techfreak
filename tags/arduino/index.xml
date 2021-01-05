@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>arduino on techfreak blog</title>
+    <link>https://techfreak.pl/tags/arduino/</link>
+    <description>Recent content in arduino on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 17 Mar 2019 11:06:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Regulator temperatury – na szybko.</title>
+      <link>https://techfreak.pl/regulator-temperatury-na-szybko/</link>
+      <pubDate>Sun, 17 Mar 2019 11:06:19 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/regulator-temperatury-na-szybko/</guid>
+      <description>Projekt zrealizowany z powodu pojawienia się nagłej potrzeby rozwiązania problemu – 2 pomieszczenia i jeden system grzania (brak elektrozaworów – jeden pion grzewczy). Tak więc to co pod ręką można było odnaleźć tj.: arduino i jakiś shield z wyświetlaczem LCD. Założenie co do projektu – wybranie średniej z dwóch sensorów i wysterowanie pieca gazowego. W przypadku uszkodzenia sensora – informacja dla użytkownika na LCD. Histereza stała tj +/-1’c od nastawy.</description>
+    </item>
+    
+    <item>
+      <title>MyOpenLab – krótko o programie.</title>
+      <link>https://techfreak.pl/myopenlab-krotko-o-programie/</link>
+      <pubDate>Sat, 28 Jul 2018 12:50:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/myopenlab-krotko-o-programie/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;OK..&lt;/strong&gt; udało się mamy już zmontowaną elektronikę – działa oparta o Arduino albo inny moduł elektroniczny da się tym sterować za pomocą terminala teraz trzeba by nadać temu jakaś formę tak aby zwykły człowiek mógł tym sterować bez zaznajomienia się z dokumentacją – ja tego uczyć się nie musze bo moje dzieło znam na pamięć…. no ale graficznie coś trzeba dodać i to najlepiej w ciągu kilku godzin tak aby nie rozgryzać całego środowiska programistycznego.&lt;br&gt;
+Brzmi znajomo ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tani modem GSM M590E z aliexpress</title>
+      <link>https://techfreak.pl/tani-modem-gsm-m590e-aliexpress/</link>
+      <pubDate>Tue, 09 Aug 2016 20:26:16 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/tani-modem-gsm-m590e-aliexpress/</guid>
+      <description>&lt;p&gt;Zapraszam na krótką ale zakończoną sukcesem historię taniego modemu GSM M590E z aliexpress.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini laser do grawerowania [test]</title>
+      <link>https://techfreak.pl/mini-laser-grawerowania-test/</link>
+      <pubDate>Mon, 07 Mar 2016 08:47:57 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-laser-grawerowania-test/</guid>
+      <description>&lt;p&gt;Dziś na testach u mnie wylądował &lt;a href=&#34;http://goo.gl/flIYma&#34; target=&#34;_blank&#34;&gt;grawer laserowy z banggood&lt;/a&gt;. Jest to kit do samodzielnego złożenia bazujący na napędach od starych napędów CD-ROM. Napędzanie są one silnikami krokowymi. Zasada działania jest taka sama jak w drukarkach 3D, sercem jest arduino a silniki są napędzane przez kontroler kroku – stepstick. Laser dostaje informacja od arduino kiedy ma być łączony a kiedy nie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Autonomiczny samochód RC</title>
+      <link>https://techfreak.pl/autonomiczny-samochod-rc/</link>
+      <pubDate>Mon, 18 Jan 2016 15:34:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/autonomiczny-samochod-rc/</guid>
+      <description>&lt;p&gt;Zobacz bardzo fajny projekt autonomicznego samochodu RC kontrolowanego przez Raspberry Pi i Arduino.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kolorowy Tetris na Arduino</title>
+      <link>https://techfreak.pl/kolorowy-tetris-na-arduino/</link>
+      <pubDate>Thu, 28 May 2015 18:18:53 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/kolorowy-tetris-na-arduino/</guid>
+      <description>&lt;p&gt;Ostatnio mam ochotę pograć w jakieś starsze gierki. Na razie nie mam na czym, ale jeśli Ty masz zbędne arduino i wyświetlacz TFT to możesz zbudować bardzo fajną konsolkę do tetrisa.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ESC DYS SN20A BLheli arduino UNO flash</title>
+      <link>https://techfreak.pl/esc-dys-sn20a-blheli-arduino-uno-flash/</link>
+      <pubDate>Thu, 21 May 2015 13:30:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/esc-dys-sn20a-blheli-arduino-uno-flash/</guid>
+      <description>&lt;p&gt;Jeśli ktoś się zastanawia jakie regulatory (ESC) kupić do swojego quadkoptera to warto zacząć od bardzo małych i wydajnych układów DYS SN20A. Są to mini regulatory o wymiarach 23x12x4.5mm o całkiem dużej wydajności prądowej 20Amperów. W porównaniu do standardowych jakie można zakupić są naprawdę fajną opcja do quadcopterów klasy 250 (dwieściepiędzieśiątekfruu). Zakupione na banggood przychodzą domyślnie z firmwarem SimonK. Dużym plusem są wyprowadzone pady SPI, dzięki którym można wgrać sobie SomonK’a lub BLheli. A jeszcze większym plusem jest to że, po wgraniu odpowiedniego wsadu można programować je po kabelku sygnałowym PWM. Poniżej pokaże jak ja to robię i co potrzeba aby poprawnie przeflaszować regle.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arduboy konsola wielkości karty</title>
+      <link>https://techfreak.pl/arduboy-konsola-wielkosci-karty/</link>
+      <pubDate>Tue, 12 May 2015 17:46:15 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/arduboy-konsola-wielkosci-karty/</guid>
+      <description>&lt;p&gt;Kolejny rewelacyjny projekt po &lt;a href=&#34;http://techfreak.pl/c-h-i-p-mini-komputer-za-32zl/&#34; target=&#34;_blank&#34;&gt;C.H.I.P&lt;/a&gt; który chciałbym mieć to Arduboy. Ta mini konsolka oparta na stylizacji gameboy’a i arduino, swoimi małymi rozmiarami i możliwościami zdobędzie naprawdę dużą rzeszę fanów. Oprócz konsoli, arduboy może być używany jako platforma programistyczna.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FRE3MAKE – trójmiejskie forum twórców domowej elektroniki i fabrykacji</title>
+      <link>https://techfreak.pl/fre3make-trojmiejskie-forum-tworcow-domowej-elektroniki-fabrykacji/</link>
+      <pubDate>Tue, 30 Sep 2014 11:04:26 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/fre3make-trojmiejskie-forum-tworcow-domowej-elektroniki-fabrykacji/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;25 października 2014 r. w Nowych Prototypowniach PPNT Gdynia odbędzie się spotkanie integrujące społeczność użytkowników elektroniki, robotyki, fabrykacji i entuzjastów nowych technologii.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini laserowy grawer ze starych cdromów i arduino</title>
+      <link>https://techfreak.pl/mini-laserowy-grawer-starych-cdromow-arduino/</link>
+      <pubDate>Mon, 28 Jul 2014 17:00:39 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-laserowy-grawer-starych-cdromow-arduino/</guid>
+      <description>Kolejny fajny projekt ze starych cdromów i arduino czyli mini laserowy grawer o polu roboczym 38mm x 38mm. Sam laser jest wydobyty ze stacji CD tak jak silniki krokowe. Sam nie wiedziałem że są tam silniki krokowe. Jakoś trzeba nimi sterować i do tego zostały wykorzystane dwa sterowniki EasyDriver Allegro A3967. Które są stosunkowo drogie w porównaniu z driverami do drukarek 3D A4988. Problem w tym że widziałem tylko jeden taki projekt na tych driverach i to nie opisany.</description>
+    </item>
+    
+    <item>
+      <title>Quadcopter na Raspberry Pi</title>
+      <link>https://techfreak.pl/quadcopter-na-raspberry-pi/</link>
+      <pubDate>Sun, 27 Jul 2014 18:18:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/quadcopter-na-raspberry-pi/</guid>
+      <description>&lt;p&gt;To było nie do uniknięcia że to co było kiedyś sterowane przez pierwsze wersje arduino teraz będzie przenoszone na coraz to bardziej zaawansowane platformy z większymi możliwościami. Chodzi dokładnie o quadcopter który wykorzystuje Raspberry Pi jako jednostkę sterującą. Wiadomo że Raspberry Pi nie ma żyroskopu ani akcelerometru więc niezbędne komponenty takie jak IMU 10DOF są podłączone do GPIO a dokładnie do szyny I2C. Zresztą jak cała reszta dodatkowych komponentów jak GPS, czy płytka do sterowania PWM. Raspberry Pi ma tylko jedno wyjście PWM a potrzeba czterech na kontrolery silników ESC.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kurs Arduino od podstaw</title>
+      <link>https://techfreak.pl/kurs-arduino-podstaw/</link>
+      <pubDate>Thu, 26 Jun 2014 14:10:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/kurs-arduino-podstaw/</guid>
+      <description>&lt;p&gt;Dostałem propozycję od wydawnictwa &lt;a href=&#34;http://strefakursow.pl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Strefa Kursów&lt;/a&gt; aby zrecenzować jeden z najnowszych kursów Arduino od podstaw. Sam w zasadzie nie korzystam z takich kursów i nigdy nie kupowałem żadnych kursów online. Jedyne co to szukałem czegoś do angielskiego. Ale nigdy do niczego poważniejszego nie doszło :) Często do takich maili i zapytań podchodzę z dystansem bo przychodzi tego trochę (jakieś spamy generalnie). Zaproponowali mi współpracę na zasadzie otrzymania kursu za recenzję. Napisałem że nie potrzebuje ale zobaczę co i jak.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Weekendowy projekt – POV na Arduino mini pro</title>
+      <link>https://techfreak.pl/weekendowy-projekt-pov-arduino-mini-pro/</link>
+      <pubDate>Sun, 15 Jun 2014 17:19:10 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/weekendowy-projekt-pov-arduino-mini-pro/</guid>
+      <description>&lt;p&gt;Ostatnio natrafiłem na instructables.com na prosty ale fajny i ciekawy projekt &lt;a href=&#34;http://www.instructables.com/id/ATtiny8545-POV-Display/?ALLSTEPS&#34; target=&#34;_blank&#34;&gt;POV Display na ATiny85&lt;/a&gt;. Takich projektów widziałem pełno. Już chciałem zrobić wpis na TF, ale pomyślałem zaraz, zaraz sam to zrobię i wtedy coś napiszę :) no i proszę jest.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kolejny laserowy projekt</title>
+      <link>https://techfreak.pl/kolejny-laserowy-projekt/</link>
+      <pubDate>Sun, 30 Mar 2014 20:04:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/kolejny-laserowy-projekt/</guid>
+      <description>&lt;p&gt;Laserowych projektów jest masa. Ale ten się różni tym że operator takiego lasera ręcznie nim steruje. Bez wgrywania żadnych plików czy szablonów. Wycinamy co sobie wymyślimy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>To są dopiero fajne gogle</title>
+      <link>https://techfreak.pl/to-sa-dopiero-fajne-gogle/</link>
+      <pubDate>Fri, 28 Mar 2014 15:48:14 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/to-sa-dopiero-fajne-gogle/</guid>
+      <description>&lt;p&gt;Może wielu osobom to  się nie przyda albo w sumie nikomu. Ale na jakiś bal przebierańców albo tak w sumie dla zabicia czasu. Chodzi o fajne kolorowe gogle z diodami :) Są diody jest moc!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini laser z CD-ROMu i Arduino</title>
+      <link>https://techfreak.pl/mini-laser-z-cd-romu-i-arduino/</link>
+      <pubDate>Wed, 19 Mar 2014 15:14:37 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-laser-z-cd-romu-i-arduino/</guid>
+      <description>&lt;p&gt;Mini laser ze starego cdromu to bardzo popularna przeróbka. A w połączeniu z resztą bebechów tworzy trzy osiową platformę do wypalania różnych kształtów.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>XMEGA EXPLOREGO czyli wypasiony moduł z MP3</title>
+      <link>https://techfreak.pl/xmega-explorego-czyli-wypasione-arduino/</link>
+      <pubDate>Tue, 04 Feb 2014 21:43:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/xmega-explorego-czyli-wypasione-arduino/</guid>
+      <description>&lt;p&gt;Każdy kto choć ze dwa razy trzymał lutownicę w ręku zna platformę Arduino. Jest to świetna platforma programistyczna która pozwala szybko zapoznać się z językiem programowania i mikroprocesorami. A projekty które powstają na procesorach ATMEGA codziennie zalewają internety.  A tym razem chciałbym wam przybliżyć projekt &lt;strong&gt;Xmega eXploreGO&lt;/strong&gt; od &lt;a href=&#34;http://modulowo.pl/&#34; target=&#34;_blank&#34;&gt;modułowo.pl&lt;/a&gt; który jest kompatybilny z nakładkami arduino.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arduino DHT11 LCD testowe pomiary wilgotności</title>
+      <link>https://techfreak.pl/arduino-dht11-lcd-testowe-pomiary-wilgotnosci/</link>
+      <pubDate>Sat, 07 Dec 2013 21:09:48 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/arduino-dht11-lcd-testowe-pomiary-wilgotnosci/</guid>
+      <description>&lt;p&gt;Nawiązując do nowej funkcji nettempa, czyli obsługi czujników wilgotności DHT11, musiałem sobie zbudować tester takich czujników. Najlepiej na Arduino, więc zobaczcie jak to zrobiłem.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Test Arexx Arduino Robot AAR-04</title>
+      <link>https://techfreak.pl/test-arexx-arduino-robot-aar-04/</link>
+      <pubDate>Mon, 26 Aug 2013 05:41:59 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/test-arexx-arduino-robot-aar-04/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4767&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg&#34; alt=&#34;techfreak_pl_Arduino-Robot_AAR-04_9-15&#34; width=&#34;1000&#34; height=&#34;750&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15-300x225.jpg 300w&#34; sizes=&#34;(max-width: 1000px) 100vw, 1000px&#34; /&gt;&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Robot Arduino AAR-04&lt;/strong&gt; to złożony gotowy do użycia elektroniczny pojazd napędzany dwoma kołami którymi można dowolnie sterować. Już Na tym etapie kontroli, użytkownik doznaje wiele przyjemności z tworzenia własnego jeżdżącego robota. Zamontowane na przedzie fototranzystory zwiększają możliwości poruszania się do tego stopnia, że staje się on autonomicznym pojazdem. Robot jest wyposażony w procesor &lt;strong&gt;ATmega328P&lt;/strong&gt; który nie tylko steruje sinikami i odbiera informacje od sensorów ale i posiada wyprowadzenia które można wykorzystać w dowolny sposób. I tu zaczyna się cała zabawa która dzięki prostemu programowaniu przy pomocy platformy Arduino i przykładowym programom stwarza wiele możliwości nawet dla początkujących.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>E-papier &#43; Arduino = elektroniczny identyfikator EBADGEr</title>
+      <link>https://techfreak.pl/epaper-arduino-elektroniczny-identyfikator-ebadger/</link>
+      <pubDate>Thu, 01 Aug 2013 08:35:28 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/epaper-arduino-elektroniczny-identyfikator-ebadger/</guid>
+      <description>&lt;p&gt;Kiedyś pisałem o &lt;a title=&#34;Elektroniczna wizytówka&#34; href=&#34;http://techfreak.pl/taka-wizytowke-powinien-miec-kazdy-tech-frik/&#34; target=&#34;_blank&#34;&gt;elektronicznych wizytówkach&lt;/a&gt; które są fajnym gadżetem i robią naprawdę duże wrażenie. Dziś pora na elektroniczny identyfikator o nazwie &lt;a title=&#34;BADGER&#34; href=&#34;http://wyolum.com/projects/BADGEr/&#34; target=&#34;_blank&#34;&gt;BADGEr&lt;/a&gt; który jest złożony z Arduino i &lt;a title=&#34;RePaper&#34; href=&#34;http://repaper.org/&#34; target=&#34;_blank&#34;&gt;RePaper&lt;/a&gt;. ePaper jest technologią wyświetlania, która naśladuje wygląd tuszu na papierze i w przeciwieństwie do innych wyświetlaczy odbija światło jak zwykły papier. Dodatkowo taki wyświetlacz jest zdolny wyświetlać tekst bez zasilania co zwiększa atrakcyjność wizytówki/identyfikatora.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Znowu o CNC czyli DIY Arduino CNC</title>
+      <link>https://techfreak.pl/znowu-o-cnc-czyli-diy-arduino-cnc/</link>
+      <pubDate>Wed, 31 Jul 2013 20:48:39 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/znowu-o-cnc-czyli-diy-arduino-cnc/</guid>
+      <description>Coraz bardziej kusi mnie zbudowanie jakiejś maszynki DIY, czy to drukarki 3D czy maszyny CNC. I właśnie znalazłem fajny projekt od którego można było by zacząć przygodę z CNC mianowicie Arduino CNC Shield.
+
+Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu Arduino CNC Shield. Jest to drukowana dwustronna płytka która pasuje do podstawowej wersji arduino i posiada sloty na trzy sterowniki silników krokowych. Projekt zakłada użycie np. sterowników Pololu które w razie uszkodzenia bez problemu można wymienić.</description>
+    </item>
+    
+    <item>
+      <title>LegoDuino czyli klocki lego z Arduino dla dorosłych</title>
+      <link>https://techfreak.pl/legoduino-czyli-klocki-lego-z-arduino-dla-doroslych/</link>
+      <pubDate>Sun, 07 Jul 2013 20:43:46 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/legoduino-czyli-klocki-lego-z-arduino-dla-doroslych/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Legoduino&lt;/strong&gt; to kolejny fajny projekt bazujący na Arduino, stworzony dla dzieciaków przez rodzica elektronika. W zasadzie można było by się zastanawiać kto miał lub będzie miał większą frajdę z efektów końcowych ale oficjalnie został on stworzony dla syna.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4011&#34; alt=&#34;LegoDuino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34; width=&#34;291&#34; height=&#34;368&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg 291w, http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino-237x300.jpg 237w&#34; sizes=&#34;(max-width: 291px) 100vw, 291px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Szara kostka z klocków lego z elektroniką w środku to własnie &lt;strong&gt;Legoduino&lt;/strong&gt;. Do środka został upchnięty układ ATMega328, i &lt;strong&gt;nRF24L01+&lt;/strong&gt; (bezprzewodowa komunikacja 2.4Ghz).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tani i prosty Arduino WiFi shield</title>
+      <link>https://techfreak.pl/tani-i-prosty-arduino-wifi-shield/</link>
+      <pubDate>Sat, 06 Jul 2013 20:24:13 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/tani-i-prosty-arduino-wifi-shield/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Arduino&lt;/strong&gt; to tania i fajna płytka do mniej lub bardziej skomplikowanych projektów elektronicznych w których coraz większą rolę odgrywa komunikacja bezprzewodowa. Dlaczego ten rodzaj komunikacji jest taki pożądany nie trzeba tłumaczyć ale dlaczego to tak drogo wychodzi? Poniżej mam dla was fajny i tani (bo tani to fajny a fajny to &lt;del&gt;czasem&lt;/del&gt; tani) projekt Arduino WiFi Shield zrealizowany na Ruterze &lt;strong&gt;TL-WR702N&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arduino Yun</title>
+      <link>https://techfreak.pl/arduino-yun/</link>
+      <pubDate>Mon, 20 May 2013 06:11:31 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/arduino-yun/</guid>
+      <description>&lt;p&gt;Można było się domyślać że prędzej czy później Arduino wypuści jakąś płytkę która połączy dotychczasowe funkcje łatwego programowania w C i mini komputerka w linuksem. I o to będziemy mieć Arduino Yun….za jakiś czas.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Płytki Spark Core i masz Arduino z WiFi wszędzie</title>
+      <link>https://techfreak.pl/plytki-spark-core-i-masz-arduino-z-wifi-wszedzie/</link>
+      <pubDate>Fri, 10 May 2013 07:18:15 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/plytki-spark-core-i-masz-arduino-z-wifi-wszedzie/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;No i kolejny fajny projekt Spark Core. Mała płytka z procesorem 72 MHz ARM Cortex M3 i z modułem WiFi a do tego kompatybilna z Arduino.&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mega platforma UDOO</title>
+      <link>https://techfreak.pl/mega-platforma-udoo/</link>
+      <pubDate>Tue, 16 Apr 2013 19:03:36 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mega-platforma-udoo/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2819&#34; alt=&#34;udoo_rpi_arduino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34; width=&#34;385&#34; height=&#34;190&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino-300x148.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Prędzej czy później ktoś musiał wpaść na pomysł połączenia Raspberry Pi i platformy Arduino i tak powstał całkiem fajny i wydajny mini komputer UDOO.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ArduSpider – mini robot pająk</title>
+      <link>https://techfreak.pl/arduspider-mini-robot-pajak/</link>
+      <pubDate>Tue, 26 Feb 2013 09:53:20 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/arduspider-mini-robot-pajak/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2194&#34; alt=&#34;arduspider_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kiedyś na &lt;a href=&#34;http://diydrones.com/&#34;&gt;diydrones.com&lt;/a&gt; pojawił się naprawdę fajny projekt mini robo pająka o nazwie ArduSpider. Konstruktor zazwyczaj składał quadcoptery ale gdy córka go poprosiła o jakiegoś robota dla niej wpadł na pomysł aby zbudować hexapoda. Do budowy użył do Ardupilot (Atmega328) i trzech serw. Jako „oczu” użył IR sensor (GP2Y0A21YK).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wielka cewka Tesli strzela prądami w rytmie Super Mario Bros!</title>
+      <link>https://techfreak.pl/wielka-cewka-tesli-strzela-pradami-w-rytmie-super-mario-bros/</link>
+      <pubDate>Fri, 22 Feb 2013 08:11:31 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wielka-cewka-tesli-strzela-pradami-w-rytmie-super-mario-bros/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2147&#34; alt=&#34;cewka_tesli_super_mario_bross_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Studenci z X-labs z południowej Florydy budowali dwa lata mega dużą cewkę tesli. Ale to nie jest zwykła cewka ponieważ odgrywa ona muzykę. Pliki midi ładowane są poprzez arduino do kontrolera prądu cewki a ta kiedy częstotliwość się zwiększa generuje łuk. Poniżej cewka odgrywa muzyczkę z Super Mario Bros.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zbudować swoje Arduino na jednostronnej płytce?</title>
+      <link>https://techfreak.pl/jak-zbudowac-swoje-arduino-na-jednostronnej-plytce/</link>
+      <pubDate>Fri, 08 Feb 2013 22:27:53 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zbudowac-swoje-arduino-na-jednostronnej-plytce/</guid>
+      <description>&lt;p&gt;Jakiś czas temu potrzebowałem zbudować swoją zmodyfikowana wersje Arduino, szybko prosto i tanio ale zniechęciło mnie to ze musiałbym zaprojektować wszystko od początku bo posiadałem tylko jednostronne płytki drukowane i projekt upadł.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arduino i PIC na jednej płytce !</title>
+      <link>https://techfreak.pl/arduino-i-pic-na-jednej-plytce/</link>
+      <pubDate>Sat, 12 Jan 2013 08:06:39 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/arduino-i-pic-na-jednej-plytce/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://techfreak.pl/1310/whatdoyouget_642_362_force/&#34; rel=&#34;attachment wp-att-1312&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1312&#34; alt=&#34;WhatDoYouGet_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/WhatDoYouGet_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/WhatDoYouGet_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/WhatDoYouGet_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;p style=&#34;text-align: left;&#34;&gt;
+    Programujesz, tworzysz roboty, bawisz się elektroniką ale nie możesz się zdecydować którą platformę wybrać czy Arduino czy PIC lub może potrzebujesz obu? Nie martw się jest coś co na pewno Ci się spodoba.
+  &lt;/p&gt;
+  &lt;p style=&#34;text-align: left;&#34;&gt;</description>
+    </item>
+    
+    <item>
+      <title>Real brute force na Garmin Nuvi 780</title>
+      <link>https://techfreak.pl/real-brute-force-na-garmi-nuvi-780/</link>
+      <pubDate>Sat, 05 Jan 2013 22:56:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/real-brute-force-na-garmi-nuvi-780/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/real-brute-force-na-garmi-nuvi-780/real_brute_force_642_362_force/&#34; rel=&#34;attachment wp-att-738&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-738&#34; alt=&#34;real_brute_force_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/real_brute_force_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/real_brute_force_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/real_brute_force_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;co-ty-wiesz-o-brute-force--ty-lama-jesteś-&#34;&gt;Co ty wiesz o brute force ? Ty lama jesteś !&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>Co robi techmaniak w święta ? choinkę elektroniczną !</title>
+      <link>https://techfreak.pl/co-robi-techmaniak-w-swieta-choinke-elektroniczna/</link>
+      <pubDate>Sat, 22 Dec 2012 13:58:07 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/co-robi-techmaniak-w-swieta-choinke-elektroniczna/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/co-robi-techmaniak-w-swieta-choinke-elektroniczna/arduino_xmass_trree_642_362_force/&#34; rel=&#34;attachment wp-att-483&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-483&#34; alt=&#34;arduino_xmass_trree_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/arduino_xmass_trree_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/arduino_xmass_trree_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/arduino_xmass_trree_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jak co roku po &lt;strong&gt;końcu&lt;/strong&gt; &lt;strong&gt;świata&lt;/strong&gt; przychodzi czas na święta. W marketach obok składanych bunkrów i tlenu w batonach można kupić lampki (teraz już same ledy) i inne świecące ozdoby. Prawdziwy freak oczywiście nie kupi gotowego sznura ledów i choinki tylko wyda ponad stówę na Arduino i inne części. Nie ważne że rodzina go znienawidzi za to że lutuje zamiast produkować pierogi. A to wszystko dla tego aby zrobić mega mini choinkę dla satysfakcji i lansu na wszystkich hakerskich portalach.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Segway czy jednokołowa kurka :)</title>
+      <link>https://techfreak.pl/segway-czy-jednokolowa-kurka/</link>
+      <pubDate>Mon, 17 Dec 2012 19:58:20 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/segway-czy-jednokolowa-kurka/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/segway-czy-jednokolowa-kurka/pale_raptor/&#34; rel=&#34;attachment wp-att-312&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-312&#34; alt=&#34;pale_raptor&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/pale_raptor.jpg&#34; width=&#34;272&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/pale_raptor.jpg 272w, http://techfreak.pl/wp-content/uploads/2012/12/pale_raptor-225x300.jpg 225w&#34; sizes=&#34;(max-width: 272px) 100vw, 272px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nie, nie naśmiewam się z jednokołowej kurki ;P Znaczy z RAPTORA. A dokładnie chodzi o home made segway’a zbudowanego przez &lt;a href=&#34;http://dl.dropbox.com/u/90324580/Thatch-Industries/Raptor.html&#34; target=&#34;_blank&#34;&gt;Nick’a Thatcher’a&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

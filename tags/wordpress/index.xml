@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on techfreak blog</title>
+    <link>https://techfreak.pl/tags/wordpress/</link>
+    <description>Recent content in wordpress on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 11 May 2014 20:45:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak zabezpieczyć logowanie do swojego bloga?</title>
+      <link>https://techfreak.pl/jak-zabezpieczyc-logowanie-do-swojego-bloga/</link>
+      <pubDate>Sun, 11 May 2014 20:45:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zabezpieczyc-logowanie-do-swojego-bloga/</guid>
+      <description>&lt;p&gt;Tym razem mam temat dotyczący bezpieczeństwa logowania do bloga, strony, panelu lub co sobie tam wymyślicie. Ostatnio logując się do swojego panelu admina, do którego domyślne logowanie odbywa się przez http. Pomyślałem że fajnie było by robić to dobrze i logować się po https. Hosting z którego korzystam ma z defaulta certyfikat wildcard którego można używać ale wtedy dostaje ostrzeżenia od przeglądarki. Ponierważ domena nie zgadza się z tą z certyfikatu. Zawsze można zaakceptować wyjątek ale to nie jest wyjście. Zacząłem szukać darmowych certyfikatów.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

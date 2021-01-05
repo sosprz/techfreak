@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yubico on techfreak blog</title>
+    <link>https://techfreak.pl/tags/yubico/</link>
+    <description>Recent content in Yubico on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 25 Aug 2015 05:36:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/yubico/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yubikey klucz do bezpieczeństwa</title>
+      <link>https://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/</link>
+      <pubDate>Tue, 25 Aug 2015 05:36:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/</guid>
+      <description>&lt;p&gt;Parę słów i przykładów z działania klucza Yubikey NEO, który nie tylko przypomina pamięć USB a pomaga chronić dostępu do najpopularniejszych serwisów internetowych.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

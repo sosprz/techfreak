@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lipo on techfreak blog</title>
+    <link>https://techfreak.pl/tags/lipo/</link>
+    <description>Recent content in lipo on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Thu, 03 Aug 2017 16:19:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/lipo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak naprawić ładowarkę Accucell 6</title>
+      <link>https://techfreak.pl/naprawic-ladowarke-accucell-6/</link>
+      <pubDate>Thu, 03 Aug 2017 16:19:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/naprawic-ladowarke-accucell-6/</guid>
+      <description>&lt;p&gt;SHORT ERR, czyli jak naprawić ładowarkę do baterii LiPo Accucell 6&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ładowarka do baterii LiPo SKYRC Q200</title>
+      <link>https://techfreak.pl/ladowarka-baterii-lipo-skyrc-q200/</link>
+      <pubDate>Thu, 09 Mar 2017 19:26:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ladowarka-baterii-lipo-skyrc-q200/</guid>
+      <description>&lt;p&gt;Przyszedł czas na nową ładowarkę do baterii LiPo, wybór padł na na SKYRC Q200.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Naprawa kamerki RunCam HD</title>
+      <link>https://techfreak.pl/naprawa-kamerki-runcam-hd/</link>
+      <pubDate>Sun, 04 Sep 2016 10:24:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/naprawa-kamerki-runcam-hd/</guid>
+      <description>&lt;p&gt;Jak ostatnio obserwujecie &lt;a href=&#34;https://www.youtube.com/watch?v=X0UCpQZrc3s&#34;&gt;Youtube&lt;/a&gt; i stronę to możecie zobaczyć, że trochę ostatnio latam i testuje. Do tego wszystkiego są potrzebne kamery i wpadłem na pomysł aby kręcić więcej ujęć z testowanej kiedyś mini kamerki &lt;a href=&#34;http://techfreak.pl/mini-kamerka-runcam-hd/&#34;&gt;RunCam HD&lt;/a&gt;. Okazało się, że nie zawsze działa..&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ładowanie wielu baterii LiPo</title>
+      <link>https://techfreak.pl/ladowanie-wielu-baterii-lipo/</link>
+      <pubDate>Sat, 02 May 2015 05:14:46 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ladowanie-wielu-baterii-lipo/</guid>
+      <description>&lt;p&gt;Ładowanie i użytkowanie baterii lipo to niby nic takiego ale trzeba się trzymać paru zasad aby dobrze służyły i nie stanowiły zagrożenia. Ja osobiście używam baterii lipo do mojego koptera o którym pisałem &lt;a href=&#34;http://techfreak.pl/diatone-37-nowa-rama-dla-quadcoptera/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tu&lt;/a&gt;. Pisząc dokładniej,  zakupiłem na HobbyKingu pakiety 3S &lt;a href=&#34;http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=32726&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lipo Nano Tech 1300 45-90C&lt;/a&gt;.  W przypadku tych pakietów wartość „1C” to 1300. Teoretycznie są w stanie wytrzymać rozładowanie na poziomie 1.3A razy 45C, czyli całkiem dużo.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jak zrobić zdalny backup przy pomocy rsync gui? &middot; My Name</title>
+        <meta name="description" content="Tylko twardziele nie robią backupu albo !admini. A ja myślę że co jakiś czas trzeba na wszelki wypadek zrobić jakąś kopie bezpieczeństwa a że posiadam w domu serwer NAS, to często wrzucam ją na dyski poprzez rsync gui.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Jak zrobić zdalny backup przy pomocy rsync gui?">
+<meta property="og:description" content="Tylko twardziele nie robią backupu albo !admini. A ja myślę że co jakiś czas trzeba na wszelki wypadek zrobić jakąś kopie bezpieczeństwa a że posiadam w domu serwer NAS, to często wrzucam ją na dyski poprzez rsync gui.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/jak-zrobic-zdalny-backup-przy-pomocy-rsync-gui/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Jak zrobić zdalny backup przy pomocy rsync gui?</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2013-05-29" itemprop="datePublished">Wed, May 29, 2013</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Tylko twardziele nie robią backupu albo !admini. A ja myślę że co jakiś czas trzeba na wszelki wypadek zrobić jakąś kopie bezpieczeństwa a że posiadam w domu serwer NAS, to często wrzucam ją na dyski poprzez rsync gui.</p>
+<p>Kiedyś robiłem kopie z linii poleceń ale znalazłem fajne GUI do rsync o nazwie luckybackup. Jest to fajny program z dużymi możliwościami. Poniżej zaprezentuje jak robić kopie na NAS firmy synology. Zacznę od konfiguracji serwisu NetBackup na NAS a skończę na uruchomieniu backup.</p>
+<h3 id="konfiguracja-netbackup-na-synology">Konfiguracja NetBackup na Synology</h3>
+<p>Trzeba zaznaczyć: <strong>Enable network backup service</strong> jak poniżej.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_1.jpg"><img class="aligncenter size-full wp-image-3411" src="http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_1.jpg" alt="synology_enable_netbackup_1" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_1.jpg 1360w, http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_1-300x169.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_1-1024x578.jpg 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a></p>
+<p>Następnie w pliku /etc/rsyncd.conf konfigurujemy sekcje [NetBackup] jak poniżej i definiujemy czy ma być tylko do odczytu i dla jakich użytkowników dajemy dostęp.</p>
+<pre>[NetBackup]
+path = /var/services/NetBackup
+comment = Network Backup Share
+uid = root
+gid = root
+read only = no
+list = yes
+charset = utf-8
+auth users = sosprz
+secrets file = /etc/rsyncd.secrets</pre>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_2.jpg"><img class="aligncenter size-full wp-image-3412" src="http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_2.jpg" alt="synology_enable_netbackup_2" width="1355" height="615" srcset="http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_2.jpg 1355w, http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_2-300x136.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_2-1024x464.jpg 1024w" sizes="(max-width: 1355px) 100vw, 1355px" /></a></p>
+<p>W pliku /etc/rsyncd.secrets wpisujemy login i hasło dla wcześniej zdefiniowanego użytkownika</p>
+<pre>sosprz:tajnehaslo</pre>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_3.jpg"><img class="aligncenter size-full wp-image-3413" src="http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_3.jpg" alt="synology_enable_netbackup_3" width="1356" height="614" srcset="http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_3.jpg 1356w, http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_3-300x135.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_3-1024x463.jpg 1024w" sizes="(max-width: 1356px) 100vw, 1356px" /></a></p>
+<p>Dla użytkownika sosprz trzeba nadać uprawnia do folderu NetBackup</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_4.jpg"><img class="aligncenter size-full wp-image-3427" src="http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_4.jpg" alt="synology_enable_netbackup_4" width="1357" height="615" srcset="http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_4.jpg 1357w, http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_4-300x135.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/05/synology_enable_netbackup_4-1024x464.jpg 1024w" sizes="(max-width: 1357px) 100vw, 1357px" /></a></p>
+<p> </p>
+<p>Gdy mamy tak skonfigurowane ustawienia NetBackup można sprawdzić czy usługa poprawnie chodzi i możemy się zalogować i wyświetlić zdalne katalogi.</p>
+<pre>rsync -Rnv sosprz@172.18.10.1::NetBackup/sosprz/app/</pre>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/05/synology_check_netbackup_1.jpg"><img class="aligncenter size-full wp-image-3414" src="http://techfreak.pl/wp-content/uploads/2013/05/synology_check_netbackup_1.jpg" alt="synology_check_netbackup_1" width="1360" height="615" srcset="http://techfreak.pl/wp-content/uploads/2013/05/synology_check_netbackup_1.jpg 1360w, http://techfreak.pl/wp-content/uploads/2013/05/synology_check_netbackup_1-300x135.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/05/synology_check_netbackup_1-1024x463.jpg 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a></p>
+<p>Jeśli wyświetliły się zdalne foldery to znacz że jest ok i można iść dalej.</p>
+<h3 id="konfiguracja-luckybackup-rsync-gui">Konfiguracja LuckyBackup (rsync gui)</h3>
+<p>Na początek trzeba stworzyć plik /etc/rsyncd.passwd na maszynie którą będziemy backupować np. laptop. Plik ma być dostępny tylko dla użytkownika root i będzie on przechowywał login i hasło które zostało wcześniej zdefiniowane dla klienta „sosprz”, do modułu rsync na serwerze NAS.</p>
+<pre>chmod 700  /etc/rsyncd.passwd
+chown root.root /etc/rsyncd.passwd</pre>
+<pre>ls -la /etc/rsyncd.passwd 
+-rwx------ 1 root root 9 mar 25 15:00 /etc/rsyncd.passwd</pre>
+<p>Ok zakładając, że naszym folderem który chcemy backupować jest <strong>/hdd/app,</strong> a zdalnym katalogiem jest <strong>NetBackup/sosprz/,</strong> to tak teraz skonfiguruje zadanie w programie luckybackup aby ten pierwszy był kopiowany do tego drugiego.</p>
+<p>Trzeba pamiętać że w tym przypadku nasz moduł <strong>NetBackup</strong> nosi taką samą nazwę jak folder na dysku. I na poniższych screenach w linii <strong>Destination</strong>, <strong>NetBackup</strong> to moduł a nie katalog.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_0.jpg"><img class="aligncenter size-full wp-image-3431" src="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_0.jpg" alt="configure_luckybackup_0" width="1357" height="710" srcset="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_0.jpg 1357w, http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_0-300x156.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_0-1024x535.jpg 1024w" sizes="(max-width: 1357px) 100vw, 1357px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_1.jpg"><img class="aligncenter size-full wp-image-3432" src="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_1.jpg" alt="configure_luckybackup_1" width="1359" height="709" srcset="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_1.jpg 1359w, http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_1-300x156.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_1-1024x534.jpg 1024w" sizes="(max-width: 1359px) 100vw, 1359px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_2.jpg"><img class="aligncenter size-full wp-image-3433" src="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_2.jpg" alt="configure_luckybackup_2" width="1357" height="714" srcset="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_2.jpg 1357w, http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_2-300x157.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_2-1024x538.jpg 1024w" sizes="(max-width: 1357px) 100vw, 1357px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_3.jpg"><img class="aligncenter size-full wp-image-3434" src="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_3.jpg" alt="configure_luckybackup_3" width="1356" height="716" srcset="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_3.jpg 1356w, http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_3-300x158.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_3-1024x540.jpg 1024w" sizes="(max-width: 1356px) 100vw, 1356px" /></a></p>
+<p>Kiedy już wszystko jest skonfigurowane na powyższy wzór, klikamy <strong>RUN</strong> aby wykonać backup.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_4.jpg"><img class="aligncenter size-full wp-image-3435" src="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_4.jpg" alt="configure_luckybackup_4" width="1358" height="712" srcset="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_4.jpg 1358w, http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_4-300x157.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_4-1024x536.jpg 1024w" sizes="(max-width: 1358px) 100vw, 1358px" /></a></p>
+<p> </p>
+<p><strong style="line-height: 1.5em;">All task completed</strong><span style="line-height: 1.5em;"> taki wynik kończy konfiguracje i odpalenie. Mam nadzieje że nie tylko mi udało sie poprawnie skonfigurować i wykonać kopie bezpieczeństwa.</span></p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_5.jpg"><img class="aligncenter size-full wp-image-3436" src="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_5.jpg" alt="configure_luckybackup_5" width="1357" height="714" srcset="http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_5.jpg 1357w, http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_5-300x157.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/05/configure_luckybackup_5-1024x538.jpg 1024w" sizes="(max-width: 1357px) 100vw, 1357px" /></a></p>
+<p> </p>
+<h3 id="span-stylefont-size-171429em-line-height-175em-font-weight-normalręczne-odpalanie-skryptówspan"><span style="font-size: 1.71429em; line-height: 1.75em; font-weight: normal;">Ręczne odpalanie skryptów</span></h3>
+<p>W luckyBackup zawsze możemy kliknąć na ikonkę <strong>Validate</strong> gdzie wyskoczy nam okienko zawierające dokładnie tą samą komendę która zostanie wykonana dla skonfigurowanego przez nas zadania. Oczywiście możemy używać jej zamiast GUI.</p>
+<pre>rsync -h --progress --stats -r -tgo -p -l -D --update --delete-after --protect-args --password-file=/etc/rsyncd.passwd /hdd/app/ sosprz@172.18.10.1::NetBackup/sosprz/app/</pre>
+<p> </p>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/backup/">Backup</a>, 
+                <a href="/tags/rsync/">rsync</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Jak%20zrobi%c4%87%20zdalny%20backup%20przy%20pomocy%20rsync%20gui%3f&url=https%3a%2f%2ftechfreak.pl%2fjak-zrobic-zdalny-backup-przy-pomocy-rsync-gui%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fjak-zrobic-zdalny-backup-przy-pomocy-rsync-gui%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tv on techfreak blog</title>
+    <link>https://techfreak.pl/tags/tv/</link>
+    <description>Recent content in tv on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 07 Jun 2014 21:14:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/tv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak uruchomić DVBT na it9135</title>
+      <link>https://techfreak.pl/uruchomic-dvbt-it9135/</link>
+      <pubDate>Sat, 07 Jun 2014 21:14:05 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/uruchomic-dvbt-it9135/</guid>
+      <description>&lt;p&gt;Przy grzebaniu w moich kartonach znalazłem tuner DVB-T USB na układzie it9135 którego nigdy w zasadzie nie uruchomiłem i tak do końca nie używałem. Tym razem udało mi się uruchomić programy TV, więc pokaże Ci jak to zrobiłem.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

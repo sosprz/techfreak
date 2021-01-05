@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>taranis on techfreak blog</title>
+    <link>https://techfreak.pl/tags/taranis/</link>
+    <description>Recent content in taranis on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 19 Dec 2018 13:18:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/taranis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Czołg FPV z Drukarki 3D cześć druga</title>
+      <link>https://techfreak.pl/czolg-fpv-z-drukarki-3d-czesc-druga/</link>
+      <pubDate>Wed, 19 Dec 2018 13:18:15 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/czolg-fpv-z-drukarki-3d-czesc-druga/</guid>
+      <description>&lt;p&gt;Zapraszam na kolejną cześć z dziennika budowy zdalnie sterowanego czołgu wydrukowanego w technologi 3D z podglądem FPV. Poprzednią można zobaczyć &lt;a href=&#34;https://techfreak.pl/czolg-fpv-z-drukarki-3d-czesc-pierwsza/&#34;&gt;tutaj&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Projekty z drukarki 3D Mini Track Loader</title>
+      <link>https://techfreak.pl/projekty-z-drukarki-3d-mini-track-loader/</link>
+      <pubDate>Sun, 29 Jul 2018 20:49:40 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/projekty-z-drukarki-3d-mini-track-loader/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Masz drukarkę ale znudziło Ci się drukowanie wazonów na imieniny? Zobacz jak zrealizowałem projekt Mini Track Loader z thingiverse.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Koszyk na baterie 18650 do Taranis QX7</title>
+      <link>https://techfreak.pl/koszyk-na-baterie-18650-do-taranis-qx7/</link>
+      <pubDate>Wed, 06 Jun 2018 19:25:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/koszyk-na-baterie-18650-do-taranis-qx7/</guid>
+      <description>&lt;p&gt;Jak wcisnąć trzy baterie 18650 do taranisa QX7&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nadajnik FrSky R-XSR i F.PORT</title>
+      <link>https://techfreak.pl/nadajnik-frsky-r-xsr-i-f-port/</link>
+      <pubDate>Mon, 02 Apr 2018 20:27:57 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nadajnik-frsky-r-xsr-i-f-port/</guid>
+      <description>&lt;p&gt;Zobacz jak zaktualizować odbiornik R-XSR i wgrać firmware z obsługa nowego protokołu F.Port.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mikro dron HGLRC XJB-145</title>
+      <link>https://techfreak.pl/mikro-dron-hglrc-xjb-145/</link>
+      <pubDate>Wed, 07 Feb 2018 19:17:10 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mikro-dron-hglrc-xjb-145/</guid>
+      <description>&lt;p&gt;W dronowym świecie jak zawsze do przodu! Tym razem parę słów o mikro HGLRC XJB-145 czyli miniaturyzacja wyścigówek!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Taranis QX7 zmiana firmware</title>
+      <link>https://techfreak.pl/taranis-qx7-zmiana-firmware/</link>
+      <pubDate>Thu, 31 Aug 2017 21:40:11 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/taranis-qx7-zmiana-firmware/</guid>
+      <description>&lt;p&gt;Dziś pokażę jak zmienić, zaktualizować firmware w aparaturze Taranis QX7 do najnowszego OpenTX i nie tylko.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jaka bateria do Taranis QX7?</title>
+      <link>https://techfreak.pl/jaka-bateria-do-taranis-qx7/</link>
+      <pubDate>Wed, 30 Aug 2017 18:05:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jaka-bateria-do-taranis-qx7/</guid>
+      <description>&lt;p&gt;Jaką baterię kupić do aparatury Taranis QX7? 18650? tak!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Recenzja Tarot 130 FPV mini racer!</title>
+      <link>https://techfreak.pl/recenzja-tarot-130-fpv-mini-racer/</link>
+      <pubDate>Fri, 10 Jun 2016 14:37:21 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/recenzja-tarot-130-fpv-mini-racer/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Kto obserwuje moje wpisy wie, że czasem złożę jakiegoś mini drona. Zaczynałem od 250mm a teraz jestem na etapie &amp;gt;150mm. Ostatnio składałem &lt;a href=&#34;//techfreak.pl/minifpv-rama-nox3-demonrc-budowa/&#34;&gt;NOX3&lt;/a&gt; którym naprawdę fajnie się lata. Dziś dzięki &lt;a href=&#34;http://www.gearbest.com/m-promotion-active-229.html&#34;&gt;gearbest.com&lt;/a&gt; mam przyjemność polatać kolejnym mini o nazwie &lt;a href=&#34;http://goo.gl/Eqn6Bu&#34;&gt;TAROT 130&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Aktualizacja FrSky X4R do CPPM</title>
+      <link>https://techfreak.pl/aktualizacja-frsky-x4r-do-cppm/</link>
+      <pubDate>Sun, 15 Nov 2015 11:35:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/aktualizacja-frsky-x4r-do-cppm/</guid>
+      <description>&lt;p&gt;Do mojego nowego quadkoptera o wymiarach 180mm zakupiłem odbiornik FrSky X4R który działa na S.BUS. Poniżej pokażę jak łatwo zaktualizować oprogramowanie aby odbiornik działał w trybie CPPM.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

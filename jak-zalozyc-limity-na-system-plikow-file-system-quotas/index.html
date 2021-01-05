@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jak założyć limity na system plików ? (file system quotas) &middot; My Name</title>
+        <meta name="description" content="Jak ograniczyć miejsce dyskowe dla poszczególnych użytkowników ?">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Jak założyć limity na system plików ? (file system quotas)">
+<meta property="og:description" content="Jak ograniczyć miejsce dyskowe dla poszczególnych użytkowników ?">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/jak-zalozyc-limity-na-system-plikow-file-system-quotas/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Jak założyć limity na system plików ? (file system quotas)</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2012-10-06" itemprop="datePublished">Sat, Oct 6, 2012</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <h2 id="jak-ograniczyć-miejsce-dyskowe-dla-poszczególnych-użytkowników-">Jak ograniczyć miejsce dyskowe dla poszczególnych użytkowników ?</h2>
+<p>Na samym początku w pliku /etc/fstab trzeba zdefiniować który dysk lub partycja ma być objęta file system quotas. Aby to zrobić trzeba dodać po <strong>defaults, usrquota</strong>.</p>
+<pre class="lang:default highlight:0 decode:true">/dev/hda1     /home   ext3    defaults,usrquota             1    1</pre>
+<p>Następnie należy stworzyć plik aquota.user na dysku gdzie ma być nakładana quota.</p>
+<pre class="lang:default highlight:0 decode:true">touch /home/aquota.user 
+chmod 600 /home/aquota.user</pre>
+<p>Aby zastosować zmiany trzeba albo zamontować ponownie dysk lub uruchomić ponownie maszynie.</p>
+<pre class="lang:default highlight:0 decode:true">mount -o remount /home</pre>
+<p>Po tych operacjach mamy możliwość włączania i wyłączania file system quotas.</p>
+<pre class="lang:default highlight:0 decode:true">quotaon - włączanie quota na systemie plików.
+quotaoff - wyłączanie quota na systemie plików.</pre>
+<p>Skanowanie dysków i sprawdzanie na jakie dyski/partycje została nałożona quota.</p>
+<pre class="lang:default highlight:0 decode:true">quotacheck -vguma</pre>
+<p>Sprawdzanie czy quota jest nałożona.</p>
+<pre class="lang:default highlight:0 decode:true">quotaon -av</pre>
+<p>Gdy sam mechanizm quota jest uruchomiony można przystąpić do nakładania limitów na konkretnych użytkowników.</p>
+<p>Wyświetlanie limitów quota dla użytkownika.</p>
+<pre class="lang:default highlight:0 decode:true">quota -u user</pre>
+<p>Output:</p>
+<p>Disk quotas for user devil (uid 666):<br>
+Filesystem blocks soft hard inodes soft hard<br>
+/dev/sda3 62084 3000000 0 0 0 0</p>
+<p>Zmiana limitów dla użytkownika.<br>
+Po wydaniu polecenia jak po niżej otworzy się edytor vi w którym trzeba zmienić limity.</p>
+<pre class="lang:default highlight:0 decode:true">edquota -u user</pre>
+<p>Druga i trzecia kolumna to limit wielkości danych.</p>
+<p>Piąta i szósta kolumna to limit ilości plików.</p>
+<p>Raporty dla quoty:</p>
+<pre class="lang:default highlight:0 decode:true">quota -q
+repquota -a</pre>
+<p>Przykład z repquota:</p>
+<pre class="lang:default highlight:0 decode:true">*** Report for user quotas on device /dev/sda3
+Block grace time: 7days; Inode grace time: 7days
+                        Block limits                File limits
+User            used    soft    hard  grace    used  soft  hard  grace
+----------------------------------------------------------------------
+root      -- 4619736       0       0         105103     0     0       
+daemon    --      20       0       0              3     0     0       
+lp        --       8       0       0              1     0     0       
+rpm       --   33184       0       0            123     0     0       
+avahi     --      12       0       0              3     0     0       
+smmsp     --       8       0       0              2     0     0       
+vcsa      --       8       0       0              1     0     0       
+rpcuser   --       8       0       0              1     0     0       
+ntp       --       8       0       0              1     0     0       
+xfs       --       0       0       0              1     0     0       
+devil	  -- 3079796 3000000 3000000           2613     0     0       
+proftpd   --      16       0       0              4     0     0       
+curupld   --    4668       0       0            696     0     0       
+apache    -- 1152700       0       0          25873     0     0       
+svn       -- 1532712 2000000 2000000          26170     0     0       
+postfix   --       4       0       0              1     0     0       
+mysql     --  245420       0       0            619     0     0</pre>
+<p> </p>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix"><div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Jak%20za%c5%82o%c5%bcy%c4%87%20limity%20na%20system%20plik%c3%b3w%20%3f%20%28file%20system%20quotas%29&url=https%3a%2f%2ftechfreak.pl%2fjak-zalozyc-limity-na-system-plikow-file-system-quotas%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fjak-zalozyc-limity-na-system-plikow-file-system-quotas%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

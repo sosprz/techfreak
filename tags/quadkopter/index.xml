@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quadkopter on techfreak blog</title>
+    <link>https://techfreak.pl/tags/quadkopter/</link>
+    <description>Recent content in quadkopter on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 22 Nov 2016 14:17:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/quadkopter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dron wyścigowy bez składania – Shuriken 250</title>
+      <link>https://techfreak.pl/dron-wyscigowy-bez-skladania-shuriken-250/</link>
+      <pubDate>Tue, 22 Nov 2016 14:17:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/dron-wyscigowy-bez-skladania-shuriken-250/</guid>
+      <description>&lt;p&gt;Dron bez składania? Gotowy do lotu? Szurikeny nadlatują!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini micro multirotor JJRC H36</title>
+      <link>https://techfreak.pl/mini-micro-multirotor-jjrc-h36/</link>
+      <pubDate>Tue, 11 Oct 2016 10:45:55 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-micro-multirotor-jjrc-h36/</guid>
+      <description>&lt;p&gt;Zapraszam na testy mini quadkoptera JJRC H36.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JJRC H31 wodoodporny quadcopter</title>
+      <link>https://techfreak.pl/jjrc-h31-wodoodporny-quadcopter/</link>
+      <pubDate>Sun, 04 Sep 2016 19:35:39 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jjrc-h31-wodoodporny-quadcopter/</guid>
+      <description>&lt;p&gt;A gdyby można było latać w deszczu bez obawy, że sprzęt zostanie uszkodzony? Jak zapewnia producent quadcopter JJRC H31 jest wodoodporny.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

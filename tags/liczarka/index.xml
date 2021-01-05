@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>liczarka on techfreak blog</title>
+    <link>https://techfreak.pl/tags/liczarka/</link>
+    <description>Recent content in liczarka on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 16 Dec 2018 12:37:56 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/liczarka/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Liczarka elementów smd  w taśmach.</title>
+      <link>https://techfreak.pl/liczarka-elementow-smd-w-tasmach/</link>
+      <pubDate>Sun, 16 Dec 2018 12:37:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/liczarka-elementow-smd-w-tasmach/</guid>
+      <description>Z cyklu DIY – jeżeli mamy już jakieś projekty za sobą zostaje mi i zapewne pozostałym majsterkowiczom duża ilość elementów SMD z prostej przyczyny – nie da się zamówić np. mniej niż 100 elementów danego typu. Z biegiem lat elementy się gromadzą i wpadłem na pomysł że warto było by zweryfikować swój zasób. I tak powstał projekcik liczarki komponentów SMD zamkniętych w rolkach.
+Dla czego pakuje się elementy w rolkach? Przy produkcji przemysłowej elementy są kładzione za pomocą maszyny Pick&amp;amp;Place która pobiera każdy elemencik z wyznaczonego podajnika (feedera) a tam jest on zapakowany w taśmie.</description>
+    </item>
+    
+  </channel>
+</rss>

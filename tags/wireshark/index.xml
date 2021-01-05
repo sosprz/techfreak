@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wireshark on techfreak blog</title>
+    <link>https://techfreak.pl/tags/wireshark/</link>
+    <description>Recent content in wireshark on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 23 Jul 2014 11:34:44 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/wireshark/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wireshark jak sprawdzić przepustowość łącza</title>
+      <link>https://techfreak.pl/wireshark-sprawdzic-przepustowosc-lacza/</link>
+      <pubDate>Wed, 23 Jul 2014 11:34:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wireshark-sprawdzic-przepustowosc-lacza/</guid>
+      <description>Czasami są takie sytuacje gdzie trzeba sprawdzić zużycie jakiegoś interfejsu sieciowego, czy to na jakimś routerze czy na serwerze. Lub ogólnie sprawdzić przepustowość danego łącza. W niektórych sytuacjach najlepiej było by jeszcze określić jakie połączenia generują największe zużycie.
+Jeśli mowa o testowaniu łącz to moim zdaniem najlepiej nadaje się do tego iperf. Jest to narzędzie klient / serwer które znajduje się domyślnie w każdym wydaniu livecd Knoppix. Przy okazji kiedyś opisywałem jak uruchamiać wiele obrazów z jednego flasha.</description>
+    </item>
+    
+    <item>
+      <title>Jak analizować ruch karty sieciowej z konsoli przy pomocy tshark ?</title>
+      <link>https://techfreak.pl/jak-analizowac-ruch-ethernet-z-konsoli-tshark/</link>
+      <pubDate>Sat, 01 Dec 2012 23:32:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-analizowac-ruch-ethernet-z-konsoli-tshark/</guid>
+      <description>&lt;p&gt;tshark – Jest to konsolowa wersja analizatora sieci – Wireshark&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

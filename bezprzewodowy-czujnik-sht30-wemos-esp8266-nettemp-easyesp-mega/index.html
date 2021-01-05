@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bezprzewodowy czujnik SHT30 Wemos z ESP8266 – nettemp i EasyESP Mega &middot; My Name</title>
+        <meta name="description" content="Układy Wemos to tanie i łatwe u użyciu bezprzewodowe rozwiązanie do podłączania wielu czujników. Wraz z oprogramowaniem ESPEasy daje bardzo duże możliwości.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Bezprzewodowy czujnik SHT30 Wemos z ESP8266 – nettemp i EasyESP Mega">
+<meta property="og:description" content="Układy Wemos to tanie i łatwe u użyciu bezprzewodowe rozwiązanie do podłączania wielu czujników. Wraz z oprogramowaniem ESPEasy daje bardzo duże możliwości.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/bezprzewodowy-czujnik-sht30-wemos-esp8266-nettemp-easyesp-mega/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Bezprzewodowy czujnik SHT30 Wemos z ESP8266 – nettemp i EasyESP Mega</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2018-02-18" itemprop="datePublished">Sun, Feb 18, 2018</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Układy Wemos to tanie i łatwe u użyciu bezprzewodowe rozwiązanie do podłączania wielu czujników. Wraz z oprogramowaniem ESPEasy daje bardzo duże możliwości.</p>
+<p>Lubię układy Wemos bo są proste w użyciu i zaprogramowaniu. Na pokładzie posiadają bezprzewodowy bardzo popularny układ ESP8266. Dziś chciałbym pokazać jak wgrać do takiego układu wsad ESPEasy podłączyć czujnik SHT30 i dane posyłać do serwera <a href="https://techfreak.pl/nettemp/">nettemp</a>. Dlaczego shield SHT30? Ponieważ można go bardzo łatwo podłączyć do Wemosa.</p>
+<h3 id="instalacja-espeasy-na-wemos">Instalacja ESPEasy na Wemos</h3>
+<p>Od jakiegoś czasu na github jest wydawana wersja ESPEasy w wersji binary i nie trzeba używać do wgrania programu arduino. Trzeba pobrać ostatnie wydanie z <a href="https://github.com/letscontrolit/ESPEasy/releases">oficjalnego githuba</a>.</p>
+<p> </p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1.png"><img class="aligncenter size-full wp-image-14451" src="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1.png" alt="" width="1271" height="666" srcset="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1.png 1271w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-382x200.png 382w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-300x157.png 300w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-768x402.png 768w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-1024x537.png 1024w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-390x205.png 390w" sizes="(max-width: 1271px) 100vw, 1271px" /></a></p>
+<p>Następnie trzeba rozpakować archiwum w którym znajdują się wersje dev, normal i test. Aby działał czujnik SHT30 trzeba zainstalować wersję test, na razie tylko w tej są dodane sterowniki.</p>
+<p> </p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-2.png"><img class="aligncenter size-full wp-image-14452" src="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-2.png" alt="" width="1440" height="786" srcset="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-2.png 1440w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-2-366x200.png 366w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-2-300x164.png 300w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-2-768x419.png 768w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-2-1024x559.png 1024w" sizes="(max-width: 1440px) 100vw, 1440px" /></a></p>
+<p>Jeśli jesteś użytkownikiem Windows w archiwum masz już esptool.exe do wgrania wsadu. Jeśli używasz linux to trzeba pobrać esptool z github. Na początek przechodzę do katalogu z ESPEasy i tam klonuję repozytorium. Wybieram odpowiednie USB zazwyczaj <strong>/dev/ttyUSB0</strong> i wgrywam wsad <strong>ESP_Easy_v2.0-20180218_test_ESP8266_4096.bin</strong></p>
+<pre>cd Downloads/ESPEasy_v2.0-20180218
+git clone https://github.com/espressif/esptool
+esptool/esptool.py --port /dev/ttyUSB0 write_flash --flash_mode dio --flash_size 4MB 0x0 ESP_Easy_v2.0-20180218_test_ESP8266_4096.bin
+</pre>
+<p><a href="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-7.png"><img class="aligncenter size-full wp-image-14454" src="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-7.png" alt="" width="1743" height="278" srcset="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-7.png 1743w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-7-600x96.png 600w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-7-300x48.png 300w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-7-768x122.png 768w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-7-1024x163.png 1024w" sizes="(max-width: 1743px) 100vw, 1743px" /></a></p>
+<p>Jeśli wyskoczy problem z import serial trzeba doinstalować bibliotekę do pythona.</p>
+<pre>sudo apt install python-serial</pre>
+<h3 id="konfiguracja-espeasy">Konfiguracja ESPEasy</h3>
+<p>Po wgraniu powyższego wsadu i restarcie Wemos, pojawi się otwarta sieć ESPEasy_0. Do której trzeba się dołączyć i wejść na adres IP http://192.168.4.1. Poniżej dodaje SHT30 na adresie I2C 0x45. Zaznaczam wysyłanie do kontrolera i zmieniam values na temp i humid. Chcę pomiary wysyłać do nettemp więc ustawiam w Controllers kontroler Generic HTTP Advanced. Wpisuje admin i hasło z nettemp. Następnie wklejam link w którym też znajduje się hasło NodeServer z nettemp, poniżej przykładowo: <strong>tajnehaslo</strong>.</p>
+<pre>/receiver.php?device=ip&name=%tskname%&ip=%ip%&key=<strong>tajnehaslo</strong>&type=%vname1%;%vname2%;%vname3%&value=%val1%;%val2%;%val3%</pre>
+<p><a href="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-8.png"><img class="aligncenter size-full wp-image-14457" src="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-8.png" alt="" width="834" height="341" srcset="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-8.png 834w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-8-489x200.png 489w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-8-300x123.png 300w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-8-768x314.png 768w" sizes="(max-width: 834px) 100vw, 834px" /></a></p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-1.png"><img class="aligncenter size-full wp-image-14463" src="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-1.png" alt="" width="664" height="695" srcset="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-1.png 664w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-1-191x200.png 191w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-1-287x300.png 287w" sizes="(max-width: 664px) 100vw, 664px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-2.png"><img class="aligncenter size-full wp-image-14462" src="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-2.png" alt="" width="953" height="336" srcset="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-2.png 953w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-2-567x200.png 567w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-2-300x106.png 300w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-2-768x271.png 768w" sizes="(max-width: 953px) 100vw, 953px" /></a></p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-4.png"><img class="aligncenter size-full wp-image-14460" src="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-4.png" alt="" width="785" height="798" srcset="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-4.png 785w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-4-197x200.png 197w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-4-295x300.png 295w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-4-768x781.png 768w" sizes="(max-width: 785px) 100vw, 785px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-3.png"><img class="aligncenter size-full wp-image-14461" src="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-3.png" alt="" width="677" height="271" srcset="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-3.png 677w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-3-500x200.png 500w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-sht30-1-3-300x120.png 300w" sizes="(max-width: 677px) 100vw, 677px" /></a></p>
+<p> </p>
+<h3 id="nettemp">Nettemp</h3>
+<p>Po prawidłowej konfiguracji w nettemp pojawiły się czujniki.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-1.png"><img class="aligncenter size-full wp-image-14469" src="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-1.png" alt="" width="1908" height="183" srcset="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-1.png 1908w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-1-600x58.png 600w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-1-300x29.png 300w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-1-768x74.png 768w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-1-1024x98.png 1024w" sizes="(max-width: 1908px) 100vw, 1908px" /></a></p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-2.png"><img class="aligncenter size-full wp-image-14468" src="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-2.png" alt="" width="1069" height="307" srcset="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-2.png 1069w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-2-600x172.png 600w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-2-300x86.png 300w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-2-768x221.png 768w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-2-1024x294.png 1024w" sizes="(max-width: 1069px) 100vw, 1069px" /></a></p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-3.png"><img class="aligncenter size-full wp-image-14467" src="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-3.png" alt="" width="1904" height="842" srcset="http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-3.png 1904w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-3-452x200.png 452w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-3-300x133.png 300w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-3-768x340.png 768w, http://techfreak.pl/wp-content/uploads/2018/02/techfrak-nettemp-espeasy-wemos-3-1024x453.png 1024w" sizes="(max-width: 1904px) 100vw, 1904px" /></a></p>
+<p> </p>
+<p>Niestety wykresy znacznie się różnią od tych, które przeprowadziłem na BME280. Pewnie jest to spowodowane nagrzewaniem się całej kanapki. Dlatego jednak lepiej wyciągać czujniki na kilku centymetrowym przewodzie. Co ciekawe pojawiła nowe wersja płytki Wemos shield SHT30 ze specjalnymi nacięciami.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-wemos-shield-SHT30.png"><img class="aligncenter size-full wp-image-14472" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-wemos-shield-SHT30.png" alt="" width="426" height="454" srcset="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-wemos-shield-SHT30.png 426w, http://techfreak.pl/wp-content/uploads/2018/02/techfreak-wemos-shield-SHT30-188x200.png 188w, http://techfreak.pl/wp-content/uploads/2018/02/techfreak-wemos-shield-SHT30-281x300.png 281w" sizes="(max-width: 426px) 100vw, 426px" /></a></p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/czujniki/">czujniki</a>, 
+                <a href="/tags/easyesp/">easyesp</a>, 
+                <a href="/tags/nettemp/">nettemp</a>, 
+                <a href="/tags/wemos/">wemos</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Bezprzewodowy%20czujnik%20SHT30%20Wemos%20z%20ESP8266%20%e2%80%93%20nettemp%20i%20EasyESP%20Mega&url=https%3a%2f%2ftechfreak.pl%2fbezprzewodowy-czujnik-sht30-wemos-esp8266-nettemp-easyesp-mega%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fbezprzewodowy-czujnik-sht30-wemos-esp8266-nettemp-easyesp-mega%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

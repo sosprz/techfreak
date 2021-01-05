@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mini, mocny komputerek ODROID-U2 &middot; My Name</title>
+        <meta name="description" content="
+Na jednym z moich ulubionych portali hackaday.com znalazłem fajną alternatywę dla Raspberry Pi, jest to jeszcze mniejszy mini komputer na procesorze ARM.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Mini, mocny komputerek ODROID-U2">
+<meta property="og:description" content="
+Na jednym z moich ulubionych portali hackaday.com znalazłem fajną alternatywę dla Raspberry Pi, jest to jeszcze mniejszy mini komputer na procesorze ARM.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/mini-mocny-komputerek-odroid-u2/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Mini, mocny komputerek ODROID-U2</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2012-12-06" itemprop="datePublished">Thu, Dec 6, 2012</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p><a href="http://techfreak.pl/wp-content/uploads/2012/12/odroid2.jpg"><img class="aligncenter size-full wp-image-22" title="odroid2" alt="" src="http://techfreak.pl/wp-content/uploads/2012/12/odroid2.jpg" width="600" height="272" srcset="http://techfreak.pl/wp-content/uploads/2012/12/odroid2.jpg 600w, http://techfreak.pl/wp-content/uploads/2012/12/odroid2-300x136.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+<p>Na jednym z moich ulubionych portali <a href="http://hackaday.com/">hackaday.com</a> znalazłem fajną alternatywę dla Raspberry Pi, jest to jeszcze mniejszy mini komputer na procesorze ARM.</p>
+<p>Nie wyróżniają go tylko rozmiary ale też moc jaka została zainstalowana na pokładzie tego maleństwa. Na płycie znajdziemy przede wszystkim mocny procesor <strong>Exynos4412 Prime 1.7Ghz ARM Cortex-A9 Quad Core</strong>, pamięci <strong>DDR2 2048M</strong> które zmieniają małą płytkę w wydajny komputer. Warto zwrócić uwagę na <strong>akcelerator 3D, Mali-400 Quad Core 440MHz</strong> który bez problemu wyświetla obraz w **1080p. **Specyfikacja naprawdę imponująca, systemy które można odpalić na omawianym <strong>ODROID-U2</strong> to Linux z jądrem 3.0.x i Android 4.x. Niestety o cena nie jest mniejsza niż w przypadku RPI i <a href="http://www.hardkernel.com/renewal_2011/products/prdt_info.php?g_code=G135341370451" target="_blank">wynosi 89 dolarów</a>.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2012/12/odroid.jpg"><img class="aligncenter size-full wp-image-23" title="odroid" alt="" src="http://techfreak.pl/wp-content/uploads/2012/12/odroid.jpg" width="642" height="362" srcset="http://techfreak.pl/wp-content/uploads/2012/12/odroid.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/odroid-300x169.jpg 300w" sizes="(max-width: 642px) 100vw, 642px" /></a></p>
+<table width="740" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tr>
+    <td>
+      <strong>Specyfikacja:</strong></p> 
+<pre><code>  &lt;table width=&quot;740&quot; border=&quot;1&quot; cellspacing=&quot;1&quot; cellpadding=&quot;3&quot;&gt;
+    &lt;tr&gt;
+      &lt;td width=&quot;126&quot;&gt;
+        &lt;strong&gt;Processor&lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td width=&quot;605&quot;&gt;
+        &lt;strong&gt;Samsung Exynos4412 Prime Cortex-A9 Quad Core 1.7Ghz with 1MB L2 cache&lt;/strong&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Memory&lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        2048MB(2GB) LP-DDR2 880Mega data rate
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;3D Accelerator&lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Mali-400 Quad Core 440MHz
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Video&lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        supports 1080p via HDMI cable(H.264+AAC based MP4 container format)
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Video Out&lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        micro HDMI connector
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Audio&lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Standard 3.5mm headphone jack, Digital Microphone input&lt;br /&gt; HDMI Digital
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;LAN&lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        10/100Mbps Ethernet with RJ-45 Jack ( Auto-MDIX support)
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;USB2.0 Host &lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        High speed standard A type connector x 2 ports
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;USB2.0 Device &lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        ADB/Mass storage(Micro USB)
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Display &lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        HDMI monitor
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Storage (Option)&lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        MicroSD Card Slot&lt;br /&gt; eMMC module socket
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Power (Option)&lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        5V 2A Power
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;System Software&lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        u-boot 2010.12, Kernel 3.0.x, Android 4.x&lt;br /&gt; Source code will be uploaded on &lt;a href=&quot;http://com.odroid.com/sigong/nf_file_board/nfile_board.php&quot; target=&quot;_blank&quot;&gt;download&lt;/a&gt; page after first shipment.
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Case&lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        Aluminum full metal body with heat sink. (59 x 57 x 60 mm)
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;PCB Size &lt;/strong&gt;
+      &lt;/td&gt;
+      
+      &lt;td&gt;
+        48 x 52 mm
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/td&gt;
+</code></pre>
+  </tr>
+</table>
+<p> </p>
+<p>[<a href="http://www.hardkernel.com/renewal_2011/products/prdt_info.php?g_code=G135341370451" target="_blank">source</a>]</p>
+</div>
+
+        <footer class="post-footer clearfix"><div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Mini%2c%20mocny%20komputerek%20ODROID-U2&url=https%3a%2f%2ftechfreak.pl%2fmini-mocny-komputerek-odroid-u2%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fmini-mocny-komputerek-odroid-u2%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bezprzewodowe czujniki temperatury DS18b20 na ESP8266 &middot; My Name</title>
+        <meta name="description" content="Długo czekałem na takie proste i ciekawe rozwiązanie bezprzewodowego pomiaru temperatury. Nie tak dawno ukazał się tani układ Wifi ESP8266. Generalnie znany jako serial wifi ponieważ komunikacja odbywa się po TX,RX co jest i tak dużym ułatwieniem w stosunku np. do nRF2401. Okazuje się że sam moduł posiada 32 bitowy mikroprocesor który pozwala na załadowanie całkiem ciekawych programów. Dzięki takiemu rozwiązaniu można zbudować mini projekt bez użycia dodatkowego sprzętu takiego jak np. arduino. Super!">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Bezprzewodowe czujniki temperatury DS18b20 na ESP8266">
+<meta property="og:description" content="Długo czekałem na takie proste i ciekawe rozwiązanie bezprzewodowego pomiaru temperatury. Nie tak dawno ukazał się tani układ Wifi ESP8266. Generalnie znany jako serial wifi ponieważ komunikacja odbywa się po TX,RX co jest i tak dużym ułatwieniem w stosunku np. do nRF2401. Okazuje się że sam moduł posiada 32 bitowy mikroprocesor który pozwala na załadowanie całkiem ciekawych programów. Dzięki takiemu rozwiązaniu można zbudować mini projekt bez użycia dodatkowego sprzętu takiego jak np. arduino. Super!">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/bezprzewodowe-czujniki-temperatury-ds18b20-na-esp8266/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Bezprzewodowe czujniki temperatury DS18b20 na ESP8266</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2014-12-08" itemprop="datePublished">Mon, Dec 8, 2014</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 4 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Długo czekałem na takie proste i ciekawe rozwiązanie bezprzewodowego pomiaru temperatury. Nie tak dawno ukazał się tani układ Wifi ESP8266. Generalnie znany jako serial wifi ponieważ komunikacja odbywa się po TX,RX co jest i tak dużym ułatwieniem w stosunku np. do nRF2401. Okazuje się że sam moduł posiada 32 bitowy mikroprocesor który pozwala na załadowanie całkiem ciekawych programów. Dzięki takiemu rozwiązaniu można zbudować mini projekt bez użycia dodatkowego sprzętu takiego jak np. arduino. Super!</p>
+<p>Na początek zobacz filmik żeby zobaczyć o czym będę pisał :)</p>
+<h3 id="co-i-jak">Co i jak</h3>
+<p>Poniżej postaram się pokazać jak załadować bardzo świeży kod do odczytywania temperatury z czujników temperatury DS18B20, który złożyłem z przykładów dostępnych w necie.</p>
+<p>Na początek trzeba się zapoznać z pinami jakie są dostępne na ESP8266<figure id="attachment_8288" aria-describedby="caption-attachment-8288" style="width: 947px" class="wp-caption aligncenter"></p>
+<p><a href="http://techfreak.pl/bezprzewodowe-czujniki-temperatury-ds18b20-na-esp8266/esp8266-pinout1/" rel="attachment wp-att-8288"><img class="wp-image-8288 size-full" src="http://techfreak.pl/wp-content/uploads/2014/12/esp8266-pinout1.png" alt="esp8266-pinout1" width="947" height="551" srcset="http://techfreak.pl/wp-content/uploads/2014/12/esp8266-pinout1.png 947w, http://techfreak.pl/wp-content/uploads/2014/12/esp8266-pinout1-343x200.png 343w, http://techfreak.pl/wp-content/uploads/2014/12/esp8266-pinout1-300x174.png 300w, http://techfreak.pl/wp-content/uploads/2014/12/esp8266-pinout1-624x363.png 624w" sizes="(max-width: 947px) 100vw, 947px" /></a><figcaption id="caption-attachment-8288" class="wp-caption-text">fotka z <a href="http://mcuoneclipse.com/2014/10/15/cheap-and-simple-wifi-with-esp8266-for-the-frdm-board/">http://mcuoneclipse.com/2014/10/15/cheap-and-simple-wifi-with-esp8266-for-the-frdm-board/</a></figcaption></figure></p>
+<h3 id="połączenie">Połączenie</h3>
+<p>Aby się połączyć z układem trzeba mieć kabelek USB serial ale na 3.3V np. popularny FTDI 232RL. Najważniejsze piny to RX,TX, VCC, GND, CH_PD. VCC można na stałe zewrzeć z CH_PD bo to pin odpowiedzialny za uruchomienie mikroprocesora. Po zwarciu zostaje standardowy set pinów do podłączenia VCC, GND, RX, TX który trzeba podłączyć do swojego FTDI.</p>
+<h3 id="bootloader-mode">Bootloader mode</h3>
+<p>Aby moc wgrywać „softy” trzeba wprowadzić układ w tryb w którym przyjmuje on nowe softy. Aby to zrobić trzeba zewrzeć GPIO0 do masy.</p>
+<h3 id="program-do-wgrywania">Program do wgrywania</h3>
+<p>Do wgrywania używam esptool.py który można pobrać <a href="https://goo.gl/cK2d9N" target="_blank">github</a>. (git clone <a href="https://github.com/themadinventor/esptool">https://github.com/themadinventor/esptool</a>)</p>
+<p>Używa się go wydając polecenie:</p>
+<pre>./esptool.py --port /dev/ttyUSB0 write_flash 0x00000 nodemcu_512k.bin</pre>
+<p>Gdzie wskazałem porty USB mojego ftdi i plik nidemcu_512k.bin</p>
+<h3 id="co-wgrać">Co wgrać?</h3>
+<p>Można wgrywać różne programy, jest dostępne SDK więc może pojawiać się ich coraz więcej. Ja skorzystałem z <a href="http://www.nodemcu.com/" target="_blank">nodemcu</a> w którym piszę się trochę jak w arduino z tym że już od razu komendy lecą do pamięci i nie ma tu kompilowania i późniejszego ładowania. Na forum esp8266.com można sobie poczytać co i jak, jakie są przykłady, co można wgrać. Trochę wiedzy do ogarnięcia.</p>
+<p>Z ściągam plik nodemcu_512k.bin z <a href="https://github.com/nodemcu/nodemcu-firmware" target="_blank"><a href="https://github.com/nodemcu/nodemcu-firmware">https://github.com/nodemcu/nodemcu-firmware</a></a> i tą samą komendą co wyżej wgrywam plik do układu ESP8266</p>
+<pre>./esptool.py --port /dev/ttyUSB0 write_flash 0x00000 nodemcu_512k.bin</pre>
+<h3 id="czym-się-łączyć">Czym się łączyć</h3>
+<p>Ja używam GTKterm lub cutecom więc trzeba sobie zainstalować coś z tych programów. Nodemcu różni się tym od innych że po połączeniu na np. /dev/ttyUSB0 na domyślny baudrate 9600 od razu dostaje znak zachęty. Bez ustawiania CR LF itp. co wymagane jest w innych wsadach i można się pogubić przy łączeniu przez USB np. myśląc: nie działa fak ;)</p>
+<h3 id="działa">Działa!</h3>
+<p>Co dalej? Pierwszy kod który wgrałem to łączenie do mojej sieci po WiFi. Bardzo prostu kod który wkleja się linie po linii do terminalu.</p>
+<pre>print(wifi.sta.getip())
+    --0.0.0.0
+    wifi.setmode(wifi.STATION)
+    wifi.sta.config("SSID","password")
+    print(wifi.sta.getip())
+    --192.168.18.110</pre>
+<p>Od tego momentu twój mały układzik będzie się łączył do twojego wifi :)</p>
+<p>Więcej przykładów można zobaczyć na <a href="https://github.com/nodemcu/nodemcu-firmware" target="_blank"><a href="https://github.com/nodemcu/nodemcu-firmware">https://github.com/nodemcu/nodemcu-firmware</a></a> i ogólnie zasady działania kodu na nodemcu.</p>
+<h3 id="pomiar-temperatury">Pomiar temperatury</h3>
+<p>Ja sobie wymyśliłem że chciałbym do ESP8266 bezpośrednio połączyć DS18b20 który wykorzystuje w <a href="http://techfreak.pl/nettemp" target="_blank">nettemp</a> i który jest po prostu popularny. Będzie to bardzo fajne połączenie do mini urządzenia z którego można zdalnie czytać pomiary temperatury. Okazało się że dziś ludzie z nodemcu dodali obsługę 1-wire i mogę stworzyć to co chciałem ;) I poskładałem poniższy kod który wykonuje trzy rzeczy: łączy się do twojego wifi, odpala serwer www i odczytuję temperaturę z czujnika i wyświetla ją.</p>
+<p>Aktualny działający kod znajduje się na <a href="https://goo.gl/z8rnRa" target="_blank"><a href="https://github.com/sosprz/nettemp/blob/beta/modules/sensors/wireless/init.lua">https://github.com/sosprz/nettemp/blob/beta/modules/sensors/wireless/init.lua</a></a></p>
+<p>Do GPIO2 podłączyłem DATA z DS18B20, VCC do VCC, GND do GND ESP8266 i odczyty temperatury pojawiły się po wejściu na adres IP modułu.</p>
+<h3 id="jak-wgrać-ten-kod">Jak wgrać ten kod!?</h3>
+<p>Do wgrywania tylu linii też stworzono specjalny program o nazwie <a href="https://github.com/4refr0nt/luatool" target="_blank">luatool</a> (git clone <a href="https://github.com/4refr0nt/luatool">https://github.com/4refr0nt/luatool</a>)</p>
+<p>UWAGA: pod gpio nie może być nic podłączone przy wgrywaniu programów.</p>
+<p>Plik z powyższymi liniami zapisuje jako np. tf.lua i moge wgrać go jako plik który ma się automatycznie uruchamiać po włączeniu zasilania. Trzeba wskazać tylko żeby był plikiem docelowym o nazwie init.lua</p>
+<pre>./luatool.py -p /dev/ttyUSB0 -f tf.lua -t init.lua</pre>
+<p>Jako debug warto patrzeć co się dzieje w terminalu ale nie jest on wymagany w żaden sposób do działania. Zresztą widać to na powyższym filmiku.</p>
+<h3 id="zasialnie">Zasialnie</h3>
+<p><a href="http://techfreak.pl/bezprzewodowe-czujniki-temperatury-ds18b20-na-esp8266/techfreakpl_esp8266_ds18b20/" rel="attachment wp-att-8297"><img class="aligncenter size-full wp-image-8297" src="http://techfreak.pl/wp-content/uploads/2014/12/techfreakpl_esp8266_ds18b20.jpg" alt="techfreakpl_esp8266_ds18b20" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/12/techfreakpl_esp8266_ds18b20.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/12/techfreakpl_esp8266_ds18b20-266x200.jpg 266w, http://techfreak.pl/wp-content/uploads/2014/12/techfreakpl_esp8266_ds18b20-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/12/techfreakpl_esp8266_ds18b20-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2014/12/techfreakpl_esp8266_ds18b20-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Jak widać ja zastosowałem bateryjkę 3.6V. Najlepiej ją zamienić na jakiś lipo bo trzyma tylko godzinę :) A chodzi o to żeby był to naprawdę długi czas. ESP ma takie opcja jak czasowe wyłącznie, pomiar napięcia więc postaram już niedługo dołożyć te funkcjonalności a przede wszystkim dodać obsługę zdalnych czujników do <a href="http://techfreak.pl/nettemp" target="_blank">nettempa</a>.</p>
+<h3 id="koniec">koniec</h3>
+<p>Mam nadzieję że trochę przybliżyłem Ci jak zacząć pracę z ESP8266. Zostaw komentarz czy też udało Ci się odczytać zdalnie temperaturę.</p>
+<p>EDIT: kolejna część artykułu <a href="http://techfreak.pl/bezprzewodowe-czujniki-na-esp8266-nettemp/" target="_blank"><a href="http://techfreak.pl/bezprzewodowe-czujniki-na-esp8266-nettemp/">http://techfreak.pl/bezprzewodowe-czujniki-na-esp8266-nettemp/</a></a></p>
+<p>EDIT2: Dodatkowy opis dla windowsowych <a href="http://techfreak.pl/forum/viewtopic.php?f=19&t=247&start=120#p2845" target="_blank"><a href="http://techfreak.pl/forum/viewtopic.php?f=19&amp;t=247&amp;start=120#p2845">http://techfreak.pl/forum/viewtopic.php?f=19&amp;t=247&amp;start=120#p2845</a></a></p>
+<p> </p>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/esp8266/">ESP8266</a>, 
+                <a href="/tags/nettemp/">nettemp</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Bezprzewodowe%20czujniki%20temperatury%20DS18b20%20na%20ESP8266&url=https%3a%2f%2ftechfreak.pl%2fbezprzewodowe-czujniki-temperatury-ds18b20-na-esp8266%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fbezprzewodowe-czujniki-temperatury-ds18b20-na-esp8266%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HP Procurve on techfreak blog</title>
+    <link>https://techfreak.pl/tags/hp-procurve/</link>
+    <description>Recent content in HP Procurve on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Fri, 21 Nov 2014 23:20:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/hp-procurve/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wgrywanie firmware przez xmodem</title>
+      <link>https://techfreak.pl/wgrywanie-firmware-przez-xmodem/</link>
+      <pubDate>Fri, 21 Nov 2014 23:20:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wgrywanie-firmware-przez-xmodem/</guid>
+      <description>&lt;p&gt;Hej, tym razem trochę temat sieciowo linuxowy, bo dotyczący wgrywania firmwar’u do przełącznika HP Procurve poprzez kabel serial a w zasadzie do każdego urządzenia które wymaga zgrywania/wgrywania plików poprzez xmodem. Wiadomo że wygdoniej postawić serwer tftpd lub wgrać plik poprzez ssh (file transfer) ale czasem jest tak że z jakiegoś innego powodu lub przy całkowitym braku firmwar’u (primary, secondary) trzeba wgrać potrzebny plik.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Przykłady użycia pakietu Expect</title>
+      <link>https://techfreak.pl/przyklady-uzycia-pakietu-expect/</link>
+      <pubDate>Mon, 08 Oct 2012 11:49:17 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/przyklady-uzycia-pakietu-expect/</guid>
+      <description>&lt;p&gt;Jak używać programu Expect do interakcji z programami odpalanymi w terminalu ?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

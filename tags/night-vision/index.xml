@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>night vision on techfreak blog</title>
+    <link>https://techfreak.pl/tags/night-vision/</link>
+    <description>Recent content in night vision on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 22 Dec 2013 22:48:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/night-vision/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jaka kamera ip do domu? Test Airlive DM-720</title>
+      <link>https://techfreak.pl/jaka-kamera-ip-domu-test-airlive-dm-720/</link>
+      <pubDate>Sun, 22 Dec 2013 22:48:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jaka-kamera-ip-domu-test-airlive-dm-720/</guid>
+      <description>&lt;p&gt;Po raz kolejny mam przyjemność testować kamerę IP od AirLive, model DM-720. Jest to megapikselowa kamera kopułkowa z diodami IR LED oraz filtrem ICR. Maksymalna rozdzielczość to 1280×720 pikseli. Diody LED oraz filtr IR-Cut pozwalają na wykorzystanie kamery nie tylko w dzień.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Test kamery TRENDnet TV-IP572PI</title>
+      <link>https://techfreak.pl/test-kamery-trendnet-tv-ip572pi/</link>
+      <pubDate>Mon, 29 Apr 2013 15:44:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/test-kamery-trendnet-tv-ip572pi/</guid>
+      <description>&lt;p&gt;Kolejny raz trafia do mnie na testy kamera IP. Tym razem TRENDnet TV-IP572PI, pewnie myślicie sobie „ciągle testuje te kamery pewnie w domu ma BigBoothera, zbok!”. W domu nie mam zamontowanej ani jednej kamery ale zobaczymy jak będzie po tym teście bo kamera zapowiada się całkiem fajnie.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

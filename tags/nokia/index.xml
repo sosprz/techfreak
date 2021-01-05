@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nokia on techfreak blog</title>
+    <link>https://techfreak.pl/tags/nokia/</link>
+    <description>Recent content in nokia on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 10 Jan 2012 09:22:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/nokia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak uruchomić internet (GPRS) poprzez bluetooth i telefon Nokia ?</title>
+      <link>https://techfreak.pl/uruchamiamy-internet-gprs-poprzez-bluetooth-i-telefon-noki/</link>
+      <pubDate>Tue, 10 Jan 2012 09:22:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/uruchamiamy-internet-gprs-poprzez-bluetooth-i-telefon-noki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jak połączyć telefon nokia do serwera VPN Strongswan</title>
+      <link>https://techfreak.pl/jak-polaczyc-telefon-nokia-do-serwera-vpn-strongswan/</link>
+      <pubDate>Tue, 10 Jan 2012 08:56:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-polaczyc-telefon-nokia-do-serwera-vpn-strongswan/</guid>
+      <description>&lt;p&gt;Jak stworzyć tunel VPN z telefonu firmy Nokia do serwera VPN Strongswan?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

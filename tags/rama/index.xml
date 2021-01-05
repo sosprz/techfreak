@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rama on techfreak blog</title>
+    <link>https://techfreak.pl/tags/rama/</link>
+    <description>Recent content in rama on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Fri, 15 Jan 2016 15:16:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/rama/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[miniFPV] Rama LANTIAN LT130</title>
+      <link>https://techfreak.pl/minifpv-rama-lantian-lt130/</link>
+      <pubDate>Fri, 15 Jan 2016 15:16:03 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/minifpv-rama-lantian-lt130/</guid>
+      <description>&lt;p&gt;Dalszy ciąg &lt;a href=&#34;http://techfreak.pl/minifpv-diatome-et150/&#34; target=&#34;_blank&#34;&gt;serii wpisów o mini ramach do FPV&lt;/a&gt;. Dziś przyjrzę się ramie LT130 alias QAV130 ZMR130.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[MiniFPV] Diatone ET150</title>
+      <link>https://techfreak.pl/minifpv-diatome-et150/</link>
+      <pubDate>Mon, 11 Jan 2016 15:44:40 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/minifpv-diatome-et150/</guid>
+      <description>&lt;p&gt;Tym wpisem zaczynam serię przedstawiającą ramki do quadkopterów, multikopterów lub jak kto chce dronów pod miniFPV. Zobacz Diatone ET150&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Matek mini PDB</title>
+      <link>https://techfreak.pl/matek-mini-pdb/</link>
+      <pubDate>Sat, 10 Oct 2015 17:24:49 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/matek-mini-pdb/</guid>
+      <description>&lt;p&gt;Konstruktorzy popularnych mini dronów klasy &lt;em&gt;dwiesciepiedziesiat,&lt;/em&gt; często się zastanawiają czy zakupić płytę dystrybuująca zasilanie do regulatorów integralną z ramą czy jednak montowaną osobno. Mowa tu np. o popularnym ZMR250 gdzie do wyboru mamy parę fajnych modeli. Pisałem o takich w poprzednim &lt;a href=&#34;http://techfreak.pl/nowa-rama-do-drona-zmr250/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wpisie&lt;/a&gt; z serii &lt;a href=&#34;http://techfreak.pl/category/moje-projekty/mojdron/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mojdron&lt;/a&gt;. Jeśli nie integralna płyta to co?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fajna mini rama do quadcoptera ZMR 250</title>
+      <link>https://techfreak.pl/fajna-mini-rama-do-quadcoptera/</link>
+      <pubDate>Fri, 11 Apr 2014 18:21:05 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/fajna-mini-rama-do-quadcoptera/</guid>
+      <description>&lt;p&gt;Dziś chciałbym pokazać całkiem mocną i fajną ramę do quadcoptera o wymiarze 250mm. Przy okazji zakupów śmigieł 5×3 na stronie &lt;a title=&#34;quadcopter parts&#34; href=&#34;http://www.myrcmart.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;myrcmart.com&lt;/a&gt; znalazłem ramę &lt;a href=&#34;http://www.myrcmart.com/zmr-xpower-4axis-quadcopter-barebone-frame-p-6273.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZMR&lt;/a&gt; za 11$ która jest wykonana z &lt;a href=&#34;http://pl.wikipedia.org/wiki/W%C5%82%C3%B3kno_w%C4%99glowe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;włókna węglowego&lt;/a&gt; i łączona nylonowymi śrubkami do których nigdy nie byłem przekonany. Do tego dokupiłem &lt;a href=&#34;http://www.myrcmart.com/multicopter-power-distribution-board-18-connection-blue-p-6400.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;płytkę zasilania&lt;/a&gt; co jest fajną podstawą do budowy quadzika. Jeśli ktoś mnie czyta to wie że jakiś czas temu budowałem&lt;a href=&#34;http://techfreak.pl/pierwszy-mini-h-quadcopter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; pierwszy-mini-h-quadcopter&lt;/a&gt; gdzie rama była wydrukowana na drukarce 3D. No właśnie była. Niestety pierwsze cięższe lądowanie to połamane ramie. Nadrukowałem sobie na zapas ale stwierdziłem że trzeba znaleźć coś twardszego. Włókno szklane jest stosowane powszechnie w modelach ale dopiero po zakupie przekonałem się że jest to fajny materiał i przede wszystkim sztywny.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

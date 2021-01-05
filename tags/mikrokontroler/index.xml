@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mikrokontroler on techfreak blog</title>
+    <link>https://techfreak.pl/tags/mikrokontroler/</link>
+    <description>Recent content in mikrokontroler on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 02 Nov 2014 19:59:26 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/mikrokontroler/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Espurino Pico – mały ale mocny mikrokontroler</title>
+      <link>https://techfreak.pl/espurino-pico-maly-mocny-mikrokontroler/</link>
+      <pubDate>Sun, 02 Nov 2014 19:59:26 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/espurino-pico-maly-mocny-mikrokontroler/</guid>
+      <description>&lt;p&gt;Coraz więcej projektów pojawia się na małym ale 32 bitowym mikrokontrolerze STM32 z rodziny ARM Cortex-M3. Mi najbardziej znane realizacje na tym 32 bitowcu to kontroler lotu Naze32 który wykorzystałem w budowie &lt;a href=&#34;http://techfreak.pl/zbudowac-quadcopter-fpv250-naze32-dys-be1806/&#34; target=&#34;_blank&#34;&gt;quadcoptera&lt;/a&gt; i Radio odbiorniki FrSky których używam. Pojawił się ciekawy projekt Espurino Pico który ta jak Arduino ma na celu ułatwić zapoznanie i korzystanie właśnie z tej platformy.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

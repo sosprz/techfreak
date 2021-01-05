@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TRENDnet on techfreak blog</title>
+    <link>https://techfreak.pl/tags/trendnet/</link>
+    <description>Recent content in TRENDnet on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 17 Aug 2013 20:28:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/trendnet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jaka kamera IP do domu? Może obrotowa?</title>
+      <link>https://techfreak.pl/jaka-kamera-ip-do-domu-moze-obrotowa/</link>
+      <pubDate>Sat, 17 Aug 2013 20:28:24 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jaka-kamera-ip-do-domu-moze-obrotowa/</guid>
+      <description>&lt;p&gt;Przyznam, że kiedyś parę lat temu myślałem o obrotowej &lt;a title=&#34;Jaka kamera IP do domu?&#34; href=&#34;http://techfreak.pl/kamera-ip-do-domu-testy-kamery-ip-airlive-wn-200hd/&#34; target=&#34;_blank&#34;&gt;kamerze do domu&lt;/a&gt;. Funkcja chyba sama w sobie mi się podobała, jednak ciężko było mi się skusić na ten zakup. Interesowałem się kamerami Foscam i jej podróbkami za 300 zł na allegro, ale nigdy nie zdecydowałem się kupić kamery IP do domu. Dopiero jak przyszło mi testować kamery to przyznałem, że to fajna sprawa. Tylko czy kamera obrotowa w ogóle nadaje się do domu? Przed tym pytaniem właśnie stoję bo zostałem poproszony o testy kamery obrotowej &lt;strong&gt;TRENDnet TV-IP672W&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gigsowe Wifi czy to już? Test routera TEW-812DRU i karty usb TEW-805UB</title>
+      <link>https://techfreak.pl/gigsowe-wifi-czy-to-juz-test-routera-tew-812dru-i-karty-usb-tew-805ub/</link>
+      <pubDate>Wed, 24 Jul 2013 05:40:59 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/gigsowe-wifi-czy-to-juz-test-routera-tew-812dru-i-karty-usb-tew-805ub/</guid>
+      <description>&lt;p&gt;Wiadomo już dawno że bez WiFi nie można żyć i że dostęp do internetu musi być wszędzie. Jak nie w domu to w pracy i jeszcze najlepiej pomiędzy jak jedziemy samochodem żeby tylko pakietu na internet nie zjadło za dużo. Na szczęście pakiety nie są takie drogie (PLAY 10zł za 1G). Mówiąc o WiFi raczej ludzie myślą o dostępie do internetu a nie o standardach, transferach i ogólnie jak szybkie to całe WiFi jest. W sumie co mają się przejmować, jest zasięg, internet działa jest ok. Mam takiego sąsiada co kupił u operatora 30Mbps, posiada router z AP w standardzie 802.11b, czyli 11 Mbps i własnie zmienia operatora bo nie wyciąga transferów na www speed teście. Nie ma co opowiadać historyjek ale tak właśnie chciałem zacząć test routera TRENDnet TEW-812DRU który działa w standardzie 802.11ac a jego maksymalna przepustowość po radiu może wynieść 1300Mbps. Tak jak ostatnio w przypadku testu &lt;a title=&#34;Sieć LAN z gniazdka&#34; href=&#34;http://techfreak.pl/siec-lan-z-gniazdka-elektrycznego-test-adapterow-trendnet-tpl-405e/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;adapterów LAN&lt;/a&gt; postaram się sprawdzić prawdziwe realne transfery jakie można wycisnąć z tego sprzętu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Test kamery TRENDnet TV-IP572PI</title>
+      <link>https://techfreak.pl/test-kamery-trendnet-tv-ip572pi/</link>
+      <pubDate>Mon, 29 Apr 2013 15:44:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/test-kamery-trendnet-tv-ip572pi/</guid>
+      <description>&lt;p&gt;Kolejny raz trafia do mnie na testy kamera IP. Tym razem TRENDnet TV-IP572PI, pewnie myślicie sobie „ciągle testuje te kamery pewnie w domu ma BigBoothera, zbok!”. W domu nie mam zamontowanej ani jednej kamery ale zobaczymy jak będzie po tym teście bo kamera zapowiada się całkiem fajnie.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

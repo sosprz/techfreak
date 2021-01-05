@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>VoCore mikro komputer z WiFi &middot; My Name</title>
+        <meta name="description" content="VoCore to nowy bardzo fajny projekt mikro komputerka z OpenWRT na pokładzie. Mikro z powodu swoich całkowitych wymiarów które wynoszą 25mm x25mm. Na płytce znajdziemy 32MB SDRAM, 8MB SPI Flash i takie interfejsy jak 10/100M Ethernet, USB, UART, I2C, I2S, PCM, JTAG oraz 20 portów GPIOs i WiFi. A to wszystko pod kontrolą RT5350(360MHz MIPS).
+
+Projekt wystartował jakiś czas temu na indiegogo gdzie już zdobył 47k $ zielonych, dzięki którym wejdzie do produkcji.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="VoCore mikro komputer z WiFi">
+<meta property="og:description" content="VoCore to nowy bardzo fajny projekt mikro komputerka z OpenWRT na pokładzie. Mikro z powodu swoich całkowitych wymiarów które wynoszą 25mm x25mm. Na płytce znajdziemy 32MB SDRAM, 8MB SPI Flash i takie interfejsy jak 10/100M Ethernet, USB, UART, I2C, I2S, PCM, JTAG oraz 20 portów GPIOs i WiFi. A to wszystko pod kontrolą RT5350(360MHz MIPS).
+
+Projekt wystartował jakiś czas temu na indiegogo gdzie już zdobył 47k $ zielonych, dzięki którym wejdzie do produkcji.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/vocore-mikro-komputer-wifi/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">VoCore mikro komputer z WiFi</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2014-05-31" itemprop="datePublished">Sat, May 31, 2014</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 1 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>VoCore to nowy bardzo fajny projekt mikro komputerka z OpenWRT na pokładzie. Mikro z powodu swoich całkowitych wymiarów które wynoszą 25mm x25mm. Na płytce znajdziemy 32MB SDRAM, 8MB SPI Flash i takie interfejsy jak 10/100M Ethernet, USB, UART, I2C, I2S, PCM, JTAG oraz 20 portów GPIOs i WiFi. A to wszystko pod kontrolą RT5350(360MHz MIPS).</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/05/20140519155058-vocore.jpg"><img class="aligncenter size-full wp-image-7127" src="http://techfreak.pl/wp-content/uploads/2014/05/20140519155058-vocore.jpg" alt="20140519155058-vocore" width="600" height="400" srcset="http://techfreak.pl/wp-content/uploads/2014/05/20140519155058-vocore.jpg 600w, http://techfreak.pl/wp-content/uploads/2014/05/20140519155058-vocore-300x200.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+<p>Projekt wystartował jakiś czas temu na <a href="https://www.indiegogo.com/projects/vocore-a-coin-sized-linux-computer-with-wifi" target="_blank" rel="noopener">indiegogo</a> gdzie już zdobył 47k $ zielonych, dzięki którym wejdzie do produkcji. Sam chyba zakupię model za 40 dolców wraz ze stacją dokującą która zawiera port USB i port RJ45.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/05/vcore_dock.jpg"><img class="aligncenter size-full wp-image-7132" src="http://techfreak.pl/wp-content/uploads/2014/05/vcore_dock.jpg" alt="vcore_dock" width="537" height="543" srcset="http://techfreak.pl/wp-content/uploads/2014/05/vcore_dock.jpg 537w, http://techfreak.pl/wp-content/uploads/2014/05/vcore_dock-296x300.jpg 296w" sizes="(max-width: 537px) 100vw, 537px" /></a></p>
+<p>Te mini rozmiary powodują że można uruchomić bardzo wiele projektów, jak zdalne czujniki temperatur do <a href="http://nettemp.pl" target="_blank" rel="noopener">nettempa</a>, mini routery i wszelkiego rodzaju serwerki sterowania automatyką. Do tego 20 pinów gpio, kto wie czy <a href="http://techfreak.pl/tag/quadcopter/" target="_blank" rel="noopener">quadcoptery</a> nie będą miały nowej płytki sterowania (FC).</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/05/20140519155505-vocore.v1.0.top_.png"><img class="aligncenter size-full wp-image-7128" src="http://techfreak.pl/wp-content/uploads/2014/05/20140519155505-vocore.v1.0.top_.png" alt="20140519155505-vocore.v1.0.top" width="877" height="1011" srcset="http://techfreak.pl/wp-content/uploads/2014/05/20140519155505-vocore.v1.0.top_.png 877w, http://techfreak.pl/wp-content/uploads/2014/05/20140519155505-vocore.v1.0.top_-260x300.png 260w" sizes="(max-width: 877px) 100vw, 877px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/05/20140519181657-vocore.v0.5.ledgreen.jpg"><img class="aligncenter size-full wp-image-7129" src="http://techfreak.pl/wp-content/uploads/2014/05/20140519181657-vocore.v0.5.ledgreen.jpg" alt="20140519181657-vocore.v0.5.ledgreen" width="1240" height="826" srcset="http://techfreak.pl/wp-content/uploads/2014/05/20140519181657-vocore.v0.5.ledgreen.jpg 1240w, http://techfreak.pl/wp-content/uploads/2014/05/20140519181657-vocore.v0.5.ledgreen-300x199.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/05/20140519181657-vocore.v0.5.ledgreen-1024x682.jpg 1024w" sizes="(max-width: 1240px) 100vw, 1240px" /></a></p>
+<p> </p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/openwrt/">openwrt</a>, 
+                <a href="/tags/router/">router</a>, 
+                <a href="/tags/wifi/">wifi</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=VoCore%20mikro%20komputer%20z%20WiFi&url=https%3a%2f%2ftechfreak.pl%2fvocore-mikro-komputer-wifi%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fvocore-mikro-komputer-wifi%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

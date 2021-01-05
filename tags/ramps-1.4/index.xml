@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ramps 1.4 on techfreak blog</title>
+    <link>https://techfreak.pl/tags/ramps-1.4/</link>
+    <description>Recent content in Ramps 1.4 on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 18 Sep 2013 06:09:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/ramps-1.4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drukarka 3D dziennik budowy cz3</title>
+      <link>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz3/</link>
+      <pubDate>Wed, 18 Sep 2013 06:09:22 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz3/</guid>
+      <description>No to przyszedł czas na składanie wszystkich części MendelMaxa 1.5 w jedną całość. Jak pisałem w pierwszej części zabrakło mi plastików ale z pomocą przyszedł mi devildesign.pl który dostarczył mi plastiki dzięki którym mogłem dalej budować. Plastiki przyszły w wielkim kartonie. Okazało się że w prezencie dostałem trochę ABS na początek i szpulę. Plastiki były zapakowane w pudełkach i dodatkowo w plastikowych woreczkach. Całkiem fajnie to wyglądało. Fotki z paczki poniżej.</description>
+    </item>
+    
+    <item>
+      <title>Drukarka 3D dziennik budowy cz1</title>
+      <link>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz1/</link>
+      <pubDate>Thu, 05 Sep 2013 19:41:57 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz1/</guid>
+      <description>Tym razem was zaskoczę! Nic nie testuję ani nie wrzucę jakiegoś fajnego newsa z technologii. Zaczynam budować drukarkę 3D model Mendelmax i podzielę się z wami moimi przygodami związanymi z tym tematem a na pewno się jakieś pojawią.
+Ogólnie mam zawsze dużo pomysłów ale często jakoś kręcę się około tematu nettempa czyli mojego małego projektu pomiaru temperatury. Mam w głowie projekt płytki PCB do Raspbery Pi i często pojawia się też temat obudowy zamykającej projekt w jedną całość.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kamera on techfreak blog</title>
+    <link>https://techfreak.pl/tags/kamera/</link>
+    <description>Recent content in kamera on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Mon, 29 Apr 2013 15:44:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/kamera/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test kamery TRENDnet TV-IP572PI</title>
+      <link>https://techfreak.pl/test-kamery-trendnet-tv-ip572pi/</link>
+      <pubDate>Mon, 29 Apr 2013 15:44:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/test-kamery-trendnet-tv-ip572pi/</guid>
+      <description>&lt;p&gt;Kolejny raz trafia do mnie na testy kamera IP. Tym razem TRENDnet TV-IP572PI, pewnie myślicie sobie „ciągle testuje te kamery pewnie w domu ma BigBoothera, zbok!”. W domu nie mam zamontowanej ani jednej kamery ale zobaczymy jak będzie po tym teście bo kamera zapowiada się całkiem fajnie.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

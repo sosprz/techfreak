@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lvm on techfreak blog</title>
+    <link>https://techfreak.pl/tags/lvm/</link>
+    <description>Recent content in lvm on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 26 Apr 2017 13:35:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak rozszerzyć dysk na LVM?</title>
+      <link>https://techfreak.pl/jak-rozszerzyc-dysk-na-lvm/</link>
+      <pubDate>Wed, 26 Apr 2017 13:35:31 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-rozszerzyc-dysk-na-lvm/</guid>
+      <description>&lt;p&gt;Zobacz jak rozszerzyć dysk/partycje która jest zarządzana przez LVM i nie stracić danych.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja LVM</title>
+      <link>https://techfreak.pl/konfiguracja-lvm/</link>
+      <pubDate>Sat, 06 Oct 2012 11:50:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-lvm/</guid>
+      <description>&lt;p&gt;Bardzo ciekawym i nie aż tak skomplikowanym tematem są LVM czyli &lt;strong&gt;Logical Volume Manager.&lt;/strong&gt; Jest to bardzo elastyczny mechanizm do zarządzania przestrzenią dyskową. Poniżej przedstawiam parę podstawowych komend którymi sam się posługuję.&lt;/p&gt;
+&lt;p&gt;Poniżej są też ćwiczenia z konkretnych przypadków&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;//techfreak.pl/konfiguracja-lvm#Zmniejszanie_dysku&#34;&gt;Zmniejszanie dysku&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;//techfreak.pl/konfiguracja-lvm#Rozszerzanie_dodawanie_nowego_dysku_do_wolumen_grupy&#34;&gt;Rozszerzanie dodawanie nowego dysku do wolumen grupy&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

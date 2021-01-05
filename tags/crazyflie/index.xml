@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crazyflie on techfreak blog</title>
+    <link>https://techfreak.pl/tags/crazyflie/</link>
+    <description>Recent content in Crazyflie on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Thu, 09 May 2013 06:02:44 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/crazyflie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pocket Quad Ultra-Micro</title>
+      <link>https://techfreak.pl/pocket-quad-ultra-micro/</link>
+      <pubDate>Thu, 09 May 2013 06:02:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/pocket-quad-ultra-micro/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://hobbyking.com/&#34; target=&#34;_blank&#34;&gt;HobbyKing&lt;/a&gt; to chyba najpopularniejszy sklep dla maniaków latających quadów, modeli i wszystkiego co zdalnie sterowane. Jedyny minus to czas przesyłki. Dziś to tylko szybki wpis o nowym produkcie Hobyy King Pocket Quad Ultra-Micro. Nie będę dziś pisał o tych mega wolnych i ryzykownych przesyłkach no i reklamacjach na poczcie. Może innym razem … ;)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Crazyflie Nano Quadcopter</title>
+      <link>https://techfreak.pl/crazyflie-nano-quadcopter/</link>
+      <pubDate>Fri, 01 Feb 2013 14:42:42 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/crazyflie-nano-quadcopter/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/crazyflie-nano-quadcopter/crazyflie-diy-kit_642_362_force/&#34; rel=&#34;attachment wp-att-1970&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1970&#34; alt=&#34;Crazyflie DIY Kit_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/Crazyflie-DIY-Kit_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/Crazyflie-DIY-Kit_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/Crazyflie-DIY-Kit_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Czekałem długo na ten projekt a dokładnie na jego ukończenie. Byłem ciekawy za ile będzie sprzedawany &lt;a href=&#34;http://www.bitcraze.se/&#34; target=&#34;_blank&#34;&gt;Crazyflie Nano Quadcopter&lt;/a&gt; okazuje się ze w wersji z &lt;strong&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Six_degrees_of_freedom&#34; target=&#34;_blank&#34;&gt;6DOF&lt;/a&gt;&lt;/strong&gt; cena kitu kosztuje &lt;strong&gt;149&lt;/strong&gt; a &lt;strong&gt;&lt;a href=&#34;http://playground.arduino.cc/Main/WhatIsDegreesOfFreedom6DOF9DOF10DOF11DOF&#34; target=&#34;_blank&#34;&gt;10dof &lt;/a&gt;173&lt;/strong&gt; dolców.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

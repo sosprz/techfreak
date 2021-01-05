@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lcd on techfreak blog</title>
+    <link>https://techfreak.pl/tags/lcd/</link>
+    <description>Recent content in lcd on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Thu, 28 May 2015 18:18:53 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/lcd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kolorowy Tetris na Arduino</title>
+      <link>https://techfreak.pl/kolorowy-tetris-na-arduino/</link>
+      <pubDate>Thu, 28 May 2015 18:18:53 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/kolorowy-tetris-na-arduino/</guid>
+      <description>&lt;p&gt;Ostatnio mam ochotę pograć w jakieś starsze gierki. Na razie nie mam na czym, ale jeśli Ty masz zbędne arduino i wyświetlacz TFT to możesz zbudować bardzo fajną konsolkę do tetrisa.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>nettemp nowe funkcje</title>
+      <link>https://techfreak.pl/nettemp-nowe-funkcje/</link>
+      <pubDate>Fri, 17 Apr 2015 11:32:55 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-nowe-funkcje/</guid>
+      <description>&lt;p&gt;Hej, dziś parę słów na temat projektu nettemp. Oczywiście nie rozwija się on tak szybko jak bym chciał ale zawszę trochę do przodu. Obecnie nettemp dzieli się na dwie wersje master i beta. Master jest w miarę stabilną wersją jeszcze ze starymi wykresami na RRD. Natomiast nowa wersja bety zawiera parę nowych funkcji o których werto wspomnieć.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

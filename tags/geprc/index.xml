@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>geprc on techfreak blog</title>
+    <link>https://techfreak.pl/tags/geprc/</link>
+    <description>Recent content in geprc on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Mon, 23 Jan 2017 21:45:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/geprc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jaką ramę wybrać do FPV racera?</title>
+      <link>https://techfreak.pl/rame-wybrac-fpv-racera/</link>
+      <pubDate>Mon, 23 Jan 2017 21:45:31 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/rame-wybrac-fpv-racera/</guid>
+      <description>&lt;p&gt;Okres zimowy dla pilotów to zazwyczaj przygotowania do sezonu i możliwość spokojnego przejrzenia rynku. Ja sam stoję przed wyborem nowej ramy do multikomptera wyścigowego. Choć mam ich parę to coraz to nowsze pomysły producentów i hobbystów powodują, że nowy projekt to tylko formalność!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Budowa zestawu FPV z KITU GB190 (GEP-ZX5)</title>
+      <link>https://techfreak.pl/budowa-zestawu-fpv-kitu-gb190-gep-zx5/</link>
+      <pubDate>Fri, 26 Aug 2016 23:06:13 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/budowa-zestawu-fpv-kitu-gb190-gep-zx5/</guid>
+      <description>&lt;p&gt;Zapraszam do kolejnej budowy quadkoptera, tym razem na ramie &lt;a href=&#34;http://www.gearbest.com/multi-rotor-parts/pp_413709.html#lkid=1009712&#34;&gt;GEP-ZX5&lt;/a&gt; w której odległość pomiędzy motorami to 190mm. I co za tym idzie, pozwala latać na pięcio calowych śmigłach!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

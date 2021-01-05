@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>proxy on techfreak blog</title>
+    <link>https://techfreak.pl/tags/proxy/</link>
+    <description>Recent content in proxy on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 06 May 2014 18:58:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/proxy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Proxy po ssh czyli zawsze wychodzę z tego samego IP</title>
+      <link>https://techfreak.pl/proxy-po-ssh-czyli-zawsze-wychodze-z-tego-samego-ip/</link>
+      <pubDate>Tue, 06 May 2014 18:58:14 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/proxy-po-ssh-czyli-zawsze-wychodze-z-tego-samego-ip/</guid>
+      <description>&lt;p&gt;Dziś chciałbym pokazać wam ja wykorzystać sytuację w której posiadacie swojego hosta gdzieś w firmie lub w domu i chcecie korzystać właśnie z niego ze względu na IP a nie ma was na miejscu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalacja proxy na OpenWRT ( tinyproxy )</title>
+      <link>https://techfreak.pl/instalacja-proxy-na-openwrt-tinyproxy/</link>
+      <pubDate>Thu, 18 Oct 2012 10:32:27 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/instalacja-proxy-na-openwrt-tinyproxy/</guid>
+      <description>&lt;p&gt;Jak zainstalować i skonfigurować proxy na OpenWrt ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak włączyć proxy w RedHat dla repozytorium i jak korzystać z proxy ?</title>
+      <link>https://techfreak.pl/jak-wlaczyc-proxy-w-redhat-dla-repozytorium-i-jak-korzystac-z-proxy/</link>
+      <pubDate>Wed, 03 Oct 2012 20:57:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wlaczyc-proxy-w-redhat-dla-repozytorium-i-jak-korzystac-z-proxy/</guid>
+      <description>&lt;p&gt;Jak włączyć proxy dla systemu Redhat ?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

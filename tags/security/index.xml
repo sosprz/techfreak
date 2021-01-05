@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on techfreak blog</title>
+    <link>https://techfreak.pl/tags/security/</link>
+    <description>Recent content in security on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Fri, 05 Jul 2013 17:43:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak bronić się przed atakiem arpspoof? cześć druga</title>
+      <link>https://techfreak.pl/jak-bronic-sie-przed-atakiem-arpspoof-czesc-druga/</link>
+      <pubDate>Fri, 05 Jul 2013 17:43:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-bronic-sie-przed-atakiem-arpspoof-czesc-druga/</guid>
+      <description>&lt;p&gt;Po ostatnim wpisie &lt;a href=&#34;http://techfreak.pl/jak-bronic-sie-przed-atakiem-arpspoof/&#34; target=&#34;_blank&#34;&gt;jak bronic się przed atakiem arpspoof&lt;/a&gt;, pomyślałem że w sumie to powinienem też pokazać jak bronić się przed atakami arpspoof w sieci, tam gdzie są do dyspozycji zarządzalne przełączniki. Do wykorzystania mam stary przełącznik HP ProCurve 2626 ale jest on w pełni zarządzalny i po odpowiedniej konfiguracji spokojnie ochroni mnie przed atakiem arpspoof.&lt;/p&gt;
+&lt;p&gt;Poniższa konfiguracja jest naprawdę prosta a dodatkowo będzie działać na wyższych modelach przełączników HP np. HP ProCurve 2600, 3500, 5400.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak bronić się przed atakiem arpspoof?</title>
+      <link>https://techfreak.pl/jak-bronic-sie-przed-atakiem-arpspoof/</link>
+      <pubDate>Fri, 28 Jun 2013 20:09:10 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-bronic-sie-przed-atakiem-arpspoof/</guid>
+      <description>&lt;p&gt;Grzebiąc w swoich linuksowych notatkach znalazłem instrukcje jak przy pomocy arpspoof, proxy i serwera www można zrobić komuś żart. Polega on na odwróceniu lub podmienieniu obrazków na wszystkich oglądanych przez ofiarę stronach www na inne np. coś śmiesznego. &lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bash on techfreak blog</title>
+    <link>https://techfreak.pl/tags/bash/</link>
+    <description>Recent content in bash on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 09 Aug 2014 06:20:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Efekt Matrixa w konsoli</title>
+      <link>https://techfreak.pl/efekt-matrixa-konsoli/</link>
+      <pubDate>Sat, 09 Aug 2014 06:20:22 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/efekt-matrixa-konsoli/</guid>
+      <description>&lt;p&gt;Taka ciekawostka tym razem związana z konsolą. Ostatnio znalazłem stary ale fajny efekt Matrixa w konsoli. Działa on bardzo fajnie a generuje go prosty skrypt w bashu. Autorem jest &lt;a href=&#34;http://bruxy.regnet.cz/&#34; target=&#34;_blank&#34;&gt;BruXy&lt;/a&gt;, który to na swoim blogu ma więcej fajnych rzeczy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Problem z msmtp</title>
+      <link>https://techfreak.pl/problem-msmtp/</link>
+      <pubDate>Thu, 07 Aug 2014 08:52:53 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/problem-msmtp/</guid>
+      <description>Ostatnio pewien użytkownik nettempa z Kandy zgłosił się do mnie z problemem który dotyczył powiadomień mailowych. Nettemp do wysyłania powiadomień używa lekkiego klienta msmtp. Błąd jaki wyskakiwał to:
+msmtp: cannot create socket: Address family not supported by protocol msmtp: could not send mail Google podpowiadało to że może to być problem z ipv6 lub z konfiguracją klienta msmtp. Okazało się że to problem z zablokowanym portem SMTP 587.
+Jak można sprawdzić czy port jest zablokowany?</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu – Znowu brak miejsca w boot</title>
+      <link>https://techfreak.pl/ubuntu-znowu-brak-miejsca-w-boot/</link>
+      <pubDate>Tue, 08 Apr 2014 17:53:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ubuntu-znowu-brak-miejsca-w-boot/</guid>
+      <description>&lt;p&gt;Dziś chciałbym napisać, pokazać lub przypomnieć, co zrobić jak na partycji /boot  zabraknie miejsca. Moi znajomi często mają ten problem przez który nie kończy się aktualizacja systemowa, dokładnie chodzi o Ubuntu. Wiadomo nikt nie lubi czerwonych wykrzykników w prawym górnym rogu. Ja używam xubuntu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wygrywanie obrazu/firmware przy pomocy atftp przykład OpenWrt</title>
+      <link>https://techfreak.pl/wygrywanie-obrazufirmware-przy-pomocy-atftp-przyklad-opnwrt/</link>
+      <pubDate>Sat, 01 Dec 2012 23:10:00 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wygrywanie-obrazufirmware-przy-pomocy-atftp-przyklad-opnwrt/</guid>
+      <description>&lt;p&gt;Jeżeli używasz X’ów to przed przystąpieniem do działań w konsoli zatrzymaj Network Managera&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak kontrolować procesy ?</title>
+      <link>https://techfreak.pl/jak-kontrolowac-procesy/</link>
+      <pubDate>Sat, 01 Dec 2012 22:59:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-kontrolowac-procesy/</guid>
+      <description>&lt;p&gt;Komendy do kontrolowania procesów:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wyświetlać procesy ?</title>
+      <link>https://techfreak.pl/jak-wyswietlac-procesy/</link>
+      <pubDate>Sat, 01 Dec 2012 22:55:00 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wyswietlac-procesy/</guid>
+      <description>&lt;p&gt;Jak wyświetlać procesy  w systemie ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Operacje na swap</title>
+      <link>https://techfreak.pl/operacje-na-swap/</link>
+      <pubDate>Thu, 18 Oct 2012 11:01:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/operacje-na-swap/</guid>
+      <description>&lt;p&gt;Wyświetlanie wartości swappines – czym jest ona mniejsza tym system mniej korzysta ze swapa.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zrobić łatkę patch przy pomocy diff ?</title>
+      <link>https://techfreak.pl/jak-zrobic-latke-patch-przy-pomocy-diff/</link>
+      <pubDate>Thu, 18 Oct 2012 10:28:07 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zrobic-latke-patch-przy-pomocy-diff/</guid>
+      <description>&lt;p&gt;„Paczowanie” czyli jak zrobić łatkę przy pomocy diff.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Zdalna synchronizacja katalogów poprzez rsync</title>
+      <link>https://techfreak.pl/zdalna-synchronizacja-katalogow-poprzez-rsync/</link>
+      <pubDate>Mon, 08 Oct 2012 12:15:50 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zdalna-synchronizacja-katalogow-poprzez-rsync/</guid>
+      <description>&lt;p&gt;Poniżej opis jak zrobić zdalny backup, czyli np. jak synchronizować zdalnie dwa katalogi przy pomocy rsync.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja LVM</title>
+      <link>https://techfreak.pl/konfiguracja-lvm/</link>
+      <pubDate>Sat, 06 Oct 2012 11:50:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-lvm/</guid>
+      <description>&lt;p&gt;Bardzo ciekawym i nie aż tak skomplikowanym tematem są LVM czyli &lt;strong&gt;Logical Volume Manager.&lt;/strong&gt; Jest to bardzo elastyczny mechanizm do zarządzania przestrzenią dyskową. Poniżej przedstawiam parę podstawowych komend którymi sam się posługuję.&lt;/p&gt;
+&lt;p&gt;Poniżej są też ćwiczenia z konkretnych przypadków&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;//techfreak.pl/konfiguracja-lvm#Zmniejszanie_dysku&#34;&gt;Zmniejszanie dysku&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;//techfreak.pl/konfiguracja-lvm#Rozszerzanie_dodawanie_nowego_dysku_do_wolumen_grupy&#34;&gt;Rozszerzanie dodawanie nowego dysku do wolumen grupy&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>lftp – wgrywanie zmian lub nowych plikow na serwer ftp</title>
+      <link>https://techfreak.pl/lftp-wgrywanie-zmian-lub-nowych-plikow-na-serwer-ftp/</link>
+      <pubDate>Thu, 04 Oct 2012 07:15:26 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/lftp-wgrywanie-zmian-lub-nowych-plikow-na-serwer-ftp/</guid>
+      <description>&lt;p&gt;Potrzebowałem skryptu który wgra mi automatycznie zmiany które robie na stronie bez wgrywania wszystkiego za każdym razem przez ftp. Do tego nadaje się świetnie lftp. Jest to zaawansowany program to transferu plików. Do spełnienia mojego celu użyje lftp z opcją &lt;strong&gt;mirror&lt;/strong&gt;. Służy ona do uaktualniania katalogu zdalnego z lokalnym lub na odwrót. W przypdku kiedy musze wrzucić pliki na serwer fpt musze użyć opcji -R (reverse mirror (put files)).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Picocom – wysyłanie sms z modemu GSM</title>
+      <link>https://techfreak.pl/picocom-wysylanie-sms-z-modemu-gsm/</link>
+      <pubDate>Thu, 04 Oct 2012 06:57:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/picocom-wysylanie-sms-z-modemu-gsm/</guid>
+      <description>&lt;p&gt;Jak wysyłać sms z konsoli ? Posłuży do tego program picocom.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

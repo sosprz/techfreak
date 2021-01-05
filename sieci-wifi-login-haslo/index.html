@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sieci WiFi na login i hasło &middot; My Name</title>
+        <meta name="description" content="Jak zrobić dostęp do sieci WiFi na podstawie loginu i hasła? To całkiem proste gdy możemy w domu postawić serwer RADIUS. Serwer Radius to obecnie najpopularniejszy protokół uwierzytelniania i autoryzowania użytkowników sieci LAN i WiFi. Teraz gdy w domu masz możliwość uruchomienia Radius’a na routerze, raspberry pi lub serwerze plików NAS np. Synology, to ten sposób jest w zasięgu reki. Oczywiście poniższy przykład to zajawka i każdy musi zastanowić się czy lepiej dołączyć mamę do WiFi przez WPA2-Enterprise czy samo hasło WPA2-PSK. Czy może jeszcze dodatkowo token fizyczny.
+Poniższy sposób przedstawia skonfigurowanie routera tplink z obsługą 802.1x, serwera RADIUS na debianie i klientów, którzy wybierają logowanie za pomocą EAP PEAP MS-CHAPv2 podając tylko login i hasło. EAP PEAP jest jedyną metodą gdzie można użyć samego loginu i hasła. Cała komunikacja jest zabezpieczona w tunelu TLS, który jest równolegle zestawiamy przy prośbie o dołączenie do sieci. Dodatkowym atutem jest to, że sposób jest dostępny na wielu systemach i urządzeniach.
+
+EAP – Extensible Authentication Protocol
+PEAP – Protected EAP
+RADIUS – Remote Authentication Dial In User Service
+MS-CHAPv2 – Microsoft Challenge Handshake Authentication Protocol version 2
+802.1X –  Standard IEEE kontroli dostępu do sieci przewodowych i bezprzewodowych
+">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Sieci WiFi na login i hasło">
+<meta property="og:description" content="Jak zrobić dostęp do sieci WiFi na podstawie loginu i hasła? To całkiem proste gdy możemy w domu postawić serwer RADIUS. Serwer Radius to obecnie najpopularniejszy protokół uwierzytelniania i autoryzowania użytkowników sieci LAN i WiFi. Teraz gdy w domu masz możliwość uruchomienia Radius’a na routerze, raspberry pi lub serwerze plików NAS np. Synology, to ten sposób jest w zasięgu reki. Oczywiście poniższy przykład to zajawka i każdy musi zastanowić się czy lepiej dołączyć mamę do WiFi przez WPA2-Enterprise czy samo hasło WPA2-PSK. Czy może jeszcze dodatkowo token fizyczny.
+Poniższy sposób przedstawia skonfigurowanie routera tplink z obsługą 802.1x, serwera RADIUS na debianie i klientów, którzy wybierają logowanie za pomocą EAP PEAP MS-CHAPv2 podając tylko login i hasło. EAP PEAP jest jedyną metodą gdzie można użyć samego loginu i hasła. Cała komunikacja jest zabezpieczona w tunelu TLS, który jest równolegle zestawiamy przy prośbie o dołączenie do sieci. Dodatkowym atutem jest to, że sposób jest dostępny na wielu systemach i urządzeniach.
+
+EAP – Extensible Authentication Protocol
+PEAP – Protected EAP
+RADIUS – Remote Authentication Dial In User Service
+MS-CHAPv2 – Microsoft Challenge Handshake Authentication Protocol version 2
+802.1X –  Standard IEEE kontroli dostępu do sieci przewodowych i bezprzewodowych
+">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/sieci-wifi-login-haslo/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Sieci WiFi na login i hasło</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2017-10-22" itemprop="datePublished">Sun, Oct 22, 2017</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 5 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Jak zrobić dostęp do sieci WiFi na podstawie loginu i hasła? To całkiem proste gdy możemy w domu postawić serwer RADIUS. Serwer Radius to obecnie najpopularniejszy protokół uwierzytelniania i autoryzowania użytkowników sieci LAN i WiFi. Teraz gdy w domu masz możliwość uruchomienia Radius’a na routerze, raspberry pi lub serwerze plików NAS np. Synology, to ten sposób jest w zasięgu reki. Oczywiście poniższy przykład to zajawka i każdy musi zastanowić się czy lepiej dołączyć mamę do WiFi przez WPA2-Enterprise czy samo hasło WPA2-PSK. Czy może jeszcze dodatkowo token fizyczny.</p>
+<p>Poniższy sposób przedstawia skonfigurowanie routera tplink z obsługą 802.1x, serwera RADIUS na debianie i klientów, którzy wybierają logowanie za pomocą EAP PEAP MS-CHAPv2 podając tylko login i hasło. EAP PEAP jest jedyną metodą gdzie można użyć samego loginu i hasła. Cała komunikacja jest zabezpieczona w tunelu TLS, który jest równolegle zestawiamy przy prośbie o dołączenie do sieci. Dodatkowym atutem jest to, że sposób jest dostępny na wielu systemach i urządzeniach.</p>
+<ul>
+<li><a href="https://pl.wikipedia.org/wiki/Extensible_Authentication_Protocol">EAP</a> – Extensible Authentication Protocol</li>
+<li>PEAP – Protected EAP</li>
+<li><a href="https://pl.wikipedia.org/wiki/RADIUS">RADIUS</a> – Remote Authentication Dial In User Service</li>
+<li><a href="https://technet.microsoft.com/en-us/library/cc731462(v=ws.10).aspx">MS-CHAPv2</a> – Microsoft Challenge Handshake Authentication Protocol version 2</li>
+<li><a href="https://pl.wikipedia.org/wiki/IEEE_802.1X">802.1X</a> –  Standard IEEE kontroli dostępu do sieci przewodowych i bezprzewodowych</li>
+</ul>
+<h3 id="konfiguracja-routera-tplink">Konfiguracja routera tplink</h3>
+<p>Na routerze wystarczy wybrać sposób WPA2 Enterprise zamiast WPA2- PSK, wskazać adres IP serwera RADIUS oraz podać hasło dostępowe.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-4.jpg"><img class="aligncenter size-full wp-image-14220" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-4.jpg" alt="" width="1000" height="794" srcset="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-4.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-4-252x200.jpg 252w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-4-300x238.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-4-768x610.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<h3 id="instalacja-radius-na-debian-92-stretch">Instalacja RADIUS na debian 9.2 stretch</h3>
+<p>W moim labie system postawiłem na Virtualbox z dostępem do sieci lokalnej. Czyli adres IP został przydzielony z puli domowej. (Brak NAT w virtualbox). Poniżej instalacja pakietu freeradius.</p>
+<pre>aptitude install freeradius</pre>
+<p>Moja aktualna wersja:</p>
+<pre>root@radius:~# freeradius -v
+ radiusd: FreeRADIUS Version 3.0.12, for host x86_64-pc-linux-gnu, built on Aug 10 2017 at 07:05:06</pre>
+<p>Przechodzę do katalogu konfiguracyjnego</p>
+<pre>cd /etc/freeradius/3.0</pre>
+<p>Na samym dole pliku clients.conf dodaje sekcje o nazwie home w której definiuje klientów radiusa. Mogę podać tu całe sieci lub pojedyncze adresy IP. Klientem radiusa nie są użytkownicy końcowi a pośrednicy czyli w naszym przypadku domowy router tp-link.</p>
+<pre>nano /etc/freeradius/3.0/clients.conf</pre>
+<pre>client home {
+ ipaddr = 172.18.10.254
+ secret = tajnehaslo
+ }</pre>
+<p>Na samym dole pliku/etc/freeradius/3.0/users definiuje użytkownika tf z hasłem techfreak.</p>
+<pre>tf Cleartext-Password := "techfreak" 
+</pre>
+<p>Po wprowadzeniu zmian trzeba przeładować serwer:</p>
+<pre>systemctl restart freeradius.service</pre>
+<p>Sprawdzam aktualny status serwera</p>
+<pre>systemctl status freeradius.service</pre>
+<pre>● freeradius.service - FreeRADIUS multi-protocol policy server
+ Loaded: loaded (/lib/systemd/system/freeradius.service; disabled; vendor preset: enabled)
+ Active: active (running) since Sun 2017-10-22 07:52:08 CDT; 13min ago
+ Docs: man:radiusd(8)
+ man:radiusd.conf(5)
+ http://wiki.freeradius.org/
+ http://networkradius.com/doc/
+ Main PID: 3700 (freeradius)
+ Tasks: 6 (limit: 4915)
+ CGroup: /system.slice/freeradius.service
+ └─3700 /usr/sbin/freeradius
+
+Oct 22 07:52:08 radius freeradius[3694]: [/etc/freeradius/3.0/mods-config/attr_filter/access_reject]:11 Check item "FreeRADIUS-Response-Delay" found in filter list for realm "DEFAULT".
+Oct 22 07:52:08 radius freeradius[3694]: [/etc/freeradius/3.0/mods-config/attr_filter/access_reject]:11 Check item "FreeRADIUS-Response-Delay-USec" found in filter list for realm "DEFAULT".
+Oct 22 07:52:08 radius freeradius[3694]: rlm_cache (cache_eap): Driver rlm_cache_rbtree (module rlm_cache_rbtree) loaded and linked
+Oct 22 07:52:08 radius freeradius[3694]: tls: Using cached TLS configuration from previous invocation
+Oct 22 07:52:08 radius freeradius[3694]: tls: Using cached TLS configuration from previous invocation
+Oct 22 07:52:08 radius freeradius[3694]: Ignoring "sql" (see raddb/mods-available/README.rst)
+Oct 22 07:52:08 radius freeradius[3694]: Ignoring "ldap" (see raddb/mods-available/README.rst)
+Oct 22 07:52:08 radius freeradius[3694]: radiusd: #### Skipping IP addresses and Ports ####
+Oct 22 07:52:08 radius freeradius[3694]: Configuration appears to be OK
+Oct 22 07:52:08 radius systemd[1]: Started FreeRADIUS multi-protocol policy server.</pre>
+<p>Jak widać serwer działa. Teraz najlepiej zastopować go i uruchomić w trybie debugowania aby zobaczyć czy klienci będą się łączyć lub czy przychodzą jakieś zapytania do radiusa.</p>
+<p>Stopuje serwer radiusa</p>
+<pre>systemctl stop freeradius.service</pre>
+<p>Uruchamiam w trybie logowania wszystkich zdażeń</p>
+<pre>freeradius -X</pre>
+<p>Przykładowy wycinek z loga</p>
+<pre>(15) Found Auth-Type = eap
+(15) # Executing group from file /etc/freeradius/3.0/sites-enabled/default
+(15) authenticate {
+(15) eap: Expiring EAP session with state 0xcfa5003ccaa3197b
+(15) eap: Finished EAP session with state 0xb3cb481dbbc251b4
+(15) eap: Previous EAP request found for state 0xb3cb481dbbc251b4, released from the list
+(15) eap: Peer sent packet with method EAP PEAP (25)
+(15) eap: Calling submodule eap_peap to process data
+(15) eap_peap: Continuing EAP-TLS
+(15) eap_peap: [eaptls verify] = ok
+(15) eap_peap: Done initial handshake
+(15) eap_peap: [eaptls process] = ok
+(15) eap_peap: Session established. Decoding tunneled attributes
+(15) eap_peap: PEAP state send tlv success
+(15) eap_peap: Received EAP-TLV response
+(15) eap_peap: Success
+(15) eap: Sending EAP Success (code 3) ID 9 length 4
+(15) eap: Freeing handler
+(15) [eap] = ok
+(15) } # authenticate = ok
+(15) # Executing section post-auth from file /etc/freeradius/3.0/sites-enabled/default
+(15) post-auth {
+(15) update {
+(15) No attributes updated
+(15) } # update = noop
+(15) [exec] = noop
+(15) policy remove_reply_message_if_eap {
+(15) if (&reply:EAP-Message && &reply:Reply-Message) {
+(15) if (&reply:EAP-Message && &reply:Reply-Message) -&gt; FALSE
+(15) else {
+(15) [noop] = noop
+(15) } # else = noop
+(15) } # policy remove_reply_message_if_eap = noop
+(15) } # post-auth = noop
+(15) Sent Access-Accept Id 0 from 172.18.10.109:1812 to 172.18.10.254:45264 length 0
+(15) MS-MPPE-Recv-Key = 0xbdfd77f02e761f17f3ec705a824b38628c37672bfcd788d43f2cec3c43e83aeb
+(15) MS-MPPE-Send-Key = 0x67b088a0c899a21ca52491c6e913db783426919a5afaa4282f9ee0fb3a2fef4c
+(15) EAP-Message = 0x03090004
+(15) Message-Authenticator = 0x00000000000000000000000000000000
+(15) User-Name = "tf"
+(15) Finished request
+Waking up in 4.9 seconds.
+(15) Cleaning up request packet ID 0 with timestamp +5</pre>
+<p>Serwer RADIUS został skonfigurowany i klienci bez problemu łączą się do sieci WiFi poprzez WPA Enterprise EAP PEAP. Zobacz poniżej jak konfiguruje się klientów pod Androidem, Windowsem i Ubuntu. Trzeba pamiętać ze powyższy sposób może być dodatkowo zabezpieczony certyfikatem CA. Jest możliwość wymuszenia sprawdzania przez RADIUS’a czy klient go posiada  ale nie jest to wymagane od strony serwera jak i klienta. W tym przypadku nie sprawdzam i nie dostarczam certyfikatu dlatego trzeba zwrócić uwagę że wszystkie poniższe konfiguracje nie wymagają CA.</p>
+<h3 id="android">Android</h3>
+<p><a href="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-3.jpg"><img class="aligncenter wp-image-14219 size-large" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-3-576x1024.jpg" alt="" width="576" height="1024" srcset="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-3-576x1024.jpg 576w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-3-112x200.jpg 112w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-3-169x300.jpg 169w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-3-768x1366.jpg 768w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-3.jpg 1000w" sizes="(max-width: 576px) 100vw, 576px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-7.jpg"><img class="aligncenter wp-image-14233 size-large" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-7-576x1024.jpg" alt="" width="576" height="1024" srcset="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-7-576x1024.jpg 576w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-7-112x200.jpg 112w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-7-169x300.jpg 169w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-7-768x1366.jpg 768w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-7.jpg 1000w" sizes="(max-width: 576px) 100vw, 576px" /></a></p>
+<h3 id="windows-7">Windows 7</h3>
+<p><a href="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-2.jpg"><img class="aligncenter size-full wp-image-14218" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-2.jpg" alt="" width="1000" height="888" srcset="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-2.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-2-225x200.jpg 225w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-2-300x266.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-2-768x682.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-0.jpg"><img class="aligncenter size-full wp-image-14216" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-0.jpg" alt="" width="1000" height="625" srcset="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-0.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-0-320x200.jpg 320w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-0-300x188.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-0-768x480.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-1.jpg"><img class="aligncenter size-full wp-image-14217" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-1.jpg" alt="" width="1000" height="1330" srcset="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-1.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-1-150x200.jpg 150w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-1-226x300.jpg 226w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-1-768x1021.jpg 768w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-1-770x1024.jpg 770w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<h3 id="ubuntu">Ubuntu</h3>
+<p><a href="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-5.jpg"><img class="aligncenter size-full wp-image-14221" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-5.jpg" alt="" width="1000" height="1053" srcset="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-5.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-5-190x200.jpg 190w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-5-285x300.jpg 285w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-5-768x809.jpg 768w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-5-972x1024.jpg 972w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-6.jpg"><img class="aligncenter size-full wp-image-14232" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-6.jpg" alt="" width="1000" height="1246" srcset="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-6.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-6-161x200.jpg 161w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-6-241x300.jpg 241w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-6-768x957.jpg 768w, http://techfreak.pl/wp-content/uploads/2017/10/techfreak-radius-peap-debian-android-windows-ubuntu-6-822x1024.jpg 822w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<h3 id="podsumowanie">Podsumowanie</h3>
+<p>Lepiej używać sprawdzania certyfikatu CA, czyli posiadać wystawiony przez siebie certyfikat ale w niektórych środowiskach nie jest pożądany dodatkowy składnik. Jak widać konfiguracja jest dosyć prosta i aby wykluczyć inne metody niż EAP można przejrzeć pliki konfiguracyjne, które znajdują się w /etc/freeradius/3.0/sites-enabled.</p>
+<p>Warto zobaczyć moje poprzednie wpisy w powyższym temacie <a href="http://techfreak.pl/instalacja-freeradius-i-gui-daloradius-na-redhat-6/">Instalacja freeradius i gui daloradius na RedHat 6</a>  i <a href="http://techfreak.pl/test-routera-tp-link-archer-c3200/">Test routera tp-link Archer C3200</a></p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/debian/">debian</a>, 
+                <a href="/tags/linux/">Linux</a>, 
+                <a href="/tags/radius/">radius</a>, 
+                <a href="/tags/tplink/">tplink</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Sieci%20WiFi%20na%20login%20i%20has%c5%82o&url=https%3a%2f%2ftechfreak.pl%2fsieci-wifi-login-haslo%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fsieci-wifi-login-haslo%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

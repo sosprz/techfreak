@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xubuntu on techfreak blog</title>
+    <link>https://techfreak.pl/tags/xubuntu/</link>
+    <description>Recent content in xubuntu on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 05 Feb 2017 17:07:56 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/xubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test prędkości dysku z graficznym interfejsem w Ubuntu</title>
+      <link>https://techfreak.pl/test-predkosci-dysku-graficznym-interfejsem-ubuntu/</link>
+      <pubDate>Sun, 05 Feb 2017 17:07:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/test-predkosci-dysku-graficznym-interfejsem-ubuntu/</guid>
+      <description>&lt;p&gt;Czasami trzeba sprawdzić dysk na USB lub kartę SD czy nie zawiera błędów lub czy prędkość karty jest odpowiednia. Pytanie jak to zrobić na Ubuntu, Xubuntu? :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Zonk przy bootowaniu xubuntu lub ubuntu</title>
+      <link>https://techfreak.pl/zonk-przy-bootowaniu-xubuntu-lub-ubuntu/</link>
+      <pubDate>Tue, 09 Dec 2014 04:00:00 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zonk-przy-bootowaniu-xubuntu-lub-ubuntu/</guid>
+      <description>&lt;p&gt;Ostatnio natrafiłem na całkiem nieprzyjemny komunikat przy starcie mojego systemu xubuntu. Jedyny sugerowany sposób z internetów to reinstalka. Słabo, ale jednak udało mi się to naprawić w parę chwil. Zobacz jak.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

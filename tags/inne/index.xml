@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>inne on techfreak blog</title>
+    <link>https://techfreak.pl/tags/inne/</link>
+    <description>Recent content in inne on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 25 Aug 2018 04:24:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/inne/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sekcja zwłok – czyli produkt mówi o projektancie.</title>
+      <link>https://techfreak.pl/sekcja-zwlok-czyli-produkt-mowi-o-projektancie/</link>
+      <pubDate>Sat, 25 Aug 2018 04:24:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/sekcja-zwlok-czyli-produkt-mowi-o-projektancie/</guid>
+      <description>W tym opisie chciałbym przedstawić swoje przemyślenia na temat procesu produkcji elektroniki na przykładzie moim zdaniem porządnego urządzenia jakim był denat tj czytnik kodów kreskowych marki Motorola Symbol. Obecnie wyczynem nie jest kupić coś z chin za 3$ z darmową wysyłką a często sami z góry już zakładamy że to nie przeżyje długo wpływ na taką postawę ma samo urządzenie (sposób zaprojektowania, użyte elementy, proces produkcji i o ile jest testowanie wyrobu gotowego), opinie o nim w internecie lub opinie o podobnych wyrobach.</description>
+    </item>
+    
+  </channel>
+</rss>

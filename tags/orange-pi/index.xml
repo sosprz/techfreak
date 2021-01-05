@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>orange pi on techfreak blog</title>
+    <link>https://techfreak.pl/tags/orange-pi/</link>
+    <description>Recent content in orange pi on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 02 Sep 2015 13:30:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/orange-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Orange Pi konkurencja dla Raspberry Pi</title>
+      <link>https://techfreak.pl/orange-pi-konkurencja-dla-raspberry-pi/</link>
+      <pubDate>Wed, 02 Sep 2015 13:30:17 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/orange-pi-konkurencja-dla-raspberry-pi/</guid>
+      <description>&lt;p&gt;Konkurencja dla Raspberry Pi rośnie w siłę dzięki Orange Pi, który jest tematem wielu dyskusji z powodu ceny i specyfikacji. Orange Pi to nowy mini komputer przypominający Raspberry Pi i posiadający bardzo dobrą specyfikację jak na swoje wymiary. Orange Pi to płytka zbudowana przez Shenzhen Xunlong Software CO., Limited. Na samym &lt;a href=&#34;http://www.aliexpress.com/store/product/Orange-Pi-PC-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry-Pi-2/1553371_32448079125.html&#34; target=&#34;_blank&#34;&gt;aliexpress&lt;/a&gt; na tą chwile została zakupiona 1474 razy. Oficjalna strony projektu to orangepi.com na którą niestety nie można się dostać. Pewnie producent nie zabezpieczył się na przyjęcie takiej liczny zainteresowanych.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

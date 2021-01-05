@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SimonK on techfreak blog</title>
+    <link>https://techfreak.pl/tags/simonk/</link>
+    <description>Recent content in SimonK on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 24 May 2015 19:08:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/simonk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flashowanie regulatorów (ESC) SimonKiem przy pomocy rapidflash</title>
+      <link>https://techfreak.pl/flashowanie-regulatorow-esc-simonkiem-przy-pomocy-rapidflash/</link>
+      <pubDate>Sun, 24 May 2015 19:08:17 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/flashowanie-regulatorow-esc-simonkiem-przy-pomocy-rapidflash/</guid>
+      <description>&lt;p&gt;Ostatnio pisałem o &lt;a href=&#34;http://techfreak.pl/esc-dys-sn20a-blheli-arduino-uno-flash/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;flashowaniu regulatorów wsadem od BLheli przy pomocy BLheli Suite&lt;/a&gt; a teraz napisze jak wgrywać bardzo znany „konkurencyjny” SimonK.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zbudować quadcopter? FPV250 &#43; NAZE32 &#43; DYS-BE1806</title>
+      <link>https://techfreak.pl/zbudowac-quadcopter-fpv250-naze32-dys-be1806/</link>
+      <pubDate>Mon, 01 Sep 2014 05:40:29 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zbudowac-quadcopter-fpv250-naze32-dys-be1806/</guid>
+      <description>&lt;p&gt;Przy okazji budowy mojej nowej maszyny latającej zrobiłem małą fotorelację z budowy którą chciałbym się z wami podzielić. Tym razem buduję nowego quadcoptera z paru powodów. Po pierwsze jest tańszy niż poprzednie wersje (&lt;a title=&#34;Mini H quadcopter&#34; href=&#34;http://techfreak.pl/pierwszy-mini-h-quadcopter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pierwsza&lt;/a&gt;, &lt;a title=&#34;Hobby king fpv 250&#34; href=&#34;http://techfreak.pl/miniquadcopter-hobbyking-fpv250/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;druga&lt;/a&gt;, &lt;a title=&#34;RCX 1804&#34; href=&#34;http://techfreak.pl/nowe-silniki-rcx1804/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;trzecia&lt;/a&gt;) i lepszy sprzętowo. W stosunku do poprzednich wersji w sumie zmieniło się prawie wszystko. Zaczynając od zmiany odbiornika &lt;a title=&#34;D8R-II plus&#34; href=&#34;http://www.frsky-rc.com/product/pro.php?pro_id=22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;D8R-II plus&lt;/a&gt; na &lt;a title=&#34;D4R II&#34; href=&#34;http://www.frsky-rc.com/product/pro.php?pro_id=24&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;D4R-II&lt;/a&gt; który jest o wiele mniejszy a ma tą samą ilość kanałów ale tylko na jednym fizycznym kanale (PPM). Do zmiany poszły silniki &lt;a title=&#34;RCX1804&#34; href=&#34;http://www.myrcmart.com/zmr-1804-2400kv-micro-outrunner-brushless-motor-clockwise-p-6281.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RCX1804&lt;/a&gt; na rzecz mocniejszych &lt;a title=&#34;DYS1806&#34; href=&#34;http://www.banggood.com/DYS-BE1806-2300KV-Brushless-Motor-2-3S-For-Mini-Multicopters-p-933192.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DYS-BE1806&lt;/a&gt;. Kontroler lotu został zamieniony z &lt;a title=&#34;KK 2.1&#34; href=&#34;http://www.hobbyking.com/hobbyking/store/__54299__hobbyking_kk2_1_5_multi_rotor_lcd_flight_control_board_with_6050mpu_and_atmel_644pa.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KK 2.1&lt;/a&gt; na &lt;a title=&#34;MultiWii AIO&#34; href=&#34;http://www.hobbyking.com/hobbyking/store/__31138__multiwii_and_megapirate_aio_flight_controller_w_ftdi_atmega_2560_v2_0.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MultiWii AIO&lt;/a&gt; a na końcu został &lt;a title=&#34;Naze32&#34; href=&#34;http://www.hobbyking.com/hobbyking/store/__55819__AfroFlight_Naze32_Acro_AbuseMark_FunFly_Controller.html?strSearch=naze32&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NAZE32&lt;/a&gt; który jest mniejszy i o wiele lepiej pasuje  do mini quadcopterów. Co do ramy, może jej nie zmieniłem ale zakupiłem trzecia wersję FPV250 która pozwala na różne ciekawe konfiguracje.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zrobić flash ESC Multistar 10A do SimonK?</title>
+      <link>https://techfreak.pl/zrobic-flash-esc-multistar-10a-simonk/</link>
+      <pubDate>Tue, 12 Aug 2014 05:11:30 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zrobic-flash-esc-multistar-10a-simonk/</guid>
+      <description>&lt;p&gt;Kiedyś pisałem o tym że składam &lt;a title=&#34;minicopter&#34; href=&#34;http://techfreak.pl/pierwszy-mini-h-quadcopter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mini H quadcopter&lt;/a&gt;, a dziś chciałbym pokazać jak zmienić firmware w regulatorach silników (ESC) na SimonK. Dlaczego SimonK? Ponieważ ten firmware pozwala na szybszą reakcje na zmianę PWM z kontrolera lotu. Co przekłada się na płynniejsze działanie silników. Ja będę wgrywać nowy firmware do &lt;a title=&#34;ESC multistar 10A&#34; href=&#34;http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=25362&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Turnigy Multistar 10 Amp&lt;/a&gt;. To są właśnie te z powyższego opisu mini H. W zasadzie po co o tym pisze? Bo mikroprocesor regulatora to Atmel Mega 8A MU o wymiarach 4,6mm x 4,6mm i nie ma wyprowadzonych pinów pod programator. Co powoduje że wgranie innego firmwaru jest dosyć trudne. Ale jak zawsze dla chcącego nic trudnego. Potrzeba trochę cierpliwości i precyzji :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nowe silniki RCX1804</title>
+      <link>https://techfreak.pl/nowe-silniki-rcx1804/</link>
+      <pubDate>Tue, 05 Aug 2014 04:58:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nowe-silniki-rcx1804/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu jestem posiadaczem silników &lt;a href=&#34;http://www.myrcmart.com/rcx-1804-2400kv-micro-outrunner-brushless-motor-anticlockwise-p-6280.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RCX1804&lt;/a&gt; i regulatorów 10A z wgranym fabrycznie firmwarem SimonK. Zestaw taki można kupić na &lt;a href=&#34;http://www.myrcmart.com/rcx-1804-2400kv-micro-outrunner-brushless-motor-anticlockwise-p-6280.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;myrcmart.com&lt;/a&gt;. Silniki są lepszą opcja niż posiadane już przeze mnie &lt;a href=&#34;http://www.hobbyking.com/hobbyking/store/__39033__Turnigy_Multistar_1704_1900Kv_12Pole_Multi_Rotor_Outrunner.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Multistar 1704&lt;/a&gt;, no i trochę tańsze. Szczególnie na &lt;a href=&#34;http://www.banggood.com/SimonK-10A-ESC-With-1804-2400KV-Motor-5030-Propeller-For-QAV250-H250-p-937534.html?p=9H0114137951201303E0&amp;utm_campaign=techfreak&amp;utm_content=chendongling&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;banggood&lt;/a&gt; gdzie wysyłka jest darmowa.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

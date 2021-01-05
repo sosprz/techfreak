@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tablet on techfreak blog</title>
+    <link>https://techfreak.pl/tags/tablet/</link>
+    <description>Recent content in tablet on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Mon, 22 Dec 2014 16:12:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/tablet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Allwinner A13 mini komputer z tabletu</title>
+      <link>https://techfreak.pl/allwinner-a13-mini-komputer-z-tabletu/</link>
+      <pubDate>Mon, 22 Dec 2014 16:12:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/allwinner-a13-mini-komputer-z-tabletu/</guid>
+      <description>&lt;p&gt;Kiedyś robiłem recenzję tabletu Manta MID8S, taki tani tablet za 150 zł z hipermarketu. Szczerze to nadawał się tylko dla dzieciaków na bajki nawet proste gry zacinały. Ostatnio spadł mi z ok 2 metrów na ziemie i jak można się domyślać ekran pękł. Naprawa nawet nie przyszła mi do głowy z oczywistych względów. Natomiast szybko zadałem sobie pytanie „a może jakiegoś linucha tam wgram? może ma dostępne gpio, I2C? Po przeszukaniu całego internetu znalazłem nawet gotowe obrazy na kartę SD. Zabawa się zaczęła..&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini test tabletu Manta MID08S</title>
+      <link>https://techfreak.pl/mini-test-tabletu-manta-mid08s/</link>
+      <pubDate>Sat, 04 May 2013 20:55:08 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-test-tabletu-manta-mid08s/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/05/MID08S_1_canvas.jpg&#34;&gt;&lt;img class=&#34;aligncenter wp-image-3063&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/05/MID08S_1_canvas.jpg&#34; alt=&#34;MID08S_1_canvas&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/05/MID08S_1_canvas.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/05/MID08S_1_canvas-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Dziś chciałbym się podzielić wrażeniami na temat tabletu Manta MID08s który zakupiłem w markecie za 149 zł.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

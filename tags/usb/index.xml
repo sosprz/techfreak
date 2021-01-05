@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>usb on techfreak blog</title>
+    <link>https://techfreak.pl/tags/usb/</link>
+    <description>Recent content in usb on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 25 Aug 2015 05:36:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/usb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yubikey klucz do bezpieczeństwa</title>
+      <link>https://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/</link>
+      <pubDate>Tue, 25 Aug 2015 05:36:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/</guid>
+      <description>&lt;p&gt;Parę słów i przykładów z działania klucza Yubikey NEO, który nie tylko przypomina pamięć USB a pomaga chronić dostępu do najpopularniejszych serwisów internetowych.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak skonfigurować moduł bluetooth HC-06</title>
+      <link>https://techfreak.pl/skonfigurowac-modul-bluetooth-hc-06/</link>
+      <pubDate>Sun, 22 Jun 2014 18:48:49 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/skonfigurowac-modul-bluetooth-hc-06/</guid>
+      <description>&lt;p&gt;Kiedyś zakupiłem tani i popularny moduł bluetooth HC-06 i do dziś używam go w swoich projektach. Dziś chciałbym Ci pokazać jak go skonfigurować. Czyli jak ustawić prędkość, zmienić PIN lub nazwę.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nettemp – funkcja UPS status</title>
+      <link>https://techfreak.pl/nettemp-funkcja-ups-status/</link>
+      <pubDate>Wed, 21 May 2014 03:30:58 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-funkcja-ups-status/</guid>
+      <description>&lt;p&gt;Jak wiesz co jakiś czas rozwijam nettempa o jakieś nowe funkcje. Lista funkcji które są do zrobienia jest naprawdę długa. Nad niektórymi cały czas pracuje a niektóre wprowadzam wcześniej. I dziś chciał bym zaprezentować funkcje UPS status która prezentuje status podłączonego UPS poprzez port USB.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ta elektroniczna wizytówka robi wrażenie</title>
+      <link>https://techfreak.pl/ta-elektroniczna-wizytowka-robi-wrazenie/</link>
+      <pubDate>Sat, 30 Mar 2013 11:28:24 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ta-elektroniczna-wizytowka-robi-wrazenie/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/elektroniczna_wizytowka_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2666&#34; alt=&#34;elektroniczna_wizytowka_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/elektroniczna_wizytowka_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/03/elektroniczna_wizytowka_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/03/elektroniczna_wizytowka_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Kolejna elektroniczna wizytówka która robi naprawdę duże wrażenie. Tym razem układ ATinny85 emuluje urządzenie wejściowe jako pen tablet, który rysuje grafikę po włożeniu karty do USB.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nagraj obrazy iso Vista i Windows 7 na bootowalego pendrive USB</title>
+      <link>https://techfreak.pl/nagraj-obrazy-iso-vista-i-windows-7-na-bootowalego-pendrive-usb/</link>
+      <pubDate>Sat, 12 Jan 2013 08:52:59 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nagraj-obrazy-iso-vista-i-windows-7-na-bootowalego-pendrive-usb/</guid>
+      <description>&lt;p style=&#34;text-align: left;&#34;&gt;
+  Czasem każdemu linuksiarzowi trafi się temat instalacji Windows 7 lub co gorzej Visty jakiemuś znajomemu lub miłej koleżance no i co zrobić jak nie ma się w swoim hakerskim lapku DVD? Jest opcja :D
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

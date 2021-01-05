@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubuntu on techfreak blog</title>
+    <link>https://techfreak.pl/tags/ubuntu/</link>
+    <description>Recent content in ubuntu on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 28 Jul 2018 12:50:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MyOpenLab – krótko o programie.</title>
+      <link>https://techfreak.pl/myopenlab-krotko-o-programie/</link>
+      <pubDate>Sat, 28 Jul 2018 12:50:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/myopenlab-krotko-o-programie/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;OK..&lt;/strong&gt; udało się mamy już zmontowaną elektronikę – działa oparta o Arduino albo inny moduł elektroniczny da się tym sterować za pomocą terminala teraz trzeba by nadać temu jakaś formę tak aby zwykły człowiek mógł tym sterować bez zaznajomienia się z dokumentacją – ja tego uczyć się nie musze bo moje dzieło znam na pamięć…. no ale graficznie coś trzeba dodać i to najlepiej w ciągu kilku godzin tak aby nie rozgryzać całego środowiska programistycznego.&lt;br&gt;
+Brzmi znajomo ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wygląda mój pulpit Ubuntu z Gnome Shell</title>
+      <link>https://techfreak.pl/ubuntu-gnome-shell/</link>
+      <pubDate>Wed, 13 Jun 2018 20:51:20 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ubuntu-gnome-shell/</guid>
+      <description>&lt;p&gt;Spotkałem się z różnymi opiniami o Ubuntu i Ubuntu Gnome Shell. Większości chodziło o wygląd. Ciągle była mowa o unity jakie to dziwne było. Gnome wolno działa i zwalnia, animacje lagują jak 15 lat temu. Najlepsze XFCE! No to pokażę wam mój pulpit.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>e-deklaracje na Ubuntu</title>
+      <link>https://techfreak.pl/e-deklaracje-ubuntu/</link>
+      <pubDate>Fri, 26 Jan 2018 09:42:46 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/e-deklaracje-ubuntu/</guid>
+      <description>&lt;p&gt;Zobacz jak zainstalować e-deklaracje na Ubuntu 17.10 aby się rozliczyć z podatku za 2017 rok.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zrobić bootowalny pendrive z instalacją windowsa na ubuntu?</title>
+      <link>https://techfreak.pl/zrobic-bootowalny-pendrive-instalacja-windowsa-ubuntu/</link>
+      <pubDate>Wed, 23 Aug 2017 11:45:16 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zrobic-bootowalny-pendrive-instalacja-windowsa-ubuntu/</guid>
+      <description>&lt;p&gt;Jak zainstalować windows’a na komputerze bez stacji cdrom? Jak stworzyć bootowalny pendrive z instalacją systemu Windows 7 lub Windows 10?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Test prędkości dysku z graficznym interfejsem w Ubuntu</title>
+      <link>https://techfreak.pl/test-predkosci-dysku-graficznym-interfejsem-ubuntu/</link>
+      <pubDate>Sun, 05 Feb 2017 17:07:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/test-predkosci-dysku-graficznym-interfejsem-ubuntu/</guid>
+      <description>&lt;p&gt;Czasami trzeba sprawdzić dysk na USB lub kartę SD czy nie zawiera błędów lub czy prędkość karty jest odpowiednia. Pytanie jak to zrobić na Ubuntu, Xubuntu? :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak porównać pliki pdf? DiffPDF</title>
+      <link>https://techfreak.pl/porownac-pliki-pdf-diffpdf/</link>
+      <pubDate>Sat, 04 Jun 2016 07:24:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/porownac-pliki-pdf-diffpdf/</guid>
+      <description>&lt;p&gt;W świecie linuksowym do porównywania plików używany jest diff, który jest prostym poleceniem używanym w wierszu poleceń. Za jego pomocą łatwo znaleźć różnice w dwóch plikach. Co zrobić jeśli do porównania mam np. dwie obszerne oferty handlowe w których nic nie może mi umknąć, a wersji wyszło wiele i to w formacie PDF?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cool Retro Term</title>
+      <link>https://techfreak.pl/cool-retro-term/</link>
+      <pubDate>Tue, 30 Dec 2014 21:25:39 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/cool-retro-term/</guid>
+      <description>&lt;p&gt;Zobacz bardzo fajny emulator terminala o nazwie Cool Retro Term, który wzorowany jest na bardzo starych monitorach CRT (&lt;a href=&#34;http://pl.wikipedia.org/wiki/CRT&#34; target=&#34;_blank&#34;&gt;kineskop z działem elektronowym&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Zonk przy bootowaniu xubuntu lub ubuntu</title>
+      <link>https://techfreak.pl/zonk-przy-bootowaniu-xubuntu-lub-ubuntu/</link>
+      <pubDate>Tue, 09 Dec 2014 04:00:00 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zonk-przy-bootowaniu-xubuntu-lub-ubuntu/</guid>
+      <description>&lt;p&gt;Ostatnio natrafiłem na całkiem nieprzyjemny komunikat przy starcie mojego systemu xubuntu. Jedyny sugerowany sposób z internetów to reinstalka. Słabo, ale jednak udało mi się to naprawić w parę chwil. Zobacz jak.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wolne WiFi na kartach intela – jak naprawić?</title>
+      <link>https://techfreak.pl/wolne-wifi-kartach-intela-naprawic/</link>
+      <pubDate>Wed, 05 Nov 2014 15:30:59 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wolne-wifi-kartach-intela-naprawic/</guid>
+      <description>&lt;p&gt;Na swoim laptopie używam Xubuntu i w zasadzie jestem zadowolony z systemu, no może poza paroma bugami które były uciążliwe od wersji 14.04. Jakiś czas temu testowałem &lt;a href=&#34;http://techfreak.pl/gigsowe-wifi-czy-to-juz-test-routera-tew-812dru-i-karty-usb-tew-805ub/&#34; target=&#34;_blank&#34;&gt;WiFi w standardzie ac&lt;/a&gt; gdzie potrzebowałem maksymalnych przepustowości karty. Teraz jestem przed kolejnym testem standardu AC i łącząc aktualny system Xubuntu 14.10 i  prędkość WiFi zostałem niemile zaskoczony. Prędkość mojej karty to 25Mbps a w standardzie N 2×2 powinno być to ok 150Mbps. Poniżej pokażę jak to szybko naprawić.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak masowo dodawać logo do zdjęć?</title>
+      <link>https://techfreak.pl/masowo-dodawac-logo-zdjec/</link>
+      <pubDate>Fri, 10 Oct 2014 13:52:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/masowo-dodawac-logo-zdjec/</guid>
+      <description>&lt;p&gt;Jak przeglądacie czasem tę stronę możecie zauważyć że fotki które są dodawane do wpisów zawierają logo. Kiedyś pomyślałem sobie że to może być dobra reklama przy wyszukiwaniu grafiki w przeglądarkach. Czasem w obszernych wpisach fotek jest naprawdę dużo np. &lt;a href=&#34;http://techfreak.pl/drukarka-3d-profab-gate-le/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Drukarka 3D&lt;/a&gt;, &lt;a href=&#34;http://techfreak.pl/zbudowac-quadcopter-fpv250-naze32-dys-be1806/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;quadcopter&lt;/a&gt;. Kto myślał że dodaje logo ręcznie naprawdę się pomylił. Używam do tego małego skryptu który zaprezentuje poniżej.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak uruchomić DVBT na it9135</title>
+      <link>https://techfreak.pl/uruchomic-dvbt-it9135/</link>
+      <pubDate>Sat, 07 Jun 2014 21:14:05 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/uruchomic-dvbt-it9135/</guid>
+      <description>&lt;p&gt;Przy grzebaniu w moich kartonach znalazłem tuner DVB-T USB na układzie it9135 którego nigdy w zasadzie nie uruchomiłem i tak do końca nie używałem. Tym razem udało mi się uruchomić programy TV, więc pokaże Ci jak to zrobiłem.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Proxy po ssh czyli zawsze wychodzę z tego samego IP</title>
+      <link>https://techfreak.pl/proxy-po-ssh-czyli-zawsze-wychodze-z-tego-samego-ip/</link>
+      <pubDate>Tue, 06 May 2014 18:58:14 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/proxy-po-ssh-czyli-zawsze-wychodze-z-tego-samego-ip/</guid>
+      <description>&lt;p&gt;Dziś chciałbym pokazać wam ja wykorzystać sytuację w której posiadacie swojego hosta gdzieś w firmie lub w domu i chcecie korzystać właśnie z niego ze względu na IP a nie ma was na miejscu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sliverlight na ubuntu. Koniec świata..</title>
+      <link>https://techfreak.pl/sliverlight-na-ubuntu-koniec-swiata/</link>
+      <pubDate>Tue, 22 Apr 2014 14:00:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/sliverlight-na-ubuntu-koniec-swiata/</guid>
+      <description>&lt;p&gt;Nie jestem zwolennikiem &lt;a href=&#34;http://pl.wikipedia.org/wiki/Microsoft_Silverlight&#34; target=&#34;_blank&#34;&gt;mikrosoftowego silverlight’a&lt;/a&gt; ale niestety niektóre aplikacje, najczęściej firmowe z niego korzystają. Ja używam &lt;a href=&#34;http://xubuntu.org/&#34; title=&#34;normalne ubuntu&#34;&gt;xubuntu&lt;/a&gt; no i czasem muszę się przystosować. Więc pokaże jak uruchomić silverlight pod linuxem.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu – Znowu brak miejsca w boot</title>
+      <link>https://techfreak.pl/ubuntu-znowu-brak-miejsca-w-boot/</link>
+      <pubDate>Tue, 08 Apr 2014 17:53:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ubuntu-znowu-brak-miejsca-w-boot/</guid>
+      <description>&lt;p&gt;Dziś chciałbym napisać, pokazać lub przypomnieć, co zrobić jak na partycji /boot  zabraknie miejsca. Moi znajomi często mają ten problem przez który nie kończy się aktualizacja systemowa, dokładnie chodzi o Ubuntu. Wiadomo nikt nie lubi czerwonych wykrzykników w prawym górnym rogu. Ja używam xubuntu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ODROID-XU naprawdę wydajny mini komputer</title>
+      <link>https://techfreak.pl/odroid-xu-naprawde-wydajny-mini-komputer/</link>
+      <pubDate>Fri, 02 Aug 2013 05:28:38 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/odroid-xu-naprawde-wydajny-mini-komputer/</guid>
+      <description>&lt;p&gt;Kto potrzebuję naprawdę mocnego mini komputerka powinien bardziej przyjrzeć się ODROID-XU który na pokładzie ma procesor Exynos5 Octa Cortex A15 1.6Ghz quad core i Cortex™-A7 quad core, pamięć 2Gb LPDDR3 RAM, HDMI, USB 3.0 i slot na kartę eMMC pod system. Ta konfiguracja naprawdę robi wrażenie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Całkiem mocny mini komputer BeagleBone Black</title>
+      <link>https://techfreak.pl/calkiem-mocny-mini-komputer-beaglebone-black/</link>
+      <pubDate>Tue, 30 Apr 2013 21:03:08 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/calkiem-mocny-mini-komputer-beaglebone-black/</guid>
+      <description>&lt;p&gt;BeagleBone Black jest to następny mini komputerek za 45$ o całkiem niezłych parametrach. Dokładniej pisząc jest to fajniejsza i tańsza wersja &lt;a href=&#34;http://beagleboard.org/Products/BeagleBone&#34; target=&#34;_blank&#34;&gt;BeagleBone&lt;/a&gt; którym nie byłem nigdy zainteresowany ze względu na cenę.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zamontować dysk LG Nexus 4 na Ubuntu? tryb pamięci MTP</title>
+      <link>https://techfreak.pl/jak-zamontowac-dysk-lg-nexus-4-na-ubuntu-tryb-pamieci-mtp/</link>
+      <pubDate>Sun, 07 Apr 2013 13:20:34 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zamontowac-dysk-lg-nexus-4-na-ubuntu-tryb-pamieci-mtp/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2730&#34; alt=&#34;lg_nexus_4_ubuntu_techfreakpl&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg&#34; width=&#34;546&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg 546w, http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl-300x198.jpg 300w&#34; sizes=&#34;(max-width: 546px) 100vw, 546px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Aby dostać się do dysku telefonu LG Nexus 4 z Andoridem 4.2.2 w Ubuntu 12.10 (quantal) trzeba zainstalować deweloperską wersje Gvfs i libmtp. Bo niestety domyślnie system nie rozpoznaje telefonu.&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zainstalować LogMeIn Hamachi na Ubuntu z GUI Haguichi i zagrać w Quake 2?</title>
+      <link>https://techfreak.pl/jak-zainstalowac-logmein-hamachi-na-ubuntu-z-gui-haguichi/</link>
+      <pubDate>Tue, 19 Feb 2013 14:15:24 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zainstalowac-logmein-hamachi-na-ubuntu-z-gui-haguichi/</guid>
+      <description>&lt;h4 id=&#34;span-stylefont-size-1em-line-height-19pxinstalacja-logmein-hamachispan&#34;&gt;&lt;span style=&#34;font-size: 1em; line-height: 19px;&#34;&gt;Instalacja LogMeIn hamachi&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;Hamachi nie jest już w pełni darmowe ale można pobrać wersje BETA które działają pod linuksem. Trzeba przenieść się na stronę &lt;a href=&#34;https://secure.logmein.com/US/labs/&#34;&gt;https://secure.logmein.com/US/labs/&lt;/a&gt; przejść do &lt;strong&gt;LogMeIn Hamachi for Linux (Beta) command line version&lt;/strong&gt; i kliknąć &lt;strong&gt;learn more.&lt;/strong&gt; Do pobrania będą trzy wersje 32bity, 64bity, ARM.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nagraj obrazy iso Vista i Windows 7 na bootowalego pendrive USB</title>
+      <link>https://techfreak.pl/nagraj-obrazy-iso-vista-i-windows-7-na-bootowalego-pendrive-usb/</link>
+      <pubDate>Sat, 12 Jan 2013 08:52:59 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nagraj-obrazy-iso-vista-i-windows-7-na-bootowalego-pendrive-usb/</guid>
+      <description>&lt;p style=&#34;text-align: left;&#34;&gt;
+  Czasem każdemu linuksiarzowi trafi się temat instalacji Windows 7 lub co gorzej Visty jakiemuś znajomemu lub miłej koleżance no i co zrobić jak nie ma się w swoim hakerskim lapku DVD? Jest opcja :D
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;</description>
+    </item>
+    
+    <item>
+      <title>pam_cracklib – wymuszanie bezpieczniejszego hasła</title>
+      <link>https://techfreak.pl/pam_cracklib-wymuszanie-bezpieczniejszego-hasla/</link>
+      <pubDate>Wed, 03 Oct 2012 20:31:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/pam_cracklib-wymuszanie-bezpieczniejszego-hasla/</guid>
+      <description>&lt;h2 id=&#34;jak-wymuszać-bezpieczne-hasło-w-linuksie-&#34;&gt;Jak wymuszać bezpieczne hasło w linuksie ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak skonfigurować serwer OpenVpn na Ubuntu i łączyć się z Androida 4 (ICS&#43;)</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-serwer-openvpn-na-ubuntu-i-laczyc-sie-z-androida-4-ics/</link>
+      <pubDate>Wed, 03 Oct 2012 06:35:58 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-serwer-openvpn-na-ubuntu-i-laczyc-sie-z-androida-4-ics/</guid>
+      <description>&lt;p&gt;Opis instalacji serwera OpenVpn na Ubuntu i łączenie z Androida&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak skonfigurować server VNC na ubuntu z dostepem do menedzera logowania ?</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-server-vnc-na-ubuntu-z-dostepem-do-menedzera-logowania/</link>
+      <pubDate>Tue, 02 Oct 2012 17:41:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-server-vnc-na-ubuntu-z-dostepem-do-menedzera-logowania/</guid>
+      <description>&lt;p&gt;Jak skonfigurować VNC aby łączyć się do nie zalogowanego komputera np. po restarcie ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry pi, raspbmc konfiguracja WiFi</title>
+      <link>https://techfreak.pl/raspberry-pi-raspbmc-konfiguracja-wifi/</link>
+      <pubDate>Mon, 01 Oct 2012 13:02:11 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-raspbmc-konfiguracja-wifi/</guid>
+      <description>&lt;p&gt;Raspberry Pi to fajny i tani mini komputerek który w połączeniu z projektem &lt;a title=&#34;raspbmc&#34; href=&#34;http://www.raspbmc.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;raspbmc&lt;/a&gt; tworzy niezłe centrum multimedialne.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

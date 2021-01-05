@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Emulacja Raspberry Pi na QEMU &middot; My Name</title>
+        <meta name="description" content="Chociaż każdy może zakupić Raspberry Pi w całkiem niskiej cenie to czasem może zdarzyć się sytuacja, że zajdzie potrzeba emulacji tego mini komputerka na maszynie wirtualnej. Poniżej pokaże jak emulować Raspberry Pi na QEMU.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Emulacja Raspberry Pi na QEMU">
+<meta property="og:description" content="Chociaż każdy może zakupić Raspberry Pi w całkiem niskiej cenie to czasem może zdarzyć się sytuacja, że zajdzie potrzeba emulacji tego mini komputerka na maszynie wirtualnej. Poniżej pokaże jak emulować Raspberry Pi na QEMU.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/emulacja-raspberry-pi-qemu/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Emulacja Raspberry Pi na QEMU</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2016-04-07" itemprop="datePublished">Thu, Apr 7, 2016</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 3 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Chociaż każdy może zakupić Raspberry Pi w całkiem niskiej cenie to czasem może zdarzyć się sytuacja, że zajdzie potrzeba emulacji tego mini komputerka na maszynie wirtualnej. Poniżej pokaże jak emulować Raspberry Pi na QEMU.</p>
+<h3 id="instalacja-qemu">Instalacja QEMU</h3>
+<pre>apt-get install qemu-system</pre>
+<h3 id="obraz-img">Obraz img</h3>
+<p>Obraz jak zawsze można pobrać ze strony <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank">raspberrypi.org</a></p>
+<h3 id="montowanie-obrazu">Montowanie obrazu</h3>
+<p>Do pliku <strong><em>mount</em></strong> wklej poniższy skrypt, który zamontuje druga partycje z obrazu. Obraz img dla RPI ma zawsze dwie partycje boot i root.</p>
+<p>Pamiętak o tym aby zamienić *.img na nazwę jeśli w katalogu masz więcej niż jeden obraz IMG.</p>
+<pre>#!/bin/bash
+where=/mnt
+for i in $(file *.img|gawk 'BEGIN {RS="startsector"} NR &gt; 1 {
+print $0*512}');do
+    mount -o rw,offset=$i *.img $where
+    where=/media
+done
+df</pre>
+<p>Odpal skrypt mount</p>
+<pre>root@host:/home/hdd/rpi-vm# ./mount
+ Filesystem     1K-blocks      Used Available Use% Mounted on
+ udev             8141260         0   8141260   0% /dev
+ tmpfs            1631936     18108   1613828   2% /run
+ /dev/dm-1      229350628 142183784  75493452  66% /
+ tmpfs            8159676       304   8159372   1% /dev/shm
+ tmpfs               5120         4      5116   1% /run/lock
+ tmpfs            8159676         0   8159676   0% /sys/fs/cgroup
+ /dev/sda1         240972    103448    125083  46% /boot
+ tmpfs            1631936        64   1631872   1% /run/user/1000
+ /dev/loop0         61384     20312     41072  34% /mnt
+ /dev/loop1       6374456    896492   5190576  15% /media</pre>
+<p>Wyłącz linie w pliku: /media/etc/ld.so.preload<br>
+nano /media/etc/ld.so.preload</p>
+<pre>#/usr/lib/arm-linux-gnueabihf/libarmmem.so</pre>
+<p>Odmontuj obraz.</p>
+<pre>umount /media</pre>
+<h3 id="powiększanie-obrazu">Powiększanie obrazu</h3>
+<p>Aby można było pracować na systemie po uruchomieniu trzeba powiększyć partycje.</p>
+<pre>qemu-img resize 2016-02-26-raspbian-jessie-lite.img +5G</pre>
+<pre>WARNING: Image format was not specified for '2016-02-26-raspbian-jessie-lite.img' and probing guessed raw.
+ Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+ Specify the 'raw' format explicitly to remove the restrictions.
+ Image resized.</pre>
+<p>Po takiej akcji już można odpalić system, do tego trzeba pobrać zmodyfikowany kernel, który leży normalnie na partycji boot.</p>
+<pre>git clone https://github.com/polaco1782/raspberry-qemu</pre>
+<p>Odpalamy pierwszy raz system przez QEMU<br>
+qemu-system-arm -kernel raspberry-qemu/kernel-qemu -cpu arm1176 -m 256 -M versatilepb -hda 2016-02-26-raspbian-jessie-lite.img -append „root=/dev/sda2 rootfstype=ext4”</p>
+<p>Aby powiększyć partycję trzeba ją usunąć i dodać na nowo. Do tego należy użyć fdisk. <strong>Tą akcje robimy już na wirtualnym systemie.</strong></p>
+<p><em>Poniżej sekwencja wprowadzania komend w fdisk</em></p>
+<pre>fdisk /dev/sda
+d
+n
+p
+2
+2 x enter
+w
+</pre>
+<p>Po usunięciu i utworzeniu partycji na nowo. Trzeba zrestartować system.</p>
+<pre>reboot</pre>
+<p>Po uruchomieniu i zalogowaniu należy rozszerzyć system plików</p>
+<pre>resize /dev/sda2</pre>
+<p>Należy jeszcze usunąć wpis boot w fstabie i zamienić mmcblk na sda</p>
+<pre>nano /etc/fstab</pre>
+<pre>proc            /proc           proc    defaults          0       0
+/dev/mmcblk0p1  /boot           vfat    defaults          0       2
+/dev/mmcblk0p2  /               ext4    defaults,noatime,nodiratime  0       1
+
+</pre>
+<p>Tak ma wyglądać wpis:</p>
+<pre>nano /etc/fstab</pre>
+<pre>proc            /proc           proc    defaults          0       0
+/dev/sda2  /               ext4    defaults,noatime,nodiratime  0       1</pre>
+<p> </p>
+<h3 id="sieć-dostęp-po-www-i-ssh">Sieć, dostęp po www i ssh</h3>
+<p>Aby dostać się na port 22 i np. 80 maszyny wirtualnej należy zrobić taki wewnętrzny portforward przy pdpalaniu QEMU</p>
+<p>ssh na porcie 8022, www na porcie 8080</p>
+<pre>qemu-system-arm -kernel raspberry-qemu/kernel-qemu -cpu arm1176 -m 256 -M versatilepb -hda 2016-02-26-raspbian-jessie-lite.img -append "root=/dev/sda2 rootfstype=ext4" -redir tcp:8022::22 -redir tcp:8080::80</pre>
+<h3 id="koniec">Koniec</h3>
+<p>Mam nadzieje że ta któtka instrukcja pomoże wam szybko testować obrazy raspbiana dla RPI. Jak by co dawajcie znać w komentarzach.</p>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/raspberry-pi/">Raspberry pi</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Emulacja%20Raspberry%20Pi%20na%20QEMU&url=https%3a%2f%2ftechfreak.pl%2femulacja-raspberry-pi-qemu%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2femulacja-raspberry-pi-qemu%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

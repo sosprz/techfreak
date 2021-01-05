@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bezprzewodowe przekaźniki na ESP8266 ESP-12E &middot; My Name</title>
+        <meta name="description" content="Popularność mini bezprzewodowego układu ESP8266 wciąż rośnie i pojawia się coraz więcej projektów bazujących na nim. Oczywiście i ja używam go w swoim projekcie nettemp. Używam go do pomiaru temperatury na czujniku DS18b20 i od niedawna do sterowania przekaźnikiem. Ostatnio pisałem o programie do projektowania PCB easyEda w którym zaprojektowałem mała płytkę, która umożliwiała mi szybkie programowanie układu ESP. Natomiast ekipa smartduino.com podesłała mi na testy swoją płytkę developerską z wbudowanym ESP8266 i układem CP210x UART do łatwego podłączenia na micro USB.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Bezprzewodowe przekaźniki na ESP8266 ESP-12E">
+<meta property="og:description" content="Popularność mini bezprzewodowego układu ESP8266 wciąż rośnie i pojawia się coraz więcej projektów bazujących na nim. Oczywiście i ja używam go w swoim projekcie nettemp. Używam go do pomiaru temperatury na czujniku DS18b20 i od niedawna do sterowania przekaźnikiem. Ostatnio pisałem o programie do projektowania PCB easyEda w którym zaprojektowałem mała płytkę, która umożliwiała mi szybkie programowanie układu ESP. Natomiast ekipa smartduino.com podesłała mi na testy swoją płytkę developerską z wbudowanym ESP8266 i układem CP210x UART do łatwego podłączenia na micro USB.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/bezprzewodowe-przekazniki-na-esp8266-esp-12e/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Bezprzewodowe przekaźniki na ESP8266 ESP-12E</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2015-06-26" itemprop="datePublished">Fri, Jun 26, 2015</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 1 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Popularność mini bezprzewodowego układu ESP8266 wciąż rośnie i pojawia się coraz więcej projektów bazujących na nim. Oczywiście i ja używam go w swoim projekcie nettemp. Używam go do pomiaru temperatury na czujniku DS18b20 i od niedawna do sterowania przekaźnikiem. Ostatnio pisałem o programie do projektowania PCB <a href="http://techfreak.pl/easyeda-program-do-projektowania-pcb/" target="_blank">easyEda</a> w którym zaprojektowałem mała płytkę, która umożliwiała mi szybkie programowanie układu ESP. Natomiast ekipa <a href="http://www.smartarduino.com/nodemcu-based-on-esp-12e-from-esp8266_p94571.html" target="_blank">smartduino.com</a> podesłała mi na testy swoją <a href="http://www.smartarduino.com/nodemcu-based-on-esp-12e-from-esp8266_p94571.html">płytkę developerską</a> z wbudowanym ESP8266 i układem CP210x UART do łatwego podłączenia na micro USB.</p>
+<p><a href="http://techfreak.pl/bezprzewodowe-przekazniki-na-esp8266-esp-12e/1_techfreak_esp8266_relays_bezprzewodowe_przekazniki_/" rel="attachment wp-att-9751"><img class="aligncenter size-full wp-image-9751" src="http://techfreak.pl/wp-content/uploads/2015/06/1_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_.jpg" alt="1_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_" width="1000" height="667" srcset="http://techfreak.pl/wp-content/uploads/2015/06/1_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/06/1_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_-300x200.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/06/1_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_-624x416.jpg 624w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/bezprzewodowe-przekazniki-na-esp8266-esp-12e/2_techfreak_esp8266_relays_bezprzewodowe_przekazniki_/" rel="attachment wp-att-9752"><img class="aligncenter size-full wp-image-9752" src="http://techfreak.pl/wp-content/uploads/2015/06/2_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_.jpg" alt="2_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_" width="1000" height="667" srcset="http://techfreak.pl/wp-content/uploads/2015/06/2_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/06/2_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_-300x200.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/06/2_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_-624x416.jpg 624w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/bezprzewodowe-przekazniki-na-esp8266-esp-12e/3_techfreak_esp8266_relays_bezprzewodowe_przekazniki_/" rel="attachment wp-att-9753"><img class="aligncenter size-full wp-image-9753" src="http://techfreak.pl/wp-content/uploads/2015/06/3_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_.jpg" alt="3_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_" width="1000" height="667" srcset="http://techfreak.pl/wp-content/uploads/2015/06/3_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/06/3_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_-300x200.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/06/3_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_-624x416.jpg 624w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/bezprzewodowe-przekazniki-na-esp8266-esp-12e/4_techfreak_esp8266_relays_bezprzewodowe_przekazniki_/" rel="attachment wp-att-9754"><img class="aligncenter size-full wp-image-9754" src="http://techfreak.pl/wp-content/uploads/2015/06/4_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_.jpg" alt="4_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_" width="1000" height="667" srcset="http://techfreak.pl/wp-content/uploads/2015/06/4_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/06/4_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_-300x200.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/06/4_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_-624x416.jpg 624w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Za parę dolców można zakupić bardzo fajny zestaw który pozwala na szybkie zaprogramowanie i uruchomienie. Zapominamy o łączeniu jakiegoś UARTA z układem i po prostu działamy. Na pokładzie znalazł się przycisk boot przydatny do wgrywania wsadu np. nodemcu. I guzik reset. Przydatna też jest niebieska dioda podłączona do D6. Dzięki której można przetestować działania kodu jak np. w arduino (blink).</p>
+<p><a href="http://techfreak.pl/bezprzewodowe-przekazniki-na-esp8266-esp-12e/5_techfreak_esp8266_relays_bezprzewodowe_przekazniki_/" rel="attachment wp-att-9755"><img class="aligncenter size-full wp-image-9755" src="http://techfreak.pl/wp-content/uploads/2015/06/5_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_.jpg" alt="5_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2015/06/5_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/06/5_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2015/06/5_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/06/5_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/06/5_techfreak_ESP8266_relays_bezprzewodowe_przekazniki_-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Jeśli ktoś chce zobaczyć jak wgrywać programy do ESP to zapraszam do przeczytania mojego <a href="http://techfreak.pl/bezprzewodowe-czujniki-temperatury-ds18b20-na-esp8266/" target="_blank">poprzedniego wpisu</a> lub można to zrobić z poziomu nettempa w zakładce tools ESPupload. Poniżej jeszcze filmik z działania ESP DEV board nettempa i przekaźników. Przy okazji porównuje mój dotychczasowy układ do wgrywania kodu z nowym od smartarduino.com.</p>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix"><div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Bezprzewodowe%20przeka%c5%baniki%20na%20ESP8266%20ESP-12E&url=https%3a%2f%2ftechfreak.pl%2fbezprzewodowe-przekazniki-na-esp8266-esp-12e%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fbezprzewodowe-przekazniki-na-esp8266-esp-12e%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

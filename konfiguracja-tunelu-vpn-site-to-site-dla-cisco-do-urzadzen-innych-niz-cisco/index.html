@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Konfiguracja tunelu VPN site to site dla Cisco do urządzeń innych niż cisco &middot; My Name</title>
+        <meta name="description" content="Jak skonfigurować tunel VPN site 2 site na Cisco ?">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Konfiguracja tunelu VPN site to site dla Cisco do urządzeń innych niż cisco">
+<meta property="og:description" content="Jak skonfigurować tunel VPN site 2 site na Cisco ?">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-dla-cisco-do-urzadzen-innych-niz-cisco/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Konfiguracja tunelu VPN site to site dla Cisco do urządzeń innych niż cisco</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2012-10-06" itemprop="datePublished">Sat, Oct 6, 2012</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Jak skonfigurować tunel VPN site 2 site na Cisco ?</p>
+<p>W poniższej konfiguracji istotna cześć tycząca się tunelu została pogrubiona. Tunel zabezpieczony hasłem psk. Szyfrowanie dla pierwszej fazy i drugiej to 3des i sha1. Kolorki mają pomóc w zrozumieniu konfiguracji.</p>
+<p><span style="color: #ff6600;">Pomarańczowy</span> to faza pierwsza ISAKMP (IKE) czyli wymiana kluczy znanych po obu stronach.<br>
+<span style="color: #ff0000;">Czerwony</span> to faza druga (IPsec) gdzie tworzy się tunel.<br>
+<span style="color: #0000ff;">Niebieski</span> to crypto mapa która spina w sobie wszystkie potrzebne konfiguracje i informacje<br>
+czyli adres ip peer’a i na <span style="color: #008000;">zielono</span> adresy sieci pomiędzy jakimi ma zostać nawiązany tunel.<br>
+Natomiast bez list dostępowych oznaczonych na <span style="color: #ffff00;">żółto</span> nie było by wyjśćia na świat bo cały ruch<br>
+jest kierowany w tunel. Dlatego blokujemy w tej liscie ruch do tunelu i puszczany cały inny poprzez NAT oznaczony kolorem <span style="color: #800080;">fioletowym.</span></p>
+<p> </p>
+<p>ip dhcp excluded-address 192.168.1.1<br>
+!<br>
+ip dhcp pool vlan1pool<br>
+network 192.168.1.0 255.255.255.0<br>
+default-router 192.168.1.1<br>
+dns-server 194.204.159.1<br>
+!<br>
+<strong>crypto isakmp policy <span style="color: #ff9900;">1</span></strong><br>
+<strong>encr 3des</strong><br>
+<strong>authentication pre-share</strong><br>
+<strong>group 2</strong><br>
+<strong>crypto isakmp key zmień_swój_secretpass address 83.83.83.83 no-xauth</strong><br>
+<strong>!</strong><br>
+<strong>crypto ipsec transform-set <span style="color: #ff0000;">my_phase2</span> esp-3des esp-sha-hmac</strong><br>
+<strong>!</strong><br>
+<strong>crypto map <span style="color: #0000ff;">my_cry_map</span> <span style="color: #ff9900;">1</span> ipsec-isakmp</strong><br>
+<strong>set peer 83.83.83.83</strong><br>
+<strong>set transform-set <span style="color: #ff0000;">my_phase2 </span></strong><br>
+<strong>set pfs group2</strong><br>
+<strong>match address <span style="color: #008000;">100</span></strong><br>
+!<br>
+interface FastEthernet4<br>
+ip address 82.82.82.82 255.255.255.252<br>
+ip nat outside<br>
+ip virtual-reassembly<br>
+duplex auto<br>
+speed auto<br>
+<strong>crypto map <span style="color: #0000ff;">my_cry_map</span></strong><br>
+!<br>
+interface Vlan1<br>
+ip address 192.168.1.1 255.255.255.0<br>
+ip nat inside<br>
+ip virtual-reassembly<br>
+!<br>
+ip forward-protocol nd<br>
+ip route 0.0.0.0 0.0.0.0 82.82.82.81<br>
+!<br>
+<strong>ip nat inside source route-map <span style="color: #800080;">my_rmap1</span> interface FastEthernet4 overload</strong><br>
+!<br>
+access-list <span style="color: #008000;">100</span> permit ip 192.168.1.0 0.0.0.255 192.168.2.0 0.0.0.255<br>
+access-list <span style="color: #ffff00;">101</span> deny ip 192.168.1.0 0.0.0.255 192.168.2.0 0.0.0.255<br>
+access-list <span style="color: #ffff00;">101</span> permit ip 192.168.1.0 0.0.0.255 any<br>
+access-list <span style="color: #ffff00;">101</span> permit ip any any<br>
+!<br>
+<strong>route-map <span style="color: #800080;">my_rmap1</span> permit 1</strong><br>
+<strong>match ip address 101</strong><br>
+!</p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/cisco/">Cisco</a>, 
+                <a href="/tags/router/">router</a>, 
+                <a href="/tags/vpn/">vpn</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Konfiguracja%20tunelu%20VPN%20site%20to%20site%20dla%20Cisco%20do%20urz%c4%85dze%c5%84%20innych%20ni%c5%bc%20cisco&url=https%3a%2f%2ftechfreak.pl%2fkonfiguracja-tunelu-vpn-site-to-site-dla-cisco-do-urzadzen-innych-niz-cisco%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fkonfiguracja-tunelu-vpn-site-to-site-dla-cisco-do-urzadzen-innych-niz-cisco%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

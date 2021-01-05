@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jak skonfigurować serwer OpenVpn na Ubuntu i łączyć się z Androida 4 (ICS&#43;) &middot; My Name</title>
+        <meta name="description" content="Opis instalacji serwera OpenVpn na Ubuntu i łączenie z Androida">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Jak skonfigurować serwer OpenVpn na Ubuntu i łączyć się z Androida 4 (ICS&#43;)">
+<meta property="og:description" content="Opis instalacji serwera OpenVpn na Ubuntu i łączenie z Androida">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/jak-skonfigurowac-serwer-openvpn-na-ubuntu-i-laczyc-sie-z-androida-4-ics/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Jak skonfigurować serwer OpenVpn na Ubuntu i łączyć się z Androida 4 (ICS&#43;)</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2012-10-03" itemprop="datePublished">Wed, Oct 3, 2012</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Opis instalacji serwera OpenVpn na Ubuntu i łączenie z Androida</p>
+<p>**Informacje: **</p>
+<ul>
+<li>Nie wymaga root’a  na telefonie</li>
+<li>Jeśli to serwer podłączony bezpośrednio do internetu to trzeba otworzyc port <span style="color: #ff0000;">udp 1194</span></li>
+<li>Jeśli to serwer za routerem trzeba zrobić forward portów na lokalny ip serwera na port <span style="color: #ff0000;">udp 1194</span></li>
+</ul>
+<p><strong>1. Konfiguracja servera Ubuntu (12.04):</strong></p>
+<p>Instalacja:</p>
+<pre class="lang:default highlight:0 decode:true">aptitude install openvpn</pre>
+<p>Generowanie certyfikatów:</p>
+<pre class="lang:default highlight:0 decode:true">cd /usr/share/doc/openvpn/examples/easy-rsa/2.0/
+chmod 744 /usr/share/doc/openvpn/examples/easy-rsa/2.0/*
+. ./vars
+./clean-all
+./build-ca
+./build-dh
+./build-key-server server
+./build-key user1</pre>
+<p>Na potrzeby telefonu potrzebujemy certyfikat p12 który bedzie się składał z user1.crt i user1.key:</p>
+<pre class="lang:default highlight:0 decode:true">cd /usr/share/doc/openvpn/examples/easy-rsa/2.0/keys/
+openssl pkcs12 -export -clcerts -in user1.crt -inkey user1.key -out user_openvpn.p12</pre>
+<p>Kopiowanie kluczy:</p>
+<p>Klucze zapisały się w katalogu /usr/share/doc/openvpn/examples/easy-rsa/2.0/keys i trzeba je skopiować do /etc/openvpn</p>
+<pre class="lang:default highlight:0 decode:true">cd /usr/share/doc/openvpn/examples/easy-rsa/2.0/keys
+cp ca.crt server.crt server.key dh1024.pem /etc/openvpn/</pre>
+<p>Nadawanie uprawnień:</p>
+<pre class="lang:default highlight:0 decode:true">chmod 666 /etc/openvpn/ipp.txt</pre>
+<p>Konfiguracja openvpn.conf</p>
+<p>nano /etc/openvpn/openvpn.conf</p>
+<pre class="nums:true lang:default highlight:0 decode:true">port 1194
+proto udp
+tls-server
+mode server
+dev tun
+local x.x.x.x	
+server 10.30.0.0 255.255.255.0	 
+ifconfig-pool-persist /etc/openvpn/ipp.txt	
+ca /etc/openvpn/ca.crt
+cert /etc/openvpn/server.crt
+key /etc/openvpn/server.key
+dh /etc/openvpn/dh1024.pem
+daemon
+verb 4
+log-append /var/log/openvpn.log
+keepalive 10 900
+inactive 3600
+comp-lzo
+persist-tun
+persist-key
+push "route 10.0.5.0 255.255.255.0"</pre>
+<p>linia 6 – wpisz adres IP serwera Ubuntu</p>
+<p>linia 7 – zakres sieci vpn dla klientów, pierwszy zawsze dla serwera, klienci z tego zakresu pobierają ip</p>
+<p>linia 8 – plik w którym zapisywane są pobrane ip klientów</p>
+<p>linia 21 – routing który zaciągają klienci, ważna opcja jeśli chcemy mieć dostęp do innych sieci</p>
+<p> </p>
+<p>Włączenie przekazywania pakietów:</p>
+<pre class="lang:default highlight:0 decode:true">/sbin/sysctl -w net.ipv4.ip_forward=1</pre>
+<p>Właczanie usługi:</p>
+<pre class="lang:default highlight:0 decode:true">service openvpn start</pre>
+<p>Dodanie do automatycznego uruchamiania:</p>
+<pre class="lang:default highlight:0 decode:true">update-rc.d openvpn enable</pre>
+<p>Odpalamy plik z logami openvpn:</p>
+<pre class="lang:default highlight:0 decode:true">tail -f /var/log/openvpn.log</pre>
+<p>** **</p>
+<p><strong>2. Konfiguracja klienta:</strong></p>
+<p>Klucze do skopiowania z serwera na stacje lokalną lub na telefon:</p>
+<pre class="lang:default highlight:0 decode:true">/usr/share/doc/openvpn/examples/easy-rsa/2.0/keys/ca.crt
+/usr/share/doc/openvpn/examples/easy-rsa/2.0/keys/user_openvpn.p12</pre>
+<p>Aby dodać certyfikat user_openvpn.p12 przechodzimy na telefonie do:</p>
+<p><span style="color: #008000;">Security &gt; Creditential storage &gt; Install form phone storage &gt; wybieramy certyfikat </span></p>
+<p>Przechodzimy na strone <strong><a title="xda-developers" href="http://forum.xda-developers.com/showthread.php?t=1591585" target="_blank">xda-developers</a></strong>  gdzie jest do sciagniecia aplikacja openvpn i instalujemy ją w telefonie (nie wymaga root’a)</p>
+<p>Odpalamy aplikacje OpenVPN:</p>
+<p>Add VPN<br>
+VPN name – <span style="color: #008000;">wpisujemy nazwe</span><br>
+Set VPN server – <span style="color: #008000;">wpisujemy IP servera Ubuntu</span><br>
+User authentication – <span style="color: #008000;">tu nic nie wpisujemy</span><br>
+Certyficate authority (CA) certificate – <span style="color: #008000;">wybieramy ca.crt z karty lub lokalnej pamięci</span><br>
+User certificate – <span style="color: #008000;">Wybieramy wczesniej zainstalowany user_openvpn.p12</span></p>
+<p>Wybieramy menu i klikamy advanced zaznaczamy <span style="color: #ff0000;">LZO compression</span><br>
+Wybieramy menu i klikamy <span style="color: #ff0000;">save</span></p>
+<p>Następnie klikajac na nazwe połączenia łączymy się z serwerem.</p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/openvpn/">openvpn</a>, 
+                <a href="/tags/ubuntu/">ubuntu</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Jak%20skonfigurowa%c4%87%20serwer%20OpenVpn%20na%20Ubuntu%20i%20%c5%82%c4%85czy%c4%87%20si%c4%99%20z%20Androida%204%20%28ICS%2b%29&url=https%3a%2f%2ftechfreak.pl%2fjak-skonfigurowac-serwer-openvpn-na-ubuntu-i-laczyc-sie-z-androida-4-ics%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fjak-skonfigurowac-serwer-openvpn-na-ubuntu-i-laczyc-sie-z-androida-4-ics%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

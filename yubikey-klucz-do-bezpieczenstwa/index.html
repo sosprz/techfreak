@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Yubikey klucz do bezpieczeństwa &middot; My Name</title>
+        <meta name="description" content="Parę słów i przykładów z działania klucza Yubikey NEO, który nie tylko przypomina pamięć USB a pomaga chronić dostępu do najpopularniejszych serwisów internetowych.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Yubikey klucz do bezpieczeństwa">
+<meta property="og:description" content="Parę słów i przykładów z działania klucza Yubikey NEO, który nie tylko przypomina pamięć USB a pomaga chronić dostępu do najpopularniejszych serwisów internetowych.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Yubikey klucz do bezpieczeństwa</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2015-08-25" itemprop="datePublished">Tue, Aug 25, 2015</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 7 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Parę słów i przykładów z działania klucza Yubikey NEO, który nie tylko przypomina pamięć USB a pomaga chronić dostępu do najpopularniejszych serwisów internetowych.</p>
+<p>Jesteśmy w czasach kiedy hasło do konta pocztowego nie zapewnia wystarczającej ochrony. Na każdym kroku zwiedzania internetu czy korzystania z komputera użytkownik jest narażony na niebezpieczeństwo utraty hasła. Świadomość, że atakujący mógłby przejąć  konto pocztowe na którym opieramy wszelkie inne dostępy w sieci na napawa optymizmem. Jeśli jesteś posiadaczem konta np. Google mail to masz możliwość włączenia dwuskładnikowego logowania przy pomocy Google authenticator lub tokena U2F. Utrudniło by to potencjalnym włamywaczom przejęcie konta. W pierwszym przypadku Google authenticator jest instalowany na telefonie w drugim trzeba posiadać fizyczny klucz. Niestety telefony też posiadają systemy które są podatne na zagrożenia. Dlatego do dwuskładnikowego uwierzytelnienia używam Yubikey. Poniżej opiszę trochę jak działa klucz Yubikey i co można z nim zrobić.</p>
+<p>Jest wiele ważnych serwisów które przydało by się dodatkowo zabezpieczyć. Dla mnie ważne są lastpass, droppbox, gmail, github, digitalocean, openvpn, wordpress. Tak się składa, że je wszystkie mogę zabezpieczyć dwuskładnikowym logowaniem przy pomocy google authenticator (GA). Taka opcja przydała by się  jeszcze w bankach lub takich serwisach jak eBay lub PayPal. Skoro jestem przy GA, to generalnie jego używanie na pewno podwyższa poziom bezpieczeństwa. I jeśli ktoś używa to plus dla niego. Jest bezpiecznie, fanie. Co ma do tego Yubikey? I co to jest w ogóle Yubikey??</p>
+<p><a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_neo_nfc_token_linux_131/" rel="attachment wp-att-10155"><img class="aligncenter size-full wp-image-10155" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_131.jpg" alt="techfreak_Yubikey_neo_nfc_token_linux_131" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_131.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_131-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_131-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_131-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_131-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Yubikey jest prostym i bezpiecznym kluczem chroniącym przeróżne konta w internecie. Najprostszym przykładem jest dwuskładnikowa ochrona gmaila za pomocą standardu <strong>Universal 2nd Factor</strong> (<strong>U2F</strong>). Która polega na wsadzeniu klucza do portu usb po podaniu loginu i hasła. Ciekawe jest to, że przy chęci włączenia <strong>U2F</strong> w danym serwisie, Yubikey generuje parę kluczy które nie są przetrzymywane na nim samym lecz w serwisie w którym się rejestruje. Co pozwala na wykorzystanie klucza Yubikey w dowolnej ilości serwisów online. Ciekawe co? Przy rejestracji token generuje klucz prywatny przy pomocy secp256r1 który jest szyfrowany głównym hasłem urządzenia i jest wysyłany do serwisu online. Przy próbie logowania yubikey rozszyfrowuje zapytanie w którym jest zawarty wcześniej wygenerowany klucz. Jest fajnie ale nie do końca. Obsługa <strong>U2F</strong> jest dostępna tylko w przeglądarce Chrome. Firefox się ociąga.</p>
+<p>Pierwszy przykład użycia za nami ale nie napisałem ogólnie o co chodzi w Yubikeyu. Cały pic polega na dotknięciu złotego kółeczka aby w danym czasie uruchomić token. Nie jest tak, że wkładam w USB token i on już działa. Za każdym razem kiedy chce go użyć muszę go dotknąć. Zaświeci się diodka i akcja została wykonana. W przypadku logowania do strony z U2F po dotknięciu zostaniemy przeniesieni do żądanej treści. Yubikey ma jeszcze inne funkcje kryjące się pod magicznym guziczkiem. Posiada dwa sloty przetrzymujące hasła. Przy przytrzymaniu palca około sekundy zostanie wklejone hasło ze slotu pierwszego. Jeśli zrobię to trzy sekundy zostanie wklejone hasło z drugiego slotu. Yubik jest wykrywany jako klawiatura i działa jako klawiatura. Jednym tapnięciem wkleja 32 znakowe hasło np. do last passa lub do dysku. Nie przetrzymuje żadnych innych informacji o użytkoniwku więc nawet jak go zgubie nikt nie będzie wiedział gdzie go użyć. Z tą opcja mam niestety problem bo po prostu pamiętam swoje 32 znakowe hasło.</p>
+<p><a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_neo_nfc_token_linux_yubico_letter-jpg/" rel="attachment wp-att-10166"><img class="aligncenter wp-image-10166 size-medium" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_yubico_letter.jpg-300x225.jpg" alt="techfreak_Yubikey_neo_nfc_token_linux_yubico_letter.jpg" width="300" height="225" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_yubico_letter.jpg-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_yubico_letter.jpg-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_yubico_letter.jpg-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_yubico_letter.jpg-200x150.jpg 200w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_yubico_letter.jpg.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<h4 id="yubico-authenticator">Yubico Authenticator</h4>
+<p>Pomijając U2F i wklejanie haseł. Wspominałem o Google Authenticator który instaluje się na telefonie i generuje  co minutę nowe hasło – token do wybranego serwisu. Generowanie tokena opiera się na funkcji <a href="http://garbagecollected.org/2014/09/14/how-google-authenticator-works/" target="_blank" rel="noopener">HMAC-SHA1,</a> która generuje sześcio znakowe hasła na podstawie głównego hasła które jest zapisane w serwisie jak i w Google Authenticator. Yubikey posiada swoją własną aplikację Yubico Authentocator która w pełni zastępuje GA. Klucz Yubikey posiada opcje kontenera który trzyma w sobie te wszystkie główne hasła i po wsadzeniu go do komputera, czy przyłożeniu go do telefonu z NFC pokażą się tokeny do serwisów. Tak, Yubikey może być odczytywany poprzez NFC. Oczywiście dostęp do tego kontenera jest zabezpieczany osobnym hasłem. Aby korzystać na telefonie z tej funkcjonalności trzeba zainstalować darmowy program <a href="https://play.google.com/store/apps/details?id=com.yubico.yubioath&amp;hl=pl">Yubico Authentocator</a>. Nie ma problemu aby odczytać kody na komputerze z różnymi systemami operacyjnymi ale potrzeba do tego <a href="https://developers.yubico.com/yubioath-desktop/Releases/" target="_blank" rel="noopener">aplikacji</a>. Zapewnia to pewną elastyczność użytkowania. Użytkownik nie jest przywiązany do swojego telefonu i nie jest zależny od niego.<figure id="attachment_10165" aria-describedby="caption-attachment-10165" style="width: 530px" class="wp-caption aligncenter"></p>
+<p><a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_neo_nfc_token_linux_yubico_authentocator_ubuntu/" rel="attachment wp-att-10165"><img class="wp-image-10165 size-full" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_yubico_authentocator_ubuntu.jpg" alt="techfreak_Yubikey_neo_nfc_token_linux_yubico_authentocator_ubuntu" width="530" height="405" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_yubico_authentocator_ubuntu.jpg 530w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_yubico_authentocator_ubuntu-262x200.jpg 262w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_yubico_authentocator_ubuntu-300x229.jpg 300w" sizes="(max-width: 530px) 100vw, 530px" /></a><figcaption id="caption-attachment-10165" class="wp-caption-text">Yubico Authentoicator na Xubuntu</figcaption></figure> <figure id="attachment_10185" aria-describedby="caption-attachment-10185" style="width: 576px" class="wp-caption aligncenter"><a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_yubico_authenticator/" rel="attachment wp-att-10185"><img class="wp-image-10185 size-large" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator-576x1024.jpg" alt="techfreak_yubikey_yubico_authenticator" width="576" height="1024" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator-576x1024.jpg 576w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator-113x200.jpg 113w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator-169x300.jpg 169w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator-624x1109.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator.jpg 1080w" sizes="(max-width: 576px) 100vw, 576px" /></a><figcaption id="caption-attachment-10185" class="wp-caption-text">Yubico Authentocator na Androidzie</figcaption></figure></p>
+<h4 id="przykłady-użycia-yubico-authentocator-który-w-pełni-zastępuje-google-authenticator">Przykłady użycia Yubico Authentocator który w pełni zastępuje Google Authenticator</h4>
+<p>Yubico Authentocator z powodzeniem zastępuje w pełni Google Authenticator w takich aplikacjak jak google, lastpass, github, wordpress, dropbox. Pełna lista znajduje się pod <a href="https://en.wikipedia.org/wiki/Google_Authenticator" target="_blank" rel="noopener">tym</a> linkiem.<figure id="attachment_10187" aria-describedby="caption-attachment-10187" style="width: 897px" class="wp-caption aligncenter"></p>
+<p><a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_yubico_authenticator_wordpress/" rel="attachment wp-att-10187"><img class="wp-image-10187 size-full" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_wordpress.jpg" alt="techfreak_yubikey_yubico_authenticator_wordpress" width="897" height="576" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_wordpress.jpg 897w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_wordpress-311x200.jpg 311w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_wordpress-300x193.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_wordpress-624x401.jpg 624w" sizes="(max-width: 897px) 100vw, 897px" /></a><figcaption id="caption-attachment-10187" class="wp-caption-text">Yubico Authenticator wordpress</figcaption></figure> <figure id="attachment_10189" aria-describedby="caption-attachment-10189" style="width: 912px" class="wp-caption aligncenter"><a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_yubico_authenticator_gmail/" rel="attachment wp-att-10189"><img class="wp-image-10189 size-full" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_gmail.jpg" alt="techfreak_yubikey_yubico_authenticator_gmail" width="912" height="396" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_gmail.jpg 912w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_gmail-461x200.jpg 461w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_gmail-300x130.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_gmail-624x271.jpg 624w" sizes="(max-width: 912px) 100vw, 912px" /></a><figcaption id="caption-attachment-10189" class="wp-caption-text">Yubico Authenticator gmail</figcaption></figure> <figure id="attachment_10190" aria-describedby="caption-attachment-10190" style="width: 1188px" class="wp-caption aligncenter"><a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_yubico_authenticator_lastpass/" rel="attachment wp-att-10190"><img class="wp-image-10190 size-full" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_lastpass.jpg" alt="techfreak_yubikey_yubico_authenticator_lastpass" width="1188" height="400" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_lastpass.jpg 1188w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_lastpass-594x200.jpg 594w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_lastpass-300x101.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_lastpass-1024x345.jpg 1024w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_yubico_authenticator_lastpass-624x210.jpg 624w" sizes="(max-width: 1188px) 100vw, 1188px" /></a><figcaption id="caption-attachment-10190" class="wp-caption-text">Yubico Authentocator LastPass</figcaption></figure></p>
+<h4 id="jak-zabezpieczyć-stronę-www-prywatnym-kluczem-który-znajduje-się-na-yubikey">Jak zabezpieczyć stronę www prywatnym kluczem który znajduje się na Yubikey?</h4>
+<p class="lang:default highlight:0 decode:true">
+  Poniżej pokaże bardzo fajny przykład jak zabezpieczyć stronę www certyfikatem, który jest przetrzymywany na Yubikey. Kiedyś napisałem krótką instrukcję jak włączyć takie zabezpieczenie na apache2, można znaleźć ją pod <a href="http://techfreak.pl/jak-ustawic-dostep-do-strony-www-na-podstawie-certyfikatu/" target="_blank" rel="noopener">tym</a> linkiem. Zostały opisane tam cztery punkty a wynikiem ostatniego jest certyfikat o nazwie public_client.p12 zabezpieczony hasłem. Teraz aby wgrać taki certyfikat na Yubikey trzeba włączyć obsługę CCID (smartcard) w samym kluczyku. Do tego służy program YubiKey NEO Manager
+</p>
+<p class="lang:default highlight:0 decode:true">
+  <a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_ccid_1/" rel="attachment wp-att-10194"><img class="aligncenter size-full wp-image-10194" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_ccid_1.jpg" alt="techfreak_yubikey_ccid_1" width="668" height="297" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_ccid_1.jpg 668w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_ccid_1-450x200.jpg 450w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_ccid_1-300x133.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_ccid_1-624x277.jpg 624w" sizes="(max-width: 668px) 100vw, 668px" /></a> <a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_ccid_2/" rel="attachment wp-att-10195"><img class="aligncenter size-full wp-image-10195" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_ccid_2.jpg" alt="techfreak_yubikey_ccid_2" width="655" height="296" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_ccid_2.jpg 655w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_ccid_2-443x200.jpg 443w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_ccid_2-300x136.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_ccid_2-624x282.jpg 624w" sizes="(max-width: 655px) 100vw, 655px" /></a>
+</p>
+<p class="lang:default highlight:0 decode:true">
+  Następnym programem który będzie potrzebny jest Yubico PIV tool którym importuje do Yubikey&#8217;a certyfikat klienta (hasło exportowe q1w2e3r4)
+</p>
+<p class="lang:default highlight:0 decode:true">
+  <a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_piv_ccid_2/" rel="attachment wp-att-10197"><img class="aligncenter size-full wp-image-10197" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_2.jpg" alt="techfreak_yubikey_piv_ccid_2" width="952" height="125" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_2.jpg 952w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_2-600x79.jpg 600w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_2-300x39.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_2-624x82.jpg 624w" sizes="(max-width: 952px) 100vw, 952px" /></a>
+</p>
+<p class="lang:default highlight:0 decode:true">
+  Warto wiedzieć z jakimi hasłami domyślnie przychodzi klucz, dotyczą one tylko modułu CCID
+</p>
+<ul>
+<li>default pin: 123456</li>
+<li>default unblock pin: 12345678</li>
+<li>default admin key : 010203040506070801020304050607080102030405060708</li>
+</ul>
+<p class="lang:default highlight:0 decode:true">
+  Na testy zabezpieczyłem stronę mojego projektu nettemp. Nic się nie wyświetla ponieważ przeglądarka firefox nie jest skonfigurowana do używania smartcard.
+</p>
+<p class="lang:default highlight:0 decode:true">
+  <a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_piv_ccid_1/" rel="attachment wp-att-10196"><img class="aligncenter size-full wp-image-10196" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_1.jpg" alt="techfreak_yubikey_piv_ccid_1" width="771" height="506" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_1.jpg 771w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_1-305x200.jpg 305w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_1-300x197.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_1-624x410.jpg 624w" sizes="(max-width: 771px) 100vw, 771px" /></a>
+</p>
+<p class="lang:default highlight:0 decode:true">
+  W zakładce Preferences > Adwanced > Certificates > Security Devices trzeba dodać moduł opensc wraz ze scieżką do pliku<strong> /usr/lib/x86_64-linux-gnu/opensc-pkcs11.so</strong>. Do poprawnego działania wymagany jest program Opensc który odpowiada za komunikację z kartami smartcard.
+</p>
+<p class="lang:default highlight:0 decode:true">
+  <a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_piv_ccid_3/" rel="attachment wp-att-10198"><img class="aligncenter size-full wp-image-10198" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_3.jpg" alt="techfreak_yubikey_piv_ccid_3" width="1362" height="549" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_3.jpg 1362w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_3-496x200.jpg 496w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_3-300x121.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_3-1024x413.jpg 1024w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_3-624x252.jpg 624w" sizes="(max-width: 1362px) 100vw, 1362px" /></a>
+</p>
+<p class="lang:default highlight:0 decode:true">
+  <a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_piv_ccid_4/" rel="attachment wp-att-10199"><img class="aligncenter size-full wp-image-10199" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_4.jpg" alt="techfreak_yubikey_piv_ccid_4" width="1358" height="352" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_4.jpg 1358w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_4-600x156.jpg 600w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_4-300x78.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_4-1024x265.jpg 1024w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_4-624x162.jpg 624w" sizes="(max-width: 1358px) 100vw, 1358px" /></a>
+</p>
+<p class="lang:default highlight:0 decode:true">
+  Przy ponownym wejściu na stronę tym razem firefox znalazł moje urządzenie i zostałem poproszony o hasło.
+</p>
+<h4 id="a-hrefhttptechfreakplyubikey-klucz-do-bezpieczenstwatechfreak_yubikey_piv_ccid_5-relattachment-wp-att-10200img-classaligncenter-size-full-wp-image-10200-srchttptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_5jpg-alttechfreak_yubikey_piv_ccid_5-width564-height326-srcsethttptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_5jpg-564w-httptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_5-346x200jpg-346w-httptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_5-300x173jpg-300w-sizesmax-width-564px-100vw-564px-a-a-hrefhttptechfreakplyubikey-klucz-do-bezpieczenstwatechfreak_yubikey_piv_ccid_6-relattachment-wp-att-10201img-classaligncenter-size-full-wp-image-10201-srchttptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_6jpg-alttechfreak_yubikey_piv_ccid_6-width771-height532-srcsethttptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_6jpg-771w-httptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_6-290x200jpg-290w-httptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_6-300x207jpg-300w-httptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_6-624x431jpg-624w-sizesmax-width-771px-100vw-771px-a-a-hrefhttptechfreakplyubikey-klucz-do-bezpieczenstwatechfreak_yubikey_piv_ccid_7-relattachment-wp-att-10202img-classaligncenter-size-full-wp-image-10202-srchttptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_7jpg-alttechfreak_yubikey_piv_ccid_7-width630-height567-srcsethttptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_7jpg-630w-httptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_7-222x200jpg-222w-httptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_7-300x270jpg-300w-httptechfreakplwp-contentuploads201508techfreak_yubikey_piv_ccid_7-624x562jpg-624w-sizesmax-width-630px-100vw-630px-a-langdefaulthighlight0decodetrue"><a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_piv_ccid_5/" rel="attachment wp-att-10200"><img class="aligncenter size-full wp-image-10200" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_5.jpg" alt="techfreak_yubikey_piv_ccid_5" width="564" height="326" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_5.jpg 564w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_5-346x200.jpg 346w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_5-300x173.jpg 300w" sizes="(max-width: 564px) 100vw, 564px" /></a> <a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_piv_ccid_6/" rel="attachment wp-att-10201"><img class="aligncenter size-full wp-image-10201" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_6.jpg" alt="techfreak_yubikey_piv_ccid_6" width="771" height="532" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_6.jpg 771w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_6-290x200.jpg 290w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_6-300x207.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_6-624x431.jpg 624w" sizes="(max-width: 771px) 100vw, 771px" /></a> <a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_piv_ccid_7/" rel="attachment wp-att-10202"><img class="aligncenter size-full wp-image-10202" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_7.jpg" alt="techfreak_yubikey_piv_ccid_7" width="630" height="567" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_7.jpg 630w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_7-222x200.jpg 222w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_7-300x270.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_piv_ccid_7-624x562.jpg 624w" sizes="(max-width: 630px) 100vw, 630px" /></a> {.lang:default.highlight:0.decode:true}</h4>
+<h4 id="yubikey-i-ssh">Yubikey i ssh?</h4>
+<p>Mi osobiści pierwsze co przyszło do głowy po otrzymaniu Yubikey’a to czy będzie on przetrzymywać on moje hasła do ssh. Nie udało mi się wgrać moich obecnych kluczy ale bez problemu można wygenerować nowy klucz SSH za pomocą Yubikey a następnie wgrać na pamięć Yubikey. I w tym przypadku CCID musi być włączone. Poniżej procedura generowanie kluczy dla ssh.</p>
+<p>Generowanie prywatnego klucza, Yubikey musi być włożony w slot USB.</p>
+<pre>yubico-piv-tool -s 9a -a generate -o public.pem</pre>
+<p>Generowanie certyfikatu na podstawie powyższego klucza</p>
+<pre>yubico-piv-tool -a verify-pin -P 123456 -a selfsign-certificate -s 9a \
+      -S "/CN=SSH techfreak/" -i public.pem -o cert.pem</pre>
+<p>Inportowanie certyfikatu na klucz yubikey</p>
+<pre>yubico-piv-tool -a import-certificate -s 9a -i cert.pem</pre>
+<p>Wyświetlenie prywatnego klucza który trzeba umieścić na zdalnej maszynie w pliku ~/.ssh/authorized_keys</p>
+<pre>ssh-keygen -D /usr/lib/x86_64-linux-gnu/opensc-pkcs11.so</pre>
+<p>Aby ssh szukał klucza na Yubikey przy polaczeniu do serwera ssh trzeba w pliku ssh_config wskazać moduł opensc.</p>
+<pre>echo "PKCS11Provider /usr/lib/x86_64-linux-gnu/opensc-pkcs11.so" &gt;&gt; /etc/ssh/ssh_config</pre>
+<p>Po konfiguracji w ssh_config i dodaniu kluczy publicznych na zdalnym hoscie można łączyć się po ssh nie podając hasła a wsadzając kluczyk do portu USB. Jeśli nie mam akurat go pod ręką. Mogę podać hasło i ile wcześnie nie wyłączyłem tej metody.</p>
+<p>Aby wyświetlić zainstalowane certyfikaty:</p>
+<pre>laps:~$ yubico-piv-tool -a status
+Slot 9a:	
+	Algorithm:	RSA2048
+	Subject DN:	CN=SSH techfreak
+	Issuer DN:	CN=SSH techfreak
+	Fingerprint:	aed0d2269c768502cf2149092dc7c7ea0cde23ee1df0df3b9c511a9e0d887515
+	Not Before:	Aug 24 09:35:52 2015 GMT
+	Not After:	Aug 23 09:35:52 2016 GMT
+Slot 9c:	
+	Algorithm:	RSA2048
+	Subject DN:	C=AU, ST=Some-State, O=Internet Widgits Pty Ltd
+	Issuer DN:	C=AU, ST=Some-State, O=Internet Widgits Pty Ltd
+	Fingerprint:	d91cd1d2f114fe3621d8937d8a0b22bc8a4a805d21effff8516b857256abc114
+	Not Before:	Aug 13 11:39:40 2015 GMT
+	Not After:	Aug 12 11:39:40 2016 GMT
+Slot 9d:	No data available.
+Slot 9e:	No data available.
+PIN tries left:	3
+</pre>
+<h4 id="yubikey-personalization-tool">Yubikey personalization tool</h4>
+<p>Twórcy Yubikey zapewniają naprawdę dobre wsparcie dla klucza. Między innymi podstawowym programem do konfiguracji jest Yubikey personalization tool w którym odbywa się konfiguracja.</p>
+<p><a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_neo_nfc_token_linux_4/" rel="attachment wp-att-10213"><img class="aligncenter size-full wp-image-10213" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_4.jpg" alt="techfreak_Yubikey_neo_nfc_token_linux_4" width="897" height="733" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_4.jpg 897w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_4-245x200.jpg 245w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_4-300x245.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_Yubikey_neo_nfc_token_linux_4-624x510.jpg 624w" sizes="(max-width: 897px) 100vw, 897px" /></a></p>
+<h3 id="podsumowanie">Podsumowanie</h3>
+<p><a href="http://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/techfreak_yubikey_na_spacerze_w_lesie_hasa/" rel="attachment wp-att-10212"><img class="aligncenter wp-image-10212 size-medium" src="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_na_spacerze_w_lesie_hasa-300x225.jpg" alt="techfreak_yubikey_na_spacerze_w_lesie_hasa" width="300" height="225" srcset="http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_na_spacerze_w_lesie_hasa-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_na_spacerze_w_lesie_hasa-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_na_spacerze_w_lesie_hasa-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_na_spacerze_w_lesie_hasa-200x150.jpg 200w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_yubikey_na_spacerze_w_lesie_hasa.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Z tego co widać powyżej z Yubikey jest naprawdę fajnym kluczem i nie wiem czy nie jedynym o takich dużych możliwościach. Ja osobiście na co dzień używam Yubikey Authenticator czy to w telefonie z Androidem czy laptopie z xubuntu. Dokumentacja dostępna na stronie rozwiewa wszystkie wątpliwości a jeśli nie to jest do dyspozycji forum. Nie opisałem wszystkiego co można zrealizować przy pomocy Yubikey NEO ale mam nadzieje to zrobić to jeszcze w paru wpisach. Jeśli ktoś jest ciekawy jak wygląda klucz od środka to polecam obejrzeć fotki ze strony <a href="http://hexview.com/~scl/neo/" target="_blank" rel="noopener">hexview.com. </a></p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/nfc/">NFC</a>, 
+                <a href="/tags/usb/">usb</a>, 
+                <a href="/tags/yubico/">Yubico</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Yubikey%20klucz%20do%20bezpiecze%c5%84stwa&url=https%3a%2f%2ftechfreak.pl%2fyubikey-klucz-do-bezpieczenstwa%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fyubikey-klucz-do-bezpieczenstwa%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

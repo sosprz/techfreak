@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>firewall on techfreak blog</title>
+    <link>https://techfreak.pl/tags/firewall/</link>
+    <description>Recent content in firewall on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 06 Feb 2016 23:21:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/firewall/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IPtables na stałe</title>
+      <link>https://techfreak.pl/iptables-na-stale/</link>
+      <pubDate>Sat, 06 Feb 2016 23:21:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/iptables-na-stale/</guid>
+      <description>&lt;p&gt;Jeśli  już masz napisane reguły zapory sieciowej przy pomocy IPtables to na pewno chcesz je zapisać na stałe tak aby były stosowane przy uruchamianiu maszyny. Poniżej pokaże jak.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>nettemp 7.7 openvpn firewall snmp client htpasswd</title>
+      <link>https://techfreak.pl/nettemp-7-7-openvpn-firewall-snmp-client-htpasswd/</link>
+      <pubDate>Mon, 01 Sep 2014 14:15:42 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-7-7-openvpn-firewall-snmp-client-htpasswd/</guid>
+      <description>&lt;p&gt;Hej, wypuściłem nową wersję nettempa z paroma nowymi funkcjami. Przede wszystkim skupiłem się tym razem na poprawie bezpieczeństwa i zdalnym dostępie. Dużo użytkowników pisze do mnie a żebym u nich coś zobaczył albo po prostu piszą „hej nettemp u mnie jest pod tym adresem IP”.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OpenWRT na Raspberry Pi</title>
+      <link>https://techfreak.pl/openwrt-na-raspberry-pi/</link>
+      <pubDate>Sat, 22 Jun 2013 21:10:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/openwrt-na-raspberry-pi/</guid>
+      <description>&lt;p&gt;Tyle ilu jest użytkowników Raspberry Pi tyle będzie pomysłów na zastosowanie tego maleństwa. Ja pomyślałem że muszę spróbować zainstalować OpenWRT na Raspberry Pi bo wraz ze stabilną wersją Attitude Adjustment, OpenWRT zaczęło je wspierać.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Szukasz fajnego GUI do firewalla ?</title>
+      <link>https://techfreak.pl/szukasz-fajnego-gui-do-firewalla/</link>
+      <pubDate>Sun, 23 Dec 2012 13:01:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/szukasz-fajnego-gui-do-firewalla/</guid>
+      <description>&lt;p&gt;Dziś chciałbym przypomnieć, pokazać dosyć znaną dystrybucje pod router/firewall opartą na forku innej znanej dystrybucji &lt;a href=&#34;http://m0n0.ch/&#34; target=&#34;_blank&#34;&gt;m0n0wall&lt;/a&gt; a mowa o  &lt;a href=&#34;http://www.pfsense.org/&#34; target=&#34;_blank&#34;&gt;pfSense&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Iptables – dla stacji roboczej</title>
+      <link>https://techfreak.pl/iptables-dla-stacji-roboczej/</link>
+      <pubDate>Thu, 18 Oct 2012 11:26:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/iptables-dla-stacji-roboczej/</guid>
+      <description>&lt;p&gt;Jak stworzyć standardowe reguły firewalla na iptables dla stacji roboczej ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Iptables – redirect portów, przekierowanie portów</title>
+      <link>https://techfreak.pl/iptables-redirect-portow-przekierowanie-portow/</link>
+      <pubDate>Sat, 06 Oct 2012 10:16:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/iptables-redirect-portow-przekierowanie-portow/</guid>
+      <description>&lt;p&gt;Jak ustawić przekierowanie portów na iptables ?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

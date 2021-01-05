@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>diatone on techfreak blog</title>
+    <link>https://techfreak.pl/tags/diatone/</link>
+    <description>Recent content in diatone on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Mon, 23 Jan 2017 21:45:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/diatone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jaką ramę wybrać do FPV racera?</title>
+      <link>https://techfreak.pl/rame-wybrac-fpv-racera/</link>
+      <pubDate>Mon, 23 Jan 2017 21:45:31 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/rame-wybrac-fpv-racera/</guid>
+      <description>&lt;p&gt;Okres zimowy dla pilotów to zazwyczaj przygotowania do sezonu i możliwość spokojnego przejrzenia rynku. Ja sam stoję przed wyborem nowej ramy do multikomptera wyścigowego. Choć mam ich parę to coraz to nowsze pomysły producentów i hobbystów powodują, że nowy projekt to tylko formalność!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[MiniFPV] Diatone ET150</title>
+      <link>https://techfreak.pl/minifpv-diatome-et150/</link>
+      <pubDate>Mon, 11 Jan 2016 15:44:40 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/minifpv-diatome-et150/</guid>
+      <description>&lt;p&gt;Tym wpisem zaczynam serię przedstawiającą ramki do quadkopterów, multikopterów lub jak kto chce dronów pod miniFPV. Zobacz Diatone ET150&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Diatone 37# nowa rama dla quadcoptera</title>
+      <link>https://techfreak.pl/diatone-37-nowa-rama-dla-quadcoptera/</link>
+      <pubDate>Tue, 17 Feb 2015 17:53:20 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/diatone-37-nowa-rama-dla-quadcoptera/</guid>
+      <description>&lt;p&gt;Małe quadcoptery klasy 250 stają się coraz popularniejsze, spowodowane jest to tym, że to klasa bardziej wyścigowa. Czyli, małe zwinne i szybkie a przede wszystkim to dobra zabawa. Na forach i Youtube można zauważyć naprawdę duży wysyp wielu wspaniałych konstrukcji. Ja swój projekt opisałem po tym linkiem &lt;a href=&#34;http://techfreak.pl/zbudowac-quadcopter-fpv250-naze32-dys-be1806/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;a href=&#34;http://techfreak.pl/zbudowac-quadcopter-fpv250-naze32-dys-be1806/&#34;&gt;http://techfreak.pl/zbudowac-quadcopter-fpv250-naze32-dys-be1806/&lt;/a&gt;&lt;/a&gt; ale uległ on małej zmianie.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skrypty on techfreak blog</title>
+    <link>https://techfreak.pl/tags/skrypty/</link>
+    <description>Recent content in Skrypty on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 01 Dec 2012 23:18:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/skrypty/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian – Jak stworzyć skrypt init</title>
+      <link>https://techfreak.pl/debian-jak-stworzyc-skrypt-init/</link>
+      <pubDate>Sat, 01 Dec 2012 23:18:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/debian-jak-stworzyc-skrypt-init/</guid>
+      <description>&lt;p&gt;Tworzymy plik moj.skrypt i uzupełniamy go tak jak poniżej.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

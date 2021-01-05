@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>redhat on techfreak blog</title>
+    <link>https://techfreak.pl/tags/redhat/</link>
+    <description>Recent content in redhat on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 29 Oct 2017 18:19:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/redhat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak monitorować systemy i robić to dobrze?</title>
+      <link>https://techfreak.pl/monitorowac-systemy-robic-dobrze/</link>
+      <pubDate>Sun, 29 Oct 2017 18:19:24 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/monitorowac-systemy-robic-dobrze/</guid>
+      <description>&lt;p&gt;Jak dobrze monitorować systemy, zbierać i wyświetlać dane tak aby wszystko było podane jak na tacy? Zacząć używać monitoringu &lt;a href=&#34;https://github.com/firehol/netdata&#34;&gt;Netdata&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak skonfigurować NFS (Network File System)</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-nfs-network-file-system/</link>
+      <pubDate>Fri, 05 Apr 2013 16:25:53 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-nfs-network-file-system/</guid>
+      <description>&lt;p&gt;Czasami trzeba udostępnić jakieś katalogi z jednej maszyny na drugą i do tego świetnie nadaje się popularny sieciowy system plików Network File System. Konfiguracja dosyć łatwa a do tego szybka. Mały przykład jak skonfigurować NFS poniżej.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalacja freeradius i gui daloradius na RedHat 6</title>
+      <link>https://techfreak.pl/instalacja-freeradius-i-gui-daloradius-na-redhat-6/</link>
+      <pubDate>Sat, 30 Mar 2013 09:01:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/instalacja-freeradius-i-gui-daloradius-na-redhat-6/</guid>
+      <description>&lt;p&gt;Tym razem potrzebowałem serwera radius + jakiś www interface. Poniżej moja konfiguracja.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak skonfigurować serwer rsyslog &#43; interfejs www na RedHat 6</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-serwer-rsyslog-interfejs-www-na-redhat-6/</link>
+      <pubDate>Tue, 19 Mar 2013 21:38:24 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-serwer-rsyslog-interfejs-www-na-redhat-6/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2551&#34; alt=&#34;loganalyzer_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Każdy admin prędzej czy później spotyka się z taką sytuacja że potrzebuje mieć serwer sysloga który będzie zbierał logi ze wszystkich urządzeń w sieci. Generalnie z różnych powodów a może być ich wiele nie ma co wnikać, można robić to też dla fanu ;)&lt;/p&gt;
+&lt;p&gt;Ja robię to z potrzeby i mam nadzieje że komuś się przyda chociaż można powiedzieć też RTFM :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Redhat – tworzenie skryptu init</title>
+      <link>https://techfreak.pl/redhat-tworzenie-skryptu-init/</link>
+      <pubDate>Sat, 06 Oct 2012 17:39:57 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/redhat-tworzenie-skryptu-init/</guid>
+      <description>&lt;p&gt;Poniżej wzór jak tworzyć skrypty startowe w systemie RedHat. Podświetlone line to komenda wykonująca /skrypt jak użytkownik user.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Redhat – przydatne polecenia</title>
+      <link>https://techfreak.pl/redhat-przydatne-polecenia/</link>
+      <pubDate>Sat, 06 Oct 2012 17:36:53 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/redhat-przydatne-polecenia/</guid>
+      <description>&lt;p&gt;Spis przydatnych poleceń dla systemy Redhat&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak włączyć proxy w RedHat dla repozytorium i jak korzystać z proxy ?</title>
+      <link>https://techfreak.pl/jak-wlaczyc-proxy-w-redhat-dla-repozytorium-i-jak-korzystac-z-proxy/</link>
+      <pubDate>Wed, 03 Oct 2012 20:57:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wlaczyc-proxy-w-redhat-dla-repozytorium-i-jak-korzystac-z-proxy/</guid>
+      <description>&lt;p&gt;Jak włączyć proxy dla systemu Redhat ?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

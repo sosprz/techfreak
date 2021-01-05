@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wemos on techfreak blog</title>
+    <link>https://techfreak.pl/tags/wemos/</link>
+    <description>Recent content in wemos on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 18 Feb 2018 17:19:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/wemos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bezprzewodowy czujnik SHT30 Wemos z ESP8266 – nettemp i EasyESP Mega</title>
+      <link>https://techfreak.pl/bezprzewodowy-czujnik-sht30-wemos-esp8266-nettemp-easyesp-mega/</link>
+      <pubDate>Sun, 18 Feb 2018 17:19:10 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/bezprzewodowy-czujnik-sht30-wemos-esp8266-nettemp-easyesp-mega/</guid>
+      <description>&lt;p&gt;Układy Wemos to tanie i łatwe u użyciu bezprzewodowe rozwiązanie do podłączania wielu czujników. Wraz z oprogramowaniem ESPEasy daje bardzo duże możliwości.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wgrać EasyESP do ESP8266</title>
+      <link>https://techfreak.pl/wgrac-easyesp-esp8266/</link>
+      <pubDate>Fri, 25 Aug 2017 07:02:41 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wgrac-easyesp-esp8266/</guid>
+      <description>&lt;p&gt;Jak wgrać firmware EasyESP Mega do ESP8266?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

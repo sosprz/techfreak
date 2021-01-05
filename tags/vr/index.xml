@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VR on techfreak blog</title>
+    <link>https://techfreak.pl/tags/vr/</link>
+    <description>Recent content in VR on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 17 Sep 2014 19:58:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Cardboard czyli wirtualna rzeczywistość z kartonu</title>
+      <link>https://techfreak.pl/google-cardboard-wirtualna-rzeczywistosc-kartonu/</link>
+      <pubDate>Wed, 17 Sep 2014 19:58:05 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/google-cardboard-wirtualna-rzeczywistosc-kartonu/</guid>
+      <description>&lt;p&gt;Po tym jak google zaprezentowało swoje okulary do wirtualnej rzeczywistości &lt;a href=&#34;https://cardboard.withgoogle.com/&#34; target=&#34;_blank&#34;&gt;cardboard&lt;/a&gt;, postanowiłem zakupić tani odpowiednik na DealXtreme za 9$. Dlaczego akurat na DX? Bo nie widziałem nigdzie indziej aby było tanio i szybko :) Dopiero po jakimś czasie pojawiły się na banggood. Ale było już za późno. Okazało się że wybór DX nie był do końca trafny bo na przesyłkę czekałem chyba 2 miesiące, ale jest, w końcu przesyłka dotarła i okularki działają :) Poniżej parę fotek ze składania.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>vrAse zamieni smartfona w multimedialne gogle</title>
+      <link>https://techfreak.pl/vrase-zamieni-smartfona-w-multimedialne-gogle/</link>
+      <pubDate>Sat, 22 Mar 2014 07:32:22 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/vrase-zamieni-smartfona-w-multimedialne-gogle/</guid>
+      <description>&lt;p&gt;Bardzo fajnym pomysłem jest uwolnienie rąk kiedy oglądamy filmy na smartfonie. Okazuje się że możemy zamienić go w ekran 3D. A także używać do rozszerzania rzeczywistości (AUGMENTED REALITY).&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

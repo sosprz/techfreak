@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ESP8266 on techfreak blog</title>
+    <link>https://techfreak.pl/tags/esp8266/</link>
+    <description>Recent content in ESP8266 on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Fri, 25 Aug 2017 07:02:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/esp8266/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak wgrać EasyESP do ESP8266</title>
+      <link>https://techfreak.pl/wgrac-easyesp-esp8266/</link>
+      <pubDate>Fri, 25 Aug 2017 07:02:41 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wgrac-easyesp-esp8266/</guid>
+      <description>&lt;p&gt;Jak wgrać firmware EasyESP Mega do ESP8266?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SONOFF gotowy układ do sterowania przekaźnikiem na ESP8266</title>
+      <link>https://techfreak.pl/sonoff-gotowy-uklad-sterowania-przekaznikiem-esp8266/</link>
+      <pubDate>Thu, 04 May 2017 20:38:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/sonoff-gotowy-uklad-sterowania-przekaznikiem-esp8266/</guid>
+      <description>&lt;p&gt;Dziś trochę na temat prostego i popularnego przekaźnika SONOFF z wbudowanym WiFi na układzie ESP8266.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bezprzewodowe czujniki wilgotności &#43; pomiar napięcia</title>
+      <link>https://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/</link>
+      <pubDate>Wed, 16 Mar 2016 06:38:21 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/</guid>
+      <description>&lt;p&gt;W projekcie nettemp dużo się dzieje. Co chwilę wraz z społecznością na forum dokładamy nowe funkcjonalności albo poprawiamy stare elementy. Dziś chciałbym przestawić wam jeden ciekawy wątek na forum który cieszy się popularnością. Chodzi o temat &lt;a href=&#34;http://nettemp.pl/forum/viewtopic.php?f=8&amp;t=702&#34; target=&#34;_blank&#34;&gt;[DIY] Urządzenia WiFi dla NetTemp&lt;/a&gt; w którym to użytkownicy zaprojektowali swoje płytki PCB oraz napisali oprogramowanie do układów ESP8266.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ESP8266 – jak używać ESP12</title>
+      <link>https://techfreak.pl/esp8266-jak-uzywac-esp12/</link>
+      <pubDate>Wed, 08 Jul 2015 18:44:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/esp8266-jak-uzywac-esp12/</guid>
+      <description>&lt;p&gt;Ostatnio zakupiłem parę sztuk układu ESP8266 w wersji ESP12 w której jest dostępnych więcej GPIO. Wariant dwunasty jest w wersji SMD i nie ma wyprowadzonych pinów. Bez problemu można przylutować parę przewodów do takiej płytki ale większym problemem jest zaczęcie pracy z tym układem. Różni się on trochę od poprzednich i aby wgrać firmware lub wprowadzić układ w tryb normalnej pracy trzeba ustawić odpowiednie stany na odpowiednich GPIO.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>EasyEDA program do projektowania PCB</title>
+      <link>https://techfreak.pl/easyeda-program-do-projektowania-pcb/</link>
+      <pubDate>Sat, 18 Apr 2015 19:39:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/easyeda-program-do-projektowania-pcb/</guid>
+      <description>&lt;p&gt;Ile razy to ja się zabierałem za projektowanie PCB to już nie pamiętam. Zawsze jakoś ciężko było ogarnąć jakiś program, a jest ich całkiem sporo EAGLE, KiCAD i chyba najprostszy FRITZING. Samo wytrawianie płytek z gotowych projektów sprawiało mi frajdę i jest to całkiem proste. Ostatnio w moim projekcie nettemp pojawiły się czujniki bezprzewodowe na ESP8266 i potrzebowałem swojej płytki do szybkiego testowania i wgrywania programów. Oczywiście złożyłem jednego pająka na płytce uniwersalnej co można zobaczyć w &lt;a href=&#34;http://techfreak.pl/tag/nettemp/&#34; target=&#34;_blank&#34;&gt;ostatnich wpisach&lt;/a&gt; ale potrzebuje takich klika. A, że wolę zastosować pętle niż powtarzać parę razy to samo,  musiałem w końcu zaprojektować swoją płytkę do testowania ESP8266. I tak trafiłem na EasyEDA.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>nettemp nowe funkcje</title>
+      <link>https://techfreak.pl/nettemp-nowe-funkcje/</link>
+      <pubDate>Fri, 17 Apr 2015 11:32:55 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-nowe-funkcje/</guid>
+      <description>&lt;p&gt;Hej, dziś parę słów na temat projektu nettemp. Oczywiście nie rozwija się on tak szybko jak bym chciał ale zawszę trochę do przodu. Obecnie nettemp dzieli się na dwie wersje master i beta. Master jest w miarę stabilną wersją jeszcze ze starymi wykresami na RRD. Natomiast nowa wersja bety zawiera parę nowych funkcji o których werto wspomnieć.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bezprzewodowe czujniki wilgotności DHT11 na ESP8266</title>
+      <link>https://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-dht11-na-esp8266/</link>
+      <pubDate>Wed, 08 Apr 2015 21:44:49 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-dht11-na-esp8266/</guid>
+      <description>&lt;p&gt;Bardzo się cieszę, że mój poprzedni wpis o &lt;a href=&#34;http://techfreak.pl/bezprzewodowe-czujniki-temperatury-ds18b20-na-esp8266/&#34; target=&#34;_blank&#34;&gt;bezprzewodowych czujnikach temperatury DS18B20 na ESP8266&lt;/a&gt; cieszył się tak dużym zainteresowaniem bo ok 8tyś wyświetleń. Wiem, że było trochę problemów z wgrywaniem programów na ESP ale mam nadzieję, że teraz pójdzie wszystkim lepiej. Tym razem chciałbym pokazać jak podłączyć pod ESP8266 czujnik wilgotności i temperatury DHT11.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bezprzewodowe czujniki na ESP8266 &#43; nettemp</title>
+      <link>https://techfreak.pl/bezprzewodowe-czujniki-na-esp8266-nettemp/</link>
+      <pubDate>Fri, 12 Dec 2014 06:37:07 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/bezprzewodowe-czujniki-na-esp8266-nettemp/</guid>
+      <description>&lt;p&gt;Po ostatnim &lt;a href=&#34;http://techfreak.pl/bezprzewodowe-czujniki-temperatury-ds18b20-na-esp8266/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;artykule&lt;/a&gt; na temat bezprzewodowych czujników DS18b20 na układzie ESP8266 który był podłączony do bateryjki CR2032. Dziś chciałbym odpowiedzieć na parę pytań które urodziły się w tamtym czasie i pokazać wam jak działają bezprzewodowe czujniki z nettemp.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bezprzewodowe czujniki temperatury DS18b20 na ESP8266</title>
+      <link>https://techfreak.pl/bezprzewodowe-czujniki-temperatury-ds18b20-na-esp8266/</link>
+      <pubDate>Mon, 08 Dec 2014 06:06:02 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/bezprzewodowe-czujniki-temperatury-ds18b20-na-esp8266/</guid>
+      <description>&lt;p&gt;Długo czekałem na takie proste i ciekawe rozwiązanie bezprzewodowego pomiaru temperatury. Nie tak dawno ukazał się tani układ Wifi ESP8266. Generalnie znany jako serial wifi ponieważ komunikacja odbywa się po TX,RX co jest i tak dużym ułatwieniem w stosunku np. do nRF2401. Okazuje się że sam moduł posiada 32 bitowy mikroprocesor który pozwala na załadowanie całkiem ciekawych programów. Dzięki takiemu rozwiązaniu można zbudować mini projekt bez użycia dodatkowego sprzętu takiego jak np. arduino. Super!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

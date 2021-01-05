@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weekendowy projekt – POV na Arduino mini pro &middot; My Name</title>
+        <meta name="description" content="Ostatnio natrafiłem na instructables.com na prosty ale fajny i ciekawy projekt POV Display na ATiny85. Takich projektów widziałem pełno. Już chciałem zrobić wpis na TF, ale pomyślałem zaraz, zaraz sam to zrobię i wtedy coś napiszę :) no i proszę jest.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Weekendowy projekt – POV na Arduino mini pro">
+<meta property="og:description" content="Ostatnio natrafiłem na instructables.com na prosty ale fajny i ciekawy projekt POV Display na ATiny85. Takich projektów widziałem pełno. Już chciałem zrobić wpis na TF, ale pomyślałem zaraz, zaraz sam to zrobię i wtedy coś napiszę :) no i proszę jest.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/weekendowy-projekt-pov-arduino-mini-pro/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Weekendowy projekt – POV na Arduino mini pro</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2014-06-15" itemprop="datePublished">Sun, Jun 15, 2014</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 5 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Ostatnio natrafiłem na instructables.com na prosty ale fajny i ciekawy projekt <a href="http://www.instructables.com/id/ATtiny8545-POV-Display/?ALLSTEPS" target="_blank">POV Display na ATiny85</a>. Takich projektów widziałem pełno. Już chciałem zrobić wpis na TF, ale pomyślałem zaraz, zaraz sam to zrobię i wtedy coś napiszę :) no i proszę jest.</p>
+<p>Swój klon projektu POV (Persistence of Vision) wzorowałem może nie najlepszym ale na prostym projekcie który jest do zrealizowania w ok. godzinkę i jest nie drogi. Potrzebowałem 5 diod z rezystorami, arduino pro mini i stary wentylator. No w sumie to jeszcze baterię 2S i taśmę dwustronną no i klocki lego. Fotki poproszę.</p>
+<h4 id="fotki">Fotki</h4>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini0.jpg"><img class="aligncenter size-full wp-image-7226" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini0.jpg" alt="techfreakpl_simple_pov_arduino_pro_mini0" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini0.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini0-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini1.jpg"><img class="aligncenter size-full wp-image-7227" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini1.jpg" alt="techfreakpl_simple_pov_arduino_pro_mini1" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini1.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini1-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini2.jpg"><img class="aligncenter size-full wp-image-7228" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini2.jpg" alt="techfreakpl_simple_pov_arduino_pro_mini2" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini2.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini2-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini3.jpg"><img class="aligncenter size-full wp-image-7229" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini3.jpg" alt="techfreakpl_simple_pov_arduino_pro_mini3" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini3.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini3-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini4.jpg"><img class="aligncenter size-full wp-image-7230" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini4.jpg" alt="techfreakpl_simple_pov_arduino_pro_mini4" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini4.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini4-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini5.jpg"><img class="aligncenter size-full wp-image-7231" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini5.jpg" alt="techfreakpl_simple_pov_arduino_pro_mini5" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini5.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini5-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini6.jpg"><img class="aligncenter size-full wp-image-7232" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini6.jpg" alt="techfreakpl_simple_pov_arduino_pro_mini6" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini6.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini6-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini7.jpg"><img class="aligncenter size-full wp-image-7233" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini7.jpg" alt="techfreakpl_simple_pov_arduino_pro_mini7" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini7.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini7-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini8.jpg"><img class="aligncenter size-full wp-image-7234" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini8.jpg" alt="techfreakpl_simple_pov_arduino_pro_mini8" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini8.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini8-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini9.jpg"><img class="aligncenter size-full wp-image-7235" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini9.jpg" alt="techfreakpl_simple_pov_arduino_pro_mini9" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini9.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreakpl_simple_pov_arduino_pro_mini9-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p> </p>
+<p>Dobra, pewnie niektórzy się wciąż zastanawiają ale o co chodzi z tymi diodami i klockami lego. Filmik proszę!</p>
+<h3 id="filmik">Filmik</h3>
+<h3 id="opowiadanki">Opowiadanki</h3>
+<p>Robiłem z tego co było pod ręką dlatego nie wszystkie diody są jednolitego koloru. Lego technics okazały się świetnym materiałem w którym można umieścić diody. Kartoniki się wyginały :) Jak widać projekt jest naprawdę łatwy. Nie jest idealny, ale bardziej jako fajna zajawka do upgradów. A jeśli ktoś tak jak ja użyje goldpinów  i wtyczek to spokojnie możne Arduino pro mini wyciągnąć jak będzie potrzebne do innego projektu.</p>
+<h3 id="code">Code</h3>
+<p>Kod programu jest ten sam co na <a href="http://www.instructables.com/id/ATtiny8545-POV-Display/?ALLSTEPS" target="_blank">instructables.com</a> z taką zmianą że teraz działa literka C. Zresztą całość poniżej.</p>
+<pre>int delayTime = 1;
+int charBreak = 2.1;
+
+int LED1 = 6;
+int LED2 = 5;
+int LED3 = 4;
+int LED4 = 3;
+int LED5 = 2;
+
+void setup()
+{
+pinMode(LED1, OUTPUT);
+pinMode(LED2, OUTPUT);
+pinMode(LED3, OUTPUT);
+pinMode(LED4, OUTPUT);
+pinMode(LED5, OUTPUT);
+}
+
+int a[] = {1, 6, 26, 6, 1};
+int b[] = {31, 21, 21, 10, 0};
+int c[] = {14, 17, 17, 10, 0};
+int d[] = {31, 17, 17, 14, 0};
+int e[] = {31, 21, 21, 17, 0};
+int f[] = {31, 20, 20, 16, 0};
+int g[] = {14, 17, 19, 10, 0};
+int h[] = {31, 4, 4, 4, 31};
+int i[] = {0, 17, 31, 17, 0};
+int j[] = {0, 17, 30, 16, 0};
+int k[] = {31, 4, 10, 17, 0};
+int l[] = {31, 1, 1, 1, 0};
+int m[] = {31, 12, 3, 12, 31};
+int n[] = {31, 12, 3, 31, 0};
+int o[] = {14, 17, 17, 14, 0};
+int p[] = {31, 20, 20, 8, 0};
+int q[] = {14, 17, 19, 14, 2};
+int r[] = {31, 20, 22, 9, 0};
+int s[] = {8, 21, 21, 2, 0};
+int t[] = {16, 16, 31, 16, 16};
+int u[] = {30, 1, 1, 30, 0};
+int v[] = {24, 6, 1, 6, 24};
+int w[] = {28, 3, 12, 3, 28};
+int x[] = {17, 10, 4, 10, 17};
+int y[] = {17, 10, 4, 8, 16};
+int z[] = {19, 21, 21, 25, 0};
+
+int eos[] = {0, 1, 0, 0, 0};
+int excl[] = {0, 29, 0, 0, 0};
+int ques[] = {8, 19, 20, 8, 0};
+
+void displayLine(int line)
+{
+int myline;
+myline = line;
+if (myline&gt;=16) {digitalWrite(LED1, HIGH); myline-=16;} else {digitalWrite(LED1, LOW);}
+if (myline&gt;=8) {digitalWrite(LED2, HIGH); myline-=8;} else {digitalWrite(LED2, LOW);}
+if (myline&gt;=4) {digitalWrite(LED3, HIGH); myline-=4;} else {digitalWrite(LED3, LOW);}
+if (myline&gt;=2) {digitalWrite(LED4, HIGH); myline-=2;} else {digitalWrite(LED4, LOW);}
+if (myline&gt;=1) {digitalWrite(LED5, HIGH); myline-=1;} else {digitalWrite(LED5, LOW);}
+}
+
+void displayChar(char c2)
+{
+if (c2 == 'a'){for (int i = 0; i &lt;5; i++){displayLine(a[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'b'){for (int i = 0; i &lt;5; i++){displayLine(b[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'c'){for (int i = 0; i &lt;5; i++){displayLine(c[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'd'){for (int i = 0; i &lt;5; i++){displayLine(d[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'e'){for (int i = 0; i &lt;5; i++){displayLine(e[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'f'){for (int i = 0; i &lt;5; i++){displayLine(f[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'g'){for (int i = 0; i &lt;5; i++){displayLine(g[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'h'){for (int i = 0; i &lt;5; i++){displayLine(h[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'i'){for (int it = 0; it &lt;5; it++){displayLine(i[it]);delay(delayTime);}displayLine(0);}
+if (c2 == 'j'){for (int i = 0; i &lt;5; i++){displayLine(j[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'k'){for (int i = 0; i &lt;5; i++){displayLine(k[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'l'){for (int i = 0; i &lt;5; i++){displayLine(l[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'm'){for (int i = 0; i &lt;5; i++){displayLine(m[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'n'){for (int i = 0; i &lt;5; i++){displayLine(n[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'o'){for (int i = 0; i &lt;5; i++){displayLine(o[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'p'){for (int i = 0; i &lt;5; i++){displayLine(p[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'q'){for (int i = 0; i &lt;5; i++){displayLine(q[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'r'){for (int i = 0; i &lt;5; i++){displayLine(r[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 's'){for (int i = 0; i &lt;5; i++){displayLine(s[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 't'){for (int i = 0; i &lt;5; i++){displayLine(t[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'u'){for (int i = 0; i &lt;5; i++){displayLine(u[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'v'){for (int i = 0; i &lt;5; i++){displayLine(v[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'w'){for (int i = 0; i &lt;5; i++){displayLine(w[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'x'){for (int i = 0; i &lt;5; i++){displayLine(x[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'y'){for (int i = 0; i &lt;5; i++){displayLine(y[i]);delay(delayTime);}displayLine(0);}
+if (c2 == 'z'){for (int i = 0; i &lt;5; i++){displayLine(z[i]);delay(delayTime);}displayLine(0);}
+if (c2 == '!'){for (int i = 0; i &lt;5; i++){displayLine(excl[i]);delay(delayTime);}displayLine(0);}
+if (c2 == '?'){for (int i = 0; i &lt;5; i++){displayLine(ques[i]);delay(delayTime);}displayLine(0);}
+if (c2 == '.'){for (int i = 0; i &lt;5; i++){displayLine(eos[i]);delay(delayTime);}displayLine(0);}
+delay(charBreak);
+}
+
+void displayString(char* s)
+{
+for (int i = 0; i&lt;=strlen(s); i++)
+{
+displayChar(s[i]);
+}
+}
+
+void loop()
+{
+displayString("techfreak.pl........");
+}
+
+</pre>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/arduino/">arduino</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Weekendowy%20projekt%20%e2%80%93%20POV%20na%20Arduino%20mini%20pro&url=https%3a%2f%2ftechfreak.pl%2fweekendowy-projekt-pov-arduino-mini-pro%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fweekendowy-projekt-pov-arduino-mini-pro%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

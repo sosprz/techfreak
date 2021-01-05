@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zimbra on techfreak blog</title>
+    <link>https://techfreak.pl/tags/zimbra/</link>
+    <description>Recent content in zimbra on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 03 Oct 2012 10:55:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/zimbra/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Instalacja certyfikatu thawte na serwerze poczty zimbra</title>
+      <link>https://techfreak.pl/instalacja-certyfikatu-thawte-na-serwerze-poczty-zimbra/</link>
+      <pubDate>Wed, 03 Oct 2012 10:55:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/instalacja-certyfikatu-thawte-na-serwerze-poczty-zimbra/</guid>
+      <description>&lt;h2 id=&#34;jak-zainstalować-certyfikat-na-zimbra-&#34;&gt;Jak zainstalować certyfikat na Zimbra ?&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

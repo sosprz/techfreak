@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jak skonfigurować VPN na MikroTik? &middot; My Name</title>
+        <meta name="description" content="Mały wstęp do systemu RouterOS, który jest tworzony przez firmę MikroTik, łotewskiego producenta sprzętu do zastosowań sieciowych i bezprzewodowych.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Jak skonfigurować VPN na MikroTik?">
+<meta property="og:description" content="Mały wstęp do systemu RouterOS, który jest tworzony przez firmę MikroTik, łotewskiego producenta sprzętu do zastosowań sieciowych i bezprzewodowych.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/jak-skonfigurowac-vpn-na-mikrotik/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Jak skonfigurować VPN na MikroTik?</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2018-05-12" itemprop="datePublished">Sat, May 12, 2018</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 7 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Mały wstęp do systemu RouterOS, który jest tworzony przez firmę MikroTik, łotewskiego producenta sprzętu do zastosowań sieciowych i bezprzewodowych.</p>
+<p>Kto nie słyszał o MikroTik? Wszyscy, którzy siedzieli choć trochę w sieciach na pewno mieli okazję chociaż poczytać o tym rozwiązaniu. Przede wszystkim to w miarę tani sprzęt i darmowy software który można w miarę łatwo skonfigurować w shellu lub poprzez aplikację WinBox. Ja osobiście wolę wykonywać konfiguracje poprzez linie komend bo są jasne i pozwalają na szybkie działanie. Do czego zmierzam? Dziś chciałbym pokazać pare komend w RouterOS przydatnych na początek a jako główny temat chciałbym pokazać jak można łatwo skonfigurować tunel VPN Site 2 Site. No ale dlaczego akurat RouterOS i Mikrotik? RouterOS jest też niezależnym od sprzętu MiktoTik systemem, który można postawić w chmurze czy na wirtualnej maszynie lub dedykowanej maszynie. Więc dobrze nadaje się jako firewall, router lub brama VPN. Wiadomo, że po drugiej stronie tunelu zawsze musi być jakieś inne rozwiązanie. Co to może być z czym to zadziała? Z każdym rozwiązaniem które obsługuje IPsec np. Cisco, Checkpoint, Pfsense, OpenSwan, LibreSwan, StrongSwan, Racoon, ShrewSoft, RouterOS :) Na blogu można znaleźć moje inne konfiguracje VPN.</p>
+<p>Mój scenariusz jest taki sam jak zawsze czyli mamy dwie sieci lokalne po dwóch różnych stronach, za dwoma różnymi bramami VPN, które musza się ze sobą skomunikować.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2018/05/routerOSv1.png"><img class="aligncenter size-full wp-image-14615" src="http://techfreak.pl/wp-content/uploads/2018/05/routerOSv1.png" alt="" width="814" height="185" srcset="http://techfreak.pl/wp-content/uploads/2018/05/routerOSv1.png 814w, http://techfreak.pl/wp-content/uploads/2018/05/routerOSv1-600x136.png 600w, http://techfreak.pl/wp-content/uploads/2018/05/routerOSv1-300x68.png 300w, http://techfreak.pl/wp-content/uploads/2018/05/routerOSv1-768x175.png 768w" sizes="(max-width: 814px) 100vw, 814px" /></a></p>
+<p>Poniżej pare podstawowych komend, które pomogą się w poruszaniu po RouterOS. Na całe szczęście można komendy wpisywać w całość nie trzeba obowiązkowo wchodzić do każdej sekcji po kolei. Działa też skracanie i dopisywanie komend jak np. w przełącznikach Cisco czy HP. Ważną sprawa jest to jak dodawać i jak usuwać i ustawiać wartości. Robi się to poprzez danie na końcu linii add, remove lub set. W przypadku chęci usunięcia jakiegoś wpisu wyświetl całą tablicę poprzez print, każdy wpis jest numerowany więc aby usunąć wpis na końcu sekcji wpisz np. ip firewall nat remove 1.</p>
+<h3 id="podstawowe-komendy-w-routeros">Podstawowe komendy w RouterOS</h3>
+<p>Reboot systemu:</p>
+<pre>system reboot</pre>
+<p>Wyświetlenie fizycznych interfejsów:</p>
+<pre>interface ethernet print</pre>
+<p>Wyświetlenie interfejsów:</p>
+<pre>interface print</pre>
+<p>Wyświetlenie rutingu:</p>
+<pre>ip route print</pre>
+<p>Wyświetlenie adresacji:</p>
+<pre>ip address print</pre>
+<p>Ustawienie serwera DNS:</p>
+<pre>ip dns set servers=8.8.8.8</pre>
+<p>Pingowanie adresu:</p>
+<pre>ping wp.pl
+ping 212.77.100.101</pre>
+<p>Pingowanie ze wskazaniem adresu żródłowego:</p>
+<pre>ping src-address=172.18.11.1 172.18.10.10</pre>
+<p>Ustawienie aliasu na interfejsie:</p>
+<pre>ip address add address=172.18.11.1/24 interface=ether1 network=172.18.11.0</pre>
+<p>Włączenie DHCP na interfejsie:</p>
+<pre>ip dhcp-client add interface=ether1 disabled=no</pre>
+<p>Wyświetlenie reguł firewalla:</p>
+<pre>ip firewall filter print</pre>
+<p>Wyświetlenie reguł NAT:</p>
+<pre>ip firewall nat print</pre>
+<p>Wyświetlenie ostatnich logów:</p>
+<pre>log print</pre>
+<p>Wyświetlenie całej wprowadzonej lub zmienionej konfiguracji</p>
+<pre>export</pre>
+<p>Zmiana hasła:</p>
+<pre>user set root password</pre>
+<p>Wyświetlenie kiedy były robione zmiany w systemie:</p>
+<pre>system history print</pre>
+<h3 id="konfiguracja-vpn">Konfiguracja VPN</h3>
+<p>Dodaje propozycje szyfrowania w fazie 2 Ipsec, które zawiera algorytm szyfrujący, haszujący, czas i wyłączony PFS.</p>
+<pre>ip ipsec proposal set default enc-algorithms=aes128-cbc auth-algorithms=sha1 lifetime=3600s pfs-group=none</pre>
+<p>Dodaje adres peera (faza pierwsza IKE) gdzie podaje hasło, algorytm szyfrujący, haszujący, czas i DH-group.</p>
+<pre>ip ipsec peer add address=1.1.1.1/32 auth-method=pre-shared-key secret="q1w2e3r4" generate-policy=no policy-template-group=default exchange-mode=main send-initial-contact=yes nat-traversal=yes proposal-check=obey hash-algorithm=sha1 enc-algorithm=aes128-cbc dh-group=modp1024 lifetime=1d</pre>
+<p>Dodaje politykę pomiędzy jakimi sieciami ma odbywać się szyfrowanie.</p>
+<pre>ip ipsec policy add src-address=172.18.11.0/24 src-port=any dst-address=172.18.10.0/24 action=encrypt tunnel=yes sa-src=2.2.2.2 sa-dst=1.1.1.1
+ip ipsec policy add src-address=172.18.10.0/24 src-port=any dst-address=172.18.11.0/24 action=encrypt tunnel=yes sa-src=1.1.1.1 sa-dst=2.2.2.2</pre>
+<p>Sprawdzam czy mam odpowiedz od zdalnego hosta.</p>
+<pre>ping src-address=172.18.11.1 172.18.10.10</pre>
+<p>Jak widać poniżej mam odpowiedź od hosta ze zdalnej sieci.</p>
+<pre>[root@MikroTik] &gt; ping src-address=172.18.11.1 172.18.10.10
+ SEQ HOST SIZE TTL TIME STATUS 
+ 0 172.18.10.10 56 63 107ms
+ 1 172.18.10.10 56 63 106ms
+ 2 172.18.10.10 56 63 105ms
+ 3 172.18.10.10 56 63 105ms
+ 4 172.18.10.10 56 63 106ms
+ sent=5 received=5 packet-loss=0% min-rtt=105ms avg-rtt=105ms max-rtt=107ms</pre>
+<h3 id="wyjście-na-świat-nat">Wyjście na świat, NAT</h3>
+<p>O ile powyższe zadanie dotyczyło tylko połączeń w tunelu dobrze aby ewentualni klienci mieli też wyjście do internetu. Trzeba ich ukryć za zewnętrznym adresem czyli zrobić maskaradę ale trzeba ustawić jeszcze jedna regułę akceptującą przed aby nie dopuścić do maskowania za zewnętrznym adresem IP.</p>
+<pre>ip firewall nat add chain=srcnat action=accept src-address=172.18.11.0/24 dst-address=172.18.10.0/24 place-before=0</pre>
+<p>Użyłem powyżej place-before=0 aby ustawić ten wpis na samej górze tablicy. Następnie poniżej dodaje maskowanie.</p>
+<pre>ip firewall nat add chain=srcnat out-interface=ether1 action=masquerade
+ping src-address=172.18.11.1 wp.pl</pre>
+<h5 id="dodatkowa-sieć-i-nat">Dodatkowa sieć  i NAT</h5>
+<p><a href="http://techfreak.pl/wp-content/uploads/2018/05/routerOSv2.png"><img class="aligncenter wp-image-14616" src="http://techfreak.pl/wp-content/uploads/2018/05/routerOSv2.png" alt="" width="575" height="176" srcset="http://techfreak.pl/wp-content/uploads/2018/05/routerOSv2.png 814w, http://techfreak.pl/wp-content/uploads/2018/05/routerOSv2-600x184.png 600w, http://techfreak.pl/wp-content/uploads/2018/05/routerOSv2-300x92.png 300w, http://techfreak.pl/wp-content/uploads/2018/05/routerOSv2-768x235.png 768w" sizes="(max-width: 575px) 100vw, 575px" /></a></p>
+<p>Jest też możliwy scenariusz, że za routerem 2.2.2.2 znajduje się nie tylko sieć 172.18.11.0/24 a też 172.18.12.0/24. Cały problem polega, że za routerem 1.1.1.1 też znajduje się sieć 172.18.12.0/24. Więc występuje tu przypadek pokrycia się sieci. Z pomocą przychodzi source NAT, który za routerem 2.2.2.2 ukryje siec 172.18.12.0/4 za adresem 172.18.11.1.</p>
+<pre>ip firewall nat add chain=srcnat action=src-nat src-address=172.18.12.0/24 dst-address=172.18.10.0/24 to-addresses=172.18.11.1</pre>
+<p>Cała tablica NAT wygląda jak poniżej</p>
+<pre>[root@MikroTik] &gt; ip firewall nat pr 
+Flags: X - disabled, I - invalid, D - dynamic 
+0 chain=srcnat action=src-nat to-addresses=172.18.11.1 src-address=172.18.12.0/24 dst-address=172.18.10.0/24
+
+1 chain=srcnat action=accept src-address=172.18.11.0/24 dst-address=172.18.10.0/24
+
+2 chain=srcnat action=masquerade out-interface=ether1</pre>
+<h3 id="wyświetlanie-reguł-firewalla">Wyświetlanie reguł firewalla</h3>
+<pre>ip firewall filter print
+ip firewall nat print
+ip firewall connection print</pre>
+<h3 id="diagnostyka-vpn">Diagnostyka VPN</h3>
+<pre>ip ipsec statistic print
+ip ipsec policy print
+ip ipsec proposal print
+ip ipsec remote-peers print
+ip ipsec installed-sa print
+</pre>
+<p>Przykładowy zrzut z powyższych komend:</p>
+<pre>[root@MikroTik] &gt; ip ipsec remote-peers print
+ Flags: R - responder, N - natt-peer
+ # ID STATE REMOTE-ADDRESS DYNAMIC-ADDRESS UPTIME
+ 0 established 185.244.97.27 4m15s</pre>
+<pre>[root@MikroTik] &gt; ip ipsec installed-sa print
+ Flags: H - hw-aead, A - AH, E - ESP
+ 0 E spi=0xD7AE27B src-address=1.1.1.1 dst-address=2.2.2.2 state=mature auth-algorithm=sha1 enc-algorithm=3des enc-key-size=192 auth-key="3e932bb2301c65ef74e5f9f5248f6db888f20ee4"
+ enc-key="a43512e18968f4a778c971df21b71772ea1b4dcacb014c64" addtime=may/11/2018 10:07:57 expires-in=56m45s add-lifetime=48m/1h current-bytes=1820 current-packets=25 replay=128
+
+1 E spi=0x7DAC2D01 src-address=2.2.2.2 dst-address=1.1.1.1 state=mature auth-algorithm=sha1 enc-algorithm=3des enc-key-size=192 auth-key="7de988e21495a2bd785825890c5157a677b495a2"
+ enc-key="8a3d3158f3d004ff67f30abcf75d893abc66882b456a8839" addtime=may/11/2018 10:07:57 expires-in=56m45s add-lifetime=48m/1h current-bytes=1820 current-packets=25 replay=128</pre>
+<p> </p>
+<h3 id="jak-zainstalować-routeros-w-chmurze">Jak zainstalować RouterOS w chmurze?</h3>
+<p>Ja na testy zainstalowałem RouterOS na Droplecie w <a href="https://www.digitalocean.com/?refcode=ae21189b009e">digitalocean</a>. Tani fajny hosting za 5$, mam swoim VPS 1G pamieci, 1 CPU i 25Gb dysku SDD. Niestety nie ma do wyboru instalacji RouterOS. Trzeba to zrobić samemu ale nie jest to proste ponieważ nie można tam samemu instalować systemów. Można za to wybrać automatyczną instalacje Ubuntu 16.4 64Bity i specjalnym skryptem zbudować sobie system już na tym istniejącym Ubuntu i nadpisać jego dysk. Sprytne. Źródło skryptu jest tu: <a href="https://gist.github.com/stroebs/54fc09734a3911e91eeeb43434f117df">https://gist.github.com/stroebs/54fc09734a3911e91eeeb43434f117df</a> a sam skrypt poniżej. Najlepiej jeszcze przejrzeć samemu skrypt aby podmienić potrzebne później danej jak hasło lub wersję RouterOS. Zauważyłem że w paru przypadkach na końcu można dostrzec błędy typu kernel panic ale nie ma co się obawiać po restarcie maszyny wirtualnej system wstaje poprawnie.</p>
+<pre>wget http://download2.mikrotik.com/routeros/6.40.5/chr-6.40.5.img.zip -O chr.img.zip && \
+gunzip -c chr.img.zip &gt; chr.img && \
+apt-get update && \
+apt install -y qemu-utils pv && \
+qemu-img convert chr.img -O qcow2 chr.qcow2 && \
+qemu-img resize chr.qcow2 `fdisk /dev/vda -l | head -n 1 | cut -d',' -f 2 | cut -d' ' -f 2` && \
+modprobe nbd && \
+qemu-nbd -c /dev/nbd0 chr.qcow2 && \
+echo "Give some time for qemu-nbd to be ready" && \
+sleep 2 && \
+partx -a /dev/nbd0 && \
+mount /dev/nbd0p2 /mnt && \
+ADDRESS=`ip addr show eth0 | grep global | cut -d' ' -f 6 | head -n 1` && \
+GATEWAY=`ip route list | grep default | cut -d' ' -f 3` && \
+echo "/ip address add address=$ADDRESS interface=[/interface ethernet find where name=ether1]
+/ip route add gateway=$GATEWAY
+/ip service disable telnet
+/user set 0 name=root password=xxxxxx
+" &gt; /mnt/rw/autorun.scr && \
+umount /mnt && \
+echo "Magic constant is 65537 (second partition address). You can check it with fdisk before appliyng this" && \
+echo "This scary sequence removes seconds partition on nbd0 and creates new, but bigger one" && \
+echo -e 'd\n2\nn\np\n2\n65537\n\nw\n' | fdisk /dev/nbd0 && \
+e2fsck -f -y /dev/nbd0p2 || true && \
+resize2fs /dev/nbd0p2 && \
+sleep 1 && \
+echo "Compressing to gzip, this can take several minutes" && \
+mount -t tmpfs tmpfs /mnt && \
+pv /dev/nbd0 | gzip &gt; /mnt/chr-extended.gz && \
+sleep 1 && \
+killall qemu-nbd && \
+sleep 1 && \
+echo u &gt; /proc/sysrq-trigger && \
+echo "Warming up sleep" && \
+sleep 1 && \
+echo "Writing raw image, this will take time" && \
+zcat /mnt/chr-extended.gz | pv &gt; /dev/vda && \
+echo "Sleep 5 seconds (if lucky)" && \
+sleep 5 || true && \
+echo "sync disk" && \
+echo s &gt; /proc/sysrq-trigger && \
+echo "Ok, reboot" && \
+echo b &gt; /proc/sysrq-trigger
+</pre>
+<h3 id="podsumowanie">Podsumowanie</h3>
+<p>Uważam RouterOS za całkiem fajny system w którym dosyć łatwo można skonfigurować różne scenariusze. I bardzo szybko można go postawić na każdej platformie nie zależnie czy to maszyna fizyczna czy VPS.</p>
+<p>Dawajcie znać czy przydały wam się powyższe informacje lub czy macie jakieś inne problemy z RouterOS.</p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/checkpoint/">checkpoint</a>, 
+                <a href="/tags/cisco/">Cisco</a>, 
+                <a href="/tags/mikrotik/">mikrotik</a>, 
+                <a href="/tags/vpn/">vpn</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Jak%20skonfigurowa%c4%87%20VPN%20na%20MikroTik%3f&url=https%3a%2f%2ftechfreak.pl%2fjak-skonfigurowac-vpn-na-mikrotik%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fjak-skonfigurowac-vpn-na-mikrotik%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

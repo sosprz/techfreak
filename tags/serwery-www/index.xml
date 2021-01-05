@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>serwery www on techfreak blog</title>
+    <link>https://techfreak.pl/tags/serwery-www/</link>
+    <description>Recent content in serwery www on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 01 Dec 2012 23:27:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/serwery-www/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Przydatne polecenia dla Apache2</title>
+      <link>https://techfreak.pl/przydatne-polecenia-dla-apache2/</link>
+      <pubDate>Sat, 01 Dec 2012 23:27:37 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/przydatne-polecenia-dla-apache2/</guid>
+      <description>&lt;p&gt;Spis przydatnych poleceń dla serwera www Apache2&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak ustawić dostęp do strony www na podstawie certyfikatu ?</title>
+      <link>https://techfreak.pl/jak-ustawic-dostep-do-strony-www-na-podstawie-certyfikatu/</link>
+      <pubDate>Mon, 08 Oct 2012 07:02:57 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-ustawic-dostep-do-strony-www-na-podstawie-certyfikatu/</guid>
+      <description>&lt;p&gt;Jak ustawić dostęp do strony www na podstawie certyfikatu ? (działa z Androidem)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Netcat – przydatne zadania</title>
+      <link>https://techfreak.pl/netcat-przydatne-zadania/</link>
+      <pubDate>Wed, 03 Oct 2012 17:36:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/netcat-przydatne-zadania/</guid>
+      <description>&lt;h2 id=&#34;netcat-8211-lista-przydatnych-zadań&#34;&gt;Netcat – lista przydatnych zadań&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>statystyki wejść na stronę www przy pomocy awstats</title>
+      <link>https://techfreak.pl/statystyki-wejsc-na-strone-www-przy-pomocy-awstats/</link>
+      <pubDate>Tue, 10 Jan 2012 10:10:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/statystyki-wejsc-na-strone-www-przy-pomocy-awstats/</guid>
+      <description>&lt;h2 id=&#34;jak-włączyć-statystyki-wejść-na-stronę-awstats-&#34;&gt;Jak włączyć statystyki wejść na stronę AWstats ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>hasło na stronę www przy pomocy htaccess</title>
+      <link>https://techfreak.pl/haslo-na-strone-www-przy-pomocy-htaccess/</link>
+      <pubDate>Tue, 10 Jan 2012 07:47:27 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/haslo-na-strone-www-przy-pomocy-htaccess/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

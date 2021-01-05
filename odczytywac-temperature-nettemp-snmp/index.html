@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jak odczytywać temperaturę z nettemp po SNMP? &middot; My Name</title>
+        <meta name="description" content="Tym razem trochę o odczytywaniu temperatury po SNMP z nettempa. Po ogłoszeniu nowej wersji Raspberry Pi A&#43; przyszło mi do głowy że jeśli nettemp może czytać temperatury po SNMP z serwerów czy innych urządzeń które udostępniają taką informację. To dlaczego nie może z samego siebie. Dokładnie chodzi mi taki scenariusz, że jedna instalacja nettemp’a zbiera wszystkie dane po SNMP z paru klientów zdalnych które maja zainstalowanego nettempa na Raspberry Pi A&#43;. Sprawa w sumie prosta do zrealizowania bo trzeba tylko postawić serwer SNMP. I właśnie pokaże Ci poniżej jak to zrobić na nettemp.
+EDIT: Opcja została dodana do nettemp, w sekcji settings.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Jak odczytywać temperaturę z nettemp po SNMP?">
+<meta property="og:description" content="Tym razem trochę o odczytywaniu temperatury po SNMP z nettempa. Po ogłoszeniu nowej wersji Raspberry Pi A&#43; przyszło mi do głowy że jeśli nettemp może czytać temperatury po SNMP z serwerów czy innych urządzeń które udostępniają taką informację. To dlaczego nie może z samego siebie. Dokładnie chodzi mi taki scenariusz, że jedna instalacja nettemp’a zbiera wszystkie dane po SNMP z paru klientów zdalnych które maja zainstalowanego nettempa na Raspberry Pi A&#43;. Sprawa w sumie prosta do zrealizowania bo trzeba tylko postawić serwer SNMP. I właśnie pokaże Ci poniżej jak to zrobić na nettemp.
+EDIT: Opcja została dodana do nettemp, w sekcji settings.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/odczytywac-temperature-nettemp-snmp/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Jak odczytywać temperaturę z nettemp po SNMP?</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2014-11-14" itemprop="datePublished">Fri, Nov 14, 2014</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 4 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Tym razem trochę o odczytywaniu temperatury po SNMP z nettempa. Po ogłoszeniu nowej wersji Raspberry Pi A+ przyszło mi do głowy że jeśli nettemp może czytać temperatury po SNMP z serwerów czy innych urządzeń które udostępniają taką informację. To dlaczego nie może z samego siebie. Dokładnie chodzi mi taki scenariusz, że jedna instalacja nettemp’a zbiera wszystkie dane po SNMP z paru klientów zdalnych które maja zainstalowanego nettempa na Raspberry Pi A+. Sprawa w sumie prosta do zrealizowania bo trzeba tylko postawić serwer SNMP. I właśnie pokaże Ci poniżej jak to zrobić na nettemp.<br>
+EDIT: Opcja została dodana do nettemp, w sekcji settings.</p>
+<p>Na początek trzeba zainstalować serwer SNMPd.</p>
+<pre>apt-get install snmpd</pre>
+<p>Na początek ustawiamy na jakich interfejsach ma słuchać demon snmpd. Szukam linii i haszuje:</p>
+<pre>#  Listen for connections from the local system only
+agentAddress  udp:127.0.0.1:161
+
+na
+#  Listen for connections from the local system only
+#agentAddress  udp:127.0.0.1:161
+</pre>
+<p>Następnie w <strong>/etc/snmp/snmpd.conf haszujemy</strong> linie:</p>
+<pre>#view systemonly included .1.3.6.1.2.1.1
+#view systemonly included .1.3.6.1.2.1.25.1</pre>
+<pre>#rocommunity public default -V systemonly</pre>
+<p>i dodajemy:</p>
+<pre>view  nettemp included .1.3.6.1.3</pre>
+<pre>rocommunity public default -V nettemp</pre>
+<p>Czyli stworzyłem jedyny dostępny widok po SNMP. Bo po co więcej :)</p>
+<p>Ale to nie wszystko, każdy nettemp od ostatniej wersji tworzy plik /var/www/nettemp/tmp/results<br>
+gdzie można zobaczyć taki ciąg znaków jak poniżej</p>
+<pre>36.9:6.0:23.8:25.2:23.6:40.0:36.9</pre>
+<p>Jest to zrzut temperatur z czujników oddzielony dwukropkiem na potrzeby własnie odczytów po SNMP.</p>
+<p>Serwer SNMP musi jakoś udostępniać te wyniki ale jako jedna wartość dla jednego czujnika.</p>
+<p>Ja sobie wymyśliłem to tak że zrobię odczyty poszczególnych czujników przy pomocy parsowania pliku results poprzez AWK. Na samym końcu pliku <strong>snmpd.conf</strong> dodaje 8 linii, dzięki którym odczytam temperatury z ośmiu pierwszych czujników. Można dodać więcej jeśli potrzeba.</p>
+<pre>extend .1.3.6.1.3.1 /bin/bash "/usr/bin/awk -F: '{print $1}' /var/www/nettemp/tmp/results"
+extend .1.3.6.1.3.2 /bin/bash "/usr/bin/awk -F: '{print $2}' /var/www/nettemp/tmp/results"
+extend .1.3.6.1.3.3 /bin/bash "/usr/bin/awk -F: '{print $3}' /var/www/nettemp/tmp/results"
+extend .1.3.6.1.3.4 /bin/bash "/usr/bin/awk -F: '{print $4}' /var/www/nettemp/tmp/results"
+extend .1.3.6.1.3.5 /bin/bash "/usr/bin/awk -F: '{print $5}' /var/www/nettemp/tmp/results"
+extend .1.3.6.1.3.6 /bin/bash "/usr/bin/awk -F: '{print $6}' /var/www/nettemp/tmp/results"
+extend .1.3.6.1.3.7 /bin/bash "/usr/bin/awk -F: '{print $7}' /var/www/nettemp/tmp/results"
+extend .1.3.6.1.3.8 /bin/bash "/usr/bin/awk -F: '{print $8}' /var/www/nettemp/tmp/results"</pre>
+<p>Każda linia jest odpowiedzialna za odczytanie kolejnej wartości z pliku results, czyli wartości temperatur które były tam wcześniej wpisane.</p>
+<p>To tyle z konfiguracji serwera SNMP. Aby zamiany zadziałały trzeba go zrestartować.</p>
+<pre>/etc/init.d/snmpd restart</pre>
+<p>Może być to jeszcze nie jasne ale już pokazuje o co chodzi i jak to czytać. SNMP ma dwa narzędzia snmpwalk i snmpget. Aby sprawdzić czy serwer w ogóle odpowiada trzeba wydać polecenie snmpwalk które wyświetli dostępne OID czyli w tym przypadku numerki zaczynające się od  .1.3.6.1.3.8 które są adresami pod które trzeba będzie się kierować jeśli będę chciał odczytać wartości kryjące się pod nimi.</p>
+<pre>snmpwalk -v 2c -c public 172.18.10.9 1</pre>
+<p>snmpwalk wylistuje osiem razy poniższe linie</p>
+<pre>iso.3.6.1.3.1.1.0 = INTEGER: 1
+iso.3.6.1.3.1.2.1.2.9.47.98.105.110.47.98.97.115.104 = STRING: "/usr/bin/awk -F: '{print $1}' /var/www/nettemp/tmp/results"
+iso.3.6.1.3.1.2.1.3.9.47.98.105.110.47.98.97.115.104 = ""
+iso.3.6.1.3.1.2.1.4.9.47.98.105.110.47.98.97.115.104 = ""
+iso.3.6.1.3.1.2.1.5.9.47.98.105.110.47.98.97.115.104 = INTEGER: 5
+iso.3.6.1.3.1.2.1.6.9.47.98.105.110.47.98.97.115.104 = INTEGER: 1
+iso.3.6.1.3.1.2.1.7.9.47.98.105.110.47.98.97.115.104 = INTEGER: 1
+iso.3.6.1.3.1.2.1.20.9.47.98.105.110.47.98.97.115.104 = INTEGER: 4
+iso.3.6.1.3.1.2.1.21.9.47.98.105.110.47.98.97.115.104 = INTEGER: 1
+iso.3.6.1.3.1.3.1.1.9.47.98.105.110.47.98.97.115.104 = STRING: "36.9"
+iso.3.6.1.3.1.3.1.2.9.47.98.105.110.47.98.97.115.104 = STRING: "36.9"
+iso.3.6.1.3.1.3.1.3.9.47.98.105.110.47.98.97.115.104 = INTEGER: 1
+iso.3.6.1.3.1.3.1.4.9.47.98.105.110.47.98.97.115.104 = INTEGER: 0
+iso.3.6.1.3.1.4.1.2.9.47.98.105.110.47.98.97.115.104.1 = STRING: "36.9"
+iso.3.6.1.3.2.1.0 = INTEGER: 1
+iso.3.6.1.3.2.2.1.2.9.47.98.105.110.47.98.97.115.104 = STRING: "/usr/bin/awk -F: '{print $2}' /var/www/nettemp/tmp/results"</pre>
+<p>Można zobaczyć tu takie info jak, jaki skrypt się wykonał lub odczyt z pierwszego czujnika temperatury o wartości 36.9 pod numerem OID iso.3.6.1.3.1.4.1.2.9.47.98.105.110.47.98.97.115.104.1.</p>
+<p>Dobra ale chcemy uzyskać jedną zmienną a nie klika lini. Z pomocą przychodzi snmpget</p>
+<pre>snmpget -v1 -c public 172.18.10.9 iso.3.6.1.3.1.4.1.2.9.47.98.105.110.47.98.97.115.104.1 -O v</pre>
+<p>wynik to:</p>
+<pre>STRING: "36.9"</pre>
+<p>Taką zmienną jest już łatwo obrabiać. Ale jeśli używamy nettempa do odczytu to wystarczy przejść do zakładki Devices &gt; SNMP i dodać nazwę, community, IP, OID i dzielnik który może być potrzebny jeśli dane są udostępniane jako np. 369. Wtedy trzeba wpisać 10 aby uzyskać wynik 36.9.</p>
+<h3 id="snmp-w-nettemp">SNMP w nettemp</h3>
+<h3 id="a-hrefhttptechfreakplodczytywac-temperature-nettemp-snmptechfreak_nettemp_snmp_1_1-relattachment-wp-att-8132img-classaligncenter-size-full-wp-image-8132-srchttptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_1_1jpg-alttechfreak_nettemp_snmp_1_1-width1026-height372-srcsethttptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_1_1jpg-1026w-httptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_1_1-551x200jpg-551w-httptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_1_1-300x108jpg-300w-httptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_1_1-1024x371jpg-1024w-httptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_1_1-624x226jpg-624w-sizesmax-width-1026px-100vw-1026px-a-a-hrefhttptechfreakplodczytywac-temperature-nettemp-snmptechfreak_nettemp_snmp_2_1-relattachment-wp-att-8133img-classaligncenter-size-full-wp-image-8133-srchttptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_2_1jpg-alttechfreak_nettemp_snmp_2_1-width1026-height328-srcsethttptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_2_1jpg-1026w-httptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_2_1-600x191jpg-600w-httptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_2_1-300x95jpg-300w-httptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_2_1-1024x327jpg-1024w-httptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_2_1-624x199jpg-624w-sizesmax-width-1026px-100vw-1026px-a-a-hrefhttptechfreakplodczytywac-temperature-nettemp-snmptechfreak_nettemp_snmp_3_1-relattachment-wp-att-8134img-classaligncenter-size-full-wp-image-8134-srchttptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_3_1jpg-alttechfreak_nettemp_snmp_3_1-width1026-height663-srcsethttptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_3_1jpg-1026w-httptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_3_1-309x200jpg-309w-httptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_3_1-300x193jpg-300w-httptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_3_1-1024x661jpg-1024w-httptechfreakplwp-contentuploads201411techfreak_nettemp_snmp_3_1-624x403jpg-624w-sizesmax-width-1026px-100vw-1026px-a"><a href="http://techfreak.pl/odczytywac-temperature-nettemp-snmp/techfreak_nettemp_snmp_1_1/" rel="attachment wp-att-8132"><img class="aligncenter size-full wp-image-8132" src="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_1_1.jpg" alt="techfreak_nettemp_snmp_1_1" width="1026" height="372" srcset="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_1_1.jpg 1026w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_1_1-551x200.jpg 551w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_1_1-300x108.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_1_1-1024x371.jpg 1024w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_1_1-624x226.jpg 624w" sizes="(max-width: 1026px) 100vw, 1026px" /></a> <a href="http://techfreak.pl/odczytywac-temperature-nettemp-snmp/techfreak_nettemp_snmp_2_1/" rel="attachment wp-att-8133"><img class="aligncenter size-full wp-image-8133" src="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_2_1.jpg" alt="techfreak_nettemp_snmp_2_1" width="1026" height="328" srcset="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_2_1.jpg 1026w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_2_1-600x191.jpg 600w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_2_1-300x95.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_2_1-1024x327.jpg 1024w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_2_1-624x199.jpg 624w" sizes="(max-width: 1026px) 100vw, 1026px" /></a> <a href="http://techfreak.pl/odczytywac-temperature-nettemp-snmp/techfreak_nettemp_snmp_3_1/" rel="attachment wp-att-8134"><img class="aligncenter size-full wp-image-8134" src="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_3_1.jpg" alt="techfreak_nettemp_snmp_3_1" width="1026" height="663" srcset="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_3_1.jpg 1026w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_3_1-309x200.jpg 309w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_3_1-300x193.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_3_1-1024x661.jpg 1024w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_nettemp_snmp_3_1-624x403.jpg 624w" sizes="(max-width: 1026px) 100vw, 1026px" /></a></h3>
+<p>Pewnie w najbliższych wersjach nettemp serwer snmpd będzie do skonfigurowania bezpośrednio z GUI. Jak by co czekam na pytania :)</p>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/nettemp/">nettemp</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Jak%20odczytywa%c4%87%20temperatur%c4%99%20z%20nettemp%20po%20SNMP%3f&url=https%3a%2f%2ftechfreak.pl%2fodczytywac-temperature-nettemp-snmp%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fodczytywac-temperature-nettemp-snmp%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

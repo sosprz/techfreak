@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Retropie i TFT LCD 2.8. 320×240 &middot; My Name</title>
+        <meta name="description" content="Duke Nukem 3D to chyba pierwsza gra w jaką grałem na PC. Pamiętam całą bandą przyłaziliśmy pograć do koleżanki, bo jako jedyna na osiedlu miała jakiegoś lepszego kompa (P1 133Mhz??). I tak to jest, że staruszki lubią sobie powspominać o starych czasach. Takie przemyślenia też pewnie miał twórca projektu Retropie który ma na celu zamienić Raspberry Pi w małą konsolkę na której można pograć w stare gry jak Quake, Doom, Mario, Tanks, Galaga. Generalnie Retropie skupia w sobie emulatory gier Amiga, Atari, PSX1, Game Boy, NES, SNES, PC. Po prostu całkiem niezła gratka dla fanów starych gier.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Retropie i TFT LCD 2.8. 320×240">
+<meta property="og:description" content="Duke Nukem 3D to chyba pierwsza gra w jaką grałem na PC. Pamiętam całą bandą przyłaziliśmy pograć do koleżanki, bo jako jedyna na osiedlu miała jakiegoś lepszego kompa (P1 133Mhz??). I tak to jest, że staruszki lubią sobie powspominać o starych czasach. Takie przemyślenia też pewnie miał twórca projektu Retropie który ma na celu zamienić Raspberry Pi w małą konsolkę na której można pograć w stare gry jak Quake, Doom, Mario, Tanks, Galaga. Generalnie Retropie skupia w sobie emulatory gier Amiga, Atari, PSX1, Game Boy, NES, SNES, PC. Po prostu całkiem niezła gratka dla fanów starych gier.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/retropie-i-tft-lcd-2-8-320x240/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Retropie i TFT LCD 2.8. 320×240</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2015-06-08" itemprop="datePublished">Mon, Jun 8, 2015</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 3 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Duke Nukem 3D to chyba pierwsza gra w jaką grałem na PC. Pamiętam całą bandą przyłaziliśmy pograć do koleżanki, bo jako jedyna na osiedlu miała jakiegoś lepszego kompa (P1 133Mhz??). I tak to jest, że staruszki lubią sobie powspominać o starych czasach. Takie przemyślenia też pewnie miał twórca projektu Retropie który ma na celu zamienić Raspberry Pi w małą konsolkę na której można pograć w stare gry jak Quake, Doom, Mario, Tanks, Galaga. Generalnie Retropie skupia w sobie emulatory gier Amiga, Atari, PSX1, Game Boy, NES, SNES, PC. Po prostu całkiem niezła gratka dla fanów starych gier.</p>
+<p>Mnie też ostatnio wzięło na pogranie w coś i właśnie pomyślałem, żeby uruchomić Retropie na swoim Raspberry Pi. Jak wiecie często</p>
+<p><a href="http://techfreak.pl/drukarka-3d-w-markecie/">robię zakupy w oszołomie</a> to wybrałem się po pady. Ku mojemu zaskoczeniu kupiłem dwa całkiem fajne pady na USB – 13zł za sztukę. Wgrałem <a href="http://blog.petrockblock.com/retropie/retropie-downloads/">obraz ze strony na</a> kartę i uruchomiłem. Obawiałem się, że będzie jazda z padami, konfiguracja itd. Przy starcie retropie powiadomiło mnie, że wykryło pady i poprosiło o konfiguracje guzików. Wszystko działa od reki a instalowałem wersje testową. Od razu można pykać w Dooma :)</p>
+<p>W między czasie dostałem <a href="https://kamami.pl/komputery-raspberry-pi-2/390918-raspberry-pi-2-rpi2-model-b-1gb.html?search_query=raspberry+pi&amp;results=200">Raspberry Pi2</a> i <a href="https://kamami.pl/wyswietlacze-do-raspberry-pi/210936-pitft-mini-kit---320x240-28-tfttouchscreen-for-raspberry-pi.html">TFT LCD</a> od <a href="http://kamami.pl">kamami.pl</a> na wieczne testy :) Więc postanowiłem uruchomić retropie tak aby działał z LCD. Miałem zajawkę aby stworzyć gameboya jak <a href="https://learn.adafruit.com/pigrrl-raspberry-pi-gameboy/overview">adafruit</a> ale co będę po kobietach zgapiał. Trochę mi to zajęło, konfiguracje w device tree, frejmbuferry, moduły. Testy na czystym raspibiane, na retropie, na wersji od adafruit. W końcu doszedłem do najczystszego rozwiązania, które poniżej opisze. Czyli jak uruchomić LCD TFT na Retropie.</p>
+<h4 id="lcd-tft">LCD TFT</h4>
+<p>Na początek trzeba <a href="http://blog.petrockblock.com/retropie/retropie-downloads/retropie-project-sd-card-image-for-raspberry-pi-2-version-3-0-beta-2/">pobrać obraz</a> retropie i wgrać go na kartę sd.</p>
+<pre>dd bs=4M if=retropie-v3.0beta2-rpi2.img | pv | dd of=/dev/mmcblk0</pre>
+<p>Po pierwszym uruchomieniu trzeba koniecznie poszerzyć partycję uruchamiając raspi-conf</p>
+<pre>raspi-conf</pre>
+<p>Następnie trzeba zaktualizować system</p>
+<pre>sudo apt-get update && apt-get upgrade</pre>
+<p>Od jakiegoś czasu <a href="https://github.com/notro/fbtft/wiki/Development">bftft</a> jest w kernelu więc nie trzeba nic instalować dodatkowego a dodać do /boot/config.txt poniższe linie.</p>
+<pre>hdmi_force_hotplug=1
+hdmi_cvt=320 240 60 1 0 0 0
+hdmi_group=2
+hdmi_mode=87
+
+dtoverlay=pitft28-resistive,speed=32000000,rotate=270,fps=30</pre>
+<p>Linie zaczynające się od HDMI wymuszają konfiguracje portu hdmi a linia dtoverlay.. uruchamia TFT LCD z parametrami. Można tu zmienić fps, rotacje. Cały trik będzie polegał na uruchomieniu programy fbcp który kopiuje obraz z hdmi do TFT. Dlatego zmieniłem rozdzielczość hdmi na 320×240. Jeśli wyświetlacz zmienił kolor z białego na czarny po uruchomieniu to znaczy, że wszystko jest ok.</p>
+<h4 id="instalacja-fbcp">Instalacja fbcp</h4>
+<pre>cd /tmp
+ sudo apt-get install -y cmake
+ git clone --depth=1 https://github.com/tasanakorn/rpi-fbcp
+ mkdir -p rpi-fbcp/build
+ cd rpi-fbcp/build
+ cmake ..
+ make
+ sudo install fbcp /usr/local/bin/fbcp
+ cd ../..
+ rm -r rpi-fbcp</pre>
+<p>Dodaj w /etc/rc.local przed exit 0 aby fbcp startował automatycznie z systemem.</p>
+<pre>/usr/local/bin/fbcp &</pre>
+<h4 id="wifi"> Wifi</h4>
+<p>Ja aby uwolnić się od kabli mam mały modulik wifi TP-Link’a na USB.  Aby skonfigurować sieć WifF jako klienta dodaj w /etc/wpa_supplicant/wpa_supplicant.conf</p>
+<pre>network={
+ssid="twojasiecwifi"
+psk="tajnehaslotajnehaslo"
+key_mgmt=WPA-PSK
+}</pre>
+<p>a w pliku /etc/network/interfaces zmień</p>
+<pre>iface wlan0 inet static</pre>
+<p>na</p>
+<pre>iface wlan0 inet dhcp</pre>
+<p>i</p>
+<pre>wpa-run /etc/wpa_supplicant/wpa_supplicant.conf</pre>
+<p>na</p>
+<pre>wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf</pre>
+<h3 id="fotkiii">Fotkiii</h3>
+<p>Powiesiłem Raspberry Pi nad biurkiem, w czasie przerwy nad składaniem <a href="http://techfreak.pl/diatone-37-nowa-rama-dla-quadcoptera/">quada</a> lub <a href="http://nettemp.pl">nettempem</a> mogę sobie pyknąć w jakąś gierkę na padzie. Praca z <a href="http://techfreak.pl/raspberry-pi-2-specyfikacja/" target="_blank" rel="noopener">Raspberry Pi2</a> to naprawdę przyjemność. Jest szybsze i naprawdę przyjemnie się na nim instaluje pakiety ale wrażeniami podzielę się w osobnym wpisie. A zapomniałbym – minus używania TFT przez fbcp to lekkie regularne lagi. Czyli to nie minus po prostu gra się jak kiedyś :D</p>
+<p><a href="http://techfreak.pl/retropie-i-tft-lcd-2-8-320x240/1_techfreak_retropie_tft_2-8_320x240_raspberrypi2_/" rel="attachment wp-att-9674"><img class="aligncenter size-full wp-image-9674" src="http://techfreak.pl/wp-content/uploads/2015/06/1_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg" alt="1_techfreak_retropie_tft_2.8_320x240_raspberryPI2_" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2015/06/1_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/06/1_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2015/06/1_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/06/1_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/06/1_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/retropie-i-tft-lcd-2-8-320x240/2_techfreak_retropie_tft_2-8_320x240_raspberrypi2_/" rel="attachment wp-att-9675"><img class="aligncenter size-full wp-image-9675" src="http://techfreak.pl/wp-content/uploads/2015/06/2_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg" alt="2_techfreak_retropie_tft_2.8_320x240_raspberryPI2_" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2015/06/2_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/06/2_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2015/06/2_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/06/2_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/06/2_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/retropie-i-tft-lcd-2-8-320x240/3_techfreak_retropie_tft_2-8_320x240_raspberrypi2_/" rel="attachment wp-att-9676"><img class="aligncenter size-full wp-image-9676" src="http://techfreak.pl/wp-content/uploads/2015/06/3_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg" alt="3_techfreak_retropie_tft_2.8_320x240_raspberryPI2_" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2015/06/3_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/06/3_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2015/06/3_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/06/3_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/06/3_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/retropie-i-tft-lcd-2-8-320x240/4_techfreak_retropie_tft_2-8_320x240_raspberrypi2_/" rel="attachment wp-att-9677"><img class="aligncenter size-full wp-image-9677" src="http://techfreak.pl/wp-content/uploads/2015/06/4_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg" alt="4_techfreak_retropie_tft_2.8_320x240_raspberryPI2_" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2015/06/4_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/06/4_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2015/06/4_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/06/4_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/06/4_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/retropie-i-tft-lcd-2-8-320x240/5_techfreak_retropie_tft_2-8_320x240_raspberrypi2_/" rel="attachment wp-att-9678"><img class="aligncenter size-full wp-image-9678" src="http://techfreak.pl/wp-content/uploads/2015/06/5_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg" alt="5_techfreak_retropie_tft_2.8_320x240_raspberryPI2_" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2015/06/5_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/06/5_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2015/06/5_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/06/5_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/06/5_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/retropie-i-tft-lcd-2-8-320x240/6_techfreak_retropie_tft_2-8_320x240_raspberrypi2_/" rel="attachment wp-att-9679"><img class="aligncenter size-full wp-image-9679" src="http://techfreak.pl/wp-content/uploads/2015/06/6_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg" alt="6_techfreak_retropie_tft_2.8_320x240_raspberryPI2_" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2015/06/6_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/06/6_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2015/06/6_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/06/6_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/06/6_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/retropie-i-tft-lcd-2-8-320x240/7_techfreak_retropie_tft_2-8_320x240_raspberrypi2_/" rel="attachment wp-att-9680"><img class="aligncenter size-full wp-image-9680" src="http://techfreak.pl/wp-content/uploads/2015/06/7_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg" alt="7_techfreak_retropie_tft_2.8_320x240_raspberryPI2_" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2015/06/7_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/06/7_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2015/06/7_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/06/7_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/06/7_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/retropie-i-tft-lcd-2-8-320x240/8_techfreak_retropie_tft_2-8_320x240_raspberrypi2_/" rel="attachment wp-att-9681"><img class="aligncenter size-full wp-image-9681" src="http://techfreak.pl/wp-content/uploads/2015/06/8_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg" alt="8_techfreak_retropie_tft_2.8_320x240_raspberryPI2_" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2015/06/8_techfreak_retropie_tft_2.8_320x240_raspberryPI2_.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/06/8_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2015/06/8_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/06/8_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/06/8_techfreak_retropie_tft_2.8_320x240_raspberryPI2_-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/raspberry-pi/">Raspberry pi</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Retropie%20i%20TFT%20LCD%202.8.%20320%c3%97240&url=https%3a%2f%2ftechfreak.pl%2fretropie-i-tft-lcd-2-8-320x240%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fretropie-i-tft-lcd-2-8-320x240%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

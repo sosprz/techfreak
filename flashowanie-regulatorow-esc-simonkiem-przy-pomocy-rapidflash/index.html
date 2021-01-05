@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Flashowanie regulatorów (ESC) SimonKiem przy pomocy rapidflash &middot; My Name</title>
+        <meta name="description" content="Ostatnio pisałem o flashowaniu regulatorów wsadem od BLheli przy pomocy BLheli Suite a teraz napisze jak wgrywać bardzo znany „konkurencyjny” SimonK.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Flashowanie regulatorów (ESC) SimonKiem przy pomocy rapidflash">
+<meta property="og:description" content="Ostatnio pisałem o flashowaniu regulatorów wsadem od BLheli przy pomocy BLheli Suite a teraz napisze jak wgrywać bardzo znany „konkurencyjny” SimonK.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/flashowanie-regulatorow-esc-simonkiem-przy-pomocy-rapidflash/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Flashowanie regulatorów (ESC) SimonKiem przy pomocy rapidflash</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2015-05-24" itemprop="datePublished">Sun, May 24, 2015</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 1 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Ostatnio pisałem o <a href="http://techfreak.pl/esc-dys-sn20a-blheli-arduino-uno-flash/" target="_blank" rel="noopener">flashowaniu regulatorów wsadem od BLheli przy pomocy BLheli Suite</a> a teraz napisze jak wgrywać bardzo znany „konkurencyjny” SimonK.</p>
+<p>Na pewno znasz oprogramowanie cleanflight, baseflight do kontrolerów lotu Naze32 lub flip32, które są wtyczkami do przeglądarki chrome i są naprawdę świetne. Obsługa i konfiguracja koptera przy pomocy tych programów jest na prawdę prosta i przyjemna. RapidFlash to kolejna wtyczka która ułatwi to co może sprawiać problem, czyli wgrywanie firmwaru do regulatorów. Jest ona dedykowana tylko dla oprogramowania SimonK.</p>
+<p><a href="http://techfreak.pl/flashowanie-regulatorow-esc-simonkiem-przy-pomocy-rapidflash/simonk_rapidflash_esc_flash/" rel="attachment wp-att-9563"><img class="aligncenter size-full wp-image-9563" src="http://techfreak.pl/wp-content/uploads/2015/05/simonk_rapidflash_esc_flash.jpg" alt="simonk_rapidflash_esc_flash" width="1363" height="738" srcset="http://techfreak.pl/wp-content/uploads/2015/05/simonk_rapidflash_esc_flash.jpg 1363w, http://techfreak.pl/wp-content/uploads/2015/05/simonk_rapidflash_esc_flash-369x200.jpg 369w, http://techfreak.pl/wp-content/uploads/2015/05/simonk_rapidflash_esc_flash-300x162.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/05/simonk_rapidflash_esc_flash-1024x554.jpg 1024w, http://techfreak.pl/wp-content/uploads/2015/05/simonk_rapidflash_esc_flash-624x338.jpg 624w" sizes="(max-width: 1363px) 100vw, 1363px" /></a></p>
+<p>Większość regulatorów przychodzących z SimonK ma już wgrany bootloader który umożliwia wgrywanie firmwar’ów poprzez kabelek sygnałowy i gnd. Przez co nie jest potrzebny np. programator USBasp i rozrywanie koszulki. A potrzebujemy tylko interfejs Arduino USB linker czyli np. zwykłe arduino UNO. Wszytko co trzeba zrobić to wgrać przez Arduino program z githuba <a href="https://raw.githubusercontent.com/c---/ArduinoUSBLinker/master/ArduinoUSBLinker.ino" target="_blank" rel="noopener"><a href="https://raw.githubusercontent.com/c&amp;#8212;/ArduinoUSBLinker/master/ArduinoUSBLinker.ino">https://raw.githubusercontent.com/c&amp;#8212;/ArduinoUSBLinker/master/ArduinoUSBLinker.ino</a></a></p>
+<p>Kabelek sygnałowy podłącz pin 2, gnd – gnd.</p>
+<p><a href="http://techfreak.pl/flashowanie-regulatorow-esc-simonkiem-przy-pomocy-rapidflash/simonk_flash_arduino_uno_rapidflash/" rel="attachment wp-att-9565"><img class="aligncenter size-full wp-image-9565" src="http://techfreak.pl/wp-content/uploads/2015/05/simonk_flash_arduino_uno_rapidflash.jpg" alt="simonk_flash_arduino_uno_rapidflash" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2015/05/simonk_flash_arduino_uno_rapidflash.jpg 1000w, http://techfreak.pl/wp-content/uploads/2015/05/simonk_flash_arduino_uno_rapidflash-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2015/05/simonk_flash_arduino_uno_rapidflash-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/05/simonk_flash_arduino_uno_rapidflash-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2015/05/simonk_flash_arduino_uno_rapidflash-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Jeśli chcesz przejść z BLheli na SimonK i nie masz bootloadera od Simonka to musisz go wgrać raz przez SPI USBasp a potem już nie będzie znaczenia czy poprzez kabelek data będziesz wgrywać SimonK czy BLheli. Wszystko się rozbija o bootloader od Simona który pozwala wgrywać też BLheli.</p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/blheli/">blheli</a>, 
+                <a href="/tags/simonk/">SimonK</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Flashowanie%20regulator%c3%b3w%20%28ESC%29%20SimonKiem%20przy%20pomocy%20rapidflash&url=https%3a%2f%2ftechfreak.pl%2fflashowanie-regulatorow-esc-simonkiem-przy-pomocy-rapidflash%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fflashowanie-regulatorow-esc-simonkiem-przy-pomocy-rapidflash%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>actuna on techfreak blog</title>
+    <link>https://techfreak.pl/tags/actuna/</link>
+    <description>Recent content in actuna on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 02 Aug 2017 07:31:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/actuna/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zapraszam na Drone Race</title>
+      <link>https://techfreak.pl/zapraszam-drone-race/</link>
+      <pubDate>Wed, 02 Aug 2017 07:31:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zapraszam-drone-race/</guid>
+      <description>&lt;p&gt;Zapraszam wszystkich na zawody Drone Race które odbędą się 12-13 sierpnia w Koszałkowie – Wieżycy. Miejsce w którym odbędą się zawody na pewno jest znane z wszystkim amatorom zimowych sportów. Mapa dojazdu i więcej informacji o ośrodku są dostępne na stronie &lt;a href=&#34;http://wiezyca.pl/osrodek-narciarski-koszalkowo-wiezyca/plan-osrodka-narciarskiego/&#34;&gt;ośrodka&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>radius on techfreak blog</title>
+    <link>https://techfreak.pl/tags/radius/</link>
+    <description>Recent content in radius on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 01 May 2018 16:34:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/radius/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Freeradius &#43; Google Authenticator</title>
+      <link>https://techfreak.pl/freeradius-google-authenticator/</link>
+      <pubDate>Tue, 01 May 2018 16:34:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/freeradius-google-authenticator/</guid>
+      <description>&lt;p&gt;Użycie drugiego składnika logowania zabezpiecza dostęp ale może powodować pewne trudności lub koszty we wdrożeniu. Chciałbym pokazać jak za pomocą darmowego radiusa, biblioteki google authenticator i aplikacji w telefonie można zrealizować to zadanie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sieci WiFi na login i hasło</title>
+      <link>https://techfreak.pl/sieci-wifi-login-haslo/</link>
+      <pubDate>Sun, 22 Oct 2017 19:33:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/sieci-wifi-login-haslo/</guid>
+      <description>&lt;p&gt;Jak zrobić dostęp do sieci WiFi na podstawie loginu i hasła? To całkiem proste gdy możemy w domu postawić serwer RADIUS. Serwer Radius to obecnie najpopularniejszy protokół uwierzytelniania i autoryzowania użytkowników sieci LAN i WiFi. Teraz gdy w domu masz możliwość uruchomienia Radius’a na routerze, raspberry pi lub serwerze plików NAS np. Synology, to ten sposób jest w zasięgu reki. Oczywiście poniższy przykład to zajawka i każdy musi zastanowić się czy lepiej dołączyć mamę do WiFi przez WPA2-Enterprise czy samo hasło WPA2-PSK. Czy może jeszcze dodatkowo token fizyczny.&lt;/p&gt;
+&lt;p&gt;Poniższy sposób przedstawia skonfigurowanie routera tplink z obsługą 802.1x, serwera RADIUS na debianie i klientów, którzy wybierają logowanie za pomocą EAP PEAP MS-CHAPv2 podając tylko login i hasło. EAP PEAP jest jedyną metodą gdzie można użyć samego loginu i hasła. Cała komunikacja jest zabezpieczona w tunelu TLS, który jest równolegle zestawiamy przy prośbie o dołączenie do sieci. Dodatkowym atutem jest to, że sposób jest dostępny na wielu systemach i urządzeniach.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pl.wikipedia.org/wiki/Extensible_Authentication_Protocol&#34;&gt;EAP&lt;/a&gt; – Extensible Authentication Protocol&lt;/li&gt;
+&lt;li&gt;PEAP – Protected EAP&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pl.wikipedia.org/wiki/RADIUS&#34;&gt;RADIUS&lt;/a&gt; – Remote Authentication Dial In User Service&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://technet.microsoft.com/en-us/library/cc731462(v=ws.10).aspx&#34;&gt;MS-CHAPv2&lt;/a&gt; – Microsoft Challenge Handshake Authentication Protocol version 2&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pl.wikipedia.org/wiki/IEEE_802.1X&#34;&gt;802.1X&lt;/a&gt; –  Standard IEEE kontroli dostępu do sieci przewodowych i bezprzewodowych&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalacja freeradius i gui daloradius na RedHat 6</title>
+      <link>https://techfreak.pl/instalacja-freeradius-i-gui-daloradius-na-redhat-6/</link>
+      <pubDate>Sat, 30 Mar 2013 09:01:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/instalacja-freeradius-i-gui-daloradius-na-redhat-6/</guid>
+      <description>&lt;p&gt;Tym razem potrzebowałem serwera radius + jakiś www interface. Poniżej moja konfiguracja.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

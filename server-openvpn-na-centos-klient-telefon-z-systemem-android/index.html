@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Server Openvpn na CentOS &#43; klient – telefon z systemem android &middot; My Name</title>
+        <meta name="description" content="Jak skonfigurować serwer OpenVPN i Androida jako klienta ?">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Server Openvpn na CentOS &#43; klient – telefon z systemem android">
+<meta property="og:description" content="Jak skonfigurować serwer OpenVPN i Androida jako klienta ?">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/server-openvpn-na-centos-klient-telefon-z-systemem-android/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Server Openvpn na CentOS &#43; klient – telefon z systemem android</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2012-01-10" itemprop="datePublished">Tue, Jan 10, 2012</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Jak skonfigurować serwer OpenVPN i Androida jako klienta ?</p>
+<ol>
+<li>Konfiguracja serwera:</li>
+</ol>
+<p>Instalacja:</p>
+<pre class="lang:default decode:true">yum install openvpn</pre>
+<p>Generowanie certyfikatów:</p>
+<pre class="lang:default decode:true">cd /usr/share/doc/openvpn*/easy-rsa/2.0/
+chmod 744 /usr/share/doc/openvpn*/easy-rsa/2.0/*
+. ./vars
+./clean-all
+./build-ca
+./build-dh
+./build-key-server server
+./build-key user1</pre>
+<p>Kopiowanie kluczy:</p>
+<p>Klucze zapisały się w katalogu /usr/share/doc/openvpn*/easy-rsa/2.0/keys</p>
+<pre class="lang:default decode:true">cd /usr/share/doc/openvpn*/easy-rsa/2.0/keys
+cp ca.crt server.crt server.key dh1024.pem /etc/openvpn/</pre>
+<p> </p>
+<p>Nadawanie uprawnień:</p>
+<pre class="lang:default decode:true">chmod 666 /etc/openvpn/ipp.txt</pre>
+<p> </p>
+<p>Konfiguracja openvpn.conf<br>
+mcedit /etc/openvpn/openvpn.conf</p>
+<pre class="lang:default decode:true">port 1194
+proto tcp-server
+tls-server
+mode server
+dev tun
+local x.x.x.x ;ip wan
+server 10.30.0.0 255.255.255.0 ;zakres sieci vpn dla klientĂłw
+;pierwszy zawsze dla serwera, klienci z tego zakresu pobierajÄ ip.
+ifconfig-pool-persist /etc/openvpn/ipp.txt ;plik w ktĂłrym zapisywane sÄ ip klientĂłw
+ca /etc/openvpn/ca.crt
+cert /etc/openvpn/server.crt
+key /etc/openvpn/server.key
+dh /etc/openvpn/dh1024.pem
+daemon
+verb 4
+log-append /var/log/openvpn.log
+keepalive 10 900
+inactive 3600
+comp-lzo
+persist-tun
+persist-key
+push "route 10.0.5.0 255.255.255.0" ;routing który zaciągają klienci</pre>
+<p>Włączanie przekazywania pakietów:</p>
+<pre class="lang:default decode:true">/sbin/sysctl -w net.ipv4.ip_forward=1</pre>
+<p>I to na tyle konfiguracji serwera</p>
+<ol start="2">
+<li>Konfiguracja klienta:</li>
+</ol>
+<p>Kopiujemy klucze z serwera na stacje lokalną</p>
+<pre class="lang:default decode:true">scp root@x.x.x.x:/usr/share/doc/openvpn*/easy-rsa/2.0/keys/ca.crt ~/Pulpit/openvpn
+scp root@x.x.x.x:/usr/share/doc/openvpn*/easy-rsa/2.0/keys/user1.crt ~/Pulpit/openvpn
+scp root@x.x.x.x:/usr/share/doc/openvpn*/easy-rsa/2.0/keys/user1.key ~/Pulpit/openvpn</pre>
+<p> </p>
+<p>Konfigurujemy plik openvpn.conf i zapisujemy w ~/Pulpit/openvpn</p>
+<pre class="lang:default decode:true">client
+dev tun
+remote x.x.x.x 1194 ;ip wan serwera
+proto tcp
+log-append /sdcard/openvpn/openvpn.log
+keepalive 10 60
+comp-lzo
+persist-key
+persist-tun
+ca /sdcard/openvpn/ca.crt
+cert /sdcard/openvpn/user1.crt
+key /sdcard/openvpn/user1.key</pre>
+<p>Podłączamy telefon pod kabel USB i kopiujemy pliki:</p>
+<p>W telefonie tworzymy katalog openvpn na karcie SD.</p>
+<pre class="lang:default decode:true">cd ~/Pulpit/openvpn
+adb push user1.crt /sdcard/openvpn/
+adb push user1.key /sdcard/openvpn/
+adb push ca.crt /sdcard/openvpn/
+adb push openvpn.conf /sdcard/openvpn/</pre>
+<p>Instalujemy OpenVpn Settings z marketu.</p>
+<p>Odpalamy OpenVpn Settings<br>
+Zaznaczamy OpenVPN a następnie<br>
+zaznaczamy openvpn.conf</p>
+<p>U mnie działa ta konfiguracja bez problemu w razie kłopotów warto patrzeć w logi:</p>
+<p>telefon:</p>
+<pre class="lang:default decode:true">cat /sdcard/openvpn/openvpn.log</pre>
+<p>lub</p>
+<pre class="lang:default decode:true">adb logcat</pre>
+<p>serwer:</p>
+<pre class="lang:default decode:true">tail -f /var/log/openvpn.log</pre>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/centos/">centos</a>, 
+                <a href="/tags/ipsec/">ipsec</a>, 
+                <a href="/tags/vpn/">vpn</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Server%20Openvpn%20na%20CentOS%20%2b%20klient%20%e2%80%93%20telefon%20z%20systemem%20android&url=https%3a%2f%2ftechfreak.pl%2fserver-openvpn-na-centos-klient-telefon-z-systemem-android%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fserver-openvpn-na-centos-klient-telefon-z-systemem-android%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>modem on techfreak blog</title>
+    <link>https://techfreak.pl/tags/modem/</link>
+    <description>Recent content in modem on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 09 Aug 2016 20:26:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/modem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tani modem GSM M590E z aliexpress</title>
+      <link>https://techfreak.pl/tani-modem-gsm-m590e-aliexpress/</link>
+      <pubDate>Tue, 09 Aug 2016 20:26:16 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/tani-modem-gsm-m590e-aliexpress/</guid>
+      <description>&lt;p&gt;Zapraszam na krótką ale zakończoną sukcesem historię taniego modemu GSM M590E z aliexpress.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WiFi w stylu mobilnym – HUAWEI E5377</title>
+      <link>https://techfreak.pl/wifi-w-stylu-mobilnym-huawei-e5377/</link>
+      <pubDate>Sun, 26 Jul 2015 11:49:37 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wifi-w-stylu-mobilnym-huawei-e5377/</guid>
+      <description>&lt;p&gt;Każdy, kto choć trochę porusza się w świece nowych technologii nie wyobraża sobie braku komunikacji radiowej jaką gwarantuje WiFi. Co więcej, coraz częściej znajdujemy tą właśnie technologię w sprzętach, które nie są stworzone do przesyłu danych (np. lodówki, pralki).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wysyłać z Arduino sms lub zadzwonić ?</title>
+      <link>https://techfreak.pl/jak-wysylac-z-arduino-sms-lub-zadzwonic/</link>
+      <pubDate>Sat, 08 Jun 2013 19:17:24 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wysylac-z-arduino-sms-lub-zadzwonic/</guid>
+      <description>&lt;p&gt;Kiedyś wymyśliłem sobie, że napisze alarm do domu na arduino i w zasadzie to zrobiłem ale końcowo nie zainstalowałem go i nie doprowadziłem całości do stanu używalności. Projekt zawierał takie funkcje jak kontrola dostępu na rfid i powiadamianie SMS. I właśnie dziś chciałbym pokazać jak kiedyś zaprogramowałem arduino aby wysyłało do mnie sms lub dzwoniło.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

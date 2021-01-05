@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cnc on techfreak blog</title>
+    <link>https://techfreak.pl/tags/cnc/</link>
+    <description>Recent content in cnc on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Mon, 07 Mar 2016 08:47:57 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/cnc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mini laser do grawerowania [test]</title>
+      <link>https://techfreak.pl/mini-laser-grawerowania-test/</link>
+      <pubDate>Mon, 07 Mar 2016 08:47:57 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-laser-grawerowania-test/</guid>
+      <description>&lt;p&gt;Dziś na testach u mnie wylądował &lt;a href=&#34;http://goo.gl/flIYma&#34; target=&#34;_blank&#34;&gt;grawer laserowy z banggood&lt;/a&gt;. Jest to kit do samodzielnego złożenia bazujący na napędach od starych napędów CD-ROM. Napędzanie są one silnikami krokowymi. Zasada działania jest taka sama jak w drukarkach 3D, sercem jest arduino a silniki są napędzane przez kontroler kroku – stepstick. Laser dostaje informacja od arduino kiedy ma być łączony a kiedy nie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini laser z CD-ROMu i Arduino</title>
+      <link>https://techfreak.pl/mini-laser-z-cd-romu-i-arduino/</link>
+      <pubDate>Wed, 19 Mar 2014 15:14:37 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-laser-z-cd-romu-i-arduino/</guid>
+      <description>&lt;p&gt;Mini laser ze starego cdromu to bardzo popularna przeróbka. A w połączeniu z resztą bebechów tworzy trzy osiową platformę do wypalania różnych kształtów.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zmniejszyć procka?</title>
+      <link>https://techfreak.pl/jak-zmniejszyc-procka/</link>
+      <pubDate>Fri, 14 Mar 2014 22:09:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zmniejszyc-procka/</guid>
+      <description>&lt;p&gt;Pytacie się jak zmniejszyć procka? Jest na to sposób trzeba posiadać trochę wiedzy, CNC i czasu. Na poniższym filmiku gość zmniejsza procka poprzez obrabianie, dolutowuje nowe nużki a na koniec tworzy całkiem dobrze wyglądającą obudowę.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Forum druku 3D i CNC DIY – Gdynia. Parę fotek po</title>
+      <link>https://techfreak.pl/forum-druku-3d-cnc-diy-gdynia-pare-fotek-po/</link>
+      <pubDate>Sun, 20 Oct 2013 06:57:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/forum-druku-3d-cnc-diy-gdynia-pare-fotek-po/</guid>
+      <description>Wczoraj odbyło się forum druku 3D i CNC w Gdyni na którym miałem przyjemność być i zobaczyć na żywo parę konstrukcji. Tym razem nie zabrałem swojej maszyny ale po ilości osób odwiedzających forum nie zapowiada się aby była to ostatnia szansa. Na jednym z pierwszych stołów znajdował się MendelMax 1.5 użytkownika Imrahil (pozdrawiam). Po dokładnym przyjrzeniu się konstrukcji nie pozostaje mi nic innego jak zamienić parę moich plastików na inne „lepsze”.</description>
+    </item>
+    
+    <item>
+      <title>Znowu o CNC czyli DIY Arduino CNC</title>
+      <link>https://techfreak.pl/znowu-o-cnc-czyli-diy-arduino-cnc/</link>
+      <pubDate>Wed, 31 Jul 2013 20:48:39 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/znowu-o-cnc-czyli-diy-arduino-cnc/</guid>
+      <description>Coraz bardziej kusi mnie zbudowanie jakiejś maszynki DIY, czy to drukarki 3D czy maszyny CNC. I właśnie znalazłem fajny projekt od którego można było by zacząć przygodę z CNC mianowicie Arduino CNC Shield.
+
+Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu Arduino CNC Shield. Jest to drukowana dwustronna płytka która pasuje do podstawowej wersji arduino i posiada sloty na trzy sterowniki silników krokowych. Projekt zakłada użycie np. sterowników Pololu które w razie uszkodzenia bez problemu można wymienić.</description>
+    </item>
+    
+  </channel>
+</rss>

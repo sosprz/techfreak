@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zdalnie sterowane on techfreak blog</title>
+    <link>https://techfreak.pl/tags/zdalnie-sterowane/</link>
+    <description>Recent content in zdalnie sterowane on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Fri, 07 Mar 2014 15:30:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/zdalnie-sterowane/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pierwszy mini H quadcopter</title>
+      <link>https://techfreak.pl/pierwszy-mini-h-quadcopter/</link>
+      <pubDate>Fri, 07 Mar 2014 15:30:40 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/pierwszy-mini-h-quadcopter/</guid>
+      <description>&lt;p&gt;Z tej okazji że posiadam drukarkę 3D postanowiłem wydrukować ramę do mini quadcoptera ale w bardzo popularnej wersji H. Wersja H jest bardzo fajna ponieważ jest dużo miejsca aby załadować kamerki i w zasadzie cały sprzęt pod FPV. Ramę znalazłem przy okazji przeglądania thingiversa i od razu postanowiłem ją druknąć na &lt;a title=&#34;Drukarka 3D&#34; href=&#34;http://techfreak.pl/drukarka-3d-profab-gate-le/&#34; target=&#34;_blank&#34;&gt;profabie o którym pisałem jakiś czas temu&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MiniCopter MC 120 test mini quadcoptera</title>
+      <link>https://techfreak.pl/minicopter-mc-120/</link>
+      <pubDate>Thu, 12 Dec 2013 19:02:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/minicopter-mc-120/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;Spotkała minie ta przyjemność i kolejny raz zostałem testerem dla conrad.pl. Testowałem quadcopter MiniCopter MC120. Jest to całkiem mały czterosilnikowy helikopter sterowany aparaturą w kształcie pada. Wyróżnia się on przede wszystkim małymi rozmiarami. Można nim latać w domu jak i na zewnątrz. Jest to zabawka dla dużych i młodszych dzięki której będzie można poznać świat zabawek RC a tym samym rozpocząć całkiem ciekawe hobby.&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pocket Quad Ultra-Micro</title>
+      <link>https://techfreak.pl/pocket-quad-ultra-micro/</link>
+      <pubDate>Thu, 09 May 2013 06:02:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/pocket-quad-ultra-micro/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://hobbyking.com/&#34; target=&#34;_blank&#34;&gt;HobbyKing&lt;/a&gt; to chyba najpopularniejszy sklep dla maniaków latających quadów, modeli i wszystkiego co zdalnie sterowane. Jedyny minus to czas przesyłki. Dziś to tylko szybki wpis o nowym produkcie Hobyy King Pocket Quad Ultra-Micro. Nie będę dziś pisał o tych mega wolnych i ryzykownych przesyłkach no i reklamacjach na poczcie. Może innym razem … ;)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Quadrotor vs. Tesla Coil</title>
+      <link>https://techfreak.pl/quadrotor-vs-tesla-coil/</link>
+      <pubDate>Thu, 21 Mar 2013 07:57:50 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/quadrotor-vs-tesla-coil/</guid>
+      <description>&lt;h4 id=&#34;warto-obejrzeć-poniższe-video-jak-quadcopter-walczy-z-cewkami-tesli-&#34;&gt;Warto obejrzeć poniższe video jak quadcopter walczy z cewkami tesli :)&lt;/h4&gt;</description>
+    </item>
+    
+    <item>
+      <title>Crazyflie Nano Quadcopter</title>
+      <link>https://techfreak.pl/crazyflie-nano-quadcopter/</link>
+      <pubDate>Fri, 01 Feb 2013 14:42:42 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/crazyflie-nano-quadcopter/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/crazyflie-nano-quadcopter/crazyflie-diy-kit_642_362_force/&#34; rel=&#34;attachment wp-att-1970&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1970&#34; alt=&#34;Crazyflie DIY Kit_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/Crazyflie-DIY-Kit_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/Crazyflie-DIY-Kit_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/Crazyflie-DIY-Kit_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Czekałem długo na ten projekt a dokładnie na jego ukończenie. Byłem ciekawy za ile będzie sprzedawany &lt;a href=&#34;http://www.bitcraze.se/&#34; target=&#34;_blank&#34;&gt;Crazyflie Nano Quadcopter&lt;/a&gt; okazuje się ze w wersji z &lt;strong&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Six_degrees_of_freedom&#34; target=&#34;_blank&#34;&gt;6DOF&lt;/a&gt;&lt;/strong&gt; cena kitu kosztuje &lt;strong&gt;149&lt;/strong&gt; a &lt;strong&gt;&lt;a href=&#34;http://playground.arduino.cc/Main/WhatIsDegreesOfFreedom6DOF9DOF10DOF11DOF&#34; target=&#34;_blank&#34;&gt;10dof &lt;/a&gt;173&lt;/strong&gt; dolców.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Zawsze marzyłem o pupilku. Zdalnie sterowany karaluch – RoboRoach</title>
+      <link>https://techfreak.pl/zawsze-marzylem-o-pupilku-zdalnie-sterowany-karaluch-roboroach/</link>
+      <pubDate>Thu, 03 Jan 2013 14:28:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zawsze-marzylem-o-pupilku-zdalnie-sterowany-karaluch-roboroach/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/zawsze-marzylem-o-pupilku-zdalnie-sterowany-karaluch-roboroach/roboroach_642_362_force/&#34; rel=&#34;attachment wp-att-720&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-720&#34; alt=&#34;roboroach_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/roboroach_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/roboroach_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/roboroach_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Powiem szczerze trafiłem na ten projekt całkiem przypadkowo przeglądając jakieś newsy i zrobił na mnie mega wrażenie – zdalnie sterowany karaluch RoboRoach. jee!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Robot Dragonfly – zdalnie sterowana ważka nadciąga</title>
+      <link>https://techfreak.pl/robot-dragonfly-zdalnie-sterowana-wazka-nadciaga/</link>
+      <pubDate>Fri, 21 Dec 2012 21:59:48 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/robot-dragonfly-zdalnie-sterowana-wazka-nadciaga/</guid>
+      <description>&lt;p&gt;Chciałbym przedstawić już chyba po końcu świata lol, projekt który pojawił się na indiegogo.com. Jest to kolejny latający wynalazek na punkcie którego wszyscy oszaleli, Robot Dragonfly – latająca ważka, zdalnie sterowana w różnych opcjach kolorystycznych i sprzętowych.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Czworonożny robot sterowany głosem</title>
+      <link>https://techfreak.pl/czworonozny-robot-sterowany-glosem/</link>
+      <pubDate>Thu, 20 Dec 2012 09:59:37 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/czworonozny-robot-sterowany-glosem/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/czworonozny-robot-sterowany-glosem/alpha_dog_ls2_642_362_force/&#34; rel=&#34;attachment wp-att-426&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-426&#34; alt=&#34;alpha_dog_LS2_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/alpha_dog_LS2_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/alpha_dog_LS2_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/alpha_dog_LS2_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dziś natrafiłem na kolejną informacje na temat słynnego już robota AlphaDog zbudowanego przez DARPA. Jak ktoś jeszcze nie zna lub nie widział tego psiaczka to polecam obejrzenie poniższego filmiku:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wojskowy Quadrotor z karabinem, zabijaj manekiny ze swojego tableta!</title>
+      <link>https://techfreak.pl/wojskowy-quadrotor-z-karabinem-zabijaj-manekiny-ze-swojego-tableta/</link>
+      <pubDate>Tue, 11 Dec 2012 10:43:40 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wojskowy-quadrotor-z-karabinem-zabijaj-manekiny-ze-swojego-tableta/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/manekiny_w_gniu.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-195 aligncenter&#34; title=&#34;manekiny_w_gniu&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/manekiny_w_gniu.jpg&#34; width=&#34;642&#34; height=&#34;316&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/manekiny_w_gniu.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/manekiny_w_gniu-300x147.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Po dzisiejszym &lt;a href=&#34;http://techfreak.pl/domowej-roboty-czolg/&#34; target=&#34;_blank&#34;&gt;czołgu&lt;/a&gt; dalej wojskowy klimat. Jakiś czas temu kumpel przysłał mi linka z tekstem „obczaj technologie o której będzie głośno za kilka lat, jeszcze nie zrobili strzelających quadkopterów” A ja na to: „dobra, idę do domu” – akurat wychodziłem :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini transformers z kamerą i WiFi</title>
+      <link>https://techfreak.pl/mini-transformers-z-kamera-i-wifi/</link>
+      <pubDate>Wed, 05 Dec 2012 19:38:53 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-transformers-z-kamera-i-wifi/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16.jpg&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-6&#34; title=&#34;ico_compress16&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16.jpg&#34; width=&#34;642&#34; height=&#34;523&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16-300x244.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Transformers który zamienia się z samochodu w robota to było kiedyś marzenie każdego  dzieciaka który oglądał transformersy ( mam na myśli bajkę ). Jak wiadomo technika idzie do przodu i takie zabawki nie są nowością ale po obejrzeniu poniższego filmiku pomyślałem, ja też chce to mieć.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>OpenSwan VPN – troubleshooting &middot; My Name</title>
+        <meta name="description" content="Dziś kolejny wpis na temat IPsec VPN a dokładnie trochę o konfiguracji OpenSwan który jest trochę bardziej popularny niż LibreSwan (fork) o którym pisałem ostatnio. W zasadzie konfiguracja nie będzie się wiele różnić dlatego napisze coś o problemach przy zestawianiu takiego połączenia. Osobiście zestawiałem takie połączenia np. z checkpointem, cisco czy racoon.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="OpenSwan VPN – troubleshooting">
+<meta property="og:description" content="Dziś kolejny wpis na temat IPsec VPN a dokładnie trochę o konfiguracji OpenSwan który jest trochę bardziej popularny niż LibreSwan (fork) o którym pisałem ostatnio. W zasadzie konfiguracja nie będzie się wiele różnić dlatego napisze coś o problemach przy zestawianiu takiego połączenia. Osobiście zestawiałem takie połączenia np. z checkpointem, cisco czy racoon.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/openswan-vpn-troubleshooting/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">OpenSwan VPN – troubleshooting</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2015-05-20" itemprop="datePublished">Wed, May 20, 2015</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 7 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Dziś kolejny wpis na temat IPsec VPN a dokładnie trochę o konfiguracji OpenSwan który jest trochę bardziej popularny niż LibreSwan (fork) o którym pisałem <a href="http://techfreak.pl/libreswan-konfiguracja-vpn/" target="_blank" rel="noopener">ostatnio</a>. W zasadzie konfiguracja nie będzie się wiele różnić dlatego napisze coś o problemach przy zestawianiu takiego połączenia. Osobiście zestawiałem takie połączenia np. z <a href="http://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-na-checkpoint-r65/" target="_blank" rel="noopener">checkpointem</a>, <a href="http://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-dla-cisco-do-urzadzen-innych-niz-cisco/" target="_blank" rel="noopener">cisco</a> czy <a href="http://techfreak.pl/ipsec-vpn-racoon-site-2-site/" target="_blank" rel="noopener">racoon</a>.</p>
+<h4 id="przykładowy-diagram-połączenia">Przykładowy diagram połączenia</h4>
+<p><a href="http://techfreak.pl/openswan-vpn-troubleshooting/diagram1/" rel="attachment wp-att-9499"><img class="aligncenter size-full wp-image-9499" src="http://techfreak.pl/wp-content/uploads/2015/05/Diagram1.jpg" alt="Diagram1" width="732" height="221" srcset="http://techfreak.pl/wp-content/uploads/2015/05/Diagram1.jpg 732w, http://techfreak.pl/wp-content/uploads/2015/05/Diagram1-600x181.jpg 600w, http://techfreak.pl/wp-content/uploads/2015/05/Diagram1-300x91.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/05/Diagram1-624x188.jpg 624w" sizes="(max-width: 732px) 100vw, 732px" /></a></p>
+<p>Połączenie VPN będzie realizowane w trybie tunelowym, czyli sieć do sieci (strona do strony, site 2 site). Celem wykreowania połączenia VPN jest dostęp jednej sieci do drugiej i na odwrót.</p>
+<h4 id="ipsecconf">ipsec.conf</h4>
+<p>W zasadzie konfiguracja jest całkiem prosta bo sprowadza się do określenia stron. Lewa strona MY, prawa ONI. Na diagramie widać, że openswan nie jest uruchomiony bezpośrednio na routerze a dopiero za min. Trzeba włączyć nat_traversal. Warto włączyć logowanie do pliku – plutostderrlog. Aby tunel wstawał zawsze przy uruchomieniu demona ustaw auto=start. Dodaj opcje leftnexthop aby zadziałał ruting. Inaczej ping nie będą trafiać w tunel jeśli tego nie wskażesz (ping -I).</p>
+<p>ipsec.conf</p>
+<pre>config setup
+	# Do not set debug options to debug configuration issues!
+	# plutodebug / klipsdebug = "all", "none" or a combation from below:
+	# "raw crypt parsing emitting control klips pfkey natt x509 dpd private"
+	# eg:
+	plutodebug="none"
+	# Again: only enable plutodebug or klipsdebug when asked by a developer
+	#
+	# enable to get logs per-peer
+	# plutoopts="--perpeerlog"
+	#
+	# Enable core dumps (might require system changes, like ulimit -C)
+	# This is required for abrtd to work properly
+	# Note: incorrect SElinux policies might prevent pluto writing the core
+	dumpdir=/var/run/pluto/
+	#
+	# NAT-TRAVERSAL support, see README.NAT-Traversal
+	nat_traversal=yes
+	# exclude networks used on server side by adding %v4:!a.b.c.0/24
+	# It seems that T-Mobile in the US and Rogers/Fido in Canada are
+	# using 25/8 as "private" address space on their 3G network.
+	# This range has not been announced via BGP (at least upto 2010-12-21)
+	virtual_private=%v4:10.0.0.0/8,%v4:192.168.0.0/16,%v4:!172.16.0.0/12,%v4:25.0.0.0/8,%v6:fd00::/8,%v6:fe80::/10,%v4:!172.18.10.0/24
+	# OE is now off by default. Uncomment and change to on, to enable.
+	oe=off
+	# which IPsec stack to use. auto will try netkey, then klips then mast
+	# Use this to log to a file, or disable logging on embedded systems (like openwrt)
+	protostack=netkey
+	#plutostderrlog=/dev/null
+        plutostderrlog=/var/log/pluto.log
+       
+       
+conn peer
+        authby=secret
+        auto=start
+        ike=aes256-sha1
+        keyexchange=ike
+        phase2=esp
+        phase2alg=aes256-sha1
+        compress=no
+        pfs=yes
+        type=tunnel
+        left=172.18.10.7
+        leftsubnet=172.18.10.0/24
+        leftnexthop=%defaultroute
+        right=2.2.2.2
+        rightsubnet=192.168.1.0/24
+</pre>
+<h3 id="nie-działa-">Nie działa ..</h3>
+<p>Zakładam, że po przeczytaniu powyższej konfiguracji i poprzedniej o libreswan tunel działa. Poniżej logi które pojawią się w sytuacji jeśli wszystko jest ok. Pierwsza i druga faza zestawiona, poniżej pogrubiona.</p>
+<pre>ipsec auto --status
+
+000 stats db_ops: {curr_cnt, total_cnt, maxsz} :context={0,2,36} trans={0,2,1008} attrs={0,2,1344} 
+000  
+000 "peer": 172.18.10.0/24===172.18.10.7[+S=C]---172.18.10.254...2.2.2.2[+S=C]===192.168.1.0/24; erouted; eroute owner: #2
+000 "peer":     myip=unset; hisip=unset;
+000 "peer":   ike_life: 3600s; ipsec_life: 28800s; rekey_margin: 540s; rekey_fuzz: 100%; keyingtries: 0
+000 "peer":   policy: PSK+ENCRYPT+TUNNEL+PFS+UP+IKEv2ALLOW+SAREFTRACK+lKOD+rKOD; prio: 24,8; interface: eth0; 
+000 "peer":   newest ISAKMP SA: #1; newest IPsec SA: #2; 
+000 "peer":   IKE algorithms wanted: AES_CBC(7)_256-SHA1(2)_000-MODP1536(5), AES_CBC(7)_256-SHA1(2)_000-MODP1024(2); flags=-strict
+000 "peer":   IKE algorithms found:  AES_CBC(7)_256-SHA1(2)_160-MODP1536(5), AES_CBC(7)_256-SHA1(2)_160-MODP1024(2)
+000 "peer":   IKE algorithm newest: AES_CBC_256-SHA1-MODP1024
+000 "peer":   ESP algorithms wanted: AES(12)_256-SHA1(2)_000; flags=-strict
+000 "peer":   ESP algorithms loaded: AES(12)_256-SHA1(2)_160
+000 "peer":   ESP algorithm newest: AES_256-HMAC_SHA1; pfsgroup=
+000  
+000 #2: "peer":500 STATE_QUICK_I2 (sent QI2, <strong>IPsec SA established</strong>); EVENT_SA_REPLACE in 27450s; newest IPSEC; eroute owner; isakmp#1; idle; import:admin initiate
+000 #2: "peer" esp.bc14928a@2.2.2.2 esp.e3387064@172.18.10.7 tun.0@2.2.2.2 tun.0@172.18.10.7 ref=0 refhim=4294901761
+000 #1: "peer":500 STATE_MAIN_I4 (<strong>ISAKMP SA established</strong>); EVENT_SA_REPLACE in 2193s; newest ISAKMP; nodpd; idle; import:admin initiate
+
+tail -f /var/log/pluto.log
+
+"peer" #1: initiating Main Mode
+"peer" #1: ignoring Vendor ID payload [FRAGMENTATION]
+"peer" #1: transition from state STATE_MAIN_I1 to state STATE_MAIN_I2
+"peer" #1: STATE_MAIN_I2: sent MI2, expecting MR2
+"peer" #1: transition from state STATE_MAIN_I2 to state STATE_MAIN_I3
+"peer" #1: STATE_MAIN_I3: sent MI3, expecting MR3
+"peer" #1: Main mode peer ID is ID_IPV4_ADDR: '2.2.2.2'
+"peer" #1: transition from state STATE_MAIN_I3 to state STATE_MAIN_I4
+"peer" #1: STATE_MAIN_I4: ISAKMP SA established {auth=OAKLEY_PRESHARED_KEY cipher=aes_256 prf=oakley_sha group=modp1024}
+"peer" #2: initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS+UP+IKEv2ALLOW+SAREFTRACK {using isakmp#1 msgid:bfd862a6 proposal=AES(12)_256-SHA1(2)_160 pfsgroup=OAKLEY_GROUP_MODP1024}
+"peer" #2: ignoring informational payload, type IPSEC_RESPONDER_LIFETIME msgid=bfd862a6
+"peer" #2: transition from state STATE_QUICK_I1 to state STATE_QUICK_I2
+"peer" #2: STATE_QUICK_I2: sent QI2, IPsec SA established tunnel mode {ESP=&gt;0xe74132bb</pre>
+<h3 id="bad-pass">Bad pass</h3>
+<p>Co w przypadku kiedy np. po mojej stronie będę miał złe hasło?<br>
+Żadna faza się nie zestawi u każdej ze stron pojawi się informacja malformed payload albo payload malformed.</p>
+<pre>root@raspberrypi:~# ipsec auto --status
+
+000 stats db_ops: {curr_cnt, total_cnt, maxsz} :context={0,1,36} trans={0,1,1008} attrs={0,1,1344} 
+000  
+000 "peer": 172.18.10.0/24===172.18.10.7[+S=C]---172.18.10.254...2.2.2.2[+S=C]===192.168.1.0/24; prospective erouted; eroute owner: #0
+000 "peer":     myip=unset; hisip=unset;
+000 "peer":   ike_life: 3600s; ipsec_life: 28800s; rekey_margin: 540s; rekey_fuzz: 100%; keyingtries: 0
+000 "peer":   policy: PSK+ENCRYPT+TUNNEL+PFS+UP+IKEv2ALLOW+SAREFTRACK+lKOD+rKOD; prio: 24,8; interface: eth0; 
+000 "peer":   newest ISAKMP SA: #0; newest IPsec SA: #0; 
+000 "peer":   IKE algorithms wanted: AES_CBC(7)_256-SHA1(2)_000-MODP1536(5), AES_CBC(7)_256-SHA1(2)_000-MODP1024(2); flags=-strict
+000 "peer":   IKE algorithms found:  AES_CBC(7)_256-SHA1(2)_160-MODP1536(5), AES_CBC(7)_256-SHA1(2)_160-MODP1024(2)
+000 "peer":   ESP algorithms wanted: AES(12)_256-SHA1(2)_000; flags=-strict
+000 "peer":   ESP algorithms loaded: AES(12)_256-SHA1(2)_160
+000  
+000 #2: "peer":500 STATE_MAIN_I3 (sent MI3, expecting MR3); EVENT_RETRANSMIT in 10s; nodpd; idle; import:admin initiate
+000 #2: pending Phase 2 for "peer" replacing #0
+
+
+root@raspberrypi:~# tail -f /var/log/pluto.log 
+
+loading secrets from "/etc/ipsec.secrets"
+loading secrets from "/var/lib/openswan/ipsec.secrets.inc"
+"peer" #1: initiating Main Mode
+"peer" #1: ignoring Vendor ID payload [FRAGMENTATION]
+"peer" #1: transition from state STATE_MAIN_I1 to state STATE_MAIN_I2
+"peer" #1: STATE_MAIN_I2: sent MI2, expecting MR2
+"peer" #1: transition from state STATE_MAIN_I2 to state STATE_MAIN_I3
+"peer" #1: STATE_MAIN_I3: sent MI3, expecting MR3
+"peer" #1: received 1 <strong>malformed payload</strong> notifies
+
+</pre>
+<h3 id="bad-ike">Bad IKE</h3>
+<p>W przypadku ustawienia złych algorytmów szyfrowania dla IKE dostaniemy informacje NO_PROPOSAL_CHOSEN</p>
+<pre>root@raspberrypi:~# ipsec auto --status
+
+000 "peer": 172.18.10.0/24===172.18.10.7[+S=C]---172.18.10.254...2.2.2.2[+S=C]===192.168.1.0/24; prospective erouted; eroute owner: #0
+000 "peer":     myip=unset; hisip=unset;
+000 "peer":   ike_life: 3600s; ipsec_life: 28800s; rekey_margin: 540s; rekey_fuzz: 100%; keyingtries: 0
+000 "peer":   policy: PSK+ENCRYPT+TUNNEL+PFS+UP+IKEv2ALLOW+SAREFTRACK+lKOD+rKOD; prio: 24,8; interface: eth0; 
+000 "peer":   newest ISAKMP SA: #0; newest IPsec SA: #0; 
+000 "peer":   IKE algorithms wanted: AES_CBC(7)_128-SHA1(2)_000-MODP1536(5), AES_CBC(7)_128-SHA1(2)_000-MODP1024(2); flags=-strict
+000 "peer":   IKE algorithms found:  AES_CBC(7)_128-SHA1(2)_160-MODP1536(5), AES_CBC(7)_128-SHA1(2)_160-MODP1024(2)
+000 "peer":   ESP algorithms wanted: AES(12)_256-SHA1(2)_000; flags=-strict
+000 "peer":   ESP algorithms loaded: AES(12)_256-SHA1(2)_160
+000  
+000 #1: "peer":500 STATE_MAIN_I1 (sent MI1, expecting MR1); EVENT_RETRANSMIT in 17s; nodpd; idle; import:admin initiate
+000 #1: pending Phase 2 for "peer" replacing #0
+000  
+
+root@raspberrypi:~# tail -f /var/log/pluto.log 
+"peer" #1: initiating Main Mode
+"peer" #1: ignoring informational payload, type <strong>NO_PROPOSAL_CHOSEN</strong> msgid=00000000
+"peer" #1: received and ignored informational message
+
+</pre>
+<h3 id="bad-ipsec">Bad ipsec</h3>
+<p>W przypadku kiedy nieprawidłowo określę algorytmy szyfrowania dla ipsec w logu zobaczę, że faza pierwsza (IKE) się zestawiła ale poniżej dostaje informacje NO_PROPOSAL_CHOSEN.</p>
+<pre>root@raspberrypi:~# ipsec auto --status
+
+000 "peer": 172.18.10.0/24===172.18.10.7[+S=C]---172.18.10.254...2.2.2.2[+S=C]===192.168.1.0/24; prospective erouted; eroute owner: #0
+000 "peer":     myip=unset; hisip=unset;
+000 "peer":   ike_life: 3600s; ipsec_life: 28800s; rekey_margin: 540s; rekey_fuzz: 100%; keyingtries: 0
+000 "peer":   policy: PSK+ENCRYPT+TUNNEL+PFS+UP+IKEv2ALLOW+SAREFTRACK+lKOD+rKOD; prio: 24,8; interface: eth0; 
+000 "peer":   newest ISAKMP SA: #1; newest IPsec SA: #0; 
+000 "peer":   IKE algorithms wanted: AES_CBC(7)_256-SHA1(2)_000-MODP1536(5), AES_CBC(7)_256-SHA1(2)_000-MODP1024(2); flags=-strict
+000 "peer":   IKE algorithms found:  AES_CBC(7)_256-SHA1(2)_160-MODP1536(5), AES_CBC(7)_256-SHA1(2)_160-MODP1024(2)
+000 "peer":   IKE algorithm newest: AES_CBC_256-SHA1-MODP1024
+000 "peer":   ESP algorithms wanted: AES(12)_128-SHA1(2)_000; flags=-strict
+000 "peer":   ESP algorithms loaded: AES(12)_128-SHA1(2)_160
+000  
+000 #2: "peer":500 STATE_QUICK_I1 (sent QI1, expecting QR1); EVENT_RETRANSMIT in 27s; nodpd; idle; import:admin initiate
+000 #1: "peer":500 STATE_MAIN_I4 (<strong>ISAKMP SA established</strong>); EVENT_SA_REPLACE in 2710s; newest ISAKMP; nodpd; idle; import:admin initiate
+000 
+
+root@raspberrypi:~# tail -f /var/log/pluto.log
+
+"peer" #1: initiating Main Mode
+"peer" #1: ignoring Vendor ID payload [FRAGMENTATION]
+"peer" #1: transition from state STATE_MAIN_I1 to state STATE_MAIN_I2
+"peer" #1: STATE_MAIN_I2: sent MI2, expecting MR2
+"peer" #1: transition from state STATE_MAIN_I2 to state STATE_MAIN_I3
+"peer" #1: STATE_MAIN_I3: sent MI3, expecting MR3
+"peer" #1: Main mode peer ID is ID_IPV4_ADDR: '2.2.2.2'
+"peer" #1: transition from state STATE_MAIN_I3 to state STATE_MAIN_I4
+"peer" #1: STATE_MAIN_I4: ISAKMP SA established {auth=OAKLEY_PRESHARED_KEY cipher=aes_256 prf=oakley_sha group=modp1024}
+"peer" #2: initiating Quick Mode PSK+ENCRYPT+TUNNEL+PFS+UP+IKEv2ALLOW+SAREFTRACK {using isakmp#1 msgid:70c6526c proposal=AES(12)_128-SHA1(2)_160 pfsgroup=OAKLEY_GROUP_MODP1024}
+"peer" #1: ignoring informational payload, type <strong>NO_PROPOSAL_CHOSEN</strong> msgid=00000000
+"peer" #1: received and ignored informational message
+
+</pre>
+<h3 id="bad-net">Bad net</h3>
+<p>Częstym problemem jest sytuacja kiedy któraś strona źle określi maskę sieci drugiej strony. Wtedy możliwe że tylko jedna strona będzie miała dostęp do zasobów drugiej.</p>
+<p> </p>
+<p> </p>
+<p>W sumie to na tyle, dawajcie znać jak tam wasze konifguracje Openswan, libreswan i srongswan (strongswan w zasadzie działa dobrze sam ze sobą ale nie z np cisco lub checkpoint).</p>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/ipsec/">ipsec</a>, 
+                <a href="/tags/raspberry-pi/">Raspberry pi</a>, 
+                <a href="/tags/vpn/">vpn</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=OpenSwan%20VPN%20%e2%80%93%20troubleshooting&url=https%3a%2f%2ftechfreak.pl%2fopenswan-vpn-troubleshooting%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fopenswan-vpn-troubleshooting%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

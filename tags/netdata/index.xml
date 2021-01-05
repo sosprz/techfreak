@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>netdata on techfreak blog</title>
+    <link>https://techfreak.pl/tags/netdata/</link>
+    <description>Recent content in netdata on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 29 Oct 2017 18:19:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/netdata/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak monitorować systemy i robić to dobrze?</title>
+      <link>https://techfreak.pl/monitorowac-systemy-robic-dobrze/</link>
+      <pubDate>Sun, 29 Oct 2017 18:19:24 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/monitorowac-systemy-robic-dobrze/</guid>
+      <description>&lt;p&gt;Jak dobrze monitorować systemy, zbierać i wyświetlać dane tak aby wszystko było podane jak na tacy? Zacząć używać monitoringu &lt;a href=&#34;https://github.com/firehol/netdata&#34;&gt;Netdata&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

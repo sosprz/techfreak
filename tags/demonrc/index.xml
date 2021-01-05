@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>demonrc on techfreak blog</title>
+    <link>https://techfreak.pl/tags/demonrc/</link>
+    <description>Recent content in demonrc on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 02 Aug 2017 07:31:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/demonrc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zapraszam na Drone Race</title>
+      <link>https://techfreak.pl/zapraszam-drone-race/</link>
+      <pubDate>Wed, 02 Aug 2017 07:31:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zapraszam-drone-race/</guid>
+      <description>&lt;p&gt;Zapraszam wszystkich na zawody Drone Race które odbędą się 12-13 sierpnia w Koszałkowie – Wieżycy. Miejsce w którym odbędą się zawody na pewno jest znane z wszystkim amatorom zimowych sportów. Mapa dojazdu i więcej informacji o ośrodku są dostępne na stronie &lt;a href=&#34;http://wiezyca.pl/osrodek-narciarski-koszalkowo-wiezyca/plan-osrodka-narciarskiego/&#34;&gt;ośrodka&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jaką ramę wybrać do FPV racera?</title>
+      <link>https://techfreak.pl/rame-wybrac-fpv-racera/</link>
+      <pubDate>Mon, 23 Jan 2017 21:45:31 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/rame-wybrac-fpv-racera/</guid>
+      <description>&lt;p&gt;Okres zimowy dla pilotów to zazwyczaj przygotowania do sezonu i możliwość spokojnego przejrzenia rynku. Ja sam stoję przed wyborem nowej ramy do multikomptera wyścigowego. Choć mam ich parę to coraz to nowsze pomysły producentów i hobbystów powodują, że nowy projekt to tylko formalność!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[miniFPV] Rama NOX3 od demonrc [budowa]</title>
+      <link>https://techfreak.pl/minifpv-rama-nox3-demonrc-budowa/</link>
+      <pubDate>Tue, 29 Mar 2016 19:31:03 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/minifpv-rama-nox3-demonrc-budowa/</guid>
+      <description>&lt;p&gt;Kończąc serię miniFPV, dziś przedstawiam mój sposób budowy mini drona NOX3.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[miniFPV] Rama NOX3 od demonrc</title>
+      <link>https://techfreak.pl/minifpv-rama-nox3-demonrc/</link>
+      <pubDate>Sun, 14 Feb 2016 21:41:21 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/minifpv-rama-nox3-demonrc/</guid>
+      <description>&lt;p&gt;Dziś &lt;a href=&#34;http://techfreak.pl/minifpv-diatome-et150/&#34; target=&#34;_blank&#34;&gt;kolejna&lt;/a&gt; odsłona testów ram do mini multikopterów, w której mam przyjemność testować produkt NOX3 z serii NOX. Ramę podesłał Adam z ze sklepu demonrc.eu, który stopniowo rozszerza swoją działalność, nie tylko o karbonowe ramy wysokiej jakość, ale też o poszczególne części RC.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

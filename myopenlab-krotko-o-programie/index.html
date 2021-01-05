@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MyOpenLab – krótko o programie. &middot; My Name</title>
+        <meta name="description" content="OK.. udało się mamy już zmontowaną elektronikę – działa oparta o Arduino albo inny moduł elektroniczny da się tym sterować za pomocą terminala teraz trzeba by nadać temu jakaś formę tak aby zwykły człowiek mógł tym sterować bez zaznajomienia się z dokumentacją – ja tego uczyć się nie musze bo moje dzieło znam na pamięć…. no ale graficznie coś trzeba dodać i to najlepiej w ciągu kilku godzin tak aby nie rozgryzać całego środowiska programistycznego.
+Brzmi znajomo ?">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="MyOpenLab – krótko o programie.">
+<meta property="og:description" content="OK.. udało się mamy już zmontowaną elektronikę – działa oparta o Arduino albo inny moduł elektroniczny da się tym sterować za pomocą terminala teraz trzeba by nadać temu jakaś formę tak aby zwykły człowiek mógł tym sterować bez zaznajomienia się z dokumentacją – ja tego uczyć się nie musze bo moje dzieło znam na pamięć…. no ale graficznie coś trzeba dodać i to najlepiej w ciągu kilku godzin tak aby nie rozgryzać całego środowiska programistycznego.
+Brzmi znajomo ?">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/myopenlab-krotko-o-programie/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">MyOpenLab – krótko o programie.</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2018-07-28" itemprop="datePublished">Sat, Jul 28, 2018</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Pawel R.</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 3 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p><strong>OK..</strong> udało się mamy już zmontowaną elektronikę – działa oparta o Arduino albo inny moduł elektroniczny da się tym sterować za pomocą terminala teraz trzeba by nadać temu jakaś formę tak aby zwykły człowiek mógł tym sterować bez zaznajomienia się z dokumentacją – ja tego uczyć się nie musze bo moje dzieło znam na pamięć…. no ale graficznie coś trzeba dodać i to najlepiej w ciągu kilku godzin tak aby nie rozgryzać całego środowiska programistycznego.<br>
+Brzmi znajomo ?</p>
+<p>Narzędzie MyOpenLab pozwala na dodanie przyjemnego dla oka interfejsu graficznego i funkcji logicznych do dajmy na to własnego rozwiązania opartego na Arduino. Zaleta oprogramowania – „piszemy” kod metodą graficzną układając bloki funkcyjne czy elementy GUI przeciągając odpowiednie moduły do swojego projektu tak jak ma to miejsce w rozwiązaniu firmy NI – LabVIEW.<br>
+Środowisko w którym tworzymy projekty daje możliwość dopisana swojego modułu w Javie, do pakietu dodane są liczne przykłady rozwiązania np. mastera w Modbus RTU, komunikacji po RS232 funkcji logicznych pozwalających na zapis do pliku np. CSV itd. Oprogramowanie jest dostępne na wolnej licencji i uruchamia się zarówno pod Windowsem jak i linuxem – tu mogę jedynie zapewnić że pod Ubuntu. Dostępna jest wtyczka dla pakietu Firmata który to sam w sobie jest wart opisania kiedy indziej.</p>
+<p>Najnowsze pliki można znaleźć pod <a href="https://myopenlab.org/inicio/descargar-myopenlab/">tym linkiem</a>. Obecnie paczka z oprogramowaniem waży około 62Mb. I nie ma co się zniechęcać – program w odróżnieniu od strony domowej projektu MA INTERFEJS w języku angielskim.</p>
+<p>Poniżej dwa screeny z programu w którym został otworzony przykład „MouseCatch”. Pierwszy screen pokazuje logikę pracy „programu w którym mamy obiekty (np.: lampki w postaci czerwonych kropek sygnalizujące pracę i obiekt „łapiący” kursor myszy) takie jak lampki sterowane logicznymi sygnałami tj 0/1, bramkę flip/flop itd. W zależności od rodzaju sygnału – binarnego czy liczbowego kreski łączące poszczególne obiekty mają inne kolory. W górnej części mamy do wyboru wiele elementów dostępnych z podstawowego źródła które możemy edytować i oczywiście tworzyć nowe.<img class="alignleft wp-image-14959 size-large" src="http://techfreak.pl/wp-content/uploads/2018/07/Myopen_lab_001-1024x664.png" alt="" width="800" height="519" srcset="http://techfreak.pl/wp-content/uploads/2018/07/Myopen_lab_001-1024x664.png 1024w, http://techfreak.pl/wp-content/uploads/2018/07/Myopen_lab_001-308x200.png 308w, http://techfreak.pl/wp-content/uploads/2018/07/Myopen_lab_001-300x194.png 300w, http://techfreak.pl/wp-content/uploads/2018/07/Myopen_lab_001-768x498.png 768w, http://techfreak.pl/wp-content/uploads/2018/07/Myopen_lab_001.png 1325w" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p>Drugi screen pokazuje część „graficzną” tj elementu GUI rozmieszczone w oknie programu. Jak widać są tutaj obiekty korespondujące z logiczną częścią programu tj. lampki 0/1, wskaźniki analogowe i pola z wartościami liczbowymi. Program mimo prostego interfejsu daje możliwość szybkiego stworzenia GUI z logiką dla własnego projektu.. tak aby osoba<img class="alignright wp-image-14960 size-medium" src="http://techfreak.pl/wp-content/uploads/2018/07/My_open_lab_002-300x230.png" alt="" width="300" height="230" srcset="http://techfreak.pl/wp-content/uploads/2018/07/My_open_lab_002-300x230.png 300w, http://techfreak.pl/wp-content/uploads/2018/07/My_open_lab_002-261x200.png 261w, http://techfreak.pl/wp-content/uploads/2018/07/My_open_lab_002-768x589.png 768w, http://techfreak.pl/wp-content/uploads/2018/07/My_open_lab_002.png 1004w" sizes="(max-width: 300px) 100vw, 300px" /> mająca styczność pierwszy raz z naszym rozwiązaniem nie uciekła :) Program polecam przetestować każdej osobie. Może będzie to wstęp dla kogoś do programowania w sposób mniej graficzny.</p>
+<p> </p>
+<p><strong>Wady</strong> – są oczywiście.  Po pierwsze Java – środowisko nie grzeszy prędkością. Wymaga od użytkownika minimum JRE 7*.  Nie posiada obecnie możliwości eksportu napisanego programu do zapakowanego pliku wykonywalnego pod dany system (do uruchomienia wymaga środowiska „IDE” zainstalowanego na maszynie operatora oraz w przypadku istnienia ograniczeń dla konta np.: komputer domenowy w korporacji wymaga uruchomienia części programistycznej przed  kliknięciem wyeksportowanego programu – w Winodws). Dostarczone moduły bez modyfikacji nie działają prawidłowo z portami RS232 obecnymi na portach USB w systemie linux. W Windows nie ma takiego problemu. Nie każdy jest w stanie przestawić się z pisania kodu na „przeciąganie” drucików/sygnałów/strumieniu – może być to bardzo frustrujące dla kogoś kto posiada doświadczenie w pisaniu kodu za pomocą znaków ascii :) * – Java dostępna z np Ubuntu 18.04 jako standardowa paczka nie jest kompatybilna i wymagane jest zainstalowanie JRE Oracla</p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/arduino/">arduino</a>, 
+                <a href="/tags/ubuntu/">ubuntu</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=MyOpenLab%20%e2%80%93%20kr%c3%b3tko%20o%20programie.&url=https%3a%2f%2ftechfreak.pl%2fmyopenlab-krotko-o-programie%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fmyopenlab-krotko-o-programie%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

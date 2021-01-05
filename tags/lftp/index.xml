@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lftp on techfreak blog</title>
+    <link>https://techfreak.pl/tags/lftp/</link>
+    <description>Recent content in lftp on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Thu, 04 Oct 2012 07:15:26 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/lftp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lftp – wgrywanie zmian lub nowych plikow na serwer ftp</title>
+      <link>https://techfreak.pl/lftp-wgrywanie-zmian-lub-nowych-plikow-na-serwer-ftp/</link>
+      <pubDate>Thu, 04 Oct 2012 07:15:26 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/lftp-wgrywanie-zmian-lub-nowych-plikow-na-serwer-ftp/</guid>
+      <description>&lt;p&gt;Potrzebowałem skryptu który wgra mi automatycznie zmiany które robie na stronie bez wgrywania wszystkiego za każdym razem przez ftp. Do tego nadaje się świetnie lftp. Jest to zaawansowany program to transferu plików. Do spełnienia mojego celu użyje lftp z opcją &lt;strong&gt;mirror&lt;/strong&gt;. Służy ona do uaktualniania katalogu zdalnego z lokalnym lub na odwrót. W przypdku kiedy musze wrzucić pliki na serwer fpt musze użyć opcji -R (reverse mirror (put files)).&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

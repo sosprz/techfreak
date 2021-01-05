@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>OpenWRT na Raspberry Pi &middot; My Name</title>
+        <meta name="description" content="Tyle ilu jest użytkowników Raspberry Pi tyle będzie pomysłów na zastosowanie tego maleństwa. Ja pomyślałem że muszę spróbować zainstalować OpenWRT na Raspberry Pi bo wraz ze stabilną wersją Attitude Adjustment, OpenWRT zaczęło je wspierać.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="OpenWRT na Raspberry Pi">
+<meta property="og:description" content="Tyle ilu jest użytkowników Raspberry Pi tyle będzie pomysłów na zastosowanie tego maleństwa. Ja pomyślałem że muszę spróbować zainstalować OpenWRT na Raspberry Pi bo wraz ze stabilną wersją Attitude Adjustment, OpenWRT zaczęło je wspierać.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/openwrt-na-raspberry-pi/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">OpenWRT na Raspberry Pi</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2013-06-22" itemprop="datePublished">Sat, Jun 22, 2013</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 4 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Tyle ilu jest użytkowników Raspberry Pi tyle będzie pomysłów na zastosowanie tego maleństwa. Ja pomyślałem że muszę spróbować zainstalować OpenWRT na Raspberry Pi bo wraz ze stabilną wersją Attitude Adjustment, OpenWRT zaczęło je wspierać.</p>
+<p>Od razu wpadł mi do głowy pomysł Access Pointa, wygrzebałem wszystkie karty Wifi na USB ale niestety żadna nie jest wspierana przez OpenWRT. Ale przy poszukiwaniach znalazłem też kartę ethernet na USB, D-Link DUB-E100. Dwie karty ethernet w jednym urządzeniu to już co najmniej prosty router. I właśnie to będzie tematem poniższego opisu.</p>
+<h3 id="download-and-install">Download and Install</h3>
+<p>Na początek ściągamy dedykowany pod Raspberry Pi obraz OpenWRT z oficjalnej strony <a href="http://downloads.openwrt.org/attitude_adjustment/12.09/brcm2708/generic/openwrt-brcm2708-sdcard-vfat-ext4_224.img" target="_blank">downloads.openwrt.org</a>. Gdy obraz już się ściągnie trzeba go nagrać na kartę SD ale wcześniej trzeba odmontować partycje które automatycznie zostały podmontowane.</p>
+<pre>root@sosprz:/home/sosprz/Pobrane#
+umount /dev/mmcblkp1</pre>
+<pre>root@sosprz:/home/sosprz/Pobrane# dd bs=4M if=/openwrt-brcm2708-sdcard-vfat-ext4_224.img of=/dev/mmcblk0
+12+0 przeczytanych recordów
+12+0 zapisanych recordów
+skopiowane 50331648 bajtów (50 MB), 8,20802 s, 6,1 MB/s</pre>
+<h3 id="uruchomienie-openwrt-na-rapsberry-pi">Uruchomienie OpenWRT na Rapsberry Pi</h3>
+<p>Tak wygląda system OpenWRT gdy uruchamia się na Rapsberry Pi. Generalnie szału nie ma :)</p>
+<p style="text-align: center;">
+  <a href="http://techfreak.pl/wp-content/uploads/2013/06/techfreak.pl_openwrt_raspberry_pi_1.jpg"><img class="aligncenter  wp-image-3766" title="Razpberry Pi z wgranym Openwrt" src="http://techfreak.pl/wp-content/uploads/2013/06/techfreak.pl_openwrt_raspberry_pi_1.jpg" alt="Raspberry Pi na OpenWRT" width="800" height="600" srcset="http://techfreak.pl/wp-content/uploads/2013/06/techfreak.pl_openwrt_raspberry_pi_1.jpg 800w, http://techfreak.pl/wp-content/uploads/2013/06/techfreak.pl_openwrt_raspberry_pi_1-300x225.jpg 300w" sizes="(max-width: 800px) 100vw, 800px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/techfreak.pl_openwrt_raspberry_pi_1_1_1.jpg"><img class="aligncenter  wp-image-3767" title="OpenWRT na Raspberry Pi" src="http://techfreak.pl/wp-content/uploads/2013/06/techfreak.pl_openwrt_raspberry_pi_1_1_1.jpg" alt="OpenWRT na Raspberry Pi" width="800" height="600" srcset="http://techfreak.pl/wp-content/uploads/2013/06/techfreak.pl_openwrt_raspberry_pi_1_1_1.jpg 800w, http://techfreak.pl/wp-content/uploads/2013/06/techfreak.pl_openwrt_raspberry_pi_1_1_1-300x225.jpg 300w" sizes="(max-width: 800px) 100vw, 800px" /></a>
+</p>
+<h3 id="instalacja-openwrt-w-mojej-sieci">Instalacja OpenWRT w mojej sieci</h3>
+<p>Dobra mamy OpenWRT na Raspberry Pi i teraz trzeba jakoś się dostać na stronę www lub ssh/telnet aby skonfigurować resztę. Aby to zrobić trzeba dostać się do domyślnego IP dla OpenWRT, 192.168.1.1. Ja zawsze robię jak poniżej, zatrzymuje network-managera i konfiguruje IP. Laptopa podłączam bezpośrednio pod Raspberry Pi, paczkordem.</p>
+<p>Moim celem teraz jest podłączenie Raspbery Pi do mojego routera aby pozbyć się paczkorda z laptopa i przeprowadzić całą konfiguracje poprzez WiFi (mój router).</p>
+<pre>/etc/init.d/network-manager stop
+<span style="line-height: 1.61538em;">ifconfig eth0 192.168.1.2 netmask 255.255.255.0
+t</span>elnet 192.168.1.1</pre>
+<pre>sosprz@sosprz:~$ sudo su -
+ [sudo] password for sosprz:
+ root@sosprz:~# /etc/init.d/network-manager stop
+ Rather than invoking init scripts through /etc/init.d, use the service(8)
+ utility, e.g. service network-manager stop
+ Since the script you are attempting to invoke has been converted to an
+ Upstart job, you may also use the stop(8) utility, e.g. stop network-manager
+ network-manager stop/waiting
+ root@sosprz:~# ifconfig eth0 192.168.1.2 netmask 255.255.255.0
+ root@sosprz:~# telnet 192.168.1.1
+ Trying 192.168.1.1...
+ Connected to 192.168.1.1.
+ Escape character is '^]'.
+ === IMPORTANT ============================
+ Use 'passwd' to set your login password
+ this will disable telnet and enable SSH
+ ------------------------------------------
+ BusyBox v1.19.4 (2013-03-16 04:44:56 UTC) built-in shell (ash)
+ Enter 'help' for a list of built-in commands.
+
+  _______                     ________        __
+ |       |.-----.-----.-----.|  |  |  |.----.|  |_
+ |   -   ||  _  |  -__|     ||  |  |  ||   _||   _|
+ |_______||   __|_____|__|__||________||__|  |____|
+          |__| W I R E L E S S   F R E E D O M
+ -----------------------------------------------------
+ ATTITUDE ADJUSTMENT (12.09, r36088)
+ -----------------------------------------------------
+ * 1/4 oz Vodka Pour all ingredients into mixing
+ * 1/4 oz Gin tin with ice, strain into glass.
+ * 1/4 oz Amaretto
+ * 1/4 oz Triple sec
+ * 1/4 oz Peach schnapps
+ * 1/4 oz Sour mix
+ * 1 splash Cranberry juice
+ -----------------------------------------------------
+ root@OpenWrt:/#</pre>
+<p>Ok połączyłem się i teraz muszę zmienić interfejs ze statycznego IP na DHCP. Zrobię to poprzez www będzie szybciej.</p>
+<p style="text-align: center;">
+  <a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133519.png"><img class="aligncenter  wp-image-3769" title="Logowanie do OpenWRT" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133519.png" alt="OpenWRT na Raspberry Pi" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133519.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133519-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133519-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133540.png"><img class="aligncenter  wp-image-3770" title="Status OpenWRT" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133540.png" alt="OpenWRT na Raspberry Pi" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133540.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133540-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133540-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133614.png"><img class="aligncenter  wp-image-3771" title="Interfaces OpenWRT" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133614.png" alt="OpenWRT na Raspberry Pi" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133614.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133614-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133614-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133646.png"><img class="aligncenter  wp-image-3772" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133646.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 13:36:46" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133646.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133646-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133646-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133653.png"><img class="aligncenter  wp-image-3773" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133653.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 13:36:53" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133653.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133653-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133653-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133721.png"><img class="aligncenter  wp-image-3774" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133721.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 13:37:21" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133721.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133721-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-133721-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a>
+</p>
+<p>Raspberry Pi zostało podłączone pod sieć domową i uzyskało adres IP. Jak można się powoli domyślać ten uzyskany adres IP z mojej sieci będzie adresem WAN.</p>
+<h3 id="instalacja-d-link-dub-e100">Instalacja D-Link DUB-E100</h3>
+<p>Podłączyłem DUB-E100 do Raspberry Pi. Mam dwa interfejsy sieciowe.</p>
+<p style="text-align: center;">
+  <a href="http://techfreak.pl/wp-content/uploads/2013/06/IMG_20130621_125703_1.jpg"><img class="aligncenter  wp-image-3788" title="D-link dub e100" src="http://techfreak.pl/wp-content/uploads/2013/06/IMG_20130621_125703_1.jpg" alt="OpenWRT na Raspberry Pi" width="800" height="600" srcset="http://techfreak.pl/wp-content/uploads/2013/06/IMG_20130621_125703_1.jpg 800w, http://techfreak.pl/wp-content/uploads/2013/06/IMG_20130621_125703_1-300x225.jpg 300w" sizes="(max-width: 800px) 100vw, 800px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/IMG_20130621_125802_1.jpg"><img class="aligncenter  wp-image-3789" title="D-link dub e100" src="http://techfreak.pl/wp-content/uploads/2013/06/IMG_20130621_125802_1.jpg" alt="OpenWRT na Raspberry Pi" width="800" height="600" srcset="http://techfreak.pl/wp-content/uploads/2013/06/IMG_20130621_125802_1.jpg 800w, http://techfreak.pl/wp-content/uploads/2013/06/IMG_20130621_125802_1-300x225.jpg 300w" sizes="(max-width: 800px) 100vw, 800px" /></a>
+</p>
+<p>Sprawdzamy w <strong>status &gt; kernel log</strong> czy karta została wykryta</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134435.png"><img class="aligncenter size-full wp-image-3790" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134435.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 13:44:35" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134435.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134435-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134435-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a></p>
+<p><span style="line-height: 1.5em;">Karta jest ale to nie wszystko, trzeba zainstalować moduł </span><strong style="line-height: 1.5em;">kmod-usb-net-asix</strong> <span style="line-height: 1.5em;">aby uruchomić kartę w systemie.</span></p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134458.png"><img class="aligncenter size-full wp-image-3791" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134458.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 13:44:58" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134458.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134458-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134458-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134559.png"><img class="aligncenter size-full wp-image-3792" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134559.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 13:45:59" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134559.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134559-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134559-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134653.png"><img class="aligncenter size-full wp-image-3793" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134653.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 13:46:53" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134653.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134653-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134653-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a></p>
+<p>Wszystko jest dobrze karta została wykryta i zarejestrowana w systemie pod** **interfejsem **eth1**</p>
+<h3 id="konfiguracja-openwrt">Konfiguracja OpenWRT</h3>
+<p>W firewall settings przestawiamy interfejs (wbudowany Raspberry Pi) <strong>LAN1</strong> czyli <strong>eth0</strong> na **WAN. **</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140546.png"><img class="aligncenter size-full wp-image-3797" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140546.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 14:05:46" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140546.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140546-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140546-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a></p>
+<p>Konfiguracja interfejsu <strong>eth1</strong> czyli USB D-link polega na ustawieniu adresacji dla sieci lokalnej np. 192.168.1.1/24 i ustawieniu w firewall settings na LAN.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140625.png"><img class="aligncenter size-full wp-image-3798" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140625.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 14:06:25" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140625.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140625-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140625-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140637.png"><img class="aligncenter size-full wp-image-3799" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140637.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 14:06:37" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140637.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140637-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140637-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a></p>
+<p>I to wszystko,  parę kliknięć zamienia Raspberry Pi w router. Podłączyłem lapka pod kartę D-link aby sprawdzić czy dostaje adres z DHCP i mam połączenie do internetu. Jak widać poniżej wszystko jest ok.<em id="__mceDel"> </em></p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140851.png"><img class="aligncenter size-full wp-image-3800" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140851.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 14:08:51" width="1360" height="768" srcset="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140851.png 1360w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140851-300x169.png 300w, http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140851-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a></p>
+<h3 id="podsumowanie">Podsumowanie</h3>
+<p>Szybko sprawnie i działa. Polecam przyjrzeć się bliżej wszystkim opcjom w OpenWRT, jest to naprawdę fajna alternatywa dla routerów w wielkimi możliwościami. Repozytorium jest naprawdę duże, można powiedzieć inspirujące. Parę lat temu na routerze z OpenWRT zaczynałem pomiary temperatur :)</p>
+<p>Na koniec, mam nadzieje że wam też wszystko działa jeśli macie jakieś inne pomysły, czekam na komentarze.</p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/d-link/">d-link</a>, 
+                <a href="/tags/firewall/">firewall</a>, 
+                <a href="/tags/openwrt/">openwrt</a>, 
+                <a href="/tags/raspberry-pi/">Raspberry pi</a>, 
+                <a href="/tags/router/">router</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=OpenWRT%20na%20Raspberry%20Pi&url=https%3a%2f%2ftechfreak.pl%2fopenwrt-na-raspberry-pi%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fopenwrt-na-raspberry-pi%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

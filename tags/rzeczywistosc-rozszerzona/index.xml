@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rzeczywistosc rozszerzona on techfreak blog</title>
+    <link>https://techfreak.pl/tags/rzeczywistosc-rozszerzona/</link>
+    <description>Recent content in rzeczywistosc rozszerzona on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 17 Sep 2014 19:58:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/rzeczywistosc-rozszerzona/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Cardboard czyli wirtualna rzeczywistość z kartonu</title>
+      <link>https://techfreak.pl/google-cardboard-wirtualna-rzeczywistosc-kartonu/</link>
+      <pubDate>Wed, 17 Sep 2014 19:58:05 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/google-cardboard-wirtualna-rzeczywistosc-kartonu/</guid>
+      <description>&lt;p&gt;Po tym jak google zaprezentowało swoje okulary do wirtualnej rzeczywistości &lt;a href=&#34;https://cardboard.withgoogle.com/&#34; target=&#34;_blank&#34;&gt;cardboard&lt;/a&gt;, postanowiłem zakupić tani odpowiednik na DealXtreme za 9$. Dlaczego akurat na DX? Bo nie widziałem nigdzie indziej aby było tanio i szybko :) Dopiero po jakimś czasie pojawiły się na banggood. Ale było już za późno. Okazało się że wybór DX nie był do końca trafny bo na przesyłkę czekałem chyba 2 miesiące, ale jest, w końcu przesyłka dotarła i okularki działają :) Poniżej parę fotek ze składania.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>vrAse zamieni smartfona w multimedialne gogle</title>
+      <link>https://techfreak.pl/vrase-zamieni-smartfona-w-multimedialne-gogle/</link>
+      <pubDate>Sat, 22 Mar 2014 07:32:22 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/vrase-zamieni-smartfona-w-multimedialne-gogle/</guid>
+      <description>&lt;p&gt;Bardzo fajnym pomysłem jest uwolnienie rąk kiedy oglądamy filmy na smartfonie. Okazuje się że możemy zamienić go w ekran 3D. A także używać do rozszerzania rzeczywistości (AUGMENTED REALITY).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rzeczywistość rozszerzona – odcinek 2</title>
+      <link>https://techfreak.pl/rzeczywistosc-rozszerzona-odcinek-2/</link>
+      <pubDate>Fri, 28 Dec 2012 19:30:10 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/rzeczywistosc-rozszerzona-odcinek-2/</guid>
+      <description>&lt;p&gt;Parę dni temu pisałem o projekcie &lt;a href=&#34;http://techfreak.pl/rzeczywistosc-rozszerzona/&#34; target=&#34;_blank&#34;&gt;TARDIS&lt;/a&gt; czyli o rzeczywistości rozszerzonej. Po tym napisał do mnie jeden gość, a że jego firma ble ble ble, też robią coś z &lt;strong&gt;AR&lt;/strong&gt;. Mówię spoko dawaj suchara.  Co się okazało to są dopiero techfreaki :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rzeczywistość rozszerzona</title>
+      <link>https://techfreak.pl/rzeczywistosc-rozszerzona/</link>
+      <pubDate>Tue, 25 Dec 2012 21:37:05 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/rzeczywistosc-rozszerzona/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/rzeczywistosc-rozszerzona/tardis-pan_642_362_force/&#34; rel=&#34;attachment wp-att-541&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-541&#34; alt=&#34;tardis-pan_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/tardis-pan_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/tardis-pan_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/tardis-pan_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ostatnio coraz częściej słyszy się o rzeczywistości rozszerzonej (&lt;strong&gt;augmented reality&lt;/strong&gt;) jak nie w grach to w marketingu. &lt;strong&gt;Ale co to jest ?&lt;/strong&gt; Świat rzeczywisty połączony ze światem generowanym komputerowo. &lt;strong&gt;No tak ale co to jest ?&lt;/strong&gt; Na elementy wyświetlanego obrazu na urządzeniu nakładana jest komputerowo generowana grafika 3D.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

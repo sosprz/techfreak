@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>czujniki on techfreak blog</title>
+    <link>https://techfreak.pl/tags/czujniki/</link>
+    <description>Recent content in czujniki on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 18 Feb 2018 17:19:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/czujniki/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bezprzewodowy czujnik SHT30 Wemos z ESP8266 – nettemp i EasyESP Mega</title>
+      <link>https://techfreak.pl/bezprzewodowy-czujnik-sht30-wemos-esp8266-nettemp-easyesp-mega/</link>
+      <pubDate>Sun, 18 Feb 2018 17:19:10 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/bezprzewodowy-czujnik-sht30-wemos-esp8266-nettemp-easyesp-mega/</guid>
+      <description>&lt;p&gt;Układy Wemos to tanie i łatwe u użyciu bezprzewodowe rozwiązanie do podłączania wielu czujników. Wraz z oprogramowaniem ESPEasy daje bardzo duże możliwości.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Moduł nettemp do Raspberry Pi</title>
+      <link>https://techfreak.pl/modul-nettemp-raspberry-pi/</link>
+      <pubDate>Tue, 21 Oct 2014 18:47:41 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/modul-nettemp-raspberry-pi/</guid>
+      <description>&lt;p&gt;Hej, czas na przedstawienie kolejnego etapu projektu nettemp. Nie są to nowe funkcje samego programu, chociaż ostatnio przybyło dużo nowych czujników, poprawek i opcji w a w szczególności system &lt;a href=&#34;http://forum.techfreak.pl/viewtopic.php?f=5&amp;t=175&#34; target=&#34;_blank&#34;&gt;Nettemp USB&lt;/a&gt;. Tym razem jest to nakładka/shield na Raspberry Pi którą stworzyłem wraz z &lt;a href=&#34;http://modulowo.com/pl/&#34; target=&#34;_blank&#34;&gt;modulowo.com&lt;/a&gt;. Cel był prosty stworzyć prostą płytkę ułatwiającą użytkowanie systemu nettemp. Koniec z lutowaniem przekaźników na płytkach prototypowych i szukania GPIO ;).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nettemp &#43; I2C &#43; BMP180 &#43; TSL2561 &#43; DS2482</title>
+      <link>https://techfreak.pl/nettemp-i2c-bmp180-tsl2561-ds2482/</link>
+      <pubDate>Tue, 23 Sep 2014 10:20:08 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-i2c-bmp180-tsl2561-ds2482/</guid>
+      <description>&lt;p&gt;Ostatnio trochę więcej wolnego czasu spędzam na projekcie &lt;a href=&#34;http://techfreak.pl/nettemp/&#34; target=&#34;_blank&#34;&gt;nettemp&lt;/a&gt;. Czyli mojej małej platformie do odczytu temperatur, wilgotności i sterowaniu urządzeniami poprzez przekaźniki. Najlepszą platformą dla nettemp jest Raspberry Pi ale nie ma żadnych przeszkód aby to był np. PC z Debianem.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

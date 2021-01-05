@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Raspberry Pi B&#43; &middot; My Name</title>
+        <meta name="description" content="Hej tym razem o Raspberry Pi B&#43;, czyli o nowym lepszym modelu mini komputerka w tej samej cenie. Sam obecnie posiadam trzy sztuki RPi, dwóch z nich używam do projektu nettemp. Na jednej testuje nowe funkcje a druga zbiera dane z czujników w mieszkaniu i steruje ogrzewaniem. A trzecia słuzy jako wideo player z systemem OpenElec dla dzieciaków. Trochę potestowałem nową wersje B&#43; i podzielę się z wami wrażeniami.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Raspberry Pi B&#43;">
+<meta property="og:description" content="Hej tym razem o Raspberry Pi B&#43;, czyli o nowym lepszym modelu mini komputerka w tej samej cenie. Sam obecnie posiadam trzy sztuki RPi, dwóch z nich używam do projektu nettemp. Na jednej testuje nowe funkcje a druga zbiera dane z czujników w mieszkaniu i steruje ogrzewaniem. A trzecia słuzy jako wideo player z systemem OpenElec dla dzieciaków. Trochę potestowałem nową wersje B&#43; i podzielę się z wami wrażeniami.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/raspberry-pi-b/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Raspberry Pi B&#43;</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2014-11-12" itemprop="datePublished">Wed, Nov 12, 2014</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Hej tym razem o Raspberry Pi B+, czyli o nowym lepszym modelu mini komputerka w tej samej cenie. Sam obecnie posiadam trzy sztuki RPi, dwóch z nich używam do projektu <a href="https://techfreak.pl/nettemp/" target="_blank" rel="noopener">nettemp</a>. Na jednej testuje nowe funkcje a druga zbiera dane z czujników w mieszkaniu i steruje ogrzewaniem. A trzecia słuzy jako wideo player z systemem <a href="https://techfreak.pl/xbmc-raspberry-pi-autoplay-folderu/" target="_blank" rel="noopener">OpenElec dla dzieciaków</a>. Trochę potestowałem nową wersje B+ i podzielę się z wami wrażeniami.</p>
+<p>Jak zawsze na początek, trochę fotek nowej wersji Raspberry Pi B+</p>
+<p><a href="http://techfreak.pl/raspberry-pi-b/techfreak_rspberry_pi_b_1/" rel="attachment wp-att-8029"><img class="aligncenter size-full wp-image-8029" src="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_1.jpg" alt="techfreak_rspberry_pi_B+_1" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_1.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_1-266x200.jpg 266w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_1-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_1-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_1-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/raspberry-pi-b/techfreak_rspberry_pi_b_2/" rel="attachment wp-att-8030"><img class="aligncenter size-full wp-image-8030" src="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_2.jpg" alt="techfreak_rspberry_pi_B+_2" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_2.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_2-266x200.jpg 266w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_2-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_2-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_2-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/raspberry-pi-b/techfreak_rspberry_pi_b_3/" rel="attachment wp-att-8031"><img class="aligncenter size-full wp-image-8031" src="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_3.jpg" alt="techfreak_rspberry_pi_B+_3" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_3.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_3-266x200.jpg 266w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_3-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_3-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_3-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/raspberry-pi-b/techfreak_rspberry_pi_b_4/" rel="attachment wp-att-8032"><img class="aligncenter size-full wp-image-8032" src="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_4.jpg" alt="techfreak_rspberry_pi_B+_4" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_4.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_4-266x200.jpg 266w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_4-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_4-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_4-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/raspberry-pi-b/techfreak_rspberry_pi_b_5/" rel="attachment wp-att-8033"><img class="aligncenter size-full wp-image-8033" src="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_5.jpg" alt="techfreak_rspberry_pi_B+_5" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_5.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_5-266x200.jpg 266w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_5-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_5-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_5-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/raspberry-pi-b/techfreak_rspberry_pi_b_6/" rel="attachment wp-att-8034"><img class="aligncenter size-full wp-image-8034" src="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_6.jpg" alt="techfreak_rspberry_pi_B+_6" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_6.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_6-266x200.jpg 266w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_6-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_6-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_6-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/raspberry-pi-b/techfreak_rspberry_pi_b_7/" rel="attachment wp-att-8035"><img class="aligncenter size-full wp-image-8035" src="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_7.jpg" alt="techfreak_rspberry_pi_B+_7" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_7.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_7-266x200.jpg 266w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_7-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_7-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_7-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/raspberry-pi-b/techfreak_rspberry_pi_b_8/" rel="attachment wp-att-8036"><img class="aligncenter size-full wp-image-8036" src="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_8.jpg" alt="techfreak_rspberry_pi_B+_8" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_8.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_8-266x200.jpg 266w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_8-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_8-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_8-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/raspberry-pi-b/techfreak_rspberry_pi_b_9/" rel="attachment wp-att-8037"><img class="aligncenter size-full wp-image-8037" src="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_9.jpg" alt="techfreak_rspberry_pi_B+_9" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_9.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_9-266x200.jpg 266w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_9-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_9-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2014/11/techfreak_rspberry_pi_B-_9-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<h3 id="zmiany-na-lepsze">Zmiany na lepsze</h3>
+<ul>
+<li>Przede wszystkim nowa wersja jest wyposarzona w cztery porty USB. Czyli jak dla mnie wystarcza aby podłączyć klawiaturę, wifi i pamięć USB. Pozbywam sie HUBa USB.</li>
+<li>Po podłączeniu np. dongla Wifi w trakcie pracy Raspberry Pi już się nie resetuje dzięki nowemu zabezpieczniu hot-swap. Co jest dużym plusem bo to irytowało strasznie przy testach :)</li>
+<li>Posiada zabezpieczenie do 2A i zabezpieczenie przeciw odwrotnemu podłączeniu polaryzacji.</li>
+<li>Port zasilania micro USB, HDMI i S-VIDEO połączony z audio, zostały umieszczone po jednej stronie co jest wygodniejsze.</li>
+<li>Wszystkie porty GPIO zostały umieszczone na jednej 40 pinowej lini.</li>
+<li>Port ethernet został wyposażony w diody, wcześniej były umieszczone bezpośrednio na płytce.</li>
+<li>RPi B+ posiada cztery otwory montażowe.</li>
+<li>Slot na karty microSD zamiast SD. Fajna sprawa, port wydaje się być mniej awaryjny niż w większej wersji. Karty mikro są teraz bardziej popularne niż SD.</li>
+<li>Dalej posiada 512 ramu i 700 Mhz procesor i tę samą cenę.</li>
+<li>Zużywa ok 1,2W w porównaniu z poprzednią wersją która zuzywała ok 1,8W.</li>
+</ul>
+<h3 id="raspberry-pi-a">Raspberry Pi A+</h3>
+<p>Piszę sobie o Raspberry Pi  B+ a tu w między czasie newsy o wersji A+ czyli mniejszym bracie bez portu ethernet, USB i 256MB ramu ale pomniejszony o dwa centymetry i tańszy bo za 20$. Świetnie będzie się nadawać do mniejszych projektów. Wystarczy <a href="http://techfreak.pl/zrobic-dostep-raspberry-pi-wifi/" target="_blank" rel="noopener">podłączyć wifi na USB</a> i już mamy mini urządzenie z dostępem po sieci.</p>
+<p><a href="http://techfreak.pl/raspberry-pi-b/a-_overhead-500x333/" rel="attachment wp-att-8042"><img class="aligncenter size-full wp-image-8042" src="http://techfreak.pl/wp-content/uploads/2014/11/A-_Overhead-500x333.jpg" alt="A-_Overhead-500x333" width="500" height="333" srcset="http://techfreak.pl/wp-content/uploads/2014/11/A-_Overhead-500x333.jpg 500w, http://techfreak.pl/wp-content/uploads/2014/11/A-_Overhead-500x333-300x199.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/raspberry-pi/">Raspberry pi</a>, 
+                <a href="/tags/wifi/">wifi</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Raspberry%20Pi%20B%2b&url=https%3a%2f%2ftechfreak.pl%2fraspberry-pi-b%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fraspberry-pi-b%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

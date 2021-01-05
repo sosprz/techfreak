@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DIY on techfreak blog</title>
+    <link>https://techfreak.pl/tags/diy/</link>
+    <description>Recent content in DIY on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Thu, 19 Jul 2018 14:41:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/diy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mini FPV hovercaft</title>
+      <link>https://techfreak.pl/mini-fpv-hovercaft/</link>
+      <pubDate>Thu, 19 Jul 2018 14:41:16 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-fpv-hovercaft/</guid>
+      <description>&lt;p&gt;Co zrobić z micro quadcopterem gdy się znudził lub lekko się połamał? Zbuduj z niego poduszkowiec!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini laser do grawerowania [test]</title>
+      <link>https://techfreak.pl/mini-laser-grawerowania-test/</link>
+      <pubDate>Mon, 07 Mar 2016 08:47:57 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-laser-grawerowania-test/</guid>
+      <description>&lt;p&gt;Dziś na testach u mnie wylądował &lt;a href=&#34;http://goo.gl/flIYma&#34; target=&#34;_blank&#34;&gt;grawer laserowy z banggood&lt;/a&gt;. Jest to kit do samodzielnego złożenia bazujący na napędach od starych napędów CD-ROM. Napędzanie są one silnikami krokowymi. Zasada działania jest taka sama jak w drukarkach 3D, sercem jest arduino a silniki są napędzane przez kontroler kroku – stepstick. Laser dostaje informacja od arduino kiedy ma być łączony a kiedy nie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nettemp Pi Hat nowy moduł dla Raspberry Pi</title>
+      <link>https://techfreak.pl/nettemp-pi-hat-nowy-modul-dla-raspberry-pi/</link>
+      <pubDate>Mon, 15 Feb 2016 16:28:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-pi-hat-nowy-modul-dla-raspberry-pi/</guid>
+      <description>&lt;p&gt;Miło mi poinformować że powstał nowy moduł dla Raspberry Pi, nettemp Pi Hat który który dedykowany jest pod mój projekt &lt;a href=&#34;http://nettemp.pl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nettemp&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;Edit 2018.08.22: Moduł nie działa z Raspberry Pi 3+&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nowy bohater w świecie elektronik!</title>
+      <link>https://techfreak.pl/nowy-bohater-w-swiecie-elektronik/</link>
+      <pubDate>Fri, 29 Jan 2016 15:26:30 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nowy-bohater-w-swiecie-elektronik/</guid>
+      <description>&lt;p&gt;Na instructables pojawił się bardzo prosty i ciekawy projekt eprom man! Może on zostać nowym bohaterem świata elektroniki :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arduino Watch czyli smartwatch własnej roboty</title>
+      <link>https://techfreak.pl/arduino-watch-czyli-smartwatch-wlasnej-roboty/</link>
+      <pubDate>Tue, 04 Aug 2015 21:02:45 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/arduino-watch-czyli-smartwatch-wlasnej-roboty/</guid>
+      <description>&lt;p&gt;Pisałem jakiś czas temu o zegarku LG G Watch R. Jest on niczym przy smart zegarku własnej roboty, który bazuje na Arduino. Na instructables pojawił się opis jak zrobić samemu inteligentny zegarek z wysokościomierzem, kompasem i licznikiem kroków. A to wszystko dzięki popularnym i tanim układom: HMC5883L, MPU6050, BMP180.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ciekawe tory dla metalowych kulek</title>
+      <link>https://techfreak.pl/ciekawe-tory-dla-metalowych-kulek/</link>
+      <pubDate>Mon, 26 Jan 2015 18:26:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ciekawe-tory-dla-metalowych-kulek/</guid>
+      <description>&lt;p&gt;To już druga ciekawa informacja którą znalazłem na wykopie! Naprawdę, ciekawe tory dla metalowych kulek. Duże wrażenie robi wyrzutnia, która prawe zawsze trafia do drewnianego koszyka.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zrobić mecha z Nissana?</title>
+      <link>https://techfreak.pl/jak-zrobic-mecha-z-nissana/</link>
+      <pubDate>Fri, 08 Aug 2014 06:16:21 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zrobic-mecha-z-nissana/</guid>
+      <description>&lt;p&gt;Jak zrobić replikę mecha z Nissana? Bardzo prosto. Jeśli ktoś z twojej rodziny ma stary samochód to po co oddawać go na złom czy sprzedać na allegro? Złap za spawarkę i zacznij łączyć elementy starego samochodu według swojej wyobraźni i zbuduj ogromnego robota bojowego który będzie stał na twoim podwórku. Tak właśnie zrobił Prog Wang ze starego nissana. Zobaczcie efekt, jest naprawdę rewelacyjny.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini laser z CD-ROMu i Arduino</title>
+      <link>https://techfreak.pl/mini-laser-z-cd-romu-i-arduino/</link>
+      <pubDate>Wed, 19 Mar 2014 15:14:37 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-laser-z-cd-romu-i-arduino/</guid>
+      <description>&lt;p&gt;Mini laser ze starego cdromu to bardzo popularna przeróbka. A w połączeniu z resztą bebechów tworzy trzy osiową platformę do wypalania różnych kształtów.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Automatyczny prostownik a zimy brak!</title>
+      <link>https://techfreak.pl/automatyczny-prostownik-a-zimy-brak/</link>
+      <pubDate>Tue, 18 Mar 2014 04:44:30 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/automatyczny-prostownik-a-zimy-brak/</guid>
+      <description>&lt;p&gt;Sam na zimę kupiłem na wszelki wypadek kable aby odpalić samochód od sąsiada gdy przyjdą mega mrozy. No ale w tym roku zimy nie było. I tak samo jest z projektem automatycznego prostownika Grylewicza. Prostownik jest i może się przyda się na następny rok.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Amfibia wszędołaz 6×6</title>
+      <link>https://techfreak.pl/amfibia-wszedolaz-6x6/</link>
+      <pubDate>Fri, 21 Feb 2014 16:03:11 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/amfibia-wszedolaz-6x6/</guid>
+      <description>&lt;p&gt;Wracając z zakątków internetu postanowiłem wejść na pewien znany wszystkim portal elektroniczny na którym znalazłem całkiem fajny projekt sześciokołowej amfibii o nazwie „wszędołaz”. Pojazd został zrobiony między innymi z części od malucha. Choć powoduje uśmiech na twarzy nie można odmówić autorowi podziwu, staranności i pracy włożonej w to cudo :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Uwaga bomba!</title>
+      <link>https://techfreak.pl/uwaga-bomba/</link>
+      <pubDate>Mon, 17 Feb 2014 21:15:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/uwaga-bomba/</guid>
+      <description>&lt;p&gt;Uwaga chciałbym wszystkich odwiedzających techfreak.pl ostrzec na stronie jest bomba!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Płytka prototypowa ARM za pięć dolców</title>
+      <link>https://techfreak.pl/plytka-prototypowa-arm-za-piec-dolcow/</link>
+      <pubDate>Wed, 07 Aug 2013 20:12:49 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/plytka-prototypowa-arm-za-piec-dolcow/</guid>
+      <description>&lt;p&gt;Pojawiła się całkiem tania i fajna płytka prototypowa z mikroprocesorem ARM na pokładzie o nazwie &lt;strong&gt;MC HCK&lt;/strong&gt;. Jej główną zaletą jest to że jest programowana przez złącze USB, jest tania, tania, tania i każdy może złożyć ją samemu w domu.&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/08/mchck-arm.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4652&#34; title=&#34;Płytka prototypowa ARM&#34; alt=&#34;Płytka prototypowa ARM&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/08/mchck-arm.jpg&#34; width=&#34;614&#34; height=&#34;410&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/08/mchck-arm.jpg 614w, http://techfreak.pl/wp-content/uploads/2013/08/mchck-arm-300x200.jpg 300w&#34; sizes=&#34;(max-width: 614px) 100vw, 614px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Znowu o CNC czyli DIY Arduino CNC</title>
+      <link>https://techfreak.pl/znowu-o-cnc-czyli-diy-arduino-cnc/</link>
+      <pubDate>Wed, 31 Jul 2013 20:48:39 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/znowu-o-cnc-czyli-diy-arduino-cnc/</guid>
+      <description>Coraz bardziej kusi mnie zbudowanie jakiejś maszynki DIY, czy to drukarki 3D czy maszyny CNC. I właśnie znalazłem fajny projekt od którego można było by zacząć przygodę z CNC mianowicie Arduino CNC Shield.
+
+Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu Arduino CNC Shield. Jest to drukowana dwustronna płytka która pasuje do podstawowej wersji arduino i posiada sloty na trzy sterowniki silników krokowych. Projekt zakłada użycie np. sterowników Pololu które w razie uszkodzenia bez problemu można wymienić.</description>
+    </item>
+    
+    <item>
+      <title>DIY Frezarka CNC – Ty nie zrobisz?</title>
+      <link>https://techfreak.pl/diy-frezarka-cnc-ty-nie-zrobisz/</link>
+      <pubDate>Wed, 24 Jul 2013 21:53:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/diy-frezarka-cnc-ty-nie-zrobisz/</guid>
+      <description>&lt;p&gt;Latając po internetach, ciągle ostatnio szukam jak zrobić drukarkę 3D, no ale że nie mam na to na razie funduszy &lt;del&gt;(żona nie pozwala)&lt;/del&gt; to pomyślałem, no to może chociaż frezarka CNC ?! Jak zobaczyłem ceny to mi szczena opadła bo koszt jest porównywalny do drukarki 3D. Ale wpadł mi w oko jeden amatorski projekt frezarki CNC, całkiem przyjemnie opisany i wykonany. No może na CNC się nie znam ale jak dla mnie całkiem ok. Jak potem się okazało blog autora też spoko. A mowa o blogu &lt;a href=&#34;http://www.mlodedrwale.pl/&#34;&gt;mlodedrwale.pl&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Masz stary TV ? No to masz gdzie trzymać rybki</title>
+      <link>https://techfreak.pl/masz-stary-tv-no-to-masz-gdzie-trzymac-rybki/</link>
+      <pubDate>Thu, 20 Dec 2012 19:40:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/masz-stary-tv-no-to-masz-gdzie-trzymac-rybki/</guid>
+      <description>Haha no nie mogę, akwarium w TV, zawsze o czymś takim myślałem ale jakoś nie miałem stylowego starego telewizora no i rybek. No ale nie ważne, jak macie ochotę popatrzeć jak to zostało zrobione zapraszam tutaj. Niestety nie ma tym razem filmiku.
+Znalezione na hackaday.com</description>
+    </item>
+    
+  </channel>
+</rss>

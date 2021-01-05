@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dysk on techfreak blog</title>
+    <link>https://techfreak.pl/tags/dysk/</link>
+    <description>Recent content in dysk on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 26 Apr 2017 13:35:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/dysk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak rozszerzyć dysk na LVM?</title>
+      <link>https://techfreak.pl/jak-rozszerzyc-dysk-na-lvm/</link>
+      <pubDate>Wed, 26 Apr 2017 13:35:31 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-rozszerzyc-dysk-na-lvm/</guid>
+      <description>&lt;p&gt;Zobacz jak rozszerzyć dysk/partycje która jest zarządzana przez LVM i nie stracić danych.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Banana Pi R1 system na zewnętrznym dysku</title>
+      <link>https://techfreak.pl/banana-pi-r1-system-zewnetrznym-dysku/</link>
+      <pubDate>Mon, 06 Mar 2017 14:31:13 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/banana-pi-r1-system-zewnetrznym-dysku/</guid>
+      <description>&lt;p&gt;Jak zacząć pracę z mini komputerem Banana PI R1?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak powstają dyski SSD ?</title>
+      <link>https://techfreak.pl/jak-powstaja-dyski-ssd/</link>
+      <pubDate>Thu, 17 Jan 2013 23:46:46 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-powstaja-dyski-ssd/</guid>
+      <description>&lt;p&gt;Całkiem fajne Video jak od początku do końca powstają dyski SSD w firmie Crucial :)&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

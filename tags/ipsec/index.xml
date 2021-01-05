@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ipsec on techfreak blog</title>
+    <link>https://techfreak.pl/tags/ipsec/</link>
+    <description>Recent content in ipsec on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 20 May 2015 14:48:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/ipsec/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OpenSwan VPN – troubleshooting</title>
+      <link>https://techfreak.pl/openswan-vpn-troubleshooting/</link>
+      <pubDate>Wed, 20 May 2015 14:48:22 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/openswan-vpn-troubleshooting/</guid>
+      <description>&lt;p&gt;Dziś kolejny wpis na temat IPsec VPN a dokładnie trochę o konfiguracji OpenSwan który jest trochę bardziej popularny niż LibreSwan (fork) o którym pisałem &lt;a href=&#34;http://techfreak.pl/libreswan-konfiguracja-vpn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ostatnio&lt;/a&gt;. W zasadzie konfiguracja nie będzie się wiele różnić dlatego napisze coś o problemach przy zestawianiu takiego połączenia. Osobiście zestawiałem takie połączenia np. z &lt;a href=&#34;http://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-na-checkpoint-r65/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;checkpointem&lt;/a&gt;, &lt;a href=&#34;http://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-dla-cisco-do-urzadzen-innych-niz-cisco/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cisco&lt;/a&gt; czy &lt;a href=&#34;http://techfreak.pl/ipsec-vpn-racoon-site-2-site/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;racoon&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Libreswan – konfiguracja VPN</title>
+      <link>https://techfreak.pl/libreswan-konfiguracja-vpn/</link>
+      <pubDate>Thu, 19 Feb 2015 15:00:25 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/libreswan-konfiguracja-vpn/</guid>
+      <description>&lt;p&gt;Dawno nie pisałem nic o VPN a ogólnie na co dzień robię dużo różnych konfiguracji. Zresztą na TF można znaleźć parę krótkich opisów jak zestawić VPN &lt;a href=&#34;http://techfreak.pl/tag/vpn-2&#34; target=&#34;_blank&#34;&gt;techfreak.pl/tag/vpn-2/&lt;/a&gt;. Tym razem krótki opis jak skonfigurować VPN site 2 site przy pomocy Libreswan. Jest to kolejny fork popularnego pakietu OpenSwan.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Server Openvpn na CentOS &#43; klient – telefon z systemem android</title>
+      <link>https://techfreak.pl/server-openvpn-na-centos-klient-telefon-z-systemem-android/</link>
+      <pubDate>Tue, 10 Jan 2012 09:32:03 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/server-openvpn-na-centos-klient-telefon-z-systemem-android/</guid>
+      <description>&lt;p&gt;Jak skonfigurować serwer OpenVPN i Androida jako klienta ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ipsec/l2pt &#43; G1 HTC Dream czyli VPN na Androidzie.</title>
+      <link>https://techfreak.pl/ipsecl2pt-g1-htc-dream-czyli-vpn-na-androidzie/</link>
+      <pubDate>Tue, 10 Jan 2012 09:28:17 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ipsecl2pt-g1-htc-dream-czyli-vpn-na-androidzie/</guid>
+      <description>&lt;p&gt;Jak połączyć się z pierwszego telefonu z Androidem  do serwera VPN na Ipsec/l2tp ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IPsec VPN racoon site 2 site</title>
+      <link>https://techfreak.pl/ipsec-vpn-racoon-site-2-site/</link>
+      <pubDate>Tue, 10 Jan 2012 09:07:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ipsec-vpn-racoon-site-2-site/</guid>
+      <description>&lt;p&gt;Połączenie VPN site to site po między hostem z systemem linuks z pakietem Racoon (ipsec) a Checkpoint NGX R65 (ipsec).&lt;br&gt;
+Poniższa konfiguracja racoon jest o tyle uniwersalna że może się łączyć z każdym innym urządzeniem obsługującym ipsec.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalacja ipsec/l2tp (strongswan4 &#43; xl2tpd) na OpenWRT działa z Androidem</title>
+      <link>https://techfreak.pl/instalacja-ipsecl2tp-strongswan4-xl2tpd-na-openwrt-dziala-z-androidem/</link>
+      <pubDate>Fri, 14 Jan 2011 06:09:13 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/instalacja-ipsecl2tp-strongswan4-xl2tpd-na-openwrt-dziala-z-androidem/</guid>
+      <description>&lt;p&gt;Jak postawić serwer IPsec/l2tp na OpenWrt ? Poniższa konfiguracja działa z Androidem&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

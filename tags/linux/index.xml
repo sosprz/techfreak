@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on techfreak blog</title>
+    <link>https://techfreak.pl/tags/linux/</link>
+    <description>Recent content in Linux on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 01 May 2018 16:34:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Freeradius &#43; Google Authenticator</title>
+      <link>https://techfreak.pl/freeradius-google-authenticator/</link>
+      <pubDate>Tue, 01 May 2018 16:34:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/freeradius-google-authenticator/</guid>
+      <description>&lt;p&gt;Użycie drugiego składnika logowania zabezpiecza dostęp ale może powodować pewne trudności lub koszty we wdrożeniu. Chciałbym pokazać jak za pomocą darmowego radiusa, biblioteki google authenticator i aplikacji w telefonie można zrealizować to zadanie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sieci WiFi na login i hasło</title>
+      <link>https://techfreak.pl/sieci-wifi-login-haslo/</link>
+      <pubDate>Sun, 22 Oct 2017 19:33:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/sieci-wifi-login-haslo/</guid>
+      <description>&lt;p&gt;Jak zrobić dostęp do sieci WiFi na podstawie loginu i hasła? To całkiem proste gdy możemy w domu postawić serwer RADIUS. Serwer Radius to obecnie najpopularniejszy protokół uwierzytelniania i autoryzowania użytkowników sieci LAN i WiFi. Teraz gdy w domu masz możliwość uruchomienia Radius’a na routerze, raspberry pi lub serwerze plików NAS np. Synology, to ten sposób jest w zasięgu reki. Oczywiście poniższy przykład to zajawka i każdy musi zastanowić się czy lepiej dołączyć mamę do WiFi przez WPA2-Enterprise czy samo hasło WPA2-PSK. Czy może jeszcze dodatkowo token fizyczny.&lt;/p&gt;
+&lt;p&gt;Poniższy sposób przedstawia skonfigurowanie routera tplink z obsługą 802.1x, serwera RADIUS na debianie i klientów, którzy wybierają logowanie za pomocą EAP PEAP MS-CHAPv2 podając tylko login i hasło. EAP PEAP jest jedyną metodą gdzie można użyć samego loginu i hasła. Cała komunikacja jest zabezpieczona w tunelu TLS, który jest równolegle zestawiamy przy prośbie o dołączenie do sieci. Dodatkowym atutem jest to, że sposób jest dostępny na wielu systemach i urządzeniach.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pl.wikipedia.org/wiki/Extensible_Authentication_Protocol&#34;&gt;EAP&lt;/a&gt; – Extensible Authentication Protocol&lt;/li&gt;
+&lt;li&gt;PEAP – Protected EAP&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pl.wikipedia.org/wiki/RADIUS&#34;&gt;RADIUS&lt;/a&gt; – Remote Authentication Dial In User Service&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://technet.microsoft.com/en-us/library/cc731462(v=ws.10).aspx&#34;&gt;MS-CHAPv2&lt;/a&gt; – Microsoft Challenge Handshake Authentication Protocol version 2&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pl.wikipedia.org/wiki/IEEE_802.1X&#34;&gt;802.1X&lt;/a&gt; –  Standard IEEE kontroli dostępu do sieci przewodowych i bezprzewodowych&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zrobić bootowalny pendrive z instalacją windowsa na ubuntu?</title>
+      <link>https://techfreak.pl/zrobic-bootowalny-pendrive-instalacja-windowsa-ubuntu/</link>
+      <pubDate>Wed, 23 Aug 2017 11:45:16 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zrobic-bootowalny-pendrive-instalacja-windowsa-ubuntu/</guid>
+      <description>&lt;p&gt;Jak zainstalować windows’a na komputerze bez stacji cdrom? Jak stworzyć bootowalny pendrive z instalacją systemu Windows 7 lub Windows 10?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini laser do grawerowania [test]</title>
+      <link>https://techfreak.pl/mini-laser-grawerowania-test/</link>
+      <pubDate>Mon, 07 Mar 2016 08:47:57 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-laser-grawerowania-test/</guid>
+      <description>&lt;p&gt;Dziś na testach u mnie wylądował &lt;a href=&#34;http://goo.gl/flIYma&#34; target=&#34;_blank&#34;&gt;grawer laserowy z banggood&lt;/a&gt;. Jest to kit do samodzielnego złożenia bazujący na napędach od starych napędów CD-ROM. Napędzanie są one silnikami krokowymi. Zasada działania jest taka sama jak w drukarkach 3D, sercem jest arduino a silniki są napędzane przez kontroler kroku – stepstick. Laser dostaje informacja od arduino kiedy ma być łączony a kiedy nie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>C.H.I.P mini komputer za 32zł</title>
+      <link>https://techfreak.pl/c-h-i-p-mini-komputer-za-32zl/</link>
+      <pubDate>Sat, 09 May 2015 16:09:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/c-h-i-p-mini-komputer-za-32zl/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/c-h-i-p-mini-komputer-za-32zl/chip_mini_computer/&#34; rel=&#34;attachment wp-att-9479&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-9479&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer.jpg&#34; alt=&#34;chip_mini_computer&#34; width=&#34;700&#34; height=&#34;252&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer.jpg 700w, http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer-556x200.jpg 556w, http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer-300x108.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer-624x225.jpg 624w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;No to mamy kolejny mini komputerek który może z powodzeniem konkurować z Raspberry Pi. C.H.I.P to całkiem mała płytka na platformie Alliwner A13 z procesorem 1Ghz, pamięcią 512M DDR3 i 4G nand flash, WiFi b/g/n + bluetooh 4.0 za 9 dolców. Wymiary to 60x40mm, co prawda wyjście VGA lub HDMI wymaga dodatkowej płyty, to S-Video jest na podstawowej płycie. Oprócz tego, mamy do dyspozycji jeden interfejs USB i port ładowania baterii 1S. Na wyprowadzonych pinach skorzystać można z UART, ISP, i2C, 8x GPIO.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/c-h-i-p-mini-komputer-za-32zl/chip_mini_computer_2/&#34; rel=&#34;attachment wp-att-9480&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-9480&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer_2.jpg&#34; alt=&#34;chip_mini_computer_2&#34; width=&#34;700&#34; height=&#34;138&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer_2.jpg 700w, http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer_2-600x118.jpg 600w, http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer_2-300x59.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer_2-624x123.jpg 624w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

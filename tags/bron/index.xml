@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bron on techfreak blog</title>
+    <link>https://techfreak.pl/tags/bron/</link>
+    <description>Recent content in bron on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Mon, 06 May 2013 18:11:55 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/bron/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pistolet 3d</title>
+      <link>https://techfreak.pl/pistolet-3d/</link>
+      <pubDate>Mon, 06 May 2013 18:11:55 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/pistolet-3d/</guid>
+      <description>&lt;p&gt;Nie ma co, drukarki 3D potrafią coraz więcej i są coraz dokładniejsze. Nie trzeba było długo czekać aż ktoś wpadnie na pomysł aby wydrukować pistolet 3D.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

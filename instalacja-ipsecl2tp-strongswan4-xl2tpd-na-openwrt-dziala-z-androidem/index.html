@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Instalacja ipsec/l2tp (strongswan4 &#43; xl2tpd) na OpenWRT działa z Androidem &middot; My Name</title>
+        <meta name="description" content="Jak postawić serwer IPsec/l2tp na OpenWrt ? Poniższa konfiguracja działa z Androidem">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Instalacja ipsec/l2tp (strongswan4 &#43; xl2tpd) na OpenWRT działa z Androidem">
+<meta property="og:description" content="Jak postawić serwer IPsec/l2tp na OpenWrt ? Poniższa konfiguracja działa z Androidem">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/instalacja-ipsecl2tp-strongswan4-xl2tpd-na-openwrt-dziala-z-androidem/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Instalacja ipsec/l2tp (strongswan4 &#43; xl2tpd) na OpenWRT działa z Androidem</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2011-01-14" itemprop="datePublished">Fri, Jan 14, 2011</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 5 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Jak postawić serwer IPsec/l2tp na OpenWrt ? Poniższa konfiguracja działa z Androidem</p>
+<p>Obraz został skompilowany ze wszystkimi pakietami z poniższej listy zaczynających się od kmod, czyli ze wszystkimi potrzebnymi modułami dla IPsec. Cała lista zainstalowanych pakietów:</p>
+<pre class="lang:default decode:true">opkg list_installed
+
+base-files - 43.15-r26590
+block-extroot - 0.0.1-2
+block-mount - 0.1.0-2
+busybox - 1.15.3-2
+crda - 1.1.1-1
+dnsmasq - 2.55-6
+dropbear - 0.52-4
+e2fsprogs - 1.41.11-1
+firewall - 2-24
+hotplug2 - 1.0-beta-2
+ip - 2.6.29-1-2
+ipsec-tools - 0.7.3-3
+iptables - 1.4.6-2
+iptables-mod-conntrack - 1.4.6-2
+iptables-mod-ipsec - 1.4.6-2
+iptables-mod-nat - 1.4.6-2
+iw - 0.9.22-1
+kernel - 2.6.32.27-1
+kmod-b43 - 2.6.32.27+2011-04-06-2
+kmod-b43legacy - 2.6.32.27+2011-04-06-2
+kmod-cfg80211 - 2.6.32.27+2011-04-06-2
+kmod-crc-ccitt - 2.6.32.27-1
+kmod-crypto-aes - 2.6.32.27-1
+kmod-crypto-arc4 - 2.6.32.27-1
+kmod-crypto-authenc - 2.6.32.27-1
+kmod-crypto-core - 2.6.32.27-1
+kmod-crypto-des - 2.6.32.27-1
+kmod-crypto-hmac - 2.6.32.27-1
+kmod-crypto-md5 - 2.6.32.27-1
+kmod-crypto-sha1 - 2.6.32.27-1
+kmod-diag - 2.6.32.27-7.1
+kmod-fs-ext2 - 2.6.32.27-1
+kmod-ipip - 2.6.32.27-1
+kmod-ipsec - 2.6.32.27-1
+kmod-ipsec4 - 2.6.32.27-1
+kmod-ipt-conntrack - 2.6.32.27-1
+kmod-ipt-core - 2.6.32.27-1
+kmod-ipt-ipsec - 2.6.32.27-1
+kmod-ipt-nat - 2.6.32.27-1
+kmod-iptunnel4 - 2.6.32.27-1
+kmod-mac80211 - 2.6.32.27+2011-04-06-2
+kmod-nls-base - 2.6.32.27-1
+kmod-pcmcia-core - 2.6.32.27-1
+kmod-pcmcia-yenta - 2.6.32.27-1
+kmod-ppp - 2.6.32.27-1
+kmod-pppoe - 2.6.32.27-1
+kmod-scsi-core - 2.6.32.27-1
+kmod-switch - 2.6.32.27-4
+kmod-usb-core - 2.6.32.27-1
+kmod-usb-ohci - 2.6.32.27-1
+kmod-usb-storage - 2.6.32.27-1
+kmod-usb-uhci - 2.6.32.27-1
+kmod-usb2 - 2.6.32.27-1
+libblkid - 1.41.11-1
+libc - 0.9.30.1-43.15
+libext2fs - 1.41.11-1
+libgcc - 4.3.3+cs-43.15
+libgmp - 4.3.1-2
+libip4tc - 1.4.6-2
+libip6tc - 1.4.6-2
+libiptc - 1.4.6-2
+libnl-tiny - 0.1-1
+libopenssl - 0.9.8p-1
+libpthread - 0.9.30.1-43.15
+librt - 0.9.30.1-43.15
+libuci - 12012009.6-3
+libuuid - 1.41.11-1
+libxtables - 1.4.6-2
+mtd - 13
+nvram - 7
+opkg - 576-1
+ppp - 2.4.4-16
+ppp-mod-pppoe - 2.4.4-16
+strongswan4 - 4.3.7-1
+strongswan4-app-charon - 4.3.7-1
+strongswan4-app-pluto - 4.3.7-1
+strongswan4-default - 4.3.7-1
+strongswan4-mod-aes - 4.3.7-1
+strongswan4-mod-attr - 4.3.7-1
+strongswan4-mod-des - 4.3.7-1
+strongswan4-mod-dnskey - 4.3.7-1
+strongswan4-mod-fips-prf - 4.3.7-1
+strongswan4-mod-gmp - 4.3.7-1
+strongswan4-mod-hmac - 4.3.7-1
+strongswan4-mod-md5 - 4.3.7-1
+strongswan4-mod-pem - 4.3.7-1
+strongswan4-mod-pgp - 4.3.7-1
+strongswan4-mod-pkcs1 - 4.3.7-1
+strongswan4-mod-pubkey - 4.3.7-1
+strongswan4-mod-random - 4.3.7-1
+strongswan4-mod-resolve - 4.3.7-1
+strongswan4-mod-sha1 - 4.3.7-1
+strongswan4-mod-sha2 - 4.3.7-1
+strongswan4-mod-stroke - 4.3.7-1
+strongswan4-mod-updown - 4.3.7-1
+strongswan4-mod-x509 - 4.3.7-1
+strongswan4-mod-xcbc - 4.3.7-1
+strongswan4-utils - 4.3.7-1
+uci - 12012009.6-3
+udevtrigger - 106-1
+wireless-tools - 29-4
+wpad-mini - 20110402-1
+xl2tpd - 1.2.5-1
+zlib - 1.2.3-5</pre>
+<p>lista modyfikowanych plików:</p>
+<p>/etc/ipsec.conf<br>
+/etc/ipsec.secrets<br>
+/etc/xl2tpd/xl2tp-secrets<br>
+/etc/xl2tpd/xl2tpd.conf<br>
+/etc/ppp/options.xl2tpd<br>
+/etc/ppp/chap-secrets<br>
+/etc/config/firewall<br>
+/etc/init.d/firewall-user (nowy)<br>
+/etc/init.d/ipsec (nowy)</p>
+<p>Instalacja potrzebnych pakietów:</p>
+<pre class="lang:default decode:true">opkg install xl2tpd
+opkg install strongswan4-default</pre>
+<p> </p>
+<p>konfiguracja ipsec<br>
+/etc/ipsec.conf</p>
+<pre class="lang:default decode:true">config setup
+nat_traversal=yes
+charonstart=yes
+plutostart=yes
+conn L2TP
+authby=psk
+pfs=no
+rekey=no
+type=transport
+left=x.x.x.x ; zew.addr.ip
+leftnexthop=%defaultroute
+leftprotoport=17/1701
+right=%any
+rightprotoport=17/%any
+rightsubnetwithin=0.0.0.0/0
+auto=add</pre>
+<p>ustawiamy haslo PSK dla ipsec</p>
+<p>/etc/ipsec-secrets</p>
+<pre class="lang:default decode:true">: PSK "tajne_haslo"</pre>
+<p> </p>
+<p>Przygotowanie skryptu startowego dla ipsec<br>
+/etc/init.d/ipsec</p>
+<pre class="lang:default decode:true">#!/bin/sh /etc/rc.common
+START=60
+start() {
+echo ipsec start
+ipsec start
+}
+stop() {
+ipsec stop
+killall ipsec
+killall starter
+killall pluto
+}</pre>
+<p> </p>
+<p>Ndajemy uprawnienia do wykoania i włączamy serwis ipsec</p>
+<pre class="lang:default decode:true">chmod 755 /etc/init.d/ipsec
+/etc/init.d/ipsec enable
+/etc/init.d/ipsec start</pre>
+<p> </p>
+<p>konfiguracja xl2tpd<br>
+/etc/xl2tpd/xl2tpd.conf</p>
+<pre class="lang:default decode:true">[global]
+debug network = yes
+debug tunnel = yes
+port = 1701
+listen-addr = x.x.x.x
+[lns default]
+ip range = 192.168.254.202-192.168.254.210
+local ip = 192.168.254.200
+refuse pap = yes
+require chap = yes
+require authentication = yes
+name = user
+ppp debug = yes
+pppoptfile = /etc/ppp/options.xl2tpd
+length bit = yes</pre>
+<p>Konfiguracja opcji dla xl2tpd</p>
+<p>vi /etc/ppp/options.xl2tpd</p>
+<pre class="lang:default decode:true">name user
+lock
+auth
+debug
+dump
+logfd 2
+logfile /var/log/xl2tpd.log
+noccp
+novj
+novjccomp
+nopcomp
+noaccomp</pre>
+<p>Konfiguracja użytkowników i haseł dla xl2tps</p>
+<p>vi /etc/ppp/chap-secrets</p>
+<pre class="lang:default decode:true">#USERNAME PROVIDER PASSWORD IPADDRESS
+user * tajne_haslo 192.168.254.202</pre>
+<p>Włączenie i uruchomienie xl2tpd</p>
+<pre class="lang:default decode:true">/etc/init.d/xl2tpd enable
+/etc/init.d/xl2tpd start</pre>
+<p>Zmiany w firewallu (defaultowy firewall zostnie wyłączony)</p>
+<pre class="lang:default decode:true">/etc/init.d/firewall disable
+touch /etc/init.d/firewall-user
+chmod 755 /etc/init.d/firewall-user</pre>
+<p> </p>
+<p>Firewall wraz ze skryptem startowym<br>
+vi /etc/init.d/firewall-user</p>
+<pre class="lang:default decode:true">#!/bin/sh /etc/rc.common
+i=/usr/sbin/iptables
+START=44
+start() {
+# czyszcznie regul
+$i -F
+$i -X
+$i -X -t nat
+$i -F -t nat
+$i -X -t mangle
+$i -F -t mangle
+# localhost
+$i -A INPUT -i lo -j ACCEPT
+$i -A FORWARD -o lo -j ACCEPT
+$i -A OUTPUT -o lo -j ACCEPT
+# domyslna polityka
+$i -P OUTPUT ACCEPT
+$i -P FORWARD ACCEPT
+$i -P INPUT DROP
+$i -A INPUT -i eth0 -j ACCEPT
+$i -A INPUT -i eth0.0 -j ACCEPT
+$i -A INPUT -i br-lan -j ACCEPT
+$i -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+$i -t nat -A POSTROUTING -o eth0.1 -j MASQUERADE
+#dhcp
+#$i -A INPUT -i eth0.1 -p udp --dport 68 -j ACCEPT
+#ssh
+$i -A INPUT -i eth0.1 -p tcp --dport 22 -j ACCEPT
+$i -A INPUT -m limit --limit 30/min -p tcp --dport 22 -j ACCEPT
+# ipsec + l2tp
+$i -A INPUT -i eth0.1 -p esp -j ACCEPT
+$i -A INPUT -i eth0.1 -p ah -j ACCEPT
+$i -A INPUT -i eth0.1 -p udp --dport 500 -j ACCEPT
+$i -A INPUT -i eth0.1 -p udp --dport 4500 -j ACCEPT
+$i -A INPUT -i eth0.1 -p udp --dport 1701 -j ACCEPT
+#Syn-flood protection:
+$i -A INPUT -p tcp --syn -m limit --limit 1/s -j ACCEPT
+#Furtive port scanner:
+$i -A INPUT -p tcp --tcp-flags SYN,ACK,FIN,RST RST -m limit --limit 1/s -j ACCEPT
+}
+stop() {
+$i -F
+$i -X
+$i -X -t nat
+$i -F -t nat
+$i -X -t mangle
+$i -F -t mangle
+$i -P INPUT ACCEPT
+$i -P OUTPUT ACCEPT
+$i -P FORWARD ACCEPT
+}</pre>
+<p> </p>
+<p>Włączenie nowego firewalla</p>
+<pre class="lang:default decode:true">/etc/init.d/firewall-user start
+/etc/init.d/firewall-user enable</pre>
+<p>Ręczne startowanie serwisów</p>
+<pre class="lang:default decode:true">ipsec start
+xl2tpd -D</pre>
+<p> </p>
+<p>Debug tunelu</p>
+<pre class="lang:default decode:true">tail -f /var/log/xl2tpd.log</pre>
+<p> </p>
+<p>Manuale<br>
+<a href="http://linux.die.net/man/8/pppd">http://linux.die.net/man/8/pppd</a><br>
+<a href="http://linux.die.net/man/5/xl2tpd.conf">http://linux.die.net/man/5/xl2tpd.conf</a></p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/ipsec/">ipsec</a>, 
+                <a href="/tags/l2tp/">l2tp</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Instalacja%20ipsec%2fl2tp%20%28strongswan4%20%2b%20xl2tpd%29%20na%20OpenWRT%20dzia%c5%82a%20z%20Androidem&url=https%3a%2f%2ftechfreak.pl%2finstalacja-ipsecl2tp-strongswan4-xl2tpd-na-openwrt-dziala-z-androidem%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2finstalacja-ipsecl2tp-strongswan4-xl2tpd-na-openwrt-dziala-z-androidem%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

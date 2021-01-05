@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Raspberry Pi RTC DS1307 &#43; nettemp &middot; My Name</title>
+        <meta name="description" content="Podobno tej jednej funkcji brakuje w Raspberry Pi najbardziej, podtrzymania czasu rzeczywistego za pomocą bateryjki. Razpberry Pi nie zostało wyposażone w RTC pewnie z tego powodu że istnieje alternatywa w postacji NTP. Jednak czasem z różnych powodów RTC jest potrzebne i poniżej pokażę jak podłączyć i zainstalować taki moduł w Raspberry Pi.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Raspberry Pi RTC DS1307 &#43; nettemp">
+<meta property="og:description" content="Podobno tej jednej funkcji brakuje w Raspberry Pi najbardziej, podtrzymania czasu rzeczywistego za pomocą bateryjki. Razpberry Pi nie zostało wyposażone w RTC pewnie z tego powodu że istnieje alternatywa w postacji NTP. Jednak czasem z różnych powodów RTC jest potrzebne i poniżej pokażę jak podłączyć i zainstalować taki moduł w Raspberry Pi.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Raspberry Pi RTC DS1307 &#43; nettemp</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2014-12-10" itemprop="datePublished">Wed, Dec 10, 2014</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Podobno tej jednej funkcji brakuje w Raspberry Pi najbardziej, podtrzymania czasu rzeczywistego za pomocą bateryjki. Razpberry Pi nie zostało wyposażone w RTC pewnie z tego powodu że istnieje alternatywa w postacji NTP. Jednak czasem z różnych powodów RTC jest potrzebne i poniżej pokażę jak podłączyć i zainstalować taki moduł w Raspberry Pi.</p>
+<h3 id="sprzęt">Sprzęt</h3>
+<p>Na początek trzeba zakupić moduł RTC, ja zakupiłem go na banggood.com</p>
+<p><a href="http://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/techfreak_raspberry_pi_rtc_ds1307_2_1/" rel="attachment wp-att-8324"><img class="aligncenter size-full wp-image-8324" src="http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_2_1.jpg" alt="techfreak_raspberry_pi_rtc_ds1307_2_1" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_2_1.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_2_1-266x200.jpg 266w, http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_2_1-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_2_1-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_2_1-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/techfreak_raspberry_pi_rtc_ds1307_1_1/" rel="attachment wp-att-8325"><img class="aligncenter size-full wp-image-8325" src="http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_1_1.jpg" alt="techfreak_raspberry_pi_rtc_ds1307_1_1" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_1_1.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_1_1-266x200.jpg 266w, http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_1_1-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_1_1-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_1_1-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<h3 id="połączenie">Połączenie</h3>
+<p>Połączenie jest bardzo proste bo łączę moduł do szyny i2c na Raspberry Pi. VCC do 5V, GND – GND, SDA – SDA, SDC – SDC.</p>
+<p><a href="http://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/techfreak_raspberry_pi_rtc_ds1307_3_1/" rel="attachment wp-att-8323"><img class="aligncenter size-full wp-image-8323" src="http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_3_1.jpg" alt="techfreak_raspberry_pi_rtc_ds1307_3_1" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_3_1.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_3_1-266x200.jpg 266w, http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_3_1-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_3_1-624x468.jpg 624w, http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_3_1-200x150.jpg 200w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<h3 id="uruchomienie">Uruchomienie</h3>
+<p>Na pewno trzeba mieć załadowane moduły I2C. I2C w Raspberry Pi można uruchomić w programie <strong>raspi-config</strong> wchodząc do <strong>Advanced Options</strong> a następnie do <strong>I2C</strong>. Po tych czynnościach można wykonać restart i sprawdzić i2cdetect -y 0 lub i2cdetect -y 1 czy moduł RTC został poprawnie wykryty. Jeśli nie masz i2cdetect zainstaluj i2c-tools. W zależności jaką wersję Raspberry Pi posiadasz taki masz numer szyny i2c-1, i2c-0</p>
+<pre>sudo apt-get install i2c-tools</pre>
+<p>Przechodząc dalej, trzeba uruchomić moduł odpowiedzialny za pracę z RTC i wskazać na jakim adresie jest dostępny</p>
+<pre>modprobe rtc-ds1307
+echo ds1307 0x68 &gt; /sys/class/i2c-adapter/i2c-1/new_device
+echo ds1307 0x68 &gt; /sys/class/i2c-adapter/i2c-0/new_device</pre>
+<p>Dodaj do autostartu</p>
+<pre>sudo echo "rtc-ds1307" &gt;&gt; /etc/modules
+sudo sed -i '/exit 0/i echo ds1307 0x68 &gt; \/sys\/class\/i2c-adapter\/'$(ls /dev/i2c-* |awk -F/ '{print $3}')'\/new_device && hwclock -s' /etc/rc.local</pre>
+<p>Po wydaniu polecenia hwclock powinien pokazać datę z 2000 roku, to oznacza że działa.</p>
+<p><a href="http://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/2-6/" rel="attachment wp-att-8333"><img class="aligncenter size-full wp-image-8333" src="http://techfreak.pl/wp-content/uploads/2014/12/2.jpg" alt="2" width="580" height="391" srcset="http://techfreak.pl/wp-content/uploads/2014/12/2.jpg 580w, http://techfreak.pl/wp-content/uploads/2014/12/2-296x200.jpg 296w, http://techfreak.pl/wp-content/uploads/2014/12/2-300x202.jpg 300w" sizes="(max-width: 580px) 100vw, 580px" /></a></p>
+<p>Aby zsynchronizować czas systemowy z RTC trzeba wydać polecenie hwclock -w ale jeśli nie jest poprawny to trzeba wydać polecenie ntp -qg aby synchronizować czas systemowy z jakimś serwerem czasu a dopiero wtedy zapisać go w pamięci DS1307. Jesli nie masz ntp w systemie trzeba go zainstalować.</p>
+<pre>sudo apt-get install ntp
+sudo service ntp restart
+ntpd -qg
+hwclock -w</pre>
+<p>Po takiej operacji zapisał się poprawny czas w module i podtrzymywany jest bateryjką 3.6V. Aby sprawdzić czy na pewno wydaj polecenie hwclock.</p>
+<p><a href="http://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/4-3/" rel="attachment wp-att-8335"><img class="aligncenter size-full wp-image-8335" src="http://techfreak.pl/wp-content/uploads/2014/12/4.jpg" alt="4" width="581" height="388" srcset="http://techfreak.pl/wp-content/uploads/2014/12/4.jpg 581w, http://techfreak.pl/wp-content/uploads/2014/12/4-299x200.jpg 299w, http://techfreak.pl/wp-content/uploads/2014/12/4-300x200.jpg 300w" sizes="(max-width: 581px) 100vw, 581px" /></a></p>
+<p>Teraz w systemie działa Ci NTP i RTC. Jeśli nie będzie połączenia do internetu po restarcie Raspberry Pi weźmie czas z modułu który podłączyłeś.</p>
+<h3 id="nettemp">Nettemp</h3>
+<p>Jeśli masz zainstalowanego nettempa na Raspberry Pi wystarczy przejść do Settings &gt; Time gdzie przygotowałem menu w którym można powyższe czynności wyklikać i nie trzeba martwić się o moduły czy wpisywanie czegoś do plików.</p>
+<p><a href="http://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/attachment/10/" rel="attachment wp-att-8330"><img class="aligncenter size-full wp-image-8330" src="http://techfreak.pl/wp-content/uploads/2014/12/10.jpg" alt="10" width="1028" height="606" srcset="http://techfreak.pl/wp-content/uploads/2014/12/10.jpg 1028w, http://techfreak.pl/wp-content/uploads/2014/12/10-339x200.jpg 339w, http://techfreak.pl/wp-content/uploads/2014/12/10-300x176.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/12/10-1024x603.jpg 1024w, http://techfreak.pl/wp-content/uploads/2014/12/10-624x367.jpg 624w" sizes="(max-width: 1028px) 100vw, 1028px" /></a></p>
+<h3 id="koniec">Koniec</h3>
+<p>Dajcie znać czy wam wszystko działa i jest ok w komentarzach.</p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/nettemp/">nettemp</a>, 
+                <a href="/tags/raspberry-pi/">Raspberry pi</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Raspberry%20Pi%20RTC%20DS1307%20%2b%20nettemp&url=https%3a%2f%2ftechfreak.pl%2fraspberry-pi-rtc-ds1307-nettemp%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fraspberry-pi-rtc-ds1307-nettemp%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

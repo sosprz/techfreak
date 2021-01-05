@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PoE on techfreak blog</title>
+    <link>https://techfreak.pl/tags/poe/</link>
+    <description>Recent content in PoE on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 27 May 2015 21:01:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/poe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi PoE</title>
+      <link>https://techfreak.pl/raspberry-pi-poe/</link>
+      <pubDate>Wed, 27 May 2015 21:01:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-poe/</guid>
+      <description>&lt;p&gt;Dwóch rzeczy mi zawsze brakowało w Raspberry Pi, wbudowanej karty bezprzewodowej (wifi) i zasilania po sieci czyli Power Over Ethernet (PoE). O ile może kiedyś się doczekam wersji Raspberry Pi z wifi to do realizacji funkcji PoE mógłbym zastosować nowy projekt nakładki Pi PoE Switch HAT który właśnie wystartował na &lt;a href=&#34;https://www.kickstarter.com/projects/pisupply/pi-poe-switch-hat-power-over-ethernet-for-raspberr&#34; target=&#34;_blank&#34;&gt;kickstarter&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jaka kamera ip do domu? Test Airlive DM-720</title>
+      <link>https://techfreak.pl/jaka-kamera-ip-domu-test-airlive-dm-720/</link>
+      <pubDate>Sun, 22 Dec 2013 22:48:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jaka-kamera-ip-domu-test-airlive-dm-720/</guid>
+      <description>&lt;p&gt;Po raz kolejny mam przyjemność testować kamerę IP od AirLive, model DM-720. Jest to megapikselowa kamera kopułkowa z diodami IR LED oraz filtrem ICR. Maksymalna rozdzielczość to 1280×720 pikseli. Diody LED oraz filtr IR-Cut pozwalają na wykorzystanie kamery nie tylko w dzień.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

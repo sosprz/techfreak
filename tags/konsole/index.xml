@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>konsole on techfreak blog</title>
+    <link>https://techfreak.pl/tags/konsole/</link>
+    <description>Recent content in konsole on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Fri, 28 Dec 2012 20:06:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/konsole/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OUYA mini konsola – trafia do developerów</title>
+      <link>https://techfreak.pl/ouya-mini-konsola-trafia-do-developerow/</link>
+      <pubDate>Fri, 28 Dec 2012 20:06:58 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ouya-mini-konsola-trafia-do-developerow/</guid>
+      <description>&lt;p&gt;O tym się jakiś czas temu mówiło, &lt;strong&gt;OUYA&lt;/strong&gt; mini konsola z dwoma padami która pojawiła się na &lt;a href=&#34;http://www.kickstarter.com/projects/ouya/ouya-a-new-kind-of-video-game-console&#34; target=&#34;_blank&#34;&gt;kickstarter.com&lt;/a&gt; i od razu zrobiła olbrzymia furorę. Konstruktorzy prosili o 850 000 dolców wsparcia na rozwój a dostali kwotę która przerosła ich oczekiwania &lt;strong&gt;8,596,474 $&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak ożywić starego Game Boy Advance ?</title>
+      <link>https://techfreak.pl/jak-ozywic-starego-game-boy-advance/</link>
+      <pubDate>Wed, 12 Dec 2012 07:18:25 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-ozywic-starego-game-boy-advance/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/jak-ozywic-starego-game-boy-advance/building-a-tiny-arcade-cabinet/&#34; rel=&#34;attachment wp-att-217&#34;&gt;&lt;img class=&#34;size-full wp-image-217 aligncenter&#34; alt=&#34;building-a-tiny-arcade-cabinet&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet.jpg&#34; width=&#34;303&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet.jpg 303w, http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet-251x300.jpg 251w&#34; sizes=&#34;(max-width: 303px) 100vw, 303px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mogę się założyć że ta przeróbka Gameboy’a powstała nie dlatego że autor chciał kiedyś mieć takiego i go nie dostał, ani dlatego że teraz na starość odbija sobie dzieciństwo tylko dlatego że nudziło mu się na maxa. haha. Trzeba przyznać ze z nudów wychodzą naprawdę pięknie wyglądające rzeczy.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

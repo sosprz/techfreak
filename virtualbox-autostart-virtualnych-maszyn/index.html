@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Virtualbox autostart virtualnych maszyn &middot; My Name</title>
+        <meta name="description" content="Dziś temat postaw sobie Windowsa na Linuksie, czyli temat o wirtualizacji a dokładnie o Virtualbox który ma przydatną opcję automatycznego startowania wirtualnych systemów przy starcie głównej fizycznej maszyny. Czyli zakładam że chce postawić sobie jakiś lekki system np. Lubuntu na którym zainstaluje VirtualBoxa i tam stworzę jakieś wirtualne maszyny które będą się automatycznie uruchamiać przy starcie głównego serwera.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Virtualbox autostart virtualnych maszyn">
+<meta property="og:description" content="Dziś temat postaw sobie Windowsa na Linuksie, czyli temat o wirtualizacji a dokładnie o Virtualbox który ma przydatną opcję automatycznego startowania wirtualnych systemów przy starcie głównej fizycznej maszyny. Czyli zakładam że chce postawić sobie jakiś lekki system np. Lubuntu na którym zainstaluje VirtualBoxa i tam stworzę jakieś wirtualne maszyny które będą się automatycznie uruchamiać przy starcie głównego serwera.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/virtualbox-autostart-virtualnych-maszyn/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Virtualbox autostart virtualnych maszyn</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2014-08-22" itemprop="datePublished">Fri, Aug 22, 2014</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Dziś temat postaw sobie Windowsa na Linuksie, czyli temat o wirtualizacji a dokładnie o Virtualbox który ma przydatną opcję automatycznego startowania wirtualnych systemów przy starcie głównej fizycznej maszyny. Czyli zakładam że chce postawić sobie jakiś lekki system np. Lubuntu na którym zainstaluje VirtualBoxa i tam stworzę jakieś wirtualne maszyny które będą się automatycznie uruchamiać przy starcie głównego serwera.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/08/virtualbox_add.jpg"><img class="aligncenter size-full wp-image-7566" src="http://techfreak.pl/wp-content/uploads/2014/08/virtualbox_add.jpg" alt="virtualbox_add" width="553" height="443" srcset="http://techfreak.pl/wp-content/uploads/2014/08/virtualbox_add.jpg 553w, http://techfreak.pl/wp-content/uploads/2014/08/virtualbox_add-300x240.jpg 300w" sizes="(max-width: 553px) 100vw, 553px" /></a></p>
+<p>Moja maszyny nazywa się win7 a użytkownik na linuxie to techfreak. Jako root edytuje plik:</p>
+<pre>nano /etc/default/virtualbox</pre>
+<p>Dodaje do niego dwie linie:</p>
+<pre>VBOXAUTOSTART_DB=/etc/vbox
+VBOXAUTOSTART_CONFIG=/etc/vbox/autostart.conf</pre>
+<p>Nadaje uprawnienia na folder:</p>
+<pre>gpasswd -a techfreak vboxusers
+chgrp vboxusers /etc/vbox
+chmod 1775 /etc/vbox</pre>
+<p>W pliku /etc/vbox/autostart.conf nadaje uprawnienia dla użytkownika techfreak które uprawniają go do odpalania automatycznie virtualnych systemów:</p>
+<pre>nano  /etc/vbox/autostart.conf</pre>
+<pre># Default policy is to deny starting a VM, the other option is "allow".
+default_policy = deny
+# user vbox is allowed to start virtual machines but starting them
+# will be delayed for 10 seconds
+techfreak = {
+ allow = true
+ startup_delay = 10
+}</pre>
+<p>Loguje się jako techfreak:</p>
+<pre>VBoxManage setproperty autostartdbpath /etc/vbox
+VBoxManage modifyvm win7 --autostart-enabled on</pre>
+<p>Restartuje główną maszynę i virtualka win7 powinna się uruchomić. VirtualBox nie potrzebuje środowiska graficznego aby maszyny działały ale potrzebuje aby je stworzyć. Po skończeniu tworzenia win7 można wyłączyć uruchamianie managera logowania lightdm, dodając do CMD gruba linie text.</p>
+<pre>nano /etc/default/grub</pre>
+<pre>GRUB_CMDLINE_LINUX="text"</pre>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/08/virtualbox_kvm.jpg"><img class="aligncenter size-full wp-image-7562" src="http://techfreak.pl/wp-content/uploads/2014/08/virtualbox_kvm.jpg" alt="virtualbox_kvm" width="677" height="480" srcset="http://techfreak.pl/wp-content/uploads/2014/08/virtualbox_kvm.jpg 677w, http://techfreak.pl/wp-content/uploads/2014/08/virtualbox_kvm-300x212.jpg 300w" sizes="(max-width: 677px) 100vw, 677px" /></a> Kolejną rzeczą którą trzeba było by zrobić, to jakoś dobijać się do tej maszyny. Najlepiej po RDP. W opcjach maszyny w zakładce Display jest opcja Remote Display którą trzeba zaznaczyć. Teraz moja maszyna jest dostępna na porcie 3389 tak jak by to była fizyczna maszyna. Z tym bonusem że jest widoczny cały proces uruchamiania maszyny jak w zdalnym KVM. <a href="http://techfreak.pl/wp-content/uploads/2014/08/virtualbox_vm.jpg"><img class="aligncenter size-full wp-image-7563" src="http://techfreak.pl/wp-content/uploads/2014/08/virtualbox_vm.jpg" alt="virtualbox_vm" width="1226" height="724" srcset="http://techfreak.pl/wp-content/uploads/2014/08/virtualbox_vm.jpg 1226w, http://techfreak.pl/wp-content/uploads/2014/08/virtualbox_vm-300x177.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/08/virtualbox_vm-1024x604.jpg 1024w" sizes="(max-width: 1226px) 100vw, 1226px" /></a></p>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/virtualbox/">virtualbox</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Virtualbox%20autostart%20virtualnych%20maszyn&url=https%3a%2f%2ftechfreak.pl%2fvirtualbox-autostart-virtualnych-maszyn%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fvirtualbox-autostart-virtualnych-maszyn%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

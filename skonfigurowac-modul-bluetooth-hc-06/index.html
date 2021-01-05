@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jak skonfigurować moduł bluetooth HC-06 &middot; My Name</title>
+        <meta name="description" content="Kiedyś zakupiłem tani i popularny moduł bluetooth HC-06 i do dziś używam go w swoich projektach. Dziś chciałbym Ci pokazać jak go skonfigurować. Czyli jak ustawić prędkość, zmienić PIN lub nazwę.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Jak skonfigurować moduł bluetooth HC-06">
+<meta property="og:description" content="Kiedyś zakupiłem tani i popularny moduł bluetooth HC-06 i do dziś używam go w swoich projektach. Dziś chciałbym Ci pokazać jak go skonfigurować. Czyli jak ustawić prędkość, zmienić PIN lub nazwę.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/skonfigurowac-modul-bluetooth-hc-06/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Jak skonfigurować moduł bluetooth HC-06</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2014-06-22" itemprop="datePublished">Sun, Jun 22, 2014</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Kiedyś zakupiłem tani i popularny moduł bluetooth HC-06 i do dziś używam go w swoich projektach. Dziś chciałbym Ci pokazać jak go skonfigurować. Czyli jak ustawić prędkość, zmienić PIN lub nazwę.</p>
+<p>Poniżej omawiany moduł bluetooth HC-06</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_0.jpg"><img class="aligncenter size-full wp-image-7244" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_0.jpg" alt="techfreak_bluetooht_HC06_0" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_0.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_0-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_1.jpg"><img class="aligncenter size-full wp-image-7245" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_1.jpg" alt="techfreak_bluetooht_HC06_1" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_1.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_1-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Moduł ma wyprowadzone cztery piny, VCC, GND, TX, RX. Na odwrocie jest wszystko opisane więc podłączenie nie będzie problemem, tym bardziej że pokazany został też zakres napięć do zasilania (3,6-6V).</p>
+<h3 id="podłączenie">Podłączenie</h3>
+<p>Aby podłączyć moduł potrzebny jest konwerter USB-RS232. Ja zakupiłem <a href="http://www.banggood.com/USB-To-RS232-Or-TTL-Serial-FTDI-Chipset-FT232-Computer-Converter-Cable-p-80871.html" target="_blank">USB To RS232</a> na banggod za 9zł.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_2.jpg"><img class="aligncenter size-full wp-image-7246" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_2.jpg" alt="techfreak_bluetooht_HC06_2" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_2.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_2-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_3.jpg"><img class="aligncenter size-full wp-image-7247" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_3.jpg" alt="techfreak_bluetooht_HC06_3" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_3.jpg 1000w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_3-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Powyżej jest pokazane prawidłowe podłączenie. Zielony przewód do RX, biały do TX, czerwony zasilanie i czarny masa.</p>
+<h3 id="komunikacja">Komunikacja</h3>
+<p>Po podłączeniu konwerter został wykryty jako ttyUSB0</p>
+<pre>[59590.857184] usb 2-1.2: Product: USB-Serial Controller
+[59590.857190] usb 2-1.2: Manufacturezur: Prolific Technology Inc.
+[59590.857862] pl2303 2-1.2:1.0: pl2303 converter detected
+[59590.859906] usb 2-1.2: pl2303 converter now attached to ttyUSB0</pre>
+<p>Aby skomunikować się z modułem odpalam program GTKterm. Równie dobrze można odpalić np. putty lub zupełnie coś innego. Ustawiłem prędkość 115200 i wybrałem /dev/ttyUSB0. Aby sprawdzić czy jest komunikacja z HC-06 wydałem polecenie AT a moduł odpowiedział mi OK. Jak zakupisz nowy moduł może mieć on ustawioną zupełnie inną prędkość np. 9600.</p>
+<h3 id="img-classaligncenter-size-full-wp-image-7253-srchttptechfreakplwp-contentuploads201406techfreak_bluetooht_hc06_gtktem0jpg-alttechfreak_bluetooht_hc06_gtktem0-width753-height581-srcsethttptechfreakplwp-contentuploads201406techfreak_bluetooht_hc06_gtktem0jpg-753w-httptechfreakplwp-contentuploads201406techfreak_bluetooht_hc06_gtktem0-300x231jpg-300w-sizesmax-width-753px-100vw-753px-5"><a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem0.jpg"><img class="aligncenter size-full wp-image-7253" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem0.jpg" alt="techfreak_bluetooht_HC06_gtktem0" width="753" height="581" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem0.jpg 753w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem0-300x231.jpg 300w" sizes="(max-width: 753px) 100vw, 753px" /></a></h3>
+<p>Baudrate</p>
+<p>Poniżej pokażę jak przestawić szybkość transmisji. Do wyboru mamy takie jak poniżej. Z tym że najpopularniejsze to 9600 i 115200.</p>
+<ol>
+<li>1200</li>
+<li>2400</li>
+<li>4800</li>
+<li>9600</li>
+<li>19200</li>
+<li>38400</li>
+<li>57600</li>
+<li>115200</li>
+</ol>
+<p>Każda z powyższych ma przypisany swój numerek np. 115200 to numer 8. Aby zmienić szybkość transmisji trzeba wkleić do terminalu</p>
+<pre>AT+BAUD8</pre>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem1.jpg"><img class="aligncenter size-full wp-image-7254" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem1.jpg" alt="techfreak_bluetooht_HC06_gtktem1" width="751" height="575" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem1.jpg 751w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem1-300x229.jpg 300w" sizes="(max-width: 751px) 100vw, 751px" /></a></p>
+<p>Terminal zwrócił 115200 co oznacza ze moduł ustawił taką prędkość.</p>
+<h3 id="zmiana-nazwy">Zmiana nazwy</h3>
+<p>Domyślą nazwą wykrywaną przez inne urządzenia jest HC-06:</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_0.png"><img class="aligncenter wp-image-7268 size-medium" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_0-168x300.png" alt="techfreak_bluetooht_HC06_android_4.4.4_0" width="168" height="300" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_0-168x300.png 168w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_0-576x1024.png 576w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_0.png 1080w" sizes="(max-width: 168px) 100vw, 168px" /></a></p>
+<p>Nazwę zmieniamy komendą AT+NAMEname czyli:</p>
+<pre>AT+NAMEtechfreak.pl</pre>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem2.jpg"><img class="aligncenter size-full wp-image-7255" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem2.jpg" alt="techfreak_bluetooht_HC06_gtktem2" width="750" height="576" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem2.jpg 750w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem2-300x230.jpg 300w" sizes="(max-width: 750px) 100vw, 750px" /></a></p>
+<p>Terminal zwrócił setname, czyli zmienił nazwę na żądaną.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_1.png"><img class="aligncenter wp-image-7269 size-medium" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_1-168x300.png" alt="techfreak_bluetooht_HC06_android_4.4.4_1" width="168" height="300" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_1-168x300.png 168w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_1-576x1024.png 576w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_1.png 1080w" sizes="(max-width: 168px) 100vw, 168px" /></a></p>
+<h3 id="zmiana-pin">Zmiana PIN</h3>
+<p>Nie pamiętam domyślnego PINU ale albo 1234 albo 6789. PIN zmieniam komendą, AT+PINxxxx</p>
+<pre>AT+PIN6789</pre>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem3.jpg"><img class="aligncenter size-full wp-image-7256" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem3.jpg" alt="techfreak_bluetooht_HC06_gtktem3" width="753" height="578" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem3.jpg 753w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem3-300x230.jpg 300w" sizes="(max-width: 753px) 100vw, 753px" /></a></p>
+<p>Dostałem potwierdzenie setPIN czyli jest ok. I sprawdzam łącząc się do modułu.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_1.png"><img class="aligncenter wp-image-7269 size-medium" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_1-168x300.png" alt="techfreak_bluetooht_HC06_android_4.4.4_1" width="168" height="300" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_1-168x300.png 168w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_1-576x1024.png 576w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_1.png 1080w" sizes="(max-width: 168px) 100vw, 168px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_2.png"><img class="aligncenter wp-image-7270 size-medium" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_2-168x300.png" alt="techfreak_bluetooht_HC06_android_4.4.4_2" width="168" height="300" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_2-168x300.png 168w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_2-576x1024.png 576w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_2.png 1080w" sizes="(max-width: 168px) 100vw, 168px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_3.png"><img class="aligncenter wp-image-7271 size-medium" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_3-168x300.png" alt="techfreak_bluetooht_HC06_android_4.4.4_3" width="168" height="300" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_3-168x300.png 168w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_3-576x1024.png 576w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_3.png 1080w" sizes="(max-width: 168px) 100vw, 168px" /></a></p>
+<p> </p>
+<h3 id="version">Version</h3>
+<p>Aby sprawdzić jaką wersje firmware posiadamy w HC-06 wklejamy komendę:</p>
+<pre>AT+VERSION
+
+</pre>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem4.jpg"><img class="aligncenter size-full wp-image-7257" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem4.jpg" alt="techfreak_bluetooht_HC06_gtktem4" width="753" height="575" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem4.jpg 753w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_gtktem4-300x229.jpg 300w" sizes="(max-width: 753px) 100vw, 753px" /></a></p>
+<p>Moja wersja to linvorV1.8</p>
+<h3 id="bluetooth-i-android">Bluetooth i Android</h3>
+<p>Jak mam już sparowany telefon i moduł, a moduł wciąż jest podłączony do komputera to sprawdzę czy jest komunikacja pomiędzy komputerem a telefonem z Androidem. Zainstalowałem darmowy program <a href="https://play.google.com/store/apps/details?id=com.asaxen.e.bluedatatooth" target="_blank">BlueArduino</a>, połączyłem się a w terminalu na komputerze wpisałem „test z kompa” który pojawił się od razu na telefonie.</p>
+<p> </p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_4.png"><img class="aligncenter wp-image-7272 size-medium" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_4-168x300.png" alt="techfreak_bluetooht_HC06_android_4.4.4_4" width="168" height="300" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_4-168x300.png 168w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_4-576x1024.png 576w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_4.png 1080w" sizes="(max-width: 168px) 100vw, 168px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_5.png"><img class="aligncenter wp-image-7273 size-medium" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_5-168x300.png" alt="techfreak_bluetooht_HC06_android_4.4.4_5" width="168" height="300" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_5-168x300.png 168w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_5-576x1024.png 576w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_5.png 1080w" sizes="(max-width: 168px) 100vw, 168px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_6.png"><img class="aligncenter wp-image-7274 size-medium" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_6-168x300.png" alt="techfreak_bluetooht_HC06_android_4.4.4_6" width="168" height="300" srcset="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_6-168x300.png 168w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_6-576x1024.png 576w, http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_android_4.4.4_6.png 1080w" sizes="(max-width: 168px) 100vw, 168px" /></a></p>
+<h3 id="podsumowanie">Podsumowanie</h3>
+<p>Trochę tych opisów wszyło ale są to podstawy które mogą się przydać przy użytkowaniu modułu HC-06. Mam nadzieje że tobie wszystko poprawie działa jak mi :) Mi ten moduł się przydał między innymi do testu robota <a href="http://techfreak.pl/test-arexx-arduino-robot-aar-04/">AAR-04</a>.</p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/bluetooth/">bluetooth</a>, 
+                <a href="/tags/usb/">usb</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Jak%20skonfigurowa%c4%87%20modu%c5%82%20bluetooth%20HC-06&url=https%3a%2f%2ftechfreak.pl%2fskonfigurowac-modul-bluetooth-hc-06%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fskonfigurowac-modul-bluetooth-hc-06%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

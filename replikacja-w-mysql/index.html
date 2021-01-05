@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Replikacja w MYSQL &middot; My Name</title>
+        <meta name="description" content="Jak zrobić replikacje baz danych pomiędzy hostami ?">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Replikacja w MYSQL">
+<meta property="og:description" content="Jak zrobić replikacje baz danych pomiędzy hostami ?">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/replikacja-w-mysql/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Replikacja w MYSQL</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2012-11-20" itemprop="datePublished">Tue, Nov 20, 2012</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Jak zrobić replikacje baz danych pomiędzy hostami ?</p>
+<p>Jeżeli chcemy kopiować (w locie) bazy danych/tabele na innego hosta to do tego możemy użyć replikacji. Replikacja to jak by aktualny backup naszej bazy na innym hoscie.<br>
+W przypadku updatu tabeli na masterze wszystkie komendy wykonują się również na slave.(uwaga z funkcjami do generowania liczb)<br>
+<strong>I. Podstawowa instalacja serwera mysql</strong></p>
+<ol>
+<li>Konfiguracja serwera mysqld (master,slave):</li>
+</ol>
+<pre class="lang:pgsql decode:true"># /usr/bin/mysql_install_db
+# /etc/init.d/mysql start
+# /usr/bin/mysqladmin -u root password 'naszehaslo'</pre>
+<p>Łączymy się do serwera i zmieniamy ustawienia dot. połączenia (umożliwiamy łączenie się wszystkich hostów do naszego serwera)</p>
+<pre class="lang:pgsql decode:true"># mysql -u root -p
+mysql&gt; update mysql.user set host='%' where host='localhost';
+mysql&gt; FLUSH PRIVILEGES;
+mysql&gt; quit</pre>
+<ol start="2">
+<li>na serwerze master:<br>
+Założenia: używamy silnika MyISAM<br>
+Zmieniamy parametry pliku /etc/mysql/my.cnf na:</li>
+</ol>
+<pre class="lang:pgsql decode:true">bind-address                            = 0.0.0.0
+log-bin                                 = mysql-bin
+max_binlog_size                         = 40M
+server-id                               = 1</pre>
+<p>Po zmianach w my.cnf robimy restart mysqld</p>
+<pre class="lang:pgsql decode:true"># /etc/init.d/mysql restart
+# mysql -u root -p
+mysql&gt; GRANT REPLICATION SLAVE ON *.* TO 'user-do-replikacji'@'%' IDENTIFIED BY 'nasze_haslo_do replikacji';
+mysql&gt; show master status;</pre>
+<p>Zapamiętujemy: File oraz Position<br>
+3) konfiguracja na serwerze slave:<br>
+Zmieniamy parametry pliku /etc/mysql/my.cnf na:</p>
+<pre>bind-address                            = 0.0.0.0
+log-bin
+server-id                               = 2</pre>
+<p>Po zmianach w my.cnf robimy restart mysqld</p>
+<pre class="lang:pgsql decode:true">mysql&gt; CHANGE MASTER TO MASTER_HOST='host-mysql-master.example.net.pl', MASTER_USER='user-do-replikacji', MASTER_PASSWORD='nasze_haslo_do replikacji', MASTER_LOG_FILE='nazwa-plik-bin-log', MASTER_LOG_POS=numer-pozycji;
+mysql&gt; START SLAVE;</pre>
+<ol start="4">
+<li>Przydatne komendy:</li>
+</ol>
+<pre class="lang:pgsql decode:true">mysql&gt; show master statusG;
+mysql&gt; show slave statusG;
+mysql&gt; show VARIABLES;</pre>
+<p><strong>II. Zamiana serwera slava na master</strong></p>
+<ol>
+<li>na serwerze slave wykonujemy:</li>
+</ol>
+<pre># /etc/init.d/mysql stop
+# rm -r /var/lib/mysql/</pre>
+<p>Potem czynności z Pkt. I Podpunkt 1 oraz 2.<br>
+UWAGA: „server-id” na każdym serwerze muszą być unikatowe !!</p>
+<p><strong>III. Połączanie kolejnego Slave:</strong><br>
+Metoda ta jest w 1 kroku skomplikowana (chodzi o mastera) ale potem połączenie kolejnych slave’ów jest bardzo proste.</p>
+<ol>
+<li>Master:<br>
+Trzeba do bin-loga zapisać wszystkie dane po swirzej instalacji mysql.  Zapamiętać pozycje po czystej instalacji(podstawowe rzeczy jak w I.1 oraz I.2)<br>
+Wgrać dane z wcześniej zrobionego mysqldump’a.</li>
+<li>slave:<br>
+Standardowo procedura jak I.1 oraz I.3 a pozycje wpisujemy jaka była mastera po świeżej instalacji.</li>
+</ol>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/gentoo/">gentoo</a>, 
+                <a href="/tags/mysql/">mysql</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Replikacja%20w%20MYSQL&url=https%3a%2f%2ftechfreak.pl%2freplikacja-w-mysql%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2freplikacja-w-mysql%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jak uruchomić DVBT na it9135 &middot; My Name</title>
+        <meta name="description" content="Przy grzebaniu w moich kartonach znalazłem tuner DVB-T USB na układzie it9135 którego nigdy w zasadzie nie uruchomiłem i tak do końca nie używałem. Tym razem udało mi się uruchomić programy TV, więc pokaże Ci jak to zrobiłem.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Jak uruchomić DVBT na it9135">
+<meta property="og:description" content="Przy grzebaniu w moich kartonach znalazłem tuner DVB-T USB na układzie it9135 którego nigdy w zasadzie nie uruchomiłem i tak do końca nie używałem. Tym razem udało mi się uruchomić programy TV, więc pokaże Ci jak to zrobiłem.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/uruchomic-dvbt-it9135/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Jak uruchomić DVBT na it9135</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2014-06-07" itemprop="datePublished">Sat, Jun 7, 2014</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 3 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Przy grzebaniu w moich kartonach znalazłem tuner DVB-T USB na układzie it9135 którego nigdy w zasadzie nie uruchomiłem i tak do końca nie używałem. Tym razem udało mi się uruchomić programy TV, więc pokaże Ci jak to zrobiłem.</p>
+<p>Po włożeniu tunera do USB dostałem takie komunikaty jak poniżej z których można wyczytać że nie mam  odpowiedniego firmwar’u do tego tunera.</p>
+<pre>[ 7647.180808] usb 2-1.2: new high-speed USB device number 4 using ehci-pci
+ [ 7647.275262] usb 2-1.2: New USB device found, idVendor=048d, idProduct=9135
+ [ 7647.275275] usb 2-1.2: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+ [ 7647.414106] it913x: Chip Version=02 Chip Type=9135
+ [ 7647.415229] it913x: Dual mode=0 Tuner Type=38it913x: Unknown tuner ID applying default 0x60
+ [ 7647.416985] usb 2-1.2: dvb_usb_v2: found a 'ITE 9135 Generic' in cold state
+ [ 7647.417648] usb 2-1.2: Direct firmware load failed with error -2
+ [ 7647.417652] usb 2-1.2: Falling back to user helper
+ [ 7647.418581] usb 2-1.2: dvb_usb_v2: Did not find the firmware file 'dvb-usb-it9135-02.fw'. Please see linux/Documentation/dvb/ for more details on firmware-problems. Status -2
+ [ 7647.418592] dvb_usb_it913x: probe of 2-1.2:1.0 failed with error -2</pre>
+<p>Ściągnąłem program do ściągania firmwarów do DVB-T i ściągnąłem firmware :)</p>
+<pre>cd /lib/firmware
+sudo wget https://raw.githubusercontent.com/torvalds/linux/master/Documentation/dvb/get_dvb_firmware
+./get_dvb_firmware it9135</pre>
+<p>Wyciągnąłem i włożyłem ponownie tuner a z logów wyszło że jest ok:</p>
+<pre>[ 8169.551109] usb 2-1.2: dvb_usb_v2: found a 'ITE 9135 Generic' in cold state
+[ 8169.551255] usb 2-1.2: dvb_usb_v2: downloading firmware from file 'dvb-usb-it9135-02.fw'
+[ 8169.551668] it913x: FRM Starting Firmware Download
+[ 8169.775976] it913x: FRM Firmware Download Completed - Resetting Deviceit913x: Chip Version=02 Chip Type=9135
+[ 8169.810571] it913x: Firmware Version 52887808&lt;6&gt;[ 8169.881155] usb 2-1.2: dvb_usb_v2: found a 'ITE 9135 Generic' in warm state
+[ 8169.881301] usb 2-1.2: dvb_usb_v2: will pass the complete MPEG2 transport stream to the software demuxer
+[ 8169.881573] DVB: registering new adapter (ITE 9135 Generic)
+[ 8169.906469] it913x-fe: ADF table value :00
+[ 8169.910501] it913x-fe: Crystal Frequency :12000000 Adc Frequency :20250000 ADC X2: 01
+[ 8169.946071] it913x-fe: Tuner LNA type :60
+[ 8170.193266] usb 2-1.2: DVB: registering adapter 0 frontend 0 (ITE 9135 Generic_1)...
+[ 8170.236841] Registered IR keymap rc-it913x-v1
+[ 8170.237117] input: ITE 9135 Generic as /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/rc/rc0/input17
+[ 8170.237393] rc0: ITE 9135 Generic as /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/rc/rc0
+[ 8170.237413] usb 2-1.2: dvb_usb_v2: schedule remote query interval to 250 msecs
+[ 8170.237425] usb 2-1.2: dvb_usb_v2: 'ITE 9135 Generic' successfully initialized and connected</pre>
+<p>Zainstalowałem ME TV</p>
+<pre> sudo aptitude install me-tv</pre>
+<p>Następnie wybrałem skanowanie z użyciem pliku startowego który jest już dostarczony z programem i mój tuner znalazł osiem stacji. Screeny poniżej.</p>
+<p> </p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/me_tv_1.jpg"><img class="aligncenter size-full wp-image-7182" src="http://techfreak.pl/wp-content/uploads/2014/06/me_tv_1.jpg" alt="me_tv_1" width="538" height="633" srcset="http://techfreak.pl/wp-content/uploads/2014/06/me_tv_1.jpg 538w, http://techfreak.pl/wp-content/uploads/2014/06/me_tv_1-254x300.jpg 254w" sizes="(max-width: 538px) 100vw, 538px" /></a></p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/me_tv_2.jpg"><img class="aligncenter size-full wp-image-7183" src="http://techfreak.pl/wp-content/uploads/2014/06/me_tv_2.jpg" alt="me_tv_2" width="571" height="618" srcset="http://techfreak.pl/wp-content/uploads/2014/06/me_tv_2.jpg 571w, http://techfreak.pl/wp-content/uploads/2014/06/me_tv_2-277x300.jpg 277w" sizes="(max-width: 571px) 100vw, 571px" /></a></p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/me_tv_3.jpg"><img class="aligncenter size-full wp-image-7184" src="http://techfreak.pl/wp-content/uploads/2014/06/me_tv_3.jpg" alt="me_tv_3" width="1164" height="725" srcset="http://techfreak.pl/wp-content/uploads/2014/06/me_tv_3.jpg 1164w, http://techfreak.pl/wp-content/uploads/2014/06/me_tv_3-300x186.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/06/me_tv_3-1024x637.jpg 1024w" sizes="(max-width: 1164px) 100vw, 1164px" /></a></p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/06/me_tv_4.jpg"><img class="aligncenter size-full wp-image-7185" src="http://techfreak.pl/wp-content/uploads/2014/06/me_tv_4.jpg" alt="me_tv_4" width="1080" height="726" srcset="http://techfreak.pl/wp-content/uploads/2014/06/me_tv_4.jpg 1080w, http://techfreak.pl/wp-content/uploads/2014/06/me_tv_4-300x201.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/06/me_tv_4-1024x688.jpg 1024w" sizes="(max-width: 1080px) 100vw, 1080px" /></a></p>
+<p>Jak widać poszło sprawnie i przyjemnie. Mogę oglądać teraz programy na lapku a TV wywalić na złom. W sumie ciekawe jak to uruchomić na XBMC….</p>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/tv/">tv</a>, 
+                <a href="/tags/ubuntu/">ubuntu</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Jak%20uruchomi%c4%87%20DVBT%20na%20it9135&url=https%3a%2f%2ftechfreak.pl%2furuchomic-dvbt-it9135%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2furuchomic-dvbt-it9135%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

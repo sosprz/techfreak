@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mobius on techfreak blog</title>
+    <link>https://techfreak.pl/tags/mobius/</link>
+    <description>Recent content in mobius on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 04 Sep 2016 10:24:44 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/mobius/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Naprawa kamerki RunCam HD</title>
+      <link>https://techfreak.pl/naprawa-kamerki-runcam-hd/</link>
+      <pubDate>Sun, 04 Sep 2016 10:24:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/naprawa-kamerki-runcam-hd/</guid>
+      <description>&lt;p&gt;Jak ostatnio obserwujecie &lt;a href=&#34;https://www.youtube.com/watch?v=X0UCpQZrc3s&#34;&gt;Youtube&lt;/a&gt; i stronę to możecie zobaczyć, że trochę ostatnio latam i testuje. Do tego wszystkiego są potrzebne kamery i wpadłem na pomysł aby kręcić więcej ujęć z testowanej kiedyś mini kamerki &lt;a href=&#34;http://techfreak.pl/mini-kamerka-runcam-hd/&#34;&gt;RunCam HD&lt;/a&gt;. Okazało się, że nie zawsze działa..&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mini kamerka Runcam HD</title>
+      <link>https://techfreak.pl/mini-kamerka-runcam-hd/</link>
+      <pubDate>Mon, 19 Oct 2015 18:00:39 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-kamerka-runcam-hd/</guid>
+      <description>&lt;p&gt;Dużą frajdą jest nagrać coś z drona a potem podzielić się nagraniem z innymi na Youtube. Jeden producent wyznaczył sobie za cel stworzenie taniej kamery „tylko” do dronów, mowa tu o Runcam. Dokładnie do dronów wyposażonych w FPV i takich które szybko latają.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wymiana baterii w kamerce Mobius</title>
+      <link>https://techfreak.pl/wymiana-baterii-w-kamerce-mobius/</link>
+      <pubDate>Thu, 01 Oct 2015 11:28:16 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wymiana-baterii-w-kamerce-mobius/</guid>
+      <description>&lt;p&gt;Ponad rok temu pisałem o mini kamerce &lt;a href=&#34;http://techfreak.pl/mobius-mini-kamera-do-wszystkiego/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mobius&lt;/a&gt; którą mam do dziś i sprawuje się bez zastrzeżeń. Może dlatego, że wylądowała ona w samochodzie jako kamera do rejestracji jazdy. Po tym jak pewien samochód prawie uderzył w mój postanowiłem zobaczyć nagranie z  mobiusa. Okazało się że mobius bardzo się nagrzewał.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

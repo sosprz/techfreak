@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>naze32 on techfreak blog</title>
+    <link>https://techfreak.pl/tags/naze32/</link>
+    <description>Recent content in naze32 on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Thu, 30 Jun 2016 12:22:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/naze32/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nowe silniki dla Tarot 130</title>
+      <link>https://techfreak.pl/nowe-silniki-dla-tarot-130/</link>
+      <pubDate>Thu, 30 Jun 2016 12:22:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nowe-silniki-dla-tarot-130/</guid>
+      <description>&lt;p&gt;W poprzednim wpisie na temat mini racera &lt;a href=&#34;http://goo.gl/vKVggH&#34;&gt;Tarot TL130H1&lt;/a&gt; pisałem, że w za sadzie jedynym minusem są regulatory (ESC). Jednak wymieniłem regulatory i silniki!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zbudować quadcopter? FPV250 &#43; NAZE32 &#43; DYS-BE1806</title>
+      <link>https://techfreak.pl/zbudowac-quadcopter-fpv250-naze32-dys-be1806/</link>
+      <pubDate>Mon, 01 Sep 2014 05:40:29 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zbudowac-quadcopter-fpv250-naze32-dys-be1806/</guid>
+      <description>&lt;p&gt;Przy okazji budowy mojej nowej maszyny latającej zrobiłem małą fotorelację z budowy którą chciałbym się z wami podzielić. Tym razem buduję nowego quadcoptera z paru powodów. Po pierwsze jest tańszy niż poprzednie wersje (&lt;a title=&#34;Mini H quadcopter&#34; href=&#34;http://techfreak.pl/pierwszy-mini-h-quadcopter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pierwsza&lt;/a&gt;, &lt;a title=&#34;Hobby king fpv 250&#34; href=&#34;http://techfreak.pl/miniquadcopter-hobbyking-fpv250/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;druga&lt;/a&gt;, &lt;a title=&#34;RCX 1804&#34; href=&#34;http://techfreak.pl/nowe-silniki-rcx1804/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;trzecia&lt;/a&gt;) i lepszy sprzętowo. W stosunku do poprzednich wersji w sumie zmieniło się prawie wszystko. Zaczynając od zmiany odbiornika &lt;a title=&#34;D8R-II plus&#34; href=&#34;http://www.frsky-rc.com/product/pro.php?pro_id=22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;D8R-II plus&lt;/a&gt; na &lt;a title=&#34;D4R II&#34; href=&#34;http://www.frsky-rc.com/product/pro.php?pro_id=24&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;D4R-II&lt;/a&gt; który jest o wiele mniejszy a ma tą samą ilość kanałów ale tylko na jednym fizycznym kanale (PPM). Do zmiany poszły silniki &lt;a title=&#34;RCX1804&#34; href=&#34;http://www.myrcmart.com/zmr-1804-2400kv-micro-outrunner-brushless-motor-clockwise-p-6281.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RCX1804&lt;/a&gt; na rzecz mocniejszych &lt;a title=&#34;DYS1806&#34; href=&#34;http://www.banggood.com/DYS-BE1806-2300KV-Brushless-Motor-2-3S-For-Mini-Multicopters-p-933192.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DYS-BE1806&lt;/a&gt;. Kontroler lotu został zamieniony z &lt;a title=&#34;KK 2.1&#34; href=&#34;http://www.hobbyking.com/hobbyking/store/__54299__hobbyking_kk2_1_5_multi_rotor_lcd_flight_control_board_with_6050mpu_and_atmel_644pa.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KK 2.1&lt;/a&gt; na &lt;a title=&#34;MultiWii AIO&#34; href=&#34;http://www.hobbyking.com/hobbyking/store/__31138__multiwii_and_megapirate_aio_flight_controller_w_ftdi_atmega_2560_v2_0.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MultiWii AIO&lt;/a&gt; a na końcu został &lt;a title=&#34;Naze32&#34; href=&#34;http://www.hobbyking.com/hobbyking/store/__55819__AfroFlight_Naze32_Acro_AbuseMark_FunFly_Controller.html?strSearch=naze32&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NAZE32&lt;/a&gt; który jest mniejszy i o wiele lepiej pasuje  do mini quadcopterów. Co do ramy, może jej nie zmieniłem ale zakupiłem trzecia wersję FPV250 która pozwala na różne ciekawe konfiguracje.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

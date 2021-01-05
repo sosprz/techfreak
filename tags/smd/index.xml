@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>smd on techfreak blog</title>
+    <link>https://techfreak.pl/tags/smd/</link>
+    <description>Recent content in smd on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 16 Dec 2018 12:37:56 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/smd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Liczarka elementów smd  w taśmach.</title>
+      <link>https://techfreak.pl/liczarka-elementow-smd-w-tasmach/</link>
+      <pubDate>Sun, 16 Dec 2018 12:37:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/liczarka-elementow-smd-w-tasmach/</guid>
+      <description>Z cyklu DIY – jeżeli mamy już jakieś projekty za sobą zostaje mi i zapewne pozostałym majsterkowiczom duża ilość elementów SMD z prostej przyczyny – nie da się zamówić np. mniej niż 100 elementów danego typu. Z biegiem lat elementy się gromadzą i wpadłem na pomysł że warto było by zweryfikować swój zasób. I tak powstał projekcik liczarki komponentów SMD zamkniętych w rolkach.
+Dla czego pakuje się elementy w rolkach? Przy produkcji przemysłowej elementy są kładzione za pomocą maszyny Pick&amp;amp;Place która pobiera każdy elemencik z wyznaczonego podajnika (feedera) a tam jest on zapakowany w taśmie.</description>
+    </item>
+    
+    <item>
+      <title>Sekcja zwłok – czyli produkt mówi o projektancie.</title>
+      <link>https://techfreak.pl/sekcja-zwlok-czyli-produkt-mowi-o-projektancie/</link>
+      <pubDate>Sat, 25 Aug 2018 04:24:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/sekcja-zwlok-czyli-produkt-mowi-o-projektancie/</guid>
+      <description>W tym opisie chciałbym przedstawić swoje przemyślenia na temat procesu produkcji elektroniki na przykładzie moim zdaniem porządnego urządzenia jakim był denat tj czytnik kodów kreskowych marki Motorola Symbol. Obecnie wyczynem nie jest kupić coś z chin za 3$ z darmową wysyłką a często sami z góry już zakładamy że to nie przeżyje długo wpływ na taką postawę ma samo urządzenie (sposób zaprojektowania, użyte elementy, proces produkcji i o ile jest testowanie wyrobu gotowego), opinie o nim w internecie lub opinie o podobnych wyrobach.</description>
+    </item>
+    
+  </channel>
+</rss>

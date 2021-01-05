@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>nettemp nowe funkcje &middot; My Name</title>
+        <meta name="description" content="Hej, dziś parę słów na temat projektu nettemp. Oczywiście nie rozwija się on tak szybko jak bym chciał ale zawszę trochę do przodu. Obecnie nettemp dzieli się na dwie wersje master i beta. Master jest w miarę stabilną wersją jeszcze ze starymi wykresami na RRD. Natomiast nowa wersja bety zawiera parę nowych funkcji o których werto wspomnieć.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="nettemp nowe funkcje">
+<meta property="og:description" content="Hej, dziś parę słów na temat projektu nettemp. Oczywiście nie rozwija się on tak szybko jak bym chciał ale zawszę trochę do przodu. Obecnie nettemp dzieli się na dwie wersje master i beta. Master jest w miarę stabilną wersją jeszcze ze starymi wykresami na RRD. Natomiast nowa wersja bety zawiera parę nowych funkcji o których werto wspomnieć.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/nettemp-nowe-funkcje/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">nettemp nowe funkcje</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2015-04-17" itemprop="datePublished">Fri, Apr 17, 2015</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Hej, dziś parę słów na temat projektu nettemp. Oczywiście nie rozwija się on tak szybko jak bym chciał ale zawszę trochę do przodu. Obecnie nettemp dzieli się na dwie wersje master i beta. Master jest w miarę stabilną wersją jeszcze ze starymi wykresami na RRD. Natomiast nowa wersja bety zawiera parę nowych funkcji o których werto wspomnieć.</p>
+<h3 id="lcd">LCD</h3>
+<p>Nawet nie pamiętam czy pisałem ale pojawiła się obsługa LCD, czyli można sobie wybrać jakie wartości czujników będą się wyświetlać na LCD.</p>
+<p>Wiem że większość czeka na LCD x 4 ale muszę go w końcu zakupić :)</p>
+<h3 id="kamery">Kamery</h3>
+<p>Następną całkiem fajną funkcją jest podgląd z kamer. Wystarczy wpisać tylko IP w sekcji settings i w statusie będzie pojawiał się obraz z kamer. Przewidziałem max 4 kamery ale nie jest problemem zwiększenie tego limitu.</p>
+<p><a href="http://techfreak.pl/nettemp-nowe-funkcje/nettemp_camera_status/" rel="attachment wp-att-9272"><img class="aligncenter size-full wp-image-9272" src="http://techfreak.pl/wp-content/uploads/2015/04/nettemp_camera_status.jpg" alt="nettemp_camera_status" width="753" height="270" srcset="http://techfreak.pl/wp-content/uploads/2015/04/nettemp_camera_status.jpg 753w, http://techfreak.pl/wp-content/uploads/2015/04/nettemp_camera_status-558x200.jpg 558w, http://techfreak.pl/wp-content/uploads/2015/04/nettemp_camera_status-300x108.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/04/nettemp_camera_status-624x224.jpg 624w" sizes="(max-width: 753px) 100vw, 753px" /></a><a href="http://techfreak.pl/nettemp-nowe-funkcje/nettemp_camera__in_status/" rel="attachment wp-att-9273"><img class="aligncenter size-full wp-image-9273" src="http://techfreak.pl/wp-content/uploads/2015/04/nettemp_camera__in_status.jpg" alt="nettemp_camera__in_status" width="1357" height="483" srcset="http://techfreak.pl/wp-content/uploads/2015/04/nettemp_camera__in_status.jpg 1357w, http://techfreak.pl/wp-content/uploads/2015/04/nettemp_camera__in_status-562x200.jpg 562w, http://techfreak.pl/wp-content/uploads/2015/04/nettemp_camera__in_status-300x107.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/04/nettemp_camera__in_status-1024x364.jpg 1024w, http://techfreak.pl/wp-content/uploads/2015/04/nettemp_camera__in_status-624x222.jpg 624w" sizes="(max-width: 1357px) 100vw, 1357px" /></a></p>
+<h3 id="espuploader">ESPuploader</h3>
+<p>Ostatnio pisałem, że nettemp obsługuje nie tylko bezprzewodowe czujniki temperatury na DS18b20 ale też i bezprzewodowe czujniki wilgotności na DHT11. Można poczytać o tym <a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-dht11-na-esp8266/" target="_blank">tu</a>. Wpadłem więc na pomysł aby zintegrować z nettemp’em wgrywanie programów do ESP8266. Sprawa prosta bo wystarczy podłączyć przejściówkę np. FT232RL do ESP8266 a kabelek USB do raspberry pi lub innego komputerka na którym jest nettemp. Wystarczy zaznaczyć program który ma być wgrany i urządzenie USB. Dodatkowym bonusem jest możliwość ustalenie sieci WiFi do której ma się łączyć ESP8266.</p>
+<h3 id="a-hrefhttptechfreakplnettemp-nowe-funkcjenettemp_esp_uploade_luaupload-relattachment-wp-att-9276img-classaligncenter-size-full-wp-image-9276-srchttptechfreakplwp-contentuploads201504nettemp_esp_uploade_luauploadjpg-altnettemp_esp_uploade_luaupload-width1358-height540-srcsethttptechfreakplwp-contentuploads201504nettemp_esp_uploade_luauploadjpg-1358w-httptechfreakplwp-contentuploads201504nettemp_esp_uploade_luaupload-503x200jpg-503w-httptechfreakplwp-contentuploads201504nettemp_esp_uploade_luaupload-300x119jpg-300w-httptechfreakplwp-contentuploads201504nettemp_esp_uploade_luaupload-1024x407jpg-1024w-httptechfreakplwp-contentuploads201504nettemp_esp_uploade_luaupload-624x248jpg-624w-sizesmax-width-1358px-100vw-1358px-ainne"><a href="http://techfreak.pl/nettemp-nowe-funkcje/nettemp_esp_uploade_luaupload/" rel="attachment wp-att-9276"><img class="aligncenter size-full wp-image-9276" src="http://techfreak.pl/wp-content/uploads/2015/04/nettemp_esp_uploade_luaupload.jpg" alt="nettemp_esp_uploade_luaupload" width="1358" height="540" srcset="http://techfreak.pl/wp-content/uploads/2015/04/nettemp_esp_uploade_luaupload.jpg 1358w, http://techfreak.pl/wp-content/uploads/2015/04/nettemp_esp_uploade_luaupload-503x200.jpg 503w, http://techfreak.pl/wp-content/uploads/2015/04/nettemp_esp_uploade_luaupload-300x119.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/04/nettemp_esp_uploade_luaupload-1024x407.jpg 1024w, http://techfreak.pl/wp-content/uploads/2015/04/nettemp_esp_uploade_luaupload-624x248.jpg 624w" sizes="(max-width: 1358px) 100vw, 1358px" /></a>Inne</h3>
+<p>W nettempie pojawia się dużo poprawek i rożnych życzeń zgłaszanych przez użytkowników. Ostatnio przeszliśmy na bazy sql dla czujników zamiast RRD co pozwala na większą elastyczność ale kosztem wydajności. Nowe wykresy higcharts zastąpiły całkowicie wykresy RRD. Projekt głownie się rozwija na forum, na którym też można zobaczyć instalacje użytkowników <a title="http://techfreak.pl/forum/viewtopic.php?f=8&t=272" href="http://techfreak.pl/forum/viewtopic.php?f=8&t=272" target="_blank"><a href="http://techfreak.pl/forum/viewtopic.php?f=8&amp;t=272">http://techfreak.pl/forum/viewtopic.php?f=8&amp;t=272</a></a></p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/esp8266/">ESP8266</a>, 
+                <a href="/tags/kamery/">kamery</a>, 
+                <a href="/tags/lcd/">lcd</a>, 
+                <a href="/tags/nettemp/">nettemp</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=nettemp%20nowe%20funkcje&url=https%3a%2f%2ftechfreak.pl%2fnettemp-nowe-funkcje%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fnettemp-nowe-funkcje%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

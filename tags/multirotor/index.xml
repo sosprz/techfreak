@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>multirotor on techfreak blog</title>
+    <link>https://techfreak.pl/tags/multirotor/</link>
+    <description>Recent content in multirotor on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 11 Oct 2016 10:45:55 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/multirotor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mini micro multirotor JJRC H36</title>
+      <link>https://techfreak.pl/mini-micro-multirotor-jjrc-h36/</link>
+      <pubDate>Tue, 11 Oct 2016 10:45:55 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mini-micro-multirotor-jjrc-h36/</guid>
+      <description>&lt;p&gt;Zapraszam na testy mini quadkoptera JJRC H36.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Yuneec Typhoon H – szybka recenzja</title>
+      <link>https://techfreak.pl/yuneec-typhoon-h-szybka-recenzja/</link>
+      <pubDate>Thu, 04 Aug 2016 20:24:17 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/yuneec-typhoon-h-szybka-recenzja/</guid>
+      <description>&lt;p&gt;Witam. Nazywam się Paweł, od ponad 8 lat latam akrobacyjnymi śmigłowcami r/c, od jakiegoś czasu także multicopterami, stąd też moja recenzja będzie oczami bardziej doświadczonego operatora UAV.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Quadcopter XK X252 break test!</title>
+      <link>https://techfreak.pl/quadcopter-xk-x252-break-test/</link>
+      <pubDate>Sun, 24 Jul 2016 21:21:40 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/quadcopter-xk-x252-break-test/</guid>
+      <description>&lt;p&gt;Jestem po kolejnym teście quadkoptera / drona XK X252, którego tym razem złamałem!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

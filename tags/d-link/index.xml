@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>d-link on techfreak blog</title>
+    <link>https://techfreak.pl/tags/d-link/</link>
+    <description>Recent content in d-link on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 22 Jun 2013 21:10:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/d-link/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OpenWRT na Raspberry Pi</title>
+      <link>https://techfreak.pl/openwrt-na-raspberry-pi/</link>
+      <pubDate>Sat, 22 Jun 2013 21:10:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/openwrt-na-raspberry-pi/</guid>
+      <description>&lt;p&gt;Tyle ilu jest użytkowników Raspberry Pi tyle będzie pomysłów na zastosowanie tego maleństwa. Ja pomyślałem że muszę spróbować zainstalować OpenWRT na Raspberry Pi bo wraz ze stabilną wersją Attitude Adjustment, OpenWRT zaczęło je wspierać.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

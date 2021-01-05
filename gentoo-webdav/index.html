@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Gentoo – WebDav &middot; My Name</title>
+        <meta name="description" content="Celem tego Howto jest pokazanie w jaki sposób skonfigurować na dystrybucji Gentoo serwer WebDav, który posłuży nam np. do wymiany
+plików pomiędzy telefonem (Nokia e55) a komputerami. Komunikacja będzie szyfrowana z użyciem certyfikatów SSL .Serwer taki będzie dodatkowo ochroniony loginem i hasłem.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Gentoo – WebDav">
+<meta property="og:description" content="Celem tego Howto jest pokazanie w jaki sposób skonfigurować na dystrybucji Gentoo serwer WebDav, który posłuży nam np. do wymiany
+plików pomiędzy telefonem (Nokia e55) a komputerami. Komunikacja będzie szyfrowana z użyciem certyfikatów SSL .Serwer taki będzie dodatkowo ochroniony loginem i hasłem.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/gentoo-webdav/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Gentoo – WebDav</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2011-01-13" itemprop="datePublished">Thu, Jan 13, 2011</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 4 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Celem tego Howto jest pokazanie w jaki sposób skonfigurować na dystrybucji Gentoo serwer WebDav, który posłuży nam np. do wymiany<br>
+plików pomiędzy telefonem (Nokia e55) a komputerami. Komunikacja będzie szyfrowana z użyciem certyfikatów SSL .Serwer taki będzie dodatkowo ochroniony loginem i hasłem.</p>
+<p>Konfiguracja serwera WebDAV</p>
+<p>Aby zainstalować na Gentoo serwer WebDav posłużymy się dodatkowymi modułami w programie Apache<br>
+o nazwie mod_dav. Apache zainstalowany z flagami:</p>
+<p>www-servers/apache-2.2.21-r1 ([ www-servers/apache-2.2.21-r1 USE=”ldap ssl -debug” APACHE2_MODULES=”actions alias<br>
+auth_basic authn_alias authn_anon authn_dbm authn_defaultauthn_file authz_dbm authz_default authz_groupfile authz_host<br>
+authz_owner authz_user autoindex cache cgi cgid dav dav_fs dav_lock deflate dir disk_cache env expires ext_filter file_cache<br>
+filter headers include info log_config logio mem_cache mime mime_magic negotiation rewrite setenvif speling status unique_id<br>
+userdir usertrack vhost_alias ” APACHE2_MPMS=”peruser ” 0 kB )</p>
+<p>Najważniejsze z nich to:<br>
+APACHE2_MODULES=”dav dav_fs dav_lock”</p>
+<p>Po zainstalowaniu/przeinstalowaniu Apache z dodatkowymi flagami w /etc/conf.d/apache2 dodajemy dodatkowy parametr startujący -D DAV</p>
+<p>Plik /etc/conf.d/apache2<br>
+APACHE2_OPTS=”-D PERUSER -D SSL -D LANGUAGE -D PHP5 -D DAV”</p>
+<p>Nie ma potrzeby dodawać -D DAV_FS -D DAV_LOCK jak to opisują inne artykuły bo to już się ładuje razem z -D DAV.<br>
+Następnym krokiem jest założenie sobie katalogu na pliki www i nadanie mu odpowiednich praw z jakimi działa nasz serwer Apache:<br>
+User/Grupa z jakimi działa nasz serwer możemy spr. wydając komendę:<br>
+grep -v ^’#’ /etc/apache2/httpd.conf |grep -E ‚User|Group</p>
+<p>Tworzymy katalog i ustawiamy uprawnienia dla niego:<br>
+mkdir -p /home/www/webdav ; chown -R twoj_user:twoja_grupa /home/www/webdav</p>
+<p>ps. ja korzystam z modułu peruser w Apachu więc usera/grupa definiuje sobie w virtual hoście.</p>
+<p>Tworzę plik .htpasswd z loginami i hasłami dostępu do strony:<br>
+htpasswd -c /home/www/.htpasswd user</p>
+<p>Za user podstawiamy nazwę użytkownika który ma mieć dostęp do plików przez protokół webdav.<br>
+ps. Drugiego usera dodajemy bez opcji -c.</p>
+<p>Modyfikujemy plik /etc/apache2/modules.d/45_mod_dav.conf:</p>
+<IfDefine DAV>  
+#DavLockDB &#8222;/var/lib/dav/lockdb&#8221;  
+<IfModule setenvif_module>  
+BrowserMatch &#8222;Microsoft Data Access Internet Publishing Provider&#8221; redirect-carefully  
+BrowserMatch &#8222;MS FrontPage&#8221; redirect-carefully  
+BrowserMatch &#8222;^WebDrive&#8221; redirect-carefully  
+BrowserMatch &#8222;^WebDAVFS/1.[012345678]&#8221; redirect-carefully  
+BrowserMatch &#8222;^gnome-vfs/1.0&#8221; redirect-carefully  
+BrowserMatch &#8222;^XML Spy&#8221; redirect-carefully  
+BrowserMatch &#8222;^Dreamweaver-WebDAV-SCM1&#8221; redirect-carefully  
+</IfModule>  
+</IfDefine>
+<p>DavLockDB -jest zaheszowany ponieważ definiuje mu inną ścieżkę w moim VirtualHości(VH)</p>
+<p>Potem tworzymy plik VirtualHosta np: /etc/apache2/vhosts.d/1000.conf :</p>
+<p>Plik 1000.conf:<br>
+#Jeśli używacie modułu peruser zdefiniujcie dyrektywę Processor + ServerEnvironment.<br>
+<Processor webdav><br>
+User user #Wasz user systemy z którym ma działać proces apacha dla tego VH.<br>
+Group grupa #To co wyżej tyle ze grupa<br>
+</Processor><br>
+Listen *:443 #nie używam domyślnych configów więc deklaruje nasłuchiwanie tu apacha.<br>
+&lt;VirtualHost *:443&gt;<br>
+<IfModule mod_ssl.c><br>
+SSLEngine on #włączenie silnika ssl<br>
+SSLCipherSuite ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv2:+EXP:+eNULL #minimalne wymagania naszych certów<br>
+SSLCertificateFile /etc/ssl/domena.crt #nasz cert<br>
+SSLCertificateKeyFile /etc/ssl/domena.key #nasz klucz<br>
+ErrorLog /var/log/apache2/ssl_error_log<br>
+ServerName nasza_domena #wpisujemy tu naszą domenę dla tego VH<br>
+ServerEnvironment webdav # nazwa srodowska (jeśli korzystasz z modułu peruser)<br>
+CustomLog /var/log/apache2/ssl_request_log „%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x „%r” %b”<br>
+DocumentRoot „/home/www/webdav” #scieżka do katalogu którą wcześniej stworzyliśmy<br>
+Alias / /home/www/webdav/ #musi być alias bo bez tego mi nie działo (kod 405)<br>
+</IfModule><br>
+&lt;Directory /home/www/webdav&gt;<br>
+AllowOverride All<br>
+Options Indexes FollowSymLinks #widzę katalogi przez www<br>
+AuthName „WebDAV”<br>
+AuthType Basic<br>
+AuthUserFile /home/www/.htpasswd #sciezka do pliku z loginem i hasłem userów<br>
+AuthGroupFile /dev/null<br>
+require valid-user<br>
+Order deny,allow<br>
+</Directory><br>
+<IfModule mod_dav.c><br>
+DavLockDB „/home/www/.htlock” #nasz plik do blokady<br>
+<Location /><br>
+#Options None #jeżeli chcemy przez Firefoxa widzieć pliki heszujemy to<br>
+DAV On #włączamy WebDav<br>
+#<Limit GET PUT POST DELETE PROPFIND PROPPATCH MKCOL COPY MOVE LOCK UNLOCK> #możemy tworzyć limity dla userów -ale po co teraz :)<br>
+#</Limit><br>
+</Location><br>
+</IfModule><br>
+</VirtualHost></p>
+<p>info: Nie będę opisał jak generować dla siebie certyfikatów ponieważ możecie znaleźć to na tej stronie.</p>
+<p>Startowanie apacha (jeśli nie był używany wcześniej):<br>
+# /etc/init.d/apache2 start</p>
+<p>Do testowania jako klienta WebDava możemy użyć telefonu albo linuxa:<br>
+a) aby w Nokii E55 dodać dysk należy wejść w Menu -&gt; Biuro -&gt; Mndź.plik potem wybrać Opcje -&gt; Napędy zdalne -&gt; Mapuj Nowy napęd.<br>
+Podajemy tam: Nazwę, Adres, Nazwę usera i hasło do strony.<br>
+b) oczywiście możemy przeglądać pliki na serwerze przez przeglądarkę WWW ale musimy w VirtualHoscie zadeklarować Options Indexes<br>
+FollowSymLinks<br>
+c) W KDE mamy możliwość skorzystania z aplikacji kde-base/knetattach (asystenta tworzenia folderów sieciowych -otwórz Dolphin i w<br>
+lewym menu wybierz Sieć). d) do połączenia z serwerem (po konsoli w linuxie) możemy użyć programu net-misc/cadaver<br>
+Po zdefiniowaniu nowego zdalnego dysku/folderu możemy pomiędzy telefonem a komputerem synchronizować pliki (programy, zdjęcia itp).<br>
+Jakie błędy w logach ( polecam przeglądać logi z apacha ;P )<br>
+a) A lock database was not specified with the DAVLockDB directive. One must be specified to use the locking functionality. [500, #401]<br>
+-sprawdż plik z blokadą ,prawa do niego itp.</p>
+<p>Wszystkie treści w tym wiki, którym nie przyporządkowano licencji, podlegają licencji:<br>
+CC Attribution-Noncommercial-Share Alike 3.0 Unported [http://creativecommons.org/licenses/by-nc-sa/3.0/]</p>
+<p>Autor: Kamil M.</p>
+</div>
+
+        <footer class="post-footer clearfix"><div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Gentoo%20%e2%80%93%20WebDav&url=https%3a%2f%2ftechfreak.pl%2fgentoo-webdav%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fgentoo-webdav%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

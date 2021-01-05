@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>multistar on techfreak blog</title>
+    <link>https://techfreak.pl/tags/multistar/</link>
+    <description>Recent content in multistar on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 12 Aug 2014 05:11:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/multistar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak zrobić flash ESC Multistar 10A do SimonK?</title>
+      <link>https://techfreak.pl/zrobic-flash-esc-multistar-10a-simonk/</link>
+      <pubDate>Tue, 12 Aug 2014 05:11:30 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zrobic-flash-esc-multistar-10a-simonk/</guid>
+      <description>&lt;p&gt;Kiedyś pisałem o tym że składam &lt;a title=&#34;minicopter&#34; href=&#34;http://techfreak.pl/pierwszy-mini-h-quadcopter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mini H quadcopter&lt;/a&gt;, a dziś chciałbym pokazać jak zmienić firmware w regulatorach silników (ESC) na SimonK. Dlaczego SimonK? Ponieważ ten firmware pozwala na szybszą reakcje na zmianę PWM z kontrolera lotu. Co przekłada się na płynniejsze działanie silników. Ja będę wgrywać nowy firmware do &lt;a title=&#34;ESC multistar 10A&#34; href=&#34;http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=25362&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Turnigy Multistar 10 Amp&lt;/a&gt;. To są właśnie te z powyższego opisu mini H. W zasadzie po co o tym pisze? Bo mikroprocesor regulatora to Atmel Mega 8A MU o wymiarach 4,6mm x 4,6mm i nie ma wyprowadzonych pinów pod programator. Co powoduje że wgranie innego firmwaru jest dosyć trudne. Ale jak zawsze dla chcącego nic trudnego. Potrzeba trochę cierpliwości i precyzji :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Quadcopter Turningy SK450 to już nie jest mini</title>
+      <link>https://techfreak.pl/quadcopter-turningy-sk450-juz-mini/</link>
+      <pubDate>Tue, 10 Jun 2014 17:10:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/quadcopter-turningy-sk450-juz-mini/</guid>
+      <description>&lt;p&gt;Quadcoptery stają się coraz popularniejsze, łatwiejsze do złożenia lub są do kupienia w wariancie Ready To Fly (RTF). Czyli wyciągasz z pudełka i latasz. Tak jest w teorii. Z okazji że mój kolega zakupił zestaw Turnigy SK450 mogę go wam zaprezentować.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Miniquadcopter Hobbyking FPV250</title>
+      <link>https://techfreak.pl/miniquadcopter-hobbyking-fpv250/</link>
+      <pubDate>Tue, 29 Apr 2014 20:14:57 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/miniquadcopter-hobbyking-fpv250/</guid>
+      <description>&lt;p&gt;Jakiś czas temu kiedy opisywałem swój &lt;a title=&#34;mini quadcopter&#34; href=&#34;http://techfreak.pl/pierwszy-mini-h-quadcopter/&#34; target=&#34;_blank&#34;&gt;pierwszy mini quadcopter&lt;/a&gt; który był wyposażony w ramę &lt;a href=&#34;http://techfreak.pl/drukarka-3d-profab-gate-le/&#34; target=&#34;_blank&#34;&gt;wydrukowaną na drukarce 3D&lt;/a&gt; myślałem że drukowane ramy są fajne i wytrzymałe. To wszystko trwało do do momentu zderzenia z rzeczywistością a raczej glebą na polu.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

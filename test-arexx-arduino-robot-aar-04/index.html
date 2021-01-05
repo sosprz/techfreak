@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Test Arexx Arduino Robot AAR-04 &middot; My Name</title>
+        <meta name="description" content="
+Robot Arduino AAR-04 to złożony gotowy do użycia elektroniczny pojazd napędzany dwoma kołami którymi można dowolnie sterować. Już Na tym etapie kontroli, użytkownik doznaje wiele przyjemności z tworzenia własnego jeżdżącego robota. Zamontowane na przedzie fototranzystory zwiększają możliwości poruszania się do tego stopnia, że staje się on autonomicznym pojazdem. Robot jest wyposażony w procesor ATmega328P który nie tylko steruje sinikami i odbiera informacje od sensorów ale i posiada wyprowadzenia które można wykorzystać w dowolny sposób. I tu zaczyna się cała zabawa która dzięki prostemu programowaniu przy pomocy platformy Arduino i przykładowym programom stwarza wiele możliwości nawet dla początkujących.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Test Arexx Arduino Robot AAR-04">
+<meta property="og:description" content="
+Robot Arduino AAR-04 to złożony gotowy do użycia elektroniczny pojazd napędzany dwoma kołami którymi można dowolnie sterować. Już Na tym etapie kontroli, użytkownik doznaje wiele przyjemności z tworzenia własnego jeżdżącego robota. Zamontowane na przedzie fototranzystory zwiększają możliwości poruszania się do tego stopnia, że staje się on autonomicznym pojazdem. Robot jest wyposażony w procesor ATmega328P który nie tylko steruje sinikami i odbiera informacje od sensorów ale i posiada wyprowadzenia które można wykorzystać w dowolny sposób. I tu zaczyna się cała zabawa która dzięki prostemu programowaniu przy pomocy platformy Arduino i przykładowym programom stwarza wiele możliwości nawet dla początkujących.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/test-arexx-arduino-robot-aar-04/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Test Arexx Arduino Robot AAR-04</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2013-08-26" itemprop="datePublished">Mon, Aug 26, 2013</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 10 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p><a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg"><img class="aligncenter size-full wp-image-4767" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-15" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a><br>
+<strong>Robot Arduino AAR-04</strong> to złożony gotowy do użycia elektroniczny pojazd napędzany dwoma kołami którymi można dowolnie sterować. Już Na tym etapie kontroli, użytkownik doznaje wiele przyjemności z tworzenia własnego jeżdżącego robota. Zamontowane na przedzie fototranzystory zwiększają możliwości poruszania się do tego stopnia, że staje się on autonomicznym pojazdem. Robot jest wyposażony w procesor <strong>ATmega328P</strong> który nie tylko steruje sinikami i odbiera informacje od sensorów ale i posiada wyprowadzenia które można wykorzystać w dowolny sposób. I tu zaczyna się cała zabawa która dzięki prostemu programowaniu przy pomocy platformy Arduino i przykładowym programom stwarza wiele możliwości nawet dla początkujących.</p>
+<h3 id="specyfikacja">Specyfikacja:</h3>
+<ul>
+<li>2x silniki 3V</li>
+<li>Procesor ATmega328P (14 wyjść cyfrowych i 7 analogowych)</li>
+<li>Układ do komunikacji poprzez USB FT232 IC</li>
+<li>Układ sterujący silnikami L293D (H-bridge sterowany z procesora ATmega pozwala na zmianę polaryzacji silników)</li>
+<li>Odomtery zainstalowane przy każdej zębatce napędzającej koło. Można mierzyć np. przebytą drogę na podstawie zliczonych impulsów.</li>
+<li>Język programowania ARDUINO</li>
+<li>Zasilanie 4 x baterie AAA (6 Volt)</li>
+<li>Komunikacja poprzez port USB</li>
+<li>Moduły rozszerzeń kompatybilne z ASURO (poprzednia generacja Robota jerzdzącego)</li>
+<li>[*]Wymiary 40 mm x 120 mm x 180 mm</li>
+</ul>
+<h3 id="span-styleline-height-15emopis-i-uruchomieniespan"><span style="line-height: 1.5em;">Opis i uruchomienie:</span></h3>
+<p>Produkt jest dobrze zabezpieczony przed uszkodzeniem w transporcie a dostawa jak zawsze kurierem. Robot znajdował się w całkiem fajnym pudełku a dodatkowo znajdował się w plastikowym opakowaniu zabezpieczającym. W pudełku znajduje się złożony robot, płyta CD z przykładowymi programami i plikami PDF oraz oprogramowanie <a title="Arduino" href="http://www.arduino.cc/" target="_blank">Arduino</a>.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-0.jpg"><img class="aligncenter size-full wp-image-4774" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-0.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-0" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-0.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-0-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-1.jpg"><img class="aligncenter size-full wp-image-4773" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-1.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-1" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-1.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-1-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-10.jpg"><img class="aligncenter size-full wp-image-4772" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-10.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-10" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-10.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-10-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-11.jpg"><img class="aligncenter size-full wp-image-4771" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-11.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-11" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-11.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-11-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-12.jpg"><img class="aligncenter size-full wp-image-4770" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-12.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-12" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-12.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-12-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-13.jpg"><img class="aligncenter size-full wp-image-4769" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-13.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-13" width="1000" height="1333" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-13.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-13-225x300.jpg 225w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-13-768x1024.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-14.jpg"><img class="aligncenter size-full wp-image-4768" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-14.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-14" width="1000" height="1333" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-14.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-14-225x300.jpg 225w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-14-768x1024.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<h3 id="arduino">Arduino</h3>
+<p>Robota uruchamia się poprzez podłączenia zasilania (4 baterie AAA) i podłączenie go do komputera poprzez kabel USB który jest w zestawie. Na początku nie jest potrzebne zasilanie z baterii, jeśli użytkownik chce uruchamiać proste programy takie jak np. migająca dioda. Wtedy zasilanie odbywa się poprzez port USB komputera.</p>
+<h3 id="wygląd">Wygląd</h3>
+<p>Arduino robot AAR-04 to tak naprawdę <a href="http://arduino.cc/en/Main/arduinoBoardDuemilanove" target="_blank">standardowa płytka Arduino Duemilanove</a> bez regulatora napięcia na 5V, na kółkach. Trzecim przednim kołem jest metalowa kulka która nadaje całości ciężar, stabilizuje i hałasuje. Poniżej można zobaczyć parę fotek z bliska.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-16.jpg"><img class="aligncenter size-full wp-image-4775" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-16.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-16" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-16.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-16-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-8.jpg"><img class="aligncenter size-full wp-image-4777" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-8.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-8" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-8.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-8-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-6.jpg"><img class="aligncenter size-full wp-image-4778" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-6.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-6" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-6.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-6-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-5.jpg"><img class="aligncenter size-full wp-image-4779" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-5.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-5" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-5.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-5-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-2.jpg"><img class="aligncenter size-full wp-image-4782" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-2.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-2" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-2.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-2-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-3.jpg"><img class="aligncenter size-full wp-image-4781" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-3.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-3" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-3.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-3-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-4.jpg"><img class="aligncenter size-full wp-image-4780" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-4.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-4" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-4.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-4-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-151.jpg"><img class="aligncenter size-full wp-image-4776" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-151.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-15" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-151.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-151-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<h3 id="span-styleline-height-15emtestyspan"><span style="line-height: 1.5em;">Testy</span></h3>
+<p>Testy rozpocząłem od przejrzenia CD. Na płycie dostępne są programy testowe i dokumentacja. W folderze Examples zainteresowały mnie dwa katalogi które mówiły same za siebie _04_move i _05_Line_follow. Czyli programy testowe które miały w parę sekund ożywić robota. O ile program move działał. Trzeba było w nim tylko zmienić czasy działania silników na mniejsze, ponieważ nie starczało miejsca w salonie na ruchy robota. To Line_follow w ogóle nie działał. Nie łapał żądnej linii. Linie rysowałem markerem i tworzyłem przy pomocy czarnej taśmy klejącej. Jak na dwa programy z których ten najefektowniejszy nie działa, pomyślałem że to nie dobrze. Nie zastanawiając się długo zamówiłem moduł Bluetooth i czujnik odległości. Razem ok 50 zł.</p>
+<p>Przeglądając zawartość płyty znalazłem plik Bluetooth_AAR.apk, program do sterowana Robotem Arduino na Androida. Była to świetna wiadomość ze względu na wcześniejsze zakupy.</p>
+<p>Czekając już prawie drugi tydzień na części z chin (bo taniej). Postanowiłem zacząć pisać programy do testów. Nie dawał mi spokoju [B]line follow[/B] który nie działał. A w końcu napisałem go sam. Bardzo pomocny stał się program [B]self_test[/B] w którym wszystkie główne funkcje takie jak wykrywanie czarnego pola lub sterowanie silnikami są podane na tacy, trzeba tylko umieć te funkcje poskładać w jedną całość. Gdy już opanowałem podążanie za linią, pomyślałem że wykrywanie czarnego pola i zawracanie to będzie fajne zajęcie dla robota. Zobaczcie wszystkie trzy programy o których wspomniałem powyżej.</p>
+<p>Proste poruszanie się</p>
+<p>Podążanie wzdłuż linii</p>
+<p>Wykrywanie i zawracanie</p>
+<p>Po tych testach byłem zadowolony z efektów bo robot sprawiał frajdę nawet jeśli odpalało się go na parę sekund aby popatrzeć jak podąża za linią. Niby podąża ale mógłby szybciej… Tu trzeba było by się pobawić kodem. Nawet po skończonym „celu” można dopracowywać swoje dzieła i tworzyć nowe funkcje, trasy itd. a to tylko foto tranzystor i dwa silniki.</p>
+<p>No właśnie co z BT i czujnikiem odległości? Bluetooth doszedł czujnik nie..</p>
+<p>Aby podłączyć moduł Bluetooth musiałem znaleźć 3.3V, GND i dwa cyfrowe porty aby emulować RX,TX (odbieranie, wysyłanie). Emulować, bo nie mogę w tym samym czasie programować robota i odbierać/wysyłać danych z bluetooth na tych samych pinach na procesorze.</p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-7.jpg"><img class="aligncenter size-full wp-image-4783" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-7.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-7" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-7.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-7-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<h3 id="android">Android</h3>
+<p>Po podłączeniu czas na aplikację na Androida. Okazało się że program wysyła komendy f = 8, b = 2, s = 5, l = 4, r = 6. Czyli programowanie nie było trudne trzeba było przypisać komendy jak w przypadku programu <strong>move</strong> pod odpowiednie cyfry. I sterowanie poprzez bluetooth gotowe. Poniżej zrzut z telefonu aby pokazać jak wygląda program do sterowania.</p>
+<p style="text-align: center;">
+  <a href="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-9.jpg"><img class="aligncenter  wp-image-4784" src="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-9.jpg" alt="techfreak_pl_Arduino-Robot_AAR-04_9-9" width="277" height="461" srcset="http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-9.jpg 768w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-9-180x300.jpg 180w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-9-614x1024.jpg 614w" sizes="(max-width: 277px) 100vw, 277px" /></a>
+</p>
+<p>Sterowanie poprzez Bluetooth</p>
+<h3 id="podsumowanie">Podsumowanie</h3>
+<p>Robot jest fajną opcją dla początkujących którzy szukają gotowej platformy podłącz i programuj. Praktycznie nie trzeba tu lutować a główny cel to pisanie programów w C. Oprócz modułu bluetooth można zastosować, serwa lub sterowanie poprzez diodę IR. Fajną opcja było by poruszanie się za pomocą czujnika odległości lub podłączenie wyświetlacza na którym wyświetlało by się np. odległość od obiektu lub temperaturę. Naprawdę możliwość są nie ograniczone.</p>
+<p>Minusy</p>
+<ul>
+<li>hałas metalowej kulki przy poruszaniu</li>
+<li>mała liczba dostępnych wyjść 2 analogowe i 2 cyfrowe</li>
+<li>brak regulatora napięcia na 5V</li>
+<li>koszyk na baterie AAA. AA też by weszły</li>
+</ul>
+<p><span style="line-height: 1.5em;">Plusy</span></p>
+<ul>
+<li>Integralna platforma procesor, silniki, układy na jednej płycie</li>
+<li>łatwe programowanie dzięki Arduino</li>
+</ul>
+<p>Link do produktu <a href="http://www.conrad.pl/Robot-Arduino---programowalny-Arexx-AAR-04.htm?websale7=conrad&amp;pi=191694&amp;Ctx=%7Bver%2F7%2Fver%7D%7Bst%2F3ec%2Fst%7D%7Bcmd%2F0%2Fcmd%7D%7Bm%2Fwebsale%2Fm%7D%7Bs%2Fconrad%2Fs%7D%7Bl%2F01-aa%2Fl%7D%7Bsf%2F%3Cs1%3E191694+%A0%A0%A0%3C%2Fs1%3E%2Fsf%7D%7Bp1%2F63972bf2c9596268ac8fea03b5d7a941%2Fp1%7D%7Bmd5%2F06629330f4abbf962ee7952d4c913b76%2Fmd5%7D">http://www.conrad.pl/Robot-Arduino—programowalny-Arexx-AAR</a></p>
+<h3 id="edit">EDIT:</h3>
+<p>W końcu doszedł ultradźwiękowy moduł pomiaru odległości HC-SR04 i mogłem przetestować jak działa z robotem.</p>
+<h3 id="programy-dla-arduino">Programy dla Arduino</h3>
+<p>move</p>
+<pre>/*
+Arduino-Roboter AAR-04 move techfreak.pl dla conrad.pl
+*/
+
+/*
+Name project: Example 4, RP6 Motor control
+Author: Egbert Koerhuis
+Company: Arexx Engineering
+Discription:
+This Example Program shows how to control the Motors.
+Make sure that the AAR can __NOT__ move when uploading the program!
+After uploading the program, the AAR will wait 2 seconds before the program start.
+
+&gt;&gt;&gt; DO NOT FORGET TO REMOVE THE USB CABLE, after uploading the program.
+
+ATTENTION: THE ROBOT MOVES AROUND IN THIS EXAMPLE! PLEASE PROVIDE ABOUT
+1m x 1m OR MORE FREE SPACE FOR THE ROBOT!
+
+You are free to change the code!
+*/
+
+void setup()
+{
+//Setup: Initalization
+//pin 10 left foreward
+pinMode(10, OUTPUT);
+//pin 9 left backward
+pinMode(9, OUTPUT);
+//pin 5 right foreward
+pinMode(5, OUTPUT);
+//pin 6 right backward
+pinMode(6, OUTPUT);
+
+//Then set the start value of the signals to zero:
+analogWrite(9, 0);
+analogWrite(10, 0);
+analogWrite(5, 0);
+analogWrite(6, 0);
+
+//Startup delay:
+delay(2000);
+
+}
+
+void loop()
+{
+digitalWrite(9,LOW); analogWrite(10,200); //##set pin 9 to ground!## set speed left motor 200 foreward
+digitalWrite(5,LOW); analogWrite(6,200); //##set pin 6 to ground!## set speed right motor 200 foreward
+delay(500); //drive for 5000ms
+digitalWrite(9,LOW); analogWrite(10,200); //##set pin 9 to ground!## set speed left motor 200 foreward
+digitalWrite(6,LOW); digitalWrite(5,LOW); //make a left turn
+delay(500); //drive for 5000ms
+digitalWrite(10,LOW); analogWrite(9,200); //##set pin 10 to ground!## set speed left motor 200 backward
+digitalWrite(6,LOW); analogWrite(5,200); //##set pin 5 to ground!## set speed right motor 200 backward
+delay(500); //drive for 5000ms
+digitalWrite(5,LOW); analogWrite(6,200); //##set pin 5 to ground!## set speed right motor 200 backward
+digitalWrite(9,LOW); digitalWrite(10,LOW); //make a right turn
+delay(500); //drive for 5000ms
+digitalWrite(6,LOW); digitalWrite(5,LOW); //stop motors
+digitalWrite(9,LOW); digitalWrite(10,LOW); //stop motors
+}</pre>
+<p>serach and back</p>
+<pre>/*
+Arduino-Roboter AAR-04 line_end techfreak.pl dla conrad.pl
+*/
+
+void setup()    
+{
+  //Setup: Initalization 
+  //pin 10 left foreward
+  pinMode(10, OUTPUT);
+  //pin 9 left backward
+  pinMode(9, OUTPUT);
+  //pin 5 right foreward
+  pinMode(5, OUTPUT);
+  //pin 6 right backward
+  pinMode(6, OUTPUT);
+  //led
+  pinMode(7,OUTPUT);
+
+  //Then set the start value of the signals to zero: 
+  analogWrite(9, 0);   
+  analogWrite(10, 0);   
+  analogWrite(5, 0);   
+  analogWrite(6, 0);
+  Serial.begin(9600);
+  Serial.print("\ntechfreak.pl - Test Robota AREXX dla conrad.pl\n"); 
+  digitalWrite(7,HIGH);  
+  //Startup delay:
+  delay(2000);
+
+}
+
+void square(){
+  int left=0;
+  int right=0;
+  left = analogRead(A6);
+  right = analogRead(A7);
+
+  digitalWrite(10,LOW); analogWrite(9,100); //##set pin 10 to ground!## set speed left motor 200 backward 
+  digitalWrite(6,LOW); analogWrite(5,100);  //##set pin 5 to ground!## set speed right motor 200 backward
+  delay(1);
+
+  if(left &lt; 200 || right &lt; 200){                         
+  Serial.print("LEFT: BLACK    ");
+    digitalWrite(6,LOW); digitalWrite(5,LOW); //stop motors
+    digitalWrite(9,LOW); digitalWrite(10,LOW); //stop motors   
+    delay(10);
+    digitalWrite(9,LOW); analogWrite(10,200); //##set pin 9 to ground!## set speed left motor 200 foreward
+    digitalWrite(6,LOW); digitalWrite(5,LOW); //make a left turn
+    delay(400);
+  }
+}
+
+void loop()
+{
+square();
+}</pre>
+<p>line follower / tracker</p>
+<pre>/*
+Arduino-Roboter AAR-04 linesensor/linetracker techfreak.pl dla conrad.pl
+*/
+
+void setup()    
+{
+  //Setup: Initalization 
+  //pin 10 left foreward
+  pinMode(10, OUTPUT);
+  //pin 9 left backward
+  pinMode(9, OUTPUT);
+  //pin 5 right foreward
+  pinMode(5, OUTPUT);
+  //pin 6 right backward
+  pinMode(6, OUTPUT);
+  //led
+  pinMode(7,OUTPUT);
+
+  //Then set the start value of the signals to zero: 
+  analogWrite(9, 0);   
+  analogWrite(10, 0);   
+  analogWrite(5, 0);   
+  analogWrite(6, 0);
+  Serial.begin(9600);
+  Serial.print("\ntechfreak.pl - Test Robota AREXX dla conrad.pl\n"); 
+  digitalWrite(7,HIGH);  
+  //Startup delay:
+  delay(2000);
+
+}
+void l(){
+ digitalWrite(10,LOW); analogWrite(9,100); //##set pin 9 to ground!## set speed left motor 200 foreward
+ digitalWrite(6,LOW); digitalWrite(5,LOW); //make a left turn
+ delay(10);
+}
+void r(){
+ digitalWrite(6,LOW); analogWrite(5,100); //##set pin 5 to ground!## set speed right motor 200 backward
+ digitalWrite(9,LOW); digitalWrite(10,LOW); //make a right turn
+ delay(10);
+}
+
+void linesensor(){
+  int left=0;
+  int right=0;
+  left = analogRead(A6);
+  right = analogRead(A7);
+
+  if(left &lt; 150){                         
+      Serial.print("LEFT: BLACK    ");
+r();
+      }
+      else {
+        Serial.print("LEFT: WHITE    ");
+      //delay(10);
+      }
+
+ if(right &lt; 150){                         
+      Serial.print("RIGHT: BLACK    \n");
+l();
+      }
+      else {
+        Serial.print("RIGHT: WHITE    \n");
+        //delay(10);
+
+      }
+
+}
+
+void loop()
+{
+
+   linesensor();
+
+}</pre>
+<p>sterowanie poprzez bluetooth</p>
+<pre>/*
+Arduino-Roboter AAR-04 bluetooth control techfreak.pl dla conrad.pl
+*/
+
+#include 
+SoftwareSerial mySerial(8, 4); // RX, TX
+char incomingByte;
+void setup()  
+{
+   pinMode(10, OUTPUT);
+  //pin 9 left backward
+  pinMode(9, OUTPUT);
+  //pin 5 right foreward
+  pinMode(5, OUTPUT);
+  //pin 6 right backward
+  pinMode(6, OUTPUT);
+  //Then set the start value of the signals to zero: 
+  analogWrite(9, 0);   
+  analogWrite(10, 0);   
+  analogWrite(5, 0);   
+  analogWrite(6, 0);
+// Open serial communications and wait for port to open:
+  Serial.begin(9600);
+  while (!Serial) {
+  ; // wait for serial port to connect. Needed for Leonardo only
+ }
+  Serial.println("hello USB");
+ // set the data rate for the SoftwareSerial port
+  mySerial.begin(9600);
+ mySerial.println("Hello, BT");
+}
+void loop() // run over and over
+{
+  if (mySerial.available())
+   Serial.write(mySerial.read());
+  if (Serial.available())
+    mySerial.write(Serial.read());
+  digitalWrite(6,LOW); digitalWrite(5,LOW); //stop motors
+  digitalWrite(9,LOW); digitalWrite(10,LOW); //stop motors   
+  if (mySerial.available() &gt; 0) {          // if received UART data
+    incomingByte = mySerial.read();        // raed byte
+     if(incomingByte == '8') { 
+      digitalWrite(10,LOW); analogWrite(9,200); //##set pin 10 to ground!## set speed left motor 200 backward 
+      digitalWrite(6,LOW); analogWrite(5,200);  //##set pin 5 to ground!## set speed right motor 200 backward       
+                delay(500);     }
+    if(incomingByte == '4') { 
+    digitalWrite(9,LOW); analogWrite(10,200); //##set pin 9 to ground!## set speed left motor 200 foreward
+   digitalWrite(6,LOW); digitalWrite(5,LOW); //make a left turn
+    delay(500);     }
+     if(incomingByte == '2') { 
+      digitalWrite(9,LOW); analogWrite(10,200); //##set pin 9 to ground!## set speed left motor 200 foreward 
+      digitalWrite(5,LOW); analogWrite(6,200);  //##set pin 6 to ground!## set speed right motor 200 foreward 
+    delay(500);     }
+      if(incomingByte == '6') {
+       digitalWrite(5,LOW); analogWrite(6,200); //##set pin 5 to ground!## set speed right motor 200 backward
+   digitalWrite(9,LOW); digitalWrite(10,LOW); //make a right turn
+    delay(500);     }
+      if(incomingByte == '5') {
+       digitalWrite(6,LOW); digitalWrite(5,LOW); //stop motors
+   digitalWrite(9,LOW); digitalWrite(10,LOW); //stop motors   
+      }
+   }
+}</pre>
+<p>HC-SR04</p>
+<pre>*
+ HC-SR04 Ping distance sensor:
+ VCC to arduino 5v 
+ GND to arduino GND
+ Echo to Arduino pin 7 
+ Trig to Arduino pin 8
+ 
+ This sketch originates from Virtualmix: http://goo.gl/kJ8Gl
+ Has been modified by Winkle ink here: http://winkleink.blogspot.com.au/2012/05/arduino-hc-sr04-ultrasonic-distance.html
+ And modified further by ScottC here: http://arduinobasics.blogspot.com/
+ on 10 Nov 2012.
+ */
+
+#define echoPin 4 // Echo Pin
+#define trigPin 8 // Trigger Pin
+#define LEDPin 13 // Onboard LED
+
+int maximumRange = 20; // Maximum range needed
+int minimumRange = 0; // Minimum range needed
+long duration, distance; // Duration used to calculate distance
+
+int randNumber = 0;
+
+void setup() {
+ Serial.begin (9600);
+ pinMode(trigPin, OUTPUT);
+ pinMode(echoPin, INPUT);
+ pinMode(LEDPin, OUTPUT); // Use LED indicator (if required)
+ 
+ //Setup: Initalization 
+ //pin 10 left foreward
+ pinMode(10, OUTPUT);
+ //pin 9 left backward
+ pinMode(9, OUTPUT);
+ //pin 5 right foreward
+ pinMode(5, OUTPUT);
+ //pin 6 right backward
+ pinMode(6, OUTPUT);
+
+ //Then set the start value of the signals to zero: 
+ analogWrite(9, 0);   
+ analogWrite(10, 0);   
+ analogWrite(5, 0);   
+ analogWrite(6, 0);
+ Serial.begin(9600);
+ Serial.print("\ntechfreak.pl - Test Robota AREXX dla conrad.pl\n"); 
+ digitalWrite(7,HIGH);  
+ //Startup delay:
+ delay(2000);
+
+ 
+}
+
+ void loop() {
+ /* The following trigPin/echoPin cycle is used to determine the
+ distance of the nearest object by bouncing soundwaves off of it. */ 
+ digitalWrite(trigPin, LOW); 
+ delayMicroseconds(2); 
+
+ digitalWrite(trigPin, HIGH);
+ delayMicroseconds(10); 
+ 
+ digitalWrite(trigPin, LOW);
+ duration = pulseIn(echoPin, HIGH);
+ 
+ //Calculate the distance (in cm) based on the speed of sound.
+ distance = duration/58.2;
+ randNumber = 0;
+
+ if (distance &lt;= maximumRange ){
+ /* Send a negative number to computer and Turn LED ON 
+ to indicate "out of range" */
+ Serial.println("-1");
+ digitalWrite(LEDPin, HIGH); 
+ 
+// digitalWrite(6,LOW); digitalWrite(5,LOW); //stop motors
+// digitalWrite(9,LOW); digitalWrite(10,LOW); //stop motors   
+// delay(10);
+ //digitalWrite(9,LOW); analogWrite(10,200); // foreward 
+// digitalWrite(5,LOW); analogWrite(6,200);  // foreward 
+ //delay(10);
+ 
+ digitalWrite(6,LOW); digitalWrite(5,LOW); //stop motors
+ digitalWrite(9,LOW); digitalWrite(10,LOW); //stop motors  
+ delay(10);
+ digitalWrite(9,LOW); analogWrite(10,200); // left motor foreward
+ digitalWrite(6,LOW); digitalWrite(5,LOW); //make a left turn
+ delay(500); 
+ digitalWrite(6,LOW); digitalWrite(5,LOW); //stop motors
+ digitalWrite(9,LOW); digitalWrite(10,LOW); //stop motors 
+ }
+
+ else {
+ /* Send the distance to the computer using Serial protocol, and
+ turn LED OFF to indicate successful reading. */
+ Serial.println(distance);
+ digitalWrite(LEDPin, LOW); 
+ 
+ //forward
+ 
+ digitalWrite(10,LOW); analogWrite(9,200); //##set pin 10 to ground!## set speed left motor 200 backward 
+ digitalWrite(6,LOW); analogWrite(5,200);  //##set pin 5 to ground!## set speed right motor 200 backward       
+ //delay(10);
+ 
+ }
+ 
+ //Delay 50ms before next reading.
+ delay(10);
+}
+</pre>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/android/">Android</a>, 
+                <a href="/tags/arduino/">arduino</a>, 
+                <a href="/tags/bluetooth/">bluetooth</a>, 
+                <a href="/tags/roboty/">roboty</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Test%20Arexx%20Arduino%20Robot%20AAR-04&url=https%3a%2f%2ftechfreak.pl%2ftest-arexx-arduino-robot-aar-04%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2ftest-arexx-arduino-robot-aar-04%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>router on techfreak blog</title>
+    <link>https://techfreak.pl/tags/router/</link>
+    <description>Recent content in router on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Mon, 17 Apr 2017 18:50:56 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/router/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test routera tp-link Archer C3200</title>
+      <link>https://techfreak.pl/test-routera-tp-link-archer-c3200/</link>
+      <pubDate>Mon, 17 Apr 2017 18:50:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/test-routera-tp-link-archer-c3200/</guid>
+      <description>&lt;p&gt;Zapraszam na mój drugi test routera WiFi AC od tp-link. Tym razem tp-link Archer AC3200.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ile wyciągnie WiFi ac? Test routera Archer C7</title>
+      <link>https://techfreak.pl/wyciagnie-wifi-ac-test-routera-archer-c7/</link>
+      <pubDate>Mon, 17 Nov 2014 15:08:11 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wyciagnie-wifi-ac-test-routera-archer-c7/</guid>
+      <description>&lt;p&gt;No to kolejny test routera z WiFi w standardzie AC za mną. Mowa o Archer C7 od TP-Link, którego miałem okazje użytkować przez jakiś dłuższy czas u siebie w domu. Do tego testu podszedłem tylko pod kątem stabilności i wydajności. Dlatego na ten czas zamieniłem swój dotychczasowy router WR1043ND na Archera C7. Testy w domu to nie przelewki bo jak wystąpią przerwy w dostawie pudelka do smartfona żony to może być problem. Po za tym często pracuje zdalnie lub przesyłam pliki na domowego NASa więc nie mogło być lipy i liczyłem że nie będzie problemu z tym routerem. A pierwszy tydzień normalnego użytkowania był testem kwalifikacyjnym do dalszych działań.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VoCore mikro komputer z WiFi</title>
+      <link>https://techfreak.pl/vocore-mikro-komputer-wifi/</link>
+      <pubDate>Sat, 31 May 2014 17:21:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/vocore-mikro-komputer-wifi/</guid>
+      <description>VoCore to nowy bardzo fajny projekt mikro komputerka z OpenWRT na pokładzie. Mikro z powodu swoich całkowitych wymiarów które wynoszą 25mm x25mm. Na płytce znajdziemy 32MB SDRAM, 8MB SPI Flash i takie interfejsy jak 10/100M Ethernet, USB, UART, I2C, I2S, PCM, JTAG oraz 20 portów GPIOs i WiFi. A to wszystko pod kontrolą RT5350(360MHz MIPS).
+
+Projekt wystartował jakiś czas temu na indiegogo gdzie już zdobył 47k $ zielonych, dzięki którym wejdzie do produkcji.</description>
+    </item>
+    
+    <item>
+      <title>Gigsowe Wifi czy to już? Test routera TEW-812DRU i karty usb TEW-805UB</title>
+      <link>https://techfreak.pl/gigsowe-wifi-czy-to-juz-test-routera-tew-812dru-i-karty-usb-tew-805ub/</link>
+      <pubDate>Wed, 24 Jul 2013 05:40:59 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/gigsowe-wifi-czy-to-juz-test-routera-tew-812dru-i-karty-usb-tew-805ub/</guid>
+      <description>&lt;p&gt;Wiadomo już dawno że bez WiFi nie można żyć i że dostęp do internetu musi być wszędzie. Jak nie w domu to w pracy i jeszcze najlepiej pomiędzy jak jedziemy samochodem żeby tylko pakietu na internet nie zjadło za dużo. Na szczęście pakiety nie są takie drogie (PLAY 10zł za 1G). Mówiąc o WiFi raczej ludzie myślą o dostępie do internetu a nie o standardach, transferach i ogólnie jak szybkie to całe WiFi jest. W sumie co mają się przejmować, jest zasięg, internet działa jest ok. Mam takiego sąsiada co kupił u operatora 30Mbps, posiada router z AP w standardzie 802.11b, czyli 11 Mbps i własnie zmienia operatora bo nie wyciąga transferów na www speed teście. Nie ma co opowiadać historyjek ale tak właśnie chciałem zacząć test routera TRENDnet TEW-812DRU który działa w standardzie 802.11ac a jego maksymalna przepustowość po radiu może wynieść 1300Mbps. Tak jak ostatnio w przypadku testu &lt;a title=&#34;Sieć LAN z gniazdka&#34; href=&#34;http://techfreak.pl/siec-lan-z-gniazdka-elektrycznego-test-adapterow-trendnet-tpl-405e/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;adapterów LAN&lt;/a&gt; postaram się sprawdzić prawdziwe realne transfery jakie można wycisnąć z tego sprzętu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OpenWRT na Raspberry Pi</title>
+      <link>https://techfreak.pl/openwrt-na-raspberry-pi/</link>
+      <pubDate>Sat, 22 Jun 2013 21:10:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/openwrt-na-raspberry-pi/</guid>
+      <description>&lt;p&gt;Tyle ilu jest użytkowników Raspberry Pi tyle będzie pomysłów na zastosowanie tego maleństwa. Ja pomyślałem że muszę spróbować zainstalować OpenWRT na Raspberry Pi bo wraz ze stabilną wersją Attitude Adjustment, OpenWRT zaczęło je wspierać.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Szukasz fajnego GUI do firewalla ?</title>
+      <link>https://techfreak.pl/szukasz-fajnego-gui-do-firewalla/</link>
+      <pubDate>Sun, 23 Dec 2012 13:01:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/szukasz-fajnego-gui-do-firewalla/</guid>
+      <description>&lt;p&gt;Dziś chciałbym przypomnieć, pokazać dosyć znaną dystrybucje pod router/firewall opartą na forku innej znanej dystrybucji &lt;a href=&#34;http://m0n0.ch/&#34; target=&#34;_blank&#34;&gt;m0n0wall&lt;/a&gt; a mowa o  &lt;a href=&#34;http://www.pfsense.org/&#34; target=&#34;_blank&#34;&gt;pfSense&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Iptables – redirect portów, przekierowanie portów</title>
+      <link>https://techfreak.pl/iptables-redirect-portow-przekierowanie-portow/</link>
+      <pubDate>Sat, 06 Oct 2012 10:16:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/iptables-redirect-portow-przekierowanie-portow/</guid>
+      <description>&lt;p&gt;Jak ustawić przekierowanie portów na iptables ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja sieci dla routera cisco serii 800</title>
+      <link>https://techfreak.pl/konfiguracja-sieci-dla-routera-cisco-serii-800/</link>
+      <pubDate>Sat, 06 Oct 2012 10:13:53 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-sieci-dla-routera-cisco-serii-800/</guid>
+      <description>&lt;p&gt;Jak skonfigurować podstawy w routerze Cisco ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja tunelu VPN site to site dla Cisco do urządzeń innych niż cisco</title>
+      <link>https://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-dla-cisco-do-urzadzen-innych-niz-cisco/</link>
+      <pubDate>Sat, 06 Oct 2012 08:56:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-dla-cisco-do-urzadzen-innych-niz-cisco/</guid>
+      <description>&lt;p&gt;Jak skonfigurować tunel VPN site 2 site na Cisco ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja routera cisco – ssh</title>
+      <link>https://techfreak.pl/konfiguracja-routera-cisco-ssh/</link>
+      <pubDate>Fri, 05 Oct 2012 20:00:22 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-routera-cisco-ssh/</guid>
+      <description>&lt;p&gt;Jak włączyć ssh na routerze Cisco ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja routera Cisco z adresem WAN z dhcp i adresami dla klientów z dhcp</title>
+      <link>https://techfreak.pl/konfiguracja-routera-cisco-z-adresem-wan-z-dhcp-i-adresami-dla-klientow-z-dhcp/</link>
+      <pubDate>Fri, 05 Oct 2012 19:55:19 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-routera-cisco-z-adresem-wan-z-dhcp-i-adresami-dla-klientow-z-dhcp/</guid>
+      <description>&lt;p&gt;Przykład jak skonfigurować router Cisco aby pobierał na interfejsie WAN adres IP z DHCP i rozdawał IP ze swojego DHCP.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja routera cisco – nat</title>
+      <link>https://techfreak.pl/konfiguracja-routera-cisco-nat/</link>
+      <pubDate>Fri, 05 Oct 2012 19:50:21 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-routera-cisco-nat/</guid>
+      <description>&lt;p&gt;Przykład trochę skomplikowanego użycia NAT w cisco . Ukrywanie sieci lokalnej z adresacją 192.168.1.0 pod siecią z adresacji 172.16.1.0 w przypadku łączenia się do konkretnego hosta np: 10.0.0.1. Przydatne przy połączeniach VPN.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pcb on techfreak blog</title>
+    <link>https://techfreak.pl/tags/pcb/</link>
+    <description>Recent content in pcb on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 19 Apr 2016 17:05:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/pcb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DEMON CORE &#43; KRASZZZ KONKURS!</title>
+      <link>https://techfreak.pl/ddemon-core-kraszzz-konkurs/</link>
+      <pubDate>Tue, 19 Apr 2016 17:05:19 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ddemon-core-kraszzz-konkurs/</guid>
+      <description>&lt;p&gt;Jedną z podstawowych części dronów zwykłych i wyścigowych jest płytka zasilania (PDB). Nie tylko rozdziela ona napięcie pomiędzy regulatory ale zasila też elektronikę sterującą czyli kontroler lotu (FC), odbiornik RC i nadajnik wideo. Jest to całkiem ważny element całego drona dlatego warto na pokładzie mieć coś sprawdzonego jak PDB od &lt;a href=&#34;http://demonrc.eu/&#34;&gt;demonrc.eu&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bezprzewodowe czujniki wilgotności &#43; pomiar napięcia</title>
+      <link>https://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/</link>
+      <pubDate>Wed, 16 Mar 2016 06:38:21 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/</guid>
+      <description>&lt;p&gt;W projekcie nettemp dużo się dzieje. Co chwilę wraz z społecznością na forum dokładamy nowe funkcjonalności albo poprawiamy stare elementy. Dziś chciałbym przestawić wam jeden ciekawy wątek na forum który cieszy się popularnością. Chodzi o temat &lt;a href=&#34;http://nettemp.pl/forum/viewtopic.php?f=8&amp;t=702&#34; target=&#34;_blank&#34;&gt;[DIY] Urządzenia WiFi dla NetTemp&lt;/a&gt; w którym to użytkownicy zaprojektowali swoje płytki PCB oraz napisali oprogramowanie do układów ESP8266.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>EasyEDA program do projektowania PCB</title>
+      <link>https://techfreak.pl/easyeda-program-do-projektowania-pcb/</link>
+      <pubDate>Sat, 18 Apr 2015 19:39:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/easyeda-program-do-projektowania-pcb/</guid>
+      <description>&lt;p&gt;Ile razy to ja się zabierałem za projektowanie PCB to już nie pamiętam. Zawsze jakoś ciężko było ogarnąć jakiś program, a jest ich całkiem sporo EAGLE, KiCAD i chyba najprostszy FRITZING. Samo wytrawianie płytek z gotowych projektów sprawiało mi frajdę i jest to całkiem proste. Ostatnio w moim projekcie nettemp pojawiły się czujniki bezprzewodowe na ESP8266 i potrzebowałem swojej płytki do szybkiego testowania i wgrywania programów. Oczywiście złożyłem jednego pająka na płytce uniwersalnej co można zobaczyć w &lt;a href=&#34;http://techfreak.pl/tag/nettemp/&#34; target=&#34;_blank&#34;&gt;ostatnich wpisach&lt;/a&gt; ale potrzebuje takich klika. A, że wolę zastosować pętle niż powtarzać parę razy to samo,  musiałem w końcu zaprojektować swoją płytkę do testowania ESP8266. I tak trafiłem na EasyEDA.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>betaflight on techfreak blog</title>
+    <link>https://techfreak.pl/tags/betaflight/</link>
+    <description>Recent content in betaflight on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Mon, 02 Apr 2018 20:27:57 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/betaflight/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nadajnik FrSky R-XSR i F.PORT</title>
+      <link>https://techfreak.pl/nadajnik-frsky-r-xsr-i-f-port/</link>
+      <pubDate>Mon, 02 Apr 2018 20:27:57 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nadajnik-frsky-r-xsr-i-f-port/</guid>
+      <description>&lt;p&gt;Zobacz jak zaktualizować odbiornik R-XSR i wgrać firmware z obsługa nowego protokołu F.Port.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mikro dron HGLRC XJB-145</title>
+      <link>https://techfreak.pl/mikro-dron-hglrc-xjb-145/</link>
+      <pubDate>Wed, 07 Feb 2018 19:17:10 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mikro-dron-hglrc-xjb-145/</guid>
+      <description>&lt;p&gt;W dronowym świecie jak zawsze do przodu! Tym razem parę słów o mikro HGLRC XJB-145 czyli miniaturyzacja wyścigówek!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AWESOME youbi XV – 130 kolejny mini quadkopter</title>
+      <link>https://techfreak.pl/awesome-youbi-xv-130-kolejny-mini-quadkopter/</link>
+      <pubDate>Sun, 15 Jan 2017 18:31:25 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/awesome-youbi-xv-130-kolejny-mini-quadkopter/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Nowy rok nowe testy! No i oczywiście coraz lepsze sprzęty do testowania! Dziś mikro multikopter lub jak kto woli, dron o nazwie &lt;a href=&#34;http://www.gearbest.com/multi-rotor-parts/pp_562930.html?wid=21&amp;amp;lkid=10297694&#34;&gt;AWESOME youbi XV – 130&lt;/a&gt;!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nowe silniki dla Tarot 130</title>
+      <link>https://techfreak.pl/nowe-silniki-dla-tarot-130/</link>
+      <pubDate>Thu, 30 Jun 2016 12:22:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nowe-silniki-dla-tarot-130/</guid>
+      <description>&lt;p&gt;W poprzednim wpisie na temat mini racera &lt;a href=&#34;http://goo.gl/vKVggH&#34;&gt;Tarot TL130H1&lt;/a&gt; pisałem, że w za sadzie jedynym minusem są regulatory (ESC). Jednak wymieniłem regulatory i silniki!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

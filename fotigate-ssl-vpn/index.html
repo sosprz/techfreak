@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fotigate SSL VPN &middot; My Name</title>
+        <meta name="description" content="Zdarza się że pracownicy będący poza biurem a muszą dostać się  do sieci LAN w pracy.  Możemy oczywiście zrobić na swoim ruterze przekierowanie portów ale transmisja ta nie jest szyfrowana, ponadto takie przekierowania są męczące/nieskalowalne i robimy sobie tylko problem. Możemy również zestawić tunel VPN dla takich pracowników.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Fotigate SSL VPN">
+<meta property="og:description" content="Zdarza się że pracownicy będący poza biurem a muszą dostać się  do sieci LAN w pracy.  Możemy oczywiście zrobić na swoim ruterze przekierowanie portów ale transmisja ta nie jest szyfrowana, ponadto takie przekierowania są męczące/nieskalowalne i robimy sobie tylko problem. Możemy również zestawić tunel VPN dla takich pracowników.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/fotigate-ssl-vpn/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Fotigate SSL VPN</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2013-01-10" itemprop="datePublished">Thu, Jan 10, 2013</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Zdarza się że pracownicy będący poza biurem a muszą dostać się  do sieci LAN w pracy.  Możemy oczywiście zrobić na swoim ruterze przekierowanie portów ale transmisja ta nie jest szyfrowana, ponadto takie przekierowania są męczące/nieskalowalne i robimy sobie tylko problem. Możemy również zestawić tunel VPN dla takich pracowników.</p>
+<p>W FG (skrót od Fortigate) możemy skorzystać z dwóch tuneli:</p>
+<ol>
+<li>ipsec</li>
+<li>ssl-vpn</li>
+</ol>
+<p>Opis tunel IPsec zostawimy sobie na inny dzień, a dziś pokaże jak ustawić SSL-VPN.</p>
+<h4 id="możemy-skorzystać-z-takiego-tunelu-na-dwa-sposoby">Możemy skorzystać z takiego tunelu na dwa sposoby:</h4>
+<ol>
+<li>wchodząc na specjalny portal/stronę naszego FG.</li>
+</ol>
+<p style="text-align: center;">
+  <a href="http://techfreak.pl/fotigate-ssl-vpn/fgsslvpn10/" rel="attachment wp-att-1244"><img class="aligncenter  wp-image-1244" alt="fgsslvpn10" src="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn10.jpg" width="455" height="290" srcset="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn10.jpg 569w, http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn10-300x190.jpg 300w" sizes="(max-width: 455px) 100vw, 455px" /></a>
+</p>
+<p>Po zalogowaniu  zobaczymy zakładkę  „Connection Tool”, gdzie mamy do wyboru protokoły takie jak: Telnet, Rdp, Ssh, Vnc, Http/Https,  Ftp . Wybierając np.: protokół RDP i wpisując adres IP połączymy się ze  zdalnym pulpitem komputera sieci LAN (aplet Javy).</p>
+<p><strong>Jakie są plusy w/w rozwiązania?</strong>– nie instalujemy żadnego programu na naszym domowym komputerze i wszystko robimy z przeglądarki.</p>
+<p><strong>Jakie są minusy?</strong> -za dużo wpisywania (chodzi o url ,login, hasło itp). Ponadto nie ma możliwości  skorzystania z drukarki sieciowej(jest smb).</p>
+<p> </p>
+<ol start="2">
+<li>drugą możliwością jest wgranie programu na komputerze. Program zajmuje  około 1MB.<br>
+<a href="http://techfreak.pl/fotigate-ssl-vpn/fgsslvpn11/" rel="attachment wp-att-1272"><img class="aligncenter size-full wp-image-1272" alt="fgsslvpn11" src="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn11.jpg" width="353" height="362" srcset="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn11.jpg 353w, http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn11-292x300.jpg 292w" sizes="(max-width: 353px) 100vw, 353px" /></a></li>
+</ol>
+<p>Po zainstalowaniu programu możemy zdefiniować naszego vpna( podając host, login, hasło).</p>
+<h2 id="poniżej-opis-konfiguracji-fg">Poniżej opis konfiguracji FG</h2>
+<h3 id="1-adresacja">1) Adresacja</h3>
+<p>Definiujemy adresy IP(pool), które będą nadawane komputerom łączącym się  z naszym  vpnem:</p>
+<p>Wchodźmy do:</p>
+<p><strong>Firewall Objects →  Address → Address</strong> – definiujemy naszą pulę  adresów</p>
+<p><a href="http://techfreak.pl/fotigate-ssl-vpn/fgsslvpn1/" rel="attachment wp-att-1210"><img class="aligncenter size-full wp-image-1210" alt="fgsslvpn1" src="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn1.jpg" width="642" height="20" srcset="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn1.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn1-600x20.jpg 600w, http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn1-300x9.jpg 300w" sizes="(max-width: 642px) 100vw, 642px" /></a></p>
+<h3 id="2-ustawiamy-nowy-portal">2) Ustawiamy nowy portal</h3>
+<p><strong>VPN → SSL → Config</strong></p>
+<p><a href="http://techfreak.pl/fotigate-ssl-vpn/fgsslvpn2/" rel="attachment wp-att-1211"><img class="aligncenter size-full wp-image-1211" alt="fgsslvpn2" src="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn2.jpg" width="449" height="302" srcset="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn2.jpg 449w, http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn2-300x201.jpg 300w" sizes="(max-width: 449px) 100vw, 449px" /></a></p>
+<p><strong>VPN → SSL → Portal</strong></p>
+<p>Domyślnie ( poniżej FortiOS 5.0) znajdują się trzy portale do wyboru. Edytujemy portal o nazwie <em>Full-access</em> .Wygląda on tak jak na zdjęciu poniżej.</p>
+<p> </p>
+<p><a href="http://techfreak.pl/fotigate-ssl-vpn/fgsslvpn3/" rel="attachment wp-att-1212"><img class="aligncenter size-full wp-image-1212" alt="fgsslvpn3" src="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn3.jpg" width="642" height="281" srcset="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn3.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn3-300x131.jpg 300w" sizes="(max-width: 642px) 100vw, 642px" /></a></p>
+<p>Klikamy na <em>Settings</em> i wybieramy z jakich protokołów chcemy skorzystać po zalogowaniu się na portal.</p>
+<p><a href="http://techfreak.pl/fotigate-ssl-vpn/fgsslvpn4/" rel="attachment wp-att-1213"><img class="aligncenter size-full wp-image-1213" alt="fgsslvpn4" src="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn4.jpg" width="642" height="350" srcset="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn4.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn4-300x163.jpg 300w" sizes="(max-width: 642px) 100vw, 642px" /></a></p>
+<p>Następnie edytujemy zakładkę <em>Tunnel Mode,</em> której używa program wgrany na nasz komputer.<br>
+Wybieramy nasz <em>IP Pools</em> oraz odznaczamy <em>Split Tunneling</em>.</p>
+<p><a href="http://techfreak.pl/fotigate-ssl-vpn/fgsslvpn5/" rel="attachment wp-att-1214"><img class="aligncenter size-full wp-image-1214" alt="fgsslvpn5" src="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn5.jpg" width="519" height="324" srcset="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn5.jpg 519w, http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn5-300x187.jpg 300w" sizes="(max-width: 519px) 100vw, 519px" /></a></p>
+<p> </p>
+<h3 id="3-użytkownicy">3) Użytkownicy</h3>
+<p><strong>User → User → User</strong>  Tworzymy użytkowników którzy mają mieć dostęp do naszego Vpna</p>
+<p><strong>User → User Group → User Group</strong> Wyżej założonych userów dodajemy do nowej grupy pamiętając o wybraniu dla nich portalu.</p>
+<p><a href="http://techfreak.pl/fotigate-ssl-vpn/fgsslvpn8/" rel="attachment wp-att-1217"><img class="aligncenter size-full wp-image-1217" alt="fgsslvpn8" src="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn8.jpg" width="537" height="89" srcset="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn8.jpg 537w, http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn8-300x49.jpg 300w" sizes="(max-width: 537px) 100vw, 537px" /></a></p>
+<h3 id="4-firewall">4) Firewall**</h3>
+<p>**</p>
+<p><strong>Policy → Policy → Policy</strong></p>
+<p>Zakładamy dwie Policy tak jak poniżej, uwzględniając oczywiście swoje nazwy interfejsu Wan, grupy userów itp.</p>
+<p><a href="http://techfreak.pl/fotigate-ssl-vpn/fgsslvpn6/" rel="attachment wp-att-1215"><img class="aligncenter size-full wp-image-1215" alt="fgsslvpn6" src="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn6.jpg" width="458" height="362" srcset="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn6.jpg 458w, http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn6-300x237.jpg 300w" sizes="(max-width: 458px) 100vw, 458px" /></a></p>
+<p><a href="http://techfreak.pl/fotigate-ssl-vpn/fgsslvpn7/" rel="attachment wp-att-1216"><img class="aligncenter size-full wp-image-1216" alt="fgsslvpn7" src="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn7.jpg" width="642" height="348" srcset="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn7.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn7-300x162.jpg 300w" sizes="(max-width: 642px) 100vw, 642px" /></a></p>
+<p> </p>
+<h3 id="6-definiujemy-ruting">6) Definiujemy ruting**</h3>
+<p>**</p>
+<p><strong>Router → Static →Static Route</strong></p>
+<p><a href="http://techfreak.pl/fotigate-ssl-vpn/fgsslvpn9/" rel="attachment wp-att-1218"><img class="aligncenter size-full wp-image-1218" alt="fgsslvpn9" src="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn9.jpg" width="642" height="54" srcset="http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn9.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/fgsslvpn9-300x25.jpg 300w" sizes="(max-width: 642px) 100vw, 642px" /></a></p>
+<p>To by było na tyle. Można teraz połączyć się programem do naszego nowego VPNa.</p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/ssl/">ssl</a>, 
+                <a href="/tags/vpn/">vpn</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Fotigate%20SSL%20VPN&url=https%3a%2f%2ftechfreak.pl%2ffotigate-ssl-vpn%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2ffotigate-ssl-vpn%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

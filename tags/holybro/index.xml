@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Holybro on techfreak blog</title>
+    <link>https://techfreak.pl/tags/holybro/</link>
+    <description>Recent content in Holybro on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 02 Apr 2017 21:34:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/holybro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test wyścigowego drona Shuriken X1</title>
+      <link>https://techfreak.pl/test-wyscigowego-drona-shuriken-x1/</link>
+      <pubDate>Sun, 02 Apr 2017 21:34:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/test-wyscigowego-drona-shuriken-x1/</guid>
+      <description>&lt;p&gt;Shuirken X1 to gotowy do lotu dron wyścigowy zaprojektowany przez firmę Holybro, miałem też okazje testować ich starsze dziecko Shuriken 250.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dron wyścigowy bez składania – Shuriken 250</title>
+      <link>https://techfreak.pl/dron-wyscigowy-bez-skladania-shuriken-250/</link>
+      <pubDate>Tue, 22 Nov 2016 14:17:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/dron-wyscigowy-bez-skladania-shuriken-250/</guid>
+      <description>&lt;p&gt;Dron bez składania? Gotowy do lotu? Szurikeny nadlatują!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

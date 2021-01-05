@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bezprzewodowe czujniki wilgotności &#43; pomiar napięcia &middot; My Name</title>
+        <meta name="description" content="W projekcie nettemp dużo się dzieje. Co chwilę wraz z społecznością na forum dokładamy nowe funkcjonalności albo poprawiamy stare elementy. Dziś chciałbym przestawić wam jeden ciekawy wątek na forum który cieszy się popularnością. Chodzi o temat [DIY] Urządzenia WiFi dla NetTemp w którym to użytkownicy zaprojektowali swoje płytki PCB oraz napisali oprogramowanie do układów ESP8266.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Bezprzewodowe czujniki wilgotności &#43; pomiar napięcia">
+<meta property="og:description" content="W projekcie nettemp dużo się dzieje. Co chwilę wraz z społecznością na forum dokładamy nowe funkcjonalności albo poprawiamy stare elementy. Dziś chciałbym przestawić wam jeden ciekawy wątek na forum który cieszy się popularnością. Chodzi o temat [DIY] Urządzenia WiFi dla NetTemp w którym to użytkownicy zaprojektowali swoje płytki PCB oraz napisali oprogramowanie do układów ESP8266.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Bezprzewodowe czujniki wilgotności &#43; pomiar napięcia</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2016-03-16" itemprop="datePublished">Wed, Mar 16, 2016</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>W projekcie nettemp dużo się dzieje. Co chwilę wraz z społecznością na forum dokładamy nowe funkcjonalności albo poprawiamy stare elementy. Dziś chciałbym przestawić wam jeden ciekawy wątek na forum który cieszy się popularnością. Chodzi o temat <a href="http://nettemp.pl/forum/viewtopic.php?f=8&t=702" target="_blank">[DIY] Urządzenia WiFi dla NetTemp</a> w którym to użytkownicy zaprojektowali swoje płytki PCB oraz napisali oprogramowanie do układów ESP8266.</p>
+<p>W tym wątku można znaleźć wszystko co jest potrzebne do złożenia swojej bezprzewodowej płytki do nettemp. Zaczynając od samego PCB które można zamówić za ok 4 zł, po firmware do ściągnięcia oraz program napisany w lua. Zainteresowaniem cieszy się opcja z usypianiem układu ESP, który na bateriach 18650 może potrzymać nawet miesiąc.</p>
+<p>Ja w końcu zabrałem się za lutowanie i złożyłem dwie płytki PCB z ESP8266 01 i EPS8266 12. Na razie na testy wrzuciłem pomiar napięcia z baterii i czujnik wilgotności DHT11.</p>
+<p><a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/techfreak-dht11-esp8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-1/" rel="attachment wp-att-11383"><img class="aligncenter size-full wp-image-11383" src="http://techfreak.pl/wp-content/uploads/2016/03/techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-1.jpg" alt="techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-1" width="1000" height="667" /></a> <a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/techfreak-dht11-esp8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-2/" rel="attachment wp-att-11384"><img class="aligncenter size-full wp-image-11384" src="http://techfreak.pl/wp-content/uploads/2016/03/techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-2.jpg" alt="techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-2" width="1000" height="667" /></a></p>
+<p>Układu po wgraniu kodu lua zalogowały się do sieci WiFi i nettemp je wykrył. Kod dostępny jest w źródłach <a href="https://github.com/sosprz/nettemp" target="_blank">nettemp</a>.</p>
+<p><a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/techfreak-dht11-esp8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-5/" rel="attachment wp-att-11388"><img class="aligncenter size-full wp-image-11388" src="http://techfreak.pl/wp-content/uploads/2016/03/techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-5.jpg" alt="techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-5" width="1000" height="694" /></a> <a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/techfreak-dht11-esp8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-4/" rel="attachment wp-att-11389"><img class="aligncenter size-full wp-image-11389" src="http://techfreak.pl/wp-content/uploads/2016/03/techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-4.jpg" alt="techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-4" width="1000" height="810" /></a> <a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/techfreak-dht11-esp8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-6/" rel="attachment wp-att-11387"><img class="aligncenter size-full wp-image-11387" src="http://techfreak.pl/wp-content/uploads/2016/03/techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-6.jpg" alt="techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-6" width="1000" height="327" /></a> <a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/techfreak-dht11-esp8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-7/" rel="attachment wp-att-11386"><img class="aligncenter size-full wp-image-11386" src="http://techfreak.pl/wp-content/uploads/2016/03/techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-7.jpg" alt="techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-7" width="1000" height="307" /></a> <a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/techfreak-dht11-esp8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-8/" rel="attachment wp-att-11385"><img class="aligncenter size-full wp-image-11385" src="http://techfreak.pl/wp-content/uploads/2016/03/techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-8.jpg" alt="techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-8" width="1000" height="440" /></a></p>
+<p>Pomiar napięcia został dodany po to aby monitorować stan baterii. Do tego zadania został zastosowany dzielnik napięcia ponieważ układ ESP może czytać napięcie na pinie ADC do 1V. W projekcie zostały użyte rezystory 33k i 10k.</p>
+<p>Jak by kto się zastanawiał jak wgrywam kody do ESP8166, to są dwie opcje. Pierwsza to każda płytka ma wyprowadzone trzy piny UART do których można podłączyć jakąś przejściówką na USB, lub można programować układ np. jak ja.  Przerabiając płytkę deweloperska WeMos. Do każdego ESP dodaje nóżki (gold piny) a do WeMos dodałem gniazda. Co pozwala mi na szybkie programowanie układów i ich wymianę.<a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/techfreak-aliexpress-1/" rel="attachment wp-att-11392"><img class="aligncenter size-full wp-image-11392" src="http://techfreak.pl/wp-content/uploads/2016/03/techfreak-aliexpress-1.jpg" alt="techfreak-aliexpress-1" width="1000" height="839" /></a> <a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/techfreak-aliexpress-2/" rel="attachment wp-att-11391"><img class="aligncenter size-full wp-image-11391" src="http://techfreak.pl/wp-content/uploads/2016/03/techfreak-aliexpress-2.jpg" alt="techfreak-aliexpress-2" width="1000" height="904" /></a> <a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/techfreak-aliexpress-3/" rel="attachment wp-att-11393"><img class="aligncenter size-full wp-image-11393" src="http://techfreak.pl/wp-content/uploads/2016/03/techfreak-aliexpress-3.jpg" alt="techfreak-aliexpress-3" width="1000" height="894" /></a></p>
+<p><a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia/techfreak-dht11-esp8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-3/" rel="attachment wp-att-11390"><img class="aligncenter size-full wp-image-11390" src="http://techfreak.pl/wp-content/uploads/2016/03/techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-3.jpg" alt="techfreak-DHT11-ESP8266-voltage-humidity-bezprzewodowe-czujniki-wilgotnosci-3" width="1000" height="667" /></a></p>
+<p>Linki:</p>
+<p><a href="http://pl.aliexpress.com/item/hot-sale-10-pcs-1x40-Pin-2-0mm-Pitch-Single-Row-PCB-Pin-Headers/32414426067.html" target="_blank"><a href="http://pl.aliexpress.com/item/hot-sale-10-pcs-1&amp;#215;40-Pin-2-0mm-Pitch-Single-Row-Female-Pin-Headers-Strip/32415019023.html">http://pl.aliexpress.com/item/hot-sale-10-pcs-1&amp;#215;40-Pin-2-0mm-Pitch-Single-Row-Female-Pin-Headers-Strip/32415019023.html</a></a></p>
+<p><a href="http://pl.aliexpress.com/item/hot-sale-10-pcs-1x40-Pin-2-0mm-Pitch-Single-Row-PCB-Pin-Headers/32414426067.html" target="_blank"><a href="http://pl.aliexpress.com/item/hot-sale-10-pcs-1&amp;#215;40-Pin-2-0mm-Pitch-Single-Row-PCB-Pin-Headers/32414426067.html">http://pl.aliexpress.com/item/hot-sale-10-pcs-1&amp;#215;40-Pin-2-0mm-Pitch-Single-Row-PCB-Pin-Headers/32414426067.html</a></a></p>
+<p><a href="http://pl.aliexpress.com/item/D1-mini-Mini-NodeMcu-4M-bytes-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266/32529101036.html" target="_blank"><a href="http://pl.aliexpress.com/item/D1-mini-Mini-NodeMcu-4M-bytes-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266/32529101036.html">http://pl.aliexpress.com/item/D1-mini-Mini-NodeMcu-4M-bytes-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266/32529101036.html</a></a></p>
+<p> </p>
+<p>Mam nadzieje w przyszłości jeszcze napisać o pomiarze odległości, licznikach gazu, prądu, wody itd …….. bo to wszystko właśnie jest realizowane na forum :D</p>
+<p> </p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/esp8266/">ESP8266</a>, 
+                <a href="/tags/nettemp/">nettemp</a>, 
+                <a href="/tags/pcb/">pcb</a>, 
+                <a href="/tags/raspberry-pi/">Raspberry pi</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Bezprzewodowe%20czujniki%20wilgotno%c5%9bci%20%2b%20pomiar%20napi%c4%99cia&url=https%3a%2f%2ftechfreak.pl%2fbezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fbezprzewodowe-czujniki-wilgotnosci-pomiar-napiecia%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

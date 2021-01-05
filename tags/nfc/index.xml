@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NFC on techfreak blog</title>
+    <link>https://techfreak.pl/tags/nfc/</link>
+    <description>Recent content in NFC on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Mon, 12 Oct 2015 17:19:46 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/nfc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ZTE Axon Elite 4G – elegancja i moc</title>
+      <link>https://techfreak.pl/zte-axon-elite-4g-elegancja-i-moc/</link>
+      <pubDate>Mon, 12 Oct 2015 17:19:46 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zte-axon-elite-4g-elegancja-i-moc/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Nowoczesność i elegancja to obecnie jedyna i słuszna droga do tego, aby odnieść rynkowy sukces.&lt;br&gt;
+Patrząc na nowy model spod znaku ZTE, zauważamy, że doskonale to rozumieją.&lt;/p&gt;
+&lt;p&gt;Przyjrzyjmy się zatem ZTE Axon Elite 4G.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Yubikey klucz do bezpieczeństwa</title>
+      <link>https://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/</link>
+      <pubDate>Tue, 25 Aug 2015 05:36:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/</guid>
+      <description>&lt;p&gt;Parę słów i przykładów z działania klucza Yubikey NEO, który nie tylko przypomina pamięć USB a pomaga chronić dostępu do najpopularniejszych serwisów internetowych.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ZTE Nubia Z7 – phablet dla wymagających</title>
+      <link>https://techfreak.pl/zte-nubia-z7-phablet-dla-wymagajacych/</link>
+      <pubDate>Fri, 14 Aug 2015 14:27:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zte-nubia-z7-phablet-dla-wymagajacych/</guid>
+      <description>&lt;p&gt;Rynek phabletów rozwija się w najlepsze. Coraz to inni producenci wkraczają w świat smartfonów z wyświetlaczami powyżej 5 cali i nie ma co się dziwić. Prężnie rozwijająca się technologia pozawala na produkowanie jeszcze lepszy, a w dodatku tańszych, rozwiązań wyświetlania obrazów. Działa to bardzo pozytywnie bezpośrednio na użytkownika, któremu można zaproponować przyzwoitą jakość za bardzo dobrą cenę.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tago Arc – biżuteria zmienną jest</title>
+      <link>https://techfreak.pl/tago-arc-bizuteria-zmienna-jest/</link>
+      <pubDate>Mon, 16 Feb 2015 11:29:27 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/tago-arc-bizuteria-zmienna-jest/</guid>
+      <description>&lt;p&gt;Śledząc rynek użytkowej biżuterii, do której zaliczamy także smartwatch’e, ciągle mamy nieodparte wrażenie, że jednak nie do końca pomysły znajdą poparcie wśród zwykłych użytkowników. Teraz sytuacja może ulec zmianie, ponieważ światło dzienne ujrzał projekt Tago Arc.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

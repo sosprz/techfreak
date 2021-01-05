@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Taranis QX7 zmiana firmware &middot; My Name</title>
+        <meta name="description" content="Dziś pokażę jak zmienić, zaktualizować firmware w aparaturze Taranis QX7 do najnowszego OpenTX i nie tylko.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Taranis QX7 zmiana firmware">
+<meta property="og:description" content="Dziś pokażę jak zmienić, zaktualizować firmware w aparaturze Taranis QX7 do najnowszego OpenTX i nie tylko.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/taranis-qx7-zmiana-firmware/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
+                                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Taranis QX7 zmiana firmware</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2017-08-31" itemprop="datePublished">Thu, Aug 31, 2017</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 3 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Dziś pokażę jak zmienić, zaktualizować firmware w aparaturze Taranis QX7 do najnowszego OpenTX i nie tylko.</p>
+<p>Taranis QX7 przychodzi z firmware OpenTX 2.2.0 ale w zależności gdzie zakupimy aparaturę może ona przyjść w dwóch wersjach. Jeśli zamówisz z europejskiego sklepu to przyjdzie w firmware w wersji EU, czyli europejskiej. Jeśli będzie to jakiś sklep z poza uni europejskiej to przyjdzie z firmware tgzw. International. Firmware EU został wprowadzony z powodu restrykcji nałożonych przez Unię Europejską dokładnie chodzi o certyfikacje <a href="http://www.etsi.org/deliver/etsi_en/300300_300399/300328/01.08.01_30/en_300328v010801v.pdf" target="_blank" rel="noopener">ETSI EN 300 328 V1.8.1</a>. W skrócie firmware EU posiada LBT czyli Listen Before Talk, który ma za zadanie wykrywać czy coś się nadaje na danej częstotliwości zanim zacznie wysyłać inaczej ma czekać aż przeskoczy na kolejną częstotliwość skanuje, nadaje lub czeka.</p>
+<ul>
+<li>Radio w wersji z firmware EU nie obsługuje odbiorników w wersji International. Co oznacza, że cały posiadany sprzęt trzeba sprowadzić do wspólnej wersji oprogramowania.</li>
+<li>Wersja EU nie obsługuje trybu LR12, D8.</li>
+<li>Wersja EU obsługuje tylko tryb D16 i od jakiegoś czasu LR12.</li>
+</ul>
+<p>Ja nie namawiam na przechodzenie z wersji EU na nonEU ale pokazuje tylko na przykładzie jak można zmieniać firmware w dowolnym kierunku.</p>
+<h3 id="wgrywanie-nowegoaktualnego-firmware-do-aparatury-taranis-qx7">Wgrywanie nowego/aktualnego firmware do aparatury Taranis QX7</h3>
+<p>Na początek trzeba wejść w tryb bootloader przyciskając trimy nad wyświetlaczem i na sekundę kliknąć guzik on/off. Następnie trzeba podłączyć kabel mini USB.</p>
+<p><a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-4.jpg"><img class="aligncenter size-full wp-image-13182" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-4.jpg" alt="" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-4.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-4-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-4-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-4-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-5.jpg"><img class="aligncenter size-full wp-image-13183" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-5.jpg" alt="" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-5.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-5-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-5-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-5-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-6.jpg"><img class="aligncenter size-full wp-image-13184" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-6.jpg" alt="" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-6.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-6-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-6-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-6-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Po tym zabiegu powinny pojawić się dwa dyski w systemie. Jeden będzie trzyma firmware i ustawienia a drugi to dane z karty SD wsadzonej do aparatury. Kolejnym krokiem jest instalacja programu do obsługi aparatury companion 2.2. I najlepiej od razu sterowników dla taranisa pod system <a href="http://www.open-tx.org/2013/07/18/taranis-windows-usb-driver-for-manual-installation">windows</a>. Dla systemów linux paczkę dfu-util.</p>
+<p><a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-9.jpg"><img class="aligncenter size-full wp-image-13187" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-9.jpg" alt="" width="1000" height="328" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-9.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-9-600x197.jpg 600w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-9-300x98.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-9-768x252.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Małe objaśnienie poniżej, gdzie jakie przyciski są. Na teraz potrzebne są tylko Settings, Download, Write Firmware.</p>
+<p><a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-10.jpg"><img class="aligncenter size-full wp-image-13196" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-10.jpg" alt="" width="1000" height="581" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-10.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-10-344x200.jpg 344w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-10-300x174.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-10-768x446.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>W settings ustawiam język, nie zaznaczam EU.</p>
+<p><a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-11.jpg"><img class="aligncenter size-full wp-image-13189" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-11.jpg" alt="" width="1000" height="977" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-11.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-11-205x200.jpg 205w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-11-300x293.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-11-768x750.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Klikam przycisk check for updates aby sprawdzić czy są nowsze pliki do pobrania. Następnie klikam na download aby pobrać firmware, zapisuje je.</p>
+<p><a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-12.jpg"><img class="aligncenter size-full wp-image-13190" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-12.jpg" alt="" width="1000" height="428" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-12.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-12-467x200.jpg 467w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-12-300x128.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-12-768x329.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-13.jpg"><img class="aligncenter size-full wp-image-13191" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-13.jpg" alt="" width="1000" height="428" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-13.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-13-467x200.jpg 467w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-13-300x128.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-13-768x329.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Klikam na guzik Write to TX aby zapisać firmware do radia.</p>
+<p><a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-14.jpg"><img class="aligncenter size-full wp-image-13192" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-14.jpg" alt="" width="1000" height="1058" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-14.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-14-189x200.jpg 189w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-14-284x300.jpg 284w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-14-768x813.jpg 768w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-14-968x1024.jpg 968w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Firmware zapisało się poprawnie.</p>
+<p><a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-15.jpg"><img class="aligncenter size-full wp-image-13193" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-15.jpg" alt="" width="1000" height="176" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-15.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-15-600x106.jpg 600w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-15-300x53.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-15-768x135.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Co robić jak radio nie wstaje? Nie świeci wyświetlacz, radio tylko pyka w głośniku przy próbie włączenia. Nie wchodzi do trybu bootloader. Nic straconego. Wyciągnij baterię. Podłącz tylko kabel USB i ponownie kliknij Write Firmware. Trzeba pamiętać o sterownikach o których pisałem wyżej.</p>
+<p><a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-16.jpg"><img class="aligncenter size-full wp-image-13194" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-16.jpg" alt="" width="1000" height="673" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-16.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-16-297x200.jpg 297w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-16-300x202.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-16-768x517.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-17.jpg"><img class="aligncenter size-full wp-image-13195" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-17.jpg" alt="" width="1000" height="707" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-17.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-17-283x200.jpg 283w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-17-300x212.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-firmware-nonEU-17-768x543.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Proszę bardzo firmware wgrany poprawnie do radia.</p>
+<h3 id="jak-wgrać-firmware-do-wewnętrznego-modułu-xjt">Jak wgrać firmware do wewnętrznego modułu XJT?</h3>
+<p>Na początek pobierz firmware z oficjalnej strony <a href="https://www.frsky-rc.com/xjt/">FrSky</a>.</p>
+<p><a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-5.jpg"><img class="aligncenter size-full wp-image-13202" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-5.jpg" alt="" width="1000" height="390" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-5.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-5-513x200.jpg 513w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-5-300x117.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-5-768x300.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Po rozpakowaniu zmień nazwę <strong>XJT_NONEU_V20_build170317.hex.frk</strong> na krótszą np. <strong>XJT_NO_170317.hex.frk</strong> i wgraj plik do radia na kartę SD do folderu FIRMWARES. Zrobić to możesz przez kabel mini USB po wejściu w tryb bootloader, pokażą się dyski w systemie. Jak katalog nie istnieje to trzeba stworzyć.</p>
+<p><a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-6.jpg"><img class="aligncenter size-full wp-image-13203" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-6.jpg" alt="" width="1000" height="133" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-6.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-6-600x80.jpg 600w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-6-300x40.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-6-768x102.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-7.jpg"><img class="aligncenter size-full wp-image-13204" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-7.jpg" alt="" width="1000" height="193" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-7.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-7-600x116.jpg 600w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-7-300x58.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-7-768x148.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-8.jpg"><img class="aligncenter size-full wp-image-13205" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-8.jpg" alt="" width="1000" height="648" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-8.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-8-309x200.jpg 309w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-8-300x194.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-8-768x498.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Teraz trzeba wgrać firmware do modułu XJT. Robi się to już z radia, trzeba przejść do zakładki SD CARD, wybrać plik <strong>XJT_NO_170317.hex.frk</strong>, kliknąć enter i wybrać <strong>Flash int.module</strong>.</p>
+<p><a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-1.jpg"><img class="aligncenter size-full wp-image-13198" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-1.jpg" alt="" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-1.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-1-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-1-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-1-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-2.jpg"><img class="aligncenter size-full wp-image-13199" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-2.jpg" alt="" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-2.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-2-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-2-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-2-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-3.jpg"><img class="aligncenter size-full wp-image-13200" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-3.jpg" alt="" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-3.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-3-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-3-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-3-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-4.jpg"><img class="aligncenter size-full wp-image-13201" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-4.jpg" alt="" width="1000" height="750" srcset="http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-4.jpg 1000w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-4-267x200.jpg 267w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-4-300x225.jpg 300w, http://techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-QX7-update-XJT-firmware-nonEU-4-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Jeśli istnieje potrzeba wgrania nowego firmware do odbiorników np. FrSky XSR to robi się to dokładnie tak samo jak powyżej tylko trzeba wybrać <strong>Flash ext. module</strong>. I oczywiście wcześniej pobrać poprawne najnowsze, pliki ze strony producenta. We wpisie <a href="//techfreak.pl/aktualizacja-frsky-x4r-do-cppm/" target="_blank" rel="noopener">aktualizacja-frsky-x4r-do-cppm</a> pokazałem jak podłączyć odbiornik X4R do Taranisa X9D aby zaktualizować w nim firmware, w przypadku tego modelu aparatury jest dokładnie tak samo.</p>
+<p>Wszystko jest naprawdę fajne i przyjemnie w aktualizacji. Nie potrzeba żądnych programatorów. Mam nadzieje, że poszło Ci tak samo dobrze jak mi :)</p>
+<p>Jeśli zastanawiasz się nad zakupem aparatury lub innych części proszę zakup je z moich linków:</p>
+<p><a href="https://www.gearbest.com/multi-rotor-parts/pp_604499.html?lkid=11236616">Taranis QX7 z gearbest.com</a></p>
+<p><a href="https://www.banggood.com/FrSky-ACCST-Taranis-Q-X7-2_4GHz-16CH-Transmitter-White-Black-p-1112717.html?p=9H0114137951201303E0&amp;utm_campaign=techfreak&amp;utm_content=chendongling">Taranis QX7 z banggood.com</a></p>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/frsky/">frsky</a>, 
+                <a href="/tags/taranis/">taranis</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Taranis%20QX7%20zmiana%20firmware&url=https%3a%2f%2ftechfreak.pl%2ftaranis-qx7-zmiana-firmware%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2ftaranis-qx7-zmiana-firmware%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+    </body>
+</html>
+

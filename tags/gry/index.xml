@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gry on techfreak blog</title>
+    <link>https://techfreak.pl/tags/gry/</link>
+    <description>Recent content in gry on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 17 Mar 2018 11:46:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/gry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tania gierka z grami na pegasusa coolbaby RS-6</title>
+      <link>https://techfreak.pl/coolbaby-rs6/</link>
+      <pubDate>Sat, 17 Mar 2018 11:46:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/coolbaby-rs6/</guid>
+      <description>&lt;p&gt;Przenośna mini gierka z grami NES w obudowie starego gameboya? Tak znowu gram w contre!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tania gierka z grami na pegasusa</title>
+      <link>https://techfreak.pl/tania-gierka-grami-pegasusa/</link>
+      <pubDate>Tue, 15 Nov 2016 17:48:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/tania-gierka-grami-pegasusa/</guid>
+      <description>&lt;p&gt;No kto nie pamięta czasów gdy grało się w niegdyś popularnego pegasusa? Contra, Mario, Tanks, Combat, Galaxian lista jest długa bo w końcu na kartridżach było 999999 gier!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>8-bit w natarciu! PIKSELE atakują w kinach!</title>
+      <link>https://techfreak.pl/8-bit-w-natarciu-piksele-atakuja-w-kinach/</link>
+      <pubDate>Tue, 04 Aug 2015 19:50:58 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/8-bit-w-natarciu-piksele-atakuja-w-kinach/</guid>
+      <description>&lt;p&gt;Pamiętacie kultowe gry lat dziewięćdziesiątych, których grafika opierała się na 8 bitach, a o wspaniałej rozdzielczości nie było mowy. Za to na ekranie radowały nas małe piksele w grach,  których największym atutem była nie fabuła, a prostota rozgrywki i grywalność.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arduboy konsola wielkości karty</title>
+      <link>https://techfreak.pl/arduboy-konsola-wielkosci-karty/</link>
+      <pubDate>Tue, 12 May 2015 17:46:15 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/arduboy-konsola-wielkosci-karty/</guid>
+      <description>&lt;p&gt;Kolejny rewelacyjny projekt po &lt;a href=&#34;http://techfreak.pl/c-h-i-p-mini-komputer-za-32zl/&#34; target=&#34;_blank&#34;&gt;C.H.I.P&lt;/a&gt; który chciałbym mieć to Arduboy. Ta mini konsolka oparta na stylizacji gameboy’a i arduino, swoimi małymi rozmiarami i możliwościami zdobędzie naprawdę dużą rzeszę fanów. Oprócz konsoli, arduboy może być używany jako platforma programistyczna.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Gameboy Pocket mod</title>
+      <link>https://techfreak.pl/raspberry-pi-gameboy-pocket-mod/</link>
+      <pubDate>Fri, 06 Jun 2014 14:03:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-gameboy-pocket-mod/</guid>
+      <description>&lt;p&gt;Raspberry Pi Gameboy Pocket mod to kolejny zdumiewający mod z Raspberry Pi w roli głównej. Autor projektu dosłownie wcisną w obudowę po Gameboy’u nie tylko Rpi, ale i  Teensy do obsługi przycisków, LCD 480 x 234, dwa regulatory napięcia, wzmacniacz do głośniczka, suwak do głośności i baterię Li-Ion.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Phonejoy Play super gamepad dla telefonu lub tabletu</title>
+      <link>https://techfreak.pl/phonejoy-play-super-gamepad-dla-telefonu/</link>
+      <pubDate>Thu, 03 Jan 2013 09:09:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/phonejoy-play-super-gamepad-dla-telefonu/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/phonejoy-play-super-gamepad-dla-telefonu/phonejoy_play_642_362_force/&#34; rel=&#34;attachment wp-att-702&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-702&#34; alt=&#34;phonejoy_play_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/phonejoy_play_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/phonejoy_play_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/phonejoy_play_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dobra dziś nie ma co owijać w bawełnę i lać wodę ;P Na kickstarter.com znalazłem super gamepada do telefonów i tabletów o nazwie &lt;a href=&#34;http://www.kickstarter.com/projects/phonejoy/phonejoy-play-turn-your-phone-into-a-console?ref=category&#34; target=&#34;_blank&#34;&gt;Phonejoy PLAY&lt;/a&gt;, który nie dość że dopasuje się do twojego tabletu lub telefonu to bez problemu podłączysz go po bluetooth.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

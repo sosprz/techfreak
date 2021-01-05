@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zegarek on techfreak blog</title>
+    <link>https://techfreak.pl/tags/zegarek/</link>
+    <description>Recent content in zegarek on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 10 Oct 2015 15:39:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/zegarek/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New SmartWatch -konkurencja dla gigantów od MK Technology</title>
+      <link>https://techfreak.pl/new-smartwatch-inteligentny-zegarek-od-mk-technology-konkurencja-dla-gigantow/</link>
+      <pubDate>Sat, 10 Oct 2015 15:39:45 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/new-smartwatch-inteligentny-zegarek-od-mk-technology-konkurencja-dla-gigantow/</guid>
+      <description>&lt;p&gt;Moda na inteligentne zegarki zagościła już stosunkowo dawno, jednak producenci nie zaprzestali wymyślać coraz to nowszych rozwiązań i mimo, że w kwestii zastosowanych technologii nic nowego pojawić się raczej już nie może, to jednak chciałbym przedstawić Wam ciekawą alternatywę dla flagowych, niejednokrotnie bardzo drogich inteligentnych zegarków.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Go gadżet go Smart zegarek L12S</title>
+      <link>https://techfreak.pl/go-gadzet-go-smart-zegarek-l12s/</link>
+      <pubDate>Wed, 22 Apr 2015 06:32:36 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/go-gadzet-go-smart-zegarek-l12s/</guid>
+      <description>&lt;p&gt;Na rynku pojawia się coraz więcej gadżetów typu smart, w tym zegarków dla osób uprawiających różnego rodzaju sporty. Sam jestem posiadaczem smart zegarka, o którym pisałem niedawno. Dzięki uprzejmości &lt;a href=&#34;http://gearbest.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gearbest.com&lt;/a&gt; mogę zobaczyć i przetestować kolejny gadżet, trochę z innej serii bo bransoleto/zegarków. Dokładnie chodzi o &lt;a href=&#34;http://www.gearbest.com/sports-led-watches/pp_63829.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trendy Style L12S&lt;/a&gt;. Jest to chyba najtańsza wersja smart zegarka, bo kosztuje zaledwie 23$ i w zasadzie nie tyle ja go testowałem, co moja żona.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LG G watch R recenzja</title>
+      <link>https://techfreak.pl/lg-g-watch-r-recenzja/</link>
+      <pubDate>Sat, 10 Jan 2015 13:09:38 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/lg-g-watch-r-recenzja/</guid>
+      <description>&lt;p&gt;Co to Smartwatch? „Taki inteligentny zegarek, połączony z telefonem ale nie wiem po co byłby mi potrzebny i w sumie nie wiem jak działa.” „Taki bajer, może dla sportowców przydatne.” „Mam komórkę.” „Wole zwykły zegarek, bo nie trzeba ładować codziennie.”, „Nie, gadanie przez zegarek to przesada.”&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Open source’owy zegarek OLED</title>
+      <link>https://techfreak.pl/open-sourceowy-zegarek-oled/</link>
+      <pubDate>Mon, 02 Jun 2014 20:33:37 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/open-sourceowy-zegarek-oled/</guid>
+      <description>Jeszcze smart zegarki nie stały się tak popularne jak smartfony. A już można zobaczyć Open Source projekty. Zobacz zegarek OLED walltech 4.2 oparty na Femtoduino, czyli na mini arduino i DS1307 RTC. Mało tego autor projektu udostępnia listę części które są potrzebne do złożenia, schemat i software. Oprócz funkcji zegarka jest dostępna gra, stoper, kontrast i time set. Zapraszam na stronę autora http://www.walltech.cc/oled-watch-v4-2/</description>
+    </item>
+    
+  </channel>
+</rss>

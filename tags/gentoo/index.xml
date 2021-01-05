@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gentoo on techfreak blog</title>
+    <link>https://techfreak.pl/tags/gentoo/</link>
+    <description>Recent content in gentoo on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 01 Dec 2012 23:23:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/gentoo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gentoo – przydatne polecenia</title>
+      <link>https://techfreak.pl/gentoo-przydatne-polecenia/</link>
+      <pubDate>Sat, 01 Dec 2012 23:23:20 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/gentoo-przydatne-polecenia/</guid>
+      <description>&lt;p&gt;Spis przydatnych poleceńdla systemy Linux Gentoo&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gentoo – spis przydatnych aplikacjii</title>
+      <link>https://techfreak.pl/gentoo-przydatne-aplikacje/</link>
+      <pubDate>Sat, 01 Dec 2012 23:16:49 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/gentoo-przydatne-aplikacje/</guid>
+      <description>&lt;p&gt;Spis przydatnych aplikacji dla systemy Gentoo&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gentoo instalacja ze stage w dwóch prostych skryptach z pamięci usb</title>
+      <link>https://techfreak.pl/gentoo-instalacja-ze-stage-w-dwoch-prostych-skryptach-z-pamieci-usb/</link>
+      <pubDate>Sat, 01 Dec 2012 23:15:13 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/gentoo-instalacja-ze-stage-w-dwoch-prostych-skryptach-z-pamieci-usb/</guid>
+      <description>&lt;p&gt;Skrypt pomagający zainstalować Gentoo z USB (stage1)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Replikacja w MYSQL</title>
+      <link>https://techfreak.pl/replikacja-w-mysql/</link>
+      <pubDate>Tue, 20 Nov 2012 10:21:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/replikacja-w-mysql/</guid>
+      <description>&lt;p&gt;Jak zrobić replikacje baz danych pomiędzy hostami ?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cisco on techfreak blog</title>
+    <link>https://techfreak.pl/tags/cisco/</link>
+    <description>Recent content in Cisco on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 12 May 2018 08:43:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak skonfigurować VPN na MikroTik?</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-vpn-na-mikrotik/</link>
+      <pubDate>Sat, 12 May 2018 08:43:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-vpn-na-mikrotik/</guid>
+      <description>&lt;p&gt;Mały wstęp do systemu RouterOS, który jest tworzony przez firmę MikroTik, łotewskiego producenta sprzętu do zastosowań sieciowych i bezprzewodowych.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Libreswan – konfiguracja VPN</title>
+      <link>https://techfreak.pl/libreswan-konfiguracja-vpn/</link>
+      <pubDate>Thu, 19 Feb 2015 15:00:25 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/libreswan-konfiguracja-vpn/</guid>
+      <description>&lt;p&gt;Dawno nie pisałem nic o VPN a ogólnie na co dzień robię dużo różnych konfiguracji. Zresztą na TF można znaleźć parę krótkich opisów jak zestawić VPN &lt;a href=&#34;http://techfreak.pl/tag/vpn-2&#34; target=&#34;_blank&#34;&gt;techfreak.pl/tag/vpn-2/&lt;/a&gt;. Tym razem krótki opis jak skonfigurować VPN site 2 site przy pomocy Libreswan. Jest to kolejny fork popularnego pakietu OpenSwan.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja sieci dla routera cisco serii 800</title>
+      <link>https://techfreak.pl/konfiguracja-sieci-dla-routera-cisco-serii-800/</link>
+      <pubDate>Sat, 06 Oct 2012 10:13:53 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-sieci-dla-routera-cisco-serii-800/</guid>
+      <description>&lt;p&gt;Jak skonfigurować podstawy w routerze Cisco ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja tunelu VPN site to site dla Cisco do urządzeń innych niż cisco</title>
+      <link>https://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-dla-cisco-do-urzadzen-innych-niz-cisco/</link>
+      <pubDate>Sat, 06 Oct 2012 08:56:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-tunelu-vpn-site-to-site-dla-cisco-do-urzadzen-innych-niz-cisco/</guid>
+      <description>&lt;p&gt;Jak skonfigurować tunel VPN site 2 site na Cisco ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja routera cisco – ssh</title>
+      <link>https://techfreak.pl/konfiguracja-routera-cisco-ssh/</link>
+      <pubDate>Fri, 05 Oct 2012 20:00:22 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-routera-cisco-ssh/</guid>
+      <description>&lt;p&gt;Jak włączyć ssh na routerze Cisco ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja routera Cisco z adresem WAN z dhcp i adresami dla klientów z dhcp</title>
+      <link>https://techfreak.pl/konfiguracja-routera-cisco-z-adresem-wan-z-dhcp-i-adresami-dla-klientow-z-dhcp/</link>
+      <pubDate>Fri, 05 Oct 2012 19:55:19 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-routera-cisco-z-adresem-wan-z-dhcp-i-adresami-dla-klientow-z-dhcp/</guid>
+      <description>&lt;p&gt;Przykład jak skonfigurować router Cisco aby pobierał na interfejsie WAN adres IP z DHCP i rozdawał IP ze swojego DHCP.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja routera cisco – nat</title>
+      <link>https://techfreak.pl/konfiguracja-routera-cisco-nat/</link>
+      <pubDate>Fri, 05 Oct 2012 19:50:21 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-routera-cisco-nat/</guid>
+      <description>&lt;p&gt;Przykład trochę skomplikowanego użycia NAT w cisco . Ukrywanie sieci lokalnej z adresacją 192.168.1.0 pod siecią z adresacji 172.16.1.0 w przypadku łączenia się do konkretnego hosta np: 10.0.0.1. Przydatne przy połączeniach VPN.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

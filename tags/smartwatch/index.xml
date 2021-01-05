@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>smartwatch on techfreak blog</title>
+    <link>https://techfreak.pl/tags/smartwatch/</link>
+    <description>Recent content in smartwatch on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 20 Oct 2015 17:45:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/smartwatch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>K8 3G Smartwatch Phone – gdy „zwykły” smart to za mało…</title>
+      <link>https://techfreak.pl/k8-3g-smartwatch-phone-gdy-zwykly-smart-to-za-malo/</link>
+      <pubDate>Tue, 20 Oct 2015 17:45:13 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/k8-3g-smartwatch-phone-gdy-zwykly-smart-to-za-malo/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Niedawno przedstawiałem test smartwatch’a od MK Technology, który swoimi parametrami oraz ceną może konkurować z potentatami na rynku nowoczesnych gadżetów.&lt;br&gt;
+Tym razem chciałbym Wam przedstawić nieco bardziej rozbudowany zegarek – chociaż nazywanie K8 3G Smartwatch Phone zegarkiem jest tutaj nieco nie na miejscu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arduino Watch czyli smartwatch własnej roboty</title>
+      <link>https://techfreak.pl/arduino-watch-czyli-smartwatch-wlasnej-roboty/</link>
+      <pubDate>Tue, 04 Aug 2015 21:02:45 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/arduino-watch-czyli-smartwatch-wlasnej-roboty/</guid>
+      <description>&lt;p&gt;Pisałem jakiś czas temu o zegarku LG G Watch R. Jest on niczym przy smart zegarku własnej roboty, który bazuje na Arduino. Na instructables pojawił się opis jak zrobić samemu inteligentny zegarek z wysokościomierzem, kompasem i licznikiem kroków. A to wszystko dzięki popularnym i tanim układom: HMC5883L, MPU6050, BMP180.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lg G watch R jak uruchomić WiFi</title>
+      <link>https://techfreak.pl/lg-g-watch-r-jak-uruchomic-wifi/</link>
+      <pubDate>Sun, 31 May 2015 19:43:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/lg-g-watch-r-jak-uruchomic-wifi/</guid>
+      <description>&lt;p&gt;Ostatni update do &lt;a href=&#34;http://techfreak.pl/lg-g-watch-r-android-5-1-1-ota/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Android Wear 5.1.1&lt;/a&gt; nie przyniósł obsługi WiFi w LG g watch R. Jednak nie trzeba było długo czekać, aż XDA się weźmie za tą sprawę i uruchomi obsługę bezprzewodowych sieci na zegarku. Poniżej pokażę jak łatwo uruchomiłem WiFi na swoim GWR.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Go gadżet go Smart zegarek L12S</title>
+      <link>https://techfreak.pl/go-gadzet-go-smart-zegarek-l12s/</link>
+      <pubDate>Wed, 22 Apr 2015 06:32:36 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/go-gadzet-go-smart-zegarek-l12s/</guid>
+      <description>&lt;p&gt;Na rynku pojawia się coraz więcej gadżetów typu smart, w tym zegarków dla osób uprawiających różnego rodzaju sporty. Sam jestem posiadaczem smart zegarka, o którym pisałem niedawno. Dzięki uprzejmości &lt;a href=&#34;http://gearbest.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gearbest.com&lt;/a&gt; mogę zobaczyć i przetestować kolejny gadżet, trochę z innej serii bo bransoleto/zegarków. Dokładnie chodzi o &lt;a href=&#34;http://www.gearbest.com/sports-led-watches/pp_63829.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trendy Style L12S&lt;/a&gt;. Jest to chyba najtańsza wersja smart zegarka, bo kosztuje zaledwie 23$ i w zasadzie nie tyle ja go testowałem, co moja żona.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LG G watch R hack &amp; mods</title>
+      <link>https://techfreak.pl/lg-g-watch-r-hack-mods/</link>
+      <pubDate>Sat, 31 Jan 2015 21:06:02 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/lg-g-watch-r-hack-mods/</guid>
+      <description>&lt;p&gt;No to długo nie wytrzymałem i zmieniłem kernel w moim LG G watch R. Minęło zaledwie 20 dni od &lt;a href=&#34;http://techfreak.pl/lg-g-watch-r-recenzja/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mojej recenzji smart watcha&lt;/a&gt; a ja już wgrywam zmodyfikowane jądra. A to wszystko dlatego aby dłużej trzymał na baterii.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LG G watch R recenzja</title>
+      <link>https://techfreak.pl/lg-g-watch-r-recenzja/</link>
+      <pubDate>Sat, 10 Jan 2015 13:09:38 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/lg-g-watch-r-recenzja/</guid>
+      <description>&lt;p&gt;Co to Smartwatch? „Taki inteligentny zegarek, połączony z telefonem ale nie wiem po co byłby mi potrzebny i w sumie nie wiem jak działa.” „Taki bajer, może dla sportowców przydatne.” „Mam komórkę.” „Wole zwykły zegarek, bo nie trzeba ładować codziennie.”, „Nie, gadanie przez zegarek to przesada.”&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>U Watch U8 Pro Smartwatch – alternatywny smartwatch</title>
+      <link>https://techfreak.pl/u-watch-u8-pro-smartwatch-alternatywa-dla-drozszych-konkurentow/</link>
+      <pubDate>Sun, 04 Jan 2015 10:55:51 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/u-watch-u8-pro-smartwatch-alternatywa-dla-drozszych-konkurentow/</guid>
+      <description>&lt;p&gt;Już dwa lata temu usłyszeliśmy pierwsze doniesienia o zegarkach, które początkowo miały być pilotami do naszych telefonów. Jednak im więcej producentów zaczęło angażować się w temat smartwatch’y tym coraz bardziej zaawansowane się stawały. Tak jak już wspomniałem od miana „pilota do smartfona” wiele się pozmieniało… Obecnie na rynku dostępne są już zegarki autonomiczne, które nie potrzebują do działania telefonu.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

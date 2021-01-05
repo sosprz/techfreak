@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xbmc on techfreak blog</title>
+    <link>https://techfreak.pl/tags/xbmc/</link>
+    <description>Recent content in xbmc on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 20 May 2014 05:47:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/xbmc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Xbmc &#43; Raspberry Pi &#43; autoplay z folderu</title>
+      <link>https://techfreak.pl/xbmc-raspberry-pi-autoplay-folderu/</link>
+      <pubDate>Tue, 20 May 2014 05:47:42 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/xbmc-raspberry-pi-autoplay-folderu/</guid>
+      <description>&lt;p&gt;Nadchodzi taki czas w życiu mężczyzny kiedy musi oddać swoim dzieciakom telewizor i Raspberry Pi. Dzieciaki dorastają zaczynają programować, lutować i prosić o kasę na nową elektronikę z chin. Szybsze laptopy, większe dyski i szybsze smartfony z Androidem 5.4.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>xbmc konfiguracja wifi</title>
+      <link>https://techfreak.pl/xbmc-konfiguracja-wifi/</link>
+      <pubDate>Thu, 18 Oct 2012 09:43:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/xbmc-konfiguracja-wifi/</guid>
+      <description>&lt;p&gt;Jak skonfigurować WiFi na XBMC ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry pi, raspbmc konfiguracja WiFi</title>
+      <link>https://techfreak.pl/raspberry-pi-raspbmc-konfiguracja-wifi/</link>
+      <pubDate>Mon, 01 Oct 2012 13:02:11 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-raspbmc-konfiguracja-wifi/</guid>
+      <description>&lt;p&gt;Raspberry Pi to fajny i tani mini komputerek który w połączeniu z projektem &lt;a title=&#34;raspbmc&#34; href=&#34;http://www.raspbmc.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;raspbmc&lt;/a&gt; tworzy niezłe centrum multimedialne.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja pilota firmy MEDION RC do sterowania XBMC.</title>
+      <link>https://techfreak.pl/konfiguracja-pilota-firmy-medion-rc-do-sterowania-xbmc/</link>
+      <pubDate>Mon, 09 Jan 2012 06:55:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-pilota-firmy-medion-rc-do-sterowania-xbmc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

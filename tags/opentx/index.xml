@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenTX on techfreak blog</title>
+    <link>https://techfreak.pl/tags/opentx/</link>
+    <description>Recent content in OpenTX on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 15 Nov 2015 11:35:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/opentx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aktualizacja FrSky X4R do CPPM</title>
+      <link>https://techfreak.pl/aktualizacja-frsky-x4r-do-cppm/</link>
+      <pubDate>Sun, 15 Nov 2015 11:35:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/aktualizacja-frsky-x4r-do-cppm/</guid>
+      <description>&lt;p&gt;Do mojego nowego quadkoptera o wymiarach 180mm zakupiłem odbiornik FrSky X4R który działa na S.BUS. Poniżej pokażę jak łatwo zaktualizować oprogramowanie aby odbiornik działał w trybie CPPM.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

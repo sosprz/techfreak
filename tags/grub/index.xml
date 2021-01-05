@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>grub on techfreak blog</title>
+    <link>https://techfreak.pl/tags/grub/</link>
+    <description>Recent content in grub on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Wed, 23 Aug 2017 11:45:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/grub/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak zrobić bootowalny pendrive z instalacją windowsa na ubuntu?</title>
+      <link>https://techfreak.pl/zrobic-bootowalny-pendrive-instalacja-windowsa-ubuntu/</link>
+      <pubDate>Wed, 23 Aug 2017 11:45:16 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zrobic-bootowalny-pendrive-instalacja-windowsa-ubuntu/</guid>
+      <description>&lt;p&gt;Jak zainstalować windows’a na komputerze bez stacji cdrom? Jak stworzyć bootowalny pendrive z instalacją systemu Windows 7 lub Windows 10?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak uruchamiać wiele obrazów ISO z jednego USB?</title>
+      <link>https://techfreak.pl/jak-uruchamiac-wiele-obrazow-iso-z-jednego-usb/</link>
+      <pubDate>Sun, 15 Dec 2013 19:02:39 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-uruchamiac-wiele-obrazow-iso-z-jednego-usb/</guid>
+      <description>&lt;p&gt;Dziś chciałbym przedstawić mój wynik poszukiwań softu do szybkiego robienia flasha z którego można uruchomić wiele obrazów ISO. Testowałem między innymi takie programy jak &lt;a href=&#34;http://sourceforge.net/projects/multibootusb/files/Linux/Debian-Ubuntu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;multibootusb&lt;/a&gt;, &lt;a href=&#34;http://www.pendrivelinux.com/yumi-multiboot-usb-creator/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YUMI&lt;/a&gt; i &lt;a href=&#34;http://liveusb.info/dotclear/index.php?pages/install&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;multisystem&lt;/a&gt;. Oczywiście wszystko pod xubuntu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux jak odzyskać hasło root ?</title>
+      <link>https://techfreak.pl/linux-odzyskanie-hasla-root/</link>
+      <pubDate>Sat, 06 Oct 2012 17:34:19 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/linux-odzyskanie-hasla-root/</guid>
+      <description>&lt;p&gt;Jak odzyskać hasło na root w systemie linux ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak założyć hasło na grub?</title>
+      <link>https://techfreak.pl/259/</link>
+      <pubDate>Sat, 06 Oct 2012 10:27:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/259/</guid>
+      <description>&lt;h2 id=&#34;jak-założyć-hasło-na-bootloaderze-grub-&#34;&gt;Jak założyć hasło na bootloaderze grub ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wykorzystać port com jako konsole ?</title>
+      <link>https://techfreak.pl/jak-wykorzystac-port-com-jako-konsole/</link>
+      <pubDate>Wed, 03 Oct 2012 10:46:21 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wykorzystac-port-com-jako-konsole/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jak naprawić grub po awarii lub przeniesieniu na inny dysk ?</title>
+      <link>https://techfreak.pl/jak-naprawic-grub-po-awarii-lub-przeniesieniu-na-inny-dysk/</link>
+      <pubDate>Tue, 02 Oct 2012 17:05:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-naprawic-grub-po-awarii-lub-przeniesieniu-na-inny-dysk/</guid>
+      <description>&lt;h2 id=&#34;jak-naprawić-grub-po-awarii-&#34;&gt;Jak naprawić grub po awarii ?&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

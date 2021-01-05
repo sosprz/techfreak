@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>openvpn on techfreak blog</title>
+    <link>https://techfreak.pl/tags/openvpn/</link>
+    <description>Recent content in openvpn on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Mon, 01 Sep 2014 14:15:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>nettemp 7.7 openvpn firewall snmp client htpasswd</title>
+      <link>https://techfreak.pl/nettemp-7-7-openvpn-firewall-snmp-client-htpasswd/</link>
+      <pubDate>Mon, 01 Sep 2014 14:15:42 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-7-7-openvpn-firewall-snmp-client-htpasswd/</guid>
+      <description>&lt;p&gt;Hej, wypuściłem nową wersję nettempa z paroma nowymi funkcjami. Przede wszystkim skupiłem się tym razem na poprawie bezpieczeństwa i zdalnym dostępie. Dużo użytkowników pisze do mnie a żebym u nich coś zobaczył albo po prostu piszą „hej nettemp u mnie jest pod tym adresem IP”.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Proxy po ssh czyli zawsze wychodzę z tego samego IP</title>
+      <link>https://techfreak.pl/proxy-po-ssh-czyli-zawsze-wychodze-z-tego-samego-ip/</link>
+      <pubDate>Tue, 06 May 2014 18:58:14 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/proxy-po-ssh-czyli-zawsze-wychodze-z-tego-samego-ip/</guid>
+      <description>&lt;p&gt;Dziś chciałbym pokazać wam ja wykorzystać sytuację w której posiadacie swojego hosta gdzieś w firmie lub w domu i chcecie korzystać właśnie z niego ze względu na IP a nie ma was na miejscu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi OpenVPN Android</title>
+      <link>https://techfreak.pl/raspberry-pi-openvpn-android/</link>
+      <pubDate>Wed, 19 Jun 2013 12:21:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-openvpn-android/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;Myślę że szał na Raspberry Pi szybko nie minie a to z powodu niewielkiej ceny za mini komputer a po drugie rzeszy fanów i dużego wsparcia. Raspberry Pi OpenVPN Android w jednej całości to jest to czego sam używam i dlatego postanowiłem napisać poradnik jak skonfigurować OpenVPN na Raspberry Pi i podłączać się do niego smartfonem z Androidem.&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak skonfigurować serwer OpenVpn na Ubuntu i łączyć się z Androida 4 (ICS&#43;)</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-serwer-openvpn-na-ubuntu-i-laczyc-sie-z-androida-4-ics/</link>
+      <pubDate>Wed, 03 Oct 2012 06:35:58 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-serwer-openvpn-na-ubuntu-i-laczyc-sie-z-androida-4-ics/</guid>
+      <description>&lt;p&gt;Opis instalacji serwera OpenVpn na Ubuntu i łączenie z Androida&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak skonfigurować serwer OpenVpn na CentOS i podłączyć androida z OpenVpn Settings</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-serwer-openvpn-na-centos-i-podlaczyc-androida-z-openvpn-settings/</link>
+      <pubDate>Tue, 10 Jan 2012 06:53:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-serwer-openvpn-na-centos-i-podlaczyc-androida-z-openvpn-settings/</guid>
+      <description>&lt;p&gt;Jak skonfigurować serwer OpenVPN i Androida jako klienta ?&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;&lt;br /&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

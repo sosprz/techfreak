@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>latarka on techfreak blog</title>
+    <link>https://techfreak.pl/tags/latarka/</link>
+    <description>Recent content in latarka on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Tue, 09 Oct 2018 16:34:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/tags/latarka/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ekologia? Oczywiście że dbamy (nie tak naprawę)!</title>
+      <link>https://techfreak.pl/ekologia-oczywiscie-ze-dbamy-nie-tak-naprawe/</link>
+      <pubDate>Tue, 09 Oct 2018 16:34:07 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ekologia-oczywiscie-ze-dbamy-nie-tak-naprawe/</guid>
+      <description>&lt;p&gt;Ten wpis ma być krótki – tak jak czas życia produktu.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
