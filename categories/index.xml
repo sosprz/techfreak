@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on techfreak blog</title>
+    <link>https://techfreak.pl/categories/</link>
+    <description>Recent content in Categories on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Thu, 30 Apr 2020 19:29:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Elektronika</title>
+      <link>https://techfreak.pl/categories/elektronika/</link>
+      <pubDate>Thu, 30 Apr 2020 19:29:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/categories/elektronika/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bez kategorii</title>
+      <link>https://techfreak.pl/categories/bez-kategorii/</link>
+      <pubDate>Sun, 17 Mar 2019 11:06:19 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/categories/bez-kategorii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drukarki 3D</title>
+      <link>https://techfreak.pl/categories/drukarki-3d/</link>
+      <pubDate>Wed, 19 Dec 2018 13:18:15 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/categories/drukarki-3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drony</title>
+      <link>https://techfreak.pl/categories/drony/</link>
+      <pubDate>Sun, 07 Oct 2018 13:26:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/categories/drony/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://techfreak.pl/categories/linux/</link>
+      <pubDate>Sat, 06 Oct 2018 19:19:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inne</title>
+      <link>https://techfreak.pl/categories/inne/</link>
+      <pubDate>Sat, 25 Aug 2018 04:24:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/categories/inne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://techfreak.pl/categories/network/</link>
+      <pubDate>Sat, 12 May 2018 08:43:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/categories/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wpis sponsorowany</title>
+      <link>https://techfreak.pl/categories/wpis-sponsorowany/</link>
+      <pubDate>Mon, 08 Aug 2016 18:22:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/categories/wpis-sponsorowany/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

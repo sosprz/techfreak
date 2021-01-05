@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Sieci WiFi na login i hasło &middot; My Name</title>
+        <title>Sieci WiFi na login i hasło &middot; Przemek</title>
         <meta name="description" content="Jak zrobić dostęp do sieci WiFi na podstawie loginu i hasła? To całkiem proste gdy możemy w domu postawić serwer RADIUS. Serwer Radius to obecnie najpopularniejszy protokół uwierzytelniania i autoryzowania użytkowników sieci LAN i WiFi. Teraz gdy w domu masz możliwość uruchomienia Radius’a na routerze, raspberry pi lub serwerze plików NAS np. Synology, to ten sposób jest w zasięgu reki. Oczywiście poniższy przykład to zajawka i każdy musi zastanowić się czy lepiej dołączyć mamę do WiFi przez WPA2-Enterprise czy samo hasło WPA2-PSK. Czy może jeszcze dodatkowo token fizyczny.
 Poniższy sposób przedstawia skonfigurowanie routera tplink z obsługą 802.1x, serwera RADIUS na debianie i klientów, którzy wybierają logowanie za pomocą EAP PEAP MS-CHAPv2 podając tylko login i hasło. EAP PEAP jest jedyną metodą gdzie można użyć samego loginu i hasła. Cała komunikacja jest zabezpieczona w tunelu TLS, który jest równolegle zestawiamy przy prośbie o dołączenie do sieci. Dodatkowym atutem jest to, że sposób jest dostępny na wielu systemach i urządzeniach.
 
@@ -71,39 +71,11 @@ if (!doNotTrack) {
                             <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
                         
                         
-                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/XXX" rel="me" >
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
                         
                         
-                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="https://www.facebook.com/username" rel="me">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
                         
                         
-                            <a class="button-square button-social hint--top" data-hint="Gitlab" aria-label="Gitlab" href="https://gitlab.com/XXX" rel="me">
-                                <i class="fa fa-gitlab" aria-hidden="true"></i>
-                            </a>
                         
-                        
-                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/XXX" rel="me">
-                                <i class="fa fa-github-alt" aria-hidden="true"></i>
-                            </a>
-                        
-                        
-                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="https://stackoverflow.com/users/XXX/YYY" rel="me">
-                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                            </a>
-                        
-                        
-                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/XXX/" rel="me">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                        
-                        
-                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:XXX@example.com">
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                            </a>
                         
                     </div>
 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bez kategorii on techfreak blog</title>
+    <link>https://techfreak.pl/categories/bez-kategorii/</link>
+    <description>Recent content in Bez kategorii on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sun, 17 Mar 2019 11:06:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/categories/bez-kategorii/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Regulator temperatury – na szybko.</title>
+      <link>https://techfreak.pl/regulator-temperatury-na-szybko/</link>
+      <pubDate>Sun, 17 Mar 2019 11:06:19 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/regulator-temperatury-na-szybko/</guid>
+      <description>Projekt zrealizowany z powodu pojawienia się nagłej potrzeby rozwiązania problemu – 2 pomieszczenia i jeden system grzania (brak elektrozaworów – jeden pion grzewczy). Tak więc to co pod ręką można było odnaleźć tj.: arduino i jakiś shield z wyświetlaczem LCD. Założenie co do projektu – wybranie średniej z dwóch sensorów i wysterowanie pieca gazowego. W przypadku uszkodzenia sensora – informacja dla użytkownika na LCD. Histereza stała tj +/-1’c od nastawy.</description>
+    </item>
+    
+    <item>
+      <title>BeCool – Pomysł na upał część 1</title>
+      <link>https://techfreak.pl/becool-pomysl-na-upal-czesc-1/</link>
+      <pubDate>Fri, 10 Aug 2018 03:58:37 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/becool-pomysl-na-upal-czesc-1/</guid>
+      <description>Nie wiem jak wam ale mi ostatnio temperatura na zewnątrz zaczyna mocno przeszkadzać. A z racji posiadania nowych małych członków rodziny i dużej ilości niebezpiecznych zabawek trzeba było przeprowadzić na sobie ewakuacji – elektronika na strych mechanika do garażu. Strych obecnie u mnie to piekielna sauna 31’C w dzień a o 5:30 rano przyjemne 28’5C :) Na pytanie które zawsze powstaje w portalach dotyczących spraw doczesnych „Co robić ? Jak żyć ?</description>
+    </item>
+    
+    <item>
+      <title>Sieci WiFi na login i hasło</title>
+      <link>https://techfreak.pl/sieci-wifi-login-haslo/</link>
+      <pubDate>Sun, 22 Oct 2017 19:33:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/sieci-wifi-login-haslo/</guid>
+      <description>&lt;p&gt;Jak zrobić dostęp do sieci WiFi na podstawie loginu i hasła? To całkiem proste gdy możemy w domu postawić serwer RADIUS. Serwer Radius to obecnie najpopularniejszy protokół uwierzytelniania i autoryzowania użytkowników sieci LAN i WiFi. Teraz gdy w domu masz możliwość uruchomienia Radius’a na routerze, raspberry pi lub serwerze plików NAS np. Synology, to ten sposób jest w zasięgu reki. Oczywiście poniższy przykład to zajawka i każdy musi zastanowić się czy lepiej dołączyć mamę do WiFi przez WPA2-Enterprise czy samo hasło WPA2-PSK. Czy może jeszcze dodatkowo token fizyczny.&lt;/p&gt;
+&lt;p&gt;Poniższy sposób przedstawia skonfigurowanie routera tplink z obsługą 802.1x, serwera RADIUS na debianie i klientów, którzy wybierają logowanie za pomocą EAP PEAP MS-CHAPv2 podając tylko login i hasło. EAP PEAP jest jedyną metodą gdzie można użyć samego loginu i hasła. Cała komunikacja jest zabezpieczona w tunelu TLS, który jest równolegle zestawiamy przy prośbie o dołączenie do sieci. Dodatkowym atutem jest to, że sposób jest dostępny na wielu systemach i urządzeniach.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pl.wikipedia.org/wiki/Extensible_Authentication_Protocol&#34;&gt;EAP&lt;/a&gt; – Extensible Authentication Protocol&lt;/li&gt;
+&lt;li&gt;PEAP – Protected EAP&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pl.wikipedia.org/wiki/RADIUS&#34;&gt;RADIUS&lt;/a&gt; – Remote Authentication Dial In User Service&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://technet.microsoft.com/en-us/library/cc731462(v=ws.10).aspx&#34;&gt;MS-CHAPv2&lt;/a&gt; – Microsoft Challenge Handshake Authentication Protocol version 2&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pl.wikipedia.org/wiki/IEEE_802.1X&#34;&gt;802.1X&lt;/a&gt; –  Standard IEEE kontroli dostępu do sieci przewodowych i bezprzewodowych&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

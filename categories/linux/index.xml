@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on techfreak blog</title>
+    <link>https://techfreak.pl/categories/linux/</link>
+    <description>Recent content in Linux on techfreak blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Przemek</copyright>
+    <lastBuildDate>Sat, 06 Oct 2018 19:19:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://techfreak.pl/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jak używać DD z monitorowaniem postępu?</title>
+      <link>https://techfreak.pl/linux-dd-monitorowanie-postepu/</link>
+      <pubDate>Sat, 06 Oct 2018 19:19:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/linux-dd-monitorowanie-postepu/</guid>
+      <description>&lt;p&gt;Zawsze zapominam jak włączyć monitorowanie postępu gdy używam dd!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wygląda mój pulpit Ubuntu z Gnome Shell</title>
+      <link>https://techfreak.pl/ubuntu-gnome-shell/</link>
+      <pubDate>Wed, 13 Jun 2018 20:51:20 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ubuntu-gnome-shell/</guid>
+      <description>&lt;p&gt;Spotkałem się z różnymi opiniami o Ubuntu i Ubuntu Gnome Shell. Większości chodziło o wygląd. Ciągle była mowa o unity jakie to dziwne było. Gnome wolno działa i zwalnia, animacje lagują jak 15 lat temu. Najlepsze XFCE! No to pokażę wam mój pulpit.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Freeradius &#43; Google Authenticator</title>
+      <link>https://techfreak.pl/freeradius-google-authenticator/</link>
+      <pubDate>Tue, 01 May 2018 16:34:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/freeradius-google-authenticator/</guid>
+      <description>&lt;p&gt;Użycie drugiego składnika logowania zabezpiecza dostęp ale może powodować pewne trudności lub koszty we wdrożeniu. Chciałbym pokazać jak za pomocą darmowego radiusa, biblioteki google authenticator i aplikacji w telefonie można zrealizować to zadanie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>e-deklaracje na Ubuntu</title>
+      <link>https://techfreak.pl/e-deklaracje-ubuntu/</link>
+      <pubDate>Fri, 26 Jan 2018 09:42:46 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/e-deklaracje-ubuntu/</guid>
+      <description>&lt;p&gt;Zobacz jak zainstalować e-deklaracje na Ubuntu 17.10 aby się rozliczyć z podatku za 2017 rok.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak monitorować systemy i robić to dobrze?</title>
+      <link>https://techfreak.pl/monitorowac-systemy-robic-dobrze/</link>
+      <pubDate>Sun, 29 Oct 2017 18:19:24 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/monitorowac-systemy-robic-dobrze/</guid>
+      <description>&lt;p&gt;Jak dobrze monitorować systemy, zbierać i wyświetlać dane tak aby wszystko było podane jak na tacy? Zacząć używać monitoringu &lt;a href=&#34;https://github.com/firehol/netdata&#34;&gt;Netdata&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zrobić bootowalny pendrive z instalacją windowsa na ubuntu?</title>
+      <link>https://techfreak.pl/zrobic-bootowalny-pendrive-instalacja-windowsa-ubuntu/</link>
+      <pubDate>Wed, 23 Aug 2017 11:45:16 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zrobic-bootowalny-pendrive-instalacja-windowsa-ubuntu/</guid>
+      <description>&lt;p&gt;Jak zainstalować windows’a na komputerze bez stacji cdrom? Jak stworzyć bootowalny pendrive z instalacją systemu Windows 7 lub Windows 10?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak rozszerzyć dysk na LVM?</title>
+      <link>https://techfreak.pl/jak-rozszerzyc-dysk-na-lvm/</link>
+      <pubDate>Wed, 26 Apr 2017 13:35:31 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-rozszerzyc-dysk-na-lvm/</guid>
+      <description>&lt;p&gt;Zobacz jak rozszerzyć dysk/partycje która jest zarządzana przez LVM i nie stracić danych.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Test prędkości dysku z graficznym interfejsem w Ubuntu</title>
+      <link>https://techfreak.pl/test-predkosci-dysku-graficznym-interfejsem-ubuntu/</link>
+      <pubDate>Sun, 05 Feb 2017 17:07:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/test-predkosci-dysku-graficznym-interfejsem-ubuntu/</guid>
+      <description>&lt;p&gt;Czasami trzeba sprawdzić dysk na USB lub kartę SD czy nie zawiera błędów lub czy prędkość karty jest odpowiednia. Pytanie jak to zrobić na Ubuntu, Xubuntu? :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak porównać pliki pdf? DiffPDF</title>
+      <link>https://techfreak.pl/porownac-pliki-pdf-diffpdf/</link>
+      <pubDate>Sat, 04 Jun 2016 07:24:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/porownac-pliki-pdf-diffpdf/</guid>
+      <description>&lt;p&gt;W świecie linuksowym do porównywania plików używany jest diff, który jest prostym poleceniem używanym w wierszu poleceń. Za jego pomocą łatwo znaleźć różnice w dwóch plikach. Co zrobić jeśli do porównania mam np. dwie obszerne oferty handlowe w których nic nie może mi umknąć, a wersji wyszło wiele i to w formacie PDF?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emulacja Raspberry Pi na QEMU</title>
+      <link>https://techfreak.pl/emulacja-raspberry-pi-qemu/</link>
+      <pubDate>Thu, 07 Apr 2016 06:45:03 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/emulacja-raspberry-pi-qemu/</guid>
+      <description>&lt;p&gt;Chociaż każdy może zakupić Raspberry Pi w całkiem niskiej cenie to czasem może zdarzyć się sytuacja, że zajdzie potrzeba emulacji tego mini komputerka na maszynie wirtualnej. Poniżej pokaże jak emulować Raspberry Pi na QEMU.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IPtables na stałe</title>
+      <link>https://techfreak.pl/iptables-na-stale/</link>
+      <pubDate>Sat, 06 Feb 2016 23:21:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/iptables-na-stale/</guid>
+      <description>&lt;p&gt;Jeśli  już masz napisane reguły zapory sieciowej przy pomocy IPtables to na pewno chcesz je zapisać na stałe tak aby były stosowane przy uruchamianiu maszyny. Poniżej pokaże jak.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &#43; WiFi</title>
+      <link>https://techfreak.pl/raspberry-pi-wifi/</link>
+      <pubDate>Fri, 27 Nov 2015 18:49:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-wifi/</guid>
+      <description>&lt;p&gt;Pisałem już parę razy jak skonfigurować kartę WiFi na USB pod Raspberry PI i tym razem napisze jak to się robi na Raspbianie. Na najnowszych obrazach jest to całkiem proste i robi się to w jednym pliku.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kontroler Unifi AP UAP na Raspberry Pi</title>
+      <link>https://techfreak.pl/kontroler-unifi-ap-uap-na-raspberry-pi/</link>
+      <pubDate>Mon, 16 Nov 2015 21:49:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/kontroler-unifi-ap-uap-na-raspberry-pi/</guid>
+      <description>&lt;p&gt;Budując sieć WiFi złożoną z wielu punktów dostępowych często projektant stoi przed wyborem systemu z puli całkiem drogich urządzeń. Obecnie wiele rozwiązań z zarządzaniem w chmurze ostatecznie i tak może zadziwić wysoką ceną. Istnieje jeden mało popularny system WiFi o nazwie Unifi z darmowym serwerem zarządzania i ceną za jedno urządzenie dostępowe w granicach 290zł.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Orange Pi konkurencja dla Raspberry Pi</title>
+      <link>https://techfreak.pl/orange-pi-konkurencja-dla-raspberry-pi/</link>
+      <pubDate>Wed, 02 Sep 2015 13:30:17 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/orange-pi-konkurencja-dla-raspberry-pi/</guid>
+      <description>&lt;p&gt;Konkurencja dla Raspberry Pi rośnie w siłę dzięki Orange Pi, który jest tematem wielu dyskusji z powodu ceny i specyfikacji. Orange Pi to nowy mini komputer przypominający Raspberry Pi i posiadający bardzo dobrą specyfikację jak na swoje wymiary. Orange Pi to płytka zbudowana przez Shenzhen Xunlong Software CO., Limited. Na samym &lt;a href=&#34;http://www.aliexpress.com/store/product/Orange-Pi-PC-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry-Pi-2/1553371_32448079125.html&#34; target=&#34;_blank&#34;&gt;aliexpress&lt;/a&gt; na tą chwile została zakupiona 1474 razy. Oficjalna strony projektu to orangepi.com na którą niestety nie można się dostać. Pewnie producent nie zabezpieczył się na przyjęcie takiej liczny zainteresowanych.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Yubikey klucz do bezpieczeństwa</title>
+      <link>https://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/</link>
+      <pubDate>Tue, 25 Aug 2015 05:36:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/yubikey-klucz-do-bezpieczenstwa/</guid>
+      <description>&lt;p&gt;Parę słów i przykładów z działania klucza Yubikey NEO, który nie tylko przypomina pamięć USB a pomaga chronić dostępu do najpopularniejszych serwisów internetowych.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LG G watch R Android 5.1.1 OTA</title>
+      <link>https://techfreak.pl/lg-g-watch-r-android-5-1-1-ota/</link>
+      <pubDate>Wed, 20 May 2015 14:29:13 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/lg-g-watch-r-android-5-1-1-ota/</guid>
+      <description>&lt;p&gt;Na pewno posiadacze Lg G watch R czekają na update (OTA) do Android 5.1.1 i są ciekawi czy zostanie włączona obsługa wifi. Spekulacji było dużo, okazało się że sam układ wifi jest zintegrowany w płycie głównej i antenę dzieli z modułem Bluetooth. Ale niestety update dla Androida 5.1.1 nie włącza tak upragnionej funkcji przez wielu użytkowników. Kto nie chce czekać na OTA już teraz może sobie wgrać najnowszy update do 5.1.1. Linki poniżej.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>nettemp nowe funkcje</title>
+      <link>https://techfreak.pl/nettemp-nowe-funkcje/</link>
+      <pubDate>Fri, 17 Apr 2015 11:32:55 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-nowe-funkcje/</guid>
+      <description>&lt;p&gt;Hej, dziś parę słów na temat projektu nettemp. Oczywiście nie rozwija się on tak szybko jak bym chciał ale zawszę trochę do przodu. Obecnie nettemp dzieli się na dwie wersje master i beta. Master jest w miarę stabilną wersją jeszcze ze starymi wykresami na RRD. Natomiast nowa wersja bety zawiera parę nowych funkcji o których werto wspomnieć.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cool Retro Term</title>
+      <link>https://techfreak.pl/cool-retro-term/</link>
+      <pubDate>Tue, 30 Dec 2014 21:25:39 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/cool-retro-term/</guid>
+      <description>&lt;p&gt;Zobacz bardzo fajny emulator terminala o nazwie Cool Retro Term, który wzorowany jest na bardzo starych monitorach CRT (&lt;a href=&#34;http://pl.wikipedia.org/wiki/CRT&#34; target=&#34;_blank&#34;&gt;kineskop z działem elektronowym&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi RTC DS1307 &#43; nettemp</title>
+      <link>https://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/</link>
+      <pubDate>Wed, 10 Dec 2014 15:30:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/</guid>
+      <description>&lt;p&gt;Podobno tej jednej funkcji brakuje w Raspberry Pi najbardziej, podtrzymania czasu rzeczywistego za pomocą bateryjki. Razpberry Pi nie zostało wyposażone w RTC pewnie z tego powodu że istnieje alternatywa w postacji NTP. Jednak czasem z różnych powodów RTC jest potrzebne i poniżej pokażę jak podłączyć i zainstalować taki moduł w Raspberry Pi.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Zonk przy bootowaniu xubuntu lub ubuntu</title>
+      <link>https://techfreak.pl/zonk-przy-bootowaniu-xubuntu-lub-ubuntu/</link>
+      <pubDate>Tue, 09 Dec 2014 04:00:00 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zonk-przy-bootowaniu-xubuntu-lub-ubuntu/</guid>
+      <description>&lt;p&gt;Ostatnio natrafiłem na całkiem nieprzyjemny komunikat przy starcie mojego systemu xubuntu. Jedyny sugerowany sposób z internetów to reinstalka. Słabo, ale jednak udało mi się to naprawić w parę chwil. Zobacz jak.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VPS dla bloga? Testy DigitalOcean</title>
+      <link>https://techfreak.pl/vps-dla-bloga-testy-digitalocean/</link>
+      <pubDate>Sat, 29 Nov 2014 11:24:28 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/vps-dla-bloga-testy-digitalocean/</guid>
+      <description>&lt;p&gt;Tak to jest z tymi hostingami www że jak trzeba wybrać jakiś dla siebie to nie wiadomo co. Najlepiej jak był by tani i wydajny miał opcje backupu i żeby było wszystko zrobione z automatu. Sam ostatnio migrowałem się z jednego na drugi z powodu opłat a potem wybrałem jeszcze inny z powodu kłopotów technicznych a teraz testuje &lt;a href=&#34;http://pl.wikipedia.org/wiki/Virtual_Private_Server&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VPS&lt;/a&gt; który polecił mi użytkownik forum webhostingtalk.pl. Dokładnie chodzi o wirtualny serwer prywatny w &lt;a href=&#34;https://www.digitalocean.com/?refcode=ae21189b009e&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DigitalOcean&lt;/a&gt; za 5$ miesięcznie.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak odczytywać temperaturę z nettemp po SNMP?</title>
+      <link>https://techfreak.pl/odczytywac-temperature-nettemp-snmp/</link>
+      <pubDate>Fri, 14 Nov 2014 17:38:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/odczytywac-temperature-nettemp-snmp/</guid>
+      <description>&lt;p&gt;Tym razem trochę o odczytywaniu temperatury po SNMP z nettempa. Po ogłoszeniu nowej wersji Raspberry Pi A+ przyszło mi do głowy że jeśli nettemp może czytać temperatury po SNMP z serwerów czy innych urządzeń które udostępniają taką informację. To dlaczego nie może z samego siebie. Dokładnie chodzi mi taki scenariusz, że jedna instalacja nettemp’a zbiera wszystkie dane po SNMP z paru klientów zdalnych które maja zainstalowanego nettempa na Raspberry Pi A+. Sprawa w sumie prosta do zrealizowania bo trzeba tylko postawić serwer SNMP. I właśnie pokaże Ci poniżej jak to zrobić na nettemp.&lt;br&gt;
+EDIT: Opcja została dodana do nettemp, w sekcji settings.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wolne WiFi na kartach intela – jak naprawić?</title>
+      <link>https://techfreak.pl/wolne-wifi-kartach-intela-naprawic/</link>
+      <pubDate>Wed, 05 Nov 2014 15:30:59 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wolne-wifi-kartach-intela-naprawic/</guid>
+      <description>&lt;p&gt;Na swoim laptopie używam Xubuntu i w zasadzie jestem zadowolony z systemu, no może poza paroma bugami które były uciążliwe od wersji 14.04. Jakiś czas temu testowałem &lt;a href=&#34;http://techfreak.pl/gigsowe-wifi-czy-to-juz-test-routera-tew-812dru-i-karty-usb-tew-805ub/&#34; target=&#34;_blank&#34;&gt;WiFi w standardzie ac&lt;/a&gt; gdzie potrzebowałem maksymalnych przepustowości karty. Teraz jestem przed kolejnym testem standardu AC i łącząc aktualny system Xubuntu 14.10 i  prędkość WiFi zostałem niemile zaskoczony. Prędkość mojej karty to 25Mbps a w standardzie N 2×2 powinno być to ok 150Mbps. Poniżej pokażę jak to szybko naprawić.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak masowo dodawać logo do zdjęć?</title>
+      <link>https://techfreak.pl/masowo-dodawac-logo-zdjec/</link>
+      <pubDate>Fri, 10 Oct 2014 13:52:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/masowo-dodawac-logo-zdjec/</guid>
+      <description>&lt;p&gt;Jak przeglądacie czasem tę stronę możecie zauważyć że fotki które są dodawane do wpisów zawierają logo. Kiedyś pomyślałem sobie że to może być dobra reklama przy wyszukiwaniu grafiki w przeglądarkach. Czasem w obszernych wpisach fotek jest naprawdę dużo np. &lt;a href=&#34;http://techfreak.pl/drukarka-3d-profab-gate-le/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Drukarka 3D&lt;/a&gt;, &lt;a href=&#34;http://techfreak.pl/zbudowac-quadcopter-fpv250-naze32-dys-be1806/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;quadcopter&lt;/a&gt;. Kto myślał że dodaje logo ręcznie naprawdę się pomylił. Używam do tego małego skryptu który zaprezentuje poniżej.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Virtualbox autostart virtualnych maszyn</title>
+      <link>https://techfreak.pl/virtualbox-autostart-virtualnych-maszyn/</link>
+      <pubDate>Fri, 22 Aug 2014 14:45:41 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/virtualbox-autostart-virtualnych-maszyn/</guid>
+      <description>&lt;p&gt;Dziś temat postaw sobie Windowsa na Linuksie, czyli temat o wirtualizacji a dokładnie o Virtualbox który ma przydatną opcję automatycznego startowania wirtualnych systemów przy starcie głównej fizycznej maszyny. Czyli zakładam że chce postawić sobie jakiś lekki system np. Lubuntu na którym zainstaluje VirtualBoxa i tam stworzę jakieś wirtualne maszyny które będą się automatycznie uruchamiać przy starcie głównego serwera.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Efekt Matrixa w konsoli</title>
+      <link>https://techfreak.pl/efekt-matrixa-konsoli/</link>
+      <pubDate>Sat, 09 Aug 2014 06:20:22 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/efekt-matrixa-konsoli/</guid>
+      <description>&lt;p&gt;Taka ciekawostka tym razem związana z konsolą. Ostatnio znalazłem stary ale fajny efekt Matrixa w konsoli. Działa on bardzo fajnie a generuje go prosty skrypt w bashu. Autorem jest &lt;a href=&#34;http://bruxy.regnet.cz/&#34; target=&#34;_blank&#34;&gt;BruXy&lt;/a&gt;, który to na swoim blogu ma więcej fajnych rzeczy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Problem z msmtp</title>
+      <link>https://techfreak.pl/problem-msmtp/</link>
+      <pubDate>Thu, 07 Aug 2014 08:52:53 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/problem-msmtp/</guid>
+      <description>Ostatnio pewien użytkownik nettempa z Kandy zgłosił się do mnie z problemem który dotyczył powiadomień mailowych. Nettemp do wysyłania powiadomień używa lekkiego klienta msmtp. Błąd jaki wyskakiwał to:
+msmtp: cannot create socket: Address family not supported by protocol msmtp: could not send mail Google podpowiadało to że może to być problem z ipv6 lub z konfiguracją klienta msmtp. Okazało się że to problem z zablokowanym portem SMTP 587.
+Jak można sprawdzić czy port jest zablokowany?</description>
+    </item>
+    
+    <item>
+      <title>Wireshark jak sprawdzić przepustowość łącza</title>
+      <link>https://techfreak.pl/wireshark-sprawdzic-przepustowosc-lacza/</link>
+      <pubDate>Wed, 23 Jul 2014 11:34:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wireshark-sprawdzic-przepustowosc-lacza/</guid>
+      <description>Czasami są takie sytuacje gdzie trzeba sprawdzić zużycie jakiegoś interfejsu sieciowego, czy to na jakimś routerze czy na serwerze. Lub ogólnie sprawdzić przepustowość danego łącza. W niektórych sytuacjach najlepiej było by jeszcze określić jakie połączenia generują największe zużycie.
+Jeśli mowa o testowaniu łącz to moim zdaniem najlepiej nadaje się do tego iperf. Jest to narzędzie klient / serwer które znajduje się domyślnie w każdym wydaniu livecd Knoppix. Przy okazji kiedyś opisywałem jak uruchamiać wiele obrazów z jednego flasha.</description>
+    </item>
+    
+    <item>
+      <title>Xbmc &#43; Raspberry Pi &#43; autoplay z folderu</title>
+      <link>https://techfreak.pl/xbmc-raspberry-pi-autoplay-folderu/</link>
+      <pubDate>Tue, 20 May 2014 05:47:42 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/xbmc-raspberry-pi-autoplay-folderu/</guid>
+      <description>&lt;p&gt;Nadchodzi taki czas w życiu mężczyzny kiedy musi oddać swoim dzieciakom telewizor i Raspberry Pi. Dzieciaki dorastają zaczynają programować, lutować i prosić o kasę na nową elektronikę z chin. Szybsze laptopy, większe dyski i szybsze smartfony z Androidem 5.4.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zabezpieczyć logowanie do swojego bloga?</title>
+      <link>https://techfreak.pl/jak-zabezpieczyc-logowanie-do-swojego-bloga/</link>
+      <pubDate>Sun, 11 May 2014 20:45:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zabezpieczyc-logowanie-do-swojego-bloga/</guid>
+      <description>&lt;p&gt;Tym razem mam temat dotyczący bezpieczeństwa logowania do bloga, strony, panelu lub co sobie tam wymyślicie. Ostatnio logując się do swojego panelu admina, do którego domyślne logowanie odbywa się przez http. Pomyślałem że fajnie było by robić to dobrze i logować się po https. Hosting z którego korzystam ma z defaulta certyfikat wildcard którego można używać ale wtedy dostaje ostrzeżenia od przeglądarki. Ponierważ domena nie zgadza się z tą z certyfikatu. Zawsze można zaakceptować wyjątek ale to nie jest wyjście. Zacząłem szukać darmowych certyfikatów.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Proxy po ssh czyli zawsze wychodzę z tego samego IP</title>
+      <link>https://techfreak.pl/proxy-po-ssh-czyli-zawsze-wychodze-z-tego-samego-ip/</link>
+      <pubDate>Tue, 06 May 2014 18:58:14 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/proxy-po-ssh-czyli-zawsze-wychodze-z-tego-samego-ip/</guid>
+      <description>&lt;p&gt;Dziś chciałbym pokazać wam ja wykorzystać sytuację w której posiadacie swojego hosta gdzieś w firmie lub w domu i chcecie korzystać właśnie z niego ze względu na IP a nie ma was na miejscu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sliverlight na ubuntu. Koniec świata..</title>
+      <link>https://techfreak.pl/sliverlight-na-ubuntu-koniec-swiata/</link>
+      <pubDate>Tue, 22 Apr 2014 14:00:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/sliverlight-na-ubuntu-koniec-swiata/</guid>
+      <description>&lt;p&gt;Nie jestem zwolennikiem &lt;a href=&#34;http://pl.wikipedia.org/wiki/Microsoft_Silverlight&#34; target=&#34;_blank&#34;&gt;mikrosoftowego silverlight’a&lt;/a&gt; ale niestety niektóre aplikacje, najczęściej firmowe z niego korzystają. Ja używam &lt;a href=&#34;http://xubuntu.org/&#34; title=&#34;normalne ubuntu&#34;&gt;xubuntu&lt;/a&gt; no i czasem muszę się przystosować. Więc pokaże jak uruchomić silverlight pod linuxem.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu – Znowu brak miejsca w boot</title>
+      <link>https://techfreak.pl/ubuntu-znowu-brak-miejsca-w-boot/</link>
+      <pubDate>Tue, 08 Apr 2014 17:53:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ubuntu-znowu-brak-miejsca-w-boot/</guid>
+      <description>&lt;p&gt;Dziś chciałbym napisać, pokazać lub przypomnieć, co zrobić jak na partycji /boot  zabraknie miejsca. Moi znajomi często mają ten problem przez który nie kończy się aktualizacja systemowa, dokładnie chodzi o Ubuntu. Wiadomo nikt nie lubi czerwonych wykrzykników w prawym górnym rogu. Ja używam xubuntu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak naprawić chrome?</title>
+      <link>https://techfreak.pl/naprawic-chrome/</link>
+      <pubDate>Fri, 17 Jan 2014 14:03:59 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/naprawic-chrome/</guid>
+      <description>&lt;p&gt;Ja na swoim xubuntu używam przeglądarki Chromium. Do niedawna cieszyłem się tym, że wszystko działa i nie muszę się o nic martwić. Od jakiegoś czasu po kolei, powoli przestają działać mi niektóre funkcje. Miarka się przebrała. Poniżej pokaże jak naprawić Chromium który nie możne wyświetlić… niczego.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak uruchamiać wiele obrazów ISO z jednego USB?</title>
+      <link>https://techfreak.pl/jak-uruchamiac-wiele-obrazow-iso-z-jednego-usb/</link>
+      <pubDate>Sun, 15 Dec 2013 19:02:39 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-uruchamiac-wiele-obrazow-iso-z-jednego-usb/</guid>
+      <description>&lt;p&gt;Dziś chciałbym przedstawić mój wynik poszukiwań softu do szybkiego robienia flasha z którego można uruchomić wiele obrazów ISO. Testowałem między innymi takie programy jak &lt;a href=&#34;http://sourceforge.net/projects/multibootusb/files/Linux/Debian-Ubuntu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;multibootusb&lt;/a&gt;, &lt;a href=&#34;http://www.pendrivelinux.com/yumi-multiboot-usb-creator/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YUMI&lt;/a&gt; i &lt;a href=&#34;http://liveusb.info/dotclear/index.php?pages/install&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;multisystem&lt;/a&gt;. Oczywiście wszystko pod xubuntu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nettemp – ulepszona funkcja przekażników</title>
+      <link>https://techfreak.pl/nettemp-ulepszona-funkcja-przekaznikow/</link>
+      <pubDate>Tue, 30 Jul 2013 05:20:36 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-ulepszona-funkcja-przekaznikow/</guid>
+      <description>Od paru dni nie działo się na techfreak nic bo trochę naszło mnie na dopieszczenie nettempa, mojego monitoringu temperatury. Dodatkowo powstało też małe forum na którym chciałbym dyskutować o nettemp i informować co się dzieje z projektem. Ciesze się że te parę osób korzysta z programu i właśnie tam chciałbym skierować wszystkie nasze dyskusje.
+Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaźnikowego modułu okazało się ze jest on sterowany masą co zmusiło mnie do zrobienia drobnych zmian w kodzie tak aby można było sterować przekaźnikami i stanem LOW i HIGH.</description>
+    </item>
+    
+    <item>
+      <title>nettemp wersja 7 beta</title>
+      <link>https://techfreak.pl/nettemp-wersja-beta/</link>
+      <pubDate>Wed, 03 Jul 2013 13:20:36 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-wersja-beta/</guid>
+      <description>Od jakiegoś czasu jest dostępna wersja beta nettemp’a pod adresem https://github.com/sosprz/nettemp/tree/v7 w której zostały poprawione różne rzeczy głównie to:
+ wysyłanie SMS przy pomocy gammu  odczytywanie wszystkich sms i kasowanie wszystkich sms temperatura jest czytana co minutę i wykresy generują się też co minute  sekcja Relays zmieniła się na Gpio ze względu na różne możliwości gpio. Rozpocząłem przygotowania do sterowania przekaźnikami przy pomocy wskazanego czujnika temperatury. Czyli włącz/wyłącz przekaźnik jeśli temperatura będzie powyżej lub poniżej.</description>
+    </item>
+    
+    <item>
+      <title>OpenWRT na Raspberry Pi</title>
+      <link>https://techfreak.pl/openwrt-na-raspberry-pi/</link>
+      <pubDate>Sat, 22 Jun 2013 21:10:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/openwrt-na-raspberry-pi/</guid>
+      <description>&lt;p&gt;Tyle ilu jest użytkowników Raspberry Pi tyle będzie pomysłów na zastosowanie tego maleństwa. Ja pomyślałem że muszę spróbować zainstalować OpenWRT na Raspberry Pi bo wraz ze stabilną wersją Attitude Adjustment, OpenWRT zaczęło je wspierać.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi OpenVPN Android</title>
+      <link>https://techfreak.pl/raspberry-pi-openvpn-android/</link>
+      <pubDate>Wed, 19 Jun 2013 12:21:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-openvpn-android/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;Myślę że szał na Raspberry Pi szybko nie minie a to z powodu niewielkiej ceny za mini komputer a po drugie rzeszy fanów i dużego wsparcia. Raspberry Pi OpenVPN Android w jednej całości to jest to czego sam używam i dlatego postanowiłem napisać poradnik jak skonfigurować OpenVPN na Raspberry Pi i podłączać się do niego smartfonem z Androidem.&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git podstawy</title>
+      <link>https://techfreak.pl/git-podstawy/</link>
+      <pubDate>Fri, 07 Jun 2013 21:48:40 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/git-podstawy/</guid>
+      <description>&lt;p&gt;Dziś będą git podstawy, dodaje parę przydatnych komend w zasadzie takie małe wprowadzenie. Sam korzystam z github.com i używam podstawowych poleceń aby go w miarę ogarniać. Nie jest to jakiś oszałamiający zestaw, ale na pewno początkującemu użytkownikowi przyda się aby łatwo zarządzać wersjami swojego projektu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zrobić zdalny backup przy pomocy rsync gui?</title>
+      <link>https://techfreak.pl/jak-zrobic-zdalny-backup-przy-pomocy-rsync-gui/</link>
+      <pubDate>Wed, 29 May 2013 14:34:08 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zrobic-zdalny-backup-przy-pomocy-rsync-gui/</guid>
+      <description>&lt;p&gt;Tylko twardziele nie robią backupu albo !admini. A ja myślę że co jakiś czas trzeba na wszelki wypadek zrobić jakąś kopie bezpieczeństwa a że posiadam w domu serwer NAS, to często wrzucam ją na dyski poprzez rsync gui.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux jak postawić serwer tftp?</title>
+      <link>https://techfreak.pl/linux-jak-postawic-serwer-tftp/</link>
+      <pubDate>Tue, 28 May 2013 14:29:16 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/linux-jak-postawic-serwer-tftp/</guid>
+      <description>&lt;p&gt;Często aktualizuje oprogramowanie na przełącznikach i zawsze zapominam jak postawić serwer tftp. Tak dla siebie i innych wrzucam jak szybko to zrobić.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi zawiesza się? zrób automatyczny restart</title>
+      <link>https://techfreak.pl/raspberry-pi-zawiesza-sie-zrob-automatyczny-restart/</link>
+      <pubDate>Wed, 15 May 2013 06:34:55 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/raspberry-pi-zawiesza-sie-zrob-automatyczny-restart/</guid>
+      <description>&lt;h4 id=&#34;img-classaligncenter--wp-image-3220-altnettemp_gpio-srchttptechfreakplwp-contentuploads201301nettemp_gpiojpg-width600-height450-srcsethttptechfreakplwp-contentuploads201301nettemp_gpiojpg-1000w-httptechfreakplwp-contentuploads201301nettemp_gpio-300x225jpg-300w-sizesmax-width-600px-100vw-600px-1&#34;&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-3220&#34; alt=&#34;nettemp_GPIO&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg&#34; width=&#34;600&#34; height=&#34;450&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO-300x225.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;raspberry-pi-zawiesza-się--czasem8230&#34;&gt;Raspberry Pi zawiesza się ?! Czasem…&lt;/h4&gt;
+&lt;p&gt;Czasem może zaistnieć taka sytuacja że pracujemy zdalnie na Raspberry PI i puścimy coś co spowoduje zawieszenie. Co zrobić aby RPi samo zrestartowało się w takiej sytuacji ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zamontować dysk LG Nexus 4 na Ubuntu? tryb pamięci MTP</title>
+      <link>https://techfreak.pl/jak-zamontowac-dysk-lg-nexus-4-na-ubuntu-tryb-pamieci-mtp/</link>
+      <pubDate>Sun, 07 Apr 2013 13:20:34 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zamontowac-dysk-lg-nexus-4-na-ubuntu-tryb-pamieci-mtp/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2730&#34; alt=&#34;lg_nexus_4_ubuntu_techfreakpl&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg&#34; width=&#34;546&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg 546w, http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl-300x198.jpg 300w&#34; sizes=&#34;(max-width: 546px) 100vw, 546px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Aby dostać się do dysku telefonu LG Nexus 4 z Andoridem 4.2.2 w Ubuntu 12.10 (quantal) trzeba zainstalować deweloperską wersje Gvfs i libmtp. Bo niestety domyślnie system nie rozpoznaje telefonu.&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak skonfigurować NFS (Network File System)</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-nfs-network-file-system/</link>
+      <pubDate>Fri, 05 Apr 2013 16:25:53 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-nfs-network-file-system/</guid>
+      <description>&lt;p&gt;Czasami trzeba udostępnić jakieś katalogi z jednej maszyny na drugą i do tego świetnie nadaje się popularny sieciowy system plików Network File System. Konfiguracja dosyć łatwa a do tego szybka. Mały przykład jak skonfigurować NFS poniżej.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalacja freeradius i gui daloradius na RedHat 6</title>
+      <link>https://techfreak.pl/instalacja-freeradius-i-gui-daloradius-na-redhat-6/</link>
+      <pubDate>Sat, 30 Mar 2013 09:01:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/instalacja-freeradius-i-gui-daloradius-na-redhat-6/</guid>
+      <description>&lt;p&gt;Tym razem potrzebowałem serwera radius + jakiś www interface. Poniżej moja konfiguracja.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>not found,  Unable to locate and error</title>
+      <link>https://techfreak.pl/not-found-unable-to-locate-and-error/</link>
+      <pubDate>Fri, 29 Mar 2013 19:51:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/not-found-unable-to-locate-and-error/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;font-size: 14px; line-height: 1.5;&#34;&gt;Pomyślałem że było by fajnie zbierać błędy które można napotkać w konsoli i zamieszczać od razu rozwiązania aby w późniejszym czasie nie tracić czasu na to co kiedyś już się rozwiązało lub naprawiło.&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak skonfigurować serwer rsyslog &#43; interfejs www na RedHat 6</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-serwer-rsyslog-interfejs-www-na-redhat-6/</link>
+      <pubDate>Tue, 19 Mar 2013 21:38:24 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-serwer-rsyslog-interfejs-www-na-redhat-6/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2551&#34; alt=&#34;loganalyzer_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Każdy admin prędzej czy później spotyka się z taką sytuacja że potrzebuje mieć serwer sysloga który będzie zbierał logi ze wszystkich urządzeń w sieci. Generalnie z różnych powodów a może być ich wiele nie ma co wnikać, można robić to też dla fanu ;)&lt;/p&gt;
+&lt;p&gt;Ja robię to z potrzeby i mam nadzieje że komuś się przyda chociaż można powiedzieć też RTFM :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Zastąp Google Readera Tiny Tiny RSS</title>
+      <link>https://techfreak.pl/zastap-google-readera-tiny-tiny-rss/</link>
+      <pubDate>Sat, 16 Mar 2013 21:20:27 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zastap-google-readera-tiny-tiny-rss/</guid>
+      <description>&lt;p&gt;Jak pewnie wiecie Google postanowiło zamknąć Google Readera i tym samym zaczęły się poszukiwania nowego czytnika RSS, wszystkie portale trąbią co fajnie co nie. Ja na jednym z blogów natrafiłem na fajny całkiem pomysł.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zainstalować LogMeIn Hamachi na Ubuntu z GUI Haguichi i zagrać w Quake 2?</title>
+      <link>https://techfreak.pl/jak-zainstalowac-logmein-hamachi-na-ubuntu-z-gui-haguichi/</link>
+      <pubDate>Tue, 19 Feb 2013 14:15:24 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zainstalowac-logmein-hamachi-na-ubuntu-z-gui-haguichi/</guid>
+      <description>&lt;h4 id=&#34;span-stylefont-size-1em-line-height-19pxinstalacja-logmein-hamachispan&#34;&gt;&lt;span style=&#34;font-size: 1em; line-height: 19px;&#34;&gt;Instalacja LogMeIn hamachi&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;Hamachi nie jest już w pełni darmowe ale można pobrać wersje BETA które działają pod linuksem. Trzeba przenieść się na stronę &lt;a href=&#34;https://secure.logmein.com/US/labs/&#34;&gt;https://secure.logmein.com/US/labs/&lt;/a&gt; przejść do &lt;strong&gt;LogMeIn Hamachi for Linux (Beta) command line version&lt;/strong&gt; i kliknąć &lt;strong&gt;learn more.&lt;/strong&gt; Do pobrania będą trzy wersje 32bity, 64bity, ARM.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak szyfrować pliki?</title>
+      <link>https://techfreak.pl/jak-szyfrowac-pliki/</link>
+      <pubDate>Tue, 22 Jan 2013 14:05:05 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-szyfrowac-pliki/</guid>
+      <description>&lt;p style=&#34;text-align: center&#34;&gt;
+  &lt;a href=&#34;http://techfreak.pl/?attachment_id=1941&#34; rel=&#34;attachment wp-att-1941&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1941&#34; alt=&#34;7zip_password_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/7zip_password_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/7zip_password_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/7zip_password_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Potrzebowałem zaszyfrować parę pojedynczych plików i w sumie wychodzi na to że gpg jest najlepszym wyborem. Z tego powodu że nawet na innym systemie operacyjnym (jak by co) odczytam zaszyfrowany plik.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak podłączyć dysk systemowy po iSCSI dla maszyny wirtualnej w programie VirtualBox?</title>
+      <link>https://techfreak.pl/jak-podlaczyc-dysk-systemowy-po-iscsi-dla-maszyny-wirtualnej-w-programie-virtualbox/</link>
+      <pubDate>Mon, 14 Jan 2013 12:36:25 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-podlaczyc-dysk-systemowy-po-iscsi-dla-maszyny-wirtualnej-w-programie-virtualbox/</guid>
+      <description>&lt;p&gt;Opis pokazuje jak do wirtualnej maszyny postawionej na virtualbox podpiąć dysk systemowy poprzez iSCSI.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak sprawdzić jakie procesy wykorzystują przepustowość karty? nethogs</title>
+      <link>https://techfreak.pl/jak-sprawdzic-jakie-procesy-wykorzystuja-przepustowosc-karty-nethogs/</link>
+      <pubDate>Sun, 13 Jan 2013 18:31:14 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-sprawdzic-jakie-procesy-wykorzystuja-przepustowosc-karty-nethogs/</guid>
+      <description>&lt;p&gt;Czasem jest potrzeba aby sprawdzić jakie procesy w systemie zabierają nam przepustowość karty sieciowej. Z pomocą przychodzi programik podobny do &lt;strong&gt;top&lt;/strong&gt;a, &lt;strong&gt;nethogs&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nagraj obrazy iso Vista i Windows 7 na bootowalego pendrive USB</title>
+      <link>https://techfreak.pl/nagraj-obrazy-iso-vista-i-windows-7-na-bootowalego-pendrive-usb/</link>
+      <pubDate>Sat, 12 Jan 2013 08:52:59 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nagraj-obrazy-iso-vista-i-windows-7-na-bootowalego-pendrive-usb/</guid>
+      <description>&lt;p style=&#34;text-align: left;&#34;&gt;
+  Czasem każdemu linuksiarzowi trafi się temat instalacji Windows 7 lub co gorzej Visty jakiemuś znajomemu lub miłej koleżance no i co zrobić jak nie ma się w swoim hakerskim lapku DVD? Jest opcja :D
+&lt;/p&gt;
+&lt;p style=&#34;text-align: left;&#34;&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fotigate SSL VPN</title>
+      <link>https://techfreak.pl/fotigate-ssl-vpn/</link>
+      <pubDate>Thu, 10 Jan 2013 22:15:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/fotigate-ssl-vpn/</guid>
+      <description>&lt;p&gt;Zdarza się że pracownicy będący poza biurem a muszą dostać się  do sieci LAN w pracy.  Możemy oczywiście zrobić na swoim ruterze przekierowanie portów ale transmisja ta nie jest szyfrowana, ponadto takie przekierowania są męczące/nieskalowalne i robimy sobie tylko problem. Możemy również zestawić tunel VPN dla takich pracowników.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fortinet -linki</title>
+      <link>https://techfreak.pl/fortinet-linki/</link>
+      <pubDate>Mon, 31 Dec 2012 12:59:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/fortinet-linki/</guid>
+      <description>Poniżej kilka przydatnych linków dot. urządzeń firmy Fortinet.
+  http://fortinet.com -najistotniejsza strona, do której powinniśmy zajrzeć na początku.
+  http://support.fortinet.com/forum -forum
+  http://kb.fortinet.com – wielka księga wiedzy :)
+  http://docs.fortinet.com -dokumentacje FortiOS’a
+  http://www.fortiguard.com -strona, na której sprawdzimy np: w której kategorii znajduje się URL. (dot. WebFiltering), ponadto dowiemy się również, które adresy IP znajdują się na czarnej liście (dot. AntySpam) itp.
+  6) http://emea.</description>
+    </item>
+    
+    <item>
+      <title>Rzeczywistość rozszerzona – odcinek 2</title>
+      <link>https://techfreak.pl/rzeczywistosc-rozszerzona-odcinek-2/</link>
+      <pubDate>Fri, 28 Dec 2012 19:30:10 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/rzeczywistosc-rozszerzona-odcinek-2/</guid>
+      <description>&lt;p&gt;Parę dni temu pisałem o projekcie &lt;a href=&#34;http://techfreak.pl/rzeczywistosc-rozszerzona/&#34; target=&#34;_blank&#34;&gt;TARDIS&lt;/a&gt; czyli o rzeczywistości rozszerzonej. Po tym napisał do mnie jeden gość, a że jego firma ble ble ble, też robią coś z &lt;strong&gt;AR&lt;/strong&gt;. Mówię spoko dawaj suchara.  Co się okazało to są dopiero techfreaki :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rzeczywistość rozszerzona</title>
+      <link>https://techfreak.pl/rzeczywistosc-rozszerzona/</link>
+      <pubDate>Tue, 25 Dec 2012 21:37:05 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/rzeczywistosc-rozszerzona/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/rzeczywistosc-rozszerzona/tardis-pan_642_362_force/&#34; rel=&#34;attachment wp-att-541&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-541&#34; alt=&#34;tardis-pan_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/tardis-pan_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/tardis-pan_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/tardis-pan_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ostatnio coraz częściej słyszy się o rzeczywistości rozszerzonej (&lt;strong&gt;augmented reality&lt;/strong&gt;) jak nie w grach to w marketingu. &lt;strong&gt;Ale co to jest ?&lt;/strong&gt; Świat rzeczywisty połączony ze światem generowanym komputerowo. &lt;strong&gt;No tak ale co to jest ?&lt;/strong&gt; Na elementy wyświetlanego obrazu na urządzeniu nakładana jest komputerowo generowana grafika 3D.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Szukasz fajnego GUI do firewalla ?</title>
+      <link>https://techfreak.pl/szukasz-fajnego-gui-do-firewalla/</link>
+      <pubDate>Sun, 23 Dec 2012 13:01:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/szukasz-fajnego-gui-do-firewalla/</guid>
+      <description>&lt;p&gt;Dziś chciałbym przypomnieć, pokazać dosyć znaną dystrybucje pod router/firewall opartą na forku innej znanej dystrybucji &lt;a href=&#34;http://m0n0.ch/&#34; target=&#34;_blank&#34;&gt;m0n0wall&lt;/a&gt; a mowa o  &lt;a href=&#34;http://www.pfsense.org/&#34; target=&#34;_blank&#34;&gt;pfSense&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FortiOS -polecenia cli</title>
+      <link>https://techfreak.pl/fortios-polecenia-cli/</link>
+      <pubDate>Thu, 20 Dec 2012 10:32:19 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/fortios-polecenia-cli/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Poniżej przydatne polecenia FortiOS.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hobbit efekty specjalne</title>
+      <link>https://techfreak.pl/hobbit-efekty-specjalne/</link>
+      <pubDate>Mon, 17 Dec 2012 19:03:00 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/hobbit-efekty-specjalne/</guid>
+      <description>Na jednym z portali internetowych znalazłem filmik jak tworzono efekty specjalne do nowego filmu Hobbit. Jakoś nie zdawałem sobie sprawy ile efektów, postaci i rzeczy jest tworzonych komputerowo. Wpadł mi kiedyś do przeglądarki filmik który pokazywał jak są tworzone zamki w Grze o Tron ale ten poniżej ukazuje jeszcze więcej, od postaci po nóż trola. Warto zobaczyć jak teraz robi się filmy :)</description>
+    </item>
+    
+    <item>
+      <title>Instalacja BusyBox na Androidze bez root access :D</title>
+      <link>https://techfreak.pl/instalacja-busybox-na-androidze-bez-root-access-d/</link>
+      <pubDate>Fri, 07 Dec 2012 10:04:30 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/instalacja-busybox-na-androidze-bez-root-access-d/</guid>
+      <description>&lt;p&gt;Adam Outler z XDA developers pokazał jak zainstalować BusyBox na Androidzie bez posiadania super uprawnień na urządzeniu. Zrobił to kopiując przez ADB (Android Developer Bridge) plik busybox. I zainstalował go po wejściu do ADB shell. Obrazek z wykonanych poleceń poniżej :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak analizować ruch karty sieciowej z konsoli przy pomocy tshark ?</title>
+      <link>https://techfreak.pl/jak-analizowac-ruch-ethernet-z-konsoli-tshark/</link>
+      <pubDate>Sat, 01 Dec 2012 23:32:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-analizowac-ruch-ethernet-z-konsoli-tshark/</guid>
+      <description>&lt;p&gt;tshark – Jest to konsolowa wersja analizatora sieci – Wireshark&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Przydatne polecenia dla Apache2</title>
+      <link>https://techfreak.pl/przydatne-polecenia-dla-apache2/</link>
+      <pubDate>Sat, 01 Dec 2012 23:27:37 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/przydatne-polecenia-dla-apache2/</guid>
+      <description>&lt;p&gt;Spis przydatnych poleceń dla serwera www Apache2&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Debian – przydatne polecenia</title>
+      <link>https://techfreak.pl/debian-przydatne-polecenia/</link>
+      <pubDate>Sat, 01 Dec 2012 23:24:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/debian-przydatne-polecenia/</guid>
+      <description>&lt;p&gt;Spis przydatnych poleceń dla Debiana.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gentoo – przydatne polecenia</title>
+      <link>https://techfreak.pl/gentoo-przydatne-polecenia/</link>
+      <pubDate>Sat, 01 Dec 2012 23:23:20 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/gentoo-przydatne-polecenia/</guid>
+      <description>&lt;p&gt;Spis przydatnych poleceńdla systemy Linux Gentoo&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Debian – Jak stworzyć skrypt init</title>
+      <link>https://techfreak.pl/debian-jak-stworzyc-skrypt-init/</link>
+      <pubDate>Sat, 01 Dec 2012 23:18:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/debian-jak-stworzyc-skrypt-init/</guid>
+      <description>&lt;p&gt;Tworzymy plik moj.skrypt i uzupełniamy go tak jak poniżej.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gentoo – spis przydatnych aplikacjii</title>
+      <link>https://techfreak.pl/gentoo-przydatne-aplikacje/</link>
+      <pubDate>Sat, 01 Dec 2012 23:16:49 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/gentoo-przydatne-aplikacje/</guid>
+      <description>&lt;p&gt;Spis przydatnych aplikacji dla systemy Gentoo&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gentoo instalacja ze stage w dwóch prostych skryptach z pamięci usb</title>
+      <link>https://techfreak.pl/gentoo-instalacja-ze-stage-w-dwoch-prostych-skryptach-z-pamieci-usb/</link>
+      <pubDate>Sat, 01 Dec 2012 23:15:13 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/gentoo-instalacja-ze-stage-w-dwoch-prostych-skryptach-z-pamieci-usb/</guid>
+      <description>&lt;p&gt;Skrypt pomagający zainstalować Gentoo z USB (stage1)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wygrywanie obrazu/firmware przy pomocy atftp przykład OpenWrt</title>
+      <link>https://techfreak.pl/wygrywanie-obrazufirmware-przy-pomocy-atftp-przyklad-opnwrt/</link>
+      <pubDate>Sat, 01 Dec 2012 23:10:00 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/wygrywanie-obrazufirmware-przy-pomocy-atftp-przyklad-opnwrt/</guid>
+      <description>&lt;p&gt;Jeżeli używasz X’ów to przed przystąpieniem do działań w konsoli zatrzymaj Network Managera&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak kontrolować procesy ?</title>
+      <link>https://techfreak.pl/jak-kontrolowac-procesy/</link>
+      <pubDate>Sat, 01 Dec 2012 22:59:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-kontrolowac-procesy/</guid>
+      <description>&lt;p&gt;Komendy do kontrolowania procesów:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wyświetlać procesy ?</title>
+      <link>https://techfreak.pl/jak-wyswietlac-procesy/</link>
+      <pubDate>Sat, 01 Dec 2012 22:55:00 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wyswietlac-procesy/</guid>
+      <description>&lt;p&gt;Jak wyświetlać procesy  w systemie ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Replikacja w MYSQL</title>
+      <link>https://techfreak.pl/replikacja-w-mysql/</link>
+      <pubDate>Tue, 20 Nov 2012 10:21:52 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/replikacja-w-mysql/</guid>
+      <description>&lt;p&gt;Jak zrobić replikacje baz danych pomiędzy hostami ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak odczytać numer UUID partycji ?</title>
+      <link>https://techfreak.pl/jak-odczytac-numer-uuid-partycji/</link>
+      <pubDate>Tue, 13 Nov 2012 22:47:49 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-odczytac-numer-uuid-partycji/</guid>
+      <description>&lt;p&gt;Jak podejrzeć UUID partycji dysku przy pomocy blkid ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Iptables – dla stacji roboczej</title>
+      <link>https://techfreak.pl/iptables-dla-stacji-roboczej/</link>
+      <pubDate>Thu, 18 Oct 2012 11:26:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/iptables-dla-stacji-roboczej/</guid>
+      <description>&lt;p&gt;Jak stworzyć standardowe reguły firewalla na iptables dla stacji roboczej ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Operacje na swap</title>
+      <link>https://techfreak.pl/operacje-na-swap/</link>
+      <pubDate>Thu, 18 Oct 2012 11:01:23 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/operacje-na-swap/</guid>
+      <description>&lt;p&gt;Wyświetlanie wartości swappines – czym jest ona mniejsza tym system mniej korzysta ze swapa.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak sprawdzić dostępną/zajętą pamięć RAM ?</title>
+      <link>https://techfreak.pl/jak-sprawdzic-dostepnazajeta-pamiec-ram/</link>
+      <pubDate>Thu, 18 Oct 2012 10:55:37 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-sprawdzic-dostepnazajeta-pamiec-ram/</guid>
+      <description>&lt;p&gt;Sprawdzanie dostępnej/zajętej pamięci RAM&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>host – jak przeszukiwać DNS ?</title>
+      <link>https://techfreak.pl/narzedzia-dns-host/</link>
+      <pubDate>Thu, 18 Oct 2012 10:46:30 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/narzedzia-dns-host/</guid>
+      <description>&lt;p&gt;Jak przeszukiwać, sprawdzać DNS przy pomocy host ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zmienić prędkość karty sieciowej ? (miidiag)</title>
+      <link>https://techfreak.pl/jak-zmienic-predkosc-karty-sieciowej-miidiag/</link>
+      <pubDate>Thu, 18 Oct 2012 10:42:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zmienic-predkosc-karty-sieciowej-miidiag/</guid>
+      <description>&lt;p&gt;Jak zmienić prędkość karty sieciowej ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak używać netstat ?</title>
+      <link>https://techfreak.pl/jak-uzywac-netstat/</link>
+      <pubDate>Thu, 18 Oct 2012 10:39:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-uzywac-netstat/</guid>
+      <description>&lt;p&gt;Jak używać netstat aby sprawdzić otwarte porty?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>jak zmienić lub dodać nowy routing ?</title>
+      <link>https://techfreak.pl/jak-zmienic-lub-dodac-nowy-routing/</link>
+      <pubDate>Thu, 18 Oct 2012 10:37:31 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zmienic-lub-dodac-nowy-routing/</guid>
+      <description>&lt;p&gt;Jak posługiwać się routingiem ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Czyszczenie cache – czyli zwalnienie pamięci podręcznej</title>
+      <link>https://techfreak.pl/czyszczenie-cache-czyli-zwalnienie-pamieci-podrecznej/</link>
+      <pubDate>Thu, 18 Oct 2012 10:35:19 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/czyszczenie-cache-czyli-zwalnienie-pamieci-podrecznej/</guid>
+      <description>&lt;p&gt;Jak zwolnić pagecache, dentries, inodes ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalacja proxy na OpenWRT ( tinyproxy )</title>
+      <link>https://techfreak.pl/instalacja-proxy-na-openwrt-tinyproxy/</link>
+      <pubDate>Thu, 18 Oct 2012 10:32:27 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/instalacja-proxy-na-openwrt-tinyproxy/</guid>
+      <description>&lt;p&gt;Jak zainstalować i skonfigurować proxy na OpenWrt ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zrobić łatkę patch przy pomocy diff ?</title>
+      <link>https://techfreak.pl/jak-zrobic-latke-patch-przy-pomocy-diff/</link>
+      <pubDate>Thu, 18 Oct 2012 10:28:07 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zrobic-latke-patch-przy-pomocy-diff/</guid>
+      <description>&lt;p&gt;„Paczowanie” czyli jak zrobić łatkę przy pomocy diff.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Synchronizacja dwóch katalogów przy pomocy rsync</title>
+      <link>https://techfreak.pl/synchronizacja-dwoch-katalogow-przy-pomocy-rsync/</link>
+      <pubDate>Thu, 18 Oct 2012 10:06:13 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/synchronizacja-dwoch-katalogow-przy-pomocy-rsync/</guid>
+      <description>&lt;p&gt;Poniżej opis jak zrobić backup przy pomocy programu rsync. Poniższa komenda synchronizuje zawartość jednego katalogu do drugiego. Jeśli zawartość źródłowego zostanie zmieniona w docelowym zostaną skasowane wszystkie pliki których nie ma w źródłowym.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak udostępnić katalog w sambie ?</title>
+      <link>https://techfreak.pl/jak-udostepnic-katalog-w-sambie/</link>
+      <pubDate>Thu, 18 Oct 2012 09:56:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-udostepnic-katalog-w-sambie/</guid>
+      <description>&lt;p&gt;Jak udostępnić katalog ze swojego komputera przy pomocy samby ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wyświetlić zawartość certyfikatu ?</title>
+      <link>https://techfreak.pl/jak-wyswietlic-zawartosc-certyfikatu/</link>
+      <pubDate>Thu, 18 Oct 2012 09:50:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wyswietlic-zawartosc-certyfikatu/</guid>
+      <description>&lt;p&gt;Jak sprawdzić właściwości i wyświetlić zawartość certyfikatu np: ze strony z https ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>xbmc konfiguracja wifi</title>
+      <link>https://techfreak.pl/xbmc-konfiguracja-wifi/</link>
+      <pubDate>Thu, 18 Oct 2012 09:43:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/xbmc-konfiguracja-wifi/</guid>
+      <description>&lt;p&gt;Jak skonfigurować WiFi na XBMC ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DIG – program do wysłania zapytań do serwerów DNS</title>
+      <link>https://techfreak.pl/dig-program-do-manualnego-wysylania-zapytan-do-serwerow-dns/</link>
+      <pubDate>Mon, 08 Oct 2012 12:27:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/dig-program-do-manualnego-wysylania-zapytan-do-serwerow-dns/</guid>
+      <description>&lt;p&gt;Jak korzystać z programu dig? np. wyświetlać właściwości domeny? jak sprawdzić czas życia?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wejść na zdalną stronę poprzez tunel ssh ?</title>
+      <link>https://techfreak.pl/jak-wejsc-na-zdalna-strone-poprzez-tunel-ssh/</link>
+      <pubDate>Mon, 08 Oct 2012 12:24:42 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wejsc-na-zdalna-strone-poprzez-tunel-ssh/</guid>
+      <description>&lt;p&gt;Jak wykorzystać ssh do tunelowania? Jak wykorzystać ssh aby dostawać się do zasobów np. www na zdalnym hoście?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Zdalna synchronizacja katalogów poprzez rsync</title>
+      <link>https://techfreak.pl/zdalna-synchronizacja-katalogow-poprzez-rsync/</link>
+      <pubDate>Mon, 08 Oct 2012 12:15:50 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/zdalna-synchronizacja-katalogow-poprzez-rsync/</guid>
+      <description>&lt;p&gt;Poniżej opis jak zrobić zdalny backup, czyli np. jak synchronizować zdalnie dwa katalogi przy pomocy rsync.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak skopiować pliki przez ssh ? (csp)</title>
+      <link>https://techfreak.pl/jak-skopiowac-pliki-przez-ssh-csp/</link>
+      <pubDate>Mon, 08 Oct 2012 12:03:20 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skopiowac-pliki-przez-ssh-csp/</guid>
+      <description>&lt;p&gt;Jak kopiować pliki przez ssh przy pomocy scp ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Skrypt sprawdzający czy jest połączenie z hostem</title>
+      <link>https://techfreak.pl/skrypt-sprawdzajacy-czy-jest-polaczenie-z-hostem/</link>
+      <pubDate>Mon, 08 Oct 2012 11:52:49 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/skrypt-sprawdzajacy-czy-jest-polaczenie-z-hostem/</guid>
+      <description>&lt;p&gt;Jak napisać skrypt który sprawdza czy jest połączenie ze zdalnym hostem ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wyszukać wyraz w pliku ? (grep)</title>
+      <link>https://techfreak.pl/jak-wyszukac-wyraz-w-pliku-grep/</link>
+      <pubDate>Mon, 08 Oct 2012 11:17:10 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wyszukac-wyraz-w-pliku-grep/</guid>
+      <description>&lt;p&gt;Jak szukać fraz grepem w plikach ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wygenerować certyfikat ssl ?</title>
+      <link>https://techfreak.pl/jak-wygenerowac-certyfikat-ssl/</link>
+      <pubDate>Mon, 08 Oct 2012 10:52:14 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wygenerowac-certyfikat-ssl/</guid>
+      <description>&lt;p&gt;Jak wygenerować własny certyfikat ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja cron</title>
+      <link>https://techfreak.pl/konfiguracja-cron/</link>
+      <pubDate>Mon, 08 Oct 2012 09:47:07 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-cron/</guid>
+      <description>&lt;p&gt;Jak ustawić zadania cykliczne w cronie ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak sprawdzić czy strona www działa przy pomocy telnet ?</title>
+      <link>https://techfreak.pl/jak-sprawdzic-czy-strona-www-dziala-przy-pomocy-telnet/</link>
+      <pubDate>Mon, 08 Oct 2012 09:36:47 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-sprawdzic-czy-strona-www-dziala-przy-pomocy-telnet/</guid>
+      <description>&lt;p&gt;Jak sprawdzić czy strona www odpowiada lub czy port&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak sklonować dysk w VirtualBox ?</title>
+      <link>https://techfreak.pl/jak-skolonowac-dysk-w-virtualbox/</link>
+      <pubDate>Mon, 08 Oct 2012 09:34:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skolonowac-dysk-w-virtualbox/</guid>
+      <description>&lt;p&gt;Jak sklonować, zrobić lustrzana kopie dysku w VirtualBox ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zamienić linie przy pomocy sed ? (skrypt)</title>
+      <link>https://techfreak.pl/jak-zamienic-linie-przy-pomocy-sed-skrypt/</link>
+      <pubDate>Mon, 08 Oct 2012 07:35:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zamienic-linie-przy-pomocy-sed-skrypt/</guid>
+      <description>&lt;p&gt;Jak zamienić linie w pliku ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ssh – jak logować się bez hasła ?</title>
+      <link>https://techfreak.pl/ssh-jak-logowac-sie-bez-hasla/</link>
+      <pubDate>Mon, 08 Oct 2012 07:18:51 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ssh-jak-logowac-sie-bez-hasla/</guid>
+      <description>&lt;p&gt;Jak logować się poprzez ssh bez hasła ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wyświetlić informacje o procesorach ?</title>
+      <link>https://techfreak.pl/jak-wyswietlic-informacje-o-procesorach/</link>
+      <pubDate>Mon, 08 Oct 2012 07:10:03 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wyswietlic-informacje-o-procesorach/</guid>
+      <description>&lt;p&gt;Jak wyświetlać informacje o procesorach ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak ustawić dostęp do strony www na podstawie certyfikatu ?</title>
+      <link>https://techfreak.pl/jak-ustawic-dostep-do-strony-www-na-podstawie-certyfikatu/</link>
+      <pubDate>Mon, 08 Oct 2012 07:02:57 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-ustawic-dostep-do-strony-www-na-podstawie-certyfikatu/</guid>
+      <description>&lt;p&gt;Jak ustawić dostęp do strony www na podstawie certyfikatu ? (działa z Androidem)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Redhat – tworzenie skryptu init</title>
+      <link>https://techfreak.pl/redhat-tworzenie-skryptu-init/</link>
+      <pubDate>Sat, 06 Oct 2012 17:39:57 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/redhat-tworzenie-skryptu-init/</guid>
+      <description>&lt;p&gt;Poniżej wzór jak tworzyć skrypty startowe w systemie RedHat. Podświetlone line to komenda wykonująca /skrypt jak użytkownik user.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Redhat – przydatne polecenia</title>
+      <link>https://techfreak.pl/redhat-przydatne-polecenia/</link>
+      <pubDate>Sat, 06 Oct 2012 17:36:53 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/redhat-przydatne-polecenia/</guid>
+      <description>&lt;p&gt;Spis przydatnych poleceń dla systemy Redhat&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux jak odzyskać hasło root ?</title>
+      <link>https://techfreak.pl/linux-odzyskanie-hasla-root/</link>
+      <pubDate>Sat, 06 Oct 2012 17:34:19 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/linux-odzyskanie-hasla-root/</guid>
+      <description>&lt;p&gt;Jak odzyskać hasło na root w systemie linux ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL podstawy</title>
+      <link>https://techfreak.pl/postgresql-podstawy/</link>
+      <pubDate>Sat, 06 Oct 2012 17:27:56 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/postgresql-podstawy/</guid>
+      <description>&lt;p&gt;Spis podstawowych komend dla PostgreSQL&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MySql podstawy</title>
+      <link>https://techfreak.pl/mysql-podstawy/</link>
+      <pubDate>Sat, 06 Oct 2012 17:16:41 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/mysql-podstawy/</guid>
+      <description>&lt;p&gt;Spis podstawowych komend dla Mysql&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zmienić rozmiar partcji ext3 bez utraty danych ?</title>
+      <link>https://techfreak.pl/jak-zmienic-rozmiar-partcji-ext3-bez-utraty-danych/</link>
+      <pubDate>Sat, 06 Oct 2012 17:07:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zmienic-rozmiar-partcji-ext3-bez-utraty-danych/</guid>
+      <description>&lt;p&gt;Jak zmienić rozmiar partycji aby nie stracić danych ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zaszyfrować partycje przy pomocy LUKS ?</title>
+      <link>https://techfreak.pl/jak-zaszyfrowac-partycje-przy-pomocy-luks/</link>
+      <pubDate>Sat, 06 Oct 2012 15:07:26 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zaszyfrowac-partycje-przy-pomocy-luks/</guid>
+      <description>&lt;h2 id=&#34;jak-zaszyfrować-partycję-i-ustawić-hasło-przy-uruchomieniu-systemu-&#34;&gt;Jak zaszyfrować partycję i ustawić hasło przy uruchomieniu systemu ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak założyć limity na system plików ? (file system quotas)</title>
+      <link>https://techfreak.pl/jak-zalozyc-limity-na-system-plikow-file-system-quotas/</link>
+      <pubDate>Sat, 06 Oct 2012 14:52:29 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zalozyc-limity-na-system-plikow-file-system-quotas/</guid>
+      <description>&lt;h2 id=&#34;jak-ograniczyć-miejsce-dyskowe-dla-poszczególnych-użytkowników-&#34;&gt;Jak ograniczyć miejsce dyskowe dla poszczególnych użytkowników ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja LVM</title>
+      <link>https://techfreak.pl/konfiguracja-lvm/</link>
+      <pubDate>Sat, 06 Oct 2012 11:50:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-lvm/</guid>
+      <description>&lt;p&gt;Bardzo ciekawym i nie aż tak skomplikowanym tematem są LVM czyli &lt;strong&gt;Logical Volume Manager.&lt;/strong&gt; Jest to bardzo elastyczny mechanizm do zarządzania przestrzenią dyskową. Poniżej przedstawiam parę podstawowych komend którymi sam się posługuję.&lt;/p&gt;
+&lt;p&gt;Poniżej są też ćwiczenia z konkretnych przypadków&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;//techfreak.pl/konfiguracja-lvm#Zmniejszanie_dysku&#34;&gt;Zmniejszanie dysku&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;//techfreak.pl/konfiguracja-lvm#Rozszerzanie_dodawanie_nowego_dysku_do_wolumen_grupy&#34;&gt;Rozszerzanie dodawanie nowego dysku do wolumen grupy&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak odsyskać skasowane pliki ? (ext2, ext3, ext4)</title>
+      <link>https://techfreak.pl/jak-odsyskac-skasowane-pliki-ext2-ext3-ext4/</link>
+      <pubDate>Sat, 06 Oct 2012 11:39:12 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-odsyskac-skasowane-pliki-ext2-ext3-ext4/</guid>
+      <description>&lt;h2 id=&#34;jak-odzyskać-skasowane-pliki-np-zdjęcia-&#34;&gt;Jak odzyskać skasowane pliki np; zdjęcia ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Filesystem przydatne polecenia</title>
+      <link>https://techfreak.pl/filesystem-przydatne-polecenia/</link>
+      <pubDate>Sat, 06 Oct 2012 11:34:15 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/filesystem-przydatne-polecenia/</guid>
+      <description>&lt;h2 id=&#34;przydatne-polecenia-dla-systemu-plików&#34;&gt;Przydatne polecenia dla systemu plików&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak założyć hasło na grub?</title>
+      <link>https://techfreak.pl/259/</link>
+      <pubDate>Sat, 06 Oct 2012 10:27:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/259/</guid>
+      <description>&lt;h2 id=&#34;jak-założyć-hasło-na-bootloaderze-grub-&#34;&gt;Jak założyć hasło na bootloaderze grub ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Iptables – redirect portów, przekierowanie portów</title>
+      <link>https://techfreak.pl/iptables-redirect-portow-przekierowanie-portow/</link>
+      <pubDate>Sat, 06 Oct 2012 10:16:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/iptables-redirect-portow-przekierowanie-portow/</guid>
+      <description>&lt;p&gt;Jak ustawić przekierowanie portów na iptables ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak odzyskać hasło root w MySQL ?</title>
+      <link>https://techfreak.pl/jak-odzyskac-haslo-root-w-mysql/</link>
+      <pubDate>Fri, 05 Oct 2012 11:43:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-odzyskac-haslo-root-w-mysql/</guid>
+      <description>&lt;h2 id=&#34;jak-odzyskać-hasło-root-na-bazie-danych-mysql-&#34;&gt;Jak odzyskać hasło root na bazie danych Mysql ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>lftp – wgrywanie zmian lub nowych plikow na serwer ftp</title>
+      <link>https://techfreak.pl/lftp-wgrywanie-zmian-lub-nowych-plikow-na-serwer-ftp/</link>
+      <pubDate>Thu, 04 Oct 2012 07:15:26 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/lftp-wgrywanie-zmian-lub-nowych-plikow-na-serwer-ftp/</guid>
+      <description>&lt;p&gt;Potrzebowałem skryptu który wgra mi automatycznie zmiany które robie na stronie bez wgrywania wszystkiego za każdym razem przez ftp. Do tego nadaje się świetnie lftp. Jest to zaawansowany program to transferu plików. Do spełnienia mojego celu użyje lftp z opcją &lt;strong&gt;mirror&lt;/strong&gt;. Służy ona do uaktualniania katalogu zdalnego z lokalnym lub na odwrót. W przypdku kiedy musze wrzucić pliki na serwer fpt musze użyć opcji -R (reverse mirror (put files)).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Picocom – wysyłanie sms z modemu GSM</title>
+      <link>https://techfreak.pl/picocom-wysylanie-sms-z-modemu-gsm/</link>
+      <pubDate>Thu, 04 Oct 2012 06:57:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/picocom-wysylanie-sms-z-modemu-gsm/</guid>
+      <description>&lt;p&gt;Jak wysyłać sms z konsoli ? Posłuży do tego program picocom.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak włączyć proxy w RedHat dla repozytorium i jak korzystać z proxy ?</title>
+      <link>https://techfreak.pl/jak-wlaczyc-proxy-w-redhat-dla-repozytorium-i-jak-korzystac-z-proxy/</link>
+      <pubDate>Wed, 03 Oct 2012 20:57:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wlaczyc-proxy-w-redhat-dla-repozytorium-i-jak-korzystac-z-proxy/</guid>
+      <description>&lt;p&gt;Jak włączyć proxy dla systemu Redhat ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>pam_cracklib – wymuszanie bezpieczniejszego hasła</title>
+      <link>https://techfreak.pl/pam_cracklib-wymuszanie-bezpieczniejszego-hasla/</link>
+      <pubDate>Wed, 03 Oct 2012 20:31:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/pam_cracklib-wymuszanie-bezpieczniejszego-hasla/</guid>
+      <description>&lt;h2 id=&#34;jak-wymuszać-bezpieczne-hasło-w-linuksie-&#34;&gt;Jak wymuszać bezpieczne hasło w linuksie ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Netcat – przydatne zadania</title>
+      <link>https://techfreak.pl/netcat-przydatne-zadania/</link>
+      <pubDate>Wed, 03 Oct 2012 17:36:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/netcat-przydatne-zadania/</guid>
+      <description>&lt;h2 id=&#34;netcat-8211-lista-przydatnych-zadań&#34;&gt;Netcat – lista przydatnych zadań&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalacja certyfikatu thawte na serwerze poczty zimbra</title>
+      <link>https://techfreak.pl/instalacja-certyfikatu-thawte-na-serwerze-poczty-zimbra/</link>
+      <pubDate>Wed, 03 Oct 2012 10:55:33 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/instalacja-certyfikatu-thawte-na-serwerze-poczty-zimbra/</guid>
+      <description>&lt;h2 id=&#34;jak-zainstalować-certyfikat-na-zimbra-&#34;&gt;Jak zainstalować certyfikat na Zimbra ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak wykorzystać port com jako konsole ?</title>
+      <link>https://techfreak.pl/jak-wykorzystac-port-com-jako-konsole/</link>
+      <pubDate>Wed, 03 Oct 2012 10:46:21 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wykorzystac-port-com-jako-konsole/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jak wykonać speedtest połączenia internetowego z konsoli ?</title>
+      <link>https://techfreak.pl/jak-wykonac-speedtest-polaczenia-internetowego-z-konsoli/</link>
+      <pubDate>Wed, 03 Oct 2012 10:17:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wykonac-speedtest-polaczenia-internetowego-z-konsoli/</guid>
+      <description>&lt;p&gt;Jak wykonać test połączenie gdy mamy tylko konsole do dyspozycji ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Screen – manager terminali</title>
+      <link>https://techfreak.pl/screen-manager-terminali/</link>
+      <pubDate>Wed, 03 Oct 2012 07:05:46 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/screen-manager-terminali/</guid>
+      <description>&lt;h2 id=&#34;jak-nie-stracić-zadań-po-wyjściu-z-konsoli-&#34;&gt;Jak nie stracić zadań po wyjściu z konsoli ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak skonfigurować serwer OpenVpn na Ubuntu i łączyć się z Androida 4 (ICS&#43;)</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-serwer-openvpn-na-ubuntu-i-laczyc-sie-z-androida-4-ics/</link>
+      <pubDate>Wed, 03 Oct 2012 06:35:58 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-serwer-openvpn-na-ubuntu-i-laczyc-sie-z-androida-4-ics/</guid>
+      <description>&lt;p&gt;Opis instalacji serwera OpenVpn na Ubuntu i łączenie z Androida&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak skonfigurować server VNC na ubuntu z dostepem do menedzera logowania ?</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-server-vnc-na-ubuntu-z-dostepem-do-menedzera-logowania/</link>
+      <pubDate>Tue, 02 Oct 2012 17:41:04 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-server-vnc-na-ubuntu-z-dostepem-do-menedzera-logowania/</guid>
+      <description>&lt;p&gt;Jak skonfigurować VNC aby łączyć się do nie zalogowanego komputera np. po restarcie ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak sprawdzić ile godzin przepracował dysk twardy ?</title>
+      <link>https://techfreak.pl/jak-sprawdzic-ile-godzin-przepracowal-dysk-twardy/</link>
+      <pubDate>Tue, 02 Oct 2012 17:26:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-sprawdzic-ile-godzin-przepracowal-dysk-twardy/</guid>
+      <description>&lt;h2 id=&#34;jak-sprawdzić-ile-przepracowanych-godzin-ma-dysk-twardy--np-jak-sprawdzić-dysk-przed-zakupem-&#34;&gt;Jak sprawdzić ile przepracowanych godzin ma dysk twardy ? np: jak sprawdzić dysk przed zakupem ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak naprawić grub po awarii lub przeniesieniu na inny dysk ?</title>
+      <link>https://techfreak.pl/jak-naprawic-grub-po-awarii-lub-przeniesieniu-na-inny-dysk/</link>
+      <pubDate>Tue, 02 Oct 2012 17:05:35 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-naprawic-grub-po-awarii-lub-przeniesieniu-na-inny-dysk/</guid>
+      <description>&lt;h2 id=&#34;jak-naprawić-grub-po-awarii-&#34;&gt;Jak naprawić grub po awarii ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Karta wifi Intel wireless 3945ABG w trbie monitor mode dla aircrack_ng</title>
+      <link>https://techfreak.pl/karta-wifi-intel-wireless-3945abg-w-trbie-monitor-mode-dla-aircrack_ng/</link>
+      <pubDate>Tue, 10 Jan 2012 10:12:36 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/karta-wifi-intel-wireless-3945abg-w-trbie-monitor-mode-dla-aircrack_ng/</guid>
+      <description>&lt;h2 id=&#34;jak-uruchomić-kartę-wifi-intel-wireless-3945abg-w-trbie-monitor-mode&#34;&gt;Jak uruchomić kartę wifi Intel wireless 3945ABG w trbie monitor mode?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>statystyki wejść na stronę www przy pomocy awstats</title>
+      <link>https://techfreak.pl/statystyki-wejsc-na-strone-www-przy-pomocy-awstats/</link>
+      <pubDate>Tue, 10 Jan 2012 10:10:18 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/statystyki-wejsc-na-strone-www-przy-pomocy-awstats/</guid>
+      <description>&lt;h2 id=&#34;jak-włączyć-statystyki-wejść-na-stronę-awstats-&#34;&gt;Jak włączyć statystyki wejść na stronę AWstats ?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Skrypt uruchamiajacy karte pcmcia gtmax 3G driver:nozomi</title>
+      <link>https://techfreak.pl/skrypt-uruchamiajacy-karte-pcmcia-gtmax-3g-drivernozomi/</link>
+      <pubDate>Tue, 10 Jan 2012 10:07:48 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/skrypt-uruchamiajacy-karte-pcmcia-gtmax-3g-drivernozomi/</guid>
+      <description>&lt;p&gt;Skrypt uruchamiający kartę pcmcia gtmax 3G driver:nozomi&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OpenWrt – Serwer VPN na xl2tpd:</title>
+      <link>https://techfreak.pl/openwrt-serwer-vpn-na-xl2tpd/</link>
+      <pubDate>Tue, 10 Jan 2012 09:38:41 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/openwrt-serwer-vpn-na-xl2tpd/</guid>
+      <description>&lt;p&gt;Jak zainstalować i skonfigurować serwer VPN na OpenWrt ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Server Openvpn na CentOS &#43; klient – telefon z systemem android</title>
+      <link>https://techfreak.pl/server-openvpn-na-centos-klient-telefon-z-systemem-android/</link>
+      <pubDate>Tue, 10 Jan 2012 09:32:03 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/server-openvpn-na-centos-klient-telefon-z-systemem-android/</guid>
+      <description>&lt;p&gt;Jak skonfigurować serwer OpenVPN i Androida jako klienta ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ipsec/l2pt &#43; G1 HTC Dream czyli VPN na Androidzie.</title>
+      <link>https://techfreak.pl/ipsecl2pt-g1-htc-dream-czyli-vpn-na-androidzie/</link>
+      <pubDate>Tue, 10 Jan 2012 09:28:17 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ipsecl2pt-g1-htc-dream-czyli-vpn-na-androidzie/</guid>
+      <description>&lt;p&gt;Jak połączyć się z pierwszego telefonu z Androidem  do serwera VPN na Ipsec/l2tp ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak uruchomić internet (GPRS) poprzez bluetooth i telefon Nokia ?</title>
+      <link>https://techfreak.pl/uruchamiamy-internet-gprs-poprzez-bluetooth-i-telefon-noki/</link>
+      <pubDate>Tue, 10 Jan 2012 09:22:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/uruchamiamy-internet-gprs-poprzez-bluetooth-i-telefon-noki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IPsec VPN racoon site 2 site</title>
+      <link>https://techfreak.pl/ipsec-vpn-racoon-site-2-site/</link>
+      <pubDate>Tue, 10 Jan 2012 09:07:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/ipsec-vpn-racoon-site-2-site/</guid>
+      <description>&lt;p&gt;Połączenie VPN site to site po między hostem z systemem linuks z pakietem Racoon (ipsec) a Checkpoint NGX R65 (ipsec).&lt;br&gt;
+Poniższa konfiguracja racoon jest o tyle uniwersalna że może się łączyć z każdym innym urządzeniem obsługującym ipsec.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja karty gtmax 3G (driver:nozomi) w programie wvdialer</title>
+      <link>https://techfreak.pl/konfiguracja-karty-gtmax-3g-drivernozomi-w-programie-wvdialer/</link>
+      <pubDate>Tue, 10 Jan 2012 08:58:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-karty-gtmax-3g-drivernozomi-w-programie-wvdialer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jak połączyć telefon nokia do serwera VPN Strongswan</title>
+      <link>https://techfreak.pl/jak-polaczyc-telefon-nokia-do-serwera-vpn-strongswan/</link>
+      <pubDate>Tue, 10 Jan 2012 08:56:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-polaczyc-telefon-nokia-do-serwera-vpn-strongswan/</guid>
+      <description>&lt;p&gt;Jak stworzyć tunel VPN z telefonu firmy Nokia do serwera VPN Strongswan?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak podłączyć zewnetrzny gps poprzez bluetooth?</title>
+      <link>https://techfreak.pl/jak-podlaczyc-zewnetrzny-gps-poprzez-bluetooth/</link>
+      <pubDate>Tue, 10 Jan 2012 08:44:07 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-podlaczyc-zewnetrzny-gps-poprzez-bluetooth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jak podłączyć sluchawki z bluetooth?</title>
+      <link>https://techfreak.pl/jak-podlaczyc-sluchawki-z-bluetooth/</link>
+      <pubDate>Tue, 10 Jan 2012 08:42:02 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-podlaczyc-sluchawki-z-bluetooth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jak manipulować plikami ?</title>
+      <link>https://techfreak.pl/jak-manipulowac-plikami/</link>
+      <pubDate>Tue, 10 Jan 2012 08:39:28 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-manipulowac-plikami/</guid>
+      <description>&lt;p&gt;Spis programów do manipulowania plikami:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>hasło na stronę www przy pomocy htaccess</title>
+      <link>https://techfreak.pl/haslo-na-strone-www-przy-pomocy-htaccess/</link>
+      <pubDate>Tue, 10 Jan 2012 07:47:27 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/haslo-na-strone-www-przy-pomocy-htaccess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jak skonfigurować serwer OpenVpn na CentOS i podłączyć androida z OpenVpn Settings</title>
+      <link>https://techfreak.pl/jak-skonfigurowac-serwer-openvpn-na-centos-i-podlaczyc-androida-z-openvpn-settings/</link>
+      <pubDate>Tue, 10 Jan 2012 06:53:01 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-skonfigurowac-serwer-openvpn-na-centos-i-podlaczyc-androida-z-openvpn-settings/</guid>
+      <description>&lt;p&gt;Jak skonfigurować serwer OpenVPN i Androida jako klienta ?&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;&lt;br /&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja pilota firmy MEDION RC do sterowania XBMC.</title>
+      <link>https://techfreak.pl/konfiguracja-pilota-firmy-medion-rc-do-sterowania-xbmc/</link>
+      <pubDate>Mon, 09 Jan 2012 06:55:54 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/konfiguracja-pilota-firmy-medion-rc-do-sterowania-xbmc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jak wyświetlić informacje o posiadanej dystrybucji linux?</title>
+      <link>https://techfreak.pl/jak-wyswietlic-informacje-o-dystrybucji/</link>
+      <pubDate>Sun, 08 Jan 2012 23:24:10 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-wyswietlic-informacje-o-dystrybucji/</guid>
+      <description>lsb_release -a</description>
+    </item>
+    
+    <item>
+      <title>Skrypt łamiący WEP</title>
+      <link>https://techfreak.pl/skrypt-lamiacy-wep/</link>
+      <pubDate>Thu, 01 Dec 2011 23:35:00 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/skrypt-lamiacy-wep/</guid>
+      <description>&lt;p&gt;Skrypt pomagający złamać zabezpieczenie sieci wifi – WEP&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak zmienić mac karty sieciowej ?</title>
+      <link>https://techfreak.pl/jak-zmienic-mac-karty-sieciowej/</link>
+      <pubDate>Thu, 01 Dec 2011 23:29:28 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-zmienic-mac-karty-sieciowej/</guid>
+      <description>&lt;p&gt;Jak zmienić mac adres karty sieciowej?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Skrypt sterujacy wentylatorem w laptopach Lenovo</title>
+      <link>https://techfreak.pl/skrypt-sterujacy-wentylatorem-w-laptopach-lenovo/</link>
+      <pubDate>Tue, 01 Nov 2011 23:39:14 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/skrypt-sterujacy-wentylatorem-w-laptopach-lenovo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jak korzystać z sudo?</title>
+      <link>https://techfreak.pl/sudo/</link>
+      <pubDate>Fri, 14 Jan 2011 09:05:32 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/sudo/</guid>
+      <description>&lt;p&gt;sudo – pozwala na wykonywanie komend jako inny użytkownik lub jako super użytkownik.&lt;/p&gt;
+&lt;p&gt;gksudo – frontend dla sudo&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jak szukać plików ?</title>
+      <link>https://techfreak.pl/jak-szukac-plikow/</link>
+      <pubDate>Fri, 14 Jan 2011 09:05:31 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/jak-szukac-plikow/</guid>
+      <description>&lt;p&gt;Jak szukać plików  w systemie linux ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Budujemy własny firmware OpenWRT</title>
+      <link>https://techfreak.pl/budujemy-wlasny-firmware-openwrt/</link>
+      <pubDate>Fri, 14 Jan 2011 06:13:58 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/budujemy-wlasny-firmware-openwrt/</guid>
+      <description>&lt;p&gt;Jak zbudować własny firmware dla OpenWRT ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wyświetlanie Informacji o użytkownikach</title>
+      <link>https://techfreak.pl/informacje-o-uzytkownikach/</link>
+      <pubDate>Fri, 14 Jan 2011 05:58:09 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/informacje-o-uzytkownikach/</guid>
+      <description>&lt;p&gt;Przydatne polecenia wyświetlające informacje o użytkownikach w systemie linux&lt;/p&gt;
+&lt;pre class=&#34;lang:default decode:true &#34;&gt;logname
+whoami
+id
+who -l
+who -u
+users
+finger
+last
+history&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gentoo – WebDav</title>
+      <link>https://techfreak.pl/gentoo-webdav/</link>
+      <pubDate>Thu, 13 Jan 2011 23:01:51 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/gentoo-webdav/</guid>
+      <description>&lt;p&gt;Celem tego Howto jest pokazanie w jaki sposób skonfigurować na dystrybucji Gentoo serwer WebDav, który posłuży nam np. do wymiany&lt;br&gt;
+plików pomiędzy telefonem (Nokia e55) a komputerami. Komunikacja będzie szyfrowana z użyciem certyfikatów SSL .Serwer taki będzie dodatkowo ochroniony loginem i hasłem.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Iptables – dla routera – maskarada</title>
+      <link>https://techfreak.pl/iptables-dla-routera-maskarada/</link>
+      <pubDate>Sat, 01 Jan 2011 22:51:39 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/iptables-dla-routera-maskarada/</guid>
+      <description>&lt;p&gt;Regułki iptables dla routera z dynamicznym adresem IP (maskarada) lub statycznym SNAT&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

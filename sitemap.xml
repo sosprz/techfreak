@@ -8,6 +8,16 @@
   </url>
   
   <url>
+    <loc>https://techfreak.pl/categories/</loc>
+    <lastmod>2020-04-30T19:29:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techfreak.pl/categories/elektronika/</loc>
+    <lastmod>2020-04-30T19:29:06+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techfreak.pl/tags/nettemp/</loc>
     <lastmod>2020-04-30T19:29:06+00:00</lastmod>
   </url>
@@ -48,6 +58,11 @@
   </url>
   
   <url>
+    <loc>https://techfreak.pl/categories/bez-kategorii/</loc>
+    <lastmod>2019-03-17T11:06:19+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techfreak.pl/tags/laser/</loc>
     <lastmod>2019-03-17T11:06:19+00:00</lastmod>
   </url>
@@ -64,6 +79,11 @@
   
   <url>
     <loc>https://techfreak.pl/tags/devlidesign/</loc>
+    <lastmod>2018-12-19T13:18:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techfreak.pl/categories/drukarki-3d/</loc>
     <lastmod>2018-12-19T13:18:15+00:00</lastmod>
   </url>
   
@@ -123,6 +143,11 @@
   </url>
   
   <url>
+    <loc>https://techfreak.pl/categories/drony/</loc>
+    <lastmod>2018-10-07T13:26:23+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techfreak.pl/tags/fatshark/</loc>
     <lastmod>2018-10-07T13:26:23+00:00</lastmod>
   </url>
@@ -143,6 +168,11 @@
   </url>
   
   <url>
+    <loc>https://techfreak.pl/categories/linux/</loc>
+    <lastmod>2018-10-06T19:19:06+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techfreak.pl/tags/raspberry-pi/</loc>
     <lastmod>2018-10-06T19:19:06+00:00</lastmod>
   </url>
@@ -155,6 +185,11 @@
   <url>
     <loc>https://techfreak.pl/tags/drukarka-3d/</loc>
     <lastmod>2018-08-26T19:48:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techfreak.pl/categories/inne/</loc>
+    <lastmod>2018-08-25T04:24:35+00:00</lastmod>
   </url>
   
   <url>
@@ -289,6 +324,11 @@
   
   <url>
     <loc>https://techfreak.pl/tags/mikrotik/</loc>
+    <lastmod>2018-05-12T08:43:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techfreak.pl/categories/network/</loc>
     <lastmod>2018-05-12T08:43:18+00:00</lastmod>
   </url>
   
@@ -784,6 +824,11 @@
   
   <url>
     <loc>https://techfreak.pl/wakacyjny-konkurs-dla-posiadaczy-urzadzen-firmy-tech-wygraj-iphonea-lub-tablet-lenovo/</loc>
+    <lastmod>2016-08-08T18:22:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techfreak.pl/categories/wpis-sponsorowany/</loc>
     <lastmod>2016-08-08T18:22:09+00:00</lastmod>
   </url>
   
