@@ -73,7 +73,7 @@
       
       <guid>https://techfreak.pl/legoduino-czyli-klocki-lego-z-arduino-dla-doroslych/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Legoduino&lt;/strong&gt; to kolejny fajny projekt bazujący na Arduino, stworzony dla dzieciaków przez rodzica elektronika. W zasadzie można było by się zastanawiać kto miał lub będzie miał większą frajdę z efektów końcowych ale oficjalnie został on stworzony dla syna.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4011&#34; alt=&#34;LegoDuino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34; width=&#34;291&#34; height=&#34;368&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg 291w, http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino-237x300.jpg 237w&#34; sizes=&#34;(max-width: 291px) 100vw, 291px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4011&#34; alt=&#34;LegoDuino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34; width=&#34;291&#34; height=&#34;368&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Szara kostka z klocków lego z elektroniką w środku to własnie &lt;strong&gt;Legoduino&lt;/strong&gt;. Do środka został upchnięty układ ATMega328, i &lt;strong&gt;nRF24L01+&lt;/strong&gt; (bezprzewodowa komunikacja 2.4Ghz).&lt;/p&gt;</description>
     </item>
@@ -94,7 +94,7 @@
       
       <guid>https://techfreak.pl/frezarka-zrobiona-z-lego/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/frezarka-zrobiona-z-lego/lego_frezarka_642_362_force/&#34; rel=&#34;attachment wp-att-1323&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1323&#34; alt=&#34;Lego_frezarka_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/Lego_frezarka_642_362_force.jpg&#34; width=&#34;270&#34; height=&#34;152&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/Lego_frezarka_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/Lego_frezarka_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 270px) 100vw, 270px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/frezarka-zrobiona-z-lego/lego_frezarka_642_362_force/&#34; rel=&#34;attachment wp-att-1323&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1323&#34; alt=&#34;Lego_frezarka_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/Lego_frezarka_642_362_force.jpg&#34; width=&#34;270&#34; height=&#34;152&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Wiadomo że z lego można zbudować wszystko, ogranicza nas tylko wyobraźnia no i dziecko jak zabierze nam wszystkie klocki ;(&lt;/p&gt;</description>
     </item>

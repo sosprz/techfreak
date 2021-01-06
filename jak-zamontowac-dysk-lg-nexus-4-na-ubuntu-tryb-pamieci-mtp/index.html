@@ -113,7 +113,7 @@ if (!doNotTrack) {
         <div class="post-content clearfix" itemprop="articleBody">
     
 
-    <p><a href="http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg"><img class="aligncenter size-full wp-image-2730" alt="lg_nexus_4_ubuntu_techfreakpl" src="http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg" width="546" height="362" srcset="http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg 546w, http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl-300x198.jpg 300w" sizes="(max-width: 546px) 100vw, 546px" /></a></p>
+    <p><a href="http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg"><img class="aligncenter size-full wp-image-2730" alt="lg_nexus_4_ubuntu_techfreakpl" src="http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg" width="546" height="362" /></a></p>
 <p>Aby dostać się do dysku telefonu LG Nexus 4 z Andoridem 4.2.2 w Ubuntu 12.10 (quantal) trzeba zainstalować deweloperską wersje Gvfs i libmtp. Bo niestety domyślnie system nie rozpoznaje telefonu.</p>
 <h3 id="heading"></h3>
 <p>Dodanie repozytorium ppa</p>
@@ -122,7 +122,7 @@ sudo apt-get update</pre>
 <h3 id="jak-połączyć-się-z-lg-nexus-4-na-ubuntu">Jak połączyć się z LG Nexus 4 na Ubuntu?</h3>
 <p>Gdy już gvfs jest załatwiony trzeba zainstalować jakiegoś klienta do komunikacji. Ja znalazłem gMTP i sprawuje się całkiem sprawnie.</p>
 <pre>sudo aptitude install gmtp</pre>
-<h3 id="img-classaligncenter-size-full-wp-image-2724-altubuntu_lg_nexus_4-srchttptechfreakplwp-contentuploads201304ubuntu_lg_nexus_4jpg-width641-height362-srcsethttptechfreakplwp-contentuploads201304ubuntu_lg_nexus_4jpg-641w-httptechfreakplwp-contentuploads201304ubuntu_lg_nexus_4-300x169jpg-300w-sizesmax-width-641px-100vw-641px-2"><a href="http://techfreak.pl/wp-content/uploads/2013/04/ubuntu_lg_nexus_4.jpg"><img class="aligncenter size-full wp-image-2724" alt="ubuntu_lg_nexus_4" src="http://techfreak.pl/wp-content/uploads/2013/04/ubuntu_lg_nexus_4.jpg" width="641" height="362" srcset="http://techfreak.pl/wp-content/uploads/2013/04/ubuntu_lg_nexus_4.jpg 641w, http://techfreak.pl/wp-content/uploads/2013/04/ubuntu_lg_nexus_4-300x169.jpg 300w" sizes="(max-width: 641px) 100vw, 641px" /></a></h3>
+<h3 id="img-classaligncenter-size-full-wp-image-2724-altubuntu_lg_nexus_4-srchttptechfreakplwp-contentuploads201304ubuntu_lg_nexus_4jpg-width641-height362-2"><a href="http://techfreak.pl/wp-content/uploads/2013/04/ubuntu_lg_nexus_4.jpg"><img class="aligncenter size-full wp-image-2724" alt="ubuntu_lg_nexus_4" src="http://techfreak.pl/wp-content/uploads/2013/04/ubuntu_lg_nexus_4.jpg" width="641" height="362" /></a></h3>
 <h3 id="cofanie-zmian-czyli-usunięcie-developerskiej-wersji-gvfs-i-powrót-do-oryginalnej">Cofanie zmian czyli usunięcie developerskiej wersji gvfs i powrót do oryginalnej</h3>
 <pre>sudo aptitude install ppa-purge
 sudo ppa-purge ppa:langdalepl/gvfs-mtp</pre>

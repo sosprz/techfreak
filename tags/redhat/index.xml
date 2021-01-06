@@ -46,7 +46,7 @@
       
       <guid>https://techfreak.pl/jak-skonfigurowac-serwer-rsyslog-interfejs-www-na-redhat-6/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2551&#34; alt=&#34;loganalyzer_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2551&#34; alt=&#34;loganalyzer_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Każdy admin prędzej czy później spotyka się z taką sytuacja że potrzebuje mieć serwer sysloga który będzie zbierał logi ze wszystkich urządzeń w sieci. Generalnie z różnych powodów a może być ich wiele nie ma co wnikać, można robić to też dla fanu ;)&lt;/p&gt;
 &lt;p&gt;Ja robię to z potrzeby i mam nadzieje że komuś się przyda chociaż można powiedzieć też RTFM :)&lt;/p&gt;</description>

@@ -393,7 +393,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       
       <guid>https://techfreak.pl/utilite-kolejny-mini-komputer-do-niczego-mi-potrzebny/</guid>
       <description>&lt;p&gt;Parę dni temu CompuLab zaprezentował Utilite, mini komputer bazujący na procesorze single, dual lub quad-core ARM Cortex-A9, z opcja do 4GB RAM’u i podwójnym wyjściem obrazu dual-head 1080p. Jak dla mnie całkiem fajna opcja z obudową i dwoma portami ethernet. Mini komputery to kierunek w którym wszyscy zmierzają a jednak większość komentarzy jakie czytam pod wpisami z tej kategorii to „po co mi takie coś, małe i nie wydajne”, „takie Raspberry Pi to dla geeków”. Wydajność na pewno jest niższa niż w porównaniu z lapem lub komputerem stacjonarnym ale czy to jest taki minus? Czy przypadkiem po przeliczeniu plusów i minusów rzeczywiście nie opłaca się kupić takiego mini sprzętu za 300 zł?&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4196&#34; alt=&#34;Utilitie-isometry&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry.jpg&#34; width=&#34;1600&#34; height=&#34;900&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry.jpg 1600w, http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry-300x168.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1600px) 100vw, 1600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4196&#34; alt=&#34;Utilitie-isometry&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry.jpg&#34; width=&#34;1600&#34; height=&#34;900&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -412,7 +412,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       
       <guid>https://techfreak.pl/plyta-glowna-mini-itx-dla-raspberry-pi/</guid>
       <description>&lt;p&gt;Tym razem możecie zobaczyć całkiem nowy projekt płyty głównej Mini-ITX dla raspberry Pi który pojawił się na &lt;a href=&#34;kickstarter.com&#34; target=&#34;_blank&#34;&gt;kickstarter.com&lt;/a&gt;. W zasadzie jest to płyta rozszerzeń która zawiera w sobie &lt;strong&gt;hub usb&lt;/strong&gt;, wejśćie &lt;strong&gt;serial port RS232&lt;/strong&gt;, wbudowane sterowanie poprzez &lt;strong&gt;IR&lt;/strong&gt;, zasilanie 3.3V, 5V i 12V, &lt;strong&gt;RTC&lt;/strong&gt; (Real-Time Clock), wbudowany &lt;strong&gt;sensor temperatury&lt;/strong&gt; do sterowania wentylatorem. Na samym końcu listy znajduje się miejsce na &lt;strong&gt;dysk 2.5 cala&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-3943&#34; alt=&#34;raspberry_pi_motherboard_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-3943&#34; alt=&#34;raspberry_pi_motherboard_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -448,7 +448,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       <pubDate>Wed, 15 May 2013 06:34:55 +0000</pubDate>
       
       <guid>https://techfreak.pl/raspberry-pi-zawiesza-sie-zrob-automatyczny-restart/</guid>
-      <description>&lt;h4 id=&#34;img-classaligncenter--wp-image-3220-altnettemp_gpio-srchttptechfreakplwp-contentuploads201301nettemp_gpiojpg-width600-height450-srcsethttptechfreakplwp-contentuploads201301nettemp_gpiojpg-1000w-httptechfreakplwp-contentuploads201301nettemp_gpio-300x225jpg-300w-sizesmax-width-600px-100vw-600px-1&#34;&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-3220&#34; alt=&#34;nettemp_GPIO&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg&#34; width=&#34;600&#34; height=&#34;450&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO-300x225.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/h4&gt;
+      <description>&lt;h4 id=&#34;img-classaligncenter--wp-image-3220-altnettemp_gpio-srchttptechfreakplwp-contentuploads201301nettemp_gpiojpg-width600-height450-1&#34;&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-3220&#34; alt=&#34;nettemp_GPIO&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg&#34; width=&#34;600&#34; height=&#34;450&#34; /&gt;&lt;/a&gt;&lt;/h4&gt;
 &lt;h4 id=&#34;raspberry-pi-zawiesza-się--czasem8230&#34;&gt;Raspberry Pi zawiesza się ?! Czasem…&lt;/h4&gt;
 &lt;p&gt;Czasem może zaistnieć taka sytuacja że pracujemy zdalnie na Raspberry PI i puścimy coś co spowoduje zawieszenie. Co zrobić aby RPi samo zrestartowało się w takiej sytuacji ?&lt;/p&gt;</description>
     </item>
@@ -469,7 +469,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       
       <guid>https://techfreak.pl/mega-platforma-udoo/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2819&#34; alt=&#34;udoo_rpi_arduino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34; width=&#34;385&#34; height=&#34;190&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino-300x148.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2819&#34; alt=&#34;udoo_rpi_arduino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34; width=&#34;385&#34; height=&#34;190&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Prędzej czy później ktoś musiał wpaść na pomysł połączenia Raspberry Pi i platformy Arduino i tak powstał całkiem fajny i wydajny mini komputer UDOO.&lt;/p&gt;</description>
     </item>
@@ -481,7 +481,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       
       <guid>https://techfreak.pl/raspberry-pi-chyba-jeszcze-nie-plywalo-ziphius-wodny-dron/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2454&#34; alt=&#34;aquatic_drone_ziphius_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2454&#34; alt=&#34;aquatic_drone_ziphius_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Już niedługo na Kickstarter ma pojawić się wodny dron o nazwie Ziphius. Jest to bez załogowy, zdalnie sterowany, wodny robot z Raspberry Pi i kamerą na pokładzie. Sterowany poprzez tablet z WiFi. Zadebiutował w ten weekend na &lt;a href=&#34;http://www.engadget.com/expand/agenda//&#34; target=&#34;_blank&#34;&gt;engadget expand&lt;/a&gt; w San Francisco.&lt;/p&gt;</description>
     </item>
@@ -501,7 +501,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       <pubDate>Mon, 25 Feb 2013 07:39:45 +0000</pubDate>
       
       <guid>https://techfreak.pl/multi-bootloader-dla-raspbery-pi-berryboot/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2184&#34; alt=&#34;berryboot_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2184&#34; alt=&#34;berryboot_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Takiego czegoś brakowało Raspberry Pi, multibootloadera który nie tylko uruchomi wiele różnych dystrybucji ale też zainstaluje wybraną pobierając pliki z internetu.&lt;/p&gt;</description>
     </item>
     
@@ -520,7 +520,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       <pubDate>Tue, 01 Jan 2013 20:53:56 +0000</pubDate>
       
       <guid>https://techfreak.pl/raspberry-pi-jako-access-point/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/raspberry-pi-jako-access-point/edimax-pi3_642_362_force/&#34; rel=&#34;attachment wp-att-689&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-689&#34; alt=&#34;edimax-pi3_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/raspberry-pi-jako-access-point/edimax-pi3_642_362_force/&#34; rel=&#34;attachment wp-att-689&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-689&#34; alt=&#34;edimax-pi3_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Witam w nowym roku i już atakuje fajnymi projektami. Sam mam Raspberry pi i tworzę w wolnej chwili swój projekt &lt;a href=&#34;http://nettemp.pl&#34; target=&#34;_blank&#34;&gt;pomiaru temperatury&lt;/a&gt; co za tym idzie ciekawią mnie różne pomysły innych freaków. Ostatnio na oficjalnej stronie raspberry pi pisano o &lt;a href=&#34;http://www.pi-point.co.uk/&#34; target=&#34;_blank&#34;&gt;Pi-Point&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
@@ -539,7 +539,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       <pubDate>Wed, 12 Dec 2012 07:18:25 +0000</pubDate>
       
       <guid>https://techfreak.pl/jak-ozywic-starego-game-boy-advance/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/jak-ozywic-starego-game-boy-advance/building-a-tiny-arcade-cabinet/&#34; rel=&#34;attachment wp-att-217&#34;&gt;&lt;img class=&#34;size-full wp-image-217 aligncenter&#34; alt=&#34;building-a-tiny-arcade-cabinet&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet.jpg&#34; width=&#34;303&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet.jpg 303w, http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet-251x300.jpg 251w&#34; sizes=&#34;(max-width: 303px) 100vw, 303px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/jak-ozywic-starego-game-boy-advance/building-a-tiny-arcade-cabinet/&#34; rel=&#34;attachment wp-att-217&#34;&gt;&lt;img class=&#34;size-full wp-image-217 aligncenter&#34; alt=&#34;building-a-tiny-arcade-cabinet&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet.jpg&#34; width=&#34;303&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Mogę się założyć że ta przeróbka Gameboy’a powstała nie dlatego że autor chciał kiedyś mieć takiego i go nie dostał, ani dlatego że teraz na starość odbija sobie dzieciństwo tylko dlatego że nudziło mu się na maxa. haha. Trzeba przyznać ze z nudów wychodzą naprawdę pięknie wyglądające rzeczy.&lt;/p&gt;</description>
     </item>
     
@@ -549,7 +549,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       <pubDate>Tue, 11 Dec 2012 13:15:01 +0000</pubDate>
       
       <guid>https://techfreak.pl/raspberry-pi-jako-radio/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-208 aligncenter&#34; title=&#34;raspberry_pi_radio&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio.jpg&#34; width=&#34;621&#34; height=&#34;342&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio.jpg 621w, http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio-300x165.jpg 300w&#34; sizes=&#34;(max-width: 621px) 100vw, 621px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-208 aligncenter&#34; title=&#34;raspberry_pi_radio&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio.jpg&#34; width=&#34;621&#34; height=&#34;342&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Raspberry Pi jako radio bez żadnych dodatkowych układów elektronicznych ? Tak ale raczej jako rozgłośnia radiowa niż odbiornik. Jedyny &lt;strong&gt;hardware&lt;/strong&gt; jaki do tego jest potrzebny to 20 cm przewód który zapewnia zasięg do 100 metrów.&lt;/p&gt;</description>
     </item>
     

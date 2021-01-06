@@ -111,26 +111,26 @@ if (!doNotTrack) {
 
     <p>Ja na swoim xubuntu używam przeglądarki Chromium. Do niedawna cieszyłem się tym, że wszystko działa i nie muszę się o nic martwić. Od jakiegoś czasu po kolei, powoli przestają działać mi niektóre funkcje. Miarka się przebrała. Poniżej pokaże jak naprawić Chromium który nie możne wyświetlić… niczego.</p>
 <p>Przestał działać Youtube. Komunikat „Nie można wyświetlić tego filmu” czy coś w tym stylu. Doprowadzał mnie do czerwoności a tym bardziej że w Firefoxie wszystko działa. Następnie, Vimeo pokazało mi komunikat „Ouch! This video can’t be played with Your current setup”.</p>
-<p><a href="http://techfreak.pl/wp-content/uploads/2014/01/vimeo_error.jpg"><img class="aligncenter size-full wp-image-5758" alt="vimeo_error" src="http://techfreak.pl/wp-content/uploads/2014/01/vimeo_error.jpg" width="1068" height="594" srcset="http://techfreak.pl/wp-content/uploads/2014/01/vimeo_error.jpg 1068w, http://techfreak.pl/wp-content/uploads/2014/01/vimeo_error-300x166.jpg 300w, http://techfreak.pl/wp-content/uploads/2014/01/vimeo_error-1024x569.jpg 1024w" sizes="(max-width: 1068px) 100vw, 1068px" /></a></p>
+<p><a href="http://techfreak.pl/wp-content/uploads/2014/01/vimeo_error.jpg"><img class="aligncenter size-full wp-image-5758" alt="vimeo_error" src="http://techfreak.pl/wp-content/uploads/2014/01/vimeo_error.jpg" width="1068" height="594" /></a></p>
 <p>Mało tego, przestały działać aplikacje webowe jak <a href="http://www.thingiverse.com/thing:228098" target="_blank">Thingiverse customizer</a>.</p>
 <p>Pogrzebałem trochę w necie i znalazłem rozwiązania.</p>
 <p>Na początek vimeo. Trzeba tylko zainstalować dodatkowe kodeki.</p>
 <pre>sudo apt-get  install chromium-codecs-ffmpeg-extra</pre>
 <p>Co do YT i reszty. Na początek trzeba zobaczyć czy po wklepaniu <a href="chrome://gpu/">chrome://gpu/</a> mamy coś takiego jak poniżej:</p>
 <p style="text-align: center;">
-  <a href="http://techfreak.pl/wp-content/uploads/2014/01/chrome_graphic_feature_status.jpg"><img class=" wp-image-5759 aligncenter" alt="chrome graphic feature status" src="http://techfreak.pl/wp-content/uploads/2014/01/chrome_graphic_feature_status.jpg" width="678" height="261" srcset="http://techfreak.pl/wp-content/uploads/2014/01/chrome_graphic_feature_status.jpg 678w, http://techfreak.pl/wp-content/uploads/2014/01/chrome_graphic_feature_status-300x115.jpg 300w" sizes="(max-width: 678px) 100vw, 678px" /></a>
+  <a href="http://techfreak.pl/wp-content/uploads/2014/01/chrome_graphic_feature_status.jpg"><img class=" wp-image-5759 aligncenter" alt="chrome graphic feature status" src="http://techfreak.pl/wp-content/uploads/2014/01/chrome_graphic_feature_status.jpg" width="678" height="261" /></a>
 </p>
 <p style="text-align: left;">
   Jeśli tak, trzeba to zmienić wchodząc do <a href="chrome://flags/">chrome://flags/</a>, szukając linii z <strong>Override software rendering list </strong>kliknąć<strong> ENABLE. </strong>Poniżej jak to ma wyglądać.<strong><br /> </strong>
 </p>
 <p style="text-align: left;">
-  <a href="http://techfreak.pl/wp-content/uploads/2014/01/chrome_graphic_feature_status_ok.jpg"><img class="aligncenter size-full wp-image-5761" alt="chrome_graphic_feature_status_ok" src="http://techfreak.pl/wp-content/uploads/2014/01/chrome_graphic_feature_status_ok.jpg" width="504" height="264" srcset="http://techfreak.pl/wp-content/uploads/2014/01/chrome_graphic_feature_status_ok.jpg 504w, http://techfreak.pl/wp-content/uploads/2014/01/chrome_graphic_feature_status_ok-300x157.jpg 300w" sizes="(max-width: 504px) 100vw, 504px" /></a>
+  <a href="http://techfreak.pl/wp-content/uploads/2014/01/chrome_graphic_feature_status_ok.jpg"><img class="aligncenter size-full wp-image-5761" alt="chrome_graphic_feature_status_ok" src="http://techfreak.pl/wp-content/uploads/2014/01/chrome_graphic_feature_status_ok.jpg" width="504" height="264" /></a>
 </p>
 <p style="text-align: left;">
   Została jeszcze jedna rzecz do <strong>odznaczenia &#8222;</strong>Block third-party cookies and site data<strong>&#8222;.</strong>
 </p>
 <p style="text-align: left;">
-  <a href="http://techfreak.pl/wp-content/uploads/2014/01/chrome_current_settings_block_third_party_cookies.jpg"><img class="aligncenter size-full wp-image-5762" alt="chrome_current_settings_block_third_party_cookies" src="http://techfreak.pl/wp-content/uploads/2014/01/chrome_current_settings_block_third_party_cookies.jpg" width="648" height="570" srcset="http://techfreak.pl/wp-content/uploads/2014/01/chrome_current_settings_block_third_party_cookies.jpg 648w, http://techfreak.pl/wp-content/uploads/2014/01/chrome_current_settings_block_third_party_cookies-300x263.jpg 300w" sizes="(max-width: 648px) 100vw, 648px" /></a>
+  <a href="http://techfreak.pl/wp-content/uploads/2014/01/chrome_current_settings_block_third_party_cookies.jpg"><img class="aligncenter size-full wp-image-5762" alt="chrome_current_settings_block_third_party_cookies" src="http://techfreak.pl/wp-content/uploads/2014/01/chrome_current_settings_block_third_party_cookies.jpg" width="648" height="570" /></a>
 </p>
 <p style="text-align: left;">
   Po tych zabiegach odzyskałem wszystkie wyżej wymienione braki. Mam nadzieje że nie tylko ja.

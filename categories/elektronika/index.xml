@@ -19,7 +19,7 @@
       
       <guid>https://techfreak.pl/aktualizacja-nettemp-do-wersji-5/</guid>
       <description>W najnowszej wersji nettemp parę istotnych zmian.
-Najnowsza wersja nettemp z jednej strony została odświeżona i przyniosła parę dobrych zmian z drugiej zabrała parę funkcji. Przede wszystkim nowa wersja została całkowicie przepisana z PHP do pythona co znacznie ja zoptymalizowało i sprawiło że nettemp jest znacznie łatwiejszy do modyfikacji i rozwoju co w poprzedniej wersji przy tylu funkcjach było znacznie utrudnione. Nettemp 5 został oparty o framework flask (python) i MariaDB jako główna baza i sqlite3 jako baza dla odczytów z czujników.</description>
+ Najnowsza wersja nettemp z jednej strony została odświeżona i przyniosła parę dobrych zmian z drugiej zabrała parę funkcji. Przede wszystkim nowa wersja została całkowicie przepisana z PHP do pythona co znacznie ja zoptymalizowało i sprawiło że nettemp jest znacznie łatwiejszy do modyfikacji i rozwoju co w poprzedniej wersji przy tylu funkcjach było znacznie utrudnione.    Nettemp 5 został oparty o framework flask (python) i MariaDB jako główna baza i sqlite3 jako baza dla odczytów z czujników.</description>
     </item>
     
     <item>
@@ -577,7 +577,7 @@ Patrząc na nowy model spod znaku ZTE, zauważamy, że doskonale to rozumieją.&
       
       <guid>https://techfreak.pl/kajsa-case-protector-poprawic-perfekcje/</guid>
       <description>&lt;p&gt;Pojawienie się na rynku iPhone 6 wywołało wiele komentarzy dotyczących kierunku rozwoju firmy. Jednak w świecie nadgryzionego jabłka więcej komentarzy dotyczy designu, jakości materiałów niż tego, jaki procesor i pozostałe układy zostały zamontowane w urządzeniu. Dzieje się tak, ponieważ Apple przyzwyczaiło nas do płynności pracy swoich urządzeń. Niemniej jednak chciałbym przedstawić Wam etui dedykowane dla iPhone 6, które może poprawić i tak bardzo dobry wygląd.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2015/08/techfreak_kajsa_001.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-10173&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2015/08/techfreak_kajsa_001.jpg&#34; alt=&#34;techfreak_kajsa_001&#34; width=&#34;700&#34; height=&#34;442&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2015/08/techfreak_kajsa_001.jpg 700w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_kajsa_001-317x200.jpg 317w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_kajsa_001-300x189.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/08/techfreak_kajsa_001-624x394.jpg 624w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2015/08/techfreak_kajsa_001.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-10173&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2015/08/techfreak_kajsa_001.jpg&#34; alt=&#34;techfreak_kajsa_001&#34; width=&#34;700&#34; height=&#34;442&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -793,9 +793,9 @@ Patrząc na nowy model spod znaku ZTE, zauważamy, że doskonale to rozumieją.&
       <pubDate>Sat, 09 May 2015 16:09:18 +0000</pubDate>
       
       <guid>https://techfreak.pl/c-h-i-p-mini-komputer-za-32zl/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/c-h-i-p-mini-komputer-za-32zl/chip_mini_computer/&#34; rel=&#34;attachment wp-att-9479&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-9479&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer.jpg&#34; alt=&#34;chip_mini_computer&#34; width=&#34;700&#34; height=&#34;252&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer.jpg 700w, http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer-556x200.jpg 556w, http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer-300x108.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer-624x225.jpg 624w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/c-h-i-p-mini-komputer-za-32zl/chip_mini_computer/&#34; rel=&#34;attachment wp-att-9479&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-9479&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer.jpg&#34; alt=&#34;chip_mini_computer&#34; width=&#34;700&#34; height=&#34;252&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;No to mamy kolejny mini komputerek który może z powodzeniem konkurować z Raspberry Pi. C.H.I.P to całkiem mała płytka na platformie Alliwner A13 z procesorem 1Ghz, pamięcią 512M DDR3 i 4G nand flash, WiFi b/g/n + bluetooh 4.0 za 9 dolców. Wymiary to 60x40mm, co prawda wyjście VGA lub HDMI wymaga dodatkowej płyty, to S-Video jest na podstawowej płycie. Oprócz tego, mamy do dyspozycji jeden interfejs USB i port ładowania baterii 1S. Na wyprowadzonych pinach skorzystać można z UART, ISP, i2C, 8x GPIO.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/c-h-i-p-mini-komputer-za-32zl/chip_mini_computer_2/&#34; rel=&#34;attachment wp-att-9480&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-9480&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer_2.jpg&#34; alt=&#34;chip_mini_computer_2&#34; width=&#34;700&#34; height=&#34;138&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer_2.jpg 700w, http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer_2-600x118.jpg 600w, http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer_2-300x59.jpg 300w, http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer_2-624x123.jpg 624w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/c-h-i-p-mini-komputer-za-32zl/chip_mini_computer_2/&#34; rel=&#34;attachment wp-att-9480&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-9480&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2015/05/chip_mini_computer_2.jpg&#34; alt=&#34;chip_mini_computer_2&#34; width=&#34;700&#34; height=&#34;138&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1277,7 +1277,7 @@ Patrząc na nowy model spod znaku ZTE, zauważamy, że doskonale to rozumieją.&
       <pubDate>Wed, 30 Jul 2014 14:37:21 +0000</pubDate>
       
       <guid>https://techfreak.pl/nadchodzi-obronca-prywatnosci/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2014/07/jony_defender.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-7395&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2014/07/jony_defender.jpg&#34; alt=&#34;jony_defender&#34; width=&#34;632&#34; height=&#34;266&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2014/07/jony_defender.jpg 632w, http://techfreak.pl/wp-content/uploads/2014/07/jony_defender-300x126.jpg 300w&#34; sizes=&#34;(max-width: 632px) 100vw, 632px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2014/07/jony_defender.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-7395&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2014/07/jony_defender.jpg&#34; alt=&#34;jony_defender&#34; width=&#34;632&#34; height=&#34;266&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Drony, quadcoptery czy inne samoloty stały się bardziej automatyczne i gotowe do działania już po wyjęciu z pudełka. Odkąd popularność wzrosła i nie tylko modelarz może sobie polatać z kamerką na pokładzie, zrobiła się afera że to naruszanie prywatności. Można było by o tym pisać i pisać ale wiadomo że jak się „czegoś” używa czy to piwa, drona czy może wiatrówki to trzeba to robić z głową. Dla tych którzy jednak nie lubią dronów nad głowami pojawił się „Obrońca prywatności” Johny. Zobacz filmik jak rozprawia się z białymi Phantom’ami przy pomocy dubeltówki.&lt;/p&gt;</description>
     </item>
     
@@ -1306,7 +1306,7 @@ Patrząc na nowy model spod znaku ZTE, zauważamy, że doskonale to rozumieją.&
       
       <guid>https://techfreak.pl/elektryczny-mini-gokart/</guid>
       <description>&lt;p&gt;Zobacz bardzo fajny projekt mini elektrycznego gokarta który został zbudowany od podstaw przez ojca dla syna. Całość została złożona poniżej kwoty 1500$ a mini pojazd osiąga do 40km/h. Jednym z największych kosztów były dwa silniki o mocy 2000W i dwa kontrolery które kosztowało ok 500$. Zaraz po nich baterie LiFePO4 o pojemności 15Ah o maksymalnym prądzie 150A za ok 600$. Zawieszenie i koła zostały wykonane od podstaw i zainstalowane na podwoziu z sklejki i drewna. Mini gokart na pewno nie kosztował mało ale wykonanie i praca włożona w budowę robi wrażenie.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2014/07/mini_elektryczny_gokart_5.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-7361&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2014/07/mini_elektryczny_gokart_5.jpg&#34; alt=&#34;mini_elektryczny_gokart_5&#34; width=&#34;1024&#34; height=&#34;1024&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2014/07/mini_elektryczny_gokart_5.jpg 1024w, http://techfreak.pl/wp-content/uploads/2014/07/mini_elektryczny_gokart_5-300x300.jpg 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2014/07/mini_elektryczny_gokart_5.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-7361&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2014/07/mini_elektryczny_gokart_5.jpg&#34; alt=&#34;mini_elektryczny_gokart_5&#34; width=&#34;1024&#34; height=&#34;1024&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1767,7 +1767,7 @@ Ogólnie mam zawsze dużo pomysłów ale często jakoś kręcę się około tema
       <pubDate>Mon, 26 Aug 2013 05:41:59 +0000</pubDate>
       
       <guid>https://techfreak.pl/test-arexx-arduino-robot-aar-04/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4767&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg&#34; alt=&#34;techfreak_pl_Arduino-Robot_AAR-04_9-15&#34; width=&#34;1000&#34; height=&#34;750&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15-300x225.jpg 300w&#34; sizes=&#34;(max-width: 1000px) 100vw, 1000px&#34; /&gt;&lt;/a&gt;&lt;br&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4767&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg&#34; alt=&#34;techfreak_pl_Arduino-Robot_AAR-04_9-15&#34; width=&#34;1000&#34; height=&#34;750&#34; /&gt;&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Robot Arduino AAR-04&lt;/strong&gt; to złożony gotowy do użycia elektroniczny pojazd napędzany dwoma kołami którymi można dowolnie sterować. Już Na tym etapie kontroli, użytkownik doznaje wiele przyjemności z tworzenia własnego jeżdżącego robota. Zamontowane na przedzie fototranzystory zwiększają możliwości poruszania się do tego stopnia, że staje się on autonomicznym pojazdem. Robot jest wyposażony w procesor &lt;strong&gt;ATmega328P&lt;/strong&gt; który nie tylko steruje sinikami i odbiera informacje od sensorów ale i posiada wyprowadzenia które można wykorzystać w dowolny sposób. I tu zaczyna się cała zabawa która dzięki prostemu programowaniu przy pomocy platformy Arduino i przykładowym programom stwarza wiele możliwości nawet dla początkujących.&lt;/p&gt;</description>
     </item>
     
@@ -1788,7 +1788,7 @@ Ogólnie mam zawsze dużo pomysłów ale często jakoś kręcę się około tema
       <guid>https://techfreak.pl/plytka-prototypowa-arm-za-piec-dolcow/</guid>
       <description>&lt;p&gt;Pojawiła się całkiem tania i fajna płytka prototypowa z mikroprocesorem ARM na pokładzie o nazwie &lt;strong&gt;MC HCK&lt;/strong&gt;. Jej główną zaletą jest to że jest programowana przez złącze USB, jest tania, tania, tania i każdy może złożyć ją samemu w domu.&lt;/p&gt;
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/08/mchck-arm.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4652&#34; title=&#34;Płytka prototypowa ARM&#34; alt=&#34;Płytka prototypowa ARM&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/08/mchck-arm.jpg&#34; width=&#34;614&#34; height=&#34;410&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/08/mchck-arm.jpg 614w, http://techfreak.pl/wp-content/uploads/2013/08/mchck-arm-300x200.jpg 300w&#34; sizes=&#34;(max-width: 614px) 100vw, 614px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/08/mchck-arm.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4652&#34; title=&#34;Płytka prototypowa ARM&#34; alt=&#34;Płytka prototypowa ARM&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/08/mchck-arm.jpg&#34; width=&#34;614&#34; height=&#34;410&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;</description>
     </item>
     
@@ -1856,7 +1856,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       
       <guid>https://techfreak.pl/utilite-kolejny-mini-komputer-do-niczego-mi-potrzebny/</guid>
       <description>&lt;p&gt;Parę dni temu CompuLab zaprezentował Utilite, mini komputer bazujący na procesorze single, dual lub quad-core ARM Cortex-A9, z opcja do 4GB RAM’u i podwójnym wyjściem obrazu dual-head 1080p. Jak dla mnie całkiem fajna opcja z obudową i dwoma portami ethernet. Mini komputery to kierunek w którym wszyscy zmierzają a jednak większość komentarzy jakie czytam pod wpisami z tej kategorii to „po co mi takie coś, małe i nie wydajne”, „takie Raspberry Pi to dla geeków”. Wydajność na pewno jest niższa niż w porównaniu z lapem lub komputerem stacjonarnym ale czy to jest taki minus? Czy przypadkiem po przeliczeniu plusów i minusów rzeczywiście nie opłaca się kupić takiego mini sprzętu za 300 zł?&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4196&#34; alt=&#34;Utilitie-isometry&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry.jpg&#34; width=&#34;1600&#34; height=&#34;900&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry.jpg 1600w, http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry-300x168.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry-1024x576.jpg 1024w&#34; sizes=&#34;(max-width: 1600px) 100vw, 1600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4196&#34; alt=&#34;Utilitie-isometry&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/Utilitie-isometry.jpg&#34; width=&#34;1600&#34; height=&#34;900&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1875,7 +1875,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       
       <guid>https://techfreak.pl/jak-zostal-umieszczony-ten-gwozdz-w-drewnie/</guid>
       <description>&lt;p&gt;Na stronie &lt;a href=&#34;http://hackedgadgets.com/&#34;&gt;hackedgadgets.com&lt;/a&gt; znalazłem naprawdę fajny wpis jak umieścić gwóźdź w drewnie w kształcie zmutowanej litery E. Przed obejrzeniem filmiku pomyślcie jak byście to sami zrobili. Ja osobiście nie wpadłem na to ;P&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/gwuzdz_w_drewnie.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4136&#34; alt=&#34;gwuzdz_w_drewnie&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/gwuzdz_w_drewnie.jpg&#34; width=&#34;1178&#34; height=&#34;667&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/07/gwuzdz_w_drewnie.jpg 1178w, http://techfreak.pl/wp-content/uploads/2013/07/gwuzdz_w_drewnie-300x169.jpg 300w, http://techfreak.pl/wp-content/uploads/2013/07/gwuzdz_w_drewnie-1024x579.jpg 1024w&#34; sizes=&#34;(max-width: 1178px) 100vw, 1178px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/gwuzdz_w_drewnie.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4136&#34; alt=&#34;gwuzdz_w_drewnie&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/gwuzdz_w_drewnie.jpg&#34; width=&#34;1178&#34; height=&#34;667&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1900,7 +1900,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       
       <guid>https://techfreak.pl/legoduino-czyli-klocki-lego-z-arduino-dla-doroslych/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Legoduino&lt;/strong&gt; to kolejny fajny projekt bazujący na Arduino, stworzony dla dzieciaków przez rodzica elektronika. W zasadzie można było by się zastanawiać kto miał lub będzie miał większą frajdę z efektów końcowych ale oficjalnie został on stworzony dla syna.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4011&#34; alt=&#34;LegoDuino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34; width=&#34;291&#34; height=&#34;368&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg 291w, http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino-237x300.jpg 237w&#34; sizes=&#34;(max-width: 291px) 100vw, 291px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4011&#34; alt=&#34;LegoDuino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34; width=&#34;291&#34; height=&#34;368&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Szara kostka z klocków lego z elektroniką w środku to własnie &lt;strong&gt;Legoduino&lt;/strong&gt;. Do środka został upchnięty układ ATMega328, i &lt;strong&gt;nRF24L01+&lt;/strong&gt; (bezprzewodowa komunikacja 2.4Ghz).&lt;/p&gt;</description>
     </item>
@@ -1921,7 +1921,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       
       <guid>https://techfreak.pl/plyta-glowna-mini-itx-dla-raspberry-pi/</guid>
       <description>&lt;p&gt;Tym razem możecie zobaczyć całkiem nowy projekt płyty głównej Mini-ITX dla raspberry Pi który pojawił się na &lt;a href=&#34;kickstarter.com&#34; target=&#34;_blank&#34;&gt;kickstarter.com&lt;/a&gt;. W zasadzie jest to płyta rozszerzeń która zawiera w sobie &lt;strong&gt;hub usb&lt;/strong&gt;, wejśćie &lt;strong&gt;serial port RS232&lt;/strong&gt;, wbudowane sterowanie poprzez &lt;strong&gt;IR&lt;/strong&gt;, zasilanie 3.3V, 5V i 12V, &lt;strong&gt;RTC&lt;/strong&gt; (Real-Time Clock), wbudowany &lt;strong&gt;sensor temperatury&lt;/strong&gt; do sterowania wentylatorem. Na samym końcu listy znajduje się miejsce na &lt;strong&gt;dysk 2.5 cala&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-3943&#34; alt=&#34;raspberry_pi_motherboard_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-3943&#34; alt=&#34;raspberry_pi_motherboard_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/raspberry_pi_motherboard_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1960,7 +1960,7 @@ Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniata
       <pubDate>Thu, 13 Jun 2013 06:27:42 +0000</pubDate>
       
       <guid>https://techfreak.pl/testy-wytrzymalosci-samsung-galaxy-s4/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/06/test_samsung_galaxy_s4.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-3622&#34; alt=&#34;test_samsung_galaxy_s4&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/06/test_samsung_galaxy_s4.jpg&#34; width=&#34;627&#34; height=&#34;342&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/06/test_samsung_galaxy_s4.jpg 627w, http://techfreak.pl/wp-content/uploads/2013/06/test_samsung_galaxy_s4-300x163.jpg 300w&#34; sizes=&#34;(max-width: 627px) 100vw, 627px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/06/test_samsung_galaxy_s4.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-3622&#34; alt=&#34;test_samsung_galaxy_s4&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/06/test_samsung_galaxy_s4.jpg&#34; width=&#34;627&#34; height=&#34;342&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Kto zastanawiał się jak producenci testują swoje telefony przed wypuszczeniem na rynek, może to zobaczyć w poniższym filmiku na którym Samsung pokazuje testy wytrzymałości Samsung Galaxy S4.&lt;/p&gt;</description>
     </item>
     
@@ -1990,7 +1990,7 @@ Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniata
       <guid>https://techfreak.pl/nexus-4-posiada-ukryty-serial-port/</guid>
       <description>&lt;p&gt;Projektanci Nexus 4 umieścili serial port na wejściu jack do którego zazwyczaj podłącza się słuchawki z mikrofonem.&lt;/p&gt;
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/05/nexus4_uart-opt_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-3451&#34; alt=&#34;Nexus 4 serial port&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/05/nexus4_uart-opt_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/05/nexus4_uart-opt_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/05/nexus4_uart-opt_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/05/nexus4_uart-opt_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-3451&#34; alt=&#34;Nexus 4 serial port&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/05/nexus4_uart-opt_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;</description>
     </item>
     
@@ -2082,7 +2082,7 @@ Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniata
       
       <guid>https://techfreak.pl/mini-test-tabletu-manta-mid08s/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/05/MID08S_1_canvas.jpg&#34;&gt;&lt;img class=&#34;aligncenter wp-image-3063&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/05/MID08S_1_canvas.jpg&#34; alt=&#34;MID08S_1_canvas&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/05/MID08S_1_canvas.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/05/MID08S_1_canvas-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/05/MID08S_1_canvas.jpg&#34;&gt;&lt;img class=&#34;aligncenter wp-image-3063&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/05/MID08S_1_canvas.jpg&#34; alt=&#34;MID08S_1_canvas&#34; width=&#34;385&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Dziś chciałbym się podzielić wrażeniami na temat tabletu Manta MID08s który zakupiłem w markecie za 149 zł.&lt;/p&gt;</description>
     </item>
@@ -2112,7 +2112,7 @@ Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniata
       
       <guid>https://techfreak.pl/jak-uzyskac-uprawnienia-root-dla-lg-nexus-4/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/P1050353_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2858&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/P1050353_642_362_force.jpg&#34; alt=&#34;P1050353_642_362_force&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/04/P1050353_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/04/P1050353_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/P1050353_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2858&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/P1050353_642_362_force.jpg&#34; alt=&#34;P1050353_642_362_force&#34; width=&#34;385&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Ponieważ w internecie można znaleźć naprawdę przydługie opisy jak uzyskać uprawnienia root dla LG Nexus 4. Postanowiłem w skrócie opisać jak to zrobić. Tym bardziej że procedura jest naprawdę prosta i użytkownik nie będzie musiał czytać zbędnych słów kluczowych na potrzeby SEO :)&lt;/p&gt;
 &lt;p&gt;Opis przetestowałem na swoim telefonie i nie biorę odpowiedzialności za problemy lub uszkodzenia komputera, telefonu lub ciała, pogryzionego kabla. I bardzo mi przyro jeśli po drugim kroku cicho do siebie powiedziałeś „fakk fotki”.&lt;/p&gt;</description>
@@ -2125,7 +2125,7 @@ Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniata
       
       <guid>https://techfreak.pl/mega-platforma-udoo/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2819&#34; alt=&#34;udoo_rpi_arduino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34; width=&#34;385&#34; height=&#34;190&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino-300x148.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2819&#34; alt=&#34;udoo_rpi_arduino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34; width=&#34;385&#34; height=&#34;190&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Prędzej czy później ktoś musiał wpaść na pomysł połączenia Raspberry Pi i platformy Arduino i tak powstał całkiem fajny i wydajny mini komputer UDOO.&lt;/p&gt;</description>
     </item>
@@ -2146,7 +2146,7 @@ Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniata
       
       <guid>https://techfreak.pl/akustyczna-gitara-basowa-z-baniaka-na-wode/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/giutar_bass_bootle_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2750&#34; alt=&#34;giutar_bass_bootle_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/giutar_bass_bootle_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/04/giutar_bass_bootle_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/04/giutar_bass_bootle_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/giutar_bass_bootle_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2750&#34; alt=&#34;giutar_bass_bootle_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/giutar_bass_bootle_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Fajny efekt wyszedł autorowi gitary basowej z baniaka na wodę i dwóch strun. Polecam obejrzeć filmik z Ironman – Black Sabbath w tle.&lt;/p&gt;</description>
     </item>
@@ -2167,7 +2167,7 @@ Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniata
       
       <guid>https://techfreak.pl/ta-elektroniczna-wizytowka-robi-wrazenie/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/elektroniczna_wizytowka_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2666&#34; alt=&#34;elektroniczna_wizytowka_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/elektroniczna_wizytowka_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/03/elektroniczna_wizytowka_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/03/elektroniczna_wizytowka_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/elektroniczna_wizytowka_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2666&#34; alt=&#34;elektroniczna_wizytowka_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/elektroniczna_wizytowka_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Kolejna elektroniczna wizytówka która robi naprawdę duże wrażenie. Tym razem układ ATinny85 emuluje urządzenie wejściowe jako pen tablet, który rysuje grafikę po włożeniu karty do USB.&lt;/p&gt;</description>
     </item>
@@ -2210,7 +2210,7 @@ Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniata
       
       <guid>https://techfreak.pl/planujesz-robic-pisanki-na-swieta-wielkanocne-tak-ale-z-eggbot/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/plaid_600_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2439&#34; alt=&#34;plaid_600_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/plaid_600_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/03/plaid_600_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/03/plaid_600_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/plaid_600_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2439&#34; alt=&#34;plaid_600_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/plaid_600_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Już niedługo święta wielkanocne trzeba zrobić jakieś pisanki itd wiadomo że lipą będzie kupienie kolorowych barwników i zrobienie  paru jajek w czterech kolorach.&lt;/p&gt;</description>
     </item>
@@ -2222,7 +2222,7 @@ Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniata
       
       <guid>https://techfreak.pl/raspberry-pi-chyba-jeszcze-nie-plywalo-ziphius-wodny-dron/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2454&#34; alt=&#34;aquatic_drone_ziphius_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2454&#34; alt=&#34;aquatic_drone_ziphius_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/aquatic_drone_ziphius_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Już niedługo na Kickstarter ma pojawić się wodny dron o nazwie Ziphius. Jest to bez załogowy, zdalnie sterowany, wodny robot z Raspberry Pi i kamerą na pokładzie. Sterowany poprzez tablet z WiFi. Zadebiutował w ten weekend na &lt;a href=&#34;http://www.engadget.com/expand/agenda//&#34; target=&#34;_blank&#34;&gt;engadget expand&lt;/a&gt; w San Francisco.&lt;/p&gt;</description>
     </item>
@@ -2234,7 +2234,7 @@ Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniata
       
       <guid>https://techfreak.pl/will-it-blend-yes-all/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/destroy_machine_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2390&#34; alt=&#34;destroy_machine_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/destroy_machine_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/03/destroy_machine_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/03/destroy_machine_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/destroy_machine_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2390&#34; alt=&#34;destroy_machine_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/destroy_machine_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Z tego powodu że dawno na kanale YT Blendtec nie pojawiało się żadne nagranie w którym zostaje zniszczony jakiś sprzęt, mam dziś całkiem ciekawy filmik o podobnych skutkach :)&lt;/p&gt;</description>
     </item>
@@ -2245,7 +2245,7 @@ Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniata
       <pubDate>Sat, 09 Mar 2013 12:03:54 +0000</pubDate>
       
       <guid>https://techfreak.pl/podroz-fpv-w-kosmos-i-z-powrotem/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/fpv_to_space_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2342&#34; alt=&#34;fpv_to_space_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/fpv_to_space_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/03/fpv_to_space_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/03/fpv_to_space_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/fpv_to_space_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2342&#34; alt=&#34;fpv_to_space_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/fpv_to_space_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Tym razem mam świetny filmik z wycieczki FPV balonem w kosmos i z powrotem nagrany kamerką GoPro 2.&lt;/p&gt;</description>
     </item>
     
@@ -2255,7 +2255,7 @@ Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniata
       <pubDate>Thu, 07 Mar 2013 08:56:00 +0000</pubDate>
       
       <guid>https://techfreak.pl/test-mini-kamery-turnigy-keychain/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/DSC_9705_642_362.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2303&#34; alt=&#34;DSC_9705_642_362&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/DSC_9705_642_362.jpg&#34; width=&#34;546&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/03/DSC_9705_642_362.jpg 546w, http://techfreak.pl/wp-content/uploads/2013/03/DSC_9705_642_362-300x198.jpg 300w&#34; sizes=&#34;(max-width: 546px) 100vw, 546px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/DSC_9705_642_362.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2303&#34; alt=&#34;DSC_9705_642_362&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/DSC_9705_642_362.jpg&#34; width=&#34;546&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Tym razem trafiła do mnie na testy mini kamera pod tytułem &lt;strong&gt;Turnigy KeyChain Camera&lt;/strong&gt; z &lt;a href=&#34;http://hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=13447&#34; target=&#34;_blank&#34;&gt;HobbyKing&lt;/a&gt;. Jest to mała i przede wszystkim tania kamera o rozdzielczości &lt;strong&gt;640×480&lt;/strong&gt;. Zakupić ją można za nie całe 8 dolców co sprawia że jest godna uwagi ale i nie tylko ze względu na cenę a na &lt;strong&gt;30fps&lt;/strong&gt; które wydaje się wyciągać.&lt;/p&gt;</description>
     </item>
     
@@ -2286,7 +2286,7 @@ Strona projektu
       <pubDate>Tue, 26 Feb 2013 09:53:20 +0000</pubDate>
       
       <guid>https://techfreak.pl/arduspider-mini-robot-pajak/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2194&#34; alt=&#34;arduspider_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2194&#34; alt=&#34;arduspider_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Kiedyś na &lt;a href=&#34;http://diydrones.com/&#34;&gt;diydrones.com&lt;/a&gt; pojawił się naprawdę fajny projekt mini robo pająka o nazwie ArduSpider. Konstruktor zazwyczaj składał quadcoptery ale gdy córka go poprosiła o jakiegoś robota dla niej wpadł na pomysł aby zbudować hexapoda. Do budowy użył do Ardupilot (Atmega328) i trzech serw. Jako „oczu” użył IR sensor (GP2Y0A21YK).&lt;/p&gt;</description>
     </item>
     
@@ -2296,7 +2296,7 @@ Strona projektu
       <pubDate>Mon, 25 Feb 2013 07:39:45 +0000</pubDate>
       
       <guid>https://techfreak.pl/multi-bootloader-dla-raspbery-pi-berryboot/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2184&#34; alt=&#34;berryboot_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2184&#34; alt=&#34;berryboot_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/berryboot_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Takiego czegoś brakowało Raspberry Pi, multibootloadera który nie tylko uruchomi wiele różnych dystrybucji ale też zainstaluje wybraną pobierając pliki z internetu.&lt;/p&gt;</description>
     </item>
     
@@ -2306,7 +2306,7 @@ Strona projektu
       <pubDate>Sun, 24 Feb 2013 09:42:17 +0000</pubDate>
       
       <guid>https://techfreak.pl/labirynt-kontrolowany-smartfonem/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduino_acc_labirynt_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2166&#34; alt=&#34;arduino_acc_labirynt_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduino_acc_labirynt_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduino_acc_labirynt_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/arduino_acc_labirynt_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduino_acc_labirynt_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2166&#34; alt=&#34;arduino_acc_labirynt_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduino_acc_labirynt_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Kto grał w grę w której trzeba manewrować smartofnem aby poprowadzić kulkę na koniec labiryntu, temu na pewno spodoba się labirynt w nowej wersji.&lt;/p&gt;</description>
     </item>
@@ -2327,7 +2327,7 @@ Strona projektu
       <pubDate>Fri, 22 Feb 2013 08:11:31 +0000</pubDate>
       
       <guid>https://techfreak.pl/wielka-cewka-tesli-strzela-pradami-w-rytmie-super-mario-bros/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2147&#34; alt=&#34;cewka_tesli_super_mario_bross_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2147&#34; alt=&#34;cewka_tesli_super_mario_bross_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Studenci z X-labs z południowej Florydy budowali dwa lata mega dużą cewkę tesli. Ale to nie jest zwykła cewka ponieważ odgrywa ona muzykę. Pliki midi ładowane są poprzez arduino do kontrolera prądu cewki a ta kiedy częstotliwość się zwiększa generuje łuk. Poniżej cewka odgrywa muzyczkę z Super Mario Bros.&lt;/p&gt;</description>
     </item>
     
@@ -2337,7 +2337,7 @@ Strona projektu
       <pubDate>Thu, 21 Feb 2013 19:00:18 +0000</pubDate>
       
       <guid>https://techfreak.pl/ultra-zawsze-sucho-i-to-nie-reklama-podpasek/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/ultraeverydry_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2135&#34; alt=&#34;ultraeverydry_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/ultraeverydry_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/ultraeverydry_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/ultraeverydry_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/ultraeverydry_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2135&#34; alt=&#34;ultraeverydry_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/ultraeverydry_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Jakiś czas temu znalazłem produkt firmy &lt;a href=&#34;http://www.spillcontainment.com/everdry&#34; target=&#34;_blank&#34;&gt;UltraTech&lt;/a&gt; Ultra-Ever Dry. Jest to powłoka która jest w stanie odeprzeć prawie każdy płyn. Posiada dużą przyczepność do różnych materiałów i jest trudno ścieralna. Jak dla mnie idealne na lakier samochodu :)&lt;/p&gt;</description>
     </item>
     
@@ -2347,7 +2347,7 @@ Strona projektu
       <pubDate>Tue, 19 Feb 2013 22:04:53 +0000</pubDate>
       
       <guid>https://techfreak.pl/dlugopis-3d/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/3doodler._642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2129&#34; alt=&#34;3doodler._642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/3doodler._642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/3doodler._642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/3doodler._642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/3doodler._642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2129&#34; alt=&#34;3doodler._642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/3doodler._642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Ostatnio dużo czyta się o drukarkach 3D a ja zawsze zbieram się aby coś napisać ale jakoś jeszcze mi nie wyszło :) Pomijając ten fakt tym razem chciałbym wam przedstawić długopis 3D o nazwie 3Doodler który tak naprawdę jest okrojoną wersja full wersji drukarki 3D.&lt;/p&gt;</description>
     </item>
     
@@ -2402,7 +2402,7 @@ Strona projektu
       <pubDate>Fri, 01 Feb 2013 14:42:42 +0000</pubDate>
       
       <guid>https://techfreak.pl/crazyflie-nano-quadcopter/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/crazyflie-nano-quadcopter/crazyflie-diy-kit_642_362_force/&#34; rel=&#34;attachment wp-att-1970&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1970&#34; alt=&#34;Crazyflie DIY Kit_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/Crazyflie-DIY-Kit_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/Crazyflie-DIY-Kit_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/Crazyflie-DIY-Kit_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/crazyflie-nano-quadcopter/crazyflie-diy-kit_642_362_force/&#34; rel=&#34;attachment wp-att-1970&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1970&#34; alt=&#34;Crazyflie DIY Kit_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/Crazyflie-DIY-Kit_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Czekałem długo na ten projekt a dokładnie na jego ukończenie. Byłem ciekawy za ile będzie sprzedawany &lt;a href=&#34;http://www.bitcraze.se/&#34; target=&#34;_blank&#34;&gt;Crazyflie Nano Quadcopter&lt;/a&gt; okazuje się ze w wersji z &lt;strong&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Six_degrees_of_freedom&#34; target=&#34;_blank&#34;&gt;6DOF&lt;/a&gt;&lt;/strong&gt; cena kitu kosztuje &lt;strong&gt;149&lt;/strong&gt; a &lt;strong&gt;&lt;a href=&#34;http://playground.arduino.cc/Main/WhatIsDegreesOfFreedom6DOF9DOF10DOF11DOF&#34; target=&#34;_blank&#34;&gt;10dof &lt;/a&gt;173&lt;/strong&gt; dolców.&lt;/p&gt;</description>
     </item>
@@ -2413,7 +2413,7 @@ Strona projektu
       <pubDate>Fri, 25 Jan 2013 18:20:28 +0000</pubDate>
       
       <guid>https://techfreak.pl/automatyczna-wyrzutnia-popcornu-trafia-prosto-do-ust/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/automatyczna-wyrzutnia-popcornu-trafia-prosto-do-ust/popinator/&#34; rel=&#34;attachment wp-att-1957&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1957&#34; alt=&#34;popinator&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/popinator.jpg&#34; width=&#34;838&#34; height=&#34;464&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/popinator.jpg 838w, http://techfreak.pl/wp-content/uploads/2013/01/popinator-300x166.jpg 300w&#34; sizes=&#34;(max-width: 838px) 100vw, 838px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/automatyczna-wyrzutnia-popcornu-trafia-prosto-do-ust/popinator/&#34; rel=&#34;attachment wp-att-1957&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1957&#34; alt=&#34;popinator&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/popinator.jpg&#34; width=&#34;838&#34; height=&#34;464&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;No to znalazłem w końcu coś dla leniwych wielbicieli popcornu. Maszynkę o nazwie &lt;strong&gt;POPINATOR&lt;/strong&gt; która wystrzeli popcorn wprost do ust na polecenie „pop”.&lt;/p&gt;</description>
     </item>
@@ -2424,7 +2424,7 @@ Strona projektu
       <pubDate>Tue, 22 Jan 2013 15:16:12 +0000</pubDate>
       
       <guid>https://techfreak.pl/jestes-fanem-hobbita-musisz-to-miec/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/jestes-fanem-hobbita-musisz-to-miec/img_9307_v1_642_362_force/&#34; rel=&#34;attachment wp-att-1947&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1947&#34; alt=&#34;img_9307_v1_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/img_9307_v1_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/img_9307_v1_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/img_9307_v1_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/jestes-fanem-hobbita-musisz-to-miec/img_9307_v1_642_362_force/&#34; rel=&#34;attachment wp-att-1947&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1947&#34; alt=&#34;img_9307_v1_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/img_9307_v1_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Trafiłem na projekt dla fanów Hobbita czyli na żądło które świeci gdy wykryje ORKI w pobliżu….&lt;/p&gt;</description>
     </item>
@@ -2435,7 +2435,7 @@ Strona projektu
       <pubDate>Mon, 21 Jan 2013 14:05:46 +0000</pubDate>
       
       <guid>https://techfreak.pl/nie-odsniezaj-chodnika-zbuduj-robota/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/nie-odsniezaj-chodnika-zbuduj-robota/roboplow_642_362_force/&#34; rel=&#34;attachment wp-att-1926&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1926&#34; alt=&#34;roboplow_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/roboplow_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/roboplow_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/roboplow_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/nie-odsniezaj-chodnika-zbuduj-robota/roboplow_642_362_force/&#34; rel=&#34;attachment wp-att-1926&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1926&#34; alt=&#34;roboplow_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/roboplow_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Znalazłem na &lt;a href=&#34;strims.pl&#34; target=&#34;_blank&#34;&gt;strims.pl&lt;/a&gt; bardzo fajną konstrukcje zdalnie sterowanego robota który odśnieży chodniki przed domem. Jedyne co wiadomo to że ma sześć kół które napędzane są silnikami o maksymalnej mocy 110A każdy, 50′ pług do śniegu i kamerkę :)&lt;/p&gt;</description>
     </item>
     
@@ -2445,7 +2445,7 @@ Strona projektu
       <pubDate>Sun, 20 Jan 2013 15:02:37 +0000</pubDate>
       
       <guid>https://techfreak.pl/rfid-emulator/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/rfid-emulator/rfid-emulator_642_362/&#34; rel=&#34;attachment wp-att-1910&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1910&#34; alt=&#34;rfid-emulator_642_362&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/rfid-emulator_642_362.jpg&#34; width=&#34;642&#34; height=&#34;482&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/rfid-emulator_642_362.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/rfid-emulator_642_362-300x225.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/rfid-emulator/rfid-emulator_642_362/&#34; rel=&#34;attachment wp-att-1910&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1910&#34; alt=&#34;rfid-emulator_642_362&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/rfid-emulator_642_362.jpg&#34; width=&#34;642&#34; height=&#34;482&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Tym razem chciałbym przybliżyć projekt emulatora kart RFID. No no … emulatora. Dd dziś każdy techfreak będzie podszywał się pod karty kolegów z pracy :D&lt;/p&gt;</description>
     </item>
@@ -2465,7 +2465,7 @@ Strona projektu
       <pubDate>Tue, 15 Jan 2013 19:23:43 +0000</pubDate>
       
       <guid>https://techfreak.pl/telefon-z-androidem-oczami-dla-hexbua/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/telefon-z-androidem-oczami-dla-hexbua/android_hexbug_642_362_force/&#34; rel=&#34;attachment wp-att-1870&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1870&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/android_hexbug_642_362_force.jpg&#34; alt=&#34;android_hexbug_642_362_force&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/android_hexbug_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/android_hexbug_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/telefon-z-androidem-oczami-dla-hexbua/android_hexbug_642_362_force/&#34; rel=&#34;attachment wp-att-1870&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1870&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/android_hexbug_642_362_force.jpg&#34; alt=&#34;android_hexbug_642_362_force&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Jakiś czas temu znalazłem projekt przeróbki Hexbug plus smartfon z Androidem ale jakoś mi przeleciał przed oczami i wrzuciłem go do folderu „do przeglądu”. Okazuje się że naprawdę warto zobaczyć o co tu chodzi.&lt;/p&gt;</description>
     </item>
     
@@ -2475,7 +2475,7 @@ Strona projektu
       <pubDate>Mon, 14 Jan 2013 22:54:45 +0000</pubDate>
       
       <guid>https://techfreak.pl/polaczenie-hexapoda-i-hexacoptera/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/polaczenie-hexapoda-i-hexacoptera/hexawalker_0336_642_362_force/&#34; rel=&#34;attachment wp-att-1858&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1858&#34; alt=&#34;hexawalker_0336_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/hexawalker_0336_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/hexawalker_0336_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/hexawalker_0336_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/polaczenie-hexapoda-i-hexacoptera/hexawalker_0336_642_362_force/&#34; rel=&#34;attachment wp-att-1858&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1858&#34; alt=&#34;hexawalker_0336_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/hexawalker_0336_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Połączenie Hexapoda i Hexacoptera ? Niby nic ciekawego :) A jednak nie dość że lata to jeszcze jak wyląduje to ucieknie.&lt;/p&gt;</description>
@@ -2488,7 +2488,7 @@ Strona projektu
       
       <guid>https://techfreak.pl/frezarka-zrobiona-z-lego/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/frezarka-zrobiona-z-lego/lego_frezarka_642_362_force/&#34; rel=&#34;attachment wp-att-1323&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1323&#34; alt=&#34;Lego_frezarka_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/Lego_frezarka_642_362_force.jpg&#34; width=&#34;270&#34; height=&#34;152&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/Lego_frezarka_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/Lego_frezarka_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 270px) 100vw, 270px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/frezarka-zrobiona-z-lego/lego_frezarka_642_362_force/&#34; rel=&#34;attachment wp-att-1323&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1323&#34; alt=&#34;Lego_frezarka_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/Lego_frezarka_642_362_force.jpg&#34; width=&#34;270&#34; height=&#34;152&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Wiadomo że z lego można zbudować wszystko, ogranicza nas tylko wyobraźnia no i dziecko jak zabierze nam wszystkie klocki ;(&lt;/p&gt;</description>
     </item>
@@ -2500,7 +2500,7 @@ Strona projektu
       
       <guid>https://techfreak.pl/arduino-i-pic-na-jednej-plytce/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/1310/whatdoyouget_642_362_force/&#34; rel=&#34;attachment wp-att-1312&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1312&#34; alt=&#34;WhatDoYouGet_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/WhatDoYouGet_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/WhatDoYouGet_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/WhatDoYouGet_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/1310/whatdoyouget_642_362_force/&#34; rel=&#34;attachment wp-att-1312&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1312&#34; alt=&#34;WhatDoYouGet_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/WhatDoYouGet_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;p style=&#34;text-align: left;&#34;&gt;
@@ -2515,7 +2515,7 @@ Strona projektu
       <pubDate>Wed, 09 Jan 2013 13:21:41 +0000</pubDate>
       
       <guid>https://techfreak.pl/game-boy-android-gamepad/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/game-boy-android-gamepad/gameboyandroidadvandced_642_362_force/&#34; rel=&#34;attachment wp-att-1035&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1035&#34; alt=&#34;gameboyandroidadvandced_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/gameboyandroidadvandced_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/gameboyandroidadvandced_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/gameboyandroidadvandced_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/game-boy-android-gamepad/gameboyandroidadvandced_642_362_force/&#34; rel=&#34;attachment wp-att-1035&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1035&#34; alt=&#34;gameboyandroidadvandced_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/gameboyandroidadvandced_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Na &lt;a href=&#34;http://www.instructables.com/id/Game-Boy-Android-Gamepad/&#34;&gt;instructables&lt;/a&gt; pojawił się prosty w konstrukcji ale ciekawy projekt gamepada dla telefonów.&lt;/p&gt;</description>
     </item>
     
@@ -2544,7 +2544,7 @@ Strona projektu
       <pubDate>Sun, 06 Jan 2013 21:36:20 +0000</pubDate>
       
       <guid>https://techfreak.pl/mini-komputer-apc-8750-w-koncu-w-sprzedazy/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/mini-komputer-apc-8750-w-koncu-w-sprzedazy/apc-board_642_362_force/&#34; rel=&#34;attachment wp-att-768&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-768&#34; alt=&#34;apc-board_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/apc-board_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/apc-board_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/apc-board_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/mini-komputer-apc-8750-w-koncu-w-sprzedazy/apc-board_642_362_force/&#34; rel=&#34;attachment wp-att-768&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-768&#34; alt=&#34;apc-board_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/apc-board_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Kiedy parę miesięcy temu po pojawieniu się raspberry pi ogłoszono nowy mini komputer APC 8750 od VIA, pomyślałem oł jee muszę to mieć i zapisałem się do newslettera…&lt;/p&gt;</description>
     </item>
     
@@ -2554,7 +2554,7 @@ Strona projektu
       <pubDate>Sat, 05 Jan 2013 22:56:18 +0000</pubDate>
       
       <guid>https://techfreak.pl/real-brute-force-na-garmi-nuvi-780/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/real-brute-force-na-garmi-nuvi-780/real_brute_force_642_362_force/&#34; rel=&#34;attachment wp-att-738&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-738&#34; alt=&#34;real_brute_force_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/real_brute_force_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/real_brute_force_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/real_brute_force_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/real-brute-force-na-garmi-nuvi-780/real_brute_force_642_362_force/&#34; rel=&#34;attachment wp-att-738&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-738&#34; alt=&#34;real_brute_force_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/real_brute_force_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h3 id=&#34;co-ty-wiesz-o-brute-force--ty-lama-jesteś-&#34;&gt;Co ty wiesz o brute force ? Ty lama jesteś !&lt;/h3&gt;</description>
     </item>
@@ -2565,7 +2565,7 @@ Strona projektu
       <pubDate>Thu, 03 Jan 2013 14:28:12 +0000</pubDate>
       
       <guid>https://techfreak.pl/zawsze-marzylem-o-pupilku-zdalnie-sterowany-karaluch-roboroach/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/zawsze-marzylem-o-pupilku-zdalnie-sterowany-karaluch-roboroach/roboroach_642_362_force/&#34; rel=&#34;attachment wp-att-720&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-720&#34; alt=&#34;roboroach_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/roboroach_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/roboroach_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/roboroach_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/zawsze-marzylem-o-pupilku-zdalnie-sterowany-karaluch-roboroach/roboroach_642_362_force/&#34; rel=&#34;attachment wp-att-720&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-720&#34; alt=&#34;roboroach_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/roboroach_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Powiem szczerze trafiłem na ten projekt całkiem przypadkowo przeglądając jakieś newsy i zrobił na mnie mega wrażenie – zdalnie sterowany karaluch RoboRoach. jee!&lt;/p&gt;</description>
     </item>
     
@@ -2575,7 +2575,7 @@ Strona projektu
       <pubDate>Thu, 03 Jan 2013 09:09:01 +0000</pubDate>
       
       <guid>https://techfreak.pl/phonejoy-play-super-gamepad-dla-telefonu/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/phonejoy-play-super-gamepad-dla-telefonu/phonejoy_play_642_362_force/&#34; rel=&#34;attachment wp-att-702&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-702&#34; alt=&#34;phonejoy_play_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/phonejoy_play_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/phonejoy_play_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/phonejoy_play_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/phonejoy-play-super-gamepad-dla-telefonu/phonejoy_play_642_362_force/&#34; rel=&#34;attachment wp-att-702&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-702&#34; alt=&#34;phonejoy_play_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/phonejoy_play_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Dobra dziś nie ma co owijać w bawełnę i lać wodę ;P Na kickstarter.com znalazłem super gamepada do telefonów i tabletów o nazwie &lt;a href=&#34;http://www.kickstarter.com/projects/phonejoy/phonejoy-play-turn-your-phone-into-a-console?ref=category&#34; target=&#34;_blank&#34;&gt;Phonejoy PLAY&lt;/a&gt;, który nie dość że dopasuje się do twojego tabletu lub telefonu to bez problemu podłączysz go po bluetooth.&lt;/p&gt;</description>
     </item>
     
@@ -2585,7 +2585,7 @@ Strona projektu
       <pubDate>Tue, 01 Jan 2013 20:53:56 +0000</pubDate>
       
       <guid>https://techfreak.pl/raspberry-pi-jako-access-point/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/raspberry-pi-jako-access-point/edimax-pi3_642_362_force/&#34; rel=&#34;attachment wp-att-689&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-689&#34; alt=&#34;edimax-pi3_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/raspberry-pi-jako-access-point/edimax-pi3_642_362_force/&#34; rel=&#34;attachment wp-att-689&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-689&#34; alt=&#34;edimax-pi3_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Witam w nowym roku i już atakuje fajnymi projektami. Sam mam Raspberry pi i tworzę w wolnej chwili swój projekt &lt;a href=&#34;http://nettemp.pl&#34; target=&#34;_blank&#34;&gt;pomiaru temperatury&lt;/a&gt; co za tym idzie ciekawią mnie różne pomysły innych freaków. Ostatnio na oficjalnej stronie raspberry pi pisano o &lt;a href=&#34;http://www.pi-point.co.uk/&#34; target=&#34;_blank&#34;&gt;Pi-Point&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
@@ -2595,7 +2595,7 @@ Strona projektu
       <pubDate>Sun, 30 Dec 2012 21:02:35 +0000</pubDate>
       
       <guid>https://techfreak.pl/na-co-komu-wifi-jak-sa-elastyczne-przewody/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/na-co-komu-wifi-jak-sa-elastyczne-przewody/elastyczne_przewody_642_362_force/&#34; rel=&#34;attachment wp-att-656&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-656&#34; alt=&#34;elastyczne_przewody_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/elastyczne_przewody_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/elastyczne_przewody_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/elastyczne_przewody_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/na-co-komu-wifi-jak-sa-elastyczne-przewody/elastyczne_przewody_642_362_force/&#34; rel=&#34;attachment wp-att-656&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-656&#34; alt=&#34;elastyczne_przewody_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/elastyczne_przewody_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;No własnie na co komu WiFi, nie można było wymyślić elastycznych przewodów od razu? Tylko zakłócać mikrofalówki w domach? Na co to komu było…&lt;/p&gt;</description>
     </item>
     
@@ -2605,7 +2605,7 @@ Strona projektu
       <pubDate>Sat, 29 Dec 2012 01:00:56 +0000</pubDate>
       
       <guid>https://techfreak.pl/bezdotykowe-poruszanie-grafitem-po-magnesach/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/bezdotykowe-poruszanie-grafitem-po-magnesach/lewitujacy_grafit_na_magnesie_642_362_force/&#34; rel=&#34;attachment wp-att-644&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-644&#34; alt=&#34;lewitujacy_grafit_na_magnesie_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/lewitujacy_grafit_na_magnesie_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/lewitujacy_grafit_na_magnesie_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/lewitujacy_grafit_na_magnesie_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/bezdotykowe-poruszanie-grafitem-po-magnesach/lewitujacy_grafit_na_magnesie_642_362_force/&#34; rel=&#34;attachment wp-att-644&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-644&#34; alt=&#34;lewitujacy_grafit_na_magnesie_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/lewitujacy_grafit_na_magnesie_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Chciałbym wam pokazać ciekawostkę jaką znalazłem o lewitującym kawałku grafitu nad magnesami który podąża za strumieniem lasera. Co to oznacza dla ludzkości ?&lt;/p&gt;</description>
     </item>
     
@@ -2646,7 +2646,7 @@ Więcej można przeczytać na tej stronie chociaż filmiki chyba wystarczą.
       <pubDate>Mon, 24 Dec 2012 23:25:45 +0000</pubDate>
       
       <guid>https://techfreak.pl/niewidzialnosc-staje-sie-realna/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/niewidzialnosc-staje-sie-realna/hbc-quantum-stealth-sniper-cover2b_small_small/&#34; rel=&#34;attachment wp-att-514&#34;&gt;&lt;br /&gt; &lt;/a&gt;&lt;a href=&#34;http://techfreak.pl/niewidzialnosc-staje-sie-realna/hbc-quantum-stealth-sniper-cover_small_small_642_362_force/&#34; rel=&#34;attachment wp-att-520&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-520&#34; alt=&#34;HBC-Quantum-Stealth-sniper-cover_small_small_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/HBC-Quantum-Stealth-sniper-cover_small_small_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/HBC-Quantum-Stealth-sniper-cover_small_small_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/HBC-Quantum-Stealth-sniper-cover_small_small_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;br&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/niewidzialnosc-staje-sie-realna/hbc-quantum-stealth-sniper-cover2b_small_small/&#34; rel=&#34;attachment wp-att-514&#34;&gt;&lt;br /&gt; &lt;/a&gt;&lt;a href=&#34;http://techfreak.pl/niewidzialnosc-staje-sie-realna/hbc-quantum-stealth-sniper-cover_small_small_642_362_force/&#34; rel=&#34;attachment wp-att-520&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-520&#34; alt=&#34;HBC-Quantum-Stealth-sniper-cover_small_small_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/HBC-Quantum-Stealth-sniper-cover_small_small_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;http://techfreak.pl/niewidzialnosc-staje-sie-realna/hbc-quantum-stealth-sniper-cover-4c_small_small/&#34; rel=&#34;attachment wp-att-516&#34;&gt;&lt;br /&gt; &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Trochę szumu narobiło się przez zaginanie światła technologią &lt;a href=&#34;http://www.hyperstealth.com/Quantum-Stealth/index.html&#34; target=&#34;_blank&#34;&gt;Quantum Stealth&lt;/a&gt; co w końcowym etapie powoduje niewidzialność obiektu za tą technologią.&lt;/p&gt;</description>
     </item>
@@ -2657,7 +2657,7 @@ Więcej można przeczytać na tej stronie chociaż filmiki chyba wystarczą.
       <pubDate>Sat, 22 Dec 2012 13:58:07 +0000</pubDate>
       
       <guid>https://techfreak.pl/co-robi-techmaniak-w-swieta-choinke-elektroniczna/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/co-robi-techmaniak-w-swieta-choinke-elektroniczna/arduino_xmass_trree_642_362_force/&#34; rel=&#34;attachment wp-att-483&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-483&#34; alt=&#34;arduino_xmass_trree_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/arduino_xmass_trree_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/arduino_xmass_trree_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/arduino_xmass_trree_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/co-robi-techmaniak-w-swieta-choinke-elektroniczna/arduino_xmass_trree_642_362_force/&#34; rel=&#34;attachment wp-att-483&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-483&#34; alt=&#34;arduino_xmass_trree_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/arduino_xmass_trree_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Jak co roku po &lt;strong&gt;końcu&lt;/strong&gt; &lt;strong&gt;świata&lt;/strong&gt; przychodzi czas na święta. W marketach obok składanych bunkrów i tlenu w batonach można kupić lampki (teraz już same ledy) i inne świecące ozdoby. Prawdziwy freak oczywiście nie kupi gotowego sznura ledów i choinki tylko wyda ponad stówę na Arduino i inne części. Nie ważne że rodzina go znienawidzi za to że lutuje zamiast produkować pierogi. A to wszystko dla tego aby zrobić mega mini choinkę dla satysfakcji i lansu na wszystkich hakerskich portalach.&lt;/p&gt;</description>
     </item>
     
@@ -2676,7 +2676,7 @@ Więcej można przeczytać na tej stronie chociaż filmiki chyba wystarczą.
       <pubDate>Fri, 21 Dec 2012 06:39:22 +0000</pubDate>
       
       <guid>https://techfreak.pl/swiateczne-ciasteczka-prosto-z-drukarki-3d/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/swiateczne-ciasteczka-prosto-z-drukarki-3d/img_1096_642_362_force/&#34; rel=&#34;attachment wp-att-443&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-443&#34; alt=&#34;IMG_1096_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/IMG_1096_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/IMG_1096_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/IMG_1096_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/swiateczne-ciasteczka-prosto-z-drukarki-3d/img_1096_642_362_force/&#34; rel=&#34;attachment wp-att-443&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-443&#34; alt=&#34;IMG_1096_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/IMG_1096_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;W zasadzie dziś koniec świata a ja sobie o ciasteczkach z drukarki 3D napisze :D W zasadzie co to za różnica czy do pojemnika z materiałem  do drukowania załadujemy tworzywo ABS czy ciasto na ciasteczka.&lt;/p&gt;</description>
     </item>
     
@@ -2696,7 +2696,7 @@ Znalezione na hackaday.com</description>
       <pubDate>Thu, 20 Dec 2012 09:59:37 +0000</pubDate>
       
       <guid>https://techfreak.pl/czworonozny-robot-sterowany-glosem/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/czworonozny-robot-sterowany-glosem/alpha_dog_ls2_642_362_force/&#34; rel=&#34;attachment wp-att-426&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-426&#34; alt=&#34;alpha_dog_LS2_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/alpha_dog_LS2_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/alpha_dog_LS2_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/alpha_dog_LS2_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/czworonozny-robot-sterowany-glosem/alpha_dog_ls2_642_362_force/&#34; rel=&#34;attachment wp-att-426&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-426&#34; alt=&#34;alpha_dog_LS2_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/alpha_dog_LS2_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Dziś natrafiłem na kolejną informacje na temat słynnego już robota AlphaDog zbudowanego przez DARPA. Jak ktoś jeszcze nie zna lub nie widział tego psiaczka to polecam obejrzenie poniższego filmiku:&lt;/p&gt;</description>
     </item>
     
@@ -2724,7 +2724,7 @@ Znalezione na hackaday.com</description>
       <pubDate>Mon, 17 Dec 2012 19:58:20 +0000</pubDate>
       
       <guid>https://techfreak.pl/segway-czy-jednokolowa-kurka/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/segway-czy-jednokolowa-kurka/pale_raptor/&#34; rel=&#34;attachment wp-att-312&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-312&#34; alt=&#34;pale_raptor&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/pale_raptor.jpg&#34; width=&#34;272&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/pale_raptor.jpg 272w, http://techfreak.pl/wp-content/uploads/2012/12/pale_raptor-225x300.jpg 225w&#34; sizes=&#34;(max-width: 272px) 100vw, 272px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/segway-czy-jednokolowa-kurka/pale_raptor/&#34; rel=&#34;attachment wp-att-312&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-312&#34; alt=&#34;pale_raptor&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/pale_raptor.jpg&#34; width=&#34;272&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Nie, nie naśmiewam się z jednokołowej kurki ;P Znaczy z RAPTORA. A dokładnie chodzi o home made segway’a zbudowanego przez &lt;a href=&#34;http://dl.dropbox.com/u/90324580/Thatch-Industries/Raptor.html&#34; target=&#34;_blank&#34;&gt;Nick’a Thatcher’a&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
@@ -2753,7 +2753,7 @@ Znalezione na hackaday.com</description>
       <pubDate>Thu, 13 Dec 2012 07:13:38 +0000</pubDate>
       
       <guid>https://techfreak.pl/robot-kenshiro-ma-kosci-i-miesnie-ale-glowy-zabraklo/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/robot-kenshiro-ma-kosci-i-miesnie-ale-glowy-zabraklo/kenshiro-skeleton-cross-section_642_362_force/&#34; rel=&#34;attachment wp-att-272&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-272&#34; alt=&#34;kenshiro-skeleton-cross-section_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/kenshiro-skeleton-cross-section_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/kenshiro-skeleton-cross-section_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/kenshiro-skeleton-cross-section_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/robot-kenshiro-ma-kosci-i-miesnie-ale-glowy-zabraklo/kenshiro-skeleton-cross-section_642_362_force/&#34; rel=&#34;attachment wp-att-272&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-272&#34; alt=&#34;kenshiro-skeleton-cross-section_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/kenshiro-skeleton-cross-section_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Pisałem już o robocie &lt;a href=&#34;http://techfreak.pl/robot-disneya-lapie-pileczke-na-razie/&#34; target=&#34;_blank&#34;&gt;Disneya co wygląda jak maszyna z terminatora&lt;/a&gt;, nooo i znowu muszę napisać o humanoidzie który coraz bardziej zbliża nas czyli całą ludzkość do &lt;del&gt;ZAGŁADY buahaha ha ha! hahaha buh buha buha hahaha,&lt;/del&gt; znaczy się do coraz większego rozwoju technologicznego.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;</description>
     </item>
@@ -2773,7 +2773,7 @@ Znalezione na hackaday.com</description>
       <pubDate>Wed, 12 Dec 2012 07:18:25 +0000</pubDate>
       
       <guid>https://techfreak.pl/jak-ozywic-starego-game-boy-advance/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/jak-ozywic-starego-game-boy-advance/building-a-tiny-arcade-cabinet/&#34; rel=&#34;attachment wp-att-217&#34;&gt;&lt;img class=&#34;size-full wp-image-217 aligncenter&#34; alt=&#34;building-a-tiny-arcade-cabinet&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet.jpg&#34; width=&#34;303&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet.jpg 303w, http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet-251x300.jpg 251w&#34; sizes=&#34;(max-width: 303px) 100vw, 303px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/jak-ozywic-starego-game-boy-advance/building-a-tiny-arcade-cabinet/&#34; rel=&#34;attachment wp-att-217&#34;&gt;&lt;img class=&#34;size-full wp-image-217 aligncenter&#34; alt=&#34;building-a-tiny-arcade-cabinet&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/building-a-tiny-arcade-cabinet.jpg&#34; width=&#34;303&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Mogę się założyć że ta przeróbka Gameboy’a powstała nie dlatego że autor chciał kiedyś mieć takiego i go nie dostał, ani dlatego że teraz na starość odbija sobie dzieciństwo tylko dlatego że nudziło mu się na maxa. haha. Trzeba przyznać ze z nudów wychodzą naprawdę pięknie wyglądające rzeczy.&lt;/p&gt;</description>
     </item>
     
@@ -2783,7 +2783,7 @@ Znalezione na hackaday.com</description>
       <pubDate>Tue, 11 Dec 2012 13:15:01 +0000</pubDate>
       
       <guid>https://techfreak.pl/raspberry-pi-jako-radio/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-208 aligncenter&#34; title=&#34;raspberry_pi_radio&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio.jpg&#34; width=&#34;621&#34; height=&#34;342&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio.jpg 621w, http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio-300x165.jpg 300w&#34; sizes=&#34;(max-width: 621px) 100vw, 621px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-208 aligncenter&#34; title=&#34;raspberry_pi_radio&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/raspberry_pi_radio.jpg&#34; width=&#34;621&#34; height=&#34;342&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Raspberry Pi jako radio bez żadnych dodatkowych układów elektronicznych ? Tak ale raczej jako rozgłośnia radiowa niż odbiornik. Jedyny &lt;strong&gt;hardware&lt;/strong&gt; jaki do tego jest potrzebny to 20 cm przewód który zapewnia zasięg do 100 metrów.&lt;/p&gt;</description>
     </item>
     
@@ -2793,7 +2793,7 @@ Znalezione na hackaday.com</description>
       <pubDate>Tue, 11 Dec 2012 10:43:40 +0000</pubDate>
       
       <guid>https://techfreak.pl/wojskowy-quadrotor-z-karabinem-zabijaj-manekiny-ze-swojego-tableta/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/manekiny_w_gniu.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-195 aligncenter&#34; title=&#34;manekiny_w_gniu&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/manekiny_w_gniu.jpg&#34; width=&#34;642&#34; height=&#34;316&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/manekiny_w_gniu.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/manekiny_w_gniu-300x147.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/manekiny_w_gniu.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-195 aligncenter&#34; title=&#34;manekiny_w_gniu&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/manekiny_w_gniu.jpg&#34; width=&#34;642&#34; height=&#34;316&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Po dzisiejszym &lt;a href=&#34;http://techfreak.pl/domowej-roboty-czolg/&#34; target=&#34;_blank&#34;&gt;czołgu&lt;/a&gt; dalej wojskowy klimat. Jakiś czas temu kumpel przysłał mi linka z tekstem „obczaj technologie o której będzie głośno za kilka lat, jeszcze nie zrobili strzelających quadkopterów” A ja na to: „dobra, idę do domu” – akurat wychodziłem :)&lt;/p&gt;</description>
     </item>
     
@@ -2803,7 +2803,7 @@ Znalezione na hackaday.com</description>
       <pubDate>Tue, 11 Dec 2012 09:00:24 +0000</pubDate>
       
       <guid>https://techfreak.pl/domowej-roboty-czolg/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress5.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-184 aligncenter&#34; title=&#34;_ico_force_compress&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress5.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress5.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress5-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress5.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-184 aligncenter&#34; title=&#34;_ico_force_compress&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress5.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Nic mnie nie miało dziś zdziwić w końcu jest wtorek, wtorek jest zazwyczaj po poniedziałku a poniedziałek nie jest dobry, ze względu na na masę roboty. No ale nie ważne. Poszukując nowych ciekawostek ze &lt;a href=&#34;http://itnews24.pl&#34; target=&#34;_blank&#34;&gt;świata IT&lt;/a&gt; znalazłem na &lt;a href=&#34;http://www.theverge.com/2012/12/9/3749426/syria-homemade-tank-game-contoller-sham-ii&#34; target=&#34;_blank&#34;&gt;theverge.com&lt;/a&gt;, &lt;strong&gt;DIY czołg.&lt;/strong&gt; Było już wszystko domowej roboty ale nie czołg :)&lt;/p&gt;</description>
     </item>
     
@@ -2863,7 +2863,7 @@ Na oficjalnej stronie Raspberry Pi opublikowano proces produkcji mini komputer�
       <pubDate>Thu, 06 Dec 2012 06:53:52 +0000</pubDate>
       
       <guid>https://techfreak.pl/robot-disneya-lapie-pileczke-na-razie/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/disney_robot.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-167&#34; title=&#34;disney_robot&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/disney_robot.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/disney_robot.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/disney_robot-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/disney_robot.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-167&#34; title=&#34;disney_robot&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/disney_robot.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Wiem, wiem wszystkim przychodzi na myśl Terminator jak tylko dowiadują się że roboty coraz więcej potrafią.&lt;/p&gt;</description>
     </item>
     
@@ -2874,7 +2874,7 @@ Na oficjalnej stronie Raspberry Pi opublikowano proces produkcji mini komputer�
       
       <guid>https://techfreak.pl/porownanie-wytrzymalosci-najnowszych-tabletow-blenderem/</guid>
       <description>&lt;div&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/blendit.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-165&#34; title=&#34;blendit&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/blendit-300x169.jpg&#34; width=&#34;300&#34; height=&#34;169&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/blendit-300x169.jpg 300w, http://techfreak.pl/wp-content/uploads/2012/12/blendit.jpg 642w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/blendit.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-165&#34; title=&#34;blendit&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/blendit-300x169.jpg&#34; width=&#34;300&#34; height=&#34;169&#34; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;div&gt;
   Zaledwie kwestią czasu było, aż załoga popularnego show postanowi zmielić najpopularniejsze i najnowsze tablety typu &amp;#8222;mini&amp;#8221; na rynku. I tak obok siebie znalazły się:
@@ -2900,7 +2900,7 @@ Na oficjalnej stronie Raspberry Pi opublikowano proces produkcji mini komputer�
       <pubDate>Thu, 06 Dec 2012 06:45:01 +0000</pubDate>
       
       <guid>https://techfreak.pl/cubieboard-to-sie-nazywa-mini-komp/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress1.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-163&#34; title=&#34;_ico_force_compress&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress1-300x169.jpg&#34; width=&#34;300&#34; height=&#34;169&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress1-300x169.jpg 300w, http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress1.jpg 642w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress1.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-163&#34; title=&#34;_ico_force_compress&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress1-300x169.jpg&#34; width=&#34;300&#34; height=&#34;169&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Na portalu gdzie społeczność może finansować projekty &lt;a href=&#34;http://www.indiegogo.com/&#34; target=&#34;_blank&#34;&gt;indiegogo.com&lt;/a&gt;, został zamieszczony bardzo ciekawy i obiecujący projekt  &lt;strong&gt;Cubieboard&lt;/strong&gt;. Jest to tani, mały i wydajny komputer  z o wiele lepszymi parametrami niż RPi.&lt;/p&gt;</description>
     </item>
     
@@ -2912,7 +2912,7 @@ Na oficjalnej stronie Raspberry Pi opublikowano proces produkcji mini komputer�
       <guid>https://techfreak.pl/favi-smartstick-android-jako-media-center/</guid>
       <description>&lt;p&gt; &lt;/p&gt;
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-161&#34; title=&#34;_ico_force_compress&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress.jpg&#34; width=&#34;514&#34; height=&#34;290&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress-300x169.jpg 300w&#34; sizes=&#34;(max-width: 514px) 100vw, 514px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-161&#34; title=&#34;_ico_force_compress&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_force_compress.jpg&#34; width=&#34;514&#34; height=&#34;290&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Jeśli potrzebujecie zamienić swój telewizor w centrum multimedialne za niewielkie pieniądze i nie chcecie do tego używać Raspberry Pi, jest alternatywa.&lt;/p&gt;</description>
     </item>
@@ -2923,7 +2923,7 @@ Na oficjalnej stronie Raspberry Pi opublikowano proces produkcji mini komputer�
       <pubDate>Thu, 06 Dec 2012 06:04:42 +0000</pubDate>
       
       <guid>https://techfreak.pl/mini-mocny-komputerek-odroid-u2/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/odroid2.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-22&#34; title=&#34;odroid2&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/odroid2.jpg&#34; width=&#34;600&#34; height=&#34;272&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/odroid2.jpg 600w, http://techfreak.pl/wp-content/uploads/2012/12/odroid2-300x136.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/odroid2.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-22&#34; title=&#34;odroid2&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/odroid2.jpg&#34; width=&#34;600&#34; height=&#34;272&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Na jednym z moich ulubionych portali &lt;a href=&#34;http://hackaday.com/&#34;&gt;hackaday.com&lt;/a&gt; znalazłem fajną alternatywę dla Raspberry Pi, jest to jeszcze mniejszy mini komputer na procesorze ARM.&lt;/p&gt;</description>
     </item>
     
@@ -2933,7 +2933,7 @@ Na oficjalnej stronie Raspberry Pi opublikowano proces produkcji mini komputer�
       <pubDate>Wed, 05 Dec 2012 19:38:53 +0000</pubDate>
       
       <guid>https://techfreak.pl/mini-transformers-z-kamera-i-wifi/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16.jpg&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-6&#34; title=&#34;ico_compress16&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16.jpg&#34; width=&#34;642&#34; height=&#34;523&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16-300x244.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16.jpg&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-6&#34; title=&#34;ico_compress16&#34; alt=&#34;&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/ico_compress16.jpg&#34; width=&#34;642&#34; height=&#34;523&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Transformers który zamienia się z samochodu w robota to było kiedyś marzenie każdego  dzieciaka który oglądał transformersy ( mam na myśli bajkę ). Jak wiadomo technika idzie do przodu i takie zabawki nie są nowością ale po obejrzeniu poniższego filmiku pomyślałem, ja też chce to mieć.&lt;/p&gt;</description>
     </item>
     

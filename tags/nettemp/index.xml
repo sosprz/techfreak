@@ -19,7 +19,7 @@
       
       <guid>https://techfreak.pl/aktualizacja-nettemp-do-wersji-5/</guid>
       <description>W najnowszej wersji nettemp parę istotnych zmian.
-Najnowsza wersja nettemp z jednej strony została odświeżona i przyniosła parę dobrych zmian z drugiej zabrała parę funkcji. Przede wszystkim nowa wersja została całkowicie przepisana z PHP do pythona co znacznie ja zoptymalizowało i sprawiło że nettemp jest znacznie łatwiejszy do modyfikacji i rozwoju co w poprzedniej wersji przy tylu funkcjach było znacznie utrudnione. Nettemp 5 został oparty o framework flask (python) i MariaDB jako główna baza i sqlite3 jako baza dla odczytów z czujników.</description>
+ Najnowsza wersja nettemp z jednej strony została odświeżona i przyniosła parę dobrych zmian z drugiej zabrała parę funkcji. Przede wszystkim nowa wersja została całkowicie przepisana z PHP do pythona co znacznie ja zoptymalizowało i sprawiło że nettemp jest znacznie łatwiejszy do modyfikacji i rozwoju co w poprzedniej wersji przy tylu funkcjach było znacznie utrudnione.    Nettemp 5 został oparty o framework flask (python) i MariaDB jako główna baza i sqlite3 jako baza dla odczytów z czujników.</description>
     </item>
     
     <item>

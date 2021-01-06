@@ -86,32 +86,18 @@ if (!doNotTrack) {
 
 
 <div class="container">
-    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <article class="post-container">
         <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Regulator temperatury – na szybko.</h1>
-    
-    <p class="post-date">
-        <span>Published <time datetime="2019-03-17" itemprop="datePublished">Sun, Mar 17, 2019</time></span>
-        <span>by</span>
-        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
-            <span itemprop="name">
-                <a href="#" itemprop="url" rel="author">Pawel R.</a>
-            </span>
-        </span>
-    </p>
-    
-        <p class="post-reading post-line">
-            <span>Estimated reading time: 4 min</span>
-        </p>
+    <h1 class="post-title">Regulator temperatury – na szybko.</h1>
     
 </header>
 
-        <div class="post-content clearfix" itemprop="articleBody">
+        <div class="post-content clearfix">
     
 
-    <p><span style="color: #333333"><span style="font-family: Georgia, quot">Projekt zrealizowany  z powodu pojawienia się nagłej potrzeby rozwiązania problemu – 2 pomieszczenia i jeden system grzania  (brak elektrozaworów – jeden pion grzewczy). Tak więc to co pod ręką można było odnaleźć tj.: arduino i jakiś shield z wyświetlaczem LCD. Założenie co do projektu – wybranie średniej z dwóch sensorów i wysterowanie pieca gazowego. W przypadku uszkodzenia sensora – informacja dla użytkownika na LCD. Histereza stała tj +/-1’c  od nastawy.<a href="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4457_1.jpg"><img class="alignleft size-medium wp-image-15412" src="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4457_1-300x200.jpg" alt="" width="300" height="200" srcset="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4457_1-300x200.jpg 300w, http://techfreak.pl/wp-content/uploads/2019/01/IMG_4457_1-768x512.jpg 768w, http://techfreak.pl/wp-content/uploads/2019/01/IMG_4457_1.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a></span></span></p>
+    <p><span style="color: #333333"><span style="font-family: Georgia, quot">Projekt zrealizowany  z powodu pojawienia się nagłej potrzeby rozwiązania problemu – 2 pomieszczenia i jeden system grzania  (brak elektrozaworów – jeden pion grzewczy). Tak więc to co pod ręką można było odnaleźć tj.: arduino i jakiś shield z wyświetlaczem LCD. Założenie co do projektu – wybranie średniej z dwóch sensorów i wysterowanie pieca gazowego. W przypadku uszkodzenia sensora – informacja dla użytkownika na LCD. Histereza stała tj +/-1’c  od nastawy.<a href="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4457_1.jpg"><img class="alignleft size-medium wp-image-15412" src="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4457_1-300x200.jpg" alt="" width="300" height="200" /></a></span></span></p>
 <p><span style="color: #333333"><span style="font-family: Georgia, quot">Samo programowanie nie było wielkim wyzwaniem, jednak pojawiło się zagadnienie regulacji wartości zmiennej dla klawiatury pod LCD który to miał działać od ręki. Zakupiony schield który nigdy do tej pory nie był używany teoretycznie powinien od startu zadziałać z dedykowaną biblioteką. Biblioteka poza obsługą wyświetlacza odczytuje z wejścia arduino A0 zmienną z klawiatury. Klawiatura to prosta drabinka rezystancyjna tak więc odczyt przycisku to wartość z przedziału 0 do 1023. Chyba mój chiński producent zamontował to co miał pod ręką i nijak odczyty miały się do tego co </span></span></p>
-<p><img class="size-medium wp-image-15406 alignright" src="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4442_1-300x200.jpg" alt="" width="300" height="200" srcset="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4442_1-300x200.jpg 300w, http://techfreak.pl/wp-content/uploads/2019/01/IMG_4442_1-768x512.jpg 768w, http://techfreak.pl/wp-content/uploads/2019/01/IMG_4442_1.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img class="size-medium wp-image-15406 alignright" src="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4442_1-300x200.jpg" alt="" width="300" height="200" /></p>
 <p><span style="color: #333333"><span style="font-family: Georgia, quot">oczekiwała biblioteka.</span></span></p>
 <p><span style="color: #333333"><span style="font-family: Georgia, quot">Odczyt temperatury na układach komunikujących się po magistrali 1W tj.: DS18B20. Komunikacja z sensorami odbywa się korzystając z zasilania przewodowego ( długość przewodu to około 100m ale nie jest to skrętka przy pierwszym uruchomieniu i testach na zasilaniu pasożytniczym układ nie reagował poprawnie).  Nastawione wartości są zapisywane w nieulotnej pamięci eeprom.</span></span></p>
 <p><span style="color: #333333"><span style="font-family: Georgia, quot">Programowo nie jest tu nic ciekawego – układ korzysta ze środowiska Arduino i tak .:</span></span></p>
@@ -119,12 +105,12 @@ if (!doNotTrack) {
 <p><span style="color: #333333"><span style="font-family: Georgia, quot"><strong>LiquidCrystal.h ; DFR_LCD_Keypad.h</strong> – obsługa LCD i klawiatury </span></span></p>
 <p><span style="color: #333333"><span style="font-family: Georgia, quot"><strong>EEPROM.h</strong> – obsługa wewnętrznej pamięci </span></span></p>
 <p> </p>
-<p><img class="alignleft size-medium wp-image-15409" src="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4445_1-300x200.jpg" alt="" width="300" height="200" srcset="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4445_1-300x200.jpg 300w, http://techfreak.pl/wp-content/uploads/2019/01/IMG_4445_1-768x512.jpg 768w, http://techfreak.pl/wp-content/uploads/2019/01/IMG_4445_1.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></p>
-<p><span style="color: #333333"><span style="font-family: Georgia, quot">Innym „wyzwaniem”  o którym warto wspomnieć było zrozumienie jak i poco regulator kontrastu (potencjometr) jest ustawiony od strony wyświetlacza LCD tak że wystaje poza jego obrys  – tu za jasną cholerę nie rozumem wyboru elementu – ostatecznie został on odlutowany i zamontowany od strony dolnej. Gdyby pozostawić jego pozycję jak do tej porty nie było by możliwości wykonania obudowy – przyciski TACT są niskie – wystający potencjometr wymuszał by odsunięcie wyświetlacza LCD i przycisków bardzo głęboko w urządzenie. Tak więc jak każdy dałem się załapać w pułapkę ładnie wyglądającego zdjęcia na aukcji natomiast przy instalacji klocka który miał pasować od ręki okazuje się że nie ma to sensu….. Na jednym z poprzednich zdjęć widać też wymaganą izolację od  złącza USB na Arduino. Wyświetlacz LCD po zamontowaniu go w sposób odpowiedni na płycie bazowej powodował zwarcie. <a href="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4443_1.jpg"><img class="size-medium wp-image-15407 alignright" src="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4443_1-300x200.jpg" alt="" width="300" height="200" srcset="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4443_1-300x200.jpg 300w, http://techfreak.pl/wp-content/uploads/2019/01/IMG_4443_1-768x512.jpg 768w, http://techfreak.pl/wp-content/uploads/2019/01/IMG_4443_1.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a></span></span></p>
+<p><img class="alignleft size-medium wp-image-15409" src="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4445_1-300x200.jpg" alt="" width="300" height="200" /></p>
+<p><span style="color: #333333"><span style="font-family: Georgia, quot">Innym „wyzwaniem”  o którym warto wspomnieć było zrozumienie jak i poco regulator kontrastu (potencjometr) jest ustawiony od strony wyświetlacza LCD tak że wystaje poza jego obrys  – tu za jasną cholerę nie rozumem wyboru elementu – ostatecznie został on odlutowany i zamontowany od strony dolnej. Gdyby pozostawić jego pozycję jak do tej porty nie było by możliwości wykonania obudowy – przyciski TACT są niskie – wystający potencjometr wymuszał by odsunięcie wyświetlacza LCD i przycisków bardzo głęboko w urządzenie. Tak więc jak każdy dałem się załapać w pułapkę ładnie wyglądającego zdjęcia na aukcji natomiast przy instalacji klocka który miał pasować od ręki okazuje się że nie ma to sensu….. Na jednym z poprzednich zdjęć widać też wymaganą izolację od  złącza USB na Arduino. Wyświetlacz LCD po zamontowaniu go w sposób odpowiedni na płycie bazowej powodował zwarcie. <a href="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4443_1.jpg"><img class="size-medium wp-image-15407 alignright" src="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4443_1-300x200.jpg" alt="" width="300" height="200" /></a></span></span></p>
 <p>Ostatnim klockiem jest płytka zawierająca dwa przekaźniki, z których tylko jeden jest wykorzystywany do sterowania piecem. Obsługa pieca polega na zwieraniu dwóch przewodów co uruchamia proces grzewczy ( tak jak wykonują to zwykłe bimetaliczne regulatory naścienne).</p>
 <p><span style="color: #333333"><span style="font-family: Georgia, quot">Obudowa – cięcie na laserze K40 – tak w końcu na coś się przydała zabawka! Tu wspomnę może o sposobie pracy z tym urządzeniem. Do lasera jest dostarczona płyta z dedykowanym programem do rysowania opracowanym przez kogoś z Chin jak i bardzo podejrzana wersja Corela 12. Choć z tego co udało mi się wygooglać istnieje już alternatywa/sterownik pod system linux co zapewne w niedalekiej przyszłości sprawdzę.</span></span></p>
-<p><img class="size-medium wp-image-15410 alignleft" src="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4448_1-300x200.jpg" alt="" width="300" height="200" srcset="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4448_1-300x200.jpg 300w, http://techfreak.pl/wp-content/uploads/2019/01/IMG_4448_1-768x512.jpg 768w, http://techfreak.pl/wp-content/uploads/2019/01/IMG_4448_1.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></p>
-<p><span style="color: #333333"><span style="font-family: Georgia, quot">Urządzenie </span></span><span style="color: #333333"><span style="font-family: Georgia, quot">jako takie ma tylko jeden punkt pozycjonowania tj krańcówki HOME i nie bardzo przejmuje się ograniczeniami w osiach X/Y (czysto teoretycznie rozwiązując problemy mechaniczne ten ploter ma możliwość pracy w polu 100x100cm !). Dlatego w celu wykonania powtarzalnych cięć na tym samym materiale trzeba zapewnić sobie jakaś fixturę. Ja rozwiązuje ten problem w przypadku gdy wymagane jest przejście w kilku etapach za pomocą znacznika bazowego który laser stara się wyciąć a jednocześnie jest on poza obszarem materiału obrabianego. Znacznik bazowy w moim przypadku to prostokąt 1x1mm.<a href="http://techfreak.pl/wp-content/uploads/2019/03/screen_l.jpg"><img class="size-medium wp-image-15415 alignright" src="http://techfreak.pl/wp-content/uploads/2019/03/screen_l-300x160.jpg" alt="" width="300" height="160" srcset="http://techfreak.pl/wp-content/uploads/2019/03/screen_l-300x160.jpg 300w, http://techfreak.pl/wp-content/uploads/2019/03/screen_l-374x200.jpg 374w, http://techfreak.pl/wp-content/uploads/2019/03/screen_l-768x411.jpg 768w, http://techfreak.pl/wp-content/uploads/2019/03/screen_l-1024x548.jpg 1024w, http://techfreak.pl/wp-content/uploads/2019/03/screen_l.jpg 1582w" sizes="(max-width: 300px) 100vw, 300px" /></a> Laser nie ma regulowanego stołu i często mimo swojej dużej mocy nie jest wstanie przeciąć za jednym przejazdem cienkiego tworzywa 3-4mm. Inna ekstremalna sprawa to metoda nastawy mocy lasera – potencjometr :) do regulacji prądu tuby lasera. Jak układ sprawia wrażenie że nie podejmuje się ucięcia / wypalenia to pach wystarczy dodać odrobinę mocy. </span></span><span style="color: #333333"><span style="font-family: Georgia, quot">Tuba chłodzona wodą (producent daje pompkę akwariową) o deklarowanej mocy 40W daje sobie radę z materiałami sztucznymi do około 8mm. Jako opcja tunningu – dodałem asystę powietrzną tak <a href="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4449_1.jpg"><img class="size-medium wp-image-15411 alignleft" src="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4449_1-300x200.jpg" alt="" width="300" height="200" srcset="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4449_1-300x200.jpg 300w, http://techfreak.pl/wp-content/uploads/2019/01/IMG_4449_1-768x512.jpg 768w, http://techfreak.pl/wp-content/uploads/2019/01/IMG_4449_1.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a>aby ew. opary z ciętych materiałów nie leciały bezpośrednio na lustro. Na ostatnim zdjęciu widać kawałek wytoczonego tworzywa POM z doprowadzoną rurką powietrza które jest wytwarzane przez kompresor membranowy. Na sam koniec dodaje listing programu – układ działa nieprzerwanie od 4mc więc pierwsze testy przebiegły pozytywnie. <a href="http://techfreak.pl/wp-content/uploads/2019/03/sterownik_temp2sensory_OK.7z">sterownik_temp2sensory_OK</a></span></span></p>
+<p><img class="size-medium wp-image-15410 alignleft" src="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4448_1-300x200.jpg" alt="" width="300" height="200" /></p>
+<p><span style="color: #333333"><span style="font-family: Georgia, quot">Urządzenie </span></span><span style="color: #333333"><span style="font-family: Georgia, quot">jako takie ma tylko jeden punkt pozycjonowania tj krańcówki HOME i nie bardzo przejmuje się ograniczeniami w osiach X/Y (czysto teoretycznie rozwiązując problemy mechaniczne ten ploter ma możliwość pracy w polu 100x100cm !). Dlatego w celu wykonania powtarzalnych cięć na tym samym materiale trzeba zapewnić sobie jakaś fixturę. Ja rozwiązuje ten problem w przypadku gdy wymagane jest przejście w kilku etapach za pomocą znacznika bazowego który laser stara się wyciąć a jednocześnie jest on poza obszarem materiału obrabianego. Znacznik bazowy w moim przypadku to prostokąt 1x1mm.<a href="http://techfreak.pl/wp-content/uploads/2019/03/screen_l.jpg"><img class="size-medium wp-image-15415 alignright" src="http://techfreak.pl/wp-content/uploads/2019/03/screen_l-300x160.jpg" alt="" width="300" height="160" /></a> Laser nie ma regulowanego stołu i często mimo swojej dużej mocy nie jest wstanie przeciąć za jednym przejazdem cienkiego tworzywa 3-4mm. Inna ekstremalna sprawa to metoda nastawy mocy lasera – potencjometr :) do regulacji prądu tuby lasera. Jak układ sprawia wrażenie że nie podejmuje się ucięcia / wypalenia to pach wystarczy dodać odrobinę mocy. </span></span><span style="color: #333333"><span style="font-family: Georgia, quot">Tuba chłodzona wodą (producent daje pompkę akwariową) o deklarowanej mocy 40W daje sobie radę z materiałami sztucznymi do około 8mm. Jako opcja tunningu – dodałem asystę powietrzną tak <a href="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4449_1.jpg"><img class="size-medium wp-image-15411 alignleft" src="http://techfreak.pl/wp-content/uploads/2019/01/IMG_4449_1-300x200.jpg" alt="" width="300" height="200" /></a>aby ew. opary z ciętych materiałów nie leciały bezpośrednio na lustro. Na ostatnim zdjęciu widać kawałek wytoczonego tworzywa POM z doprowadzoną rurką powietrza które jest wytwarzane przez kompresor membranowy. Na sam koniec dodaje listing programu – układ działa nieprzerwanie od 4mc więc pierwsze testy przebiegły pozytywnie. <a href="http://techfreak.pl/wp-content/uploads/2019/03/sterownik_temp2sensory_OK.7z">sterownik_temp2sensory_OK</a></span></span></p>
 
 </div>
 
@@ -146,31 +132,6 @@ if (!doNotTrack) {
             </a>
     </div>
 </footer>
-
-        
-    <div class="comments">
-        <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "techfreakpl" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    </div>
-
     </article>
 </div>
 

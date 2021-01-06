@@ -402,7 +402,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       <pubDate>Wed, 15 May 2013 06:34:55 +0000</pubDate>
       
       <guid>https://techfreak.pl/raspberry-pi-zawiesza-sie-zrob-automatyczny-restart/</guid>
-      <description>&lt;h4 id=&#34;img-classaligncenter--wp-image-3220-altnettemp_gpio-srchttptechfreakplwp-contentuploads201301nettemp_gpiojpg-width600-height450-srcsethttptechfreakplwp-contentuploads201301nettemp_gpiojpg-1000w-httptechfreakplwp-contentuploads201301nettemp_gpio-300x225jpg-300w-sizesmax-width-600px-100vw-600px-1&#34;&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-3220&#34; alt=&#34;nettemp_GPIO&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg&#34; width=&#34;600&#34; height=&#34;450&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO-300x225.jpg 300w&#34; sizes=&#34;(max-width: 600px) 100vw, 600px&#34; /&gt;&lt;/a&gt;&lt;/h4&gt;
+      <description>&lt;h4 id=&#34;img-classaligncenter--wp-image-3220-altnettemp_gpio-srchttptechfreakplwp-contentuploads201301nettemp_gpiojpg-width600-height450-1&#34;&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-3220&#34; alt=&#34;nettemp_GPIO&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg&#34; width=&#34;600&#34; height=&#34;450&#34; /&gt;&lt;/a&gt;&lt;/h4&gt;
 &lt;h4 id=&#34;raspberry-pi-zawiesza-się--czasem8230&#34;&gt;Raspberry Pi zawiesza się ?! Czasem…&lt;/h4&gt;
 &lt;p&gt;Czasem może zaistnieć taka sytuacja że pracujemy zdalnie na Raspberry PI i puścimy coś co spowoduje zawieszenie. Co zrobić aby RPi samo zrestartowało się w takiej sytuacji ?&lt;/p&gt;</description>
     </item>
@@ -413,7 +413,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       <pubDate>Sun, 07 Apr 2013 13:20:34 +0000</pubDate>
       
       <guid>https://techfreak.pl/jak-zamontowac-dysk-lg-nexus-4-na-ubuntu-tryb-pamieci-mtp/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2730&#34; alt=&#34;lg_nexus_4_ubuntu_techfreakpl&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg&#34; width=&#34;546&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg 546w, http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl-300x198.jpg 300w&#34; sizes=&#34;(max-width: 546px) 100vw, 546px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2730&#34; alt=&#34;lg_nexus_4_ubuntu_techfreakpl&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg&#34; width=&#34;546&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Aby dostać się do dysku telefonu LG Nexus 4 z Andoridem 4.2.2 w Ubuntu 12.10 (quantal) trzeba zainstalować deweloperską wersje Gvfs i libmtp. Bo niestety domyślnie system nie rozpoznaje telefonu.&lt;/p&gt;
 &lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;</description>
     </item>
@@ -452,7 +452,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       
       <guid>https://techfreak.pl/jak-skonfigurowac-serwer-rsyslog-interfejs-www-na-redhat-6/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2551&#34; alt=&#34;loganalyzer_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2551&#34; alt=&#34;loganalyzer_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/03/loganalyzer_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Każdy admin prędzej czy później spotyka się z taką sytuacja że potrzebuje mieć serwer sysloga który będzie zbierał logi ze wszystkich urządzeń w sieci. Generalnie z różnych powodów a może być ich wiele nie ma co wnikać, można robić to też dla fanu ;)&lt;/p&gt;
 &lt;p&gt;Ja robię to z potrzeby i mam nadzieje że komuś się przyda chociaż można powiedzieć też RTFM :)&lt;/p&gt;</description>
@@ -484,7 +484,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       
       <guid>https://techfreak.pl/jak-szyfrowac-pliki/</guid>
       <description>&lt;p style=&#34;text-align: center&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/?attachment_id=1941&#34; rel=&#34;attachment wp-att-1941&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1941&#34; alt=&#34;7zip_password_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/7zip_password_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/7zip_password_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/7zip_password_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/?attachment_id=1941&#34; rel=&#34;attachment wp-att-1941&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1941&#34; alt=&#34;7zip_password_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/7zip_password_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Potrzebowałem zaszyfrować parę pojedynczych plików i w sumie wychodzi na to że gpg jest najlepszym wyborem. Z tego powodu że nawet na innym systemie operacyjnym (jak by co) odczytam zaszyfrowany plik.&lt;/p&gt;</description>
     </item>
@@ -558,7 +558,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       <pubDate>Tue, 25 Dec 2012 21:37:05 +0000</pubDate>
       
       <guid>https://techfreak.pl/rzeczywistosc-rozszerzona/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/rzeczywistosc-rozszerzona/tardis-pan_642_362_force/&#34; rel=&#34;attachment wp-att-541&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-541&#34; alt=&#34;tardis-pan_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/tardis-pan_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/tardis-pan_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/tardis-pan_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/rzeczywistosc-rozszerzona/tardis-pan_642_362_force/&#34; rel=&#34;attachment wp-att-541&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-541&#34; alt=&#34;tardis-pan_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/tardis-pan_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Ostatnio coraz częściej słyszy się o rzeczywistości rozszerzonej (&lt;strong&gt;augmented reality&lt;/strong&gt;) jak nie w grach to w marketingu. &lt;strong&gt;Ale co to jest ?&lt;/strong&gt; Świat rzeczywisty połączony ze światem generowanym komputerowo. &lt;strong&gt;No tak ale co to jest ?&lt;/strong&gt; Na elementy wyświetlanego obrazu na urządzeniu nakładana jest komputerowo generowana grafika 3D.&lt;/p&gt;</description>
     </item>
     

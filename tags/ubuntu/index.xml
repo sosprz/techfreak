@@ -163,7 +163,7 @@ Brzmi znajomo ?&lt;/p&gt;</description>
       <pubDate>Sun, 07 Apr 2013 13:20:34 +0000</pubDate>
       
       <guid>https://techfreak.pl/jak-zamontowac-dysk-lg-nexus-4-na-ubuntu-tryb-pamieci-mtp/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2730&#34; alt=&#34;lg_nexus_4_ubuntu_techfreakpl&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg&#34; width=&#34;546&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg 546w, http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl-300x198.jpg 300w&#34; sizes=&#34;(max-width: 546px) 100vw, 546px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2730&#34; alt=&#34;lg_nexus_4_ubuntu_techfreakpl&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/lg_nexus_4_ubuntu_techfreakpl.jpg&#34; width=&#34;546&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Aby dostać się do dysku telefonu LG Nexus 4 z Andoridem 4.2.2 w Ubuntu 12.10 (quantal) trzeba zainstalować deweloperską wersje Gvfs i libmtp. Bo niestety domyślnie system nie rozpoznaje telefonu.&lt;/p&gt;
 &lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;</description>
     </item>

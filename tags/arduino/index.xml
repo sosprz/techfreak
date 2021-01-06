@@ -181,7 +181,7 @@ Brzmi znajomo ?&lt;/p&gt;</description>
       <pubDate>Mon, 26 Aug 2013 05:41:59 +0000</pubDate>
       
       <guid>https://techfreak.pl/test-arexx-arduino-robot-aar-04/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4767&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg&#34; alt=&#34;techfreak_pl_Arduino-Robot_AAR-04_9-15&#34; width=&#34;1000&#34; height=&#34;750&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg 1000w, http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15-300x225.jpg 300w&#34; sizes=&#34;(max-width: 1000px) 100vw, 1000px&#34; /&gt;&lt;/a&gt;&lt;br&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4767&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/08/techfreak_pl_Arduino-Robot_AAR-04_9-15.jpg&#34; alt=&#34;techfreak_pl_Arduino-Robot_AAR-04_9-15&#34; width=&#34;1000&#34; height=&#34;750&#34; /&gt;&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Robot Arduino AAR-04&lt;/strong&gt; to złożony gotowy do użycia elektroniczny pojazd napędzany dwoma kołami którymi można dowolnie sterować. Już Na tym etapie kontroli, użytkownik doznaje wiele przyjemności z tworzenia własnego jeżdżącego robota. Zamontowane na przedzie fototranzystory zwiększają możliwości poruszania się do tego stopnia, że staje się on autonomicznym pojazdem. Robot jest wyposażony w procesor &lt;strong&gt;ATmega328P&lt;/strong&gt; który nie tylko steruje sinikami i odbiera informacje od sensorów ale i posiada wyprowadzenia które można wykorzystać w dowolny sposób. I tu zaczyna się cała zabawa która dzięki prostemu programowaniu przy pomocy platformy Arduino i przykładowym programom stwarza wiele możliwości nawet dla początkujących.&lt;/p&gt;</description>
     </item>
     
@@ -212,7 +212,7 @@ Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu�
       
       <guid>https://techfreak.pl/legoduino-czyli-klocki-lego-z-arduino-dla-doroslych/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Legoduino&lt;/strong&gt; to kolejny fajny projekt bazujący na Arduino, stworzony dla dzieciaków przez rodzica elektronika. W zasadzie można było by się zastanawiać kto miał lub będzie miał większą frajdę z efektów końcowych ale oficjalnie został on stworzony dla syna.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4011&#34; alt=&#34;LegoDuino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34; width=&#34;291&#34; height=&#34;368&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg 291w, http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino-237x300.jpg 237w&#34; sizes=&#34;(max-width: 291px) 100vw, 291px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-4011&#34; alt=&#34;LegoDuino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/07/LegoDuino.jpg&#34; width=&#34;291&#34; height=&#34;368&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Szara kostka z klocków lego z elektroniką w środku to własnie &lt;strong&gt;Legoduino&lt;/strong&gt;. Do środka został upchnięty układ ATMega328, i &lt;strong&gt;nRF24L01+&lt;/strong&gt; (bezprzewodowa komunikacja 2.4Ghz).&lt;/p&gt;</description>
     </item>
@@ -251,7 +251,7 @@ Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu�
       
       <guid>https://techfreak.pl/mega-platforma-udoo/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2819&#34; alt=&#34;udoo_rpi_arduino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34; width=&#34;385&#34; height=&#34;190&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino-300x148.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2819&#34; alt=&#34;udoo_rpi_arduino&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/04/udoo_rpi_arduino.jpg&#34; width=&#34;385&#34; height=&#34;190&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Prędzej czy później ktoś musiał wpaść na pomysł połączenia Raspberry Pi i platformy Arduino i tak powstał całkiem fajny i wydajny mini komputer UDOO.&lt;/p&gt;</description>
     </item>
@@ -262,7 +262,7 @@ Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu�
       <pubDate>Tue, 26 Feb 2013 09:53:20 +0000</pubDate>
       
       <guid>https://techfreak.pl/arduspider-mini-robot-pajak/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2194&#34; alt=&#34;arduspider_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2194&#34; alt=&#34;arduspider_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/arduspider_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Kiedyś na &lt;a href=&#34;http://diydrones.com/&#34;&gt;diydrones.com&lt;/a&gt; pojawił się naprawdę fajny projekt mini robo pająka o nazwie ArduSpider. Konstruktor zazwyczaj składał quadcoptery ale gdy córka go poprosiła o jakiegoś robota dla niej wpadł na pomysł aby zbudować hexapoda. Do budowy użył do Ardupilot (Atmega328) i trzech serw. Jako „oczu” użył IR sensor (GP2Y0A21YK).&lt;/p&gt;</description>
     </item>
     
@@ -272,7 +272,7 @@ Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu�
       <pubDate>Fri, 22 Feb 2013 08:11:31 +0000</pubDate>
       
       <guid>https://techfreak.pl/wielka-cewka-tesli-strzela-pradami-w-rytmie-super-mario-bros/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2147&#34; alt=&#34;cewka_tesli_super_mario_bross_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2147&#34; alt=&#34;cewka_tesli_super_mario_bross_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/02/cewka_tesli_super_mario_bross_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Studenci z X-labs z południowej Florydy budowali dwa lata mega dużą cewkę tesli. Ale to nie jest zwykła cewka ponieważ odgrywa ona muzykę. Pliki midi ładowane są poprzez arduino do kontrolera prądu cewki a ta kiedy częstotliwość się zwiększa generuje łuk. Poniżej cewka odgrywa muzyczkę z Super Mario Bros.&lt;/p&gt;</description>
     </item>
     
@@ -292,7 +292,7 @@ Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu�
       
       <guid>https://techfreak.pl/arduino-i-pic-na-jednej-plytce/</guid>
       <description>&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://techfreak.pl/1310/whatdoyouget_642_362_force/&#34; rel=&#34;attachment wp-att-1312&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1312&#34; alt=&#34;WhatDoYouGet_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/WhatDoYouGet_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/WhatDoYouGet_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/WhatDoYouGet_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 385px) 100vw, 385px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://techfreak.pl/1310/whatdoyouget_642_362_force/&#34; rel=&#34;attachment wp-att-1312&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1312&#34; alt=&#34;WhatDoYouGet_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/WhatDoYouGet_642_362_force.jpg&#34; width=&#34;385&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;p style=&#34;text-align: left;&#34;&gt;
@@ -307,7 +307,7 @@ Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu�
       <pubDate>Sat, 05 Jan 2013 22:56:18 +0000</pubDate>
       
       <guid>https://techfreak.pl/real-brute-force-na-garmi-nuvi-780/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/real-brute-force-na-garmi-nuvi-780/real_brute_force_642_362_force/&#34; rel=&#34;attachment wp-att-738&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-738&#34; alt=&#34;real_brute_force_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/real_brute_force_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2013/01/real_brute_force_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2013/01/real_brute_force_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/real-brute-force-na-garmi-nuvi-780/real_brute_force_642_362_force/&#34; rel=&#34;attachment wp-att-738&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-738&#34; alt=&#34;real_brute_force_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2013/01/real_brute_force_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h3 id=&#34;co-ty-wiesz-o-brute-force--ty-lama-jesteś-&#34;&gt;Co ty wiesz o brute force ? Ty lama jesteś !&lt;/h3&gt;</description>
     </item>
@@ -318,7 +318,7 @@ Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu�
       <pubDate>Sat, 22 Dec 2012 13:58:07 +0000</pubDate>
       
       <guid>https://techfreak.pl/co-robi-techmaniak-w-swieta-choinke-elektroniczna/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/co-robi-techmaniak-w-swieta-choinke-elektroniczna/arduino_xmass_trree_642_362_force/&#34; rel=&#34;attachment wp-att-483&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-483&#34; alt=&#34;arduino_xmass_trree_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/arduino_xmass_trree_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/arduino_xmass_trree_642_362_force.jpg 642w, http://techfreak.pl/wp-content/uploads/2012/12/arduino_xmass_trree_642_362_force-300x169.jpg 300w&#34; sizes=&#34;(max-width: 642px) 100vw, 642px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/co-robi-techmaniak-w-swieta-choinke-elektroniczna/arduino_xmass_trree_642_362_force/&#34; rel=&#34;attachment wp-att-483&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-483&#34; alt=&#34;arduino_xmass_trree_642_362_force&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/arduino_xmass_trree_642_362_force.jpg&#34; width=&#34;642&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Jak co roku po &lt;strong&gt;końcu&lt;/strong&gt; &lt;strong&gt;świata&lt;/strong&gt; przychodzi czas na święta. W marketach obok składanych bunkrów i tlenu w batonach można kupić lampki (teraz już same ledy) i inne świecące ozdoby. Prawdziwy freak oczywiście nie kupi gotowego sznura ledów i choinki tylko wyda ponad stówę na Arduino i inne części. Nie ważne że rodzina go znienawidzi za to że lutuje zamiast produkować pierogi. A to wszystko dla tego aby zrobić mega mini choinkę dla satysfakcji i lansu na wszystkich hakerskich portalach.&lt;/p&gt;</description>
     </item>
     
@@ -328,7 +328,7 @@ Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu�
       <pubDate>Mon, 17 Dec 2012 19:58:20 +0000</pubDate>
       
       <guid>https://techfreak.pl/segway-czy-jednokolowa-kurka/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/segway-czy-jednokolowa-kurka/pale_raptor/&#34; rel=&#34;attachment wp-att-312&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-312&#34; alt=&#34;pale_raptor&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/pale_raptor.jpg&#34; width=&#34;272&#34; height=&#34;362&#34; srcset=&#34;http://techfreak.pl/wp-content/uploads/2012/12/pale_raptor.jpg 272w, http://techfreak.pl/wp-content/uploads/2012/12/pale_raptor-225x300.jpg 225w&#34; sizes=&#34;(max-width: 272px) 100vw, 272px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://techfreak.pl/segway-czy-jednokolowa-kurka/pale_raptor/&#34; rel=&#34;attachment wp-att-312&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-312&#34; alt=&#34;pale_raptor&#34; src=&#34;http://techfreak.pl/wp-content/uploads/2012/12/pale_raptor.jpg&#34; width=&#34;272&#34; height=&#34;362&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Nie, nie naśmiewam się z jednokołowej kurki ;P Znaczy z RAPTORA. A dokładnie chodzi o home made segway’a zbudowanego przez &lt;a href=&#34;http://dl.dropbox.com/u/90324580/Thatch-Industries/Raptor.html&#34; target=&#34;_blank&#34;&gt;Nick’a Thatcher’a&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
