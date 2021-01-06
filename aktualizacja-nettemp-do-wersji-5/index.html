@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Aktualizacja nettemp do wersji 5 &middot; Przemek</title>
         <meta name="description" content="W najnowszej wersji nettemp parę istotnych zmian.
- Najnowsza wersja nettemp z jednej strony została odświeżona i przyniosła parę dobrych zmian z drugiej zabrała parę funkcji. Przede wszystkim nowa wersja została całkowicie przepisana z PHP do pythona co znacznie ja zoptymalizowało i sprawiło że nettemp jest znacznie łatwiejszy do modyfikacji i rozwoju co w poprzedniej wersji przy tylu funkcjach było znacznie utrudnione.    Nettemp 5 został oparty o framework flask (python) i MariaDB jako główna baza i sqlite3 jako baza dla odczytów z czujników.">
+Najnowsza wersja nettemp z jednej strony została odświeżona i przyniosła parę dobrych zmian z drugiej zabrała parę funkcji. Przede wszystkim nowa wersja została całkowicie przepisana z PHP do pythona co znacznie ja zoptymalizowało i sprawiło że nettemp jest znacznie łatwiejszy do modyfikacji i rozwoju co w poprzedniej wersji przy tylu funkcjach było znacznie utrudnione. Nettemp 5 został oparty o framework flask (python) i MariaDB jako główna baza i sqlite3 jako baza dla odczytów z czujników.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="generator" content="Hugo 0.74.3" />
@@ -13,7 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Aktualizacja nettemp do wersji 5">
 <meta property="og:description" content="W najnowszej wersji nettemp parę istotnych zmian.
- Najnowsza wersja nettemp z jednej strony została odświeżona i przyniosła parę dobrych zmian z drugiej zabrała parę funkcji. Przede wszystkim nowa wersja została całkowicie przepisana z PHP do pythona co znacznie ja zoptymalizowało i sprawiło że nettemp jest znacznie łatwiejszy do modyfikacji i rozwoju co w poprzedniej wersji przy tylu funkcjach było znacznie utrudnione.    Nettemp 5 został oparty o framework flask (python) i MariaDB jako główna baza i sqlite3 jako baza dla odczytów z czujników.">
+Najnowsza wersja nettemp z jednej strony została odświeżona i przyniosła parę dobrych zmian z drugiej zabrała parę funkcji. Przede wszystkim nowa wersja została całkowicie przepisana z PHP do pythona co znacznie ja zoptymalizowało i sprawiło że nettemp jest znacznie łatwiejszy do modyfikacji i rozwoju co w poprzedniej wersji przy tylu funkcjach było znacznie utrudnione. Nettemp 5 został oparty o framework flask (python) i MariaDB jako główna baza i sqlite3 jako baza dla odczytów z czujników.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://techfreak.pl/aktualizacja-nettemp-do-wersji-5/">
         <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
@@ -112,42 +112,15 @@ if (!doNotTrack) {
     
 
     <p>W najnowszej wersji nettemp parę istotnych zmian.</p>
-<div class="wp-block-group">
-  <div class="wp-block-group__inner-container">
-    <p>
-      Najnowsza wersja nettemp z jednej strony została odświeżona i przyniosła parę dobrych zmian z drugiej zabrała parę funkcji. Przede wszystkim nowa wersja została całkowicie przepisana z PHP do pythona co znacznie ja zoptymalizowało i sprawiło że nettemp jest znacznie łatwiejszy do modyfikacji i rozwoju co w poprzedniej wersji przy tylu funkcjach było znacznie utrudnione.
-    </p>
-  </div>
-</div>
-<div class="wp-block-group">
-  <div class="wp-block-group__inner-container">
-    <div class="wp-block-group">
-      <div class="wp-block-group__inner-container">
-        <p>
-          Nettemp 5 został oparty o framework flask (python) i MariaDB jako główna baza i sqlite3 jako baza dla odczytów z czujników. Dlaczego? Z testów wyszło, że wąskim gardłem jest sqlite3 dla głównej bazy, który w tym samym czasie musi zapisywać wiele odczytów z czujników do statusu jak i w tym samym czasie odczytywać dane z bazy dla ogólnego działania jak wysyłka maili lub weryfikacja odczytów. Przez to odczyty były pomijane co mogło powodować różnego rodzaju problemy.
-        </p>
-      </div>
-    </div>
-  </div>
-</div><figure class="wp-block-image size-large">
-<p><img src="http://techfreak.pl/wp-content/uploads/2020/04/techfreak-nettemp-wersja-5-3-1024x483.png" alt="" class="wp-image-15460" /> </figure></p>
-<div class="wp-block-group">
-  <div class="wp-block-group__inner-container">
-    <p>
-      Nowa wersja to zmiana serwera www z lighttpd na nginx, wymuszenie szyfrowanego połączenia https czy standaryzacja wysyłki danych do nettemp w formacie json. Wysłanie danych do nettemp jest zabezpieczone poprzez zastosowanie Json Web Token (JWT). Jak wysyłać dane opisałem na <a rel="noreferrer noopener" href="https://github.com/sosprz/nettemp" target="_blank">github</a> wraz z <a rel="noreferrer noopener" href="https://github.com/sosprz/nettemp/blob/nettemp5/app/scripts/test/jwt_test.py" target="_blank">przykładem</a>. Standaryzacja i kod napisany w pythone znacznie ułatwia dodawanie czujników podłączanych po I2C.
-    </p><figure class="wp-block-image size-large">
-<pre><code>&lt;img src=&quot;https://techfreak.pl/wp-content/uploads/2020/04/techfreak-nettenp-new-version1-1024x600.png&quot; alt=&quot;&quot; class=&quot;wp-image-15469&quot; /&gt;&lt;/figure&gt; 
-
-&lt;p&gt;
-  Pojawiła się zakładka Alarms w której zapisywane są statusy alarmów tak aby można było do nich wrócić. Wcześniej akcja to było tylko wysłanie maila.
-&lt;/p&gt;&lt;figure class=&quot;wp-block-image size-large&quot;&gt;
-
-&lt;img src=&quot;https://techfreak.pl/wp-content/uploads/2020/04/techfreak-nettenp-new-version2.png-1024x580.png&quot; alt=&quot;&quot; class=&quot;wp-image-15470&quot; /&gt;&lt;/figure&gt;
-</code></pre>
-  </div>
-</div>
+<p>Najnowsza wersja nettemp z jednej strony została odświeżona i przyniosła parę dobrych zmian z drugiej zabrała parę funkcji. Przede wszystkim nowa wersja została całkowicie przepisana z PHP do pythona co znacznie ja zoptymalizowało i sprawiło że nettemp jest znacznie łatwiejszy do modyfikacji i rozwoju co w poprzedniej wersji przy tylu funkcjach było znacznie utrudnione.
+Nettemp 5 został oparty o framework flask (python) i MariaDB jako główna baza i sqlite3 jako baza dla odczytów z czujników. Dlaczego? Z testów wyszło, że wąskim gardłem jest sqlite3 dla głównej bazy, który w tym samym czasie musi zapisywać wiele odczytów z czujników do statusu jak i w tym samym czasie odczytywać dane z bazy dla ogólnego działania jak wysyłka maili lub weryfikacja odczytów. Przez to odczyty były pomijane co mogło powodować różnego rodzaju problemy.</p>
+<p><img src="http://techfreak.pl/wp-content/uploads/2020/04/techfreak-nettemp-wersja-5-3.png" alt="" class="wp-image-15460" /> </figure></p>
+<p>Nowa wersja to zmiana serwera www z lighttpd na nginx, wymuszenie szyfrowanego połączenia https czy standaryzacja wysyłki danych do nettemp w formacie json. Wysłanie danych do nettemp jest zabezpieczone poprzez zastosowanie Json Web Token (JWT). Jak wysyłać dane opisałem na <a rel="noreferrer noopener" href="https://github.com/sosprz/nettemp" target="_blank">github</a> wraz z <a rel="noreferrer noopener" href="https://github.com/sosprz/nettemp/blob/nettemp5/app/scripts/test/jwt_test.py" target="_blank">przykładem</a>. Standaryzacja i kod napisany w pythone znacznie ułatwia dodawanie czujników podłączanych po I2C.</p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2020/04/techfreak-nettenp-new-version1.png" alt="" class="wp-image-15469" /></figure></p>
+<p>Pojawiła się zakładka Alarms w której zapisywane są statusy alarmów tak aby można było do nich wrócić. Wcześniej akcja to było tylko wysłanie maila.</p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2020/04/techfreak-nettenp-new-version2.png.png" alt="" class="wp-image-15470" /></figure></p>
 <p>Zmiany graficzne to możliwość  sortowania i grupowania statusu pod swoje potrzeby poprzez przesuwanie elementów myszką oraz nowy ciemny motyw. Pojawiło się więcej klikalnych linków, które ułatwiają poruszanie. <figure class="wp-block-image size-large"></p>
-<p><img src="https://techfreak.pl/wp-content/uploads/2020/04/techfreak-nettenp-new-version3-1024x673.png" alt="" class="wp-image-15471" /> </figure></p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2020/04/techfreak-nettenp-new-version3.png" alt="" class="wp-image-15471" /> </figure></p>
 <p>W tej wersji zabrakło sterowania GPIO, może w kolejnych dołączę ta opcję. Na ten moment chciałem się skupić na głównej funkcji czyli kontrola wartości, wyświetlanie i alarmowanie. Nowa wersja nie jest kompatybilna z poprzednimi wersjami. Najlepiej instalację przeprowadzić od nowa.</p>
 <p>W przypadku chęci zgłoszenia jakiegoś problemy zapraszam do komentowania poniżej lub na github: <a href="https://github.com/sosprz/nettemp">https://github.com/sosprz/nettemp</a></p>
 
