@@ -31,33 +31,6 @@
     </item>
     
     <item>
-      <title>1wire</title>
-      <link>https://techfreak.pl/tags/1wire/</link>
-      <pubDate>Sun, 17 Mar 2019 11:06:19 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/tags/1wire/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>arduino</title>
-      <link>https://techfreak.pl/tags/arduino/</link>
-      <pubDate>Sun, 17 Mar 2019 11:06:19 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/tags/arduino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>laser</title>
-      <link>https://techfreak.pl/tags/laser/</link>
-      <pubDate>Sun, 17 Mar 2019 11:06:19 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/tags/laser/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>devlidesign</title>
       <link>https://techfreak.pl/tags/devlidesign/</link>
       <pubDate>Wed, 19 Dec 2018 13:18:15 +0000</pubDate>
@@ -103,51 +76,6 @@
     </item>
     
     <item>
-      <title>liczarka</title>
-      <link>https://techfreak.pl/tags/liczarka/</link>
-      <pubDate>Sun, 16 Dec 2018 12:37:56 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/tags/liczarka/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>smd</title>
-      <link>https://techfreak.pl/tags/smd/</link>
-      <pubDate>Sun, 16 Dec 2018 12:37:56 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/tags/smd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dyskont</title>
-      <link>https://techfreak.pl/tags/dyskont/</link>
-      <pubDate>Tue, 09 Oct 2018 16:34:07 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/tags/dyskont/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>elektronika</title>
-      <link>https://techfreak.pl/tags/elektronika/</link>
-      <pubDate>Tue, 09 Oct 2018 16:34:07 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/tags/elektronika/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>latarka</title>
-      <link>https://techfreak.pl/tags/latarka/</link>
-      <pubDate>Tue, 09 Oct 2018 16:34:07 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/tags/latarka/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>fatshark</title>
       <link>https://techfreak.pl/tags/fatshark/</link>
       <pubDate>Sun, 07 Oct 2018 13:26:23 +0000</pubDate>
@@ -184,20 +112,11 @@
     </item>
     
     <item>
-      <title>inne</title>
-      <link>https://techfreak.pl/tags/inne/</link>
-      <pubDate>Sat, 25 Aug 2018 04:24:35 +0000</pubDate>
+      <title>elektronika</title>
+      <link>https://techfreak.pl/tags/elektronika/</link>
+      <pubDate>Tue, 21 Aug 2018 18:19:05 +0000</pubDate>
       
-      <guid>https://techfreak.pl/tags/inne/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>smt</title>
-      <link>https://techfreak.pl/tags/smt/</link>
-      <pubDate>Sat, 25 Aug 2018 04:24:35 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/tags/smt/</guid>
+      <guid>https://techfreak.pl/tags/elektronika/</guid>
       <description></description>
     </item>
     
@@ -238,20 +157,20 @@
     </item>
     
     <item>
-      <title>ubuntu</title>
-      <link>https://techfreak.pl/tags/ubuntu/</link>
-      <pubDate>Sat, 28 Jul 2018 12:50:12 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>DIY</title>
       <link>https://techfreak.pl/tags/diy/</link>
       <pubDate>Thu, 19 Jul 2018 14:41:16 +0000</pubDate>
       
       <guid>https://techfreak.pl/tags/diy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://techfreak.pl/tags/ubuntu/</link>
+      <pubDate>Wed, 13 Jun 2018 20:51:20 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/tags/ubuntu/</guid>
       <description></description>
     </item>
     
@@ -751,6 +670,15 @@
     </item>
     
     <item>
+      <title>arduino</title>
+      <link>https://techfreak.pl/tags/arduino/</link>
+      <pubDate>Tue, 09 Aug 2016 20:26:16 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>modem</title>
       <link>https://techfreak.pl/tags/modem/</link>
       <pubDate>Tue, 09 Aug 2016 20:26:16 +0000</pubDate>
@@ -873,6 +801,15 @@
       <pubDate>Mon, 07 Mar 2016 08:47:57 +0000</pubDate>
       
       <guid>https://techfreak.pl/tags/cnc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>1wire</title>
+      <link>https://techfreak.pl/tags/1wire/</link>
+      <pubDate>Mon, 15 Feb 2016 16:28:43 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/tags/1wire/</guid>
       <description></description>
     </item>
     

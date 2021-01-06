@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>Bez kategorii</title>
-      <link>https://techfreak.pl/categories/bez-kategorii/</link>
-      <pubDate>Sun, 17 Mar 2019 11:06:19 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/categories/bez-kategorii/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Drukarki 3D</title>
       <link>https://techfreak.pl/categories/drukarki-3d/</link>
       <pubDate>Wed, 19 Dec 2018 13:18:15 +0000</pubDate>
@@ -58,20 +49,29 @@
     </item>
     
     <item>
-      <title>Inne</title>
-      <link>https://techfreak.pl/categories/inne/</link>
-      <pubDate>Sat, 25 Aug 2018 04:24:35 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/categories/inne/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Network</title>
       <link>https://techfreak.pl/categories/network/</link>
       <pubDate>Sat, 12 May 2018 08:43:18 +0000</pubDate>
       
       <guid>https://techfreak.pl/categories/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bez kategorii</title>
+      <link>https://techfreak.pl/categories/bez-kategorii/</link>
+      <pubDate>Sun, 22 Oct 2017 19:33:44 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/categories/bez-kategorii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inne</title>
+      <link>https://techfreak.pl/categories/inne/</link>
+      <pubDate>Fri, 01 Sep 2017 22:37:08 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/categories/inne/</guid>
       <description></description>
     </item>
     

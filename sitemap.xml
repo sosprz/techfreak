@@ -48,31 +48,6 @@
   </url>
   
   <url>
-    <loc>https://techfreak.pl/tags/1wire/</loc>
-    <lastmod>2019-03-17T11:06:19+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/tags/arduino/</loc>
-    <lastmod>2019-03-17T11:06:19+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/categories/bez-kategorii/</loc>
-    <lastmod>2019-03-17T11:06:19+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/tags/laser/</loc>
-    <lastmod>2019-03-17T11:06:19+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/regulator-temperatury-na-szybko/</loc>
-    <lastmod>2019-03-17T11:06:19+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://techfreak.pl/czolg-fpv-z-drukarki-3d-czesc-druga/</loc>
     <lastmod>2018-12-19T13:18:15+00:00</lastmod>
   </url>
@@ -105,41 +80,6 @@
   <url>
     <loc>https://techfreak.pl/tags/taranis/</loc>
     <lastmod>2018-12-19T13:18:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/tags/liczarka/</loc>
-    <lastmod>2018-12-16T12:37:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/liczarka-elementow-smd-w-tasmach/</loc>
-    <lastmod>2018-12-16T12:37:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/tags/smd/</loc>
-    <lastmod>2018-12-16T12:37:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/tags/dyskont/</loc>
-    <lastmod>2018-10-09T16:34:07+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/ekologia-oczywiscie-ze-dbamy-nie-tak-naprawe/</loc>
-    <lastmod>2018-10-09T16:34:07+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/tags/elektronika/</loc>
-    <lastmod>2018-10-09T16:34:07+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/tags/latarka/</loc>
-    <lastmod>2018-10-09T16:34:07+00:00</lastmod>
   </url>
   
   <url>
@@ -188,23 +128,8 @@
   </url>
   
   <url>
-    <loc>https://techfreak.pl/categories/inne/</loc>
-    <lastmod>2018-08-25T04:24:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/tags/inne/</loc>
-    <lastmod>2018-08-25T04:24:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/sekcja-zwlok-czyli-produkt-mowi-o-projektancie/</loc>
-    <lastmod>2018-08-25T04:24:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/tags/smt/</loc>
-    <lastmod>2018-08-25T04:24:35+00:00</lastmod>
+    <loc>https://techfreak.pl/tags/elektronika/</loc>
+    <lastmod>2018-08-21T18:19:05+00:00</lastmod>
   </url>
   
   <url>
@@ -233,11 +158,6 @@
   </url>
   
   <url>
-    <loc>https://techfreak.pl/becool-pomysl-na-upal-czesc-1/</loc>
-    <lastmod>2018-08-10T03:58:37+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://techfreak.pl/projekty-z-drukarki-3d-mini-track-loader/</loc>
     <lastmod>2018-07-29T20:49:40+00:00</lastmod>
   </url>
@@ -250,16 +170,6 @@
   <url>
     <loc>https://techfreak.pl/serwomechanizm-towerpro-sg90-ciagly-obrot/</loc>
     <lastmod>2018-07-28T18:53:09+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/myopenlab-krotko-o-programie/</loc>
-    <lastmod>2018-07-28T12:50:12+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techfreak.pl/tags/ubuntu/</loc>
-    <lastmod>2018-07-28T12:50:12+00:00</lastmod>
   </url>
   
   <url>
@@ -279,6 +189,11 @@
   
   <url>
     <loc>https://techfreak.pl/ubuntu-gnome-shell/</loc>
+    <lastmod>2018-06-13T20:51:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techfreak.pl/tags/ubuntu/</loc>
     <lastmod>2018-06-13T20:51:20+00:00</lastmod>
   </url>
   
@@ -438,6 +353,11 @@
   </url>
   
   <url>
+    <loc>https://techfreak.pl/categories/bez-kategorii/</loc>
+    <lastmod>2017-10-22T19:33:44+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techfreak.pl/sieci-wifi-login-haslo/</loc>
     <lastmod>2017-10-22T19:33:44+00:00</lastmod>
   </url>
@@ -465,6 +385,11 @@
   <url>
     <loc>https://techfreak.pl/zbudowac-drona-wyscigowego/</loc>
     <lastmod>2017-09-22T13:11:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techfreak.pl/categories/inne/</loc>
+    <lastmod>2017-09-01T22:37:08+00:00</lastmod>
   </url>
   
   <url>
@@ -813,6 +738,11 @@
   </url>
   
   <url>
+    <loc>https://techfreak.pl/tags/arduino/</loc>
+    <lastmod>2016-08-09T20:26:16+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://techfreak.pl/tags/modem/</loc>
     <lastmod>2016-08-09T20:26:16+00:00</lastmod>
   </url>
@@ -1000,6 +930,11 @@
   <url>
     <loc>https://techfreak.pl/raspberry-pi-zero-konfiguracja-wifi/</loc>
     <lastmod>2016-03-04T20:14:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techfreak.pl/tags/1wire/</loc>
+    <lastmod>2016-02-15T16:28:43+00:00</lastmod>
   </url>
   
   <url>

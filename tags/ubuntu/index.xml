@@ -7,20 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Sat, 28 Jul 2018 12:50:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Jun 2018 20:51:20 +0000</lastBuildDate>
     
 	<atom:link href="https://techfreak.pl/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>MyOpenLab – krótko o programie.</title>
-      <link>https://techfreak.pl/myopenlab-krotko-o-programie/</link>
-      <pubDate>Sat, 28 Jul 2018 12:50:12 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/myopenlab-krotko-o-programie/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;OK..&lt;/strong&gt; udało się mamy już zmontowaną elektronikę – działa oparta o Arduino albo inny moduł elektroniczny da się tym sterować za pomocą terminala teraz trzeba by nadać temu jakaś formę tak aby zwykły człowiek mógł tym sterować bez zaznajomienia się z dokumentacją – ja tego uczyć się nie musze bo moje dzieło znam na pamięć…. no ale graficznie coś trzeba dodać i to najlepiej w ciągu kilku godzin tak aby nie rozgryzać całego środowiska programistycznego.&lt;br&gt;
-Brzmi znajomo ?&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Jak wygląda mój pulpit Ubuntu z Gnome Shell</title>

@@ -7,28 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Sun, 17 Mar 2019 11:06:19 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Oct 2017 19:33:44 +0000</lastBuildDate>
     
 	<atom:link href="https://techfreak.pl/categories/bez-kategorii/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Regulator temperatury – na szybko.</title>
-      <link>https://techfreak.pl/regulator-temperatury-na-szybko/</link>
-      <pubDate>Sun, 17 Mar 2019 11:06:19 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/regulator-temperatury-na-szybko/</guid>
-      <description>Projekt zrealizowany z powodu pojawienia się nagłej potrzeby rozwiązania problemu – 2 pomieszczenia i jeden system grzania (brak elektrozaworów – jeden pion grzewczy). Tak więc to co pod ręką można było odnaleźć tj.: arduino i jakiś shield z wyświetlaczem LCD. Założenie co do projektu – wybranie średniej z dwóch sensorów i wysterowanie pieca gazowego. W przypadku uszkodzenia sensora – informacja dla użytkownika na LCD. Histereza stała tj +/-1’c od nastawy.</description>
-    </item>
-    
-    <item>
-      <title>BeCool – Pomysł na upał część 1</title>
-      <link>https://techfreak.pl/becool-pomysl-na-upal-czesc-1/</link>
-      <pubDate>Fri, 10 Aug 2018 03:58:37 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/becool-pomysl-na-upal-czesc-1/</guid>
-      <description>Nie wiem jak wam ale mi ostatnio temperatura na zewnątrz zaczyna mocno przeszkadzać. A z racji posiadania nowych małych członków rodziny i dużej ilości niebezpiecznych zabawek trzeba było przeprowadzić na sobie ewakuacji – elektronika na strych mechanika do garażu. Strych obecnie u mnie to piekielna sauna 31’C w dzień a o 5:30 rano przyjemne 28’5C :) Na pytanie które zawsze powstaje w portalach dotyczących spraw doczesnych „Co robić ? Jak żyć ?</description>
-    </item>
     
     <item>
       <title>Sieci WiFi na login i hasło</title>

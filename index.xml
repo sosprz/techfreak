@@ -32,40 +32,12 @@ Najnowsza wersja nettemp z jednej strony została odświeżona i przyniosła par
     </item>
     
     <item>
-      <title>Regulator temperatury – na szybko.</title>
-      <link>https://techfreak.pl/regulator-temperatury-na-szybko/</link>
-      <pubDate>Sun, 17 Mar 2019 11:06:19 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/regulator-temperatury-na-szybko/</guid>
-      <description>Projekt zrealizowany z powodu pojawienia się nagłej potrzeby rozwiązania problemu – 2 pomieszczenia i jeden system grzania (brak elektrozaworów – jeden pion grzewczy). Tak więc to co pod ręką można było odnaleźć tj.: arduino i jakiś shield z wyświetlaczem LCD. Założenie co do projektu – wybranie średniej z dwóch sensorów i wysterowanie pieca gazowego. W przypadku uszkodzenia sensora – informacja dla użytkownika na LCD. Histereza stała tj +/-1’c od nastawy.</description>
-    </item>
-    
-    <item>
       <title>Czołg FPV z Drukarki 3D cześć druga</title>
       <link>https://techfreak.pl/czolg-fpv-z-drukarki-3d-czesc-druga/</link>
       <pubDate>Wed, 19 Dec 2018 13:18:15 +0000</pubDate>
       
       <guid>https://techfreak.pl/czolg-fpv-z-drukarki-3d-czesc-druga/</guid>
       <description>&lt;p&gt;Zapraszam na kolejną cześć z dziennika budowy zdalnie sterowanego czołgu wydrukowanego w technologi 3D z podglądem FPV. Poprzednią można zobaczyć &lt;a href=&#34;https://techfreak.pl/czolg-fpv-z-drukarki-3d-czesc-pierwsza/&#34;&gt;tutaj&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Liczarka elementów smd  w taśmach.</title>
-      <link>https://techfreak.pl/liczarka-elementow-smd-w-tasmach/</link>
-      <pubDate>Sun, 16 Dec 2018 12:37:56 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/liczarka-elementow-smd-w-tasmach/</guid>
-      <description>Z cyklu DIY – jeżeli mamy już jakieś projekty za sobą zostaje mi i zapewne pozostałym majsterkowiczom duża ilość elementów SMD z prostej przyczyny – nie da się zamówić np. mniej niż 100 elementów danego typu. Z biegiem lat elementy się gromadzą i wpadłem na pomysł że warto było by zweryfikować swój zasób. I tak powstał projekcik liczarki komponentów SMD zamkniętych w rolkach.
-Dla czego pakuje się elementy w rolkach? Przy produkcji przemysłowej elementy są kładzione za pomocą maszyny Pick&amp;amp;Place która pobiera każdy elemencik z wyznaczonego podajnika (feedera) a tam jest on zapakowany w taśmie.</description>
-    </item>
-    
-    <item>
-      <title>Ekologia? Oczywiście że dbamy (nie tak naprawę)!</title>
-      <link>https://techfreak.pl/ekologia-oczywiscie-ze-dbamy-nie-tak-naprawe/</link>
-      <pubDate>Tue, 09 Oct 2018 16:34:07 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/ekologia-oczywiscie-ze-dbamy-nie-tak-naprawe/</guid>
-      <description>&lt;p&gt;Ten wpis ma być krótki – tak jak czas życia produktu.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -97,15 +69,6 @@ Dla czego pakuje się elementy w rolkach? Przy produkcji przemysłowej elementy 
     </item>
     
     <item>
-      <title>Sekcja zwłok – czyli produkt mówi o projektancie.</title>
-      <link>https://techfreak.pl/sekcja-zwlok-czyli-produkt-mowi-o-projektancie/</link>
-      <pubDate>Sat, 25 Aug 2018 04:24:35 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/sekcja-zwlok-czyli-produkt-mowi-o-projektancie/</guid>
-      <description>W tym opisie chciałbym przedstawić swoje przemyślenia na temat procesu produkcji elektroniki na przykładzie moim zdaniem porządnego urządzenia jakim był denat tj czytnik kodów kreskowych marki Motorola Symbol. Obecnie wyczynem nie jest kupić coś z chin za 3$ z darmową wysyłką a często sami z góry już zakładamy że to nie przeżyje długo wpływ na taką postawę ma samo urządzenie (sposób zaprojektowania, użyte elementy, proces produkcji i o ile jest testowanie wyrobu gotowego), opinie o nim w internecie lub opinie o podobnych wyrobach.</description>
-    </item>
-    
-    <item>
       <title>Tiny track – mini pojazd z kamerą fpv</title>
       <link>https://techfreak.pl/tiny-track-mini-pojazd-z-kamera-fpv/</link>
       <pubDate>Tue, 21 Aug 2018 18:19:05 +0000</pubDate>
@@ -121,15 +84,6 @@ Dla czego pakuje się elementy w rolkach? Przy produkcji przemysłowej elementy 
       
       <guid>https://techfreak.pl/hglrc-hornet-120/</guid>
       <description>&lt;p&gt;Czy mniejszy quadkopter wyścigowy to tylko zabawka do domu? Zobacz HGLRC Hornet 120 na 2.5″ śmigłach.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>BeCool – Pomysł na upał część 1</title>
-      <link>https://techfreak.pl/becool-pomysl-na-upal-czesc-1/</link>
-      <pubDate>Fri, 10 Aug 2018 03:58:37 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/becool-pomysl-na-upal-czesc-1/</guid>
-      <description>Nie wiem jak wam ale mi ostatnio temperatura na zewnątrz zaczyna mocno przeszkadzać. A z racji posiadania nowych małych członków rodziny i dużej ilości niebezpiecznych zabawek trzeba było przeprowadzić na sobie ewakuacji – elektronika na strych mechanika do garażu. Strych obecnie u mnie to piekielna sauna 31’C w dzień a o 5:30 rano przyjemne 28’5C :) Na pytanie które zawsze powstaje w portalach dotyczących spraw doczesnych „Co robić ? Jak żyć ?</description>
     </item>
     
     <item>
@@ -149,16 +103,6 @@ Dla czego pakuje się elementy w rolkach? Przy produkcji przemysłowej elementy 
       
       <guid>https://techfreak.pl/serwomechanizm-towerpro-sg90-ciagly-obrot/</guid>
       <description>&lt;p&gt;Dziś mała modyfikacja Serwomechanizmu TowerPro SG90. Polega ona na takiej modyfikacji aby serwo obracało się o 360 stopni.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>MyOpenLab – krótko o programie.</title>
-      <link>https://techfreak.pl/myopenlab-krotko-o-programie/</link>
-      <pubDate>Sat, 28 Jul 2018 12:50:12 +0000</pubDate>
-      
-      <guid>https://techfreak.pl/myopenlab-krotko-o-programie/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;OK..&lt;/strong&gt; udało się mamy już zmontowaną elektronikę – działa oparta o Arduino albo inny moduł elektroniczny da się tym sterować za pomocą terminala teraz trzeba by nadać temu jakaś formę tak aby zwykły człowiek mógł tym sterować bez zaznajomienia się z dokumentacją – ja tego uczyć się nie musze bo moje dzieło znam na pamięć…. no ale graficznie coś trzeba dodać i to najlepiej w ciągu kilku godzin tak aby nie rozgryzać całego środowiska programistycznego.&lt;br&gt;
-Brzmi znajomo ?&lt;/p&gt;</description>
     </item>
     
     <item>
