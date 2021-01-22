@@ -1,0 +1,89 @@
+---
+title: Mini quadcopter Wltoys V222 fajna zabawka na początek
+author: Przemek
+type: post
+date: 2014-02-23T21:24:07+00:00
+url: /mini-quadcopter-wltoys-v222-fajna-zabawka-na-poczatek/
+featured_image: /wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_12.jpg
+hits:
+  - 801
+dsq_thread_id:
+  - 2310002658
+colormag_page_layout:
+  - default_layout
+categories:
+  - Drony
+tags:
+  - fpv
+  - quadcopter
+
+---
+Quadcoptery jak i cała zabawa w RC mocno mnie wciągnęła. Już nie będę pisał o moich początkach gdzie zaczynałem budować quady 45cm. Ale wtedy wyszedłem od złego założenia, które polegało na tym że umiem w miarę elektronikę to będzie ok. A wcale nie było bo nie umiałem latać. Zanim nauczyłem się w miarę poruszać musiałem sprzedać wszystkie części. Ale po jakimś czasie nie wytrzymałem i postanowiłem ponownie wejść w temat. <!--more-->
+
+Zaczęło się od kupna<a title="ladybird v2" href="http://techfreak.pl/mini-quadcopter-loty-z-mini-kamerka/" target="_blank" rel="noopener"> LadyBIrd v2 o którym pisałem jakiś czas temu</a>. Ten mini model pozwolił mi na spokojne zapoznanie się z trybem latania choć nie polatałem zbyt wiele czasu nim to już zdążyłem przetestować drugi dość <a title="MC120" href="http://techfreak.pl/minicopter-mc-120/" target="_blank" rel="noopener">popularny model MC120</a>. LadyBird v2 jest fajną i tanią opcją bo za 120zł (chiny). Ale obecnie leży w pudełku i czeka na zapasowy silnik. Niestety latanie w domu powoduje najwięcej uszkodzeń. Z kolei testowany MC120 też spoczął na stosie wraków z powodu walniętej baterii. I tak własnie skusił mnie banggood swoim <a title="quadcopter vl v222" href="http://www.banggood.com/Wholesale-Http--Or-Or-Www_banggood_com-Or-Wholesale-Upgrade-Wltoys-V959-V2-2_4G-6-Axis-4CH-RC-Quadcopter-With-Camera-Mode-2-RTF-p-67794_html-p-67794.html?p=9H0114137951201303E0" target="_blank" rel="noopener">Wltoys v222</a> którego zamówiłem już kilka miesięcy temu.
+
+Wltoys v222 to większy model od popularnych biedron i posiada kamerkę z zapisem wideo na kartę SD. Co wydawało się całkiem fajną opcją szczególnie że posiada 6 osiową stabilizację (żyroskop, akcelerometr). Zdecydowałem się na zakup a na koncie zostało 200zł mniej. Paczka jak zawsze przyszła około w 2 tygodnie. A poniżej wrzucam moje fotki.
+
+[<img class="aligncenter size-full wp-image-6314" src="http://techfreak.pl/wp-content/uploads/2014/02/IMG_20131216_072736_1.jpg" alt="IMG_20131216_072736_1" width="1000" height="500" />][1] [<img class="aligncenter size-full wp-image-6315" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_0.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_0" width="1000" height="665" />][2] [<img class="aligncenter size-full wp-image-6316" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_1.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_1" width="1000" height="665" />][3] [<img class="aligncenter size-full wp-image-6317" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_2.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_2" width="1000" height="665" />][4] [<img class="aligncenter size-full wp-image-6318" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_3.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_3" width="1000" height="665" />][5] [<img class="aligncenter size-full wp-image-6319" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_4.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_4" width="1000" height="665" />][6] [<img class="aligncenter size-full wp-image-6320" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_5.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_5" width="1000" height="665" />][7] [<img class="aligncenter size-full wp-image-6321" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_6.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_6" width="1000" height="665" />][8] [<img class="aligncenter size-full wp-image-6322" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_7.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_7" width="1000" height="665" />][9] [<img class="aligncenter size-full wp-image-6323" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_8.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_8" width="1000" height="665" />][10] [<img class="aligncenter size-full wp-image-6324" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_9.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_9" width="1000" height="665" />][11] [<img class="aligncenter size-full wp-image-6325" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_10.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_10" width="1000" height="665" />][12] [<img class="aligncenter size-full wp-image-6326" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_11.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_11" width="1000" height="665" />][13] [<img class="aligncenter size-full wp-image-6327" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_12.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_12" width="1000" height="665" />][14] [<img class="aligncenter size-full wp-image-6328" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_13.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_13" width="1000" height="665" />][15] [<img class="aligncenter size-full wp-image-6329" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_14.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_14" width="1000" height="665" />][16] [<img class="aligncenter size-full wp-image-6330" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_15.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_15" width="1000" height="665" />][17] [<img class="aligncenter size-full wp-image-6331" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_16.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_16" width="1000" height="665" />][18] [<img class="aligncenter size-full wp-image-6332" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_17.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_17" width="1000" height="665" />][19] [<img class="aligncenter size-full wp-image-6333" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_18.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_18" width="1000" height="665" />][20] [<img class="aligncenter size-full wp-image-6334" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_19.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_19" width="1000" height="665" />][21] [<img class="aligncenter size-full wp-image-6335" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_20.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_20" width="1000" height="665" />][22] [<img class="aligncenter size-full wp-image-6336" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_21.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_21" width="1000" height="665" />][23] [<img class="aligncenter size-full wp-image-6337" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_23.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_23" width="1000" height="665" />][24] [<img class="aligncenter size-full wp-image-6338" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_24.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_24" width="1000" height="665" />][25] [<img class="aligncenter size-full wp-image-6339" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_25.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_25" width="1000" height="665" />][26] [<img class="aligncenter size-full wp-image-6340" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_26.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_26" width="1000" height="665" />][27] [<img class="aligncenter size-full wp-image-6341" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_27.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_27" width="1000" height="665" />][28] [<img class="aligncenter size-full wp-image-6342" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_28.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_28" width="1000" height="665" />][29] [<img class="aligncenter size-full wp-image-6343" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_29.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_29" width="1000" height="665" />][30] [<img class="aligncenter size-full wp-image-6344" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_30.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_30" width="1000" height="665" />][31] [<img class="aligncenter size-full wp-image-6345" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_31.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_31" width="1000" height="665" />][32] [<img class="aligncenter size-full wp-image-6346" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_32.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_32" width="1000" height="665" />][33] [<img class="aligncenter size-full wp-image-6347" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_33.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_33" width="1000" height="665" />][34] [<img class="aligncenter size-full wp-image-6348" src="http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_35.jpg" alt="Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_35" width="1000" height="665" />][35]
+
+Dobra jeśli ktoś przeżył tą masę fotek to może czytać dalej.
+
+Wiadomo chińszczyzna chińszczyzną ale model wygląda naprawdę ok. No czytnik kart z zestawu był tak tandetny że poleciał do śmieci od razu. Aparatura całkiem fajna. I baterie całkiem dobrze na niej trzymają. Co do mini kamerki wiedziałem że nie mogę się dużo spodziewać ale zawiodłem się bo obraz nagrywany był moim zdaniem gorszy od innych nagrań które widziałem z kamerki tego modelu. Myślałem że to może kwestia ustawienia soczewki. Pewnie tak.. ale przy próbie kręcenia złamałem plastik i soczewka mi wyleciała. Dobrze że robiłem to na koniec testu i zdążyłem nagrać jakieś materiały.
+
+Poniżej możecie zobaczyć parę różnych filmików z różnych miejsc zarówno z kamerki pokładowej jak i z telefonu który nagrywał lot.
+
+
+
+Bystrzaków którzy zauważyli na nagraniu lotu wysokościowego mały dropout (4:40). Zapraszam do dalszego czytania.
+
+Po tym właśnie locie wykonałem jeszcze jeden który się zakończył niekontrolowanym lądowaniem na jakiejś strasznej posesji z sąsiadami mówimy na nią straszny domek ;) Straciłem totalnie kontrolę na quadem i generalnie skończyło się na lądowaniu na drzewku. Im częściej latałem tym częściej doświadczałem dropou&#8217;tów. Oczywiście okazało się że na RCgroups jest wątek w tej sprawie i że jest ona znana. Wysłałem zapytanie do banggoda i po 2 tygodniach przysłali mi nową płytę sterującą. Byłem zaskoczony że tak załatwili sprawę ale to oznacza że znają problem. Poniżej fotki tych dwóch płytek.
+
+[<img class="aligncenter size-full wp-image-6351" src="http://techfreak.pl/wp-content/uploads/2014/02/vltoys_v222_board_FC0.jpg" alt="vltoys_v222_board_FC0" width="1000" height="665" />][36] [<img class="aligncenter size-full wp-image-6352" src="http://techfreak.pl/wp-content/uploads/2014/02/vltoys_v222_board_FC1.jpg" alt="vltoys_v222_board_FC1" width="1000" height="665" />][37]
+
+Po wymianie naprawdę zauważyłem większą stabilność. A dodatkowo flipy które będzie widać na następnym filmiku będą o wiele lepszej jakości niż poprzednie.
+
+
+
+Jak widać na filmiku quad jest już bez obudowy ponieważ miał bliskie spotkanie z drzewkiem. Oczywiście zniszczenia nie są duże aby nie można było dalej latać ale ponownie jej nie zamontowałem. Chociaż nie mam tego nagranego quad zaliczył dwa nurkowania w kałużę na tym podmokłym polu. O dźiwo przeżył bez żądnych strat silników czy płyty głównej która była cała mokra. Może to fart techfreakowski ;)
+
+W tytule napisałem &#8222;na początek&#8221; bo moim zdaniem jest to świetna maszyna na naukę latania. Ponieważ swoją wielkością zmusza aby z nim wyjść na dwór. Całkiem jak pies :) A to właśnie tam uniknie się nie przyjemnych lądowań i awarii. Co nie zmniejszy budżetu i nie zniechęci do latania. Aparatura oferuje cztery tryby latania na 40%, 60%, 80% i na 100%.  40% można przyrównać do trybu początkujący a 100% tryb acro czyli ciężej opanować maszynę ale można wykonywać różne akrobacje. Oprócz tych trybów można z aparatury startować/stopować nagrywanie lub strzelać fotki. W ogóle zamiast aparatu można podłączyć inne gadżety jak mini działko lub zwijaną linkę. <a title="rcgroups" href="http://www.rcgroups.com/forums/showpost.php?p=25265110&postcount=2" target="_blank" rel="noopener">Na RCgroups.com ładnie to posortowali</a>.
+
+Polecam wszystkim tego quadzika a szczególnie aby zakupić od razu <a href="http://www.banggood.com/Wholesale-5-X-WLtoys-V959-V212-V222-RC-Quadcopter-Parts-3_7V-500mAh-JST-Battery-p-65849.html?p=9H0114137951201303E0&utm_campaign=techfreak&utm_content=chendongling" target="_blank" rel="noopener">pakiet pięciu baterii</a>. W mojej mini flocie zostanie on na pewno na dłużej. A ja sam obecnie jestem w trakcie testów nowego quada tym razem rama z drukarki 3D, mocniejsze silniki i kamerka <a title="Mini kamerka mobius" href="https://www.youtube.com/watch?v=VlRxg8pc5uk" target="_blank" rel="noopener">mobius</a> na pokładzie. Ale to za jakiś czas :)
+
+ [1]: http://techfreak.pl/wp-content/uploads/2014/02/IMG_20131216_072736_1.jpg
+ [2]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_0.jpg
+ [3]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_1.jpg
+ [4]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_2.jpg
+ [5]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_3.jpg
+ [6]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_4.jpg
+ [7]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_5.jpg
+ [8]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_6.jpg
+ [9]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_7.jpg
+ [10]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_8.jpg
+ [11]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_9.jpg
+ [12]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_10.jpg
+ [13]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_11.jpg
+ [14]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_12.jpg
+ [15]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_13.jpg
+ [16]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_14.jpg
+ [17]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_15.jpg
+ [18]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_16.jpg
+ [19]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_17.jpg
+ [20]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_18.jpg
+ [21]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_19.jpg
+ [22]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_20.jpg
+ [23]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_21.jpg
+ [24]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_23.jpg
+ [25]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_24.jpg
+ [26]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_25.jpg
+ [27]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_26.jpg
+ [28]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_27.jpg
+ [29]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_28.jpg
+ [30]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_29.jpg
+ [31]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_30.jpg
+ [32]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_31.jpg
+ [33]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_32.jpg
+ [34]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_33.jpg
+ [35]: http://techfreak.pl/wp-content/uploads/2014/02/Wltoys_V222_2.4G_6-Axis_RC_Quadcopter_35.jpg
+ [36]: http://techfreak.pl/wp-content/uploads/2014/02/vltoys_v222_board_FC0.jpg
+ [37]: http://techfreak.pl/wp-content/uploads/2014/02/vltoys_v222_board_FC1.jpg

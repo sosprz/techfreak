@@ -1,0 +1,68 @@
+---
+title: Drukarka 3D dziennik budowy cz3
+author: Przemek
+type: post
+date: 2013-09-18T06:09:22+00:00
+url: /drukarka-3d-dziennik-budowy-cz3/
+featured_image: /wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_27.jpg
+hits:
+  - 2718
+dsq_thread_id:
+  - 1772845870
+categories:
+  - Drukarki 3D
+  - Elektronika
+tags:
+  - drukarka 3d
+  - Ramps 1.4
+  - RepRap
+
+---
+No to przyszedł czas na składanie wszystkich części MendelMaxa 1.5 w jedną całość. Jak pisałem w <a title="Drukarka 3d" href="http://techfreak.pl/drukarka-3d-dziennik-budowy-cz1/" target="_blank">pierwszej części</a> zabrakło mi plastików ale z pomocą przyszedł mi [devildesign.pl][1] który dostarczył mi plastiki dzięki którym mogłem dalej budować. Plastiki przyszły w wielkim kartonie. Okazało się że w prezencie dostałem trochę ABS na początek i szpulę. Plastiki były zapakowane w pudełkach i dodatkowo w plastikowych woreczkach. Całkiem fajnie to wyglądało. Fotki z paczki poniżej.
+
+[<img class="aligncenter size-full wp-image-4938" alt="techfreak_pl_drukarka3d_delidesign_pl_MendelMax_0_1" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_delidesign_pl_MendelMax_0_1.jpg" width="1000" height="665" />][2] [<img class="aligncenter size-full wp-image-4939" alt="techfreak_pl_drukarka3d_delidesign_pl_MendelMax_1_1" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_delidesign_pl_MendelMax_1_1.jpg" width="1000" height="665" />][3] [<img class="aligncenter size-full wp-image-4940" alt="techfreak_pl_drukarka3d_delidesign_pl_MendelMax_2_1" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_delidesign_pl_MendelMax_2_1.jpg" width="1000" height="665" />][4] [<img class="aligncenter size-full wp-image-4941" alt="techfreak_pl_drukarka3d_delidesign_pl_MendelMax_3_1" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_delidesign_pl_MendelMax_3_1.jpg" width="1000" height="665" />][5] [<img class="aligncenter size-full wp-image-4942" alt="techfreak_pl_drukarka3d_delidesign_pl_MendelMax_4_1" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_delidesign_pl_MendelMax_4_1.jpg" width="1000" height="665" />][6]
+
+### MendelMax 1.5
+
+Poniżej wrzucam mniej więcej fotki po kolei jak składałem według instrukcji. I w zasadzie większych problemów nie było. Wszystko do siebie pasuje, wiadomo czasem trzeba przeszlifować jakiś plastik aby śrubka weszła lub podkładka. Jedyne problemy jakie napotkałem były związane ze śrubkami. Przy składaniu stołu lub plastików osi Z gdzie według instrukcji trzeba było użyć M3x20 a potem okazywało się że później zabrakło bo jednak trzeba było użyć M3x16.
+
+[<img class="aligncenter size-full wp-image-4904" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_0" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_0.jpg" width="1000" height="500" />][7] [<img class="aligncenter size-full wp-image-4905" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_1" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_1.jpg" width="1000" height="500" />][8] [<img class="aligncenter size-full wp-image-4906" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_2" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_2.jpg" width="1000" height="500" />][9] [<img class="aligncenter size-full wp-image-4907" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_3" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_3.jpg" width="1000" height="500" />][10] [<img class="aligncenter size-full wp-image-4908" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_4" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_4.jpg" width="1000" height="500" />][11] [<img class="aligncenter size-full wp-image-4909" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_5" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_5.jpg" width="1000" height="500" />][12] [<img class="aligncenter size-full wp-image-4910" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_6" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_6.jpg" width="1000" height="500" />][13] [<img class="aligncenter size-full wp-image-4911" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_7" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_7.jpg" width="1000" height="500" />][14] [<img class="aligncenter size-full wp-image-4912" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_8" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_8.jpg" width="1000" height="500" />][15] [<img class="aligncenter size-full wp-image-4913" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_9" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_9.jpg" width="1000" height="1333" />][16] [<img class="aligncenter size-full wp-image-4914" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_10" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_10.jpg" width="1000" height="500" />][17] [<img class="aligncenter size-full wp-image-4915" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_11" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_11.jpg" width="1000" height="500" />][18] [<img class="aligncenter size-full wp-image-4916" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_12" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_12.jpg" width="1000" height="500" />][19] [<img class="aligncenter size-full wp-image-4917" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_13" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_13.jpg" width="1000" height="500" />][20] [<img class="aligncenter size-full wp-image-4918" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_14" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_14.jpg" width="1000" height="500" />][21] [<img class="aligncenter size-full wp-image-4919" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_15" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_15.jpg" width="1000" height="500" />][22] [<img class="aligncenter size-full wp-image-4920" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_16" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_16.jpg" width="1000" height="1333" />][23] [<img class="aligncenter size-full wp-image-4921" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_17" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_17.jpg" width="1000" height="1333" />][24] [<img class="aligncenter size-full wp-image-4922" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_18" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_18.jpg" width="1000" height="1333" />][25] [<img class="aligncenter size-full wp-image-4923" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_19" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_19.jpg" width="1000" height="1333" />][26] [<img class="aligncenter size-full wp-image-4924" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_20" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_20.jpg" width="1000" height="1333" />][27] [<img class="aligncenter size-full wp-image-4925" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_21" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_21.jpg" width="1000" height="500" />][28] [<img class="aligncenter size-full wp-image-4926" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_22" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_22.jpg" width="1000" height="1333" />][29] [<img class="aligncenter size-full wp-image-4927" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_23" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_23.jpg" width="1000" height="500" />][30] [<img class="aligncenter size-full wp-image-4928" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_24" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_24.jpg" width="1000" height="1333" />][31] [<img class="aligncenter size-full wp-image-4929" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_25" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_25.jpg" width="1000" height="1333" />][32] [<img class="aligncenter size-full wp-image-4930" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_26" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_26.jpg" width="1000" height="500" />][33] [<img class="aligncenter size-full wp-image-4931" alt="techfreak_pl_drukarka3d_gadgets3d_MendelMax_27" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_27.jpg" width="1000" height="500" />][34]
+
+Na koniec został extruder który złożyłem bez podkładek bo jakoś mi nie pasowały i drut nie wchodził dobrze. Działa w sumie idealnie ale zobaczymy jak będzie na &#8222;gorąco&#8221;. Na tym etapie zostały mi jeszcze do zainstalowania endstopy i mogę brać się za uruchamianie. W bilansie materiałów zostało mi trochę śrubek z zestawu ale zabrakło wszystkich do hotbeda i endstopów. Obi i Reroy są blisko&#8230; ;).
+
+W następnej części na pewno będzie trochę więcej o extruderze, hotend&#8217;zie i endstop&#8217;ach.
+
+ [1]: http://www.devildesign.pl/pl/
+ [2]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_delidesign_pl_MendelMax_0_1.jpg
+ [3]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_delidesign_pl_MendelMax_1_1.jpg
+ [4]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_delidesign_pl_MendelMax_2_1.jpg
+ [5]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_delidesign_pl_MendelMax_3_1.jpg
+ [6]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_delidesign_pl_MendelMax_4_1.jpg
+ [7]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_0.jpg
+ [8]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_1.jpg
+ [9]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_2.jpg
+ [10]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_3.jpg
+ [11]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_4.jpg
+ [12]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_5.jpg
+ [13]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_6.jpg
+ [14]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_7.jpg
+ [15]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_8.jpg
+ [16]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_9.jpg
+ [17]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_10.jpg
+ [18]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_11.jpg
+ [19]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_12.jpg
+ [20]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_13.jpg
+ [21]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_14.jpg
+ [22]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_15.jpg
+ [23]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_16.jpg
+ [24]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_17.jpg
+ [25]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_18.jpg
+ [26]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_19.jpg
+ [27]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_20.jpg
+ [28]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_21.jpg
+ [29]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_22.jpg
+ [30]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_23.jpg
+ [31]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_24.jpg
+ [32]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_25.jpg
+ [33]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_26.jpg
+ [34]: http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_gadgets3d_MendelMax_27.jpg

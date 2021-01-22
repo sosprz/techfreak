@@ -1,0 +1,202 @@
+---
+title: Mój test drukarki 3D Anycubic i3 Mega
+author: Przemek
+type: post
+date: 2018-05-27T13:11:52+00:00
+url: /anycubic-i3-mega/
+featured_image: /wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox25.jpg
+colormag_page_layout:
+  - default_layout
+categories:
+  - Drukarki 3D
+tags:
+  - drukarka 3d
+  - recenzja
+  - test
+
+---
+Tona fotek i pare zdań na temat taniej i dobrej drukarki 3D Anycubic I3 Mega.  
+<!--more-->
+
+Wszystko zaczęło się w 2013 kiedy kupiłem [MendelMaxa 1.5][1] od gadgets3d czyli od teraźniejszej ekipy Zoltrax :)  Następnie kolejną moją drukarką 3D była mega popularna polska konstrukcja [Profab Gate LE][2] od U-design. Teraz po tak długiej przerwie w drukowaniu mam przyjemność testować drukarkę Anycubic I3 mega. Dlaczego akurat ta? Dlaczego nie Anet A8 lub A6. Moim celem nie było składanie drukarki od początku bo to już miałem za sobą. Biorąc pod uwagę, że aż tak wiele się nie zmieniło chciałem po prostu drukować. Całkiem tanim i ciekawym wyborem była właśnie I3 mega, która przykuła moją uwagę najbardziej. Wyświetlacz dotykowy, drukowanie z SD, składnie miało zająć 10 min, super wydruki prosto z pudełka za taką cenę? Musiałem to sprawdzić.
+
+### Anycubic I3 Mega Unbox
+
+Po zamówieniu drukarki z Aliexpress za 320$ z przesyłką kurierem z Niemiec po paru dniach była już u mnie w domu! Przyszła mega dobrze zapakowana.
+
+[<img class="aligncenter size-full wp-image-14629" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox1.jpg" alt="" width="1000" height="667" />][3] [<img class="aligncenter size-full wp-image-14630" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox2.jpg" alt="" width="1000" height="667" />][4] [<img class="aligncenter size-full wp-image-14631" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox3.jpg" alt="" width="1000" height="667" />][5] [<img class="aligncenter size-full wp-image-14632" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox4.jpg" alt="" width="1000" height="667" />][6] [<img class="aligncenter size-full wp-image-14633" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox6.jpg" alt="" width="1000" height="667" />][7] [<img class="aligncenter size-full wp-image-14634" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox5.jpg" alt="" width="1000" height="667" />][8] [<img class="aligncenter size-full wp-image-14635" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox7.jpg" alt="" width="1000" height="667" />][9] [<img class="aligncenter size-full wp-image-14636" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox9.jpg" alt="" width="1000" height="667" />][10] [<img class="aligncenter size-full wp-image-14637" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox8.jpg" alt="" width="1000" height="667" />][11] [<img class="aligncenter size-full wp-image-14638" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox11.jpg" alt="" width="1000" height="667" />][12] [<img class="aligncenter size-full wp-image-14639" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox10.jpg" alt="" width="1000" height="667" />][13] [<img class="aligncenter size-full wp-image-14640" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox12.jpg" alt="" width="1000" height="667" />][14] [<img class="aligncenter size-full wp-image-14641" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox14.jpg" alt="" width="1000" height="667" />][15] [<img class="aligncenter size-full wp-image-14642" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox13.jpg" alt="" width="1000" height="667" />][16] [<img class="aligncenter size-full wp-image-14643" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox16.jpg" alt="" width="1000" height="667" />][17] [<img class="aligncenter size-full wp-image-14644" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox15.jpg" alt="" width="1000" height="667" />][18] [<img class="aligncenter size-full wp-image-14645" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox17.jpg" alt="" width="1000" height="667" />][19] [<img class="aligncenter size-full wp-image-14646" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox19.jpg" alt="" width="1000" height="667" />][20] [<img class="aligncenter size-full wp-image-14647" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox18.jpg" alt="" width="1000" height="667" />][21] [<img class="aligncenter size-full wp-image-14648" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox20.jpg" alt="" width="1000" height="667" />][22] [<img class="aligncenter size-full wp-image-14649" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox21.jpg" alt="" width="1000" height="667" />][23] [<img class="aligncenter size-full wp-image-14650" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox22.jpg" alt="" width="1000" height="667" />][24] [<img class="aligncenter size-full wp-image-14651" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox23.jpg" alt="" width="1000" height="667" />][25] [<img class="aligncenter size-full wp-image-14652" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox24.jpg" alt="" width="1000" height="667" />][26] [<img class="aligncenter size-full wp-image-14653" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox25.jpg" alt="" width="667" height="1000" />][27]
+
+&nbsp;
+
+### Instalacja, instrukcja i akcesoria
+
+Jak widać wyżej w środku same niespodzianki! Filament PLA na start, cała rolka. W oczy rzuca się zapasowy ekstruder, pierwsze co pomyślałem to czy czas życia tego zamontowanego jest taki krótki, że zaraz będę musiał go wymienić? Zapasowy end stop, wszystkie klucze potrzebne do rozebrania ekstrudera, imbusy, kabel usb, karta SD + dwie przejściówki, stojak na filament i instrukcja. Instrukcja mnie zaskoczyła bo jest tam opisane, mniej więcej co robić jak coś nie działa i jak powinny wyglądać pierwsze warstwy filamentu. Człowiek nie musi siedzieć z otwartym Youtubem lub forum a ma podstawową wiedzę zebraną w jednym miejscu. Instalacja to rzeczywiście skręcenie 8 śrub i podłączenie trzech wtyczek. Kalibracja czyli poziomowanie stołu jest taka jak zawsze była na kartkę papieru. Wiadomo że teraz można mieć czujnik w drukarce i sama będzie ona dostosowywać poziom osi Z do stołu lub pomoże skalibrować odpowiednią wysokość ale producent wolał wstawić grzany stół Ultrabase z którym nie działają czujniki wysokości. Wprowadzenie filamentu to też nie problem w menu wybrałem opcje &#8222;filament in&#8221; głowica rozgrzała się do odpowiedniej temperatury a silnik ekstrudera wpychał go powoli aż do pojawienia się rozgrzanego pod głowicą.
+
+### Pierwszy wydruk
+
+Wkładam kartę SD do slotu, wiedziałem, że na niej jest testowy plik do wydruku dwóch sów. OK, wkładam kartę a tu nic nie ma, OK już wiem po co dali przejściówkę w zapasie. Po wymianie pliki się pojawiły. Lepiej przejściówka niż ekstruder he he he. Od razu wywaliłem nie działającą do kosza. Po kliknięciu print głowica zaczęła drukować obrys testowy skirt a później już docelowy model. Wydruk poleciał bez problemu. Ile kiedyś ja czasu spędziłem aby tak musiało być! Po paru wydrukach stwierdziłem, że mogę je puszczać w ciemno, nie stałem i nie patrzałem czy dobrze zaczyna drukować. Efekt możecie sami ocenić poniżej, ja byłem zadowolony.
+
+[<img class="aligncenter size-full wp-image-14657" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-first-print1.jpg" alt="" width="1000" height="667" />][28] [<img class="aligncenter size-full wp-image-14659" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-first-print2.jpg" alt="" width="1000" height="667" />][29] [<img class="aligncenter size-full wp-image-14660" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-first-print4.jpg" alt="" width="1000" height="667" />][30] [<img class="aligncenter size-full wp-image-14661" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-first-print6.jpg" alt="" width="1000" height="667" />][31]
+
+### Ultrabase
+
+Po co ten grzany stół po co to ultrabase? Idealnie powyżej i poniżej widać, że stół ma naniesione małe kropeczki, które nie tylko dają fajną fakturę na podstawie modelu a zapewniają super przyczepność w trakcie drukowania. Czytałem, że minusem tej drukarki jest to, że bardzo ciężko odkleić model. Tak, to prawda jak stół jest rozgrzany to bardzo ciężko ale po ostygnięciu model sam odpada. I to jest właśnie cała siła tego stołu. Nie musiałem się bawić z taśmami, sokami, kaptonami. Bardzo fajna sprawa. Jedyne w co trzeba się zapatrzyć to aceton techniczny aby po każdym wydruku przeczyścić stół.
+
+[<img class="aligncenter size-full wp-image-14658" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-first-print3.jpg" alt="" width="1000" height="667" />][32]
+
+### Cura
+
+Dobra model testowy z SD wydrukowany ale chciałbym wydrukować tyle rzeczy z [thingiverse][33]. Jak to zrobić? Dzwonić po wsparcie? Nie, instalujesz program Cura, ja używam Ubuntu więc zaciągnąłem appimage. Wybrałem dodaj drukarkę wybrałem Anycubic i3 Mega i już. Cura to taki przyjemny program którym zamienisz/potniesz model w formacie STL do formatu gcode, który rozumiany jest przez drukarkę. Mało tego jeśli chcesz to obrócisz model, zwielokrotnisz, ustawisz jakość, wypełnienie (infill), wybierzesz czy chcesz użyć supportów czyli podtrzymywaczek elementów, które np. wystają ponad bryłę. Jeśli filament Ci się leje za bardzo i przy starcie modelu nie tworzy on pierwszej warstwy zwiększ liczbę okrążeń przed drukowaniem (skirt). Jeśli elementy, które po wydrukowaniu nie pasują do siebie np. śruba + nakrętka dodaj Horizontal Expansion -0.1. No i to na tyle z niczego więcej nie korzystałem na razie. Naprawę ciekawy program
+
+[<img class="aligncenter size-full wp-image-14672" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-cura.png" alt="" width="1280" height="748" />][34]
+
+### Wydruki na filamencie z zestawu
+
+Poniżej galeria moich pierwszych wydruków czarnym PLA, który był w zestawie. Jak widać wydrukowałem przejściówkę do filamentu aby szpula kręciła się płynnie. Niezłym wyzwaniem było wydrukowanie modułowego trzymaka.
+
+[<img class="aligncenter size-full wp-image-14676" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-1.jpg" alt="" width="1000" height="667" />][35] [<img class="aligncenter size-full wp-image-14677" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-2.jpg" alt="" width="1000" height="667" />][36] [<img class="aligncenter size-full wp-image-14678" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-3.jpg" alt="" width="1000" height="667" />][37] [<img class="aligncenter size-full wp-image-14679" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-4.jpg" alt="" width="1000" height="667" />][38] [<img class="aligncenter size-full wp-image-14680" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-5.jpg" alt="" width="1000" height="667" />][39] [<img class="aligncenter size-full wp-image-14681" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-6.jpg" alt="" width="1000" height="667" />][40] [<img class="aligncenter size-full wp-image-14682" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-7.jpg" alt="" width="1000" height="667" />][41] [<img class="aligncenter size-full wp-image-14683" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-8.jpg" alt="" width="1000" height="667" />][42] [<img class="aligncenter size-full wp-image-14684" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-9.jpg" alt="" width="1000" height="667" />][43] [<img class="aligncenter size-full wp-image-14685" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-10.jpg" alt="" width="1000" height="667" />][44] [<img class="aligncenter size-full wp-image-14686" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-11.jpg" alt="" width="1000" height="667" />][45] [<img class="aligncenter size-full wp-image-14687" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-12.jpg" alt="" width="1000" height="667" />][46] [<img class="aligncenter size-full wp-image-14688" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-13.jpg" alt="" width="1000" height="667" />][47] [<img class="aligncenter size-full wp-image-14689" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-14.jpg" alt="" width="1000" height="667" />][48] [<img class="aligncenter size-full wp-image-14690" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-15.jpg" alt="" width="1000" height="667" />][49] [<img class="aligncenter size-full wp-image-14691" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-16.jpg" alt="" width="1000" height="667" />][50] [<img class="aligncenter size-full wp-image-14692" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-17.jpg" alt="" width="1000" height="667" />][51] [<img class="aligncenter size-full wp-image-14693" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-18.jpg" alt="" width="1000" height="667" />][52] [<img class="aligncenter size-full wp-image-14694" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-19.jpg" alt="" width="1000" height="667" />][53] [<img class="aligncenter size-full wp-image-14695" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-20.jpg" alt="" width="1000" height="667" />][54] [<img class="aligncenter size-full wp-image-14696" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-21.jpg" alt="" width="1000" height="667" />][55] [<img class="aligncenter size-full wp-image-14697" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-22.jpg" alt="" width="1000" height="667" />][56] [<img class="aligncenter size-full wp-image-14698" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-23.jpg" alt="" width="1000" height="667" />][57] [<img class="aligncenter size-full wp-image-14699" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-24.jpg" alt="" width="1000" height="667" />][58] [<img class="aligncenter size-full wp-image-14700" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-25.jpg" alt="" width="1000" height="667" />][59] [<img class="aligncenter size-full wp-image-14701" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-26.jpg" alt="" width="1000" height="667" />][60] [<img class="aligncenter size-full wp-image-14702" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-27.jpg" alt="" width="1000" height="667" />][61] [<img class="aligncenter size-full wp-image-14703" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-28.jpg" alt="" width="1000" height="667" />][62] [<img class="aligncenter size-full wp-image-14704" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-29.jpg" alt="" width="1000" height="667" />][63] [<img class="aligncenter size-full wp-image-14705" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-30.jpg" alt="" width="1000" height="667" />][64] [<img class="aligncenter size-full wp-image-14706" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-31.jpg" alt="" width="1000" height="667" />][65] [<img class="aligncenter size-full wp-image-14707" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-32.jpg" alt="" width="1000" height="667" />][66] [<img class="aligncenter size-full wp-image-14708" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-33.jpg" alt="" width="1000" height="667" />][67] [<img class="aligncenter size-full wp-image-14709" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-34.jpg" alt="" width="1000" height="667" />][68] [<img class="aligncenter size-full wp-image-14710" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-35.jpg" alt="" width="1000" height="667" />][69] [<img class="aligncenter size-full wp-image-14711" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-36.jpg" alt="" width="1000" height="667" />][70] [<img class="aligncenter size-full wp-image-14712" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-37.jpg" alt="" width="1000" height="667" />][71] [<img class="aligncenter size-full wp-image-14713" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-38.jpg" alt="" width="1000" height="667" />][72] [<img class="aligncenter size-full wp-image-14714" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-39.jpg" alt="" width="1000" height="667" />][73] [<img class="aligncenter size-full wp-image-14715" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-40.jpg" alt="" width="1000" height="667" />][74] [<img class="aligncenter size-full wp-image-14716" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-41.jpg" alt="" width="1000" height="667" />][75] [<img class="aligncenter size-full wp-image-14719" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-44.jpg" alt="" width="1000" height="667" />][76] [<img class="aligncenter size-full wp-image-14720" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-45.jpg" alt="" width="1000" height="667" />][77] [<img class="aligncenter size-full wp-image-14721" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-46.jpg" alt="" width="1000" height="667" />][78] [<img class="aligncenter size-full wp-image-14722" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-47.jpg" alt="" width="1000" height="667" />][79] [<img class="aligncenter size-full wp-image-14723" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-48.jpg" alt="" width="1000" height="667" />][80]
+
+### PLA od DevilDesign
+
+Duże podziękowania dla znanego producenta filamentu  [DevilDesign][81] za podesłanie dwóch szpul PLA z których spokojnie mogłem podrukować poniższe rzeczy.
+
+Szpule od Devila przychodzą z otworem o średnicy 52mm więc musiałem wydrukować śrubę dzięki której szpula kręciła się gładko. Jak już to zrobiłem to do druku poszły różne rzeczy przede wszystkim wazoniki na które mam już 1000 zamówień, wychodziły naprawdę fajnie. Szczególnie niebieski kolor.
+
+[<img class="aligncenter size-full wp-image-14725" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-23.jpg" alt="" width="1000" height="667" />][82] [<img class="aligncenter size-full wp-image-14726" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-25.jpg" alt="" width="1000" height="667" />][83] [<img class="aligncenter size-full wp-image-14727" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-27.jpg" alt="" width="1000" height="667" />][84] [<img class="aligncenter size-full wp-image-14728" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-28.jpg" alt="" width="1000" height="667" />][85] [<img class="aligncenter size-full wp-image-14729" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-29.jpg" alt="" width="1000" height="667" />][86] [<img class="aligncenter size-full wp-image-14730" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-31.jpg" alt="" width="1000" height="667" />][87] [<img class="aligncenter size-full wp-image-14731" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-35.jpg" alt="" width="1000" height="667" />][88] [<img class="aligncenter size-full wp-image-14732" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-36.jpg" alt="" width="1000" height="667" />][89] [<img class="aligncenter size-full wp-image-14733" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-39.jpg" alt="" width="1000" height="667" />][90] [<img class="aligncenter size-full wp-image-14734" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-41.jpg" alt="" width="1000" height="667" />][91] [<img class="aligncenter size-full wp-image-14735" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-42.jpg" alt="" width="1000" height="667" />][92] [<img class="aligncenter size-full wp-image-14736" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-44.jpg" alt="" width="1000" height="667" />][93] [<img class="aligncenter size-full wp-image-14737" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-45.jpg" alt="" width="1000" height="667" />][94] [<img class="aligncenter size-full wp-image-14738" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-47.jpg" alt="" width="1000" height="667" />][95] [<img class="aligncenter size-full wp-image-14739" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-50.jpg" alt="" width="1000" height="667" />][96] [<img class="aligncenter size-full wp-image-14740" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-51.jpg" alt="" width="1000" height="667" />][97] [<img class="aligncenter size-full wp-image-14741" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-52.jpg" alt="" width="1000" height="667" />][98] [<img class="aligncenter size-full wp-image-14742" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-53.jpg" alt="" width="1000" height="667" />][99] [<img class="aligncenter size-full wp-image-14743" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-54.jpg" alt="" width="1000" height="667" />][100] [<img class="aligncenter size-full wp-image-14744" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-57.jpg" alt="" width="1000" height="667" />][101] [<img class="aligncenter size-full wp-image-14745" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-59.jpg" alt="" width="1000" height="667" />][102] [<img class="aligncenter size-full wp-image-14746" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-60.jpg" alt="" width="1000" height="667" />][103]
+
+[<img class="aligncenter size-full wp-image-14747" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-1.jpg" alt="" width="1000" height="667" />][104] [<img class="aligncenter size-full wp-image-14748" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-5.jpg" alt="" width="1000" height="667" />][105] [<img class="aligncenter size-full wp-image-14749" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-9.jpg" alt="" width="1000" height="667" />][106] [<img class="aligncenter size-full wp-image-14750" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-10.jpg" alt="" width="1000" height="667" />][107] [<img class="aligncenter size-full wp-image-14751" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-12.jpg" alt="" width="1000" height="667" />][108] [<img class="aligncenter size-full wp-image-14752" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-21.jpg" alt="" width="1000" height="667" />][109] [<img class="aligncenter size-full wp-image-14753" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-22.jpg" alt="" width="1000" height="667" />][110]
+
+### Firmware
+
+Po podłączeniu kabla USB do drukarki Cura nie tylko pozwoli na drukowanie przy pomocy komputera ale też na aktualizacje firmware. Trzeba pamiętać, że firmware w wyświetlaczu TFT a płycie głównej to dwie różne rzeczy i tym sposobem nie zaktualizujemy wyświetlacza. Na ten dzień nie ma na to sposobu, jeszcze.
+
+[<img class="aligncenter size-full wp-image-14673" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-firmware-update-1.png" alt="" width="1397" height="1000" />][111] [<img class="aligncenter size-full wp-image-14674" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-firmware-update-2.png" alt="" width="1103" height="852" />][112] [<img class="aligncenter size-full wp-image-14675" src="http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-firmware-update-3.png" alt="" width="937" height="859" />][113]
+
+### Thingiverse
+
+Jak byście chcieli podpatrzeć jakie modele drukuje to zapraszam na thingiverse gdzie wrzucam fotki wydrukowanych przeze mnie rzeczy [thingiverse.com][114]
+
+### Podsumowanie
+
+I3 mega drukuje z różnych materiałów ale ja w tym teście użyłem tylko PLA, prawdopodobnie zrobię kolejny wpis jak drukarka radzi sobie z ABS+ od DevilDesign, według opisów charakteryzuje się on mniejszą kurczliwością . Podsumowując drukarka Anycubic i3 Mega jest rzeczywiście MEGA. Nie ma problemu z ekstruderem, wymianami filamentu, silnikami, stepstikami, endstopy się nie przesuwają. Nie da się ukryć, że widać lekkie nierówności na osi Z które są spowodowane sztywnymi łącznikami śruby trapezowej z  silnikami. Można zakupić elastyczne łączniki np. te z [aliexpress ][115] które zniwelują ten efekt. Co do głośności drukarki, jest ona całkiem głośna, można pokusić się o wymianę wentylatorów ale trzeba uważać żeby jednak nie były za mało wydajne. Można wymienić stepstick&#8217;i czyli sterowniki silników krokowych, które spowodują cichszą i płynniejszą pracę. Nowe można kupić na [aliexpress][116]. Drukowanie z karty SD + wyświetlacz to dla mnie bardzo fajna sprawa. Nie mam zablokowanego komputera a sterowanie podstawowymi funkcjami z wyświetlacza to mega ułatwienie. W zasadzie te funkcje w drukarkach 3D to teraz już standard. Na wydrukach można zobaczyć czasem, że po prawej stronie czasem wisi nitka jest to spowodowane tym, że nadmuch jest zainstalowany z lewej strony i powietrze nie zdąży schłodzić wydruku po prawej, ogólnie bez odpowiedniego chłodzenia nie da się drukować z PLA. Trzeba wspomnieć jeszcze o jednej ważnej funkcji którą posiada I3 mega, chodzi o wznowienie drukowania po awaryjnym odłączeniu zasilania. Ta funkcja rzeczywiście działa. Drukarka zapamiętuje ostatnią pozycję i po kliknięciu resume drukuje od ostatniego miejsca. I naprawdę co trzeba zrobić co jakiś czas to poziomowanie stołu. Natomiast trzeba pamiętać, że to jest maszyna która ma ruchome części i nie będzie działać wiecznie. Prędzej czy później trzeba będzie wymienić łożyska liniowe lub naciągnąć paski, przesmarować pręty. Tak czy inaczej polecam zakupi Anycubic i3 Mega.
+
+Jeśli chcecie zakupić ten model to zapraszam do oficjalnego sklepu na [aliexpress][117]  lub na [gerabest][118], w tych linkach są moje kody affilacyjne dzięki którym wspierasz rozwój bloga.
+
+ [1]: https://techfreak.pl/drukarka-3d-dziennik-budowy-cz1/
+ [2]: https://techfreak.pl/drukarka-3d-profab-gate-le/
+ [3]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox1.jpg
+ [4]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox2.jpg
+ [5]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox3.jpg
+ [6]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox4.jpg
+ [7]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox6.jpg
+ [8]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox5.jpg
+ [9]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox7.jpg
+ [10]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox9.jpg
+ [11]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox8.jpg
+ [12]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox11.jpg
+ [13]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox10.jpg
+ [14]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox12.jpg
+ [15]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox14.jpg
+ [16]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox13.jpg
+ [17]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox16.jpg
+ [18]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox15.jpg
+ [19]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox17.jpg
+ [20]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox19.jpg
+ [21]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox18.jpg
+ [22]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox20.jpg
+ [23]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox21.jpg
+ [24]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox22.jpg
+ [25]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox23.jpg
+ [26]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox24.jpg
+ [27]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-3dprinter-unbox25.jpg
+ [28]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-first-print1.jpg
+ [29]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-first-print2.jpg
+ [30]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-first-print4.jpg
+ [31]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-first-print6.jpg
+ [32]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-first-print3.jpg
+ [33]: https://www.thingiverse.com/techfreak/designs
+ [34]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-cura.png
+ [35]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-1.jpg
+ [36]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-2.jpg
+ [37]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-3.jpg
+ [38]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-4.jpg
+ [39]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-5.jpg
+ [40]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-6.jpg
+ [41]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-7.jpg
+ [42]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-8.jpg
+ [43]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-9.jpg
+ [44]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-10.jpg
+ [45]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-11.jpg
+ [46]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-12.jpg
+ [47]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-13.jpg
+ [48]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-14.jpg
+ [49]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-15.jpg
+ [50]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-16.jpg
+ [51]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-17.jpg
+ [52]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-18.jpg
+ [53]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-19.jpg
+ [54]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-20.jpg
+ [55]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-21.jpg
+ [56]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-22.jpg
+ [57]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-23.jpg
+ [58]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-24.jpg
+ [59]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-25.jpg
+ [60]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-26.jpg
+ [61]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-27.jpg
+ [62]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-28.jpg
+ [63]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-29.jpg
+ [64]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-30.jpg
+ [65]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-31.jpg
+ [66]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-32.jpg
+ [67]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-33.jpg
+ [68]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-34.jpg
+ [69]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-35.jpg
+ [70]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-36.jpg
+ [71]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-37.jpg
+ [72]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-38.jpg
+ [73]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-39.jpg
+ [74]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-40.jpg
+ [75]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-41.jpg
+ [76]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-44.jpg
+ [77]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-45.jpg
+ [78]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-46.jpg
+ [79]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-47.jpg
+ [80]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-PLA-48.jpg
+ [81]: http://devildesign.com
+ [82]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-23.jpg
+ [83]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-25.jpg
+ [84]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-27.jpg
+ [85]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-28.jpg
+ [86]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-29.jpg
+ [87]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-31.jpg
+ [88]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-35.jpg
+ [89]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-36.jpg
+ [90]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-39.jpg
+ [91]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-41.jpg
+ [92]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-42.jpg
+ [93]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-44.jpg
+ [94]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-45.jpg
+ [95]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-47.jpg
+ [96]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-50.jpg
+ [97]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-51.jpg
+ [98]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-52.jpg
+ [99]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-53.jpg
+ [100]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-54.jpg
+ [101]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-57.jpg
+ [102]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-59.jpg
+ [103]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-60.jpg
+ [104]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-1.jpg
+ [105]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-5.jpg
+ [106]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-9.jpg
+ [107]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-10.jpg
+ [108]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-12.jpg
+ [109]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-21.jpg
+ [110]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-devildesign-22.jpg
+ [111]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-firmware-update-1.png
+ [112]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-firmware-update-2.png
+ [113]: http://techfreak.pl/wp-content/uploads/2018/05/techfreak-anycubic-i3-mega-firmware-update-3.png
+ [114]: https://www.thingiverse.com/techfreak/makes
+ [115]: https://www.aliexpress.com/item/2pcs-6x10mm-aluminium-CNC-Stepper-Motor-thread-couplers-6mm-to-10mm-flexible-screw-jaw-shaft-Diameter/1948648045.html
+ [116]: https://www.aliexpress.com/item/5pcs-TMC2208-Stepping-Motor-Mute-Driver-Stepstick-Power-Tube-Built-in-Driver-Current-1-4A-Peak/32817968874.html
+ [117]: https://www.aliexpress.com/item/Newest-Anycubic-3D-Printer-I3-Mega-full-metal-frame-with-Ultrabase-Platfrom-industrial-grade-high-precision/32844481738.html?spm=a2g0s.9042311.0.0.a3034c4dHhNYEM
+ [118]: https://www.gearbest.com/3d-printers-3d-printer-kits/pp_641323.html?lkid=14298355
