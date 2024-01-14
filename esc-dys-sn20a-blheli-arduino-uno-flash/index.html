@@ -7,7 +7,7 @@
         <meta name="description" content="Jeśli ktoś się zastanawia jakie regulatory (ESC) kupić do swojego quadkoptera to warto zacząć od bardzo małych i wydajnych układów DYS SN20A. Są to mini regulatory o wymiarach 23x12x4.5mm o całkiem dużej wydajności prądowej 20Amperów. W porównaniu do standardowych jakie można zakupić są naprawdę fajną opcja do quadcopterów klasy 250 (dwieściepiędzieśiątekfruu). Zakupione na banggood przychodzą domyślnie z firmwarem SimonK. Dużym plusem są wyprowadzone pady SPI, dzięki którym można wgrać sobie SomonK’a lub BLheli. A jeszcze większym plusem jest to że, po wgraniu odpowiedniego wsadu można programować je po kabelku sygnałowym PWM. Poniżej pokaże jak ja to robię i co potrzeba aby poprawnie przeflaszować regle.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="generator" content="Hugo 0.113.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="ESC DYS SN20A BLheli arduino UNO flash">
@@ -40,7 +40,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
         <div id="wrapper">
             <header class="site-header">
@@ -170,7 +169,7 @@ if (!doNotTrack) {
     <div class="comments">
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

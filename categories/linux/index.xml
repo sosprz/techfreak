@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Sat, 06 Oct 2018 19:19:06 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/categories/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 06 Oct 2018 19:19:06 +0000</lastBuildDate><atom:link href="https://techfreak.pl/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jak używać DD z monitorowaniem postępu?</title>
       <link>https://techfreak.pl/linux-dd-monitorowanie-postepu/</link>
@@ -348,7 +344,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       
       <guid>https://techfreak.pl/nettemp-wersja-beta/</guid>
       <description>Od jakiegoś czasu jest dostępna wersja beta nettemp’a pod adresem https://github.com/sosprz/nettemp/tree/v7 w której zostały poprawione różne rzeczy głównie to:
- wysyłanie SMS przy pomocy gammu  odczytywanie wszystkich sms i kasowanie wszystkich sms temperatura jest czytana co minutę i wykresy generują się też co minute  sekcja Relays zmieniła się na Gpio ze względu na różne możliwości gpio. Rozpocząłem przygotowania do sterowania przekaźnikami przy pomocy wskazanego czujnika temperatury. Czyli włącz/wyłącz przekaźnik jeśli temperatura będzie powyżej lub poniżej.</description>
+wysyłanie SMS przy pomocy gammu odczytywanie wszystkich sms i kasowanie wszystkich sms temperatura jest czytana co minutę i wykresy generują się też co minute sekcja Relays zmieniła się na Gpio ze względu na różne możliwości gpio. Rozpocząłem przygotowania do sterowania przekaźnikami przy pomocy wskazanego czujnika temperatury. Czyli włącz/wyłącz przekaźnik jeśli temperatura będzie powyżej lub poniżej.</description>
     </item>
     
     <item>
@@ -535,12 +531,12 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       
       <guid>https://techfreak.pl/fortinet-linki/</guid>
       <description>Poniżej kilka przydatnych linków dot. urządzeń firmy Fortinet.
-  http://fortinet.com -najistotniejsza strona, do której powinniśmy zajrzeć na początku.
-  http://support.fortinet.com/forum -forum
-  http://kb.fortinet.com – wielka księga wiedzy :)
-  http://docs.fortinet.com -dokumentacje FortiOS’a
-  http://www.fortiguard.com -strona, na której sprawdzimy np: w której kategorii znajduje się URL. (dot. WebFiltering), ponadto dowiemy się również, które adresy IP znajdują się na czarnej liście (dot. AntySpam) itp.
-  6) http://emea.</description>
+http://fortinet.com -najistotniejsza strona, do której powinniśmy zajrzeć na początku.
+http://support.fortinet.com/forum -forum
+http://kb.fortinet.com – wielka księga wiedzy :)
+http://docs.fortinet.com -dokumentacje FortiOS’a
+http://www.fortiguard.com -strona, na której sprawdzimy np: w której kategorii znajduje się URL. (dot. WebFiltering), ponadto dowiemy się również, które adresy IP znajdują się na czarnej liście (dot. AntySpam) itp.
+6) http://emea.fortinet.net/fortinet/troubleShooting.php -kolejna strona, na której znajdziemy mnóstwo informacji dot. problemów ze sprzętem/softem.</description>
     </item>
     
     <item>

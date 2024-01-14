@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Tue, 06 May 2014 18:58:14 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/proxy/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 06 May 2014 18:58:14 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/proxy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proxy po ssh czyli zawsze wychodzę z tego samego IP</title>
       <link>https://techfreak.pl/proxy-po-ssh-czyli-zawsze-wychodze-z-tego-samego-ip/</link>

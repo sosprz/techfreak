@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Tue, 10 Jan 2012 09:32:03 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/centos/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 10 Jan 2012 09:32:03 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/centos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Server Openvpn na CentOS &#43; klient – telefon z systemem android</title>
       <link>https://techfreak.pl/server-openvpn-na-centos-klient-telefon-z-systemem-android/</link>

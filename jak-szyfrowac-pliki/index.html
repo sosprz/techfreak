@@ -10,7 +10,7 @@
 Potrzebowałem zaszyfrować parę pojedynczych plików i w sumie wychodzi na to że gpg jest najlepszym wyborem. Z tego powodu że nawet na innym systemie operacyjnym (jak by co) odczytam zaszyfrowany plik.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="generator" content="Hugo 0.113.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Jak szyfrować pliki?">
@@ -46,7 +46,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
         <div id="wrapper">
             <header class="site-header">
@@ -149,8 +148,7 @@ gpg secret.txt.gpg</pre>
 openssl des3 -d &lt; secret.txt.des3 &gt; secret.txt.decrypted</pre>
 <p>Następnym przykładem jest 7zip który używa do szyfrowania AES-256</p>
 <pre class="lang:default decode:true">7z a -mhe=on -pTWOJE_HASLO archive.7z
-7z e archive.7z</pre><blockquote>
-</blockquote>
+7z e archive.7z</pre>
 </div>
 
         <footer class="post-footer clearfix"><div class="share">
@@ -169,7 +167,7 @@ openssl des3 -d &lt; secret.txt.des3 &gt; secret.txt.decrypted</pre>
     <div class="comments">
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

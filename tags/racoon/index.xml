@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Tue, 10 Jan 2012 09:07:01 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/racoon/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 10 Jan 2012 09:07:01 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/racoon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IPsec VPN racoon site 2 site</title>
       <link>https://techfreak.pl/ipsec-vpn-racoon-site-2-site/</link>

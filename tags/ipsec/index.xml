@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Wed, 20 May 2015 14:48:22 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/ipsec/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 20 May 2015 14:48:22 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/ipsec/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OpenSwan VPN – troubleshooting</title>
       <link>https://techfreak.pl/openswan-vpn-troubleshooting/</link>

@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Mon, 01 Sep 2014 14:15:42 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 01 Sep 2014 14:15:42 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>nettemp 7.7 openvpn firewall snmp client htpasswd</title>
       <link>https://techfreak.pl/nettemp-7-7-openvpn-firewall-snmp-client-htpasswd/</link>

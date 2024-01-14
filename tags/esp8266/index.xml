@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Fri, 25 Aug 2017 07:02:41 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/esp8266/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 25 Aug 2017 07:02:41 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/esp8266/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jak wgrać EasyESP do ESP8266</title>
       <link>https://techfreak.pl/wgrac-easyesp-esp8266/</link>

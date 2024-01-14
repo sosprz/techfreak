@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Wed, 03 Jul 2013 13:20:36 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/pomiar-temperatury/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 03 Jul 2013 13:20:36 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/pomiar-temperatury/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>nettemp wersja 7 beta</title>
       <link>https://techfreak.pl/nettemp-wersja-beta/</link>
@@ -19,7 +15,7 @@
       
       <guid>https://techfreak.pl/nettemp-wersja-beta/</guid>
       <description>Od jakiegoś czasu jest dostępna wersja beta nettemp’a pod adresem https://github.com/sosprz/nettemp/tree/v7 w której zostały poprawione różne rzeczy głównie to:
- wysyłanie SMS przy pomocy gammu  odczytywanie wszystkich sms i kasowanie wszystkich sms temperatura jest czytana co minutę i wykresy generują się też co minute  sekcja Relays zmieniła się na Gpio ze względu na różne możliwości gpio. Rozpocząłem przygotowania do sterowania przekaźnikami przy pomocy wskazanego czujnika temperatury. Czyli włącz/wyłącz przekaźnik jeśli temperatura będzie powyżej lub poniżej.</description>
+wysyłanie SMS przy pomocy gammu odczytywanie wszystkich sms i kasowanie wszystkich sms temperatura jest czytana co minutę i wykresy generują się też co minute sekcja Relays zmieniła się na Gpio ze względu na różne możliwości gpio. Rozpocząłem przygotowania do sterowania przekaźnikami przy pomocy wskazanego czujnika temperatury. Czyli włącz/wyłącz przekaźnik jeśli temperatura będzie powyżej lub poniżej.</description>
     </item>
     
     <item>

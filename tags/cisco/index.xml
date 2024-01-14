@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Sat, 12 May 2018 08:43:18 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 12 May 2018 08:43:18 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jak skonfigurować VPN na MikroTik?</title>
       <link>https://techfreak.pl/jak-skonfigurowac-vpn-na-mikrotik/</link>

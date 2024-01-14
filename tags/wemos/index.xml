@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Sun, 18 Feb 2018 17:19:10 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/wemos/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 18 Feb 2018 17:19:10 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/wemos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bezprzewodowy czujnik SHT30 Wemos z ESP8266 – nettemp i EasyESP Mega</title>
       <link>https://techfreak.pl/bezprzewodowy-czujnik-sht30-wemos-esp8266-nettemp-easyesp-mega/</link>

@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Thu, 05 Sep 2013 19:41:57 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/pololu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 05 Sep 2013 19:41:57 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/pololu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Drukarka 3D dziennik budowy cz1</title>
       <link>https://techfreak.pl/drukarka-3d-dziennik-budowy-cz1/</link>
@@ -29,7 +25,6 @@ Ogólnie mam zawsze dużo pomysłów ale często jakoś kręcę się około tema
       
       <guid>https://techfreak.pl/znowu-o-cnc-czyli-diy-arduino-cnc/</guid>
       <description>Coraz bardziej kusi mnie zbudowanie jakiejś maszynki DIY, czy to drukarki 3D czy maszyny CNC. I właśnie znalazłem fajny projekt od którego można było by zacząć przygodę z CNC mianowicie Arduino CNC Shield.
-
 Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu Arduino CNC Shield. Jest to drukowana dwustronna płytka która pasuje do podstawowej wersji arduino i posiada sloty na trzy sterowniki silników krokowych. Projekt zakłada użycie np. sterowników Pololu które w razie uszkodzenia bez problemu można wymienić.</description>
     </item>
     

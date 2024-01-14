@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Sun, 02 Nov 2014 19:59:26 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/mikrokontroler/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 02 Nov 2014 19:59:26 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/mikrokontroler/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Espurino Pico – mały ale mocny mikrokontroler</title>
       <link>https://techfreak.pl/espurino-pico-maly-mocny-mikrokontroler/</link>

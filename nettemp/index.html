@@ -7,7 +7,7 @@
         <meta name="description" content="Nettemp monitoring temperatury i nie tylko Chciałbym zaprezentować mój projekt pomiaru temperatury o nazwie nettemp. Zaczęło się od pomiaru temperatury z użyciem jednego czujnika DS18B20 po przez serial port na OpenWRT. Obecnie projekt zakłada pomiar temperatury z wielu czujników poprzez magistrale 1-wire , USB, serial port lub I2C. Aby łatwiej zarządzać czujnikami stworzyłem interfejs www w PHP który używa bazy Sqlite3. Na obecną chwilę nettemp może działać na każdym komputerze że systemem linux, choć najbardziej popularną platformą sprzętową jest Raspberry Pi.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="generator" content="Hugo 0.113.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="nettemp – monitoring temperatury">
@@ -40,7 +40,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
         <div id="wrapper">
             <header class="site-header">
@@ -206,7 +205,7 @@ cd nettemp &amp;&amp; git checkout nettemp2 &amp;&amp; ./install_nettemp
     <div class="comments">
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

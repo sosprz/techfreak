@@ -7,7 +7,7 @@
         <meta name="description" content="Tyle ilu jest użytkowników Raspberry Pi tyle będzie pomysłów na zastosowanie tego maleństwa. Ja pomyślałem że muszę spróbować zainstalować OpenWRT na Raspberry Pi bo wraz ze stabilną wersją Attitude Adjustment, OpenWRT zaczęło je wspierać.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="generator" content="Hugo 0.113.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="OpenWRT na Raspberry Pi">
@@ -40,7 +40,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
         <div id="wrapper">
             <header class="site-header">
@@ -201,7 +200,7 @@ t</span>elnet 192.168.1.1</pre>
 <p><a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134435.png"><img class="aligncenter size-full wp-image-3790" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134435.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 13:44:35" width="1360" height="768" /></a></p>
 <p><span style="line-height: 1.5em;">Karta jest ale to nie wszystko, trzeba zainstalować moduł </span><strong style="line-height: 1.5em;">kmod-usb-net-asix</strong> <span style="line-height: 1.5em;">aby uruchomić kartę w systemie.</span></p>
 <p><a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134458.png"><img class="aligncenter size-full wp-image-3791" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134458.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 13:44:58" width="1360" height="768" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134559.png"><img class="aligncenter size-full wp-image-3792" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134559.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 13:45:59" width="1360" height="768" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134653.png"><img class="aligncenter size-full wp-image-3793" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-134653.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 13:46:53" width="1360" height="768" /></a></p>
-<p>Wszystko jest dobrze karta została wykryta i zarejestrowana w systemie pod** **interfejsem **eth1**</p>
+<p>Wszystko jest dobrze karta została wykryta i zarejestrowana w systemie pod** **interfejsem <strong>eth1</strong></p>
 <h3 id="konfiguracja-openwrt">Konfiguracja OpenWRT</h3>
 <p>W firewall settings przestawiamy interfejs (wbudowany Raspberry Pi) <strong>LAN1</strong> czyli <strong>eth0</strong> na **WAN. **</p>
 <p><a href="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140546.png"><img class="aligncenter size-full wp-image-3797" src="http://techfreak.pl/wp-content/uploads/2013/06/Przechwycenie-obrazu-ekranu-21.06.2013-140546.png" alt="Przechwycenie obrazu ekranu - 21.06.2013 - 14:05:46" width="1360" height="768" /></a></p>
@@ -239,7 +238,7 @@ t</span>elnet 192.168.1.1</pre>
     <div class="comments">
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

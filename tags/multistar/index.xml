@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Tue, 12 Aug 2014 05:11:30 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/multistar/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 12 Aug 2014 05:11:30 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/multistar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jak zrobić flash ESC Multistar 10A do SimonK?</title>
       <link>https://techfreak.pl/zrobic-flash-esc-multistar-10a-simonk/</link>

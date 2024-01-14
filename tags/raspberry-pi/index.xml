@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Sat, 06 Oct 2018 19:19:06 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 06 Oct 2018 19:19:06 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jak używać DD z monitorowaniem postępu?</title>
       <link>https://techfreak.pl/linux-dd-monitorowanie-postepu/</link>
@@ -362,9 +358,9 @@
       
       <guid>https://techfreak.pl/inteligetny-dom-czyli-nowa-wersja-nettempa/</guid>
       <description>Cieszę się że tylu użytkowników zaczyna używać nettempa. Nettemp to już nie tylko pomiar temperatury ale pomiar wilgotności i sterowanie przekaźnikami na podstawie zmierzonych wartości. Wiem że jest to alternatywa dla wielu droższych urządzeń i cieszę się ze wam to działa. Forum też się rozrasta i powstają nowe dyskusje. Wszystkie tematy dotyczące nettemp’a zawsze można znaleźć pod tym linkiem http://techfreak.pl/tag/nettemp/
-
 Aktualna wersja to 7.4.8 a poniżej lista zmian.
-Zmiany:</description>
+Zmiany:
+Dodana strefa do sterowania czasem.</description>
     </item>
     
     <item>
@@ -559,9 +555,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       <pubDate>Fri, 07 Dec 2012 12:39:58 +0000</pubDate>
       
       <guid>https://techfreak.pl/raspberry-pi-factory-process/</guid>
-      <description>
-Na oficjalnej stronie Raspberry Pi opublikowano proces produkcji mini komputerów, niby standardowy proces wklejania elementów ale najbardziej zwróciło moją uwagę testowanie gotowych egzemplarzy. Świeżo wyprodukowane płytki RPI są wsadzane do testera który na podstawie test pinów umieszczonych na płycie sprawdza czy mini komputerek został poprawnie złożony i działa.
- </description>
+      <description>Na oficjalnej stronie Raspberry Pi opublikowano proces produkcji mini komputerów, niby standardowy proces wklejania elementów ale najbardziej zwróciło moją uwagę testowanie gotowych egzemplarzy. Świeżo wyprodukowane płytki RPI są wsadzane do testera który na podstawie test pinów umieszczonych na płycie sprawdza czy mini komputerek został poprawnie złożony i działa.</description>
     </item>
     
     <item>

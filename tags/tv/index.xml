@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Sat, 07 Jun 2014 21:14:05 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/tv/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 07 Jun 2014 21:14:05 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/tv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jak uruchomić DVBT na it9135</title>
       <link>https://techfreak.pl/uruchomic-dvbt-it9135/</link>

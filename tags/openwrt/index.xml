@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Sat, 31 May 2014 17:21:52 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 31 May 2014 17:21:52 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VoCore mikro komputer z WiFi</title>
       <link>https://techfreak.pl/vocore-mikro-komputer-wifi/</link>
@@ -19,7 +15,6 @@
       
       <guid>https://techfreak.pl/vocore-mikro-komputer-wifi/</guid>
       <description>VoCore to nowy bardzo fajny projekt mikro komputerka z OpenWRT na pokładzie. Mikro z powodu swoich całkowitych wymiarów które wynoszą 25mm x25mm. Na płytce znajdziemy 32MB SDRAM, 8MB SPI Flash i takie interfejsy jak 10/100M Ethernet, USB, UART, I2C, I2S, PCM, JTAG oraz 20 portów GPIOs i WiFi. A to wszystko pod kontrolą RT5350(360MHz MIPS).
-
 Projekt wystartował jakiś czas temu na indiegogo gdzie już zdobył 47k $ zielonych, dzięki którym wejdzie do produkcji.</description>
     </item>
     

@@ -8,7 +8,7 @@
 Witam w nowym roku i już atakuje fajnymi projektami. Sam mam Raspberry pi i tworzę w wolnej chwili swój projekt pomiaru temperatury co za tym idzie ciekawią mnie różne pomysły innych freaków. Ostatnio na oficjalnej stronie raspberry pi pisano o Pi-Point.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="generator" content="Hugo 0.113.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Raspberry pi jako Access Point">
@@ -42,7 +42,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
         <div id="wrapper">
             <header class="site-header">
@@ -134,7 +133,7 @@ if (!doNotTrack) {
     <p><a href="http://techfreak.pl/raspberry-pi-jako-access-point/edimax-pi3_642_362_force/" rel="attachment wp-att-689"><img class="aligncenter size-full wp-image-689" alt="edimax-pi3_642_362_force" src="http://techfreak.pl/wp-content/uploads/2013/01/edimax-pi3_642_362_force.jpg" width="642" height="362" /></a></p>
 <p>Witam w nowym roku i już atakuje fajnymi projektami. Sam mam Raspberry pi i tworzę w wolnej chwili swój projekt <a href="http://nettemp.pl" target="_blank">pomiaru temperatury</a> co za tym idzie ciekawią mnie różne pomysły innych freaków. Ostatnio na oficjalnej stronie raspberry pi pisano o <a href="http://www.pi-point.co.uk/" target="_blank">Pi-Point</a>.</p>
 <p>Co to jest Pi-Point ? Jest to projekt access pointa, <strong>punktu dostępowego</strong> WiFi ( pomostu pomiędzy siecią WiFi a LAN ) na znanej i lubianej platformie mini komputera R<strong>aspberry PI</strong>. Ogólnie rzecz biorąc nie różni się to pewnie od kupionych w sklepie access pointów ale ile jest zabawy i dumy ze składania to twoje :) to tak jak z modelami w podstawówce tylko teraz jest to trochę droższe i na innym poziomie – tak mi żona powtarza….:P</p>
-<p>No to zaczynając od strony www autora projektu, jest prosta przyjemna i można znaleźć na niej wszystko co potrzeba, od dokumentacji do gotowego obrazu systemu. <strong>Jakiego sprzętu potrzebujemy aby uruchomić Pi-Point?</strong> To że trzeba posiadać R-PI już nie wspomnę, <strong>Karta SD</strong> 2-4G obowiązkowo. Główny bohater projektu to : <strong>karta WiFi na USB</strong>, ale nie każda tylko taka która obsługuje <strong>tryb AP. <strong>Jakie tryby karta Wifi obsługuje można sprawdzić komendą: <strong><em>iw list</em></strong> i szukać w  „</strong><em>Supported interface modes:</em></strong>” trybu <strong><em>AP</em></strong>, zaraz obok** _monitor_**, **_managed_**.</p>
+<p>No to zaczynając od strony www autora projektu, jest prosta przyjemna i można znaleźć na niej wszystko co potrzeba, od dokumentacji do gotowego obrazu systemu. <strong>Jakiego sprzętu potrzebujemy aby uruchomić Pi-Point?</strong> To że trzeba posiadać R-PI już nie wspomnę, <strong>Karta SD</strong> 2-4G obowiązkowo. Główny bohater projektu to : <strong>karta WiFi na USB</strong>, ale nie każda tylko taka która obsługuje <strong>tryb AP. <strong>Jakie tryby karta Wifi obsługuje można sprawdzić komendą: <strong><em>iw list</em></strong> i szukać w  „</strong><em>Supported interface modes:</em></strong>” trybu <strong><em>AP</em></strong>, zaraz obok** <em>monitor</em>**, <strong><em>managed</em></strong>.</p>
 <p>Dobranie odpowiedniej karty na USB to chyba jedyny problem jaki można napotkać przy Pi-Point. Cała reszta czyli konfiguracja pakietów takich jak demona punktu dostępowego (hostap) lub DNS i DHCP (dnsmasq) to pestka, dodatkowo w grę wchodzi filtr pakietów iptables. Jak to skonfigurować aby działało można przeczytać w dokumentacji naprawdę nic trudnego.</p>
 <p>Takie projekty zawsze raczej zostawiają za sobą otwarte drzwi i można doinstalowywać dodatkowe pakiety takie jak Squid (proxy) aby logować lub ucinać ruch. Jak już pisałem projekt ciekawy, łatwy i przyjemny więc jak komuś brakuje Apka w domu to polecam :D</p>
 <p> </p>
@@ -164,7 +163,7 @@ if (!doNotTrack) {
     <div class="comments">
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

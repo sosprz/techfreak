@@ -7,7 +7,7 @@
         <meta name="description" content="Taka ciekawostka tym razem związana z konsolą. Ostatnio znalazłem stary ale fajny efekt Matrixa w konsoli. Działa on bardzo fajnie a generuje go prosty skrypt w bashu. Autorem jest BruXy, który to na swoim blogu ma więcej fajnych rzeczy.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="generator" content="Hugo 0.113.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Efekt Matrixa w konsoli">
@@ -40,7 +40,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
         <div id="wrapper">
             <header class="site-header">
@@ -130,7 +129,7 @@ if (!doNotTrack) {
     
 
     <p>Taka ciekawostka tym razem związana z konsolą. Ostatnio znalazłem stary ale fajny efekt Matrixa w konsoli. Działa on bardzo fajnie a generuje go prosty skrypt w bashu. Autorem jest <a href="http://bruxy.regnet.cz/" target="_blank">BruXy</a>, który to na swoim blogu ma więcej fajnych rzeczy.</p>
-<p><img class="alignnone" src="http://bruxy.regnet.cz/linux/matrix/matrix_bf32.gif" alt="" width="320" height="195" /></p>
+<img class="alignnone" src="http://bruxy.regnet.cz/linux/matrix/matrix_bf32.gif" alt="" width="320" height="195" /> 
 <p>Kod można ściągnąć wgetem z <a href="http://bruxy.regnet.cz/linux/matrix/matrix.sh" target="_blank"><a href="http://bruxy.regnet.cz/linux/matrix/matrix.sh">http://bruxy.regnet.cz/linux/matrix/matrix.sh</a></a> lub przekleić:</p>
 <pre>#!/bin/bash
 echo -e "\033[2J\033[?25l"; R=`tput lines` C=`tput cols`;: $[R--] ; while true 
@@ -163,7 +162,7 @@ do echo -e "\033[$i;${j}f ";$s 0.1;done)& sleep 0.05;done #(c) 2011 -- [ BruXy ]
     <div class="comments">
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

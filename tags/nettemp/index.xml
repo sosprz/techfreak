@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Thu, 30 Apr 2020 19:29:06 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/nettemp/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 30 Apr 2020 19:29:06 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/nettemp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aktualizacja nettemp do wersji 5</title>
       <link>https://techfreak.pl/aktualizacja-nettemp-do-wersji-5/</link>
@@ -229,9 +225,9 @@ EDIT: Opcja została dodana do nettemp, w sekcji settings.&lt;/p&gt;</descriptio
       
       <guid>https://techfreak.pl/inteligetny-dom-czyli-nowa-wersja-nettempa/</guid>
       <description>Cieszę się że tylu użytkowników zaczyna używać nettempa. Nettemp to już nie tylko pomiar temperatury ale pomiar wilgotności i sterowanie przekaźnikami na podstawie zmierzonych wartości. Wiem że jest to alternatywa dla wielu droższych urządzeń i cieszę się ze wam to działa. Forum też się rozrasta i powstają nowe dyskusje. Wszystkie tematy dotyczące nettemp’a zawsze można znaleźć pod tym linkiem http://techfreak.pl/tag/nettemp/
-
 Aktualna wersja to 7.4.8 a poniżej lista zmian.
-Zmiany:</description>
+Zmiany:
+Dodana strefa do sterowania czasem.</description>
     </item>
     
     <item>
@@ -260,7 +256,7 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       
       <guid>https://techfreak.pl/nettemp-wersja-beta/</guid>
       <description>Od jakiegoś czasu jest dostępna wersja beta nettemp’a pod adresem https://github.com/sosprz/nettemp/tree/v7 w której zostały poprawione różne rzeczy głównie to:
- wysyłanie SMS przy pomocy gammu  odczytywanie wszystkich sms i kasowanie wszystkich sms temperatura jest czytana co minutę i wykresy generują się też co minute  sekcja Relays zmieniła się na Gpio ze względu na różne możliwości gpio. Rozpocząłem przygotowania do sterowania przekaźnikami przy pomocy wskazanego czujnika temperatury. Czyli włącz/wyłącz przekaźnik jeśli temperatura będzie powyżej lub poniżej.</description>
+wysyłanie SMS przy pomocy gammu odczytywanie wszystkich sms i kasowanie wszystkich sms temperatura jest czytana co minutę i wykresy generują się też co minute sekcja Relays zmieniła się na Gpio ze względu na różne możliwości gpio. Rozpocząłem przygotowania do sterowania przekaźnikami przy pomocy wskazanego czujnika temperatury. Czyli włącz/wyłącz przekaźnik jeśli temperatura będzie powyżej lub poniżej.</description>
     </item>
     
     <item>

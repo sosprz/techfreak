@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Mon, 07 Mar 2016 08:47:57 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/cnc/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 07 Mar 2016 08:47:57 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/cnc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mini laser do grawerowania [test]</title>
       <link>https://techfreak.pl/mini-laser-grawerowania-test/</link>
@@ -55,7 +51,6 @@
       
       <guid>https://techfreak.pl/znowu-o-cnc-czyli-diy-arduino-cnc/</guid>
       <description>Coraz bardziej kusi mnie zbudowanie jakiejś maszynki DIY, czy to drukarki 3D czy maszyny CNC. I właśnie znalazłem fajny projekt od którego można było by zacząć przygodę z CNC mianowicie Arduino CNC Shield.
-
 Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu Arduino CNC Shield. Jest to drukowana dwustronna płytka która pasuje do podstawowej wersji arduino i posiada sloty na trzy sterowniki silników krokowych. Projekt zakłada użycie np. sterowników Pololu które w razie uszkodzenia bez problemu można wymienić.</description>
     </item>
     

@@ -7,7 +7,7 @@
         <meta name="description" content="Tym razem mam temat dotyczący bezpieczeństwa logowania do bloga, strony, panelu lub co sobie tam wymyślicie. Ostatnio logując się do swojego panelu admina, do którego domyślne logowanie odbywa się przez http. Pomyślałem że fajnie było by robić to dobrze i logować się po https. Hosting z którego korzystam ma z defaulta certyfikat wildcard którego można używać ale wtedy dostaje ostrzeżenia od przeglądarki. Ponierważ domena nie zgadza się z tą z certyfikatu. Zawsze można zaakceptować wyjątek ale to nie jest wyjście. Zacząłem szukać darmowych certyfikatów.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="generator" content="Hugo 0.113.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Jak zabezpieczyć logowanie do swojego bloga?">
@@ -40,7 +40,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
         <div id="wrapper">
             <header class="site-header">
@@ -162,7 +161,7 @@ define('FORCE_SSL_ADMIN', true);
     <div class="comments">
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

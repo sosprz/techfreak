@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Thu, 30 Apr 2020 19:29:06 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 30 Apr 2020 19:29:06 +0000</lastBuildDate><atom:link href="https://techfreak.pl/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aktualizacja nettemp do wersji 5</title>
       <link>https://techfreak.pl/aktualizacja-nettemp-do-wersji-5/</link>
@@ -2287,7 +2283,6 @@ Raspberry Pi, MaxM LEDs, Midi IN/OUT, MidiNES / Chip Maestro.&lt;/p&gt;</desc
       
       <guid>https://techfreak.pl/vocore-mikro-komputer-wifi/</guid>
       <description>VoCore to nowy bardzo fajny projekt mikro komputerka z OpenWRT na pokładzie. Mikro z powodu swoich całkowitych wymiarów które wynoszą 25mm x25mm. Na płytce znajdziemy 32MB SDRAM, 8MB SPI Flash i takie interfejsy jak 10/100M Ethernet, USB, UART, I2C, I2S, PCM, JTAG oraz 20 portów GPIOs i WiFi. A to wszystko pod kontrolą RT5350(360MHz MIPS).
-
 Projekt wystartował jakiś czas temu na indiegogo gdzie już zdobył 47k $ zielonych, dzięki którym wejdzie do produkcji.</description>
     </item>
     
@@ -2298,9 +2293,8 @@ Projekt wystartował jakiś czas temu na indiegogo gdzie już zdobył 47k $ zie
       
       <guid>https://techfreak.pl/szpony-wolverina/</guid>
       <description>Zobaczcie całkiem fajne i efektowne szpony Wolverina w w wykonaniu szalonego hydraulika Colina Furze:
-
 http://www.youtube.com/watch?v=sdcGek-NoFQ
-Zresztą warto obejrzeć większość jego filmikówhttp://www.colinfurze.com/the-videos.html</description>
+Zresztą warto obejrzeć większość jego filmików http://www.colinfurze.com/the-videos.html</description>
     </item>
     
     <item>
@@ -2571,9 +2565,9 @@ Zresztą warto obejrzeć większość jego filmikówhttp://www.colinfurze.com/th
       
       <guid>https://techfreak.pl/inteligetny-dom-czyli-nowa-wersja-nettempa/</guid>
       <description>Cieszę się że tylu użytkowników zaczyna używać nettempa. Nettemp to już nie tylko pomiar temperatury ale pomiar wilgotności i sterowanie przekaźnikami na podstawie zmierzonych wartości. Wiem że jest to alternatywa dla wielu droższych urządzeń i cieszę się ze wam to działa. Forum też się rozrasta i powstają nowe dyskusje. Wszystkie tematy dotyczące nettemp’a zawsze można znaleźć pod tym linkiem http://techfreak.pl/tag/nettemp/
-
 Aktualna wersja to 7.4.8 a poniżej lista zmian.
-Zmiany:</description>
+Zmiany:
+Dodana strefa do sterowania czasem.</description>
     </item>
     
     <item>
@@ -2842,7 +2836,6 @@ Temat drukarek 3D staje się coraz bardziej popularny i mam nadzieje że to nie 
       
       <guid>https://techfreak.pl/znowu-o-cnc-czyli-diy-arduino-cnc/</guid>
       <description>Coraz bardziej kusi mnie zbudowanie jakiejś maszynki DIY, czy to drukarki 3D czy maszyny CNC. I właśnie znalazłem fajny projekt od którego można było by zacząć przygodę z CNC mianowicie Arduino CNC Shield.
-
 Na blog.protoneer.co.nz/arduino-cnc-shield pojawił się fajny projekt modułu Arduino CNC Shield. Jest to drukowana dwustronna płytka która pasuje do podstawowej wersji arduino i posiada sloty na trzy sterowniki silników krokowych. Projekt zakłada użycie np. sterowników Pololu które w razie uszkodzenia bez problemu można wymienić.</description>
     </item>
     
@@ -2920,7 +2913,6 @@ Dobra ale przechodząc do przekaźników. Po zakupieniu popularnego dwu przekaź
       <guid>https://techfreak.pl/techfreak-rozdaje-gadzety/</guid>
       <description>Hej, dziś mam dla czytających techfreak gadżety które chciałbym wam podarować. Jedynym warunkiem jaki trzeba spełnić to napisać w komentarzach poniżej jakich czytników RSS (mobilnych też) używacie po zamknięciu Google Readera. Najlepsze komentarze będą brane pod uwagę w losowaniu trzech poniższych upominków w niedziele wieczorem (14.07.2013).
 Osoba która zostanie wylosowana jako pierwsza otrzyma długopis 4 w 1: Pamieć USB, laser, latarka, długopis.
-
 Dwie kolejne otrzymają po koszulce AIRLIVE. Dostępne rozmiary to L i XL.</description>
     </item>
     
@@ -2997,7 +2989,7 @@ Dwie kolejne otrzymają po koszulce AIRLIVE. Dostępne rozmiary to L i XL.</desc
       
       <guid>https://techfreak.pl/nettemp-wersja-beta/</guid>
       <description>Od jakiegoś czasu jest dostępna wersja beta nettemp’a pod adresem https://github.com/sosprz/nettemp/tree/v7 w której zostały poprawione różne rzeczy głównie to:
- wysyłanie SMS przy pomocy gammu  odczytywanie wszystkich sms i kasowanie wszystkich sms temperatura jest czytana co minutę i wykresy generują się też co minute  sekcja Relays zmieniła się na Gpio ze względu na różne możliwości gpio. Rozpocząłem przygotowania do sterowania przekaźnikami przy pomocy wskazanego czujnika temperatury. Czyli włącz/wyłącz przekaźnik jeśli temperatura będzie powyżej lub poniżej.</description>
+wysyłanie SMS przy pomocy gammu odczytywanie wszystkich sms i kasowanie wszystkich sms temperatura jest czytana co minutę i wykresy generują się też co minute sekcja Relays zmieniła się na Gpio ze względu na różne możliwości gpio. Rozpocząłem przygotowania do sterowania przekaźnikami przy pomocy wskazanego czujnika temperatury. Czyli włącz/wyłącz przekaźnik jeśli temperatura będzie powyżej lub poniżej.</description>
     </item>
     
     <item>
@@ -3007,7 +2999,7 @@ Dwie kolejne otrzymają po koszulce AIRLIVE. Dostępne rozmiary to L i XL.</desc
       
       <guid>https://techfreak.pl/domowej-roboty-i-tani-air-soft-gun/</guid>
       <description>Znalazłem całkiem fajny projekt pistoletu ASG (Air Soft Gun) domowej roboty który został zrobiony z butelki po wodzie i paru cześć spokojnie dostępnych w marketach.
- Jak będzie widać poniżej nie wiele potrzeba aby zbudować proste uzi na plastikowe kluki. Jedyny minus taki że trzeba posiadać kompresor lub jakąś przenośna butlę ze sprężonym powietrzem.
+Jak będzie widać poniżej nie wiele potrzeba aby zbudować proste uzi na plastikowe kluki. Jedyny minus taki że trzeba posiadać kompresor lub jakąś przenośna butlę ze sprężonym powietrzem.
 Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniatania butelki. Siła wystrzału robi wrażenie.</description>
     </item>
     
@@ -3484,10 +3476,8 @@ Na poniższym filmiku widać jak kulki wypuszczane są tylko przy pomocy zgniata
       <pubDate>Wed, 27 Feb 2013 09:11:18 +0000</pubDate>
       
       <guid>https://techfreak.pl/nastepna-generacja-kontroli-gestami-opaska-myo/</guid>
-      <description>
-Pojawiła się całkiem ciekawa opaska MYO która zapowiada następną generacje kontroli gestami. Okazuje się że wykrywa ruch poprzez sensor prawdopodobnie akcelerometr i aktywność mięśni z dokładnością co do jednego palca. Komunikuje się z urządzeniami poprzez bluetooth 4.0. Preorder kosztuje 149 dolców. Jest to naprawdę fajna opcja sterowania np w grach. Ciekawe czy się przyjmie. Wideo poniżej.
-Strona projektu
- </description>
+      <description>Pojawiła się całkiem ciekawa opaska MYO która zapowiada następną generacje kontroli gestami. Okazuje się że wykrywa ruch poprzez sensor prawdopodobnie akcelerometr i aktywność mięśni z dokładnością co do jednego palca. Komunikuje się z urządzeniami poprzez bluetooth 4.0. Preorder kosztuje 149 dolców. Jest to naprawdę fajna opcja sterowania np w grach. Ciekawe czy się przyjmie. Wideo poniżej.
+Strona projektu</description>
     </item>
     
     <item>
@@ -3528,7 +3518,7 @@ Strona projektu
       
       <guid>https://techfreak.pl/zdalnie-sterowany-samolot-z-papieru/</guid>
       <description>Samoloty z papieru chyba każdy składał ale to co zobaczycie zaraz jest naprawdę fajnym dodatkiem który zamienia zwykły samolocik w coś więcej. Za 15 dolców można nabyć mini silniczek do papierowego samolotu który pozwala utrzymać się w powietrzu dłużej. Mowa o PowerUP filmik poniżej:
- Dobra wiem że mowa była o zdalnym sterowaniu. Wersja PowerUp 3.0 będzie wyposażona w moduł bluetooth poprzez który będzie odbywać się sterowanie. Całość będzie kosztować 50 dolców i z tego co widać na stronie wszystkie preordery zostały już wykupione :) Video promocyjne poniżej:</description>
+Dobra wiem że mowa była o zdalnym sterowaniu. Wersja PowerUp 3.0 będzie wyposażona w moduł bluetooth poprzez który będzie odbywać się sterowanie. Całość będzie kosztować 50 dolców i z tego co widać na stronie wszystkie preordery zostały już wykupione :) Video promocyjne poniżej:</description>
     </item>
     
     <item>
@@ -3867,12 +3857,12 @@ Strona projektu
       
       <guid>https://techfreak.pl/fortinet-linki/</guid>
       <description>Poniżej kilka przydatnych linków dot. urządzeń firmy Fortinet.
-  http://fortinet.com -najistotniejsza strona, do której powinniśmy zajrzeć na początku.
-  http://support.fortinet.com/forum -forum
-  http://kb.fortinet.com – wielka księga wiedzy :)
-  http://docs.fortinet.com -dokumentacje FortiOS’a
-  http://www.fortiguard.com -strona, na której sprawdzimy np: w której kategorii znajduje się URL. (dot. WebFiltering), ponadto dowiemy się również, które adresy IP znajdują się na czarnej liście (dot. AntySpam) itp.
-  6) http://emea.</description>
+http://fortinet.com -najistotniejsza strona, do której powinniśmy zajrzeć na początku.
+http://support.fortinet.com/forum -forum
+http://kb.fortinet.com – wielka księga wiedzy :)
+http://docs.fortinet.com -dokumentacje FortiOS’a
+http://www.fortiguard.com -strona, na której sprawdzimy np: w której kategorii znajduje się URL. (dot. WebFiltering), ponadto dowiemy się również, które adresy IP znajdują się na czarnej liście (dot. AntySpam) itp.
+6) http://emea.fortinet.net/fortinet/troubleShooting.php -kolejna strona, na której znajdziemy mnóstwo informacji dot. problemów ze sprzętem/softem.</description>
     </item>
     
     <item>
@@ -3919,11 +3909,9 @@ Strona projektu
       <pubDate>Thu, 27 Dec 2012 20:32:09 +0000</pubDate>
       
       <guid>https://techfreak.pl/jak-to-mila-pani-zbudowala-tesla-gun/</guid>
-      <description>
-Znalazłem filmik jak to Pani Staci Elaan zbudowała przenośną cewkę tesli wygląda to naprawdę SUPER LATAJĄCE PRĄDY JEEEEEEEE!!! fajnie !
+      <description>Znalazłem filmik jak to Pani Staci Elaan zbudowała przenośną cewkę tesli wygląda to naprawdę SUPER LATAJĄCE PRĄDY JEEEEEEEE!!! fajnie !
 Mało tego skonstruowała mniejszą wersje :)
-Więcej można przeczytać na tej stronie chociaż filmiki chyba wystarczą.
- </description>
+Więcej można przeczytać na tej stronie chociaż filmiki chyba wystarczą.</description>
     </item>
     
     <item>
@@ -4154,9 +4142,7 @@ Znalezione na hackaday.com</description>
       <pubDate>Fri, 07 Dec 2012 12:39:58 +0000</pubDate>
       
       <guid>https://techfreak.pl/raspberry-pi-factory-process/</guid>
-      <description>
-Na oficjalnej stronie Raspberry Pi opublikowano proces produkcji mini komputerów, niby standardowy proces wklejania elementów ale najbardziej zwróciło moją uwagę testowanie gotowych egzemplarzy. Świeżo wyprodukowane płytki RPI są wsadzane do testera który na podstawie test pinów umieszczonych na płycie sprawdza czy mini komputerek został poprawnie złożony i działa.
- </description>
+      <description>Na oficjalnej stronie Raspberry Pi opublikowano proces produkcji mini komputerów, niby standardowy proces wklejania elementów ale najbardziej zwróciło moją uwagę testowanie gotowych egzemplarzy. Świeżo wyprodukowane płytki RPI są wsadzane do testera który na podstawie test pinów umieszczonych na płycie sprawdza czy mini komputerek został poprawnie złożony i działa.</description>
     </item>
     
     <item>

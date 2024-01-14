@@ -7,7 +7,7 @@
         <meta name="description" content="Jak wygenerować własny certyfikat ?">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="generator" content="Hugo 0.113.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Jak wygenerować certyfikat ssl ?">
@@ -40,7 +40,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
         <div id="wrapper">
             <header class="site-header">
@@ -142,7 +141,7 @@ Locality Name (L) – nazwa miejscowości. np: Gdansk.<br>
 Organization Name (O) – nazwa organizacji, firmy. np: lnxadmin.pl<br>
 Organizational Unit Name (OU) – nazwa działu, np: IT<br>
 Common Name (CN) – Pełna nazwa domenowa (FQDN) serwera.</p>
-<p>Dla <a href="https://www.domena.pl">https://www.domena.pl</a> pole Common Name powinno mieć wartość: <a href="http://www.moja-domena.pl">www.moja-domena.pl</a><br>
+<p>Dla <a href="https://www.domena.pl">https://www.domena.pl</a> pole Common Name powinno mieć wartość: <a href="https://www.moja-domena.pl">www.moja-domena.pl</a><br>
 Dla https://*.domena.pl (wildcard) Pole Common Name powinno mieć wartość: *.domena.pl</p>
 <p>Email (e-mail) – <a href="mailto:mail@domena.pl">mail@domena.pl</a></p>
 <p>Nie musisz podawać dodatkowych informacji (extra attributes).</p>
@@ -185,7 +184,7 @@ openssl x509 -in domena.der -inform DER -out domena.pem -outform PEM</pre>
     <div class="comments">
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

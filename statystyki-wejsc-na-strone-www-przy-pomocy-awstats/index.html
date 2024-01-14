@@ -7,7 +7,7 @@
         <meta name="description" content="Jak włączyć statystyki wejść na stronę AWstats ?">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="generator" content="Hugo 0.113.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="statystyki wejść na stronę www przy pomocy awstats">
@@ -40,7 +40,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
         <div id="wrapper">
             <header class="site-header">
@@ -165,7 +164,7 @@ ScriptAlias /awstats.pl /usr/lib/cgi-bin/awstats.pl
 <p>Aktualizujemy logi najlepiej wrzucić do crona:</p>
 <pre class="lang:default decode:true">/usr/lib/cgi-bin/awstats.pl -config=domenka.pl -update</pre>
 <p>Następnie możemy oglądać statystyki pod adresem:</p>
-<p><strong><a href="http://domenka.pl">http://domenka.pl</a>:81/awstats.pl?config=domenka.pl</strong></p>
+<p><strong><a href="http://domenka.pl:81/awstats.pl?config=domenka.pl">http://domenka.pl:81/awstats.pl?config=domenka.pl</a></strong></p>
 </div>
 
         <footer class="post-footer clearfix">
@@ -189,7 +188,7 @@ ScriptAlias /awstats.pl /usr/lib/cgi-bin/awstats.pl
     <div class="comments">
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

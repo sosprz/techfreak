@@ -7,7 +7,7 @@
         <meta name="description" content="Dziś kolejny wpis na temat IPsec VPN a dokładnie trochę o konfiguracji OpenSwan który jest trochę bardziej popularny niż LibreSwan (fork) o którym pisałem ostatnio. W zasadzie konfiguracja nie będzie się wiele różnić dlatego napisze coś o problemach przy zestawianiu takiego połączenia. Osobiście zestawiałem takie połączenia np. z checkpointem, cisco czy racoon.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="generator" content="Hugo 0.113.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="OpenSwan VPN – troubleshooting">
@@ -40,7 +40,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
         <div id="wrapper">
             <header class="site-header">
@@ -345,7 +344,7 @@ root@raspberrypi:~# tail -f /var/log/pluto.log
     <div class="comments">
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

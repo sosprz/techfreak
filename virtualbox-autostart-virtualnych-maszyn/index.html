@@ -7,7 +7,7 @@
         <meta name="description" content="Dziś temat postaw sobie Windowsa na Linuksie, czyli temat o wirtualizacji a dokładnie o Virtualbox który ma przydatną opcję automatycznego startowania wirtualnych systemów przy starcie głównej fizycznej maszyny. Czyli zakładam że chce postawić sobie jakiś lekki system np. Lubuntu na którym zainstaluje VirtualBoxa i tam stworzę jakieś wirtualne maszyny które będą się automatycznie uruchamiać przy starcie głównego serwera.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="generator" content="Hugo 0.113.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Virtualbox autostart virtualnych maszyn">
@@ -40,7 +40,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
         <div id="wrapper">
             <header class="site-header">
@@ -181,7 +180,7 @@ VBoxManage modifyvm win7 --autostart-enabled on</pre>
     <div class="comments">
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

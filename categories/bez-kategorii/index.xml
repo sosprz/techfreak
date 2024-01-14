@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Sun, 22 Oct 2017 19:33:44 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/categories/bez-kategorii/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 22 Oct 2017 19:33:44 +0000</lastBuildDate><atom:link href="https://techfreak.pl/categories/bez-kategorii/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sieci WiFi na login i hasło</title>
       <link>https://techfreak.pl/sieci-wifi-login-haslo/</link>

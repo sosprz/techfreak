@@ -7,7 +7,7 @@
         <meta name="description" content="Po ponad tygodniowej walce z konfiguracją są jakieś postępy, trochę się naczytałem, trochę eksperymentowałem ale wiem że jeszcze długa droga przede mną w temacie drukowania 3D. Były pierwsze wydruki więc jest motywacja. Po kolei postaram się przedstawić z jakimi problemami się spotkałem i co jeszcze mnie czeka.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.74.3" />
+        <meta name="generator" content="Hugo 0.113.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Drukarka 3D dziennik budowy cz4">
@@ -40,7 +40,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
         <div id="wrapper">
             <header class="site-header">
@@ -134,7 +133,7 @@ if (!doNotTrack) {
 <p>Po złożeniu ramy i podłączeniu silników które już sprawdzałem w pierwszej części wszystko działało. W sensie mogłem z pronterface sterować silnikami. Sterowanie, sterowaniem ale dla wszystkich pozycji (X, Y, Z) trzeba określić punkt wyjściowy czyli HOME. Tą pozycje ustawia się endstop’ami czyli wyłącznikiem krańcowym. Po wybraniu przycisku HOME ALL wszystkie osie jadą tak długo w jedną stronę aż uderzą w endstopa. Co zdefiniuje własnie pozycję startową.</p>
 <p><a href="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_endstop_MendelMax_1.jpg"><img class="aligncenter size-full wp-image-4958" alt="techfreak_pl_drukarka3d_endstop_MendelMax_1" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_endstop_MendelMax_1.jpg" width="3264" height="2448" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_endstop_MendelMax_2.jpg"><img class="aligncenter size-full wp-image-4959" alt="techfreak_pl_drukarka3d_endstop_MendelMax_2" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_endstop_MendelMax_2.jpg" width="3264" height="2448" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_endstop_MendelMax_3.jpg"><img class="aligncenter size-full wp-image-4960" alt="techfreak_pl_drukarka3d_endstop_MendelMax_3" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_endstop_MendelMax_3.jpg" width="2448" height="3264" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_endstop_MendelMax_4.jpg"><img class="aligncenter size-full wp-image-4961" alt="techfreak_pl_drukarka3d_endstop_MendelMax_4" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_endstop_MendelMax_4.jpg" width="3264" height="2448" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_endstop_MendelMax_5.jpg"><img class="aligncenter size-full wp-image-4962" alt="techfreak_pl_drukarka3d_endstop_MendelMax_5" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_endstop_MendelMax_5.jpg" width="2448" height="3264" /></a> <a href="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_endstop_MendelMax_6.jpg"><img class="aligncenter size-full wp-image-4963" alt="techfreak_pl_drukarka3d_endstop_MendelMax_6" src="http://techfreak.pl/wp-content/uploads/2013/09/techfreak_pl_drukarka3d_endstop_MendelMax_6.jpg" width="2448" height="3264" /></a></p>
 <p> </p>
-<p>Wszystkie endstopy zamontowane trzeba pogrzebać w firmware aby teraz to wszystko razem działało. Jak widać powyżej ja użyłem krańcówek w trybie <strong>NC</strong> (Normal Closed). Co oznacza że jeśli osie nie są w pozycji <strong>HOME</strong> to maja stan** open** a jeśli są mają stan **triggered**. W pronterface aktualny stan endstopów można sprawdzić poprzez wydanie komendy **M119**. Co pomaga w zrozumieniu jaki mam teraz stan i jak go skonfigurować poprawnie. Ja użyłem sterowania masą w RAMPS 1.4 pin **S** i (minus). Czyli jak zero pojawi się na pinie S to mam stan **triggered.** Ok ale co w firmware? Tak naprawdę nie trzeba dużo zmieniać aby poprawnie ustalać pozycje home i maksymalną. Spróbuje omówić po kolei.</p>
+<p>Wszystkie endstopy zamontowane trzeba pogrzebać w firmware aby teraz to wszystko razem działało. Jak widać powyżej ja użyłem krańcówek w trybie <strong>NC</strong> (Normal Closed). Co oznacza że jeśli osie nie są w pozycji <strong>HOME</strong> to maja stan** open** a jeśli są mają stan <strong>triggered</strong>. W pronterface aktualny stan endstopów można sprawdzić poprzez wydanie komendy <strong>M119</strong>. Co pomaga w zrozumieniu jaki mam teraz stan i jak go skonfigurować poprawnie. Ja użyłem sterowania masą w RAMPS 1.4 pin <strong>S</strong> i (minus). Czyli jak zero pojawi się na pinie S to mam stan <strong>triggered.</strong> Ok ale co w firmware? Tak naprawdę nie trzeba dużo zmieniać aby poprawnie ustalać pozycje home i maksymalną. Spróbuje omówić po kolei.</p>
 <p>Pierwsza linią jaką można zobaczyć w sekcji ENDSTOPS jest:</p>
 <pre> #define ENDSTOPPULLUPS</pre>
 <p>W procesorach Atmega jest coś takiego jak <a href="http://arduino.cc/en/Tutorial/DigitalPins" target="_blank">rezystory podciągające</a> aby gdy pojawi się zero na pinie było ono utrzymane w tym stanie cały czas. Ja steruje zerem więc zostawiam tą opcje w spokoju. Można sterować też plusem za co odpowiada poniższy wpis i trzeba zmienić false na true:</p>
@@ -226,7 +225,7 @@ if (!doNotTrack) {
     <div class="comments">
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

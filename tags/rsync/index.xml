@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Wed, 29 May 2013 14:34:08 +0000</lastBuildDate>
-    
-	<atom:link href="https://techfreak.pl/tags/rsync/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 29 May 2013 14:34:08 +0000</lastBuildDate><atom:link href="https://techfreak.pl/tags/rsync/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jak zrobić zdalny backup przy pomocy rsync gui?</title>
       <link>https://techfreak.pl/jak-zrobic-zdalny-backup-przy-pomocy-rsync-gui/</link>
