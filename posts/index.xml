@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Thu, 30 Apr 2020 19:29:06 +0000</lastBuildDate><atom:link href="https://techfreak.pl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jan 2024 19:29:06 +0000</lastBuildDate><atom:link href="https://techfreak.pl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aktualizacja nettemp do wersji 7</title>
+      <link>https://techfreak.pl/aktualizacja-nettemp-do-wersji-7/</link>
+      <pubDate>Sun, 14 Jan 2024 19:29:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/aktualizacja-nettemp-do-wersji-7/</guid>
+      <description>W najnowszej wersji nettemp parę istotnych zmian.</description>
+    </item>
+    
     <item>
       <title>Aktualizacja nettemp do wersji 5</title>
       <link>https://techfreak.pl/aktualizacja-nettemp-do-wersji-5/</link>
