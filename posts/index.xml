@@ -14,8 +14,8 @@
       <pubDate>Sun, 14 Jan 2024 19:29:06 +0000</pubDate>
       
       <guid>https://techfreak.pl/aktualizacja-nettemp-do-wersji-7/</guid>
-      <description>Nowy rok nowy nettemp! Od paru lat nie miałem czasu na publiczne rozwijanie ani bloga, ani programu nettemp. Chociaż na github czasem pojawiała się jakaś wersja nettemp, to dopiero teraz po wyjściu najnowszej postanowiłem o niej napisać.
-Czasem ktoś napiszę mi, że na blogu techfreak.pl nie działają zdjęcia. Tak, po przejściu z WordPress na statyczną wersję strony generowaną przez Hugo, ciężko było uniknąć wielu problemów. Czasem ręcznie coś poprawiam. Jednak blogowanie bez WordPress, VPS, baz danych jest łatwiejsze.</description>
+      <description>Czym jest nettemp? Aktualnie nettemp jest aplikacją zbierająca dane. Nie zbiera tylko danych o temperaturze. Zbiera wszystko co zostanie do niego wyslane a co chcielibyśmy przedstawić na wykresach, moniorować, dostawać powiadomenia gdy wartość się zmieni, lub trzymać historię zmieniających się danych.
+Nowy rok nowy nettemp! Od paru lat nie miałem czasu na publiczne rozwijanie ani bloga, ani programu nettemp. Chociaż na github czasem pojawiała się jakaś wersja nettemp, to dopiero teraz po wyjściu najnowszej postanowiłem o niej napisać.</description>
     </item>
     
     <item>
