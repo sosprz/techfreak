@@ -44,52 +44,52 @@ Ja już siedzę w tym trochę więc bardzo łatwo mi przechodzić pomiędzy poja
 
 Poniżej rzut potrzebnych części. Generalnie polecam przeczytać pierw [ten link][7] w którym też opisywałem jak zbudować mini pojazd napędzany serwami.
 
-[<img class="aligncenter size-full wp-image-15126" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-1.jpg" alt="" width="1000" height="500" />][8]
+[<img class="aligncenter size-full wp-image-15126" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-1.jpg" alt="" width="1000" height="650" />][8]
 
 W głównym projekcie autor doradza użycie śrub ale piny lego idealnie pasują po rozwierceniu.
 
-[<img class="aligncenter size-full wp-image-15130" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-6.jpg" alt="" width="1000" height="500" />][9] 
-[<img class="aligncenter size-full wp-image-15127" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-3.jpg" alt="" width="1000" height="500" />][10] 
-[<img class="aligncenter size-full wp-image-15128" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-4.jpg" alt="" width="1000" height="500" />][11]
+[<img class="aligncenter size-full wp-image-15130" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-6.jpg" alt="" width="1000" height="650" />][9] 
+[<img class="aligncenter size-full wp-image-15127" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-3.jpg" alt="" width="1000" height="650" />][10] 
+[<img class="aligncenter size-full wp-image-15128" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-4.jpg" alt="" width="1000" height="650" />][11]
 
 Klocki lego, podkradłem dzieciakom ;)
 
-[<img class="aligncenter size-full wp-image-15131" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-8.jpg" alt="" width="1000" height="500" />][12]
+[<img class="aligncenter size-full wp-image-15131" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-8.jpg" alt="" width="1000" height="650" />][12]
 
 Najtrudniejsza cześć to wpasowanie obciętego orczyka z zestawu serw do rozwierconego kola z lego. Niestety zmarnowałem trzy koła:/ Po wpasowaniu zakleiłem kropelką. rozwiercałem po kolei różnymi wielkościami wierteł aż chyba do rozmiaru 6.5.
 
-[<img class="aligncenter size-full wp-image-15134" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-11.jpg" alt="" width="1000" height="500" />][13] 
-[<img class="aligncenter size-full wp-image-15135" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-12.jpg" alt="" width="1000" height="500" />][14]
+[<img class="aligncenter size-full wp-image-15134" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-11.jpg" alt="" width="1000" height="650" />][13] 
+[<img class="aligncenter size-full wp-image-15135" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-12.jpg" alt="" width="1000" height="650" />][14]
 
 Zrobione kola przykręciłem też śrubą z zestawu orczyków od serw.
 
-[<img class="aligncenter size-full wp-image-15136" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-13.jpg" alt="" width="1000" height="500" />][15]
+[<img class="aligncenter size-full wp-image-15136" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-13.jpg" alt="" width="1000" height="650" />][15]
 
-[<img class="aligncenter size-full wp-image-15133" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-10.jpg" alt="" width="1000" height="500" />][16]
+[<img class="aligncenter size-full wp-image-15133" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-10.jpg" alt="" width="1000" height="650" />][16]
 
 Serwa przykręcone do wydruku.
 
-[<img class="aligncenter size-full wp-image-15137" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-14.jpg" alt="" width="1000" height="500" />][17]
+[<img class="aligncenter size-full wp-image-15137" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-14.jpg" alt="" width="1000" height="650" />][17]
 
 Odbiornik RC a obok regulator Step UP.
 
-[<img class="aligncenter size-full wp-image-15129" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-5.jpg" alt="" width="1000" height="500" />][18]
+[<img class="aligncenter size-full wp-image-15129" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-5.jpg" alt="" width="1000" height="650" />][18]
 
 [<img class="aligncenter size-full wp-image-15152" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-D8-Mini-FrSky.png" alt="" width="350" height="363" />][19]
 
 Schemat połączenia bardzo prosty bo z baterii trzeba zasilić nadajnik jak i dwa serwa więc wszystkie plusy łączymy razem i wszystkie minusy razem. Do tego trzeba dorobić wtyczkę u mnie JST trochę było za duże. Zostaną pomarańczowe przewody trzeba je podłączyć do pinu na odbiorniku Ch2 i Ch3. Jak zastosujesz StepUP to przed zasilanie trzeba dać płytkę step up a dopiero z niej zasilić serwa i odbiornik RC.
 
-[<img class="aligncenter size-full wp-image-15139" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-16.jpg" alt="" width="1000" height="500" />][20] 
-[<img class="aligncenter size-full wp-image-15138" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-15.jpg" alt="" width="1000" height="500" />][21] 
-[<img class="aligncenter size-full wp-image-15140" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-17.jpg" alt="" width="1000" height="500" />][22] 
-[<img class="aligncenter size-full wp-image-15142" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-19.jpg" alt="" width="1000" height="500" />][23] 
-[<img class="aligncenter size-full wp-image-15141" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-18.jpg" alt="" width="1000" height="500" />][24]
+[<img class="aligncenter size-full wp-image-15139" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-16.jpg" alt="" width="1000" height="650" />][20] 
+[<img class="aligncenter size-full wp-image-15138" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-15.jpg" alt="" width="1000" height="650" />][21] 
+[<img class="aligncenter size-full wp-image-15140" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-17.jpg" alt="" width="1000" height="650" />][22] 
+[<img class="aligncenter size-full wp-image-15142" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-19.jpg" alt="" width="1000" height="650" />][23] 
+[<img class="aligncenter size-full wp-image-15141" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-18.jpg" alt="" width="1000" height="650" />][24]
 
 Kamerę też łączymy plus do plusa minus do minusa. Teraz wystarczy ustawić mikro przełącznikami kanał i można oglądać obraz na żywo.
 
-[<img class="aligncenter size-full wp-image-15143" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-20.jpg" alt="" width="1000" height="500" />][25]
+[<img class="aligncenter size-full wp-image-15143" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-20.jpg" alt="" width="1000" height="650" />][25]
 
-[<img class="aligncenter size-full wp-image-15144" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-22.jpg" alt="" width="1000" height="500" />][26]
+[<img class="aligncenter size-full wp-image-15144" src="http://techfreak.pl/wp-content/uploads/2018/08/techfreak-fpv-trak-clawler-tank-22.jpg" alt="" width="1000" height="650" />][26]
 
 Sterowanie, nie wiem jaką masz aparaturę ale jeśli FrSky Taranisa to [tu][7] pisałem jak go ustawić aby poprawnie sterować Tiny Trakiem.
 

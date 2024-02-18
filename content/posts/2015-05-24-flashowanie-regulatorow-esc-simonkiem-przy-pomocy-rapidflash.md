@@ -32,6 +32,6 @@ Większość regulatorów przychodzących z SimonK ma już wgrany bootloader kt�
 
 Kabelek sygnałowy podłącz pin 2, gnd &#8211; gnd.
 
-<a href="http://techfreak.pl/flashowanie-regulatorow-esc-simonkiem-przy-pomocy-rapidflash/simonk_flash_arduino_uno_rapidflash/" rel="attachment wp-att-9565"><img class="aligncenter size-full wp-image-9565" src="http://techfreak.pl/wp-content/uploads/2015/05/simonk_flash_arduino_uno_rapidflash.jpg" alt="simonk_flash_arduino_uno_rapidflash" width="1000" height="500" /></a>
+<a href="http://techfreak.pl/flashowanie-regulatorow-esc-simonkiem-przy-pomocy-rapidflash/simonk_flash_arduino_uno_rapidflash/" rel="attachment wp-att-9565"><img class="aligncenter size-full wp-image-9565" src="http://techfreak.pl/wp-content/uploads/2015/05/simonk_flash_arduino_uno_rapidflash.jpg" alt="simonk_flash_arduino_uno_rapidflash" width="1000" height="650" /></a>
 
 Jeśli chcesz przejść z BLheli na SimonK i nie masz bootloadera od Simonka to musisz go wgrać raz przez SPI USBasp a potem już nie będzie znaczenia czy poprzez kabelek data będziesz wgrywać SimonK czy BLheli. Wszystko się rozbija o bootloader od Simona który pozwala wgrywać też BLheli.

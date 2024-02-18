@@ -22,7 +22,7 @@ Kiedyś zakupiłem tani i popularny moduł bluetooth HC-06 i do dziś używam go
 
 Poniżej omawiany moduł bluetooth HC-06
 
-[<img class="aligncenter size-full wp-image-7244" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_0.jpg" alt="techfreak_bluetooht_HC06_0" width="1000" height="500" />][1] [<img class="aligncenter size-full wp-image-7245" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_1.jpg" alt="techfreak_bluetooht_HC06_1" width="1000" height="500" />][2]
+[<img class="aligncenter size-full wp-image-7244" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_0.jpg" alt="techfreak_bluetooht_HC06_0" width="1000" height="650" />][1] [<img class="aligncenter size-full wp-image-7245" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_1.jpg" alt="techfreak_bluetooht_HC06_1" width="1000" height="650" />][2]
 
 Moduł ma wyprowadzone cztery piny, VCC, GND, TX, RX. Na odwrocie jest wszystko opisane więc podłączenie nie będzie problemem, tym bardziej że pokazany został też zakres napięć do zasilania (3,6-6V).
 
@@ -30,7 +30,7 @@ Moduł ma wyprowadzone cztery piny, VCC, GND, TX, RX. Na odwrocie jest wszystko 
 
 Aby podłączyć moduł potrzebny jest konwerter USB-RS232. Ja zakupiłem <a href="http://www.banggood.com/USB-To-RS232-Or-TTL-Serial-FTDI-Chipset-FT232-Computer-Converter-Cable-p-80871.html" target="_blank">USB To RS232</a> na banggod za 9zł.
 
-[<img class="aligncenter size-full wp-image-7246" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_2.jpg" alt="techfreak_bluetooht_HC06_2" width="1000" height="500" />][3] [<img class="aligncenter size-full wp-image-7247" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_3.jpg" alt="techfreak_bluetooht_HC06_3" width="1000" height="500" />][4]
+[<img class="aligncenter size-full wp-image-7246" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_2.jpg" alt="techfreak_bluetooht_HC06_2" width="1000" height="650" />][3] [<img class="aligncenter size-full wp-image-7247" src="http://techfreak.pl/wp-content/uploads/2014/06/techfreak_bluetooht_HC06_3.jpg" alt="techfreak_bluetooht_HC06_3" width="1000" height="650" />][4]
 
 Powyżej jest pokazane prawidłowe podłączenie. Zielony przewód do RX, biały do TX, czerwony zasilanie i czarny masa.
 

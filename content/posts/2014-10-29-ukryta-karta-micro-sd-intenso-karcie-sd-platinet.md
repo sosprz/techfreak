@@ -19,11 +19,11 @@ Przy zabawach z Raspberry Pi dochodzi często to różnych problemów z kartami 
 
 Okazało się że w środku jest karta micro SD z przejściówką na wyjście SD. Może nie jest to jakieś dziwne ale ciekawe bo w środku była karta Intenso class 4 a powinna być class 6.
 
-[<img class="aligncenter size-full wp-image-7994" src="http://techfreak.pl/wp-content/uploads/2014/10/techfreak_sd_platinet_intenso_1.jpg" alt="techfreak_sd_platinet_intenso_1" width="1000" height="500" />][1] [<img class="aligncenter size-full wp-image-7995" src="http://techfreak.pl/wp-content/uploads/2014/10/techfreak_sd_platinet_intenso_2.jpg" alt="techfreak_sd_platinet_intenso_2" width="1000" height="500" />][2] [<img class="aligncenter size-full wp-image-7996" src="http://techfreak.pl/wp-content/uploads/2014/10/techfreak_sd_platinet_intenso_3.jpg" alt="techfreak_sd_platinet_intenso_3" width="1000" height="500" />][3]
+[<img class="aligncenter size-full wp-image-7994" src="http://techfreak.pl/wp-content/uploads/2014/10/techfreak_sd_platinet_intenso_1.jpg" alt="techfreak_sd_platinet_intenso_1" width="1000" height="650" />][1] [<img class="aligncenter size-full wp-image-7995" src="http://techfreak.pl/wp-content/uploads/2014/10/techfreak_sd_platinet_intenso_2.jpg" alt="techfreak_sd_platinet_intenso_2" width="1000" height="650" />][2] [<img class="aligncenter size-full wp-image-7996" src="http://techfreak.pl/wp-content/uploads/2014/10/techfreak_sd_platinet_intenso_3.jpg" alt="techfreak_sd_platinet_intenso_3" width="1000" height="650" />][3]
 
 Dla porównania od środka inna ale już nie działająca karta. Tym razem TOSHIBA.
 
-[<img class="aligncenter size-full wp-image-7998" src="http://techfreak.pl/wp-content/uploads/2014/10/IMG_20141028_215150_1.jpg" alt="IMG_20141028_215150_1" width="1000" height="500" />][4] [<img class="aligncenter size-full wp-image-7999" src="http://techfreak.pl/wp-content/uploads/2014/10/IMG_20141028_215328_1.jpg" alt="IMG_20141028_215328_1" width="1000" height="500" />][5]
+[<img class="aligncenter size-full wp-image-7998" src="http://techfreak.pl/wp-content/uploads/2014/10/IMG_20141028_215150_1.jpg" alt="IMG_20141028_215150_1" width="1000" height="650" />][4] [<img class="aligncenter size-full wp-image-7999" src="http://techfreak.pl/wp-content/uploads/2014/10/IMG_20141028_215328_1.jpg" alt="IMG_20141028_215328_1" width="1000" height="650" />][5]
 
 &nbsp;
 

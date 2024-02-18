@@ -26,23 +26,23 @@ Aparatury od FrSky to jedne z najpopularniejszych aparatur jakie można spotkać
 
 Poniżej widać moje baterie 18650 w drukowanej ramce lub po prostu złączone taśmą. Oba zestawy są połączone na stałe &#8211; polutowane.
 
-[<img class="aligncenter size-full wp-image-13121" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-3.jpg" alt="" width="1000" height="500" />][1] [<img class="aligncenter size-full wp-image-13124" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-4.jpg" alt="" width="1000" height="500" />][2]
+[<img class="aligncenter size-full wp-image-13121" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-3.jpg" alt="" width="1000" height="650" />][1] [<img class="aligncenter size-full wp-image-13124" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-4.jpg" alt="" width="1000" height="650" />][2]
 
 Pisałem jakiś czas temu o bateriach do [googli FPV][3] w których wykorzystałem tez koszyki do baterii 18650 ale niestety nie mieszczą one się do slotu w taranisie QX7.
 
-[<img class="aligncenter size-full wp-image-13120" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-0.jpg" alt="" width="1000" height="500" />][4]
+[<img class="aligncenter size-full wp-image-13120" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-0.jpg" alt="" width="1000" height="650" />][4]
 
 Szukałem takiego koszyka który wejdzie razem z bateriami i znalazłem &#8211; Aliexpress przyszedł z pomocą!
 
-[<img class="aligncenter size-full wp-image-13119" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-1.jpg" alt="" width="1000" height="500" />][5][<img class="aligncenter size-full wp-image-13123" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-5.jpg" alt="" width="1000" height="500" />][6]
+[<img class="aligncenter size-full wp-image-13119" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-1.jpg" alt="" width="1000" height="650" />][5][<img class="aligncenter size-full wp-image-13123" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-5.jpg" alt="" width="1000" height="650" />][6]
 
 Zbudowałem dwa koszyki, jeden z możliwością ładowania za pomocą balansera a drugi bez.
 
-[<img class="aligncenter size-full wp-image-13132" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-14.jpg" alt="" width="1000" height="500" />][7] [<img class="aligncenter size-full wp-image-13131" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-12.jpg" alt="" width="1000" height="500" />][8]
+[<img class="aligncenter size-full wp-image-13132" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-14.jpg" alt="" width="1000" height="650" />][7] [<img class="aligncenter size-full wp-image-13131" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-12.jpg" alt="" width="1000" height="650" />][8]
 
 Osobiście zostaje przy wersji z wklejonym koszykiem na taśmę dwustronną i dodatkową przedłużkę balanser 2S-JST.
 
-[<img class="aligncenter size-full wp-image-13130" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-10.jpg" alt="" width="1000" height="500" />][9] [<img class="aligncenter size-full wp-image-13133" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-13.jpg" alt="" width="1000" height="500" />][10] [<img class="aligncenter size-full wp-image-13135" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-15.jpg" alt="" width="1000" height="500" />][11] [<img class="aligncenter size-full wp-image-13132" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-14.jpg" alt="" width="1000" height="500" />][7] [<img class="aligncenter size-full wp-image-13134" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-16.jpg" alt="" width="1000" height="500" />][12]
+[<img class="aligncenter size-full wp-image-13130" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-10.jpg" alt="" width="1000" height="650" />][9] [<img class="aligncenter size-full wp-image-13133" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-13.jpg" alt="" width="1000" height="650" />][10] [<img class="aligncenter size-full wp-image-13135" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-15.jpg" alt="" width="1000" height="650" />][11] [<img class="aligncenter size-full wp-image-13132" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-14.jpg" alt="" width="1000" height="650" />][7] [<img class="aligncenter size-full wp-image-13134" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-16.jpg" alt="" width="1000" height="650" />][12]
 
 Potrzebne elementy
 
@@ -54,7 +54,7 @@ Schemat budowy jest prosty i za każdym razem taki sam. Niezależnie czy wybierz
 
 [<img class="wp-image-13140 size-full" src="//techfreak.pl/wp-content/uploads/2017/08/18650-2s-baterry.png" alt="Baterry 2S schema" width="346" height="435" />][16]<figcaption id="caption-attachment-13140" class="wp-caption-text">Image from http://tenfpv.com/blog/?p=150</figcaption></figure> 
 
-[<img class="aligncenter size-full wp-image-13127" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-9.jpg" alt="" width="1000" height="500" />][17] [<img class="aligncenter size-full wp-image-13126" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-6.jpg" alt="" width="1000" height="500" />][18] [<img class="aligncenter size-full wp-image-13125" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-7.jpg" alt="" width="1000" height="500" />][19]
+[<img class="aligncenter size-full wp-image-13127" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-9.jpg" alt="" width="1000" height="650" />][17] [<img class="aligncenter size-full wp-image-13126" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-6.jpg" alt="" width="1000" height="650" />][18] [<img class="aligncenter size-full wp-image-13125" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-taranis-qx7-baterry-bateria-18650-li-ion-7.jpg" alt="" width="1000" height="650" />][19]
 
 Koszyk SMD 18650 razem z załadowanymi bateriami idealnie wchodzi do slotu. Ja zrealizowałem swój cel i mam idealnie pasujący koszyk na baterie li-ion.
 

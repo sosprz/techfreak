@@ -29,7 +29,7 @@ Na płytce przede wszystkim znajdują się dwa przekaźniki zakończone modułow
 
 Zobaczcie jak wygląda moja płytka z czujnikami DHT11, DS18b20, BMP180, TSL2561, HTU21D, nRF24L01, LCD i buzzerem. Szczególe podziękowania dla użytkownika **ro-an** który dostarczył mi czujniki :)
 
-[<img class="aligncenter size-full wp-image-7851" src="http://techfreak.pl/wp-content/uploads/2014/10/IMG_20141021_202941_1.jpg" alt="IMG_20141021_202941_1" width="1000" height="500" />][4] [<img class="aligncenter size-full wp-image-7852" src="http://techfreak.pl/wp-content/uploads/2014/10/nettemp_shield.jpg" alt="nettemp_shield" width="729" height="580" />][5]
+[<img class="aligncenter size-full wp-image-7851" src="http://techfreak.pl/wp-content/uploads/2014/10/IMG_20141021_202941_1.jpg" alt="IMG_20141021_202941_1" width="1000" height="650" />][4] [<img class="aligncenter size-full wp-image-7852" src="http://techfreak.pl/wp-content/uploads/2014/10/nettemp_shield.jpg" alt="nettemp_shield" width="729" height="580" />][5]
 
 &nbsp;
 

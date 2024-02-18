@@ -64,6 +64,6 @@ print(ip)</pre>
 
 &nbsp;
 
-<a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-dht11-na-esp8266/esp8266_dht11_nettemppl_server_www/" rel="attachment wp-att-9228"><img class="aligncenter size-full wp-image-9228" src="http://techfreak.pl/wp-content/uploads/2015/04/ESP8266_DHT11_nettemppl_server_www.jpg" alt="ESP8266_DHT11_nettemppl_server_www" width="1000" height="500" /></a>
+<a href="http://techfreak.pl/bezprzewodowe-czujniki-wilgotnosci-dht11-na-esp8266/esp8266_dht11_nettemppl_server_www/" rel="attachment wp-att-9228"><img class="aligncenter size-full wp-image-9228" src="http://techfreak.pl/wp-content/uploads/2015/04/ESP8266_DHT11_nettemppl_server_www.jpg" alt="ESP8266_DHT11_nettemppl_server_www" width="1000" height="650" /></a>
 
 Teraz tylko zostało dorobienie obsługi w nettemp&#8230; Mam nadzieje, że wam wszystko działa. Nawet jak działa napiszcie w komentarzach. Dzięki.

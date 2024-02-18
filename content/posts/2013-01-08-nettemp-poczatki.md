@@ -40,7 +40,7 @@ Bardzo prosto według poniższego schematu potrzeba tylko rezystora 4.7K. Wszyst
 
 Tak to wygląda u mnie na Raspberry pi. Pod GPIO podłączone tylko dwa czujniki a reszta DS18B20 jest podłączona poprzez USB.
 
-[<img class="aligncenter size-full wp-image-3220" src="http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg" alt="nettemp_GPIO" width="1000" height="500" />][2]
+[<img class="aligncenter size-full wp-image-3220" src="http://techfreak.pl/wp-content/uploads/2013/01/nettemp_GPIO.jpg" alt="nettemp_GPIO" width="1000" height="650" />][2]
 
 &nbsp;
 

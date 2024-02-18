@@ -54,7 +54,7 @@ Pomocniczy rysuneczek do połączenia naze32 z X4R. Dzięki takiemu połączeniu
 
 <pre class="alt2" dir="ltr">set telemetry_inversion = on</pre>
 
-<a href="http://techfreak.pl/minifpv-rama-nox3-demonrc-budowa/naze32-x4r-sport-sbus_1/" rel="attachment wp-att-11451"><img class="aligncenter size-full wp-image-11451" src="http://techfreak.pl/wp-content/uploads/2016/03/naze32-x4r-sport-sbus_1.jpg" alt="naze32-x4r-sport-sbus_1" width="1000" height="500" /></a>
+<a href="http://techfreak.pl/minifpv-rama-nox3-demonrc-budowa/naze32-x4r-sport-sbus_1/" rel="attachment wp-att-11451"><img class="aligncenter size-full wp-image-11451" src="http://techfreak.pl/wp-content/uploads/2016/03/naze32-x4r-sport-sbus_1.jpg" alt="naze32-x4r-sport-sbus_1" width="1000" height="650" /></a>
 
 <a href="http://techfreak.pl/minifpv-rama-nox3-demonrc-budowa/techfreak-fpv-mini-micro-frame-nox3-cleanflight-5/" rel="attachment wp-att-11457"><img class="aligncenter size-full wp-image-11457" src="http://techfreak.pl/wp-content/uploads/2016/03/techfreak-fpv-mini-micro-frame-nox3-cleanflight-5.png" alt="techfreak-fpv-mini-micro-frame-nox3-cleanflight-5" width="799" height="388" /></a>
 

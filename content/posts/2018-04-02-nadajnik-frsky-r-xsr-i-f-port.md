@@ -33,16 +33,16 @@ Na początek trzeba pobrać z oficjalnej strony FrSky specjalny firmware aby obs
 
 [<img class="aligncenter size-full wp-image-14514" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-fport-frsky-203.png" alt="" width="1232" height="304" />][3]
 
-[<img class="aligncenter size-full wp-image-14503" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-101.jpg" alt="" width="1000" height="500" />][4]
+[<img class="aligncenter size-full wp-image-14503" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-101.jpg" alt="" width="1000" height="650" />][4]
 
 W zestawie z odbiornikiem R-XSR zostały dołączone dwa przewody jeden służy do aktualizacji oprogramowania przez aparaturę a drugi już do docelowego podłączenia odbiornika do kontrolera lotu.
 
 [  
-<img class="aligncenter size-full wp-image-14504" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-102.jpg" alt="" width="1000" height="500" />][5] [<img class="aligncenter size-full wp-image-14505" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-103.jpg" alt="" width="1000" height="500" />][6] [<img class="aligncenter size-full wp-image-14506" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-104.jpg" alt="" width="1000" height="500" />][7] [<img class="aligncenter size-full wp-image-14507" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-105.jpg" alt="" width="1000" height="500" />][8]
+<img class="aligncenter size-full wp-image-14504" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-102.jpg" alt="" width="1000" height="650" />][5] [<img class="aligncenter size-full wp-image-14505" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-103.jpg" alt="" width="1000" height="650" />][6] [<img class="aligncenter size-full wp-image-14506" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-104.jpg" alt="" width="1000" height="650" />][7] [<img class="aligncenter size-full wp-image-14507" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-105.jpg" alt="" width="1000" height="650" />][8]
 
 Po podłączeniu należy wybrać plik z karty SD i wskazać do jakiego urządzenia na zostać wgrany, menu wyboru nie widać na zdjęciu ale trzeba zaznaczyć plik naciskając enter.
 
-[<img class="aligncenter size-full wp-image-14508" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-106.jpg" alt="" width="1000" height="500" />][9] [<img class="aligncenter size-full wp-image-14509" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-107.jpg" alt="" width="1000" height="500" />][10] [<img class="aligncenter size-full wp-image-14511" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-109.jpg" alt="" width="1000" height="500" />][11]
+[<img class="aligncenter size-full wp-image-14508" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-106.jpg" alt="" width="1000" height="650" />][9] [<img class="aligncenter size-full wp-image-14509" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-107.jpg" alt="" width="1000" height="650" />][10] [<img class="aligncenter size-full wp-image-14511" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-xsr-fport-109.jpg" alt="" width="1000" height="650" />][11]
 
 ### Podłączenie
 
@@ -50,7 +50,7 @@ Testy wykonywałem na kontrolerze lotu HGLRC XJB F413 Omnibus F4.V2, który mam
 
 W odbiorniku R-XSR trzeba podłączyć się do pinu P, który jest uninverted. Niestety pin jest całkiem mały i trzeba uważać aby go później nie zerwać.
 
-[<img class="aligncenter size-full wp-image-14522" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-fport-wiring-40.jpg" alt="" width="1000" height="500" />][13]
+[<img class="aligncenter size-full wp-image-14522" src="http://techfreak.pl/wp-content/uploads/2018/04/techfreak-frsky-fport-wiring-40.jpg" alt="" width="1000" height="650" />][13]
 
 ### Betaflight 3.3.0
 

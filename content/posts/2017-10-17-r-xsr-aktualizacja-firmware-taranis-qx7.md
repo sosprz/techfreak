@@ -29,15 +29,15 @@ W katalogu będą znajdować się dwa pliki, które odpowiadają za wersję LBT 
 
 Jak widać poniżej R-XSR jest naprawdę mały i lekki. W zestawie z odbiornikiem znajduje się przewód do aktualizacji firmware i jest on prawidłowym przewodem aby aktualizacje przeprowadzić ze slotu u dołu aparatury. Od lewej przewody czarny GND, czerwony 5V, żółty SPORT.
 
-[<img class="aligncenter size-full wp-image-14002" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-R-XSR-firmware-taranis-QX7-update2.jpg" alt="" width="1000" height="500" />][6]
+[<img class="aligncenter size-full wp-image-14002" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-R-XSR-firmware-taranis-QX7-update2.jpg" alt="" width="1000" height="650" />][6]
 
 Gdy plik jest już na karcie trzeba przejść do menu urządzenia i w zakładce SD-CARD wybrać folder FIRMWARES, następnie wybrać pokrętłem plik i nacisnąć je zaznaczając flash Ext. Device.
 
-[<img class="aligncenter size-full wp-image-14003" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-R-XSR-firmware-taranis-QX7-update3.jpg" alt="" width="1000" height="500" />][7] [<img class="aligncenter size-full wp-image-14004" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-R-XSR-firmware-taranis-QX7-update4.jpg" alt="" width="1000" height="500" />][8]
+[<img class="aligncenter size-full wp-image-14003" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-R-XSR-firmware-taranis-QX7-update3.jpg" alt="" width="1000" height="650" />][7] [<img class="aligncenter size-full wp-image-14004" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-R-XSR-firmware-taranis-QX7-update4.jpg" alt="" width="1000" height="650" />][8]
 
 Poniżej widać prawidłowe podłączenie. Diody na odbiorniku zapalą się tylko wtedy, kiedy zostanie nawiązana prawidłowa komunikacja z aparaturą po zainicjowaniu wgrywania firmware.
 
-[<img class="aligncenter size-full wp-image-14005" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-R-XSR-firmware-taranis-QX7-update5.jpg" alt="" width="1000" height="500" />][9]
+[<img class="aligncenter size-full wp-image-14005" src="http://techfreak.pl/wp-content/uploads/2017/10/techfreak-R-XSR-firmware-taranis-QX7-update5.jpg" alt="" width="1000" height="650" />][9]
 
 To tyle aktualizacja jest prosta i bezproblemowa jak posiada się zestaw od jednego producenta. W przypadku Taranisa X9D procedura jest taka sama za wyjątkiem tego, że trzeba podłączyć się do innego portu &#8211; można przeczytać o tym tu [techfreak.pl/aktualizacja-frsky-x4r-do-cppm][10].
 

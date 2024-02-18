@@ -62,7 +62,7 @@ Antenkę do nadawania wideo postanowiłem przymocować bezpośrednio do modułu 
 
 Całość wyszła całkiem lekka ok. 300 gram
 
-[<img class="aligncenter size-full wp-image-11743" src="//techfreak.pl/wp-content/uploads/2016/07/techfreakpl_FPV-racer-DUBAI-210_KIT-EMAX-RS-2205-2300-kv-motors-2-2.jpg" alt="techfreakpl_FPV-racer-DUBAI-210_KIT-EMAX-RS-2205-2300-kv-motors-2-2" width="1000" height="500" />][36]
+[<img class="aligncenter size-full wp-image-11743" src="//techfreak.pl/wp-content/uploads/2016/07/techfreakpl_FPV-racer-DUBAI-210_KIT-EMAX-RS-2205-2300-kv-motors-2-2.jpg" alt="techfreakpl_FPV-racer-DUBAI-210_KIT-EMAX-RS-2205-2300-kv-motors-2-2" width="1000" height="650" />][36]
 
 ### MOTORY
 

@@ -24,7 +24,7 @@ Nawiązując do nowej funkcji nettempa, czyli obsługi czujników wilgotności D
 
 <a href="http://www.banggood.com/Wholesale-Arduino-Compatible-R3-UNO-ATmega16U2-AVR-USB-Board-p-68537.html?p=9H0114137951201303E0&utm_campaign=techfreak&utm_content=chendongling" target="_blank" rel="noopener">Arduino</a> i <a href="http://www.banggood.com/Keypad-Shield-Blue-Backlight-For-Arduino-Robot-LCD-1602-Board-p-79326.html?p=9H0114137951201303E0&utm_campaign=techfreak&utm_content=chendongling" target="_blank" rel="noopener">LCD 2&#215;16 shield</a> to fajna sprawa, dzięki takim kanapkom można łatwo i fajnie ożywić swój projekt. Ja dołączyłem jeszcze do tego czujnik temperatury i wilgotności DHT11.
 
-[<img class="aligncenter size-full wp-image-5528" src="http://techfreak.pl/wp-content/uploads/2013/12/IMG_20131207_193003_1.jpg" alt="IMG_20131207_193003_1" width="1000" height="500" />][1] [<img class="aligncenter size-full wp-image-5527" src="http://techfreak.pl/wp-content/uploads/2013/12/IMG_20131207_202340_1.jpg" alt="IMG_20131207_202340_1" width="1000" height="500" />][2]
+[<img class="aligncenter size-full wp-image-5528" src="http://techfreak.pl/wp-content/uploads/2013/12/IMG_20131207_193003_1.jpg" alt="IMG_20131207_193003_1" width="1000" height="650" />][1] [<img class="aligncenter size-full wp-image-5527" src="http://techfreak.pl/wp-content/uploads/2013/12/IMG_20131207_202340_1.jpg" alt="IMG_20131207_202340_1" width="1000" height="650" />][2]
 
 Hardware jest ale potrzeby był jeszcze program dla Arduino. Trochę pogooglałem i dopiero po jakimś czasie znalazłem fajny wsad który dobrze działa z DHT11 i odczytuje go co dwie sekundy bez błędów. Link do wątku na <a href="http://forum.arduino.cc/index.php?topic=107553.0" target="_blank" rel="noopener">forum arduino</a>. A ja go trochę zmodyfikowałem dodając obsługę LCD shielda, tak aby wyświetlał wyniki w dwóch liniach. Naprawdę nic trudnego. Kod poniżej.
 
@@ -164,7 +164,7 @@ lcd.<span style="color: #cc6600;">setCursor</span>(1, 1);
 
 A poniżej odczyty już na LCD.
 
-[<img class="aligncenter size-full wp-image-5526" src="http://techfreak.pl/wp-content/uploads/2013/12/IMG_20131207_212440_1.jpg" alt="IMG_20131207_212440_1" width="1000" height="500" />][3]
+[<img class="aligncenter size-full wp-image-5526" src="http://techfreak.pl/wp-content/uploads/2013/12/IMG_20131207_212440_1.jpg" alt="IMG_20131207_212440_1" width="1000" height="650" />][3]
 
 Wygląda na to że odczyty są poprawne. A wiec szukam dalej jak usprawnić obsługę w Raspberry Pi i <a href="http://techfreak.pl/nettemp-czujniki-wilgotnosci/" target="_blank" rel="noopener">nettemp</a>.
 

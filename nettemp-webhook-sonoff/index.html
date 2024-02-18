@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Nettemp z webhook do SONOFF &middot; Przemek</title>
+        <meta name="description" content="actions
+W najnowszej wersji Nettemp pojawiła się nowa funkcja &ldquo;actions&rdquo;, która dodaje akcje do podstawowego alarmu bazującego na wartościach Min/Max. Kolejnym tematem jest możliwość wykorzystania webhooks w Nettemp do sterowania urządzeniami SONOFF z oryginalnym oprogramowaniem eWeLink.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.113.0">
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Nettemp z webhook do SONOFF">
+<meta property="og:description" content="actions
+W najnowszej wersji Nettemp pojawiła się nowa funkcja &ldquo;actions&rdquo;, która dodaje akcje do podstawowego alarmu bazującego na wartościach Min/Max. Kolejnym tematem jest możliwość wykorzystania webhooks w Nettemp do sterowania urządzeniami SONOFF z oryginalnym oprogramowaniem eWeLink.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techfreak.pl/nettemp-webhook-sonoff/">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/site.css">
+        <link rel="stylesheet" href="https://techfreak.pl/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-43800014-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://techfreak.pl/">techfreak blog</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="https://techfreak.pl/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/categories/drony">Drony</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/categories/drukarki-3d">Drukarki 3D</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/categories/elektronika">Elektronika</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/categories/linux">Linux</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/categories/network">Network</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/tags/nettemp">Nettemp</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">Kontakt</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Nettemp z webhook do SONOFF</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2024-02-18" itemprop="datePublished">Sun, Feb 18, 2024</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Przemek</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 3 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <h1 id="actions">actions</h1>
+<p>W najnowszej wersji Nettemp pojawiła się nowa funkcja &ldquo;actions&rdquo;, która dodaje akcje do podstawowego alarmu bazującego na wartościach Min/Max. Kolejnym tematem jest możliwość wykorzystania webhooks w Nettemp do sterowania urządzeniami SONOFF z oryginalnym oprogramowaniem eWeLink.</p>
+<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_actions.png" alt="nettemp actions"></p>
+<p>W Nettemp pojawiła się funkcja &ldquo;actions&rdquo;, która odpowiada za wykonanie akcji w momencie, gdy czujnik wyjdzie poza min lub max ustalony w ustawieniach. Akcje, na ten moment jakie są do wykonania, są wylistowane w sekcji &ldquo;Method&rdquo;. Ważną zmianą jest to, że powiadomienia mailowe również znalazły się w tym miejscu. Co daje ta funkcja? Przede wszystkim dużą możliwość kiedy i jak ma zostać wysłane powiadomienie poprzez mail, webhook i jakie to maja być zdażenia czy min,max, brak danych (nodata), czy recovery. Można również wysłać POST do innego systemu poprzez custom POST. Powoduje to, że mamy mozliwość sterowania innymi urządzeniami. W custom post jest możliwe zdefiniowanie swojego JSON oraz headers.</p>
+<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_alarm.png" alt="nettemp alarm"></p>
+<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_alarm_table.png" alt="nettemp alarm table"></p>
+<h1 id="webhook-powiadmienia">webhook, powiadmienia</h1>
+<h2 id="discord">discord</h2>
+<p>Wchodząc w szczegóły, powiadomienia teraz mogą być realizowane poprzez różne systemy. Możemy dostarczać powiadomienia na Discordzie, który obsługuje webhook. Na serwerze Nettemp na <a href="https://discord.com/invite/S4egxNvQHM">https://discord.com/invite/S4egxNvQHM</a> istnieje możliwość wystawienia prywatnego kanału dla użytkowników, którym będą przychodziły powiadomienia z Nettemp na telefon.</p>
+<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_action_webhook_discord.png" alt="nettemp discord"></p>
+<h2 id="pushover">pushover</h2>
+<p>Kolejną integracją do wyboru jako powiadomienie jest <a href="https://pushover.net/">https://pushover.net/</a>, czyli serwis, który wysyła powiadomienia do aplikacji na Android lub iOS. Kosztuje tylko 10$ jednorazowo.</p>
+<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_action_webhook_pushover.png" alt="nettemp pushover"></p>
+<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_action_webhook_pushover2.png" alt="nettemp pushover IOS"></p>
+<h2 id="make">make</h2>
+<p>Integracja z make.com wymaga ustawienia webhooka w make, a następnie wysłania żądania POST z Nettemp. Dzięki temu możliwy jest odbiór danych w make i ich integracja z setkami różnych aplikacji. Zrzut ekranu prezentuje dane przekazane z Nettemp. W dalszym kroku istnieje możliwość selekcji danych do dalszego przetwarzania.</p>
+<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_action_webhook_make-com.png" alt="nettemp make.com"></p>
+<h1 id="sonoff">sonoff</h1>
+<p>Od dłuższego czasu używam urządzeń Sonoff w połączeniu z czujnikami DS18b20 i DHT22 do regulacji temperatury w domu i nie chciałem rezygnować z funkcji oraz aplikacji od eWeLink. Jednakże, zauważyłem, że w niektórych scenariuszach samodzielne sterowanie temperaturą przez Sonoff nie jest wystarczająco efektywne. Znalazłem rozwiązanie, które umożliwia dodatkowe sterowanie Sonoff z Nettemp bez konieczności modyfikacji firmware&rsquo;u. Możliwość ta dostępna jest dzięki wykorzystaniu webhooków dla scen, dostępnych na stronie <a href="https://web.ewelink.cc/">https://web.ewelink.cc/</a>, przy czym funkcje pro są płatne - 10$ rocznie.</p>
+<p>Dlaczego to rozwiązanie okazuje się dla mnie korzystne? Sonoff dysponuje jedynie pojedynczym czujnikiem, podczas gdy w moim domu zainstalowałem cztery czujniki – po jednym w każdym pokoju. Niezależnie od tego, czy są one podłączone kablem, czy działają za pośrednictwem Wi-Fi, Nettemp dokonuje odczytu danych z każdego z nich. Dzięki informacjom z różnych lokacji, jestem w stanie z większą precyzją ustalić progi temperatury, które determinują wyłączanie się lub włączanie urządzenia Sonoff. W tym celu wykorzystuję połączenie do webhooka z Nettemp, korzystając z metody GET.</p>
+<p><img src="../../static/wp-content/uploads/2024/02/nettemp_add_scene_webhook1.png" alt="ewelink nettemp">
+<img src="../../static/wp-content/uploads/2024/02/nettemp_add_scene_webhook2.png" alt="ewelink nettemp">
+<img src="../../static/wp-content/uploads/2024/02/nettemp_add_scene_webhook_all.png" alt="ewelink nettemp"></p>
+<h2 id="co-dalej">co dalej?</h2>
+<p>To na tyle nowości. Planuje w najbliższych wydaniach dodać funkcje takie jak:</p>
+<ul>
+<li>odczyt temperatury, wilgotności z SONOFF bez ingerencji w firmware i zmiany na DIY mode.</li>
+<li>odczyt danych z urządzeń xiaomi.</li>
+</ul>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/nettemp/">nettemp</a>
+        </p>
+    <div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=Nettemp%20z%20webhook%20do%20SONOFF&url=https%3a%2f%2ftechfreak.pl%2fnettemp-webhook-sonoff%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftechfreak.pl%2fnettemp-webhook-sonoff%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "techfreakpl" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://techfreak.pl/">techfreak blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2024 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://techfreak.pl/js/jquery-1.11.3.min.js"></script>
+        <script src="https://techfreak.pl/js/jquery.fitvids.js"></script>
+        <script src="https://techfreak.pl/js/scripts.js"></script>
+        
+    </body>
+</html>
+

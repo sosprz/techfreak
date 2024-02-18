@@ -63,7 +63,7 @@ Poniżej mały test szukania TrackR na plaży.
 
 TrackR to całkiem fajne urządzonko które rzeczywiście powiadamiało mnie gdy wychodziłem z zasięgu z telefonem. Były to zazwyczaj przypadki zostawionego telefonu w domu lub samochodzie. No bo klucze jakoś zawsze zabieram :) O ile wszystko dobrze przebiegało to niestety w niektórych miejscach TrackR wzbudzał się bez powodu leżąc np. metr od  telefonu. I to po parę razy co było całkiem denerwujące. Po dwóch miesiącach użytkowania poziom baterii nie spadł ze 100% ani trochę. Poniżej fotka ze stanu trackera podłączonego do kluczy.
 
-[<img class="aligncenter size-full wp-image-11010" src="http://techfreak.pl/wp-content/uploads/2016/01/trackr-bluetooth-tracker-techfreak.jpg" alt="trackr-bluetooth-tracker-techfreak" width="1000" height="500" />]
+[<img class="aligncenter size-full wp-image-11010" src="http://techfreak.pl/wp-content/uploads/2016/01/trackr-bluetooth-tracker-techfreak.jpg" alt="trackr-bluetooth-tracker-techfreak" width="1000" height="650" />]
 
 &nbsp;
 

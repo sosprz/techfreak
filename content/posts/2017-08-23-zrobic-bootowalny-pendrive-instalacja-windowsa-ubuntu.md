@@ -55,7 +55,7 @@ Po instalacji na dysku docelowym pojawi się podobna do tego poniżej struktura 
 
 Poniżej screen po uruchomieniu komputera w trybie wyboru urządzenia i wybraniu USB.
 
-[<img class="aligncenter size-full wp-image-13092" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-winusb-woeusb-windows-instalation-pendrive1_1.jpg" alt="" width="1000" height="500" />][6]
+[<img class="aligncenter size-full wp-image-13092" src="//techfreak.pl/wp-content/uploads/2017/08/techfreak-winusb-woeusb-windows-instalation-pendrive1_1.jpg" alt="" width="1000" height="650" />][6]
 
 &nbsp;
 

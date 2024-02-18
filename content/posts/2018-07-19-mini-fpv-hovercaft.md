@@ -28,7 +28,7 @@ Ja do swojej przeróbki użyłem JJRC H36 o którym pisałem kiedyś [techfreak.
   * JJRC h36 [https://www.gearbest.com/rc-quadcopters/pp_447880.html ][2]
   * Inne z kamerami FPV [https://www.gearbest.com/micro-brushed-racer-c_12216/][3]
 
-[<img class="aligncenter size-full wp-image-14924" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-2.jpg" alt="" width="1000" height="500" />][4]
+[<img class="aligncenter size-full wp-image-14924" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-2.jpg" alt="" width="1000" height="650" />][4]
 
 ### Druk 3D
 
@@ -37,7 +37,7 @@ Do wydrukowania są tylko dwie części, które trzeba skleić klejem &#8211; np
 [<img class="aligncenter size-full wp-image-14935" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-fpv-hovercraft-2.jpg" alt="" width="628" height="472" />][6] 
 [<img class="aligncenter size-full wp-image-14936" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-fpv-hovercraft-1.jpg" alt="" width="628" height="472" />][7]
 
-[<img class="aligncenter size-full wp-image-14923" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-1.jpg" alt="" width="1000" height="500" />][8]
+[<img class="aligncenter size-full wp-image-14923" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-1.jpg" alt="" width="1000" height="650" />][8]
 
 ### 
 
@@ -45,16 +45,16 @@ Do wydrukowania są tylko dwie części, które trzeba skleić klejem &#8211; np
 
 Konwersja dzięki fajnej obudowie sprowadza się tylko do sklejenia dwóch części klejem a następnie wsadzeniem silników i kontrolera lotu na swoje miejsce. Bez lutownicy się nie obejdzie, przewody tylnych silników muszą wejść jakoś pod pokład. Poniżej są fotki ale najważniejszy jest schemat połączenia silników!
 
-[<img class="aligncenter size-full wp-image-14925" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-3.jpg" alt="" width="1000" height="500" />][9]
-[<img class="aligncenter size-full wp-image-14926" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-4.jpg" alt="" width="1000" height="500" />][10]
-[<img class="aligncenter size-full wp-image-14927" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-5.jpg" alt="" width="1000" height="500" />][11]
-[<img class="aligncenter size-full wp-image-14950" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-hovercraft-h36-4_1.jpg" alt="" width="1000" height="500" />][12] 
-[<img class="aligncenter size-full wp-image-14928" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-6.jpg" alt="" width="1000" height="500" />][13] 
-[<img class="aligncenter size-full wp-image-14929" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-7.jpg" alt="" width="1000" height="500" />][14]
-[<img class="aligncenter size-full wp-image-14949" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-hovercraft-h36-2_1.jpg" alt="" width="1000" height="500" />][15]
-[<img class="aligncenter size-full wp-image-14948" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-hovercraft-h36-3_1.jpg" alt="" width="1000" height="500" />][16]
-[<img class="aligncenter size-full wp-image-14947" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-hovercraft-h36-1_1.jpg" alt="" width="1000" height="500" />][17]
-[<img class="aligncenter size-full wp-image-14930" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-8.jpg" alt="" width="1000" height="500" />][18]
+[<img class="aligncenter size-full wp-image-14925" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-3.jpg" alt="" width="1000" height="650" />][9]
+[<img class="aligncenter size-full wp-image-14926" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-4.jpg" alt="" width="1000" height="650" />][10]
+[<img class="aligncenter size-full wp-image-14927" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-5.jpg" alt="" width="1000" height="650" />][11]
+[<img class="aligncenter size-full wp-image-14950" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-hovercraft-h36-4_1.jpg" alt="" width="1000" height="650" />][12] 
+[<img class="aligncenter size-full wp-image-14928" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-6.jpg" alt="" width="1000" height="650" />][13] 
+[<img class="aligncenter size-full wp-image-14929" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-7.jpg" alt="" width="1000" height="650" />][14]
+[<img class="aligncenter size-full wp-image-14949" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-hovercraft-h36-2_1.jpg" alt="" width="1000" height="650" />][15]
+[<img class="aligncenter size-full wp-image-14948" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-hovercraft-h36-3_1.jpg" alt="" width="1000" height="650" />][16]
+[<img class="aligncenter size-full wp-image-14947" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-hovercraft-h36-1_1.jpg" alt="" width="1000" height="650" />][17]
+[<img class="aligncenter size-full wp-image-14930" src="http://techfreak.pl/wp-content/uploads/2018/07/techfreak-3dprited-hovercraft-8.jpg" alt="" width="1000" height="650" />][18]
 
 ### Wideo
 

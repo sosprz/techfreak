@@ -26,11 +26,11 @@ Linquet to lokalizator rzeczy, kluczy, walizek, plecaków, który dostałem na t
 
 ### Linquet unpack
 
-[<img class="aligncenter size-full wp-image-14272" src="http://techfreak.pl/wp-content/uploads/2017/11/techfreak-linquet-lokalizator-bluetooth-20.jpg" alt="" width="1000" height="500" />][3] [<img class="aligncenter size-full wp-image-14273" src="http://techfreak.pl/wp-content/uploads/2017/11/techfreak-linquet-lokalizator-bluetooth-22.jpg" alt="" width="1000" height="500" />][4] [<img class="aligncenter size-full wp-image-14274" src="http://techfreak.pl/wp-content/uploads/2017/11/techfreak-linquet-lokalizator-bluetooth-24.jpg" alt="" width="1000" height="500" />][5] [<img class="aligncenter size-full wp-image-14275" src="http://techfreak.pl/wp-content/uploads/2017/11/techfreak-linquet-lokalizator-bluetooth-25.jpg" alt="" width="1000" height="500" />][6]
+[<img class="aligncenter size-full wp-image-14272" src="http://techfreak.pl/wp-content/uploads/2017/11/techfreak-linquet-lokalizator-bluetooth-20.jpg" alt="" width="1000" height="650" />][3] [<img class="aligncenter size-full wp-image-14273" src="http://techfreak.pl/wp-content/uploads/2017/11/techfreak-linquet-lokalizator-bluetooth-22.jpg" alt="" width="1000" height="650" />][4] [<img class="aligncenter size-full wp-image-14274" src="http://techfreak.pl/wp-content/uploads/2017/11/techfreak-linquet-lokalizator-bluetooth-24.jpg" alt="" width="1000" height="650" />][5] [<img class="aligncenter size-full wp-image-14275" src="http://techfreak.pl/wp-content/uploads/2017/11/techfreak-linquet-lokalizator-bluetooth-25.jpg" alt="" width="1000" height="650" />][6]
 
 Jak widać powyżej w pudełku jest tylko linquet z baterią i naklejka dwustronna.
 
-[<img class="aligncenter size-full wp-image-14276" src="http://techfreak.pl/wp-content/uploads/2017/11/techfreak-linquet-lokalizator-bluetooth-26.jpg" alt="" width="1000" height="500" />][7]
+[<img class="aligncenter size-full wp-image-14276" src="http://techfreak.pl/wp-content/uploads/2017/11/techfreak-linquet-lokalizator-bluetooth-26.jpg" alt="" width="1000" height="650" />][7]
 
 Czym się różni linquet od innych podobnych urządzeń do odnajdywania zagubionych rzeczy? Tak naprawdę chyba tylko tym, że ma inny model zakupu, czyli w abonamencie. Płacimy 2.5$ miesięcznie aby móc z niego korzystać. Trzeba tylko pamiętać, że na początek trzeba zapłacić 20$ za przesyłkę do polski i rejestrację.
 

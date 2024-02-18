@@ -27,7 +27,7 @@ Jedyne co jest pewnie w dronowym świecie to zmiany i miniaturyzacja. Kto śledz
 
 Jednym słowem dobrze i ładnie zapakowany towar. W środku tylko jeden komplet zapasowych śmigieł, naklejki HGLRC i zapasowe śrubki.
 
-[<img class="aligncenter size-full wp-image-14399" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-2.jpg" alt="" width="1000" height="500" />][2] [<img class="aligncenter size-full wp-image-14400" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-3.jpg" alt="" width="1000" height="500" />][3] [<img class="aligncenter size-full wp-image-14401" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-4.jpg" alt="" width="1000" height="500" />][4] [<img class="aligncenter size-full wp-image-14402" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-5.jpg" alt="" width="1000" height="500" />][5] [<img class="aligncenter size-full wp-image-14403" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-6.jpg" alt="" width="1000" height="500" />][6] [<img class="aligncenter size-full wp-image-14404" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-8.jpg" alt="" width="1000" height="500" />][7] [<img class="aligncenter size-full wp-image-14405" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-7.jpg" alt="" width="1000" height="500" />][8] [<img class="aligncenter size-full wp-image-14406" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-9.jpg" alt="" width="1000" height="500" />][9]
+[<img class="aligncenter size-full wp-image-14399" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-2.jpg" alt="" width="1000" height="650" />][2] [<img class="aligncenter size-full wp-image-14400" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-3.jpg" alt="" width="1000" height="650" />][3] [<img class="aligncenter size-full wp-image-14401" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-4.jpg" alt="" width="1000" height="650" />][4] [<img class="aligncenter size-full wp-image-14402" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-5.jpg" alt="" width="1000" height="650" />][5] [<img class="aligncenter size-full wp-image-14403" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-6.jpg" alt="" width="1000" height="650" />][6] [<img class="aligncenter size-full wp-image-14404" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-8.jpg" alt="" width="1000" height="650" />][7] [<img class="aligncenter size-full wp-image-14405" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-7.jpg" alt="" width="1000" height="650" />][8] [<img class="aligncenter size-full wp-image-14406" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-9.jpg" alt="" width="1000" height="650" />][9]
 
 ### Specyfikacja
 
@@ -39,13 +39,13 @@ Dokładna specyfikacja znajduje się na stronie producenta [hglrc.com][10]
 
 Jedyne czego brakuje w zestawie to odbiornika RC. Ja zakupiłem odbiornik FrSky R-XSR ze względu małe wymiary oraz możliwość podłączenia pod kontroler pinu SBUS dzięki któremu działa telemetria w dwie strony. Czyli wysyłanie i odbieranie informacji przez aparaturę.
 
-[<img class="aligncenter size-full wp-image-14408" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-10.jpg" alt="" width="1000" height="500" />][11]
+[<img class="aligncenter size-full wp-image-14408" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-10.jpg" alt="" width="1000" height="650" />][11]
 
 Poniżej dokładnie widać jak połączyłem odbiornik R-XSR z FC. Zrobiłem to przez SPORT uninverted ponieważ port TX w FC też jest uninverted. Zielony przewód jest podłączony do FC do portu TX6.
 
 &nbsp;
 
-[<img class="aligncenter size-full wp-image-14409" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-11.jpg" alt="" width="1000" height="500" />][12] [<img class="aligncenter size-full wp-image-14410" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-13.jpg" alt="" width="1000" height="500" />][13] [<img class="aligncenter size-full wp-image-14411" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-12.jpg" alt="" width="1000" height="500" />][14]
+[<img class="aligncenter size-full wp-image-14409" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-11.jpg" alt="" width="1000" height="650" />][12] [<img class="aligncenter size-full wp-image-14410" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-13.jpg" alt="" width="1000" height="650" />][13] [<img class="aligncenter size-full wp-image-14411" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-12.jpg" alt="" width="1000" height="650" />][14]
 
 ### Smart Audio
 
@@ -144,7 +144,7 @@ Poniżej widać jak działa Smart Audio, czyli kontrola nadajnika wideo poprzez 
     </p>
     
     <p>
-      <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-21.jpg"><img class="aligncenter size-full wp-image-14412" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-21.jpg" alt="" width="1000" height="500" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-20.jpg"><img class="aligncenter size-full wp-image-14413" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-20.jpg" alt="" width="1000" height="500" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-23.jpg"><img class="aligncenter size-full wp-image-14414" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-23.jpg" alt="" width="1000" height="500" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-22.jpg"><img class="aligncenter size-full wp-image-14415" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-22.jpg" alt="" width="1000" height="500" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-24.jpg"><img class="aligncenter size-full wp-image-14416" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-24.jpg" alt="" width="1000" height="500" /></a>
+      <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-21.jpg"><img class="aligncenter size-full wp-image-14412" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-21.jpg" alt="" width="1000" height="650" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-20.jpg"><img class="aligncenter size-full wp-image-14413" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-20.jpg" alt="" width="1000" height="650" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-23.jpg"><img class="aligncenter size-full wp-image-14414" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-23.jpg" alt="" width="1000" height="650" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-22.jpg"><img class="aligncenter size-full wp-image-14415" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-22.jpg" alt="" width="1000" height="650" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-24.jpg"><img class="aligncenter size-full wp-image-14416" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-24.jpg" alt="" width="1000" height="650" /></a>
     </p>
     
     <h3>
@@ -156,7 +156,7 @@ Poniżej widać jak działa Smart Audio, czyli kontrola nadajnika wideo poprzez 
     </p>
     
     <p>
-      <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-1.jpg"><img class="aligncenter size-full wp-image-14417" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-1.jpg" alt="" width="1000" height="1333" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-18.jpg"><img class="aligncenter size-full wp-image-14419" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-18.jpg" alt="" width="1000" height="500" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-17.jpg"><img class="aligncenter size-full wp-image-14420" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-17.jpg" alt="" width="1000" height="500" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-19.jpg"><img class="aligncenter size-full wp-image-14421" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-19.jpg" alt="" width="1000" height="500" /></a>
+      <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-1.jpg"><img class="aligncenter size-full wp-image-14417" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-1.jpg" alt="" width="1000" height="1333" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-18.jpg"><img class="aligncenter size-full wp-image-14419" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-18.jpg" alt="" width="1000" height="650" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-17.jpg"><img class="aligncenter size-full wp-image-14420" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-17.jpg" alt="" width="1000" height="650" /></a> <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-19.jpg"><img class="aligncenter size-full wp-image-14421" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-19.jpg" alt="" width="1000" height="650" /></a>
     </p>
     
     <h3>
@@ -168,7 +168,7 @@ Poniżej widać jak działa Smart Audio, czyli kontrola nadajnika wideo poprzez 
     </p>
     
     <p>
-      <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-16.jpg"><img class="aligncenter size-full wp-image-14422" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-16.jpg" alt="" width="1000" height="500" /></a>
+      <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-16.jpg"><img class="aligncenter size-full wp-image-14422" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-16.jpg" alt="" width="1000" height="650" /></a>
     </p>
     
     <h3>
@@ -176,7 +176,7 @@ Poniżej widać jak działa Smart Audio, czyli kontrola nadajnika wideo poprzez 
     </h3>
     
     <p>
-      <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-14.jpg"><img class="aligncenter size-full wp-image-14423" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-14.jpg" alt="" width="1000" height="500" /></a>
+      <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-14.jpg"><img class="aligncenter size-full wp-image-14423" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-14.jpg" alt="" width="1000" height="650" /></a>
     </p>
     
     <h3>
@@ -188,7 +188,7 @@ Poniżej widać jak działa Smart Audio, czyli kontrola nadajnika wideo poprzez 
     </p>
     
     <p>
-      <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-15.jpg"><img class="aligncenter size-full wp-image-14418" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-15.jpg" alt="" width="1000" height="500" /></a>
+      <a href="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-15.jpg"><img class="aligncenter size-full wp-image-14418" src="http://techfreak.pl/wp-content/uploads/2018/02/techfreak-hglrc-xjb-145-frsky-xsr-tattu-lipo-15.jpg" alt="" width="1000" height="650" /></a>
     </p>
     
     <h3>

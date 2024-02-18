@@ -25,7 +25,7 @@ No to pierwsze wydruki które coś przypominają za mną. Na początek postanowi
 
 Nadal próbuje skalibrować poprawnie oś Z ale to wymaga dokładnej analizy. A przy okazji testów, wydrukowałem sobie stojaki do drukarki z <http://www.thingiverse.com/thing:137212/#files>. Poniżej fotki i filmik.
 
-[<img class="aligncenter size-full wp-image-5000" alt="IMG_20130926_231511_1" src="http://techfreak.pl/wp-content/uploads/2013/09/IMG_20130926_231511_1.jpg" width="1000" height="500" />][3] [<img class="aligncenter size-full wp-image-5001" alt="IMG_20130926_233806_1" src="http://techfreak.pl/wp-content/uploads/2013/09/IMG_20130926_233806_1.jpg" width="1000" height="500" />][4]
+[<img class="aligncenter size-full wp-image-5000" alt="IMG_20130926_231511_1" src="http://techfreak.pl/wp-content/uploads/2013/09/IMG_20130926_231511_1.jpg" width="1000" height="650" />][3] [<img class="aligncenter size-full wp-image-5001" alt="IMG_20130926_233806_1" src="http://techfreak.pl/wp-content/uploads/2013/09/IMG_20130926_233806_1.jpg" width="1000" height="650" />][4]
 
 [<img class="aligncenter size-full wp-image-5006" alt="IMG_20130927_203623_1" src="http://techfreak.pl/wp-content/uploads/2013/09/IMG_20130927_203623_1.jpg" width="1000" height="1333" />][5]
 

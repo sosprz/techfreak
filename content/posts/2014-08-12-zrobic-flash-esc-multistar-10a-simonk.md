@@ -33,7 +33,7 @@ Tutaj już bez, zbliżenie pod lupą z lidla :
 
 Ok ale co będzie potrzebne do flashowania? Przede wszystkim programator. Najlepiej najpopularniejszy USBASP 2.0 + cienkie miedziane druciki z np. przewodu audio.
 
-[<img class="aligncenter size-full wp-image-7474" src="http://techfreak.pl/wp-content/uploads/2014/08/IMG_20140811_202148_1.jpg" alt="IMG_20140811_202148_1" width="1000" height="500" />][1]
+[<img class="aligncenter size-full wp-image-7474" src="http://techfreak.pl/wp-content/uploads/2014/08/IMG_20140811_202148_1.jpg" alt="IMG_20140811_202148_1" width="1000" height="650" />][1]
 
 Na początek te cienkie druciki trzeba ocynować a nadmiar cyny usunąć. Trzeba znać jeszcze wyprowadzenia Atmega8A pod programator. Z pomocą przychodzi google grafika.
 
@@ -43,7 +43,7 @@ Na początek te cienkie druciki trzeba ocynować a nadmiar cyny usunąć. Trzeba
 
 Do podłączenia programatora potrzebne są MOSI, MISO, CSK, RST, VCC, GND. Na rysunku są wyraźnie widoczne. A więc podłączam&#8230;
 
-[<img class="aligncenter size-full wp-image-7472" src="http://techfreak.pl/wp-content/uploads/2014/08/IMG_20140611_001753_1.jpg" alt="IMG_20140611_001753_1" width="1000" height="500" />][4] [<img class="aligncenter size-full wp-image-7473" src="http://techfreak.pl/wp-content/uploads/2014/08/IMG_20140611_001812_1.jpg" alt="IMG_20140611_001812_1" width="1000" height="500" />][5] [<img class="aligncenter size-full wp-image-7470" src="http://techfreak.pl/wp-content/uploads/2014/08/IMG_20140610_234839_1.jpg" alt="IMG_20140610_234839_1" width="1000" height="500" />][6]
+[<img class="aligncenter size-full wp-image-7472" src="http://techfreak.pl/wp-content/uploads/2014/08/IMG_20140611_001753_1.jpg" alt="IMG_20140611_001753_1" width="1000" height="650" />][4] [<img class="aligncenter size-full wp-image-7473" src="http://techfreak.pl/wp-content/uploads/2014/08/IMG_20140611_001812_1.jpg" alt="IMG_20140611_001812_1" width="1000" height="650" />][5] [<img class="aligncenter size-full wp-image-7470" src="http://techfreak.pl/wp-content/uploads/2014/08/IMG_20140610_234839_1.jpg" alt="IMG_20140610_234839_1" width="1000" height="650" />][6]
 
 VCC czyli 5V i GND podłączyłem wtyczkę zasilania i PWM, RESET pod rezystor, żółty przewód. Czyli pestka. Zostały MISO, MOSI i CLK. Te przewody trzeba podłączyć drucikami. Za pierwszym razem szło całkiem sprawnie bo wystarczyło trochę wyżej nagrzać drucik i kleił się on do nóżki procesora. Trzeba uważać żeby nie oderwać drucika bo później lutowanie jest znacznie utrudnione.
 
@@ -57,7 +57,7 @@ Jest podłączony programator ale co z softem? Do wgrywania używam <a title="k
 
 Wszystko jest ok więc można wgrywać!
 
-[<img class="aligncenter size-full wp-image-7471" src="http://techfreak.pl/wp-content/uploads/2014/08/IMG_20140611_001643_1.jpg" alt="IMG_20140611_001643_1" width="1000" height="500" />][8]
+[<img class="aligncenter size-full wp-image-7471" src="http://techfreak.pl/wp-content/uploads/2014/08/IMG_20140611_001643_1.jpg" alt="IMG_20140611_001643_1" width="1000" height="650" />][8]
 
 Jak zobaczysz: avrdude done. Thank You. Oznacza to że wszystko poprawnie się wgrało i możesz cieszyć się nowym firmwarem.
 

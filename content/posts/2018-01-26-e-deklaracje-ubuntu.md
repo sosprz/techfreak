@@ -43,35 +43,35 @@ Jeśli ktoś ma profil z poprzednich lat bez problemu program to wykryje. Można
 
 ## Screen-relacja
 
-[<img class="aligncenter size-full wp-image-14330" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-1.png" alt="" width="1000" height="500" />][1]
+[<img class="aligncenter size-full wp-image-14330" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-1.png" alt="" width="1000" height="650" />][1]
 
-[<img class="aligncenter size-full wp-image-14331" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-2.png" alt="" width="1000" height="500" />][2]
+[<img class="aligncenter size-full wp-image-14331" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-2.png" alt="" width="1000" height="650" />][2]
 
-[<img class="aligncenter size-full wp-image-14332" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-3.png" alt="" width="1000" height="500" />][3]
+[<img class="aligncenter size-full wp-image-14332" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-3.png" alt="" width="1000" height="650" />][3]
 
-[<img class="aligncenter size-full wp-image-14333" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-4.png" alt="" width="1000" height="500" />][4]
+[<img class="aligncenter size-full wp-image-14333" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-4.png" alt="" width="1000" height="650" />][4]
 
-[<img class="aligncenter size-full wp-image-14334" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-5.png" alt="" width="1000" height="500" />][5]
+[<img class="aligncenter size-full wp-image-14334" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-5.png" alt="" width="1000" height="650" />][5]
 
-[<img class="aligncenter size-full wp-image-14335" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-6.png" alt="" width="1000" height="500" />][6]
+[<img class="aligncenter size-full wp-image-14335" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-6.png" alt="" width="1000" height="650" />][6]
 
-[<img class="aligncenter size-full wp-image-14336" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-7.png" alt="" width="1000" height="500" />][7]
+[<img class="aligncenter size-full wp-image-14336" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-7.png" alt="" width="1000" height="650" />][7]
 
-[<img class="aligncenter size-full wp-image-14337" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-8.png" alt="" width="1000" height="500" />][8]
+[<img class="aligncenter size-full wp-image-14337" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-8.png" alt="" width="1000" height="650" />][8]
 
-[<img class="aligncenter size-full wp-image-14338" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-9.png" alt="" width="1000" height="500" />][9]
+[<img class="aligncenter size-full wp-image-14338" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-9.png" alt="" width="1000" height="650" />][9]
 
-[<img class="aligncenter size-full wp-image-14339" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-10.png" alt="" width="1000" height="500" />][10]
+[<img class="aligncenter size-full wp-image-14339" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-10.png" alt="" width="1000" height="650" />][10]
 
-[<img class="aligncenter size-full wp-image-14340" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-11.png" alt="" width="1000" height="500" />][11]
+[<img class="aligncenter size-full wp-image-14340" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-11.png" alt="" width="1000" height="650" />][11]
 
-[<img class="aligncenter size-full wp-image-14341" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-12.png" alt="" width="1000" height="500" />][12]
+[<img class="aligncenter size-full wp-image-14341" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-12.png" alt="" width="1000" height="650" />][12]
 
-[<img class="aligncenter size-full wp-image-14342" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-13.png" alt="" width="1000" height="500" />][13]
+[<img class="aligncenter size-full wp-image-14342" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-13.png" alt="" width="1000" height="650" />][13]
 
 [<img class="aligncenter size-full wp-image-14343" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-14.png" alt="" width="1919" height="500" />][14]
 
-[<img class="aligncenter size-full wp-image-14344" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-15.png" alt="" width="1000" height="500" />][15]
+[<img class="aligncenter size-full wp-image-14344" src="http://techfreak.pl/wp-content/uploads/2018/01/techfreak-e-deklaracje-linux-ubuntu-pit-15.png" alt="" width="1000" height="650" />][15]
 
 ###  Dodatkowe:
 

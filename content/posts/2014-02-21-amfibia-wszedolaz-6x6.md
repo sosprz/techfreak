@@ -20,7 +20,7 @@ Wracając z zakątków internetu postanowiłem wejść na pewien znany wszystkim
 
 <!--more-->
 
-[<img class="aligncenter size-full wp-image-6281" alt="wszedolaz_amfibia6x6_6" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_6.jpg" width="1000" height="500" />][1]
+[<img class="aligncenter size-full wp-image-6281" alt="wszedolaz_amfibia6x6_6" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_6.jpg" width="1000" height="650" />][1]
 
 Dane techniczne:
 
@@ -35,19 +35,19 @@ Napęd został rozprowadzony za pomocą łańcuchów 1/4&#215;3/8. Mniejsze zęb
 
 Reszta fotek poniżej:
 
-[<img class="aligncenter size-full wp-image-6283" alt="" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_0.jpg" width="1000" height="500" />][2]
+[<img class="aligncenter size-full wp-image-6283" alt="" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_0.jpg" width="1000" height="650" />][2]
 
-[<img class="aligncenter size-full wp-image-6284" alt="" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_1.jpg" width="1000" height="500" />][3]
+[<img class="aligncenter size-full wp-image-6284" alt="" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_1.jpg" width="1000" height="650" />][3]
 
-[<img class="aligncenter size-full wp-image-6285" alt="wszedolaz_amfibia6x6_2" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_2.jpg" width="1000" height="500" />][4]
+[<img class="aligncenter size-full wp-image-6285" alt="wszedolaz_amfibia6x6_2" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_2.jpg" width="1000" height="650" />][4]
 
-[<img class="aligncenter size-full wp-image-6286" alt="" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_3.jpg" width="1000" height="500" />][5]
+[<img class="aligncenter size-full wp-image-6286" alt="" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_3.jpg" width="1000" height="650" />][5]
 
-[<img class="aligncenter size-full wp-image-6287" alt="" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_4.jpg" width="1000" height="500" />][6]
+[<img class="aligncenter size-full wp-image-6287" alt="" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_4.jpg" width="1000" height="650" />][6]
 
-[<img class="aligncenter size-full wp-image-6288" alt="" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_5.jpg" width="1000" height="500" />][7]
+[<img class="aligncenter size-full wp-image-6288" alt="" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_5.jpg" width="1000" height="650" />][7]
 
-[<img class="aligncenter size-full wp-image-6289" alt="" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_7.jpg" width="1000" height="500" />][8]
+[<img class="aligncenter size-full wp-image-6289" alt="" src="http://techfreak.pl/wp-content/uploads/2014/02/wszedolaz_amfibia6x6_7.jpg" width="1000" height="650" />][8]
 
 Fajny filmik z jazdy polecam :)
 

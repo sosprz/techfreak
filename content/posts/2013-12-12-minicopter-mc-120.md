@@ -66,7 +66,7 @@ Poniżej filmik z moich testów. Każdego quada trzeba od początku opanowywać 
 
 W czasie testowych lotów okazało się że nie działa jeden z śliników. Wyszlo że jeden przewód się oderwał ale jak widać poniżej szybko go naprawiłem :) Bez jednego silnika quad nie jest w stanie latać.
 
-[<img class="aligncenter size-full wp-image-5556" src="http://techfreak.pl/wp-content/uploads/2013/12/IMG_20131207_155947_1.jpg" alt="IMG_20131207_155947_1" width="1000" height="500" />][20] [<img class="aligncenter size-full wp-image-5555" src="http://techfreak.pl/wp-content/uploads/2013/12/IMG_20131207_190137_1.jpg" alt="IMG_20131207_190137_1" width="1000" height="500" />][21]
+[<img class="aligncenter size-full wp-image-5556" src="http://techfreak.pl/wp-content/uploads/2013/12/IMG_20131207_155947_1.jpg" alt="IMG_20131207_155947_1" width="1000" height="650" />][20] [<img class="aligncenter size-full wp-image-5555" src="http://techfreak.pl/wp-content/uploads/2013/12/IMG_20131207_190137_1.jpg" alt="IMG_20131207_190137_1" width="1000" height="650" />][21]
 
 Po jakimś czasie w trakcie lotu zaczęło odkręcać się śmigło. Na poniższym filmiku pokazuje jak to wygląda.
 

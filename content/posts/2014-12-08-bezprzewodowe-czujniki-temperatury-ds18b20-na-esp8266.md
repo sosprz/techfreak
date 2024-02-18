@@ -98,7 +98,7 @@ Jako debug warto patrzeć co się dzieje w terminalu ale nie jest on wymagany w 
 
 ### Zasialnie
 
-<a href="http://techfreak.pl/bezprzewodowe-czujniki-temperatury-ds18b20-na-esp8266/techfreakpl_esp8266_ds18b20/" rel="attachment wp-att-8297"><img class="aligncenter size-full wp-image-8297" src="http://techfreak.pl/wp-content/uploads/2014/12/techfreakpl_esp8266_ds18b20.jpg" alt="techfreakpl_esp8266_ds18b20" width="1000" height="500" /></a>
+<a href="http://techfreak.pl/bezprzewodowe-czujniki-temperatury-ds18b20-na-esp8266/techfreakpl_esp8266_ds18b20/" rel="attachment wp-att-8297"><img class="aligncenter size-full wp-image-8297" src="http://techfreak.pl/wp-content/uploads/2014/12/techfreakpl_esp8266_ds18b20.jpg" alt="techfreakpl_esp8266_ds18b20" width="1000" height="650" /></a>
 
 Jak widać ja zastosowałem bateryjkę 3.6V. Najlepiej ją zamienić na jakiś lipo bo trzyma tylko godzinę :) A chodzi o to żeby był to naprawdę długi czas. ESP ma takie opcja jak czasowe wyłącznie, pomiar napięcia więc postaram już niedługo dołożyć te funkcjonalności a przede wszystkim dodać obsługę zdalnych czujników do <a href="http://techfreak.pl/nettemp" target="_blank">nettempa</a>.
 

@@ -24,7 +24,7 @@ Jakiś czas temu, a w zasadzie bardzo dawno temu! zakupiłem czujnik all in one 
 
 &nbsp;
 
-[<img class="aligncenter size-full wp-image-11867" src="http://techfreak.pl/wp-content/uploads/2016/08/techfreakpl_BMP280_5020.jpg" alt="techfreakpl_BMP280_5020" width="1000" height="500" />][2] [<img class="aligncenter size-full wp-image-11868" src="http://techfreak.pl/wp-content/uploads/2016/08/techfreakpl_BMP280_5021.jpg" alt="techfreakpl_BMP280_5021" width="1000" height="1333" />][3] [<img class="aligncenter size-full wp-image-11871" src="http://techfreak.pl/wp-content/uploads/2016/08/techfreakpl_BMP280_5022.jpg" alt="techfreakpl_BMP280_5022" width="1000" height="500" />][4]
+[<img class="aligncenter size-full wp-image-11867" src="http://techfreak.pl/wp-content/uploads/2016/08/techfreakpl_BMP280_5020.jpg" alt="techfreakpl_BMP280_5020" width="1000" height="650" />][2] [<img class="aligncenter size-full wp-image-11868" src="http://techfreak.pl/wp-content/uploads/2016/08/techfreakpl_BMP280_5021.jpg" alt="techfreakpl_BMP280_5021" width="1000" height="1333" />][3] [<img class="aligncenter size-full wp-image-11871" src="http://techfreak.pl/wp-content/uploads/2016/08/techfreakpl_BMP280_5022.jpg" alt="techfreakpl_BMP280_5022" width="1000" height="650" />][4]
 
 BME280 został zaprojektowany przez firmę BOSCH. Jest to czujnik działający na szynie I2C z adresem 76. Zasilany jest napięciem od 1.71 V do 3.6 V. Natomiast jego parametry wyglądają jak poniżej:
 
@@ -52,7 +52,7 @@ Więcej informacji może znaleźć w [pdf][9] od BOSCH
 
 ### nettemp + raspberry pi
 
-[<img class="aligncenter size-full wp-image-11870" src="http://techfreak.pl/wp-content/uploads/2016/08/techfreakpl_BMP280_5023.jpg" alt="techfreakpl_BMP280_5023" width="1000" height="500" />][10] [<img class="aligncenter size-full wp-image-11869" src="http://techfreak.pl/wp-content/uploads/2016/08/techfreakpl_BMP280_5024.jpg" alt="techfreakpl_BMP280_5024" width="1000" height="500" />][11]
+[<img class="aligncenter size-full wp-image-11870" src="http://techfreak.pl/wp-content/uploads/2016/08/techfreakpl_BMP280_5023.jpg" alt="techfreakpl_BMP280_5023" width="1000" height="650" />][10] [<img class="aligncenter size-full wp-image-11869" src="http://techfreak.pl/wp-content/uploads/2016/08/techfreakpl_BMP280_5024.jpg" alt="techfreakpl_BMP280_5024" width="1000" height="650" />][11]
 
 Od ostatniej wersji beta czujnik jest wykrywany automatycznie po podłączeniu do szyny I2C
 

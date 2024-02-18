@@ -55,7 +55,7 @@ Podłącz i sprawdź czy twój dysk jest widziany przez system, najlepiej polece
 
 </pre>
 
-[<img class="aligncenter size-full wp-image-12645" src="https://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-18.jpg" alt="" width="1000" height="500" />][7]
+[<img class="aligncenter size-full wp-image-12645" src="https://techfreak.pl/wp-content/uploads/2017/03/bananapi-r1-add-external-root-hdd-ssd-usb-raspbian-18.jpg" alt="" width="1000" height="650" />][7]
 
 &nbsp;
 

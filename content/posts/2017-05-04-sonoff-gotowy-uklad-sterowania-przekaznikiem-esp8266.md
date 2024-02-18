@@ -28,7 +28,7 @@ Pisałem jakiś czas temu o bezprzewodowych przekaźnikach na ESp8266 do któryc
 
 Ja swoje układy SONOFF zamówiłem w tym [sklepie][1], przyszły po koło 2 tygodniach. W pudełku znajduje się układ z osłonami na złącza przykręcane i śrubki do nich.
 
-[<img class="aligncenter size-full wp-image-12903" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-50.jpg" alt="" width="1000" height="500" />][2] [<img class="aligncenter size-full wp-image-12902" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-51.jpg" alt="" width="1000" height="500" />][3] [<img class="aligncenter size-full wp-image-12901" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-52.jpg" alt="" width="1000" height="500" />][4] [<img class="aligncenter size-full wp-image-12900" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-53.jpg" alt="" width="1000" height="500" />][5] [<img class="aligncenter size-full wp-image-12899" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-54.jpg" alt="" width="1000" height="500" />][6]
+[<img class="aligncenter size-full wp-image-12903" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-50.jpg" alt="" width="1000" height="650" />][2] [<img class="aligncenter size-full wp-image-12902" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-51.jpg" alt="" width="1000" height="650" />][3] [<img class="aligncenter size-full wp-image-12901" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-52.jpg" alt="" width="1000" height="650" />][4] [<img class="aligncenter size-full wp-image-12900" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-53.jpg" alt="" width="1000" height="650" />][5] [<img class="aligncenter size-full wp-image-12899" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-54.jpg" alt="" width="1000" height="650" />][6]
 
 &nbsp;
 
@@ -36,9 +36,9 @@ Ja swoje układy SONOFF zamówiłem w tym [sklepie][1], przyszły po koło 2 tyg
 
 Układ SONOFF jest zasilany bezpośrednio z 230V
 
-[<img class="aligncenter size-full wp-image-12898" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-55.jpg" alt="" width="1000" height="500" />][7]
+[<img class="aligncenter size-full wp-image-12898" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-55.jpg" alt="" width="1000" height="650" />][7]
 
-[<img class="aligncenter size-full wp-image-12897" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-56.jpg" alt="" width="1000" height="500" />][8]
+[<img class="aligncenter size-full wp-image-12897" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-56.jpg" alt="" width="1000" height="650" />][8]
 
 &nbsp;
 
@@ -46,13 +46,13 @@ Układ SONOFF jest zasilany bezpośrednio z 230V
 
 Układ składa się z zasilania, przekaźnika, guzika, diody informaującej o włączeniu przekaźnika oraz modułu WiFi ESP8266
 
-[<img class="aligncenter size-full wp-image-12896" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-57.jpg" alt="" width="1000" height="500" />][9] [<img class="aligncenter size-full wp-image-12895" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-58.jpg" alt="" width="1000" height="500" />][10]
+[<img class="aligncenter size-full wp-image-12896" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-57.jpg" alt="" width="1000" height="650" />][9] [<img class="aligncenter size-full wp-image-12895" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-58.jpg" alt="" width="1000" height="650" />][10]
 
 ### Programowanie układu
 
 Bardzo dobrym pomysłem projektantów było zostawienie pinów do programowania układu ESP8266 co bardzo mocno ułatwia zmianę oprogramowania. Do tego będzie potrzebny układ USB UART FTDI 232RL
 
-[<img class="aligncenter size-full wp-image-12894" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-59.jpg" alt="" width="1000" height="500" />][11]
+[<img class="aligncenter size-full wp-image-12894" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-59.jpg" alt="" width="1000" height="650" />][11]
 
 Do programowania można użyć gotowych paczek EASYESP pod Nettemp, lub samemu skompilować i wgrać je z arduino ale nie współpracują one z Nettemp.
 
@@ -70,7 +70,7 @@ Gotowe paczki dla nettemp i instrukcja znajduje się na stronie [wiki][13] prowa
 
 Szkoda, że nie wszystkie wolne GPIO układu ESP zostały wyprowadzone na płytkę. Ja od początku miałem zamiar podłączyć wyświetlacz OLED ale niestety do tego brakuje GPIO. Jeśli chce zachować wszystkie dotychczasowe funkcjonalności tj. guzik i dioda muszę dorobić sobie samemu wyjścia pod GPIO5 (SCL) pin 24 i GPIO4 (SDA) pin 16. Czyli musiałem dolutować przewody do pierwszego pinu od góry na prawej ścianie układu, a dla GPIO4 do ostatniego pinu od lewej strony na dolnej ścianie. Bez cieniutkiego grotu się nie obejdzie ja zakupiłem na allegrosie u użytkownika hotair grot 0.2mm 900M T-I. Następnie te przewody wyprowadziłem na goldpiny przylutowane do wolnych nie używanych otworów. Takim sposobem mam wyprowadzoną szynę I2C. Jak ktoś się przyjrzał rozpisce wolnych GPIO to zauważy, że GPIO 14 jest wolne. Teraz mam możliwość podłączenia np. czujnika temperatury DS18b20 pod GPIO 14 lub podłączania innych czujników pod szynę I2C. Po prawidłowym przylutowaniu przewodów do procesora powinno pojawić się na nich 3.3V jeśli nie ma trzeba lutować dalej :) Po poprawnym połączeniu nowych przewodów lekko zalałem je klejem &#8222;kropelką&#8221; tak aby zaraz mi nie odpadły.
 
-[<img class="aligncenter size-full wp-image-12893" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-60.jpg" alt="" width="1000" height="500" />][15] [<img class="aligncenter size-full wp-image-12892" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-61.jpg" alt="" width="1000" height="500" />][16] [<img class="aligncenter size-full wp-image-12891" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-62.jpg" alt="" width="1000" height="500" />][17]
+[<img class="aligncenter size-full wp-image-12893" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-60.jpg" alt="" width="1000" height="650" />][15] [<img class="aligncenter size-full wp-image-12892" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-61.jpg" alt="" width="1000" height="650" />][16] [<img class="aligncenter size-full wp-image-12891" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-62.jpg" alt="" width="1000" height="650" />][17]
 
 ### EasyESP
 
@@ -82,7 +82,7 @@ Poniżej screeny z konfiguracji EasyESP. Dodatkowa opcją jaka została włączo
 
 Wyświetlacz jaki podłączyłem do SONOFF to OLED SSD1306 na I2C. Wywierciłem i przeszlifowałem dodatkowo w obudowie otwory aby przeszły przewody pod wyświetlacz.
 
-[<img class="aligncenter size-full wp-image-12934" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-2250.jpg" alt="" width="1000" height="500" />][28] [<img class="aligncenter size-full wp-image-12935" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-2251.jpg" alt="" width="1000" height="500" />][29] [<img class="aligncenter size-full wp-image-12936" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-2252.jpg" alt="" width="1000" height="500" />][30]
+[<img class="aligncenter size-full wp-image-12934" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-2250.jpg" alt="" width="1000" height="650" />][28] [<img class="aligncenter size-full wp-image-12935" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-2251.jpg" alt="" width="1000" height="650" />][29] [<img class="aligncenter size-full wp-image-12936" src="//techfreak.pl/wp-content/uploads/2017/05/techfreak-sonoff-esp8266-arduino-nettemo-relay-sterowanie-przekaznikiem-2252.jpg" alt="" width="1000" height="650" />][30]
 
 ### Filmik z działania
 

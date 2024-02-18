@@ -24,13 +24,13 @@ Podobno tej jednej funkcji brakuje w Raspberry Pi najbardziej, podtrzymania czas
 
 Na początek trzeba zakupić moduł RTC, ja zakupiłem go na banggood.com
 
-<a href="http://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/techfreak_raspberry_pi_rtc_ds1307_2_1/" rel="attachment wp-att-8324"><img class="aligncenter size-full wp-image-8324" src="http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_2_1.jpg" alt="techfreak_raspberry_pi_rtc_ds1307_2_1" width="1000" height="500" /></a> <a href="http://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/techfreak_raspberry_pi_rtc_ds1307_1_1/" rel="attachment wp-att-8325"><img class="aligncenter size-full wp-image-8325" src="http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_1_1.jpg" alt="techfreak_raspberry_pi_rtc_ds1307_1_1" width="1000" height="500" /></a>
+<a href="http://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/techfreak_raspberry_pi_rtc_ds1307_2_1/" rel="attachment wp-att-8324"><img class="aligncenter size-full wp-image-8324" src="http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_2_1.jpg" alt="techfreak_raspberry_pi_rtc_ds1307_2_1" width="1000" height="650" /></a> <a href="http://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/techfreak_raspberry_pi_rtc_ds1307_1_1/" rel="attachment wp-att-8325"><img class="aligncenter size-full wp-image-8325" src="http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_1_1.jpg" alt="techfreak_raspberry_pi_rtc_ds1307_1_1" width="1000" height="650" /></a>
 
 ### Połączenie
 
 Połączenie jest bardzo proste bo łączę moduł do szyny i2c na Raspberry Pi. VCC do 5V, GND &#8211; GND, SDA &#8211; SDA, SDC &#8211; SDC.
 
-<a href="http://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/techfreak_raspberry_pi_rtc_ds1307_3_1/" rel="attachment wp-att-8323"><img class="aligncenter size-full wp-image-8323" src="http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_3_1.jpg" alt="techfreak_raspberry_pi_rtc_ds1307_3_1" width="1000" height="500" /></a>
+<a href="http://techfreak.pl/raspberry-pi-rtc-ds1307-nettemp/techfreak_raspberry_pi_rtc_ds1307_3_1/" rel="attachment wp-att-8323"><img class="aligncenter size-full wp-image-8323" src="http://techfreak.pl/wp-content/uploads/2014/12/techfreak_raspberry_pi_rtc_ds1307_3_1.jpg" alt="techfreak_raspberry_pi_rtc_ds1307_3_1" width="1000" height="650" /></a>
 
 ### Uruchomienie
 
