@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Przemek</copyright>
-    <lastBuildDate>Sun, 14 Jan 2024 19:29:06 +0000</lastBuildDate><atom:link href="https://techfreak.pl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Feb 2024 19:29:06 +0000</lastBuildDate><atom:link href="https://techfreak.pl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nettemp z webhook do SONOFF</title>
+      <link>https://techfreak.pl/nettemp-webhook-sonoff/</link>
+      <pubDate>Sun, 18 Feb 2024 19:29:06 +0000</pubDate>
+      
+      <guid>https://techfreak.pl/nettemp-webhook-sonoff/</guid>
+      <description>&lt;h1 id=&#34;actions&#34;&gt;actions&lt;/h1&gt;
+&lt;p&gt;W najnowszej wersji Nettemp pojawiła się nowa funkcja &amp;ldquo;actions&amp;rdquo;, która dodaje akcje do podstawowego alarmu bazującego na wartościach Min/Max. Kolejnym tematem jest możliwość wykorzystania webhooks w Nettemp do sterowania urządzeniami SONOFF z oryginalnym oprogramowaniem eWeLink.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Aktualizacja nettemp do wersji 7</title>
       <link>https://techfreak.pl/aktualizacja-nettemp-do-wersji-7/</link>

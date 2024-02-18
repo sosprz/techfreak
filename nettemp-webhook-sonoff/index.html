@@ -128,32 +128,32 @@ if (!doNotTrack) {
 
     <h1 id="actions">actions</h1>
 <p>W najnowszej wersji Nettemp pojawiła się nowa funkcja &ldquo;actions&rdquo;, która dodaje akcje do podstawowego alarmu bazującego na wartościach Min/Max. Kolejnym tematem jest możliwość wykorzystania webhooks w Nettemp do sterowania urządzeniami SONOFF z oryginalnym oprogramowaniem eWeLink.</p>
-<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_actions.png" alt="nettemp actions"></p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2024/02/nettemp_new_function_actions.png" alt="nettemp actions"></p>
 <p>W Nettemp pojawiła się funkcja &ldquo;actions&rdquo;, która odpowiada za wykonanie akcji w momencie, gdy czujnik wyjdzie poza min lub max ustalony w ustawieniach. Akcje, na ten moment jakie są do wykonania, są wylistowane w sekcji &ldquo;Method&rdquo;. Ważną zmianą jest to, że powiadomienia mailowe również znalazły się w tym miejscu. Co daje ta funkcja? Przede wszystkim dużą możliwość kiedy i jak ma zostać wysłane powiadomienie poprzez mail, webhook i jakie to maja być zdażenia czy min,max, brak danych (nodata), czy recovery. Można również wysłać POST do innego systemu poprzez custom POST. Powoduje to, że mamy mozliwość sterowania innymi urządzeniami. W custom post jest możliwe zdefiniowanie swojego JSON oraz headers.</p>
-<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_alarm.png" alt="nettemp alarm"></p>
-<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_alarm_table.png" alt="nettemp alarm table"></p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2024/02/nettemp_new_function_alarm.png" alt="nettemp alarm"></p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2024/02/nettemp_new_function_alarm_table.png" alt="nettemp alarm table"></p>
 <h1 id="webhook-powiadmienia">webhook, powiadmienia</h1>
 <h2 id="discord">discord</h2>
 <p>Wchodząc w szczegóły, powiadomienia teraz mogą być realizowane poprzez różne systemy. Możemy dostarczać powiadomienia na Discordzie, który obsługuje webhook. Na serwerze Nettemp na <a href="https://discord.com/invite/S4egxNvQHM">https://discord.com/invite/S4egxNvQHM</a> istnieje możliwość wystawienia prywatnego kanału dla użytkowników, którym będą przychodziły powiadomienia z Nettemp na telefon.</p>
-<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_action_webhook_discord.png" alt="nettemp discord"></p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2024/02/nettemp_new_function_action_webhook_discord.png" alt="nettemp discord"></p>
 <h2 id="pushover">pushover</h2>
 <p>Kolejną integracją do wyboru jako powiadomienie jest <a href="https://pushover.net/">https://pushover.net/</a>, czyli serwis, który wysyła powiadomienia do aplikacji na Android lub iOS. Kosztuje tylko 10$ jednorazowo.</p>
-<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_action_webhook_pushover.png" alt="nettemp pushover"></p>
-<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_action_webhook_pushover2.png" alt="nettemp pushover IOS"></p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2024/02/nettemp_new_function_action_webhook_pushover.png" alt="nettemp pushover"></p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2024/02/nettemp_new_function_action_webhook_pushover2.png" alt="nettemp pushover IOS"></p>
 <h2 id="make">make</h2>
 <p>Integracja z make.com wymaga ustawienia webhooka w make, a następnie wysłania żądania POST z Nettemp. Dzięki temu możliwy jest odbiór danych w make i ich integracja z setkami różnych aplikacji. Zrzut ekranu prezentuje dane przekazane z Nettemp. W dalszym kroku istnieje możliwość selekcji danych do dalszego przetwarzania.</p>
-<p><img src="../../static/wp-content/uploads/2024/02/nettemp_new_function_action_webhook_make-com.png" alt="nettemp make.com"></p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2024/02/nettemp_new_function_action_webhook_make-com.png" alt="nettemp make.com"></p>
 <h1 id="sonoff">sonoff</h1>
 <p>Od dłuższego czasu używam urządzeń Sonoff w połączeniu z czujnikami DS18b20 i DHT22 do regulacji temperatury w domu i nie chciałem rezygnować z funkcji oraz aplikacji od eWeLink. Jednakże, zauważyłem, że w niektórych scenariuszach samodzielne sterowanie temperaturą przez Sonoff nie jest wystarczająco efektywne. Znalazłem rozwiązanie, które umożliwia dodatkowe sterowanie Sonoff z Nettemp bez konieczności modyfikacji firmware&rsquo;u. Możliwość ta dostępna jest dzięki wykorzystaniu webhooków dla scen, dostępnych na stronie <a href="https://web.ewelink.cc/">https://web.ewelink.cc/</a>, przy czym funkcje pro są płatne - 10$ rocznie.</p>
 <p>Dlaczego to rozwiązanie okazuje się dla mnie korzystne? Sonoff dysponuje jedynie pojedynczym czujnikiem, podczas gdy w moim domu zainstalowałem cztery czujniki – po jednym w każdym pokoju. Niezależnie od tego, czy są one podłączone kablem, czy działają za pośrednictwem Wi-Fi, Nettemp dokonuje odczytu danych z każdego z nich. Dzięki informacjom z różnych lokacji, jestem w stanie z większą precyzją ustalić progi temperatury, które determinują wyłączanie się lub włączanie urządzenia Sonoff. W tym celu wykorzystuję połączenie do webhooka z Nettemp, korzystając z metody GET.</p>
-<p><img src="../../static/wp-content/uploads/2024/02/nettemp_add_scene_webhook1.png" alt="ewelink nettemp">
-<img src="../../static/wp-content/uploads/2024/02/nettemp_add_scene_webhook2.png" alt="ewelink nettemp">
-<img src="../../static/wp-content/uploads/2024/02/nettemp_add_scene_webhook_all.png" alt="ewelink nettemp"></p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2024/02/nettemp_add_scene_webhook1.png" alt="ewelink nettemp">
+<img src="https://techfreak.pl/wp-content/uploads/2024/02/nettemp_add_scene_webhook2.png" alt="ewelink nettemp">
+<img src="https://techfreak.pl/wp-content/uploads/2024/02/nettemp_add_scene_webhook_all.png" alt="ewelink nettemp"></p>
 <h2 id="co-dalej">co dalej?</h2>
-<p>To na tyle nowości. Planuje w najbliższych wydaniach dodać funkcje takie jak:</p>
+<p>Planuje w najbliższych wydaniach dodać funkcje takie jak:</p>
 <ul>
-<li>odczyt temperatury, wilgotności z SONOFF bez ingerencji w firmware i zmiany na DIY mode.</li>
-<li>odczyt danych z urządzeń xiaomi.</li>
+<li>odczyt temperatury, wilgotności z SONOFF bez ingerencji w firmware i zmiany na DIY mode. Jest to możliwe za pomocą integracji z API Ewelink.</li>
+<li>odczyt danych z urządzeń xiaomi, API.</li>
 </ul>
 </div>
 
