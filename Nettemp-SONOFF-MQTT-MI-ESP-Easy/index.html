@@ -126,23 +126,23 @@ if (!doNotTrack) {
 
     <p>Najnowsza aktualizacja Nettemp przynosi parę funkcji i poprawek.</p>
 <p>W najnowszej wersji Nettemp integruje się z technologiami używanymi przez społeczność IoT, na przykład odbieranie danych z ESP Easy poprzez MQTT lub za pomocą Generic HTTP, czyli odbieranie danych przez GET. Jeśli chodzi o MQTT, Nettemp posiada funkcję subskrybenta. Odbiera dane od brokera, jeśli interesujący temat zawiera dane, które zna, zapisuje je do bazy. Testy i integracja przeprowadzone zostały za pomocą danych z ESP Easy oraz danych wysyłanych z Home Assistant, w tym konkretnie z demona ebusd oraz z Nettemp_client, który również wysyła dane po MQTT, jeśli tak jest ustawione.</p>
-<p><img src="https://techfreak.pl/static/wp-content/uploads/2024/03/20240318-nettemp-mqtt.png" alt="alt text">
-<img src="https://techfreak.pl/static/wp-content/uploads/2024/03/20240318-nettemp-ESP.png" alt="alt text"></p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2024/03/20240318-nettemp-mqtt.png" alt="alt text">
+<img src="https://techfreak.pl/wp-content/uploads/2024/03/20240318-nettemp-ESP.png" alt="alt text"></p>
 <h1 id="sql-alchemy">SQL Alchemy</h1>
 <p>Kolejną nowością jest zmiana sposobu interakcji z bazą danych na SQL Alchemy, co umożliwia wybór bazy danych, której chcemy używać, bez konieczności przepisywania kodu. Testy odbywały się na SQLite3 oraz MariaDB. Dodatkowo, Gunicorn używa teraz nowego workera, co pozwala na lepszą obsługę wielowątkowości.</p>
 <h1 id="sonoff">Sonoff</h1>
 <p>Zrealizowano integrację z Ewelink, czyli urządzeniami takimi jak włączniki lub przekaźniki WiFi Sonoff. Na tym etapie wykonano odczyt danych z czujników temperatury i wilgotności, jeśli urządzenie takie posiada, oraz możliwość sterowania - włącz/wyłącz.</p>
-<p><img src="https://techfreak.pl/static/wp-content/uploads/2024/03/20240318-nettemp-sonoff-ewelink.png" alt="alt text"></p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2024/03/20240318-nettemp-sonoff-ewelink.png" alt="alt text"></p>
 <h1 id="mi">Mi</h1>
 <p>Integracja z ekosystemem Mi obejmuje odczyt urządzeń i czujników. Na razie odczytuję listę posiadanych urządzeń na koncie Xiaomi oraz dane z Mi Air Purifier 3/3H, np. temperaturę, wilgotność lub stopień zanieczyszczenia powietrza. Tu niestety nie jest ławo zintegrować wszystko urządzenia za jednymrazem bez testów. Jeśli ktoś ma potrzebę niech daje znać można dodać urządzania po małych testach.</p>
-<p><img src="https://techfreak.pl/static/wp-content/uploads/2024/03/20240318-nettemp-mi.png" alt="alt text"></p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2024/03/20240318-nettemp-mi.png" alt="alt text"></p>
 <h1 id="mobile">Mobile</h1>
 <p>Poprawiono stronę mobilną. Całość aplikacji została dostosowana pod kątem lepszego wyświetlania na urządzeniach mobilnych. Skrót do strony na telefonie działa teraz jak aplikacja mobilna.</p>
 <h1 id="nettemp_client">nettemp_client</h1>
 <p>nettemp_client umożliwia odczyt urządzeń USB, I2C, pingowanie URL, Host. Nettemp_client oferuje duże możliwości łatwej rozbudowy o nowe moduły i prostego wysyłania danych do Nettemp. Ostatnio dodano funkcję pingowania URL i hosta, co pozwala na monitorowanie urządzeń sieciowych. Klient jest łatwo konfigurowalny z poziomu interfejsu Nettemp.</p>
 <h1 id="wykresy">Wykresy</h1>
 <p>Powróciła możliwość grupowania danych na wykresach, co oznacza, że użytkownik może grupować i wyświetlać dane w słupkach. Dodatkowa funkcja matematyczna pozwala na dokonywanie obliczeń przez użytkownika, tak aby wykresy pokazywały na przykład dane o zużyciu gazu, wody itd., np. w jednostkach PLN, kWh lub innych.</p>
-<p><img src="https://techfreak.pl/static/wp-content/uploads/2024/03/20240318-nettemp-ESP-charts.png" alt="alt text"></p>
+<p><img src="https://techfreak.pl/wp-content/uploads/2024/03/20240318-nettemp-ESP-charts.png" alt="alt text"></p>
 <h1 id="koniec">Koniec</h1>
 <p>Pewnie to nie wszystko z nowych lub poprawionych funkcji ale w razie problemów lub pytań zapraszam do komentowania lub na grupę <a href="https://discord.com/invite/S4egxNvQHM">https://discord.com/invite/S4egxNvQHM</a>.</p>
 <p>W razie potrzeby konfiguracji ESP Easy, dostępne są mini instrukcje:
